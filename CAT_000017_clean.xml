@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000017">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000017">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -81,14 +81,14 @@
          <list>
             <gap/>
             <item n="126" xml:id="CAT_000017_e126" corresp="#MS_000009">
-               <num>126</num>
-               <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de),</name>
+               <num type="lot">126</num>
+               <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
                <trait>
                   <p>l'illustre épistolière, n. 1626, m. 1696.</p>
                </trait>
-               <desc>L. a. s. à M. de Lamoignon, à Paris; aux Rochers, dimanche
+               <desc xml:id="CAT_000017_e126_d1">L. a. s. à M. de Lamoignon, à Paris; aux Rochers, dimanche
                   27 août, 3 p. in-4, cachet brisé.</desc>
-               <num value="1500" type="francs">162.50 Fr.</num>
+               <measure commodity="currency" unit="FRF" quantity="162.50">162.50 Fr.</measure>
                <note>Pièce précieuse et fort rare avec le signature. – Charmante épître où
                   elle lui explique les motifs de son silence et proteste de son inébranlable
                   amitié. Elle le félicite ensuite de la victoire que M. de Carcassonne

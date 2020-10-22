@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000009">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000009">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -79,19 +79,19 @@
          <list>
             <gap/>
             <item n="1113" xml:id="CAT_000009_e1113">
-               <num>1113</num>
+               <num type="lot">1113</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
                <trait>
                   <p>la célèbre épistolaire, n. 1636, m. 1696.</p>
                </trait>
-               <desc>L. a. à M. Duplessis; les Rochers, 30 août (1690), 3 p. 1/4 in-8. Légers raccomodages.</desc>
+               <desc xml:id="CAT_000009_e1113_d1">L. a. à M. Duplessis; les Rochers, 30 août (1690), 3 p. 1/4 in-8. Légers raccomodages.</desc>
                <note>BELLE LETTRE où elle parle du gain du procès de M. de Grignan contre
                M. d'Aiguebonne et de la bataille de Fleurus.</note>
             </item>
             <item n="1114" xml:id="CAT_000009_e1114" corresp="#MS_000008">
-               <num>1114</num>
+               <num type="lot">1114</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
-               <desc>L. a. à M. Duplessis; les Rochers, dimanche 20 août, 4 p. in-4.</desc>
+               <desc xml:id="CAT_000009_e1114_d1">L. a. à M. Duplessis; les Rochers, dimanche 20 août, 4 p. in-4.</desc>
                <note>Jolie lettre dans laquelle elle le console. «… Vous ne saurez croire,
                   mon cher Monsieur, combien je suis touchée des sujets de chagrin qui
                   ont noirci votre joie naturelle… Je suis toujours persuadée que quand
@@ -103,9 +103,9 @@
                   Chevalier de Pomponne…»</note>
             </item>
             <item n="1115" xml:id="CAT_000007_e1115">
-               <num>1115</num>
+               <num type="lot">1115</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
-               <desc>L. a. à M. Du Plessis; Grignan, 19 janvier 1691, 3 p. 1/2 in-8.</desc>
+               <desc xml:id="CAT_000009_e1115_d1">L. a. à M. Du Plessis; Grignan, 19 janvier 1691, 3 p. 1/2 in-8.</desc>
                <note>Jolie lettre. «Il a plu à Dieu que j'eusse des plumes taillées de votre
                   main… jamais on a si bien fait de la prose… nous y avons trouvé même
                   de la poésie, en vous remerciant donc Monsieur plus de mille fois, je serais

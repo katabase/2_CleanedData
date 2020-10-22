@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000005">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000005">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -20,9 +20,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Catalogue de lettres autographes, manuscrits, documents historiques, etc. de
-                  A. Laverdet</title>
-               <num>3</num>
+               <title>Catalogue de lettres autographes, manuscrits, documents historiques, etc. de A. Laverdet</title>
+               <num type="lot">3</num>
                <editor>Auguste Laverdet</editor>
                <publisher>Auguste Laverdet</publisher>
                <pubPlace>Paris, 24 rue Saint-Lazare</pubPlace>
@@ -60,290 +59,335 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
+            for desc</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <gap/>
          <list>
             <item n="145" xml:id="CAT_000005_e145">
-               <num>145</num>
-               <name type="author">Adet (P.-A.</name>
+               <num type="lot">145</num>
+               <name type="author">Adet (P.-A).</name>
                <trait>
                   <p>physicien et chimiste. Sénateur, député. Né à Nevers</p>
                </trait>
-               <desc>L. aut. sig., au citoyen Payen. 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000005_e145_d1">L. aut. sig., au citoyen Payen. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="146" xml:id="CAT_000005_e146">
-               <num>146</num>
-               <name> André (Frère) de St-Nicolas</name>
+               <num type="lot">146</num>
+               <name type="author"> André (Frère) de St-Nicolas</name>
                <trait>
                   <p>religieux Carme, versé dans l'histoire et les antiquités. Né en 1650. Mort à
                      Besançon en 1713.</p>
                </trait>
-               <desc>L. aut. sig., à M. de Serte, gentilhomme de S. A. Mgr le cardinal de Bouillon,
-                  à Tournus. Besançon, 15 février 1704. 2 p. pet. in-4. Cachet. 5</desc>
+               <desc xml:id="CAT_000005_e146_d1">L. aut. sig., à M. de Serte, gentilhomme de S. A.
+                  Mgr le cardinal de Bouillon, à Tournus. Besançon, 15 février 1704. 2 p. pet. in-4.
+                  Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="147" xml:id="CAT_000005_e147">
-               <num>147</num>
+               <num type="lot">147</num>
                <name type="author">Andrieux</name>
                <trait>
                   <p>auteur dramatique. Né à Strasbourg</p>
                </trait>
-               <desc>L. aut. sig., à M. Morlin. 7 juillet 1813. 1 p. pl. in-4. 3 50 Critique de son
-                  opéra sacré d'Ismaïl, qu'il lui a confié.</desc>
+               <desc xml:id="CAT_000005_e147_d1">L. aut. sig., à M. Morlin. 7 juillet 1813. 1 p. pl.
+                  in-4. 3 50 Critique de son opéra sacré d'Ismaïl, qu'il lui a confié.</desc>
             </item>
             <item n="148" xml:id="CAT_000005_e148">
-               <num>148</num>
-               <name>Armentières</name>
+               <num type="lot">148</num>
+               <name type="author">Armentières</name>
                <trait>
                   <p>maréchal de France.</p>
                </trait>
-               <desc>L. aut. sig. Bourbonne, 20 sept. 1773. 2 p. et demie in-4. 4</desc>
+               <desc xml:id="CAT_000005_e148_d1">L. aut. sig. Bourbonne, 20 sept. 1773. 2 p. et
+                  demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="149" xml:id="CAT_000005_e149">
-               <num>149</num>
+               <num type="lot">149</num>
                <name type="author">Assemblée nationale de 1789</name>
-               <desc>Extrait du procès-verbal de la séance du 22 juin 1791. L'assemblée nationale a
-                  décrété qu'il sera donné des ordres sur-le-champ, soit à la poste, soit aux
-                  barrières, pour que personne ne sorte de la ville sans une permission par écrit,
-                  etc. Signé Dauchy, Grenot, Merle et Pintcville-Cer-non. 1 p. in-8. Cachet.
-                  6</desc>
+               <desc xml:id="CAT_000005_e149_d1">Extrait du procès-verbal de la séance du 22 juin
+                  1791. L'assemblée nationale a décrété qu'il sera donné des ordres sur-le-champ,
+                  soit à la poste, soit aux barrières, pour que personne ne sorte de la ville sans
+                  une permission par écrit, etc. Signé Dauchy, Grenot, Merle et Pinteville-Cernon. 1
+                  p. in-8. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6"> 6</measure>
             </item>
             <item n="150" xml:id="CAT_000005_e150">
-               <num>150</num>
+               <num type="lot">150</num>
                <name type="author">Ateliers publics de Chaillot</name>
-               <desc>L. sig. des représentants de la commune et du comité des), sig. Menessier,
-                  Cellérier, Lasseray, Duperraux, Trudon. Paris, 21 sept. 1789. 3 p. in-fol.
-                  4</desc>
+               <desc xml:id="CAT_000005_e150_d1">L. sig. des représentants de la commune et du comité
+                  des), sig. Menessier, Cellérier, Lasseray, Duperraux, Trudon. Paris, 21 sept.
+                  1789. 3 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4"> 4</measure>
             </item>
             <item n="151" xml:id="CAT_000005_e151">
-               <num>151</num>
-               <name type="author">Athenas (P.-L</name>
+               <num type="lot">151</num>
+               <name type="author">Athenas (P.-L)</name>
                <trait>
                   <p>directeur de la Monnaie de Nantes, antiquaire</p>
                </trait>
-               <desc>L. aut. sig. Nantes, 9 janvier 1819.1 p in-4. 2</desc>
+               <desc xml:id="CAT_000005_e151_d1">L. aut. sig. Nantes, 9 janvier 1819. 1 p
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="152" xml:id="CAT_000005_e152">
-               <num>152</num>
-               <name type="author">Angereau (le maréchal</name>
+               <num type="lot">152</num>
+               <name type="author">Angereau (le maréchal)</name>
                <trait>
                   <p>duc de Castiglione</p>
                </trait>
-               <desc>L. sig. Augereau, duc de Casliglione. Wurzbourg, le 5 Juillet. 1 p. et demie
-                  in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e152_d1">L. sig. Augereau, duc de Casliglione. Wurzbourg, le
+                  5 Juillet. 1 p. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="153" xml:id="CAT_000005_e153">
-               <num>153</num>
-               <name>Azaïs</name>
+               <num type="lot">153</num>
+               <name type="author">Azaïs</name>
                <trait>
-                  <p>philosophe, auteur du Système des compensations, etc. Né à Sorèse
-                     (Tarn)</p>
+                  <p>philosophe, auteur du Système des compensations, etc. Né à Sorèse (Tarn)</p>
                </trait>
-               <desc>L. a. s. Saint-Cyr, 24 mai 1808. 4 pl. in-4. 4</desc>
+               <desc xml:id="CAT_000005_e153_d1">L. a. s. Saint-Cyr, 24 mai 1808. 4 pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Belle lettre, toute relative à son Système universel</note>
             </item>
             <item n="154" xml:id="CAT_000005_e154">
-               <num>154</num>
-               <name type="author">Bailly (Jean-Sylvain</name>
+               <num type="lot">154</num>
+               <name type="author">Bailly (Jean-Sylvain)</name>
                <trait>
                   <p>astronome, maire de Paris</p>
                </trait>
-               <desc>L. sig., comme maire de Paris. Paris, 5 août 1791. 1 p. in-fol. 2.50</desc>
+               <desc xml:id="CAT_000005_e154_d1">L. sig., comme maire de Paris. Paris, 5 août 1791.
+                  1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="155" xml:id="CAT_000005_e155">
-               <num>155</num>
-               <name type="author">Barbier (l'abbé H.</name>
+               <num type="lot">155</num>
+               <name type="author">Barbier (l'abbé H).</name>
                <trait>
                   <p>auteur de la Biographie du clergé contemporain (par un solitaire</p>
                </trait>
-               <desc>L. aut. sig. Paris, 27 janvier 1842. 1 p. in-4.</desc>
+               <desc xml:id="CAT_000005_e155_d1">L. aut. sig. Paris, 27 janvier 1842. 1 p.
+                  in-4.</desc>
             </item>
             <item n="156" xml:id="CAT_000005_e156">
-               <num>156</num>
+               <num type="lot">156</num>
                <name type="author">Barras</name>
                <trait>
                   <p>conventionnel, membre du Directoire</p>
                </trait>
-               <desc>Né à Fox (Var). Apostille de 4 lignes a.s. 11 messidor an VII. 1 p. in-fol.
-                  2.50</desc>
+               <desc xml:id="CAT_000005_e156_d1">Né à Fox (Var). Apostille de 4 lignes a.s. 11
+                  messidor an VII. 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="157" xml:id="CAT_000005_e157">
-               <num>157</num>
-               <name>Baudon l'aîné</name>
+               <num type="lot">157</num>
+               <name type="author">Baudon l'aîné</name>
                <trait>
                   <p>antiquaire</p>
                </trait>
-               <desc>L. aut. sig. Nîmes, 21 octobre 1749. 3 p. pl. in-4 Curieuse. 2 50 </desc>
+               <desc xml:id="CAT_000005_e157_d1">L. aut. sig. Nîmes, 21 octobre 1749. 3 p. pl. in-4
+                  Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="158" xml:id="CAT_000005_e158">
-               <num>158</num>
-               <name>Baudon de Maison-Blanche</name>
+               <num type="lot">158</num>
+               <name type="author">Baudon de Maison-Blanche</name>
                <trait>
                   <p>antiquaire, membre de l'Académie des sciences</p>
                </trait>
-               <desc>Fin d'une lettre aut. sig., relative à la danse des anciens. 2 p. pl. in-4.
-                  3</desc>
+               <desc xml:id="CAT_000005_e158_d1">Fin d'une lettre aut. sig., relative à la danse des
+                  anciens. 2 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3"> 3</measure>
             </item>
             <item n="159" xml:id="CAT_000005_e159">
-               <num>159</num>
-               <name type="author">Baurein (l'abbé</name>
+               <num type="lot">159</num>
+               <name type="author">Baurein (l'abbé)</name>
                <trait>
                   <p>auteur des Annales de Bordeaux</p>
                </trait>
-               <desc>Pièce aut. sig. 1 p. pl. in-4. 4</desc>
+               <desc xml:id="CAT_000005_e159_d1">Pièce aut. sig. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="160" xml:id="CAT_000005_e160">
-               <num>160</num>
-               <name type="author">Bausset (le cardinal de</name>
+               <num type="lot">160</num>
+               <name type="author">Bausset (le cardinal de)</name>
                <trait>
                   <p>membre de l'Académie française</p>
                </trait>
-               <desc>L. aut. sig., au garde-des-sceaux. Lormois, 24 sept. 1812 1 p. in-4. 2 50
-                  5</desc>
+               <desc xml:id="CAT_000005_e160_d1">L. aut. sig., au garde-des-sceaux. Lormois, 24
+                  sept. 1812 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="161" xml:id="CAT_000005_e161">
-               <num>161</num>
-               <name>Beauvais</name>
-               <desc>Devis estimatif concernant la reconstruction entière d'une écurie propre à
-                  contenir 110 chevaux formant partie de la caserne du grand quartier de MM. les
-                  gardes du roi en la ville de Beauvais. Par Cellérier, premier architecte de la
-                  généralité de Paris. Approuvé à Paris par le ministre Berrier, le 4 octobre 1783.
-                  32 gr. p. in-fol., avec 3 grandes planches de vues et coupes, coloriées et sig.
-                  par Cellérier. 2</desc>
+               <num type="lot">161</num>
+               <name type="author">Beauvais</name>
+               <desc xml:id="CAT_000005_e161_d1">Devis estimatif concernant la reconstruction
+                  entière d'une écurie propre à contenir 110 chevaux formant partie de la caserne du
+                  grand quartier de MM. les gardes du roi en la ville de Beauvais. Par Cellérier,
+                  premier architecte de la généralité de Paris. Approuvé à Paris par le ministre
+                  Berrier, le 4 octobre 1783. 32 gr. p. in-fol., avec 3 grandes planches de vues et
+                  coupes, coloriées et sig. par Cellérier.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="162" xml:id="CAT_000005_e162">
-               <num>162</num>
-               <name type="author">Béguillet (Edme</name>
+               <num type="lot">162</num>
+               <name type="author">Béguillet (Edme)</name>
                <trait>
                   <p>agronome, avocat et notaire à Dijon, membre correspondant de l'Académie des
                      sciences</p>
                </trait>
-               <desc>1° L. aut. sig. Dijon, 26 déc. 1776. 2 p. in-4.-2° Catalogue de ses ouvrages
-                  imprimés et manuscrits, 3 p. pl. in-4.-3° Mémoire au sujet de l'impression de ses
-                  ouvrages. 3 gr. p. pl. in-fol.-4° Pièce sig. du comte d'Ailly. 1 p. in-4.
-                  6</desc>
+               <desc xml:id="CAT_000005_e162_d1">1° L. aut. sig. Dijon, 26 déc. 1776. 2 p.
+                  in-4.</desc>
+               <desc xml:id="CAT_000005_e162_d2">2° Catalogue de ses ouvrages imprimés et
+                  manuscrits, 3 p. pl. in-4.</desc>
+               <desc xml:id="CAT_000005_e162_d3">3° Mémoire au sujet de l'impression de ses
+                  ouvrages. 3 gr. p. pl. in-fol.</desc>
+               <desc xml:id="CAT_000005_e162_d4">4° Pièce sig. du comte d'Ailly. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6"> 6</measure>
             </item>
             <item n="163" xml:id="CAT_000005_e163">
-               <num>163</num>
+               <num type="lot">163</num>
                <name type="author">Belzunce de Castel-Moron</name>
                <trait>
                   <p>évêque de Marseille, célèbre par son dévouement pendant la peste de
                      Marseille</p>
                </trait>
-               <desc>L. aut. sig., à M. l'évéque de Gap. Aubagne, 25 octobre 1718 2 p. in-4.
-                  Déchirure en haut delà marge extérieure. 6</desc>
+               <desc xml:id="CAT_000005_e163_d1">L. aut. sig., à M. l'évéque de Gap. Aubagne, 25
+                  octobre 1718 2 p. in-4. Déchirure en haut delà marge extérieure.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Lettre intéressante sur les querelles religieuses du temps</note>
             </item>
             <item n="164" xml:id="CAT_000005_e164">
-               <num>164</num>
-               <name type="author">Berger (Claude</name>
+               <num type="lot">164</num>
+               <name type="author">Berger (Claude)</name>
                <trait>
                   <p>doyen de la Faculté de médecine de Paris, succéda à Fagon, en 1769, dans la
                      place de professeur de chimie au Collège de France</p>
                </trait>
-               <desc>Quitt. sig. (sur parch) 19 déc. 1693. 2.50</desc>
+               <desc xml:id="CAT_000005_e164_d1">Quitt. sig. (sur parch.) 19 déc. 1693.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="165" xml:id="CAT_000005_e165">
-               <num>165</num>
-               <name type="author">Bergier (l'abbé Nicolas-Sylvestre</name>
+               <num type="lot">165</num>
+               <name type="author">Bergier (l'abbé Nicolas-Sylvestre)</name>
                <trait>
                   <p>confesseur du roi, auteur du Dictionnaire de théologie de l'encyclopédie
                      méthodique, etc</p>
                </trait>
-               <desc>L. aut. sig., à Bernardin de Saint-Pierre. Versailles, 2 mars 1778. 1 p. pl.
-                  in-4. Cachet. 6 </desc>
+               <desc xml:id="CAT_000005_e165_d1">L. aut. sig., à Bernardin de Saint-Pierre.
+                  Versailles, 2 mars 1778. 1 p. pl. in-4. Cachet. 6</desc>
             </item>
             <item n="166" xml:id="CAT_000005_e166">
-               <num>166</num>
-               <name>Berthereau (Jean-François</name>
+               <num type="lot">166</num>
+               <name type="author">Berthereau (Jean-François)</name>
                <trait>
                   <p>bénédictin, travailla à la collection des Historiens de France, etc.</p>
                </trait>
-               <desc>L. aut. sig., à l'abbé Mercier de St-Léger, 1771. 2 p. in-4. 4.50</desc>
+               <desc xml:id="CAT_000005_e166_d1">L. aut. sig., à l'abbé Mercier de St-Léger, 1771. 2
+                  p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
             </item>
             <item n="167" xml:id="CAT_000005_e167">
-               <num>167</num>
-               <name>Berthier (le maréchal Alexandre</name>
+               <num type="lot">167</num>
+               <name type="author">Berthier (le maréchal Alexandre)</name>
                <trait>
                   <p>prince de Wagram. Né à Versailles.</p>
                </trait>
-               <desc>Ordre aut. sig. Alexandre. Paris, 19 juillet 1810. 2 p. in-8. Cachet. 2
-                  25</desc>
+               <desc xml:id="CAT_000005_e167_d1">Ordre aut. sig. Alexandre. Paris, 19 juillet 1810.
+                  2 p. in-8. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
             </item>
             <item n="168" xml:id="CAT_000005_e168">
-               <num>168</num>
-               <name type="author">Berthollet (le comte</name>
+               <num type="lot">168</num>
+               <name type="author">Berthollet (le comte)</name>
                <trait>
                   <p>médecin, chimiste, sénateur, membre de l'Institut</p>
                </trait>
-               <desc>L. aut. sig. 1 gr. p. in-fol. 3</desc>
+               <desc xml:id="CAT_000005_e168_d1">L. aut. sig. 1 gr. p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="169" xml:id="CAT_000005_e169">
-               <num>169</num>
+               <num type="lot">169</num>
                <name type="author">Bertrand</name>
                <trait>
                   <p>procureur syndic du district de Compiègne</p>
                </trait>
-               <desc>L. a. s. Compiègne, 25 déc. 1792. 1 p. in-4. Cachet du district. 4</desc>
-               <note>Demande de
-                  médailles et rubans pour les administrateurs du district. Curieuse pièce.</note>
+               <desc xml:id="CAT_000005_e169_d1">L. a. s. Compiègne, 25 déc. 1792. 1 p. in-4. Cachet
+                  du district.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Demande de médailles et rubans pour les administrateurs du district. Curieuse
+                  pièce.</note>
             </item>
             <item n="170" xml:id="CAT_000005_e170">
-               <num>170</num>
-               <name>Beurnonville</name>
+               <num type="lot">170</num>
+               <name type="author">Beurnonville</name>
                <trait>
                   <p>maréchal de France. Né à Champignole (Côle-d'Or)</p>
                </trait>
-               <desc>L. a. s. Paris, 25 octobre 1810. 3 p. pl. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e170_d1">L. a. s. Paris, 25 octobre 1810. 3 p. pl
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="171" xml:id="CAT_000005_e171">
-               <num>171</num>
-               <name type="author">Bigot de Morogues (P.-M.-Sébastien</name>
+               <num type="lot">171</num>
+               <name type="author">Bigot de Morogues (P.-M.-Sébastien)</name>
                <trait>
                   <p>minéralogiste, membre de l'Académie des sciences. Né à Orléans</p>
                </trait>
-               <desc>L. aut. sig., à M. de Roquefort. 19 juillet 1817. 3 p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e171_d1">L. aut. sig., à M. de Roquefort. 19 juillet 1817. 3
+                  p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="172" xml:id="CAT_000005_e172">
-               <num>172</num>
+               <num type="lot">172</num>
                <name type="author">Binet</name>
                <trait>
                   <p>professeur de belles-lettres au lycée Bonaparte</p>
                </trait>
-               <desc>Né près de Beauvais L. aut. sig., à M. Beaumont. Paris, 22 lévrier 1809. 2 p.
-                  in-4…2 50</desc>
+               <desc xml:id="CAT_000005_e172_d1">Né près de Beauvais L. aut. sig., à M. Beaumont.
+                  Paris, 22 lévrier 1809. 2 p. in-4…</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="173" xml:id="CAT_000005_e173">
-               <num>173</num>
+               <num type="lot">173</num>
                <name type="author">Biot</name>
                <trait>
                   <p>mathématicien, etc., membre de l'Académie française</p>
                </trait>
-               <desc>L. a. s., à M. Collin, graveur. Paris, 13 sept. 1823. 1 p. in-4. 2.25</desc>
+               <desc xml:id="CAT_000005_e173_d1">L. a. s., à M. Collin, graveur. Paris, 13 sept.
+                  1823. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
             </item>
             <item n="174" xml:id="CAT_000005_e174">
-               <num>174</num>
+               <num type="lot">174</num>
                <name type="author">Blondel</name>
                <trait>
-                  <p>diplomate, professeur de mathématiques et d'architecture. Né à Ribemont
-                     (Somme en 1617. Mort à Paris en 1686</p>
+                  <p>diplomate, professeur de mathématiques et d'architecture. Né à Ribemont (Somme
+                     en 1617. Mort à Paris en 1686</p>
                </trait>
-               <desc>L. aut. sig. (minute avec des corrections), à Colbert. 7 gr. p. pl. in-4.
-                  10</desc>
+               <desc xml:id="CAT_000005_e174_d1">L. aut. sig. (minute avec des corrections), à
+                  Colbert. 7 gr. p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10"> 10</measure>
                <note>Lettre intéressante sur les splendeurs du règne de Louis XIV; les mathématiques
                   et l'architecture y concourent pour une large part. Longs détails</note>
             </item>
             <item n="175" xml:id="CAT_000005_e175">
-               <num>175</num>
-               <name type="author">Boisset (Joseph</name>
+               <num type="lot">175</num>
+               <name type="author">Boisset (Joseph)</name>
                <trait>
                   <p>député de la Drôme à la Convention nationale. Né à Montélimart (Drôme</p>
                </trait>
-               <desc>L. aut. sig., comme représentant du peuple, à son collègue Couthon.
-                  Montélimart, le 25e jour du 1er mois de la 2e année de la République. 1 gr. p. pl.
-                  et demie in-fol.; en tête se trouve la réponse aut. sig. de Couthon (5 lignes); 19
-                  octobre an II. 12</desc>
+               <desc xml:id="CAT_000005_e175_d1">L. aut. sig., comme représentant du peuple, à son
+                  collègue Couthon. Montélimart, le 25e jour du 1er mois de la 2e année de la
+                  République. 1 gr. p. pl. et demie in-fol.; en tête se trouve la réponse aut. sig.
+                  de Couthon (5 lignes); 19 octobre an II.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Belle lettre. Demande d'armes en fusils, pistolets, canons... «Carteaux me
                   demande des guerriers, il ne m'en manque pas; mais « puis-je les envoyer sans
                   fusils? J'en avois demandé à Dubois-Crancé 12,000 et 12 pièces de canons. Les
@@ -351,84 +395,100 @@
                   aidez-les dans leur sublime projet, etc...</note>
             </item>
             <item n="176" xml:id="CAT_000005_e176">
-               <num>176</num>
+               <num type="lot">176</num>
                <name type="author">Bordier Marcet</name>
                <trait>
                   <p>ingénieur-lampiste, successeur d'Argant, Né à Genève</p>
                </trait>
-               <desc>L. a. s., au rédacteur de la Renommée. 1 p. in-4. 3.50</desc>
+               <desc xml:id="CAT_000005_e176_d1">L. a. s., au rédacteur de la Renommée. 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
                <note>Lettre intéressante sur ses expériences faites au pavillon de l'Horloge, au
                   Louvre, avec ses deux petits fanaux à double effet, qui lui ont dévoilé des effets
                   du miroir d'Archimède</note>
             </item>
             <item n="177" xml:id="CAT_000005_e177">
-               <num>177</num>
-               <name type="author">Bose (Louis-Auguste-Guillaume</name>
+               <num type="lot">177</num>
+               <name type="author">Bose (Louis-Auguste-Guillaume)</name>
                <trait>
                   <p>naturaliste, membre de l'Institut</p>
                </trait>
-               <desc>Il accompagna jusqu'à l'échafaud Mme Roland, dont plus tard il lit paraître les
-                  Mémoires. L. aut. sig., Paris, 12 déc. 1825. 2 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e177_d1">Il accompagna jusqu'à l'échafaud Mme Roland, dont
+                  plus tard il lit paraître les Mémoires. L. aut. sig., Paris, 12 déc. 1825. 2 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="178" xml:id="CAT_000005_e178">
-               <num>178</num>
+               <num type="lot">178</num>
                <name type="author">Bossu</name>
                <trait>
                   <p>voyageur. Né à Baigneux-les-Juifs (Côte-d'Or</p>
                </trait>
-               <desc>L. aut. sig., Paris, 13 avril 1776. Demi-page in-4. 2</desc>
+               <desc xml:id="CAT_000005_e178_d1">L. aut. sig., Paris, 13 avril 1776. Demi-page
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="179" xml:id="CAT_000005_e179">
-               <num>179</num>
+               <num type="lot">179</num>
                <name type="author">Boucher</name>
                <trait>
                   <p>botaniste, naturaliste. Abbeville, 1er janvier 1796</p>
                </trait>
-               <desc>4 p. pl. in-4. Toute scientifique. Intéressante. 2.50</desc>
+               <desc xml:id="CAT_000005_e179_d1">4 p. pl. in-4. Toute scientifique.
+                  Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="180" xml:id="CAT_000005_e180">
-               <num>180</num>
+               <num type="lot">180</num>
                <name type="author">Bourdon des Planches</name>
                <trait>
                   <p>auteur de l'Anti-Economiste, etc</p>
                </trait>
-               <desc>Paris. 14 mars 1788. 3 gr. p. pl. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e180_d1">Paris. 14 mars 1788. 3 gr. p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="181" xml:id="CAT_000005_e181">
-               <num>181</num>
-               <name type="author">Bouvard (Alexis</name>
+               <num type="lot">181</num>
+               <name type="author">Bouvard (Alexis)</name>
                <trait>
                   <p>astronome, membre de l'Institut</p>
                </trait>
-               <desc>L. aut. sig., Paris, 1er novembre 1815. 2 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e181_d1">L. aut. sig., Paris, 1er novembre 1815. 2 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="182" xml:id="CAT_000005_e182">
-               <num>182</num>
-               <name type="author">Brisson (Mathurin-Jacques</name>
+               <num type="lot">182</num>
+               <name type="author">Brisson (Mathurin-Jacques)</name>
                <trait>
                   <p>professeur de physique des Enfants de France, auteur du Dictionnaire de
                      Physique, 2 vol</p>
                </trait>
-               <desc>in-4. Membre de l'Académie des sciences. Né à Fontenay-le-Comte (Vendée). Pièce
-                  aut. sig. Paris, 2 thermidor an XII. 1 p. pl. in-4. Intéressante. 3</desc>
+               <desc xml:id="CAT_000005_e182_d1">in-4. Membre de l'Académie des sciences. Né à
+                  Fontenay-le-Comte (Vendée). Pièce aut. sig. Paris, 2 thermidor an XII. 1 p. pl.
+                  in-4. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="183" xml:id="CAT_000005_e183">
-               <num>183</num>
-               <name type="author">Brongniart (Alexandre-Théodore</name>
+               <num type="lot">183</num>
+               <name type="author">Brongniart (Alexandre-Théodore)</name>
                <trait>
                   <p>architecte de la ville de Paris</p>
                </trait>
-               <desc>L. aut. sig. 14 février 1810. 2 gr. p. pl. in-fol. 3.50</desc>
+               <desc xml:id="CAT_000005_e183_d1">L. aut. sig. 14 février 1810. 2 gr. p. pl.
+                  in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="184" xml:id="CAT_000005_e184">
-               <num>184</num>
-               <name type="author">Brongniart (Alexandre</name>
+               <num type="lot">184</num>
+               <name type="author">Brongniart (Alexandre)</name>
                <trait>
                   <p>directeur de la manufacture de porcelaine de Sèvres, membre de l'Académie des
                      Sciences</p>
                </trait>
-               <desc>L. a. s., à M. le baron d'Acher. Sèvres, 9 juillet 1829. 3 gr. p. in-4.
-                  6</desc>
+               <desc xml:id="CAT_000005_e184_d1">L. a. s., à M. le baron d'Acher. Sèvres, 9 juillet
+                  1829. 3 gr. p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6"> 6</measure>
                <note>Lettre intéressante au sujet des portraits et bustes des membres de la famille
                   royale, que Mgr le dauphin désire avoir. Le roi, M. le duc de Bordeaux,
                   Mademoiselle... « Il est presque impossible « d'avoir un bon buste de S. A. R.
@@ -437,398 +497,468 @@
                   ne « m'ayant paru satisfaisant.....</note>
             </item>
             <item n="185" xml:id="CAT_000005_e185">
-               <num>185</num>
+               <num type="lot">185</num>
                <name type="author">Brune (le maréchal). Né à Brives (Corrèze</name>
                <trait>
                   <p>assassiné en 1815</p>
                </trait>
-               <desc>L.aut. sig., Boulogne, 15 mai 1806. 1 p. in-12. 3</desc>
+               <desc xml:id="CAT_000005_e185_d1">L.aut. sig., Boulogne, 15 mai 1806. 1 p.
+                  in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="186" xml:id="CAT_000005_e186">
-               <num>186</num>
-               <name type="author">Buache (Jean-Nicolas</name>
+               <num type="lot">186</num>
+               <name type="author">Buache (Jean-Nicolas)</name>
                <trait>
                   <p>1er géographe du roi, membre de l'Académie des sciences. Né à
                      La-Neuville-au-Pont (Haute-Marne</p>
                </trait>
-               <desc>L. aut. sig. Paris, 20 juin 1791. 1 p. pl. in-4. 2.75</desc>
+               <desc xml:id="CAT_000005_e186_d1">L. aut. sig. Paris, 20 juin 1791. 1 p. pl.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.75">2 75</measure>
             </item>
             <item n="187" xml:id="CAT_000005_e187">
-               <num>187</num>
-               <name>Bulow</name>
-               <desc>ministre plénipotentiaire de la Russie au Congrès de Paris. L. a. s., Londres, 8
-                  novembre 1832. 1 p. pl. in-8. 4.50</desc>
+               <num type="lot">187</num>
+               <name type="author">Bulow</name>
+               <desc xml:id="CAT_000005_e187_d1">ministre plénipotentiaire de la Russie au Congrès
+                  de Paris. L. a. s., Londres, 8 novembre 1832. 1 p. pl. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
             </item>
             <item n="188" xml:id="CAT_000005_e188">
-               <num>188</num>
-               <name type="author">Bugeaud (le maréchal</name>
+               <num type="lot">188</num>
+               <name type="author">Bugeaud (le maréchal)</name>
                <trait>
                   <p>duc d'Isly. Né à Limoges</p>
                </trait>
-               <desc>L. aut. sig., Paris, 13 février 1815. 2 p. pl. in-4. Curieuse. 4</desc>
+               <desc xml:id="CAT_000005_e188_d1">L. aut. sig., Paris, 13 février 1815. 2 p. pl.
+                  in-4. Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="189" xml:id="CAT_000005_e189">
-               <num>189</num>
-               <name type="author">Bussy-Rabutin (le comte Roger de</name>
+               <num type="lot">189</num>
+               <name type="author">Bussy-Rabutin (le comte Roger de)</name>
                <trait>
                   <p>auteur de l'Histoire amoureuse des Gaules, etc</p>
                </trait>
-               <desc>L. aut. sig., au prince de Condé (Louis II, de Bourbon, dit le Grand). Chaseu,
-                  9 nov. 1668. 11 gr. p. pl. in-4. Superbe et précieuse lettre, parfaite
-                  conservation. 5.25</desc>
+               <desc xml:id="CAT_000005_e189_d1">L. aut. sig., au prince de Condé (Louis II, de
+                  Bourbon, dit le Grand). Chaseu, 9 nov. 1668. 11 gr. p. pl. in-4. Superbe et
+                  précieuse lettre, parfaite conservation.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5.25">5 25</measure>
                <note>Il se justifie envers lui d'un faux manuscrit qu'on avait fait courir sous son
                   nom. Le vrai qu'il a soumis au roi est tout différent de celui qu'on lui attribue.
                   Persécutions qu'on lui a fait subir à ce sujet. Longs et intéressants
                   détails</note>
             </item>
             <item n="190" xml:id="CAT_000005_e190">
-               <num>190</num>
-               <name type="author">Cadet (Louis-Charles</name>
+               <num type="lot">190</num>
+               <name type="author">Cadet (Louis-Charles)</name>
                <trait>
                   <p>chimiste, membre de l'Académie des sciences</p>
                </trait>
-               <desc>L. aut. sig., 31 mai 1785. 1 p. pl. in-4. 3.50</desc>
+               <desc xml:id="CAT_000005_e190_d1">L. aut. sig., 31 mai 1785. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="191" xml:id="CAT_000005_e191">
-               <num>191</num>
-               <name type="author">Cadet-de-Gassicourt (Charles-Louis</name>
+               <num type="lot">191</num>
+               <name type="author">Cadet-de-Gassicourt (Charles-Louis)</name>
                <trait>
                   <p>pharmacien de l'Empereur, poète, membre du Caveau Moderne</p>
                </trait>
-               <desc>L. aut. sig., à M. Barbier. Paris, 23 novembre 1813. 2 p. pl. in-4. 3.50</desc>
+               <desc xml:id="CAT_000005_e191_d1">L. aut. sig., à M. Barbier. Paris, 23 novembre
+                  1813. 2 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="192" xml:id="CAT_000005_e192">
-               <num>192</num>
-               <name type="author">Cadet-de-Vaux (Antoine-Alexis</name>
+               <num type="lot">192</num>
+               <name type="author">Cadet-de-Vaux (Antoine-Alexis)</name>
                <trait>
                   <p>agronome, économiste, membre de la Société d'agriculture, de l'Académie de
                      médecine</p>
                </trait>
-               <desc>L. aut. sig., Paris, 16 brumaire an VII. 1 p. pl. et demie in-4. Intéressante.
-                  3.50</desc>
+               <desc xml:id="CAT_000005_e192_d1">L. aut. sig., Paris, 16 brumaire an VII. 1 p. pl.
+                  et demie in-4. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="193" xml:id="CAT_000005_e193">
-               <num>193</num>
-               <name type="author">Cadet-de-Vaux (le même</name>
-               <desc>L. sig., à M. le duc d'Angoulême. Paris, 9 décembre 1822. 2 p. in-4. 5 » Son
-                  âme aura été déchirée en lisant dans le Constitutionnel du 5 la lettre de M.
-                  Cochin, maire du 12e arrondissement, faubourg Saint-Marceau… « 7000 ménages, ce
-                  qui constitue une population « de 28 à 30'000 individus, MANQUANT DE TOUT; arrêt
-                  inscrit dans la « lettre. Eh ! il y a ONZE autres municipalités. C'est le quart de
-                  la po« pulation de la capitale sans existence physique, nudité absolue, et «
-                  contre les rigueurs de la saison, la plus mince litière de paille. Pour</desc>
+               <num type="lot">193</num>
+               <name type="author">Cadet-de-Vaux (le même)</name>
+               <desc xml:id="CAT_000005_e193_d1">L. sig., à M. le duc d'Angoulême. Paris, 9 décembre
+                  1822. 2 p. in-4. 5 » Son âme aura été déchirée en lisant dans le Constitutionnel
+                  du 5 la lettre de M. Cochin, maire du 12e arrondissement, faubourg
+                  Saint-Marceau… « 7000 ménages, ce qui constitue une population « de 28 à 30'000
+                  individus, MANQUANT DE TOUT; arrêt inscrit dans la « lettre. Eh ! il y a ONZE
+                  autres municipalités. C'est le quart de la po« pulation de la capitale sans
+                  existence physique, nudité absolue, et « contre les rigueurs de la saison, la plus
+                  mince litière de paille. Pour</desc>
                <note>combattre, ou plutôt pour aiguiser la faim, UNE ONCE DE PAIN...</note>
             </item>
             <item n="194" xml:id="CAT_000005_e194">
-               <num>194</num>
-               <name type="author">Cadoudal (Sépulture de Georges</name>
-               <desc>L. aut. sig., du sieur Allard, concierge du cimetière Sainte-Catherine, qui
-                  atteste que les restes de Georges Cadoudal ont été inhumés, et sont encore dans le
-                  cimetière dont il est gardien. Paris, 29 juin 1814. 1p. in-4. Curieux document.
-                  6</desc>
+               <num type="lot">194</num>
+               <name type="author">Cadoudal (Sépulture de Georges)</name>
+               <desc xml:id="CAT_000005_e194_d1">L. aut. sig., du sieur Allard, concierge du
+                  cimetière Sainte-Catherine, qui atteste que les restes de Georges Cadoudal ont été
+                  inhumés, et sont encore dans le cimetière dont il est gardien. Paris, 29 juin
+                  1814. 1p. in-4. Curieux document.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6"> 6</measure>
             </item>
             <item n="195" xml:id="CAT_000005_e195">
-               <num>195</num>
-               <name type="author">Caillaud (Frédéric</name>
+               <num type="lot">195</num>
+               <name type="author">Caillaud (Frédéric)</name>
                <trait>
                   <p>voyageur dans la Haute-Egypte. Né à Nantes</p>
                </trait>
-               <desc>L. aut. sig., à M. Hardouin-Michelin. Nantes, 14 décembre 1828. 1 p. pl. in-4.
-                  3</desc>
+               <desc xml:id="CAT_000005_e195_d1">L. aut. sig., à M. Hardouin-Michelin. Nantes, 14
+                  décembre 1828. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3"> 3</measure>
             </item>
             <item n="196" xml:id="CAT_000005_e196">
-               <num>196</num>
-               <name type="author">Calmet (Dom Augustin</name>
+               <num type="lot">196</num>
+               <name type="author">Calmet (Dom Augustin)</name>
                <trait>
                   <p>abbé de Sénoncs</p>
                </trait>
-               <desc>L. aut. sig., à Titon Du Tillet. 8 août 1742. 3 p. in-4. Intéressante. 16
-                  50</desc>
+               <desc xml:id="CAT_000005_e196_d1">L. aut. sig., à Titon Du Tillet. 8 août 1742. 3 p.
+                  in-4. Intéressante. 16</desc>
+               <measure commodity="currency" unit="FRF" quantity="50"> 50</measure>
             </item>
             <item n="197" xml:id="CAT_000005_e197">
-               <num>197</num>
-               <name type="author">Cambronne (le général</name>
-               <desc>Né à Saint-Sébastien (Loire-lnférieurc). L. aut. sig., à M. Francheteau, à
-                  Nantes. 8 septembre 1819. 1 p. in-4. 3.50</desc>
+               <num type="lot">197</num>
+               <name type="author">Cambronne (le général)</name>
+               <desc xml:id="CAT_000005_e197_d1">Né à Saint-Sébastien (Loire-lnférieurc). L. aut.
+                  sig., à M. Francheteau, à Nantes. 8 septembre 1819. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="198" xml:id="CAT_000005_e198">
-               <num>198</num>
-               <name type="author">Carron (l'abbé Toussaint-Jullien</name>
+               <num type="lot">198</num>
+               <name type="author">Carron (l'abbé Toussaint-Jullien)</name>
                <trait>
                   <p>Né à Rennes</p>
                </trait>
-               <desc>L. aut. sig., au vicomte de Montmorency. Paris, 26 avril 1816. 1 p. in-1. 2
-                  50</desc>
+               <desc xml:id="CAT_000005_e198_d1">L. aut. sig., au vicomte de Montmorency. Paris, 26
+                  avril 1816. 1 p. in-1. 2</desc>
+               <measure commodity="currency" unit="FRF" quantity="50"> 50</measure>
             </item>
             <item n="199" xml:id="CAT_000005_e199">
-               <num>199</num>
-               <name type="author">Castelnau (Michel de</name>
+               <num type="lot">199</num>
+               <name type="author">Castelnau (Michel de)</name>
                <trait>
                   <p>seigneur de La Mauvissière, ambassadeur</p>
                </trait>
-               <desc>Né à L. a. Mauvissière, M…1592. Pièce notariée, 2 fois signée. 25 août 1586. 1
-                  p. pl. et demie in-fol. 3</desc>
+               <desc xml:id="CAT_000005_e199_d1">Né à L. a. Mauvissière, M…1592. Pièce notariée, 2
+                  fois signée. 25 août 1586. 1 p. pl. et demie in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="200" xml:id="CAT_000005_e200">
-               <num>200</num>
-               <name type="author">Catinat (Nicolas de</name>
+               <num type="lot">200</num>
+               <name type="author">Catinat (Nicolas de)</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>Quitt. sig. (sur parchemin) de la somme de 500 livres. 18 mars 1704. 4
-                  50</desc>
+               <desc xml:id="CAT_000005_e200_d1">Quitt. sig. (sur parchemin) de la somme de 500
+                  livres. 18 mars 1704. 4</desc>
+               <measure commodity="currency" unit="FRF" quantity="50"> 50</measure>
             </item>
             <item n="201" xml:id="CAT_000005_e201">
-               <num>201</num>
-               <name type="author">Cauchy (le chevalier</name>
+               <num type="lot">201</num>
+               <name type="author">Cauchy (le chevalier)</name>
                <trait>
                   <p>secrétaire-archiviste du sénat-conservateur, littérateur. Né à Rouen 1755</p>
                </trait>
-               <desc>L. aut. sig. Paris, 29 avril 1806. 2 p. in-4. 2</desc>
+               <desc xml:id="CAT_000005_e201_d1">L. aut. sig. Paris, 29 avril 1806. 2 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="202" xml:id="CAT_000005_e202">
-               <num>202</num>
-               <name type="author">Causans (Jos</name>
-               <desc>L.-Vinc. de. Mauléon de), mathématicien, gouverneur du prince de Conti, auteur
-                  de: Spectacle de l'homme, etc. Né à Avignon. L. aut. sig., à M. de Malesherbes.
-                  Paris, 22 décembre 1759. 2 gr. p. in-fol. 5</desc>
+               <num type="lot">202</num>
+               <name type="author">Causans (Jos)</name>
+               <desc xml:id="CAT_000005_e202_d1">L.-Vinc. de. Mauléon de), mathématicien, gouverneur
+                  du prince de Conti, auteur de: Spectacle de l'homme, etc. Né à Avignon. L. aut.
+                  sig., à M. de Malesherbes. Paris, 22 décembre 1759. 2 gr. p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="203" xml:id="CAT_000005_e203">
-               <num>203</num>
+               <num type="lot">203</num>
                <name type="author">Chalgrin</name>
                <trait>
                   <p>architecte de l'Arc de triomphe de l'Étoile</p>
                </trait>
-               <desc>L.. aut. sig. 21 octobre 1807. 2 p. pl. in-8. 2</desc>
+               <desc xml:id="CAT_000005_e203_d1">L.. aut. sig. 21 octobre 1807. 2 p. pl.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="204" xml:id="CAT_000005_e204">
-               <num>204</num>
+               <num type="lot">204</num>
                <name type="author">Chalons-sur-Marne reprend ses ancienne armoiries</name>
-               <desc>L. aut. sig. de M. de Chamorin, maire de Châlons-sur-Marne, à M. Geoffroy,
-                  référendaire à la chancellerie, pour le prier de se charger de faire obtenir à la
-                  ville de Châlons la confirmation de ses anciennes armoiries, etc. 1er déc. 1814. 1
-                  p. pl. in-4. 6</desc>
+               <desc xml:id="CAT_000005_e204_d1">L. aut. sig. de M. de Chamorin, maire de
+                  Châlons-sur-Marne, à M. Geoffroy, référendaire à la chancellerie, pour le prier de
+                  se charger de faire obtenir à la ville de Châlons la confirmation de ses anciennes
+                  armoiries, etc. 1er déc. 1814. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="205" xml:id="CAT_000005_e205">
-               <num>205</num>
-               <name type="author">Chamberlain (Édouard</name>
+               <num type="lot">205</num>
+               <name type="author">Chamberlain (Édouard)</name>
                <trait>
                   <p>mem. de l'Académie des sciences</p>
                </trait>
-               <desc>L. a. s., au roi. Honfleur, 18 juin 1819. 3 gr, p. pl. in-fol. 5</desc>
+               <desc xml:id="CAT_000005_e205_d1">L. a. s., au roi. Honfleur, 18 juin 1819. 3 gr, p.
+                  pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Demande de secours pour la formation des établissements, qui manquent en
                   France, pour la prospérité de l'agriculture, commerce et industrie du
                   royaume.</note>
             </item>
             <item n="206" xml:id="CAT_000005_e206">
-               <num>206</num>
+               <num type="lot">206</num>
                <name type="author">Champion de Cicé</name>
                <trait>
                   <p>archevêque de Bordeaux, membre de l'Assemblée constituante, garde-des-sceaux.
                      Né à Rennes</p>
                </trait>
-               <desc>L. aut. sig., au baron… Bordeaux, 28 août… 1 p. pl. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e206_d1">L. aut. sig., au baron… Bordeaux, 28 août… 1
+                  p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="207" xml:id="CAT_000005_e207">
-               <num>207</num>
-               <name type="author">Chancey (Antoine</name>
+               <num type="lot">207</num>
+               <name type="author">Chancey (Antoine)</name>
                <trait>
                   <p>agronome. Né à Lyon</p>
                </trait>
-               <desc>L. aut. sig. 31 décembre 1821.1 p. et demie in-4. 2</desc>
+               <desc xml:id="CAT_000005_e207_d1">L. aut. sig. 31 décembre 1821.1 p. et demie
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="208" xml:id="CAT_000005_e208">
-               <num>208</num>
-               <name type="author">Chapt de Rastignac (Louis-Jacques de</name>
+               <num type="lot">208</num>
+               <name type="author">Chapt de Rastignac (Louis-Jacques de)</name>
                <trait>
                   <p>archevêque de Tours</p>
                </trait>
-               <desc>L. aut. sig., à M. Amelot. 27 octobre 1739. 1 p. in-fol. Curieuse. 4</desc>
+               <desc xml:id="CAT_000005_e208_d1">L. aut. sig., à M. Amelot. 27 octobre 1739. 1 p.
+                  in-fol. Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="209" xml:id="CAT_000005_e209">
-               <num>209</num>
-               <name type="author">Chaptal (le comte</name>
+               <num type="lot">209</num>
+               <name type="author">Chaptal (le comte)</name>
                <trait>
                   <p>savant chimiste, membre de l'Institut</p>
                </trait>
-               <desc>Né à Lozaret (Lozère). L. aut. sig., à M Cadet de Gassicourt. Paris, 5 nov.
-                  1812. 1 p. in-4. 2.75</desc>
+               <desc xml:id="CAT_000005_e209_d1">Né à Lozaret (Lozère). L. aut. sig., à M Cadet de
+                  Gassicourt. Paris, 5 nov. 1812. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.75">2 75</measure>
             </item>
             <item n="210" xml:id="CAT_000005_e210">
-               <num>210</num>
-               <name type="author">Chastellux (le marquis de</name>
+               <num type="lot">210</num>
+               <name type="author">Chastellux (le marquis de)</name>
                <trait>
                   <p>poète, littérateur, membre de l'Académie française, auteur de: Traité de la
                      félicité publique</p>
                </trait>
-               <desc>L. aut. sig. Versailles, 7 mai 1785. 1 p. pl. in-4. 3.50</desc>
+               <desc xml:id="CAT_000005_e210_d1">L. aut. sig. Versailles, 7 mai 1785. 1 p. pl.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="211" xml:id="CAT_000005_e211">
-               <num>211</num>
-               <name type="author">Chaulnes (Marie-Joseph-Louis d'Albret d'Ailly, duc de</name>
+               <num type="lot">211</num>
+               <name type="author">Chaulnes (Marie-Joseph-Louis d'Albret d'Ailly, duc de)</name>
                <trait>
                   <p>habile chimiste</p>
                </trait>
-               <desc>L. aut. sig., à M. Cochu.27 juin 1789.1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e211_d1">L. aut. sig., à M. Cochu.27 juin 1789.1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="212" xml:id="CAT_000005_e212">
-               <num>212</num>
-               <name type="author">Chevalier (Michel</name>
+               <num type="lot">212</num>
+               <name type="author">Chevalier (Michel)</name>
                <trait>
                   <p>Saint-Simonie, savant ingénieur</p>
                </trait>
-               <desc>L. aut. sig. Paris, 3 juin 1810. 1 p. pl. in-8. 2.25</desc>
+               <desc xml:id="CAT_000005_e212_d1">L. aut. sig. Paris, 3 juin 1810. 1 p. pl.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
             </item>
             <item n="213" xml:id="CAT_000005_e213">
-               <num>213</num>
-               <name type="author">Chevreuse (le duc de</name>
+               <num type="lot">213</num>
+               <name type="author">Chevreuse (le duc de)</name>
                <trait>
                   <p>fils dit duc de Luynes, membre de l'Académie des sciences</p>
                </trait>
-               <desc>L. aut. sig., au baron Destouches. Paris, 3 février 1817 1 p. et demie in-4.
-                  Cachet. 2.25</desc>
+               <desc xml:id="CAT_000005_e213_d1">L. aut. sig., au baron Destouches. Paris, 3 février
+                  1817 1 p. et demie in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
             </item>
             <item n="214" xml:id="CAT_000005_e214">
-               <num>214</num>
-               <name>Chicoyneau</name>
+               <num type="lot">214</num>
+               <name type="author">Chicoyneau</name>
                <trait>
                   <p>premier chirurgien du roi, membre de l'Académie des sciences</p>
                </trait>
-               <desc>1° Mémoire au roi, aut. sig. (à la 3e personne), en faveur de son fils. 1 p.
-                  in-4;-2° supplique au roi Louis XV, avec le mot bon de la main du roi en marge. 1
-                  p. in-4;-3° mémoire en faveur de son petit-fils. 3 p. in-fol. 5</desc>
+               <desc xml:id="CAT_000005_e214_d1">1° Mémoire au roi, aut. sig. (à la 3e personne), en
+                  faveur de son fils. 1 p. in-4;</desc>
+               <desc xml:id="CAT_000005_e214_d2">2° supplique au roi Louis XV, avec le mot bon de la
+                  main du roi en marge. 1 p. in-4;</desc>
+               <desc xml:id="CAT_000005_e214_d3">3° mémoire en faveur de son petit-fils. 3 p.
+                  in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="215" xml:id="CAT_000005_e215">
-               <num>215</num>
-               <name type="author">Choiseul Beaupré (Antoine-Clériadec de</name>
+               <num type="lot">215</num>
+               <name type="author">Choiseul Beaupré (Antoine-Clériadec de)</name>
                <trait>
                   <p>archevêque de Besançon</p>
                </trait>
-               <desc>L. aut. sig., au duc de Bouillon. Besançon. 29 déc. 1759. 2 p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e215_d1">L. aut. sig., au duc de Bouillon. Besançon. 29 déc.
+                  1759. 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="216" xml:id="CAT_000005_e216">
-               <num>216</num>
-               <name type="author">Chompré (Nicolas-Maurice</name>
+               <num type="lot">216</num>
+               <name type="author">Chompré (Nicolas-Maurice)</name>
                <trait>
                   <p>fils de l'auteur des dictionnaires de la Fable et de la Bible, un des
                      principaux rédacteurs de la collection des mémoires sur les Chinois, en 14
                      vol</p>
                </trait>
-               <desc>in-4, mathématicien. b. aut. sig., à M. de Frémonville. Paris, 14 août 1809.
-                  3 p. pl. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e216_d1">in-4, mathématicien. b. aut. sig., à M. de
+                  Frémonville. Paris, 14 août 1809. 3 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="217" xml:id="CAT_000005_e217">
-               <num>217</num>
-               <name type="author">Choron (Alex.-El.</name>
+               <num type="lot">217</num>
+               <name type="author">Choron (Alex.-El.)</name>
                <trait>
                   <p>compositeur de musique. Né à Caen</p>
                </trait>
-               <desc>L. aut. sig., à MM. les administrateurs de l'Athénée royal. Paris, 26 août
-                  1815. 2 gr. p. in-fol. belle lettre. 6</desc>
+               <desc xml:id="CAT_000005_e217_d1">L. aut. sig., à MM. les administrateurs de
+                  l'Athénée royal. Paris, 26 août 1815. 2 gr. p. in-fol. belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Lettre intéressante au sujet du son cours de théorie musicale</note>
             </item>
             <item n="218" xml:id="CAT_000005_e218">
-               <num>218</num>
+               <num type="lot">218</num>
                <name type="author">Clarke</name>
                <trait>
                   <p>duc de Feltre, maréchal de France</p>
                </trait>
-               <desc>Né à Landrecies (Nord). L. aut. sig., au premier consul. Bruxelles, 20 frimaire
-                  an v. 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e218_d1">Né à Landrecies (Nord). L. aut. sig., au premier
+                  consul. Bruxelles, 20 frimaire an v. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="219" xml:id="CAT_000005_e219">
-               <num>219</num>
+               <num type="lot">219</num>
                <name type="author">Clausel de Montals</name>
                <trait>
                   <p>évêque de Chartres</p>
                </trait>
-               <desc>L. aut. sig., au vicomte de Montmorency. Samedi 21. 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e219_d1">L. aut. sig., au vicomte de Montmorency. Samedi 21.
+                  1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="220" xml:id="CAT_000005_e220">
-               <num>220</num>
+               <num type="lot">220</num>
                <name type="author">Clauzel</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>L. aut. sig. Auterive, 18 mai 1841.1 p. pl. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e220_d1">L. aut. sig. Auterive, 18 mai 1841.1 p. pl.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="221" xml:id="CAT_000005_e221">
-               <num>221</num>
-               <name type="author">Clermont-Tonnerre (le cardinal, duc de</name>
+               <num type="lot">221</num>
+               <name type="author">Clermont-Tonnerre (le cardinal, duc de)</name>
                <trait>
                   <p>archevêque de Toulouse</p>
                </trait>
-               <desc>L. aut. sig., à M. Moulins. 23 sept. 1806. 2p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e221_d1">L. aut. sig., à M. Moulins. 23 sept. 1806. 2p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="222" xml:id="CAT_000005_e222">
-               <num>222</num>
+               <num type="lot">222</num>
                <name type="author">Comité</name>
-               <desc>de salut public de la Convention (Arrêté du), signé Cambacérès, Doulcet,
-                  Tallien, Défermon et Maree, au sujet du citoyen Becquemont, procureur-syndic du
-                  district de Pont-l'Evêque. Paris, 14 thermidor an III. Demi-page in-fol. 4</desc>
+               <desc xml:id="CAT_000005_e222_d1">de salut public de la Convention (Arrêté du), signé
+                  Cambacérès, Doulcet, Tallien, Défermon et Maree, au sujet du citoyen Becquemont,
+                  procureur-syndic du district de Pont-l'Evêque. Paris, 14 thermidor an III.
+                  Demi-page in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="223" xml:id="CAT_000005_e223">
-               <num>223</num>
+               <num type="lot">223</num>
                <name type="author">Comité</name>
                <trait>
                   <p>de sureté générale de la Convention (Arrêté du</p>
                </trait>
-               <desc>Signé Ingrand et Alquier, avec trois lignes aut. sig. de Lavicomterie. Paris,
-                  27 août 1793. 1 p. in-fol. Cachet. 5</desc>
+               <desc xml:id="CAT_000005_e223_d1">Signé Ingrand et Alquier, avec trois lignes aut.
+                  sig. de Lavicomterie. Paris, 27 août 1793. 1 p. in-fol. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Ordre de translation d'un prisonnier détenu à la force</note>
             </item>
             <item n="224" xml:id="CAT_000005_e224">
-               <num>224</num>
-               <name type="author">Condé (Louis-Henri de Bourbon</name>
+               <num type="lot">224</num>
+               <name type="author">Condé (Louis-Henri de Bourbon)</name>
                <trait>
                   <p>prince de). N. 1692. M. 1740</p>
                </trait>
-               <desc>L. aut. sig. sans date. 1 p. pl. et demie in-4. 7.50</desc>
+               <desc xml:id="CAT_000005_e224_d1">L. aut. sig. sans date. 1 p. pl. et demie
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
                <note>Il désire savoir des nouvelles de la négociation S... « Je travaille « de mon
                   côté pour parvenir au but que vous sçavez, et sans lequel « je croi l'état perdu,
                   ne pouvant être rétabli que par d'habiles gens, « et non par des
                   imbéciles...</note>
             </item>
             <item n="225" xml:id="CAT_000005_e225">
-               <num>225</num>
-               <name type="author">Consalvi (Hercule</name>
+               <num type="lot">225</num>
+               <name type="author">Consalvi (Hercule)</name>
                <trait>
                   <p>cardinal, ministre</p>
                </trait>
-               <desc>L. aut., sig., à la princesse… Rome, 13 déc. 1820. 1 p. pl. in-4. 2.75</desc>
+               <desc xml:id="CAT_000005_e225_d1">L. aut., sig., à la princesse… Rome, 13 déc.
+                  1820. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.75">2 75</measure>
             </item>
             <item n="226" xml:id="CAT_000005_e226">
-               <num>226</num>
-               <name type="author">Constant de Rebecque (Benjamin</name>
+               <num type="lot">226</num>
+               <name type="author">Constant de Rebecque (Benjamin)</name>
                <trait>
                   <p>député, orateur, publiciste</p>
                </trait>
-               <desc>L. aut. sig., à M. Alisse. 27 mars 1823, 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e226_d1">L. aut. sig., à M. Alisse. 27 mars 1823, 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="227" xml:id="CAT_000005_e227">
-               <num>227</num>
+               <num type="lot">227</num>
                <name type="author">Convention</name>
-               <desc>nationale (Passeport délivré par les présidents et secrétaires de la); sig.
-                  Barère, Jeanbon St-André, Treilhard et St-Just, au citoyen du Poncel, en qualité
-                  de courrier des commissaires envoyés par la Convention. Paris, 4 décembre 1792. 1
-                  p. pl. in-fol. Sceau. 7.50</desc>
+               <desc xml:id="CAT_000005_e227_d1">nationale (Passeport délivré par les présidents et
+                  secrétaires de la); sig. Barère, Jeanbon St-André, Treilhard et St-Just, au
+                  citoyen du Poncel, en qualité de courrier des commissaires envoyés par la
+                  Convention. Paris, 4 décembre 1792. 1 p. pl. in-fol. Sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
             </item>
             <item n="228" xml:id="CAT_000005_e228">
-               <num>228</num>
-               <name type="author">Coquerel (Athanase</name>
+               <num type="lot">228</num>
+               <name type="author">Coquerel (Athanase)</name>
                <trait>
                   <p>pasteur de l'Eglise réformée de Paris, représentant du peuple à l'Assemblée
                      constituante de 1848</p>
                </trait>
-               <desc>L. aut. sig., à M. Paul Lacroix. 2 p. pl. in-8. 2.50</desc>
+               <desc xml:id="CAT_000005_e228_d1">L. aut. sig., à M. Paul Lacroix. 2 p. pl.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="229" xml:id="CAT_000005_e229">
-               <num>229</num>
+               <num type="lot">229</num>
                <name type="author">Corvisart</name>
                <trait>
                   <p>Premier médecin de Napoléon 1er. Né à Dricourt (Ardennes</p>
                </trait>
-               <desc>L. aut. sig. 6 juillet. 2 gr. p. pl. in-4. 6</desc>
+               <desc xml:id="CAT_000005_e229_d1">L. aut. sig. 6 juillet. 2 gr. p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>M. Philippe et lui ont indiqué au malade qu'ils traitent l'électricité, comme
                   ils prescrivent tous, les jours des remèdes à l'efficacité desquels ils ne croyent
                   pas; mais, dans les cas désespérés, ils doivent encore abuser les malades: « Cette
@@ -837,464 +967,543 @@
                   donnent « leur confiance...</note>
             </item>
             <item n="230" xml:id="CAT_000005_e230">
-               <num>230</num>
-               <name type="author">Cottin (l'abbé</name>
+               <num type="lot">230</num>
+               <name type="author">Cottin (l'abbé)</name>
                <trait>
                   <p>jésuite</p>
                </trait>
-               <desc>L. aut. sig., aut. révérend père…Saint-Louis, 12 oct. 1 p. in-8. 3</desc>
+               <desc xml:id="CAT_000005_e230_d1">L. aut. sig., aut. révérend père…Saint-Louis, 12
+                  oct. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="231" xml:id="CAT_000005_e231">
-               <num>231</num>
+               <num type="lot">231</num>
                <name type="author">Court de Gébelin</name>
                <trait>
                   <p>historien. Né à Nîmes</p>
                </trait>
-               <desc>L. aut. sig. (à la 3° personne). 1776. 1 p. in-8 en travers. Cachet. 3
-                  50</desc>
+               <desc xml:id="CAT_000005_e231_d1">L. aut. sig. (à la 3° personne). 1776. 1 p. in-8 en
+                  travers. Cachet. 3</desc>
+               <measure commodity="currency" unit="FRF" quantity="50"> 50</measure>
             </item>
             <item n="232" xml:id="CAT_000005_e232">
-               <num>232</num>
+               <num type="lot">232</num>
                <name type="author">Couturier</name>
                <trait>
                   <p>député de la Moselle à la Convention</p>
                </trait>
-               <desc>L. aut. sig. Dourdan, 29 brumaire an II. 1 p. pl. in-4. 3.50</desc>
+               <desc xml:id="CAT_000005_e232_d1">L. aut. sig. Dourdan, 29 brumaire an II. 1 p. pl.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="233" xml:id="CAT_000005_e233">
-               <num>233</num>
-               <name type="author">Croy (le prince de</name>
+               <num type="lot">233</num>
+               <name type="author">Croy (le prince de)</name>
                <trait>
                   <p>cardinal, archevêque de Rouen</p>
                </trait>
-               <desc>L. aut. sig. Rouen, 17 avril 1838. 1 p. pl. et demie-in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e233_d1">L. aut. sig. Rouen, 17 avril 1838. 1 p. pl. et
+                  demie-in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="234" xml:id="CAT_000005_e234">
-               <num>234</num>
-               <name type="author">Daviau Dubois de Sanzay (Ch.-Fr,</name>
+               <num type="lot">234</num>
+               <name type="author">Daviau Dubois de Sanzay (Ch.-Fr,)</name>
                <trait>
                   <p>archevêque do Bordeaux</p>
                </trait>
-               <desc>L. aut. sig. Paris, 21 sept. 1811. 1 p. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e234_d1">L. aut. sig. Paris, 21 sept. 1811. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="235" xml:id="CAT_000005_e235">
-               <num>235</num>
+               <num type="lot">235</num>
                <name type="author">Dazincourt-Albouy</name>
                <trait>
                   <p>acteur de la Comédie-Française. Né à Marseille</p>
                </trait>
-               <desc>L. aut. sig. 24 octobre 1783. 2 p. in-4. 7.50</desc>
+               <desc xml:id="CAT_000005_e235_d1">L. aut. sig. 24 octobre 1783. 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
             </item>
             <item n="236" xml:id="CAT_000005_e236">
-               <num>236</num>
-               <name type="author">Delavigne (Casimir</name>
+               <num type="lot">236</num>
+               <name type="author">Delavigne (Casimir)</name>
                <trait>
                   <p>poète, auteur dramatique. Né au Havre</p>
                </trait>
-               <desc>L. aut. sig. Paris, 12 août 1832. 1 p. in-4. 4.50</desc>
+               <desc xml:id="CAT_000005_e236_d1">L. aut. sig. Paris, 12 août 1832. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
             </item>
             <item n="237" xml:id="CAT_000005_e237">
-               <num>237</num>
+               <num type="lot">237</num>
                <name type="author">Désaugiers</name>
                <trait>
                   <p>chansonnier, auteur dramatique</p>
                </trait>
-               <desc>Né à Fréjus (Var), Ma Confession épicurienne, Chanson a. s. 1810. 7 p.in-8.
-                  650</desc>
+               <desc xml:id="CAT_000005_e237_d1">Né à Fréjus (Var), Ma Confession épicurienne,
+                  Chanson a. s. 1810. 7 p.in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="650"> 650</measure>
             </item>
-            <item n="238 " xml:id="CAT_000005_e238">
-               <num>238 </num>
-               <name>Des Essartz</name>
+            <item n="238" xml:id="CAT_000005_e238">
+               <num type="lot">238 </num>
+               <name type="author">Des Essartz</name>
                <trait>
                   <p>médecin célèbre. Né à Bragelogne (Aube).</p>
                </trait>
-               <desc>L. aut. sig., au docteur Le Dru. Paris, 28 janvier 1808. 1 p. in-4. Cachet.
-                  Sur le second feuillet se trouve la minute aut. d'une lettre à adresser aux
-                  membres correspondants de l'Académie de médecine de Paris. 4</desc>
+               <desc xml:id="CAT_000005_e238_d1">L. aut. sig., au docteur Le Dru. Paris, 28 janvier
+                  1808. 1 p. in-4. Cachet. Sur le second feuillet se trouve la minute aut. d'une
+                  lettre à adresser aux membres correspondants de l'Académie de médecine de
+                  Paris.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="239" xml:id="CAT_000005_e239">
-               <num>239</num>
-               <name type="author">Desgodetz (Antoine</name>
+               <num type="lot">239</num>
+               <name type="author">Desgodetz (Antoine)</name>
                <trait>
                   <p>architecte, contrôleur des bâtiments du roi, auteur de : Edifices antiques de
                      Rome, etc</p>
                </trait>
-               <desc>Quitt. sig. (sur parch.), 3 juillet 1705. 2.50</desc>
+               <desc xml:id="CAT_000005_e239_d1">Quitt. sig. (sur parch.), 3 juillet 1705.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="240" xml:id="CAT_000005_e240">
-               <num>240</num>
-               <name type="author">Desjardins (Ph.</name>
+               <num type="lot">240</num>
+               <name type="author">Desjardins (Ph.)</name>
                <trait>
                   <p>curé des Missions étrangères</p>
                </trait>
-               <desc>L. aut. sig. au vicomte Mathieu de Montmorency. Paris, 17 février 1817. 1 p.
-                  pl.in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e240_d1">L. aut. sig. au vicomte Mathieu de Montmorency.
+                  Paris, 17 février 1817. 1 p. pl.in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="241" xml:id="CAT_000005_e241">
-               <num>241</num>
+               <num type="lot">241</num>
                <name type="author">Disette aux environs de Paris</name>
                <trait>
                   <p>passage du roi</p>
                </trait>
-               <desc>L. aut. sig. de M. Bassenge. Paris, 21 juillet 1789. 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e241_d1">L. aut. sig. de M. Bassenge. Paris, 21 juillet
+                  1789. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Il a vu entrer et repartir le roi.... Il est parti pour Roissy, pour voir un
                   peu ce qui se passoit dans les environs, et il a trouvé que dans les campagnes on
                   était plus à plaindre qu'a Paris, «...ils n'ont « point de pain ni de bleds pour
-                  en faire... et ils sont de plus inquitté par les voleurs qui se sont répandus
-                  dans les campagnes...</note>
+                  en faire... et ils sont de plus inquitté par les voleurs qui se sont répandus dans
+                  les campagnes...</note>
             </item>
             <item n="242" xml:id="CAT_000005_e242">
-               <num>242</num>
+               <num type="lot">242</num>
                <name type="author">Dode de la Brunerie</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>L. aut. sig. Paris, 8 août 1839. 2 p. in-4.2 50</desc>
+               <desc xml:id="CAT_000005_e242_d1">L. aut. sig. Paris, 8 août 1839. 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="243" xml:id="CAT_000005_e243">
-               <num>243</num>
+               <num type="lot">243</num>
                <name type="author">Double</name>
                <trait>
                   <p>médecin célèbre</p>
                </trait>
-               <desc>Consultation médicale aut. sig. Paris. 8 janvier 1827. 3.gr. p. pl. in-4. 3
-                  50</desc>
+               <desc xml:id="CAT_000005_e243_d1">Consultation médicale aut. sig. Paris. 8 janvier
+                  1827. 3.gr. p. pl. in-4. 3</desc>
+               <measure commodity="currency" unit="FRF" quantity="50"> 50</measure>
             </item>
             <item n="244" xml:id="CAT_000005_e244">
-               <num>244</num>
+               <num type="lot">244</num>
                <name type="author">Drapeau</name>
-               <desc>tricolore et autres signes séditieux. Lett. circulaire sig. de M. le comte
-                  Anglès, préfet de police. Paris, 26 janvier 1817. 1. p. pl. in-4. 6</desc>
-               <note>Invitation aux commissaires de police de Paris de faire disparaître de chez
-                  les marchands des mouchoirs de soie peinte, représentant des faits d'armes, et
-                  sur lesquels sont figurés le drapeau tricolore et autres signes séditieux, déjà
-                  saisis au mois de juin dernier en vertu d'un mandat décerné par l'un des juges
+               <desc xml:id="CAT_000005_e244_d1">tricolore et autres signes séditieux. Lett.
+                  circulaire sig. de M. le comte Anglès, préfet de police. Paris, 26 janvier 1817.
+                  1. p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Invitation aux commissaires de police de Paris de faire disparaître de chez les
+                  marchands des mouchoirs de soie peinte, représentant des faits d'armes, et sur
+                  lesquels sont figurés le drapeau tricolore et autres signes séditieux, déjà saisis
+                  au mois de juin dernier en vertu d'un mandat décerné par l'un des juges
                   d'instruction au tribunal de 1re instance</note>
             </item>
             <item n="245" xml:id="CAT_000005_e245">
-               <num>245</num>
-               <name type="author">Dubois (Guillaume</name>
+               <num type="lot">245</num>
+               <name type="author">Dubois (Guillaume)</name>
                <trait>
-                  <p>cardinal, archevêque de Cambrai, précepteur et premier ministre du régent. Né
-                     à Brives-la-Gaillarde Corrèze</p>
+                  <p>cardinal, archevêque de Cambrai, précepteur et premier ministre du régent. Né à
+                     Brives-la-Gaillarde Corrèze</p>
                </trait>
-               <desc>L. sig. , à l'évêque de Gap. Paris, 22avril 1720. 3 gr. p. pl. in-fol. 6</desc>
+               <desc xml:id="CAT_000005_e245_d1">L. sig. , à l'évêque de Gap. Paris, 22 avril 1720. 3
+                  gr. p. pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Au sujet des affaires religieuses du temps. Intéressante.</note>
             </item>
             <item n="246" xml:id="CAT_000005_e246">
-               <num>246</num>
-               <name type="author">Du Chastelet (la marquise</name>
+               <num type="lot">246</num>
+               <name type="author">Du Chastelet (la marquise)</name>
                <trait>
                   <p>amie de Voltaire L</p>
                </trait>
-               <desc>aut. sig., à M. le comte de Forcalquier, à Livry, par Joinville (Champagne). 23
-                  octobre. 5 p. pl. in-4. cachet. Belle-lettre. (Remontée.) 30</desc>
+               <desc xml:id="CAT_000005_e246_d1">aut. sig., à M. le comte de Forcalquier, à Livry,
+                  par Joinville (Champagne). 23 octobre. 5 p. pl. in-4. cachet. Belle-lettre.
+                  (Remontée.)</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
             <item n="247" xml:id="CAT_000005_e247">
-               <num>247</num>
-               <name type="author">Duchesne (André</name>
+               <num type="lot">247</num>
+               <name type="author">Duchesne (André)</name>
                <trait>
                   <p>historien. Né (en 1854) à l'Ile Bouchard (Indre-et-Loire</p>
                </trait>
-               <desc>Billet aut. sig. Mardy matin. 1 p. in-8. 3.50</desc>
+               <desc xml:id="CAT_000005_e247_d1">Billet aut. sig. Mardy matin. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="248" xml:id="CAT_000005_e248">
-               <num>248</num>
-               <name type="author">Duchesne ainé (Jean</name>
+               <num type="lot">248</num>
+               <name type="author">Duchesne ainé (Jean)</name>
                <trait>
                   <p>garde des estampes à la bibliothèque nationale</p>
                </trait>
-               <desc>Notice aut. sig. sur Jean-Antoine Houdon (minute avec beaucoup de ratures). 3
-                  p. pl. et quart in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e248_d1">Notice aut. sig. sur Jean-Antoine Houdon (minute
+                  avec beaucoup de ratures). 3 p. pl. et quart in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="249" xml:id="CAT_000005_e249">
-               <num>249</num>
-               <name type="author">Dupont (Jacob</name>
+               <num type="lot">249</num>
+               <name type="author">Dupont (Jacob)</name>
                <trait>
                   <p>député des Hautes-Pyrénées à la Convention nationale</p>
                </trait>
-               <desc>L. aut. sig., aux administrateurs du département de la Seine. 3 gr. p. pl. et
-                  demie in-fol. 6</desc>
+               <desc xml:id="CAT_000005_e249_d1">L. aut. sig., aux administrateurs du département de
+                  la Seine. 3 gr. p. pl. et demie in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Au sujet de cours publics et gratuits d'agriculture, de commerce, de la logique
                   de Condillac, etc.,etc., qu'il désire faire dans la salle du manège occupée
                   ci-devant par le conseil des Cinq-Cents</note>
             </item>
             <item n="250" xml:id="CAT_000005_e250">
-               <num>250</num>
+               <num type="lot">250</num>
                <name type="author">Dupuy</name>
                <trait>
                   <p>représentant de Rhône-et-Loire à la Convention nationale</p>
                </trait>
-               <desc>Pièce aut. sig. comme représentant du peuple, envoyé dans la
-                  commune-affranchie, pour y assurer le bonheur du peuple avec le triomphe de la
-                  République. Commune affranchie, 26 messidor an II. 2 p. in-4. 5</desc>
+               <desc xml:id="CAT_000005_e250_d1">Pièce aut. sig. comme représentant du peuple,
+                  envoyé dans la commune-affranchie, pour y assurer le bonheur du peuple avec le
+                  triomphe de la République. Commune affranchie, 26 messidor an II. 2 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="251" xml:id="CAT_000005_e251">
-               <num>251</num>
+               <num type="lot">251</num>
                <name type="author">Dupuytren</name>
                <trait>
                   <p>célèbre chirurgien. Né à Pierre-Bussière (Haute-Vienne</p>
                </trait>
-               <desc>L. aut. sig. Paris, 7 octobre 1834 (peu de jours avant sa mort). 1 p. pl. in-4.
-                  Intéressante. 5 </desc>
+               <desc xml:id="CAT_000005_e251_d1">L. aut. sig. Paris, 7 octobre 1834 (peu de jours
+                  avant sa mort). 1 p. pl. in-4. Intéressante. 5</desc>
             </item>
             <item n="252" xml:id="CAT_000005_e252">
-               <num>252</num>
-               <name>Du Roy</name>
+               <num type="lot">252</num>
+               <name type="author">Du Roy</name>
                <trait>
                   <p>député de l'Eure à la Convention nationale. Né en Normandie. Mis à mort le 28
                      prairial (16 juin 1795), après s'être poignardé.</p>
                </trait>
-               <desc>Pièce signée comme représentant du peu| le et sig. aussi par Laurent, Ritter et
-                  Haussman. Wissembourg, 17 mai 1793. 1 p. in-fol. 4.50</desc>
+               <desc xml:id="CAT_000005_e252_d1">Pièce signée comme représentant du peu| le et sig.
+                  aussi par Laurent, Ritter et Haussman. Wissembourg, 17 mai 1793. 1 p.
+                  in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
             </item>
             <item n="253" xml:id="CAT_000005_e253">
-               <num>253</num>
+               <num type="lot">253</num>
                <name type="author">Dyzès</name>
                <trait>
                   <p>député des Landes à la Convention nationale</p>
                </trait>
-               <desc>L. aut. sig. Mont-de-Marsan, 22 messidor an IV. 2 p. pl. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e253_d1">L. aut. sig. Mont-de-Marsan, 22 messidor an IV. 2 p.
+                  pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="254" xml:id="CAT_000005_e254">
-               <num>254</num>
-               <name type="author">Emery (l'abbé</name>
+               <num type="lot">254</num>
+               <name type="author">Emery (l'abbé)</name>
                <trait>
                   <p>supérieur du séminaire de Saint-Sulpice</p>
                </trait>
-               <desc>L. aut. sig., à madame Nyon. 4 août. 1 p. in-4. 2</desc>
+               <desc xml:id="CAT_000005_e254_d1">L. aut. sig., à madame Nyon. 4 août. 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="255" xml:id="CAT_000005_e255">
-               <num>255</num>
+               <num type="lot">255</num>
                <name type="author">Engeran</name>
                <trait>
                   <p>député de la Manche à la Convention nationale</p>
                </trait>
-               <desc>L. aut. sig. Paris, 11 frimaire an v. 1 p. in-4. 3</desc>
+               <desc xml:id="CAT_000005_e255_d1">L. aut. sig. Paris, 11 frimaire an v. 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="256" xml:id="CAT_000005_e256">
-               <num>256</num>
+               <num type="lot">256</num>
                <name type="author">Escudier</name>
                <trait>
                   <p>député du Var à la Convention nationale</p>
                </trait>
-               <desc>L. aut. sig. Paris, 2 juillet an II. 3 gr. p. pl. et demie in-fol. 10</desc>
+               <desc xml:id="CAT_000005_e256_d1">L. aut. sig. Paris, 2 juillet an II. 3 gr. p. pl.
+                  et demie in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Lettre intéressante contre le fédéralisme des Toulonnais.</note>
             </item>
             <item n="257" xml:id="CAT_000005_e257">
-               <num>257</num>
-               <name type="author">Espinay-Saint-Luc (Timoléon d'</name>
+               <num type="lot">257</num>
+               <name type="author">Espinay-Saint-Luc (Timoléon d')</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>Quitt. sig. (sur parchemin), de la somme de sept mille livres; pour ses
-                  dépenses faites dans son gouvernement de Brouage. 10 novembre 1611. 2.50</desc>
+               <desc xml:id="CAT_000005_e257_d1">Quitt. sig. (sur parchemin), de la somme de sept
+                  mille livres; pour ses dépenses faites dans son gouvernement de Brouage. 10
+                  novembre 1611.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="258" xml:id="CAT_000005_e258">
-               <num>258</num>
+               <num type="lot">258</num>
                <name type="author">Excelmans</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>L. aut. sig., 19 juillet…3 p. pl. in-4. Cachet. 2.50</desc>
+               <desc xml:id="CAT_000005_e258_d1">L. aut. sig., 19 juillet…3 p. pl. in-4.
+                  Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="259" xml:id="CAT_000005_e259">
-               <num>259</num>
-               <name>Fabre d'Olivet (Antoine</name>
+               <num type="lot">259</num>
+               <name type="author">Fabre d'Olivet (Antoine)</name>
                <trait>
                   <p>philologue, érudit, auteur dramatique, historien, philosophe mystique. Né à
                      Ganges (Hérault)</p>
                </trait>
-               <desc>L. aut. sig., à Mme Grivel. Paris, 10 avril 1824.1 p. pl. in-4.</desc>
+               <desc xml:id="CAT_000005_e259_d1">L. aut. sig., à Mme Grivel. Paris, 10 avril 1824.1
+                  p. pl. in-4.</desc>
             </item>
             <item n="260" xml:id="CAT_000005_e260">
-               <num>260</num>
+               <num type="lot">260</num>
                <name type="author">Feutrier</name>
                <trait>
                   <p>évêque de Meaux, ministre des cultes</p>
                </trait>
-               <desc>L. aut. sig., à Mme la comtesse… Paris, 17 août 1811. 1 p. in-4. 2 25 </desc>
+               <desc xml:id="CAT_000005_e260_d1">L. aut. sig., à Mme la comtesse… Paris, 17 août
+                  1811. 1 p. in-4. 2.25</desc>
             </item>
             <item n="261" xml:id="CAT_000005_e261">
-               <num>261</num>
-               <name>Florian</name>
+               <num type="lot">261</num>
+               <name type="author">Florian</name>
                <trait>
                   <p>littérateur, fabuliste, membre de l'Académie française.</p>
                </trait>
-               <desc>Le Rossignol et le Prince. Fable aut. 1 p. pl. in-8 12</desc>
+               <desc xml:id="CAT_000005_e261_d1">Le Rossignol et le Prince. Fable aut. 1 p. pl.
+                  in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="262" xml:id="CAT_000005_e262">
-               <num>262</num>
+               <num type="lot">262</num>
                <name type="author">Fouché</name>
                <trait>
                   <p>duc d'Otrante, ministre de la police générale. Né à Nantes</p>
                </trait>
-               <desc>L. aut. sig., au baron Malouet Paris, 24 octobre, demi-page in-4. 6</desc>
+               <desc xml:id="CAT_000005_e262_d1">L. aut. sig., au baron Malouet Paris, 24 octobre,
+                  demi-page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="263" xml:id="CAT_000005_e263">
-               <num>263</num>
+               <num type="lot">263</num>
                <name type="author">Foucquet</name>
                <trait>
                   <p>prêtre de l'Oratoire, fils du surintendant</p>
                </trait>
-               <desc>L. aut. sig., au comte du Charinel. 17 sept. 2 p. in-4. Intéressante. 5</desc>
+               <desc xml:id="CAT_000005_e263_d1">L. aut. sig., au comte du Charinel. 17 sept. 2 p.
+                  in-4. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="264" xml:id="CAT_000005_e264">
-               <num>264</num>
-               <name type="author">Fournier (Pierre-Nicolas</name>
+               <num type="lot">264</num>
+               <name type="author">Fournier (Pierre-Nicolas)</name>
                <trait>
                   <p>ingénieur-architecte-voyer de Nantes</p>
                </trait>
-               <desc>1° L. aut. sig., à M. Villenave. 2 p. in-8.-2° Notice manuscrite sur sa vie et
-                  ses travaux, adressée à M. Villenave. 1815. 3 p. pl. 4. 3.50</desc>
+               <desc xml:id="CAT_000005_e264_d1">1° L. aut. sig., à M. Villenave. 2 p. in-8.</desc>
+               <desc xml:id="CAT_000005_e264_d2">2° Notice manuscrite sur sa vie et ses travaux,
+                  adressée à M. Villenave. 1815. 3 p. pl. 4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
             </item>
             <item n="265" xml:id="CAT_000005_e265">
-               <num>265</num>
-               <name>Gérard</name>
+               <num type="lot">265</num>
+               <name type="author">Gérard</name>
                <trait>
                   <p>maréchal de France. Né à Damvilliers (Meuse).</p>
                </trait>
-               <desc>L. aut. sig., au prince Louis-Bonaparte. 30 fructidor an XIII. 1 p. in-4.
-                  3</desc>
+               <desc xml:id="CAT_000005_e265_d1">L. aut. sig., au prince Louis-Bonaparte. 30
+                  fructidor an XIII. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3"> 3</measure>
             </item>
             <item n="266" xml:id="CAT_000005_e266">
-               <num>266</num>
-               <name type="author">Girac (François Barreau de</name>
+               <num type="lot">266</num>
+               <name type="author">Girac (François Barreau de)</name>
                <trait>
                   <p>évêque de Rennes</p>
                </trait>
-               <desc>L. aut. sig. Paris, 4 août 1783. 1 p. in-4. 2 50 </desc>
+               <desc xml:id="CAT_000005_e266_d1">L. aut. sig. Paris, 4 août 1783. 1 p. in-4. 2 50
+               </desc>
             </item>
             <item n="267" xml:id="CAT_000005_e267">
-               <num>267</num>
-               <name>Gossee</name>
+               <num type="lot">267</num>
+               <name type="author">Gossee</name>
                <trait>
                   <p>célèbre compositeur dramatique.</p>
                </trait>
-               <desc>L. aut. sig., à M. Persuis. 26 juillet 1817. 1 p. pl. in-4. 10</desc>
+               <desc xml:id="CAT_000005_e267_d1">L. aut. sig., à M. Persuis. 26 juillet 1817. 1 p.
+                  pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Il lui a envoyé son Te Deum. .. Il le prie de lui accorder son indulgence avec
                   cette bonté qui caractérise si bien sa belle âme, et accepter une des dernières
                   productions de sa vieille cervelle..</note>
             </item>
             <item n="268" xml:id="CAT_000005_e268">
-               <num>268</num>
-               <name type="author">Grands procurateurs de la nation (les</name>
+               <num type="lot">268</num>
+               <name type="author">Grands procurateurs de la nation (les)</name>
                <trait>
                   <p>Henri Pellicot et J. Ph. Garran</p>
                </trait>
-               <desc>L. sig. au ministre de la guerre. Orléans, 30 juin an iv. 1 p. in-4. 4</desc>
+               <desc xml:id="CAT_000005_e268_d1">L. sig. au ministre de la guerre. Orléans, 30 juin
+                  an iv. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="269" xml:id="CAT_000005_e269">
-               <num>269</num>
-               <name type="author">Grappin (P.-Philippe</name>
+               <num type="lot">269</num>
+               <name type="author">Grappin (P.-Philippe)</name>
                <trait>
                   <p>bénédictin, puis chanoine de Besançon</p>
                </trait>
-               <desc>L. aut. sig. Besançon, 23 septembre 1807. 1 p. in-4. Curieuse. 3</desc>
+               <desc xml:id="CAT_000005_e269_d1">L. aut. sig. Besançon, 23 septembre 1807. 1 p.
+                  in-4. Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="270" xml:id="CAT_000005_e270">
-               <num>270</num>
+               <num type="lot">270</num>
                <name type="author">Grouchy</name>
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc>L. aut. sig. L. a. Fère, 10 juillet 1842. 1 p. pl. in-8. Cachet. 2.50</desc>
+               <desc xml:id="CAT_000005_e270_d1">L. aut. sig. L. a. Fère, 10 juillet 1842. 1 p. pl.
+                  in-8. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="271" xml:id="CAT_000005_e271">
-               <num>271</num>
-               <name type="author">Guillaumot (Charles-Axel</name>
+               <num type="lot">271</num>
+               <name type="author">Guillaumot (Charles-Axel)</name>
                <trait>
-                  <p>architecte, directeur de la manufacture des Gobelins. Né à Stockholm (Suède</p>
+                  <p>architecte, directeur de la manufacture des Gobelins. Né à Stockholm
+                     (Suède).</p>
                </trait>
-               <desc>L. aut. sig. Paris, 24 mars 1775, 4 p. pl. in-4. 2.50</desc>
+               <desc xml:id="CAT_000005_e271_d1">L. aut. sig. Paris, 24 mars 1775, 4 p. pl.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="272" xml:id="CAT_000005_e272">
-               <num>272</num>
-               <name type="author">Hugens (Mlle</name>
+               <num type="lot">272</num>
+               <name type="author">Hugens (Mlle)</name>
                <trait>
                   <p>artiste dramatique, surnommée la Mars du Boulevard</p>
                </trait>
-               <desc>L. aut. sig., à M. Dormeuil. Paris, 8 mai 1826. 2 gr. p. pl. in-4. Rare.
-                  8</desc>
+               <desc xml:id="CAT_000005_e272_d1">L. aut. sig., à M. Dormeuil. Paris, 8 mai 1826. 2
+                  gr. p. pl. in-4. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8"> 8</measure>
             </item>
             <item n="273" xml:id="CAT_000005_e273">
-               <num>273</num>
-               <name type="author">Imbert (de Lyon</name>
+               <num type="lot">273</num>
+               <name type="author">Imbert (de Lyon)</name>
                <trait>
                   <p>médecin phrénologiste, etc</p>
                </trait>
-               <desc>Lyon, 20 juillet 1839. 2 gr. p. pl. et quart in-4. 4</desc>
+               <desc xml:id="CAT_000005_e273_d1">Lyon, 20 juillet 1839. 2 gr. p. pl. et quart
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Appréciation intéressante de son projet de ménage sociétaire.</note>
             </item>
             <item n="274" xml:id="CAT_000005_e274">
-               <num>274</num>
-               <name type="author">Imprimerie</name>
-               <trait>
-                  <p>bulletin des lois (Fonte de caractères destinés à l'</p>
-               </trait>
-               <desc>L. des administrateurs de l'agence des lois (sig. Dumont, Bernard, Chaube,
-                  Grandville), adressée au citoyen Firmin Didot, fondeur en caractères. Paris, 2
-                  prairial, an II. 2 p. pl. et quart in-4. 5</desc>
+               <num type="lot">274</num>
+               <name type="author">Imprimerie bulletin des lois (Fonte de caractères destinés à
+                  l')</name>
+               <desc xml:id="CAT_000005_e274_d1">L. des administrateurs de l'agence des lois (sig.
+                  Dumont, Bernard, Chaube, Grandville), adressée au citoyen Firmin Didot, fondeur en
+                  caractères. Paris, 2 prairial, an II. 2 p. pl. et quart in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Mise en demeure de fournir les caractères dont il s'est chargé</note>
             </item>
             <item n="275" xml:id="CAT_000005_e275">
-               <num>275</num>
+               <num type="lot">275</num>
                <name type="author">Isoard</name>
                <trait>
                   <p>cardinal, archevêque d'Auch</p>
                </trait>
-               <desc>L. aut. sig. 1 p. pl. in-4. Cachet. 2.50</desc>
+               <desc xml:id="CAT_000005_e275_d1">L. aut. sig. 1 p. pl. in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="276" xml:id="CAT_000005_e276">
-               <num>276</num>
-               <name type="author">Janvier (Antide</name>
+               <num type="lot">276</num>
+               <name type="author">Janvier (Antide)</name>
                <trait>
                   <p>célèbre horloger et mécanicien,. Né à Saint-Claude (Jura) en 1751. Mort à
                      l'Hôtel-Dieu de Paris!!!, le 23 sept. 1833</p>
                </trait>
-               <desc>L. aut. sig., à M. Encelain (garde du commerce). Paris, 27 janvier 1810. 3 p.
-                  pl. in-4. 4</desc>
+               <desc xml:id="CAT_000005_e276_d1">L. aut. sig., à M. Encelain (garde du commerce).
+                  Paris, 27 janvier 1810. 3 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Lettre navrante au sujet des poursuites exercées contre lui</note>
             </item>
             <item n="277" xml:id="CAT_000005_e277">
-               <num>277</num>
+               <num type="lot">277</num>
                <name type="author">Joanny</name>
                <trait>
                   <p>acteur tragique du Théâtre-Français</p>
                </trait>
-               <desc>L. aut. sig. Paris, 28 octobre 1837. 1. p. pl. in-8 Intéressante. 4</desc>
+               <desc xml:id="CAT_000005_e277_d1">L. aut. sig. Paris, 28 octobre 1837. 1. p. pl. in-8
+                  Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="278" xml:id="CAT_000005_e278">
-               <num>278</num>
-               <name>Jourdan</name>
+               <num type="lot">278</num>
+               <name type="author">Jourdan</name>
                <trait>
                   <p>maréchal de France. Né à Limoges.</p>
                </trait>
-               <desc>Certificat aut. sig. comme représentant de la Haute-Vienne, en laveur de
-                  l'adjudant-général Devaux. Paris, 19 ventôse an VI. 1. p, pl. in-4. 5</desc>
+               <desc xml:id="CAT_000005_e278_d1">Certificat aut. sig. comme représentant de la
+                  Haute-Vienne, en laveur de l'adjudant-général Devaux. Paris, 19 ventôse an VI. 1.
+                  p, pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="279" xml:id="CAT_000005_e279">
-               <num>279</num>
-               <name type="author">Jourdan (la maréchale</name>
-               <desc>L. aut. sig., au ministre de la justice. Au Coudray, le 10 prairial an XII. 1
-                  p. pl. et demie in-4. 3</desc>
+               <num type="lot">279</num>
+               <name type="author">Jourdan (la maréchale)</name>
+               <desc xml:id="CAT_000005_e279_d1">L. aut. sig., au ministre de la justice. Au
+                  Coudray, le 10 prairial an XII. 1 p. pl. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="280" xml:id="CAT_000005_e280">
-               <num>280</num>
+               <num type="lot">280</num>
                <name type="author">Jullien de Paris</name>
                <trait>
                   <p>fondateur de la Revue Encyclopédique</p>
                </trait>
-               <desc>L. aut. sig., au baron de Margueritte. Dieppe, 8 août 1833. 1 p. pl. et demi
-                  in-8. 2</desc>
+               <desc xml:id="CAT_000005_e280_d1">L. aut. sig., au baron de Margueritte. Dieppe, 8
+                  août 1833. 1 p. pl. et demi in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="281" xml:id="CAT_000005_e281">
-               <num>281</num>
-               <name type="author">Jussieu (Bernard</name>
+               <num type="lot">281</num>
+               <name type="author">Jussieu (Bernard)</name>
                <trait>
                   <p>celebre botaniste. Né à Lyon.</p>
                </trait>
-               <desc>L. aut. sig. Paris. 23 août 1705. 1 p. pi. in-4. Cachet. 7.50</desc>
+               <desc xml:id="CAT_000005_e281_d1">L. aut. sig. Paris. 23 août 1705. 1 p. pi. in-4.
+                  Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
             </item>
          </list>
       </body>

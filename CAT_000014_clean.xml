@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000014">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000014">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,14 +72,14 @@
          <list>
             <gap/>
             <item n="26" xml:id="CAT_000014_e26" corresp="#MS_000003">
-               <num>26</num>
+               <num type="lot">26</num>
                <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de)</name>
                <trait>
                   <p>b. 1626, married Henry Marquis de Sévigné, 1644, widow 1651, her
                      "letters" first printed in 1726, first authorised edition, 1734,
                      d. 1696.</p>
                </trait>
-               <desc>A.L. 4 1/2 pp. 4to, 19 Nov. (1670), EXTREMELY RARE,</desc>
+               <desc xml:id="CAT_000014_e26_d1">A.L. 4 1/2 pp. 4to, 19 Nov. (1670), EXTREMELY RARE,</desc>
                <note> endorsed, "these letters are in the handwriting of Madame de
                   Sévigné's and her daughter, and were given to Mrs Rosenhagen
                   at Monaco, 1 Jan. 1781, by a lady of Madame de
@@ -91,10 +91,7 @@
                   sheet of the letter appears to be in the handwriting of her
                   daughter the Countess de Grignan.</note>
                <add corresp="#CAT_000014_w">
-                  <num value="6.10" type="pound">£6.10</num>
-               </add>
-               <add corresp="#CAT_000014_m">
-                  <num value="162.50" type="francs">162.50 Fr.</num>
+                  <measure commodity="currency" unit="GBP" quantity="6.10">£6.10</measure>
                </add>
             </item>
             <gap/>

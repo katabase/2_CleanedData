@@ -1,11 +1,12 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000093">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000093">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
             <title>Collection Jacob</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
-               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+               <resp>éditeur scientifique <date when="2019">2019</date>
+               </resp>
             </respStmt>
          </titleStmt>
          <extent>à remplir en indiquant la taille finale du fichier</extent>
@@ -80,7 +81,7 @@
                         <idno type="shelfmark">SJ AK 087/53, 6</idno>
                      </msIdentifier>
                   </msDesc>
-                  <desc>Exemplaire annoté</desc>
+                  <desc xml:id="CAT_000093_e_d1">Exemplaire annoté</desc>
                   <ptr type="catalogue" target="https://catalogue.bm-lyon.fr/ark:/75584/pf0000888976"/>
                   <ptr type="digit" target="http://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001101391998"/>
                   <ptr type="digit" target="https://books.google.de/books?id=3gM-bDy7HO4C"/>
@@ -104,14 +105,14 @@
          <list>
             <gap/>
             <item n="342" xml:id="CAT_000093_e342">
-              <num>342.</num>
-               <desc>Lettres de Mme de Sévigné, édition publiée par M. de Gault de Saint-Germain.
+               <num type="lot">342.</num>
+               <desc xml:id="CAT_000093_e342_d1">Lettres de Mme de Sévigné, édition publiée par M. de Gault de Saint-Germain.
                   Paris, Dalibon, 1825, 12 vol. in-8. non rognés, portraits, dem. rel. dos de mar.
                   bleu de ciel, par Héring.</desc>
                <note>Exemplaire orné de figures et portraits de l'édition de Blaise, du supplément
                   aux figures de Blaise, enrichi d'une lettre autographe et signée de madame de Sévigné,
                   et de deux autres, line de madame de Villars, et l'autre de madame de Coulanges.</note>
-           </item>
+            </item>
             <gap/>
          </list>
       </body>

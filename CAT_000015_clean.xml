@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000015">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000015">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -92,17 +92,17 @@
          <list>
             <gap/>
             <item n="94" xml:id="CAT_000015_e94" corresp="#MS_000011">
-               <num>26</num>
+               <num type="lot">26</num>
                <name type="author">SEVIGNE (Marie de Rabutin-Chantal, marquise de)</name>
                <trait>
-                  <p>, (1626-1696).</p>
+                  <p>(1626-1696).</p>
                </trait>
-               <desc>L. aut., au président de Moulceau, Grignan, 5 juin
+               <desc xml:id="CAT_000015_e94_d1">L. aut., au président de Moulceau, Grignan, 5 juin
                1695. 4 pp. 1/4 in-8.</desc>
                <note>Charmante lettre de reproche pour un silence persévérant. Belle pièce
                très rare, surtout autog. signée.</note>
                <add corresp="#CAT_000014_w">
-                  <num atLeast="18000" atMost="45000" type="francs">18000/45000 Fr.</num>
+                  <measure commodity="currency" unit="FRF">18000/45000 Fr.</measure>
                   <note>Vendu à Lambert.</note>
                </add>
             </item>

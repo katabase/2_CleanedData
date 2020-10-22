@@ -1,11 +1,12 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000097">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000097">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
             <title>Collection Walpole</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
-               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+               <resp>éditeur scientifique <date when="2019">2019</date>
+               </resp>
             </respStmt>
          </titleStmt>
          <extent>à remplir en indiquant la taille finale du fichier</extent>
@@ -66,12 +67,12 @@
          <list>
             <gap/>
             <item n="113" xml:id="CAT_000097_Day6e113">
-               <num>113.</num>
-               <desc>Four letters of the celebrated Madame de Sévigné, extremely
+               <num type="lot">113.</num>
+               <desc xml:id="CAT_000097_Day6e113_d1">Four letters of the celebrated Madame de Sévigné, extremely
                   scarce and curious</desc>
                <add corresp="CAT_000097_w1">
-                  <num value="000" type="pound">4 14 4</num>
-                  <note>Vendu à Thorpe</note>
+                  <num type="lot">4 14 4</num>
+                  <note anchored="true">Vendu à Thorpe</note>
                </add>
             </item>
             <gap/>

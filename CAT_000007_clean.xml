@@ -1,8 +1,8 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000007">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000007">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>Collection Robert Schuman, Première partie</title>
+            <title>CAT_000007</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
@@ -87,19 +87,22 @@
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID for desc</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <list>
             <gap/>
             <item n="279" xml:id="CAT_000007_e279" corresp="#MS_000008" rend="facs">
-               <num>279</num>
+               <num type="lot">279</num>
                <name type="author">SEVIGNE (Marie de Rabutin-Chantal Marquise de),</name>
                <trait>
                   <p>l'illustre épistolière
                      (1626-1696). Lettre autographe à du Plessis. Aux Rochers, 20 août (1690).</p>
                </trait>
-               <desc>4 pp. pet. in-4. très rare.</desc>
+               <desc xml:id="CAT_000007_e279_d1">4 pp. pet. in-4. très rare.</desc>
                <note>Belle et précieuse lettre publiée dans l'édition de la Pléiade (Tome III, p. 765). Elle
                   est adressée à M. du Plessis, précepteur du jeune marquis de Grignan, puis du petit
                   marquis de Vins. «J'ay envie de comancer ma lettre come vous me conancés la vostre

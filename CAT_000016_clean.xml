@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000016">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000016">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -54,13 +54,13 @@
          <list>
             <gap/>
             <item n="89531" xml:id="CAT_000016_e89531" corresp="#MS_000011">
-               <num>89531</num>
+               <num type="lot">89531</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de),</name>
                <trait>
                   <p>l'illustre épistolière. –</p>
                </trait>
-               <desc>L. a. s.; Grignan, 5 juin 1695, 4 p. 1/2 in-4. Rare,</desc>
-               <num value="1500" type="francs">162.50 Fr.</num>
+               <desc xml:id="CAT_000016_e89531_d1">L. a. s.; Grignan, 5 juin 1695, 4 p. 1/2 in-4. Rare,</desc>
+               <measure commodity="currency" unit="FRF" quantity="162.50">162.50 Fr.</measure>
                <note>Spirituelle épître dans laquelle elle lui reproche son silence. «Je scay que
                vous estes en fort bonne santé, que voulez-vous que je pense? A quoy ressemble
                votre conduitte. Donnez-y un nom, Monsieur, voilà le procès en état

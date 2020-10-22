@@ -1,1423 +1,1452 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000040">
-    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
-        <fileDesc>
-            <titleStmt>
-                <title>CAT_000040</title>
-                <respStmt>
-                    <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
-                    <resp>
-                        <date when="2019">2019</date>
-                    </resp>
-                </respStmt>
-            </titleStmt>
-            <extent/>
-            <publicationStmt>
-                <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
-                <availability status="restricted">
-                    <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0
-                        Generic (CC BY 2.0)</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl>
-                    <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-                    <num>51</num>
-                    <editor>Gabriel Charavay</editor>
-                    <publisher>Gabriel Charavay</publisher>
-                    <pubPlace>Paris,8 quai du Louvre</pubPlace>
-                    <date when="1877-03">Mars 1877</date>
-                </bibl>
-                <listEvent>
-                    <event>
-                        <p>
-                            <address>
-                                <addrLine/>
-                            </address>
-                            <persName type="auctioneer"/>
-                            <persName type="expert"/>
-                            <date/>
-                        </p>
-                    </event>
-                </listEvent>
-                <listWit>
-                    <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
-                    </witness>
-                </listWit>
-                <listBibl>
-                    <bibl/>
-                </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="fr">french</language>
-            </langUsage>
-        </profileDesc>
-        <encodingDesc>
-            <samplingDecl>
-                <p>This electronic version of the catalog only reproduces the entries that
-                    correspond to documents for sale. All text preceding or succeeding the list of
-                    documents for sale is not reproduced below.</p>
-            </samplingDecl>
-            <appInfo>
-                <application version="1.6" ident="Transkribus" when="2019">
-                    <label>Transkribus</label>
-                    <ptr target="https://transkribus.eu/Transkribus/"/>
-                </application>
-                <application version="0.5.4" ident="GROBID" when="2019-06-10">
-                    <label>GROBID_Dictionaries - A machine learning software for structuring
-                        digitized dictionaries</label>
-                    <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
-                </application>
-            </appInfo>
-        </encodingDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <gap/>
-            <list>
-
-                <item n="1" xml:id="CAT_000040_e1">
-                    <num>1</num>
-                    <name type="author">Alembert (J. Lerond d'),</name>
-                    <trait>
-                        <p>littérateur du XVIIIe siècle, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à l'abbé Fromans, chanoine de Vernon, 1779, 1 p. in-4. 8</desc>
-                </item>
-                <item n="2" xml:id="CAT_000040_e2">
-                    <num>2</num>
-                    <name type="author">Andrieux,</name>
-                    <trait>
-                        <p>célèbre auteur dram., de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-8, sur sa tragédie de Brutus. 2</desc>
-                </item>
-
-                <item n="3" xml:id="CAT_000040_e3">
-                    <num>3</num>
-                    <name type="author">Auguste II,</name>
-                    <trait>
-                        <p>roi de Pologne, compétiteur heureux du prince de Conti, père du maréchal
-                            de Saxe</p>
-                    </trait>
-                    <desc>L. sig., 7 déc. 1697, 1 p. in-f., traces de sceau. 6</desc>
-                </item>
-                <item n="4" xml:id="CAT_000040_e4">
-                    <num>4</num>
-                    <name type="author">Auguste III,</name>
-                    <trait>
-                        <p>roi de Pologne</p>
-                    </trait>
-                    <desc>L. sig. en français, au grand chancelier de Lithuanie, 1736, 1 p. 1/4
-                        in-f. 5</desc>
-                </item>
-
-                <item n="5" xml:id="CAT_000040_e5">
-                    <num>5</num>
-                    <name type="author">Balzac (Honoré de),</name>
-                    <trait>
-                        <p>le grand romancier</p>
-                    </trait>
-                    <desc>L. a. sig. de ses initiales à M. Frankowski, 1837, 1 p. in-8. Fatiguée.
-                        8</desc>
-                    <note>Curieuse épitre. Il l'a attendu chez la duchesse jusqu'à minuit et demi. «
-                        Vous y auriez vu des personnages curieux et votre belle Guiccioli.</note>
-                </item>
-
-                <item n="6" xml:id="CAT_000040_e6">
-                    <num>6</num>
-                    <name type="author">Barbés (Armand),</name>
-                    <trait>
-                        <p>le célèbre révolutionnaire</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, avocat; Sainte-Pélagie, 26 août 1836, 2 p. in-4.
-                        10</desc>
-                    <note>Curieuse lettre. Condamné pour le complot des poudres, il n'était pas
-                        d'avis de faire appel devant la Cour royale, et il ne s'y est décidé que sur
-                        le conseil de ses co-accusés, et surtout de Blanqui. Il ajoute : « deux ou
-                        trois mois d'emprisonnement de plus ne sont pas grand chose par le temps qui
-                        court. » Il le prie de souhaiter le bonjour à Godefroy Cavaignac quand il
-                        écrira à Londres</note>
-                </item>
-
-                <item n="7" xml:id="CAT_000040_e7">
-                    <num>7</num>
-                    <name type="author">Barbier (Aug.),</name>
-                    <trait>
-                        <p>poète satyrique, l'auteur des Iambes, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-                </item>
-
-                <item n="8" xml:id="CAT_000040_e8">
-                    <num>8</num>
-                    <name type="author">Beaumarchais (Caron de),</name>
-                    <trait>
-                        <p>l'auteur du Mariage de Figaro</p>
-                    </trait>
-                    <desc>L. a. s. à son ami M. de Francy; 1781, 1 p. in-4. Curieuse. 15</desc>
-                </item>
-
-                <item n="9" xml:id="CAT_000040_e9">
-                    <num>9</num>
-                    <name type="author">Béranger (J.-P.),</name>
-                    <trait>
-                        <p>le célèbre chansonnier</p>
-                    </trait>
-                    <desc>L. a. s. à M. de Martonne, 1846, 1 p. in-8. 5</desc>
-                    <note>Au sujet d'une jolie pièce de vers que M. de Martonne lui a
-                        adressée</note>
-                </item>
-
-                <item n="10" xml:id="CAT_000040_e10">
-                    <num>10</num>
-                    <name type="author">Berquin (Arnaud),</name>
-                    <trait>
-                        <p>surnommé l'Ami des enfants</p>
-                    </trait>
-                    <desc>Pièce aut. sig.; 20 mai 1784, 1/4 de p. in-4. Rare. 12</desc>
-                    <note>Il reconnaît avoir reçu de M. Marmontel la somme de 1200 livres, pour le
-                        prix d'utilité que lui a décerné l'Académie française.</note>
-                </item>
-                <item n="11" xml:id="CAT_000040_e11">
-                    <num>11</num>
-                    <name type="author">Berryer,</name>
-                    <trait>
-                        <p>illustre orateur</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, 1 p. in-8. Cachet. 3</desc>
-                    <note>Au sujet d'un discours qu'il a prononcé et qu'il destine au journal le
-                        Corsaire</note>
-                </item>
-
-                <item n="12" xml:id="CAT_000040_e12">
-                    <num>12</num>
-                    <name type="author">Blanc (Louis),</name>
-                    <trait>
-                        <p>historien et homme d'Etat</p>
-                    </trait>
-                    <desc>L. a. s. au rédacteur du Corsaire-Satan; Londres, 22 nov. 1848, 1 p. in-8.
-                        5</desc>
-                    <note>Réponse à un article de ce journal qui venait d'annoncer que la Banque de
-                        France avait été chargée de lui faire passer la somme de 250,000 fr. « Ceci,
-                        Monsieur, est une calomnie odieuse et absurde.</note>
-                </item>
-
-                <item n="13" xml:id="CAT_000040_e13">
-                    <num>13</num>
-                    <name type="author">Bornier (Henri de),</name>
-                    <trait>
-                        <p>célèbre auteur dramatique, auteur de la Fille de Roland</p>
-                    </trait>
-                    <desc>L. a. s. (à M. de Martonne), 1845, 1 p. in-8. 3</desc>
-                    <note>Relative à son recueil de poésies intitulé Premières feuilles</note>
-                </item>
-
-                <item n="14" xml:id="CAT_000040_e14">
-                    <num>14</num>
-                    <name type="author">Boufflers (Stan., chevalier de),</name>
-                    <trait>
-                        <p>poète et philosophe, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s., an VIII, 1/2 p. in-f. 5</desc>
-                    <note>Relative à son brevet de pension</note>
-                </item>
-
-                <item n="15" xml:id="CAT_000040_e15">
-                    <num>15</num>
-                    <name type="author">Bougainville (Louis-Ant. de),</name>
-                    <trait>
-                        <p>illustre navigateur</p>
-                    </trait>
-                    <desc>L. a. s., 1808, 1 p. in-4. 6</desc>
-                </item>
-
-                <item n="16" xml:id="CAT_000040_e16">
-                    <num>16</num>
-                    <name type="author">Bouilhet (Louis),</name>
-                    <trait>
-                        <p>poète distingué et auteur dramatique</p>
-                    </trait>
-                    <desc>L. a. s. (à M. de Martonne); Mantes, 1867, 1 p. 1/2 in-8. 3</desc>
-                </item>
-
-                <item n="17" xml:id="CAT_000040_e17">
-                    <num>17</num>
-                    <name type="author">Bourgogne (Marie-Adélaïde de Savoie, duchesse de),</name>
-                    <trait>
-                        <p>dauphine de France, qui fit les délices de la cour de Louis XIV</p>
-                    </trait>
-                    <desc>L. aut., paraphée, à sa grand'mère; Marly, 15 avril 1709, 1 p. 1/2 in-4.
-                        Rare. 25</desc>
-                    <note>Jolie et charmante épitre, dans laquelle elle parle de son fils</note>
-                </item>
-
-                <item n="18" xml:id="CAT_000040_e18">
-                    <num>18</num>
-                    <name type="author">Bugeaud (le maréchal),</name>
-                    <trait>
-                        <p>duc d'Isly</p>
-                    </trait>
-                    <desc>L. a. s. au général L. a. Moricière; Blidah, 1842, 5 p. in-4. 10</desc>
-                    <note>Très-intéressante lettre dans laquelle il trace le plan de sa prochaine
-                        campagne contre les Arabes insoumis. Il demande à La Moricière de l'éclairer
-                        de ses lumières. Il cite avec éloge les généraux Pélissier, Martimprey,
-                        Bedeau, d'Hilliers, etc</note>
-                </item>
-
-                <item n="19" xml:id="CAT_000040_e19">
-                    <num>19</num>
-                    <name type="author">Bugeaud (le maréchal),</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>L. a. s. au maréchal Soult; Alger, 26 juil. 1843, 2 p. in-f. 15</desc>
-                    <note>Belle et curieuse lettre relative au projet de son remplacement par le duc
-                        d'Aumale, comme gouverneur de l'Algérie, projet qui ne s'est réalisé que
-                        plus tard. Le prince devait d'abord faire l'intérim, et il conviendrait
-                        parfaitement à Bugeaud comme partageant ses idées sur la guerre et la
-                        politique d'Afrique. Il ajoute: « Je suis très-convainçu que l'on peut me
-                        remplacer pour le talent; mais on ne me remplacerait pas immédiatement pour
-                        mes antécèdents et pour l'autorité morale que deux ans et demi de guerre
-                        m'ont donnée sur les Arabes.</note>
-                </item>
-
-                <item n="20" xml:id="CAT_000040_e20">
-                    <num>20</num>
-                    <name type="author">Cagliostro (Lorenza Féliciani, comtesse de),</name>
-                    <trait>
-                        <p>femme du fameux thaumaturge, qui fut mêlée à ses aventures, à l'affaire
-                            du collier, et partagea sa mauvaise fortune</p>
-                    </trait>
-                    <desc>L. a. s., en italien, à Cagliostro, son mari, 1 p. in-4. Très-rare.
-                        30</desc>
-                    <note>Curieuse épitre. Elle ne croit pas qu'il y ait une femme plus malheureuse
-                        au monde, de se voir ainsi éloignée de lui. Elle lui parle de plusieurs de
-                        leurs amis, de leur fils et de leur fille, Garacino et Garacina, et finit
-                        ainsi : « La tua fedele consorte, che tiama sino alla morte, comtesse de
-                        Cagliostro.</note>
-                </item>
-
-                <item n="21" xml:id="CAT_000040_e21">
-                    <num>21</num>
-                    <name type="author">Campan (Mme),</name>
-                    <trait>
-                        <p>lectrice de Marie-Antoinette, surintendante de la maison d'Ecouen</p>
-                    </trait>
-                    <desc>L. a. s. au citoyen Degoti; Saint-Germain, an VII, 1 p. in-4. 5</desc>
-                    <note>Belle lettre relative à un théâtre qu'elle établit pour ses
-                        pensionnaires</note>
-                </item>
-
-                <item n="22" xml:id="CAT_000040_e22">
-                    <num>22</num>
-                    <name type="author">Cappelle (Jacq.),</name>
-                    <trait>
-                        <p>seigneur Du Pilloy, théologien protestant, savant chronologiste,
-                            professeur à l'Académie de Sedan</p>
-                    </trait>
-                    <desc>Epître latine aut. sig. (en tète) à Jean Fabricius; Sedan, 1618, 1 p.
-                        in-f. 6</desc>
-                </item>
-
-                <item n="23" xml:id="CAT_000040_e23">
-                    <num>23</num>
-                    <name type="author">Champagny (le comte Franz de),</name>
-                    <trait>
-                        <p>historien, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à M. de Martonne, 1842, 1 p. in-8. Cachet. 5</desc>
-                </item>
-
-                <item n="24" xml:id="CAT_000040_e24">
-                    <num>24</num>
-                    <name type="author">Chanzy (Ant.-Eug.-A.),</name>
-                    <trait>
-                        <p>un des plus braves généraux de la guerre de 1870, gouverneur de
-                            l'Algérie, né dans les Ardennes</p>
-                    </trait>
-                    <desc>L. a. s., 1849, 1 p. in-8. 6</desc>
-                </item>
-                <item n="25" xml:id="CAT_000040_e25">
-                    <num>25</num>
-                    <name type="author">Chateaubriand,</name>
-                    <trait>
-                        <p>l'illustre écrivain</p>
-                    </trait>
-                    <desc>L. a. s.; 9 nov. (1830?), 1 p. in-4. 15</desc>
-                    <note>Très-curieuse lettre, écrite vraisemblablement après la révolution de
-                        1830. Il reprend le sac et le mousquet quand il devrait être aux Invalides.
-                        Il ajoute : « Nous sommes dans ces temps où il faut que tous les royalistes
-                        marchent, les hommes mariés, les ultra en retraite, etc.</note>
-                </item>
-
-                <item n="26" xml:id="CAT_000040_e26">
-                    <num>26</num>
-                    <name type="author">Chateaubriand,</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>L. a. sig. de ses initiales au poète Chénedollé, 29 sept., 1 p. in-8.
-                        Cachet à ses armes. Belle pièce. 6</desc>
-                </item>
-
-                <item n="27" xml:id="CAT_000040_e27">
-                    <num>27</num>
-                    <name type="author">Chénedollé (Ch.-J. de),</name>
-                    <trait>
-                        <p>célèbre poète normand, auteur du Génie de l'homme</p>
-                    </trait>
-                    <desc>1° L. a. s. à la comtesse de Perey, 1832, 1 p. in-8.-2° L. a. Primevère,
-                        pièce de vers aut., inédite, 1 p. 1/4 in-8. 4</desc>
-                </item>
-
-                <item n="28" xml:id="CAT_000040_e28">
-                    <num>28</num>
-                    <name type="author">Cobden (Richard),</name>
-                    <trait>
-                        <p>illustre économiste anglais, l'apôtre du libre-échange</p>
-                    </trait>
-                    <desc>L. a. s. à M. Cauville, 1857, 2 p. in-8. 6</desc>
-                    <note>Très-curieuse lettre par laquelle il refuse de donner son portrait, refus
-                        qu'il a invariablement oppose à toutes les demandes qui lui ont été faites
-                        par ses amis</note>
-                </item>
-
-                <item n="29" xml:id="CAT_000040_e29">
-                    <num>29</num>
-                    <name type="author">Condé (Louis de Bourbon, prince de),</name>
-                    <trait>
-                        <p>dit le Grand</p>
-                    </trait>
-                    <desc>L. a. s. à M. Lenet; Dijon, 23 mars 1663, 1/3 de p. in-f. Cachets et
-                        soies. Belle pièce. 30</desc>
-                </item>
-
-                <item n="30" xml:id="CAT_000040_e30">
-                    <num>30</num>
-                    <name type="author">Constant (Benjamin),</name>
-                    <trait>
-                        <p>célèbre publiciste et orateur libéral</p>
-                    </trait>
-                    <desc>L. a. s. à Mme de Montjoye; 18 nov. 1830, 1 p. 1/4 in-4. 10</desc>
-                    <note>Belle et curieuse lettre relative à la réception de sa femme chez la reine
-                        Marie-Amélie. « J'aurais été heureux que Mme Benj. Constant, déjà reçue avec
-                        tant de bonté, par Mme Adélaïde, eût une occasion nouvelle de faire sa cour
-                        à la famille dont la France attend son salut.</note>
-                </item>
-
-                <item n="31" xml:id="CAT_000040_e31">
-                    <num>31</num>
-                    <name type="author">Cooper (Fenimore),</name>
-                    <trait>
-                        <p>le grand romancier américain</p>
-                    </trait>
-                    <desc>L. a. s., en français, à M. Leini, 1831, 1 p. in-8. Jolie pièce. 8</desc>
-                </item>
-
-                <item n="32" xml:id="CAT_000040_e32">
-                    <num>32</num>
-                    <name type="author">Danton (Georges),</name>
-                    <trait>
-                        <p>le célèbre conventionnel</p>
-                    </trait>
-                    <desc>L. sig. de Danton, Barère, Lindet, Cambon et autres, comme membres du
-                        Comité de salut public, à la Municipalité de Charleville; Paris, 26 av.
-                        1793, 1 p. 1/2 in-f. 40</desc>
-                    <note>Ordre à la Municipalité de Charleville de faire transporter 2,000 fusils à
-                        l'arsenal de Péronne. (Danton n'ayant été que très-peu de temps membre du
-                        Comité de salut public, ses signatures en cette qualité sont très-rares.)
-                    </note>
-                </item>
-
-                <item n="33" xml:id="CAT_000040_e33">
-                    <num>33</num>
-                    <name type="author">David d'Angers,</name>
-                    <trait>
-                        <p>le grand statuaire.</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-                </item>
-
-                <item n="34" xml:id="CAT_000040_e34">
-                    <num>34</num>
-                    <name type="author">Delavigne (Casimir),</name>
-                    <trait>
-                        <p>l'auteur des Messéniennes, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à une femme de lettres; 12 oct. 1835, 2 p. in-8. 6</desc>
-                    <note>Belle lettre relative à la première représentation de sa comédie de Don
-                        Juan d'Autriche.</note>
-                </item>
-
-                <item n="35" xml:id="CAT_000040_e35">
-                    <num>35</num>
-                    <name type="author">Diane de Poitiers,</name>
-                    <trait>
-                        <p>duchesse de Valentinois, la célèbre maîtresse de Henri II</p>
-                    </trait>
-                    <desc>.-L. sig., avec la souscription autog., au seigneur de Ribadenez; Paris,
-                        22 janv. (1553), 1 p. in-f., traces de cachets. Superbe pièce. Très-rare.
-                        150</desc>
-                    <note>Lettre adressée à un envoyé confidentiel. Elle l'assure qu'il ne manquera
-                        pas d'argent, et lui recommande, quand il voudra lui écrire, de lui envoyer
-                        ses lettres par l'ambassadeur du roi</note>
-                </item>
-
-                <item n="36" xml:id="CAT_000040_e36">
-                    <num>36</num>
-                    <name type="author">Donizetti (Gaétano),</name>
-                    <trait>
-                        <p>le grand compositeur italien</p>
-                    </trait>
-                    <desc>L. a. s., 1/2 p. in-8. 5</desc>
-                </item>
-
-                <item n="37" xml:id="CAT_000040_e37">
-                    <num>37</num>
-                    <name type="author">Dorval (Marie),</name>
-                    <trait>
-                        <p>célèbre actrice</p>
-                    </trait>
-                    <desc>L. a. s. à un prince; 1 p. 1/4 in-8. 2</desc>
-                </item>
-
-                <item n="38" xml:id="CAT_000040_e38">
-                    <num>38</num>
-                    <name type="author">Doudan (H.),</name>
-                    <trait>
-                        <p>spirituel épistolaire contemporain, dont on vient de publier la
-                            correspondance</p>
-                    </trait>
-                    <desc>L. a. s. à un littérateur, 1 p. in-8. Rare. 10</desc>
-                    <note>Jolie épitre, d'un tour charmant</note>
-                </item>
-
-                <item n="39" xml:id="CAT_000040_e39">
-                    <num>39</num>
-                    <name type="author">Du Barry (Mme),</name>
-                    <trait>
-                        <p>maîtresse de Louis XV</p>
-                    </trait>
-                    <desc>Billet de 2 lignes aut., 17 sept. 1790, in-8. 10</desc>
-                    <note>Reçu de 202 livres, qu'elle paye elle-même et qui est signé par Thirion,
-                        son créancier</note>
-                </item>
-
-                <item n="40" xml:id="CAT_000040_e40">
-                    <num>40</num>
-                    <name type="author">Dumas (Alex.)</name>
-                    <trait>
-                        <p>père, le fécond romancier</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-8. 4</desc>
-                </item>
-
-                <item n="41" xml:id="CAT_000040_e41">
-                    <num>41</num>
-                    <name type="author">Dumas (Alex.)</name>
-                    <trait>
-                        <p>fils, célèbre auteur dramatique, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. de 3 lignes, à M. de Fiennes, 1/2 p. in-4. Sur le roman du
-                        Vicomte de Bragelonne. 3</desc>
-                </item>
-
-                <item n="42" xml:id="CAT_000040_e42">
-                    <num>42</num>
-                    <name type="author">Dupanloup (F.),</name>
-                    <trait>
-                        <p>évêque d'Orléans, sénateur, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à une dame, 1 p. in-4. Rare autog. signé. 10</desc>
-                    <note>Relative à un bref que le pape vient d'accorder à cette dame et qui a été
-                        transmis au prélat par la princesse Borghèse</note>
-                </item>
-
-                <item n="43" xml:id="CAT_000040_e43">
-                    <num>43</num>
-                    <name type="author">Favart (Marie),</name>
-                    <trait>
-                        <p>célèbre actrice de la Comédie française</p>
-                    </trait>
-                    <desc>L. a. s., (1848), 2 p. in-12. 8</desc>
-                    <note>Charmante épitre, écrite à l'âge de 15 ans, au sujet de ses débuts au
-                        Théâtre-Français. Son nom de Favart lui paraît lourd à porter. Elle joue ce
-                        soir Céphise dans Andromaque et Elise dans les Plaideurs</note>
-                </item>
-
-                <item n="44" xml:id="CAT_000040_e44">
-                    <num>44</num>
-                    <name type="author">Favre (Jules),</name>
-                    <trait>
-                        <p>homme d'Etat, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, avocat, 29 avril 1835, 1 p. in-8. 4</desc>
-                    <note>Relative à la défense des Lyonnais dans le procès d'Avril</note>
-                </item>
-
-                <item n="45" xml:id="CAT_000040_e45">
-                    <num>45</num>
-                    <name type="author">Flocon (Ferdinand),</name>
-                    <trait>
-                        <p>publiciste, membre du gouvernement provisoire de 1848</p>
-                    </trait>
-                    <desc>L. a. s. au rédacteur du Corsaire-Satan; 11 mai 1845, 2 p. 1/2 in-4.
-                        5</desc>
-                    <note>Ce journal ayant annoncé que Godefroid Cavaignac avait été assisté à son
-                        lit de mort par le Père Ravignan, Flocon donne à cette assertion le plus
-                        absolu démenti, les amis du défunt ne l'ayant pas quitté pendant les
-                        derniers jours de sa noble vie</note>
-                </item>
-
-                <item n="46" xml:id="CAT_000040_e46">
-                    <num>46</num>
-                    <name type="author">Fouché (Jos.),</name>
-                    <trait>
-                        <p>le célèbre ministre de la police</p>
-                    </trait>
-                    <desc>L. a. s. au préfet des Deux-Nethes, 11 flor., 1 p. in-4, cachet. L. a. moitié
-                        du feuillet d'adresse découpée. 25</desc>
-                    <note>Belle lettre avec la jolie vignette signée de Prudhon. -Relative à
-                        l'arrestation de plusieurs contrebandiers d'Anvers. « Il n'y a, dit-il, que
-                        la sévérité à remplir ses devoirs qui soit bonne au pays que l'on
-                        administre. Tôt ou tard la faiblesse, la pusillanimité, font le même mal que
-                        la méchanceté et la friponnerie.</note>
-                </item>
-
-                <item n="47" xml:id="CAT_000040_e47">
-                    <num>47</num>
-                    <name type="author">François Ier,</name>
-                    <trait>
-                        <p>roi de France</p>
-                    </trait>
-                    <desc>Pièce sig. sur vélin; Amboise, 12 janv. 1517, in-4. 15</desc>
-                    <note>Pièce historique. Ordre de payer à Guillaume Preudhomme la somme de 20,000
-                        livres tournois, pour la construction du Havre de Grâce</note>
-                </item>
-
-                <item n="48" xml:id="CAT_000040_e48">
-                    <num>48</num>
-                    <name type="author">François Ier,</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>Pièce sig. sur vélin; Elbeuf, 19 av. 1540, 1 p. in-4. Légères piqûres
-                        d'humidité. 15</desc>
-                    <note>Ordre de payer 675 livres tournois à Vincent Dymagy, gentilhomme de
-                        Bresse, pour son voyage d'Elbeuf à Constantinople, où il va porter au sieur
-                        de Rincon des lettres de grande importance</note>
-                </item>
-
-                <item n="49" xml:id="CAT_000040_e49">
-                    <num>49</num>
-                    <name type="author">Gambetta (Léon),</name>
-                    <trait>
-                        <p>chef du parti républicain démocratique</p>
-                    </trait>
-                    <desc>Petite l. a. s., 1876, 1/2 p. in-8. Rare. 15</desc>
-                </item>
-
-                <item n="50" xml:id="CAT_000040_e50">
-                    <num>50</num>
-                    <name type="author">Genlis (Mme de),</name>
-                    <trait>
-                        <p>femme célèbre</p>
-                    </trait>
-                    <desc>L. a. s., 2 p. in-8. Jolie et curieuse épître, relative à son frère.
-                        5</desc>
-                </item>
-
-                <item n="51" xml:id="CAT_000040_e51">
-                    <num>51</num>
-                    <name type="author">Gérard (Jules),</name>
-                    <trait>
-                        <p>le célèbre tueur de lions</p>
-                    </trait>
-                    <desc>Pièce sig.; Constantine, 1853, 1 p. in-f. 2</desc>
-                    <note>Reçu d'une prime de 40 fr. pour la destruction d'une lionne</note>
-                </item>
-
-                <item n="52" xml:id="CAT_000040_e52">
-                    <num>52</num>
-                    <name type="author">Gladstone (W.-E.),</name>
-                    <trait>
-                        <p>illustre homme d'Etat anglais</p>
-                    </trait>
-                    <desc>L. a. s., 1867, 1 p. 1/4 in-18. 6</desc>
-                </item>
-                <item n="53" xml:id="CAT_000040_e53">
-                    <num>53</num>
-                    <name type="author">Goethe,</name>
-                    <trait>
-                        <p>l'illustre écrivain allemand</p>
-                    </trait>
-                    <desc>Billet de 5 lignes aut. sig., sur une carte, à J.-J. Ampère, 1827, in-18.
-                        10</desc>
-                </item>
-
-                <item n="54" xml:id="CAT_000040_e54">
-                    <num>54</num>
-                    <name type="author">Golowine (Ivan),</name>
-                    <trait>
-                        <p>célèbre publiciste et patriote russe</p>
-                    </trait>
-                    <desc>L. a. s., en français (au rédacteur du Corsaire, 1845), 3 p. in-8.
-                        4</desc>
-                    <note>Curieuse lettre relative à ses articles sur la Russie, dans le Corsaire.
-                        Il se défend d'avoir attaqué le comte Orloff et les dames russes qui
-                        fréquentent le bal Mabille</note>
-                </item>
-
-                <item n="55" xml:id="CAT_000040_e55">
-                    <num>55</num>
-                    <name type="author">Gortschakoff (Alex.-M.),</name>
-                    <trait>
-                        <p>célèbre diplomate russe</p>
-                    </trait>
-                    <desc>L. a. s. de ses initiales, 1854, 1/2 p. in-8. 3</desc>
-                </item>
-
-                <item n="56" xml:id="CAT_000040_e56">
-                    <num>56</num>
-                    <name type="author">Grétry (Modeste),</name>
-                    <trait>
-                        <p>célèbre compositeur</p>
-                    </trait>
-                    <desc>Billet de 4 lignes aut. sig., à une dame, 1812, 1/2 p. in-8 obl. 4</desc>
-                </item>
-
-                <item n="57" xml:id="CAT_000040_e57">
-                    <num>57</num>
-                    <name type="author">Grouchy (Em.),</name>
-                    <trait>
-                        <p>maréchal de France</p>
-                    </trait>
-                    <desc>L. a. s., an XII, 1 p. in-4. 4</desc>
-                </item>
-
-                <item n="58" xml:id="CAT_000040_e58">
-                    <num>58</num>
-                    <name type="author">Guérin (P.-N.),</name>
-                    <trait>
-                        <p>célèbre peintre d'histoire</p>
-                    </trait>
-                    <desc>L. a. s. au comte de Forbin; Rome, 1824, 1 p. in-4. 4</desc>
-                    <note>Relative à son tableau de Saint Louis, qu'il a ébauché à Paris et qu'il
-                        pense terminer vers le milieu de 1825</note>
-                </item>
-
-                <item n="59" xml:id="CAT_000040_e59">
-                    <num>59</num>
-                    <name type="author">Guttinguer (Ulric),</name>
-                    <trait>
-                        <p>célèbre poète romantique</p>
-                    </trait>
-                    <desc>L. a. s. (à M. Virmaître), 1 p. in-8. 3</desc>
-                </item>
-
-                <item n="60" xml:id="CAT_000040_e60">
-                    <num>60</num>
-                    <name type="author">Henri III,</name>
-                    <trait>
-                        <p>roi de France</p>
-                    </trait>
-                    <desc>Pièce sig., sur vélin ; Fontaine-bleau, 1580, 1/2 p. in-f. 5</desc>
-                    <note>Ordre à Jacq. Leroy, trésorier de l'épargne, de remettre en ses mains
-                        23,333 écus et 1/3, pour certaines affaires importantes dont il ne veut pas
-                        qu'il soit fait mention</note>
-                </item>
-
-                <item n="61" xml:id="CAT_000040_e61">
-                    <num>61</num>
-                    <name type="author">Hérault-Séchelles,</name>
-                    <trait>
-                        <p>conventionnel célèbre, décapité avec Danton</p>
-                    </trait>
-                    <desc>L. a. s. à Le Brun, ministre des affaires étrangères; 3 déc. 1792, 1 p.
-                        1/2 in-4. 6</desc>
-                    <note>Lettre intime par laquelle il lui annonce son départ pour la Savoie, comme
-                        commissaire de la Convention. Il lui dit en plaisantant que lui et ses
-                        collègues vont enlever l'Allobrogie à sa diplomatie</note>
-                </item>
-
-                <item n="62" xml:id="CAT_000040_e62">
-                    <num>62</num>
-                    <name type="author">Hugo (Victor),</name>
-                    <trait>
-                        <p>le grand écrivain</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, 1842, 1 p. in-8. 6</desc>
-                    <note>Relative à son ouvrage intitulé le Rhin</note>
-                </item>
-
-                <item n="63" xml:id="CAT_000040_e63">
-                    <num>63</num>
-                    <name type="author">Hugo (Victor),</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>L. a. sig. de ses initiales, au même, 1845, 1/2 p. in-8. 3</desc>
-                </item>
-
-                <item n="64" xml:id="CAT_000040_e64">
-                    <num>64</num>
-                    <name type="author">Hugo (Mme Adèle),</name>
-                    <trait>
-                        <p>épouse de Victor Hugo</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, 18 janv. 1838, 2 p. in-8. 4</desc>
-                    <note>Relative à la reprise d'Hernani</note>
-                </item>
-
-                <item n="65" xml:id="CAT_000040_e65">
-                    <num>65</num>
-                    <name type="author">Hugo (Ch.),</name>
-                    <trait>
-                        <p>le traducteur de Shakspeare</p>
-                    </trait>
-                    <desc>L. a. s. à M. Virmaître, 1 p. in-8. 3</desc>
-                </item>
-
-                <item n="66" xml:id="CAT_000040_e66">
-                    <num>66</num>
-                    <name type="author">Humboldt (Alex. de),</name>
-                    <trait>
-                        <p>illustre savant</p>
-                    </trait>
-                    <desc>L. a. s. à Ducis ; (1815), 2 p. in-4. 8</desc>
-                    <note>Belle et curieuse lettre relative au séjour des Prussiens à Versailles.
-                        Humboldt recommande son illustre confrère à l'Institut au général Grolimann,
-                        l'homme le plus puissant du quartier-général de Blâcher, et qui doit rendre
-                        la paix domestique à Versailles</note>
-                </item>
-
-                <item n="67" xml:id="CAT_000040_e67">
-                    <num>67</num>
-                    <name type="author">Janin (Jules),</name>
-                    <trait>
-                        <p>le célèbre critique, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à à M. Véry, 1840, 3/4 de p. in-4. 4</desc>
-                </item>
-                <item n="68" xml:id="CAT_000040_e68">
-                    <num>68</num>
-                    <name type="author">Jeanne de France (la bienheureuse),</name>
-                    <trait>
-                        <p>reine de France, fille de Louis XI, femme de Louis XII, qui l'a répudiée,
-                            fondatrice de l'ordre de l'Annonciade, béatifiée par Benoït XIV</p>
-                    </trait>
-                    <desc>L. sig. aux gens des comptes, à Blois; Chinon, 2 avril, 1 p. in-4. Belle
-                        pièce. Très-rare. 80</desc>
-                    <note>Sur les remontrances d'Hector Montenard, gouverneur d'Ast, elle ordonne de
-                        faire réparer les châteaux de la Tour et de la Melle</note>
-                </item>
-
-                <item n="69" xml:id="CAT_000040_e69">
-                    <num>69</num>
-                    <name type="author">Joséphine (l'impératrice</name>
-                    <desc>L. sig., an XI, 1/2 p. in-4. 6</desc>
-                    <note>Recommandation en faveur de Mlle Coulon, artiste du
-                        Théâtre-des-Arts</note>
-                </item>
-
-                <item n="70" xml:id="CAT_000040_e70">
-                    <num>70</num>
-                    <name type="author">Joubert (Jos.),</name>
-                    <trait>
-                        <p>écrivain moraliste profond et original, ami de Fontanes et de
-                            Châteaubriand</p>
-                    </trait>
-                    <desc>L. a. s.; Aunay, 1er octobre 1813, 1 p. in-8. Rare. 15</desc>
-                </item>
-
-                <item n="71" xml:id="CAT_000040_e71">
-                    <num>71</num>
-                    <name type="author">Junot, </name>
-                    <trait>
-                        <p>duc d'Abrantés, un des plus intrépides lieutenants de Napoléon Ier.</p>
-                    </trait>
-                    <desc>L. a. s. à l'ordonnateur en chef de l'armée de Portugal; en rade de
-                        Lisbonne, 18 sept. 1808, 1 p. 1/4 in-f. Rare autographe signé. 10</desc>
-                    <note>Curieuse lettre relative à sa campagne de Portugal. Il reproche sévèrement
-                        à son ordonnateur de laisser manquer de vivres ses troupes. Il a donné ordre
-                        au général Travot de ne pas le laisser retourner à bord avant qu'il n'ait
-                        pris des mesures efficaces</note>
-                </item>
-
-                <item n="72" xml:id="CAT_000040_e72">
-                    <num>72</num>
-                    <name type="author">Kock (Paul de),</name>
-                    <trait>
-                        <p>le romancier populaire</p>
-                    </trait>
-                    <desc>L. a. s. à son ami Blondat, 1 p. in-4. Légères piqûres de rouille.
-                        6</desc>
-                    <note>Très-plaisante lettre d'invitation à une joyeuse fête de famille, où il y
-                        aura un merveilleux concert. « De plus, il y aura danse, ballet, évolutions,
-                        décors, galettes, franchipanes, etc., avec lesquels j'ai l'honneur
-                        d'être.... » Il intitule sa lettre : Brin-d'Amour à don Belle-Fleur</note>
-                </item>
-
-                <item n="73" xml:id="CAT_000040_e73">
-                    <num>73</num>
-                    <name type="author">Lacordaire (H.-D.),</name>
-                    <trait>
-                        <p>célèbre prédicateur, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à M. Vagner, imprimeur ; Paris, 1850, 1 p. in-4. 6</desc>
-                    <note>Relative à l'impression de ses Conférences, dont il reverra les épreuves à
-                        Rome</note>
-                </item>
-
-                <item n="74" xml:id="CAT_000040_e74">
-                    <num>74</num>
-                    <name type="author">Lafayette,</name>
-                    <trait>
-                        <p>l'illustre général.</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-4. 5</desc>
-                </item>
-
-
-                <item n="75" xml:id="CAT_000040_e75">
-                    <num>75</num>
-                    <name type="author">Lamartine (A. de),</name>
-                    <trait>
-                        <p>l'illustre écrivain</p>
-                    </trait>
-                    <desc>L. a. s. à un général, 1845, 2 p. 1/2 in-8. 5</desc>
-                </item>
-
-                <item n="76" xml:id="CAT_000040_e76">
-                    <num>76</num>
-                    <name type="author">Lambrechts (F.),</name>
-                    <trait>
-                        <p>ministre de l'intérieur sous la présidence de M. Thiers</p>
-                    </trait>
-                    <desc>Billet de 4 lignes aut. sig. Rare. 4</desc>
-                </item>
-
-                <item n="77" xml:id="CAT_000040_e77">
-                    <num>77</num>
-                    <name type="author">Lamennais (F. de),</name>
-                    <trait>
-                        <p>illustre écrivain français</p>
-                    </trait>
-                    <desc>L. a. s. à Roger, de l'Acad. fr.; Saint-Malo, 1822, 1 p. 1/3 in-4. Belle
-                        pièce. 6</desc>
-                </item>
-
-                <item n="78" xml:id="CAT_000040_e78">
-                    <num>78</num>
-                    <name type="author">Lanclos (Ninon de),</name>
-                    <trait>
-                        <p>l'Aspasie du XVIIe siècle</p>
-                    </trait>
-                    <desc>Quittance sig. sur vélin d'une rente constituée sur les aides et gabelles
-                        de France, 1er juin 1698, in-8. 80</desc>
-                    <note>Pièce très-rare, les quelques lettres que l'on trouve de Ninon de Lanclos
-                        n'étant point signées</note>
-                </item>
-
-                <item n="79" xml:id="CAT_000040_e79">
-                    <num>79</num>
-                    <name type="author">Languet de Gergy,</name>
-                    <trait>
-                        <p>archevêque de Sens, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à M. Le Paige, 1747, 1/2 p. in-8. 4</desc>
-                </item>
-
-                <item n="80" xml:id="CAT_000040_e80">
-                    <num>80</num>
-                    <name type="author">La Porte (Madelaine de),</name>
-                    <trait>
-                        <p>connue sous le nom de Mlle de La Meilleraye, parente de Richelieu, qui la
-                            placa auprès de Marie de Médicis, abbesse de Chelles</p>
-                    </trait>
-                    <desc>L. a., 1 p. in-f. Petite écornure dans une marge. 30</desc>
-                </item>
-
-                <item n="81" xml:id="CAT_000040_e81">
-                    <num>81</num>
-                    <name type="author">Laya (J.-L.),</name>
-                    <trait>
-                        <p>auteur de l'Ami des lois, membre de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. au comédien Colson, 1 p. in-4. 4</desc>
-                    <note>Il le félicite sur la manière aisée dont il a joué hier le Clitandre des
-                        Femmes savantes</note>
-                </item>
-
-                <item n="82" xml:id="CAT_000040_e82">
-                    <num>82</num>
-                    <name type="author">Lazerges (J.-R.-Hip.),</name>
-                    <trait>
-                        <p>peintre distingué, né à Narbonne</p>
-                    </trait>
-                    <desc>L. a. s., 1856, 2 p. 1/2 in-8. 3</desc>
-                </item>
-
-                <item n="83" xml:id="CAT_000040_e83">
-                    <num>83</num>
-                    <name type="author">Lebon (Joseph),</name>
-                    <trait>
-                        <p>le fameux proconsul d'Arras</p>
-                    </trait>
-                    <desc>L. a. s. au conventionnel Laurent; Saint-Pol, 16 brum. an II. 1 p. in-8.
-                        18</desc>
-                    <note>Curieuse lettre sur un tanneur qui est soumis à deux réquisitions, celle
-                        qui l'appelle aux frontières et celle qui l'oblige à travailler pour les
-                        fournitures de l'armée. Lebon pense que ce citoyen, nommé Havet, est
-                        très-utile dans sa tannerie, « surtout au moment où tant de scélérats font
-                        disparaître les matières les plus nécessaires aux succès de nos
-                        armes.</note>
-                </item>
-
-                <item n="84" xml:id="CAT_000040_e84">
-                    <num>84</num>
-                    <name type="author">Lesdiguières (Marie Vignon, duchesse de),</name>
-                    <trait>
-                        <p>marquise de Treffort, femme du connétable de Lesdiguières, et dont
-                            Tallemant raconte les histoires les plus étranges</p>
-                    </trait>
-                    <desc>L. a. s. à M. d'Arbaud, secrétaire d'Etat; 4 sept. 1628, 3 p. in-folio.
-                        Très-rare. 100</desc>
-                    <note>Très-curieuse lettre, relative à ses démêlés avec le maréchal de Créquy,
-                        son gendre, après la mort de Lesdiguières. Elle se plaint de la malicieuse
-                        action que lui intente le maréchal pour avoir le peu de bien que ses soins
-                        et ses peines lui ont acquis par les bienfaits de Leurs Méjestés. Il ne se
-                        contente pas d'avoir dépouillé sa fille et de jouir des travaux d'un si
-                        grand personnage (Lesdiguières), il la tyranise injustement et l'oblige à
-                        avoir recours à la justice du roi. (La famille Créquy, très- avide, tentait
-                        de dépouiller Marie Vignon des biens que lui avait laissés le
-                        connétable.)</note>
-                </item>
-                <item n="85" xml:id="CAT_000040_e85">
-                    <num>85</num>
-                    <name type="author">Lincoln (Abraham),</name>
-                    <trait>
-                        <p>président des Etats-Unis</p>
-                    </trait>
-                    <desc>4 petites lignes aut. sig., 29 mars 1862, in-18. Très-Rare. 12</desc>
-                </item>
-
-                <item n="86" xml:id="CAT_000040_e86">
-                    <num>86</num>
-                    <name type="author">Louis XVI,</name>
-                    <trait>
-                        <p>roi des Français</p>
-                    </trait>
-                    <desc>Pièce sig. avec le mot payez aut., 1776, 1/2 p. in-f. 6</desc>
-                    <note>Ordre de payer 300 livres à Pierre Régnier, âgé de 109 ans, pour une année
-                        de sa subsistance</note>
-                </item>
-
-                <item n="87" xml:id="CAT_000040_e87">
-                    <num>87</num>
-                    <name type="author">Louis XVI,</name>
-                    <trait>
-                        <p>Le même.</p>
-                    </trait>
-                    <desc>Note de 6 lignes aut., 1 p. 1/2 in-8. 10</desc>
-                    <note>Liste du tiré que sa Majesté a fait dans le parc de Villeneuve-le-Roi, ce
-                        samedi 8 octobre 1774. Le gibier tué par Louis XVI se monte à 251 pièces,
-                        dont il fait lui-même la répartition pour la bouche de la Reine, les petits
-                        appartements, etc</note>
-                </item>
-
-                <item n="88" xml:id="CAT_000040_e88">
-                    <num>88</num>
-                    <name type="author">Louis-Philippe Ier,</name>
-                    <trait>
-                        <p>roi des Français</p>
-                    </trait>
-                    <desc>L. sig., contresignée par M. Thiers, 1834, 1/2 p. in-4. 5</desc>
-                </item>
-
-                <item n="89" xml:id="CAT_000040_e89">
-                    <num>89</num>
-                    <name type="author">Mac-Mahon (la maréchale de</name>
-                    <desc>L. a. s.; Alger, 10 déc. 2 p. 1/4 in-8. 4</desc>
-                    <note>Demande d'emploi pour un père de famille</note>
-                </item>
-
-                <item n="90" xml:id="CAT_000040_e90">
-                    <num>90</num>
-                    <name type="author">Malet (le général),</name>
-                    <trait>
-                        <p>le chef de la conspiration de 1812</p>
-                    </trait>
-                    <desc>L. a. s.; Angouleme, 21 prair. an XII, 2 p. in-f. 8</desc>
-                    <note>Curieuse lettre, où il se plaint d'être remplacé dans le commandement du
-                        département de la Charente au moment même où il vient de dénoncer les
-                        factieux royaux qui tenaient des conciliabules presque publics</note>
-                </item>
-
-                <item n="91" xml:id="CAT_000040_e91">
-                    <num>91</num>
-                    <name type="author">Malmesbury (lord James),</name>
-                    <trait>
-                        <p>célèbre homme d'état tory, l'ami intime de Napoléon III</p>
-                    </trait>
-                    <desc>L. a. s. en français, à un prince, 1860, 1 p. in-8. 3</desc>
-                </item>
-
-                <item n="92" xml:id="CAT_000040_e92">
-                    <num>92</num>
-                    <name type="author">Marcère (de),</name>
-                    <trait>
-                        <p>député, ministre de l'intérieur</p>
-                    </trait>
-                    <desc>L. a. s. ; Versailles, 1873, 1 p. in-8. Rare. 5</desc>
-                </item>
-                <item n="93" xml:id="CAT_000040_e93">
-                    <num>93</num>
-                    <name type="author">Marguerite de France,</name>
-                    <trait>
-                        <p>duchesse de Savoie, fille de François Ier et de Claude de France, femme
-                            du duc de Savoie Emmanuel-Philibert, princesse célèbre par son savoir et
-                            son amabilité, célébrée par Ronsard et les autres poètes de son
-                            temps</p>
-                    </trait>
-                    <desc>L. a. s. (à Charles IX, vers 1570), 1 p. in-f. Rare. 50</desc>
-                    <note>Superbe pièce, mais qui pourrait avoir été rognée dans la marge de tête,
-                        encore très-grande. </note>
-                </item>
-
-                <item n="94" xml:id="CAT_000040_e94">
-                    <num>94</num>
-                    <name type="author">Marie d'Anjou,</name>
-                    <trait>
-                        <p>reine de France, femme de Charles VII, fondratrice de l'hôpital de
-                            Bourges, célèbre par son goût pour les romans de chevalerie</p>
-                    </trait>
-                    <desc>Pièce sig., sur vélin; 8 mars 1444, 1 p. in-4 obl. Précieuse pièce,
-                        parfaitement conservée. 50</desc>
-                    <note>Elle confesse avoir reçu de maître Etienne Petit, receveur des finances en
-                        Languedoc, par les mains de Jacques Coeur, argentier du roi, la somme de
-                        1,500 livres tournois, que le roi lui a donnée pour acheter une chaine
-                        d'or.</note>
-                </item>
-                <item n="95" xml:id="CAT_000040_e95">
-                    <num>95</num>
-                    <name type="author">Marie-Thérèse,</name>
-                    <trait>
-                        <p>impératrice d'Allemagne, dite la Grande</p>
-                    </trait>
-                    <desc>L. sig. à son résident en Pologne; 1743, 6 p. in-f., sceau. 10</desc>
-                </item>
-
-                <item n="96" xml:id="CAT_000040_e96">
-                    <num>96</num>
-                    <name type="author">Marie-Leczinska,</name>
-                    <trait>
-                        <p>reine de France, femme de Louis XV</p>
-                    </trait>
-                    <desc>L. a. s. au cardinal de Fleury; oct. 1729, 1 p. in-4, beaux cachets à ses
-                        armes, avec soies. Superbe et curieuse pièce. 50</desc>
-                    <note>Epître d'un tour très-piquant. Elle prie le cardinal de lui donner des
-                        nouvelles du roi et de l'assurer de sa tendresse. Le dauphin se porte
-                        très-bien. Quant à elle, elle vient de souper en compagnie, et s'il ne
-                        trouve pas beaucoup de raison dans sa lettre, il ne faut pas qu'il en soit
-                        étonné : « Ce qu'il y a de certain, c'est que l'on dit dans le vin la
-                        vérité, et que c'est avec une très-grande que je suis, mon cher
-                        cardinal...</note>
-                </item>
-
-                <item n="97" xml:id="CAT_000040_e97">
-                    <num>97</num>
-                    <name type="author">Mars (Mlle),</name>
-                    <trait>
-                        <p>la célèbre comédienne</p>
-                    </trait>
-                    <desc>L. a. s. à M. Védel, directeur du Théâtre-Français, 1 p. in-8. Jolie
-                        pièce. 6</desc>
-                </item>
-
-                <item n="98" xml:id="CAT_000040_e98">
-                    <num>98</num>
-                    <name type="author">Mazzini (Jos.),</name>
-                    <trait>
-                        <p>le dictateur de la République romaine</p>
-                    </trait>
-                    <desc>L. a. s. en français, 2 p. in-18. 5</desc>
-                    <note>Jolie et curiéuse épître. Il n'est jamais libre le dimanche, qu'il passe
-                        avec des amis intimes, pour ainsi dire en famille. « Tout puéril que cela
-                        puisse paraître à beaucoup de monde, c'est la seule tradition que je tienne
-                        à ne pas briser.</note>
-                </item>
-
-                <item n="99" xml:id="CAT_000040_e99">
-                    <num>99</num>
-                    <name type="author">Mérimée (Prosper),</name>
-                    <trait>
-                        <p>l'auteur de Clara Gazul, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s., 1856, 3 p. in-8. 6</desc>
-                    <note>Curieuse appréciation d'un manuscrit qu'on lui communique sur des
-                        documents historiques anciens. Il y pose les vrais principes de la critique
-                        en matière d'érudition</note>
-                </item>
-
-                <item n="100" xml:id="CAT_000040_e100">
-                    <num>100</num>
-                    <name type="author">Mickiewicz (Adam),</name>
-                    <trait>
-                        <p>célèbre poète et patriote polonais</p>
-                    </trait>
-                    <desc>L. a. s. en français à M. Paul Muchanoff, 1/2 p. in-8. 3</desc>
-                </item>
-
-                <item n="101" xml:id="CAT_000040_e101">
-                    <num>101</num>
-                    <name type="author">Mieroslawski (Louis),</name>
-                    <trait>
-                        <p>célèbre publiciste et général polonais, chef de l'insurrection de
-                            1846</p>
-                    </trait>
-                    <desc>L. a. s., en français, 1 p. in-8. 4</desc>
-                    <note>Il va s'aboucher avec M. de Girardin pour traiter de sa collaboration au
-                        journal la Presse</note>
-                </item>
-
-                <item n="102" xml:id="CAT_000040_e102">
-                    <num>102</num>
-                    <name type="author">Mirabeau,</name>
-                    <trait>
-                        <p>le grand orateur</p>
-                    </trait>
-                    <desc>L. a. s. (à M. Boucher, employé de la police), 5 av. 1778, 1/2 p. in-8.
-                        15</desc>
-                    <note>Joli et curieux billet écrit du donjon de Vincennes. Il demande que l'on
-                        remette des pieds à ceux de ses bas dont la jambe est encore bonne, et
-                        ajoute : « cela me ménera quelque temps.</note>
-                </item>
-
-                <item n="103" xml:id="CAT_000040_e103">
-                    <num>103</num>
-                    <name type="author">Mistral (Fréd.),</name>
-                    <trait>
-                        <p>célèbre poète provencal</p>
-                    </trait>
-                    <desc>L. a. s.; 1876, 2 p. in-8. Curieuse. 3</desc>
-                </item>
-
-                <item n="104" xml:id="CAT_000040_e104">
-                    <num>104</num>
-                    <name type="author">Montalembert (Ch. de),</name>
-                    <trait>
-                        <p>célèbre orateur parlementaire</p>
-                    </trait>
-                    <desc>L. a. s. à un de ses collègues à l'Assemblée nationale, 21 mai 1850, 1 p.
-                        1/2 in-8. 4</desc>
-                    <note>Il le prie de lui céder son tour de parole pour répondre au discours du
-                        général Cavaignac</note>
-                </item>
-
-                <item n="105" xml:id="CAT_000040_e105">
-                    <num>105</num>
-                    <name type="author">Montez (Lola),</name>
-                    <trait>
-                        <p>danseuse, la célèbre maîtresse du roi Louis Ier, de Bavière</p>
-                    </trait>
-                    <desc>L. a. s. au prince Radziwill, 1 p. in-8. Cachet. Rare. 8</desc>
-                </item>
-
-                <item n="106" xml:id="CAT_000040_e106">
-                    <num>106</num>
-                    <name type="author">Murat (Joachim),</name>
-                    <trait>
-                        <p>roi de Naples</p>
-                    </trait>
-                    <desc>L. sig.; an XIII, 1 p. in-f. 3</desc>
-                </item>
-
-                <item n="107" xml:id="CAT_000040_e107">
-                    <num>107</num>
-                    <name type="author">Napoléon 1er,</name>
-                    <trait>
-                        <p>empereur des Français</p>
-                    </trait>
-                    <desc>Sa signature Bonaparte, comme premier Consul, avec 4 mots aut. sur une
-                        lettre du général Reille, an VIII, 1 p. in-4. 10</desc>
-                </item>
-
-                <item n="108" xml:id="CAT_000040_e108">
-                    <num>108</num>
-                    <name type="author">Napoléon 1er,</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>Sa signature Napoléon, en toutes lettres, avec le mot approuvé aut., 1806,
-                        1 p. in-f. 10</desc>
-                </item>
-
-                <item n="109" xml:id="CAT_000040_e109">
-                    <num>109</num>
-                    <name type="author">Napoléon 1er,</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>Apostille sig. N, avec une apostille aut. sig. du maréchal Davout, 1815, 3
-                        p. in-f. 5</desc>
-                </item>
-
-                <item n="110" xml:id="CAT_000040_e110">
-                    <num>110</num>
-                    <name type="author">Nivernois (le duc de),</name>
-                    <trait>
-                        <p>un de nos meilleurs fabulistes, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à M. Berryer, lieutenant de police, 1757, 1/2 p. in-4. Cachet à
-                        ses armes. 6</desc>
-                    <note>Jolie et intéressante lettre en faveur du peintre Chantereau, qui vient
-                        d'être emprisonné au Petit-Châtelet. Il assure que c'est un garçon de
-                        beaucoup de talent, qui a la tête un peu vive, mais qui est incapable d'une
-                        mauvaise action</note>
-                </item>
-
-                <item n="111" xml:id="CAT_000040_e111">
-                    <num>111</num>
-                    <name type="author">Ollivier (Emile),</name>
-                    <trait>
-                        <p>ministre de Napoléon III, de l'Acad. fr</p>
-                    </trait>
-                    <desc>L. a. s. à un homme de lettres, 1861, 1 p. in-8. Jolie pièce. 4</desc>
-                </item>
-                <item n="112" xml:id="CAT_000040_e112">
-                    <num>112</num>
-                    <name type="author">Orfila,</name>
-                    <trait>
-                        <p>savant chimiste</p>
-                    </trait>
-                    <desc>L. a. s.; 22 janv. 1816, 1 p. in-4. 5</desc>
-                    <note>Belle lettre relative à son élection comme membre correspondant de
-                        l'Institut</note>
-                </item>
-
-                <item n="113" xml:id="CAT_000040_e113">
-                    <num>113</num>
-                    <name type="author">Parabère (Marie-Madeleine de La Vieuville, comtesse
-                        de),</name>
-                    <trait>
-                        <p>la célèbre maîtresse du Régent</p>
-                    </trait>
-                    <desc>L. a. s. au cardinal de Fleury; 26 janv. 1740, 4 p. pet. in-4. Très-rare.
-                        75</desc>
-                    <note>Très-jolie lettre par laquelle elle demande un régiment pour son fils, le
-                        comte de Parabère, capitaine de carabiniers, qui a fait la guerre d'Italie
-                        avec l'approbation de tous</note>
-                </item>
-
-                <item n="114" xml:id="CAT_000040_e114">
-                    <num>114</num>
-                    <name type="author">Patterson (Elisabeth),</name>
-                    <trait>
-                        <p>première femme de Jérôme Bonaparte, roi de Westphalie, dont il fut séparé
-                            par ordre de Napoléon Ier</p>
-                    </trait>
-                    <desc>L. a. s. à M. G. Grzymala, 1833, 2 p. in-8. Rare. 10</desc>
-                </item>
-
-                <item n="115" xml:id="CAT_000040_e115">
-                    <num>115</num>
-                    <name type="author">Peel (Robert),</name>
-                    <trait>
-                        <p>illustre homme d'Etat anglais</p>
-                    </trait>
-                    <desc>L. a. s., en français, 1860, 3 p. in-8. Très-jolie pièce. 6</desc>
-                </item>
-
-                <item n="116" xml:id="CAT_000040_e116">
-                    <num>116</num>
-                    <name type="author">Persigny (le duc de),</name>
-                    <trait>
-                        <p>ministre et ami de Napoléon III</p>
-                    </trait>
-                    <desc>L. a. s., 1858, 1/2 p. in-8. 3</desc>
-                </item>
-
-                <item n="117" xml:id="CAT_000040_e117">
-                    <num>117</num>
-                    <name type="author">Persigny (le duc de),</name>
-                    <trait>
-                        <p>Le même</p>
-                    </trait>
-                    <desc>Certificat de vie sig., 1854, 1 p. in-f. 2</desc>
-                    <note>Pièce donnant des renseignements authentiques sur ses nom, prénoms, lieu
-                        et époque de naissance</note>
-                </item>
-
-                <item n="118" xml:id="CAT_000040_e118">
-                    <num>118</num>
-                    <name type="author">Poniatowski (Jos.),</name>
-                    <trait>
-                        <p>brave guerrier polonais, maréchal de France</p>
-                    </trait>
-                    <desc>L. sig., en français, comme commandant en chef de l'armée polonaise;
-                        Varsovie, 15 janv. 1810, 1 p. in-f. Belle pièce. Rare. 20</desc>
-                </item>
-
-                <item n="119" xml:id="CAT_000040_e119">
-                    <num>119</num>
-                    <name type="author">Ristori (Adélaïde),</name>
-                    <trait>
-                        <p>cantatrice et tragédienne célèbre</p>
-                    </trait>
-                    <desc>L. a. s. au ministre Muchanow, 1 p. 1/2 in-12. Enveloppe. Très-jolie
-                        pièce. 6</desc>
-                </item>
-
-                <item n="120" xml:id="CAT_000040_e120">
-                    <num>120</num>
-                    <name type="author">Rohan (Henriette de),</name>
-                    <trait>
-                        <p>la plus jeune des filles de Catherine de Parthenay</p>
-                    </trait>
-                    <desc>L. a. s. à Richelieu; 29 mai 1624, 1 p. in-fol., cachets. 45</desc>
-                </item>
-
-                <item n="121" xml:id="CAT_000040_e121">
-                    <num>121</num>
-                    <name type="author">Rouget de Lisle</name>
-                    <trait>
-                        <p>l'auteur de la Marseillaise.</p>
-                    </trait>
-                    <desc>L. a. s., 19 déc. 1809, 2 p. in-4. 15</desc>
-                    <note>Belle et curieuse épitre. Propriétaire d'un lustre magnifique en cristal
-                        de roche, il propose de le céder au gouvernement. C'est le dernier débris
-                        qui lui reste. « Vous vous assureriez des droits éternels à la
-                        reconnaissance d'un homme qui ne fut pas toujours inutile à sa patrie, qui
-                        fut quelquefois utile aux autres, et que des circonstances bien difficiles
-                        peuvent seules forcer à vous importuner.</note>
-                </item>
-
-                <item n="122" xml:id="CAT_000040_e122">
-                    <num>122</num>
-                    <name type="author">Saint-Pierre (Bernardin de),</name>
-                    <trait>
-                        <p>l'auteur de Paul et Virginie</p>
-                    </trait>
-                    <desc>L. a. s., an X, 3/4 de p. in-4. Belle pièce. 10</desc>
-                    <note>Relative à son indemnité de 600 francs pour son déménagement du
-                        Louvre.</note>
-                </item>
-
-                <item n="123" xml:id="CAT_000040_e123">
-                    <num>123</num>
-                    <name type="author">Sainte-Beuve,</name>
-                    <trait>
-                        <p>le célèbre critique, de l'Acad. fr.</p>
-                    </trait>
-                    <desc>L. a. s., 1 p. in-8. 3</desc>
-                </item>
-
-
-            </list>
-        </body>
-        <gap/>
-    </text>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000040">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>CAT_000040</title>
+            <respStmt>
+               <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
+               <resp>
+                  <date when="2019">2019</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic
+                  (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>51</num>
+               <editor>Gabriel Charavay</editor>
+               <publisher>Gabriel Charavay</publisher>
+               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
+               <date when="1877-03">Mars 1877</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine/>
+                     </address>
+                     <persName type="auctioneer"/>
+                     <persName type="expert"/>
+                     <date/>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to
+               documents for sale. All text preceding or succeeding the list of documents for sale
+               is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.6" ident="Transkribus" when="2019">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2019-06-10">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized
+                  dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="1" xml:id="CAT_000040_e1">
+               <num type="lot">1</num>
+               <name type="author">Alembert (J. Lerond d')</name>
+               <trait>
+                  <p>littérateur du XVIIIe siècle, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e1_d1">L. a. s. à l'abbé Fromans, chanoine de Vernon, 1779,
+                  1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="2" xml:id="CAT_000040_e2">
+               <num type="lot">2</num>
+               <name type="author">Andrieux</name>
+               <trait>
+                  <p>célèbre auteur dram., de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e2_d1">L. a. s., 1 p. in-8, sur sa tragédie de
+                  Brutus.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="3" xml:id="CAT_000040_e3">
+               <num type="lot">3</num>
+               <name type="author">Auguste II</name>
+               <trait>
+                  <p>roi de Pologne, compétiteur heureux du prince de Conti, père du maréchal de
+                     Saxe</p>
+               </trait>
+               <desc xml:id="CAT_000040_e3_d1">L. sig., 7 déc. 1697, 1 p. in-f., traces de
+                  sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="4" xml:id="CAT_000040_e4">
+               <num type="lot">4</num>
+               <name type="author">Auguste III</name>
+               <trait>
+                  <p>roi de Pologne</p>
+               </trait>
+               <desc xml:id="CAT_000040_e4_d1">L. sig. en français, au grand chancelier de
+                  Lithuanie, 1736, 1 p. 1/4 in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="5" xml:id="CAT_000040_e5">
+               <num type="lot">5</num>
+               <name type="author">Balzac (Honoré de)</name>
+               <trait>
+                  <p>le grand romancier</p>
+               </trait>
+               <desc xml:id="CAT_000040_e5_d1">L. a. sig. de ses initiales à M. Frankowski, 1837, 1
+                  p. in-8. Fatiguée. </desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Curieuse épitre. Il l'a attendu chez la duchesse jusqu'à minuit et demi. « Vous
+                  y auriez vu des personnages curieux et votre belle Guiccioli.</note>
+            </item>
+            <item n="6" xml:id="CAT_000040_e6">
+               <num type="lot">6</num>
+               <name type="author">Barbés (Armand)</name>
+               <trait>
+                  <p>le célèbre révolutionnaire</p>
+               </trait>
+               <desc xml:id="CAT_000040_e6_d1">L. a. s. à M. Virmaître, avocat; Sainte-Pélagie, 26
+                  août 1836, 2 p. in-4. </desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Curieuse lettre. Condamné pour le complot des poudres, il n'était pas d'avis de
+                  faire appel devant la Cour royale, et il ne s'y est décidé que sur le conseil de
+                  ses co-accusés, et surtout de Blanqui. Il ajoute : « deux ou trois mois
+                  d'emprisonnement de plus ne sont pas grand chose par le temps qui court. » Il le
+                  prie de souhaiter le bonjour à Godefroy Cavaignac quand il écrira à Londres</note>
+            </item>
+            <item n="7" xml:id="CAT_000040_e7">
+               <num type="lot">7</num>
+               <name type="author">Barbier (Aug.)</name>
+               <trait>
+                  <p>poète satyrique, l'auteur des Iambes, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e7_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="8" xml:id="CAT_000040_e8">
+               <num type="lot">8</num>
+               <name type="author">Beaumarchais (Caron de)</name>
+               <trait>
+                  <p>l'auteur du Mariage de Figaro</p>
+               </trait>
+               <desc xml:id="CAT_000040_e8_d1">L. a. s. à son ami M. de Francy; 1781, 1 p. in-4.
+                  Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+            </item>
+            <item n="9" xml:id="CAT_000040_e9">
+               <num type="lot">9</num>
+               <name type="author">Béranger (J.-P.)</name>
+               <trait>
+                  <p>le célèbre chansonnier</p>
+               </trait>
+               <desc xml:id="CAT_000040_e9_d1">L. a. s. à M. de Martonne, 1846, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Au sujet d'une jolie pièce de vers que M. de Martonne lui a adressée</note>
+            </item>
+            <item n="10" xml:id="CAT_000040_e10">
+               <num type="lot">10</num>
+               <name type="author">Berquin (Arnaud)</name>
+               <trait>
+                  <p>surnommé l'Ami des enfants</p>
+               </trait>
+               <desc xml:id="CAT_000040_e10_d1">Pièce aut. sig.; 20 mai 1784, 1/4 de p. in-4.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <note>Il reconnaît avoir reçu de M. Marmontel la somme de 1200 livres, pour le prix
+                  d'utilité que lui a décerné l'Académie française.</note>
+            </item>
+            <item n="11" xml:id="CAT_000040_e11">
+               <num type="lot">11</num>
+               <name type="author">Berryer</name>
+               <trait>
+                  <p>illustre orateur</p>
+               </trait>
+               <desc xml:id="CAT_000040_e11_d1">L. a. s. à M. Virmaître, 1 p. in-8. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <note>Au sujet d'un discours qu'il a prononcé et qu'il destine au journal le
+                  Corsaire</note>
+            </item>
+            <item n="12" xml:id="CAT_000040_e12">
+               <num type="lot">12</num>
+               <name type="author">Blanc (Louis)</name>
+               <trait>
+                  <p>historien et homme d'Etat</p>
+               </trait>
+               <desc xml:id="CAT_000040_e12_d1">L. a. s. au rédacteur du Corsaire-Satan; Londres, 22
+                  nov. 1848, 1 p. in-8. </desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Réponse à un article de ce journal qui venait d'annoncer que la Banque de
+                  France avait été chargée de lui faire passer la somme de 250,000 fr. « Ceci,
+                  Monsieur, est une calomnie odieuse et absurde.</note>
+            </item>
+            <item n="13" xml:id="CAT_000040_e13">
+               <num type="lot">13</num>
+               <name type="author">Bornier (Henri de)</name>
+               <trait>
+                  <p>célèbre auteur dramatique, auteur de la Fille de Roland</p>
+               </trait>
+               <desc xml:id="CAT_000040_e13_d1">L. a. s. (à M. de Martonne), 1845, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <note>Relative à son recueil de poésies intitulé Premières feuilles</note>
+            </item>
+            <item n="14" xml:id="CAT_000040_e14">
+               <num type="lot">14</num>
+               <name type="author">Boufflers (Stan., chevalier de)</name>
+               <trait>
+                  <p>poète et philosophe, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e14_d1">L. a. s., an VIII, 1/2 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Relative à son brevet de pension</note>
+            </item>
+            <item n="15" xml:id="CAT_000040_e15">
+               <num type="lot">15</num>
+               <name type="author">Bougainville (Louis-Ant. de)</name>
+               <trait>
+                  <p>illustre navigateur</p>
+               </trait>
+               <desc xml:id="CAT_000040_e15_d1">L. a. s., 1808, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="16" xml:id="CAT_000040_e16">
+               <num type="lot">16</num>
+               <name type="author">Bouilhet (Louis)</name>
+               <trait>
+                  <p>poète distingué et auteur dramatique</p>
+               </trait>
+               <desc xml:id="CAT_000040_e16_d1">L. a. s. (à M. de Martonne); Mantes, 1867, 1 p. 1/2
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="17" xml:id="CAT_000040_e17">
+               <num type="lot">17</num>
+               <name type="author">Bourgogne (Marie-Adélaïde de Savoie, duchesse de)</name>
+               <trait>
+                  <p>dauphine de France, qui fit les délices de la cour de Louis XIV</p>
+               </trait>
+               <desc xml:id="CAT_000040_e17_d1">L. aut., paraphée, à sa grand'mère; Marly, 15 avril
+                  1709, 1 p. 1/2 in-4. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <note>Jolie et charmante épitre, dans laquelle elle parle de son fils</note>
+            </item>
+            <item n="18" xml:id="CAT_000040_e18">
+               <num type="lot">18</num>
+               <name type="author">Bugeaud (le maréchal)</name>
+               <trait>
+                  <p>duc d'Isly</p>
+               </trait>
+               <desc xml:id="CAT_000040_e18_d1">L. a. s. au général L. a. Moricière; Blidah, 1842, 5 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Très-intéressante lettre dans laquelle il trace le plan de sa prochaine
+                  campagne contre les Arabes insoumis. Il demande à La Moricière de l'éclairer de
+                  ses lumières. Il cite avec éloge les généraux Pélissier, Martimprey, Bedeau,
+                  d'Hilliers, etc</note>
+            </item>
+            <item n="19" xml:id="CAT_000040_e19">
+               <num type="lot">19</num>
+               <name type="author">Bugeaud (le maréchal)</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e19_d1">L. a. s. au maréchal Soult; Alger, 26 juil. 1843, 2
+                  p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Belle et curieuse lettre relative au projet de son remplacement par le duc
+                  d'Aumale, comme gouverneur de l'Algérie, projet qui ne s'est réalisé que plus
+                  tard. Le prince devait d'abord faire l'intérim, et il conviendrait parfaitement à
+                  Bugeaud comme partageant ses idées sur la guerre et la politique d'Afrique. Il
+                  ajoute: « Je suis très-convainçu que l'on peut me remplacer pour le talent; mais
+                  on ne me remplacerait pas immédiatement pour mes antécèdents et pour l'autorité
+                  morale que deux ans et demi de guerre m'ont donnée sur les Arabes.</note>
+            </item>
+            <item n="20" xml:id="CAT_000040_e20">
+               <num type="lot">20</num>
+               <name type="author">Cagliostro (Lorenza Féliciani, comtesse de)</name>
+               <trait>
+                  <p>femme du fameux thaumaturge, qui fut mêlée à ses aventures, à l'affaire du
+                     collier, et partagea sa mauvaise fortune</p>
+               </trait>
+               <desc xml:id="CAT_000040_e20_d1">L. a. s., en italien, à Cagliostro, son mari, 1 p.
+                  in-4. Très-rare. </desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Curieuse épitre. Elle ne croit pas qu'il y ait une femme plus malheureuse au
+                  monde, de se voir ainsi éloignée de lui. Elle lui parle de plusieurs de leurs
+                  amis, de leur fils et de leur fille, Garacino et Garacina, et finit ainsi : « La
+                  tua fedele consorte, che tiama sino alla morte, comtesse de Cagliostro.</note>
+            </item>
+            <item n="21" xml:id="CAT_000040_e21">
+               <num type="lot">21</num>
+               <name type="author">Campan (Mme)</name>
+               <trait>
+                  <p>lectrice de Marie-Antoinette, surintendante de la maison d'Ecouen</p>
+               </trait>
+               <desc xml:id="CAT_000040_e21_d1">L. a. s. au citoyen Degoti; Saint-Germain, an VII,
+                  1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Belle lettre relative à un théâtre qu'elle établit pour ses
+                  pensionnaires</note>
+            </item>
+            <item n="22" xml:id="CAT_000040_e22">
+               <num type="lot">22</num>
+               <name type="author">Cappelle (Jacq.)</name>
+               <trait>
+                  <p>seigneur Du Pilloy, théologien protestant, savant chronologiste, professeur à
+                     l'Académie de Sedan</p>
+               </trait>
+               <desc xml:id="CAT_000040_e22_d1">Epître latine aut. sig. (en tète) à Jean Fabricius;
+                  Sedan, 1618, 1 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="23" xml:id="CAT_000040_e23">
+               <num type="lot">23</num>
+               <name type="author">Champagny (le comte Franz de)</name>
+               <trait>
+                  <p>historien, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e23_d1">L. a. s. à M. de Martonne, 1842, 1 p. in-8.
+                  Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="24" xml:id="CAT_000040_e24">
+               <num type="lot">24</num>
+               <name type="author">Chanzy (Ant.-Eug.-A.)</name>
+               <trait>
+                  <p>un des plus braves généraux de la guerre de 1870, gouverneur de l'Algérie, né
+                     dans les Ardennes</p>
+               </trait>
+               <desc xml:id="CAT_000040_e24_d1">L. a. s., 1849, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="25" xml:id="CAT_000040_e25">
+               <num type="lot">25</num>
+               <name type="author">Chateaubriand</name>
+               <trait>
+                  <p>l'illustre écrivain</p>
+               </trait>
+               <desc xml:id="CAT_000040_e25_d1">L. a. s.; 9 nov. (1830?), 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Très-curieuse lettre, écrite vraisemblablement après la révolution de 1830. Il
+                  reprend le sac et le mousquet quand il devrait être aux Invalides. Il ajoute : «
+                  Nous sommes dans ces temps où il faut que tous les royalistes marchent, les hommes
+                  mariés, les ultra en retraite, etc.</note>
+            </item>
+            <item n="26" xml:id="CAT_000040_e26">
+               <num type="lot">26</num>
+               <name type="author">Chateaubriand</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e26_d1">L. a. sig. de ses initiales au poète Chénedollé, 29
+                  sept., 1 p. in-8. Cachet à ses armes. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27" xml:id="CAT_000040_e27">
+               <num type="lot">27</num>
+               <name type="author">Chénedollé (Ch.-J. de)</name>
+               <trait>
+                  <p>célèbre poète normand, auteur du Génie de l'homme</p>
+               </trait>
+               <desc xml:id="CAT_000040_e27_d1">1° L. a. s. à la comtesse de Perey, 1832, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000040_e27_d2">2° L. a. Primevère, pièce de vers aut., inédite, 1 p. 1/4 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="28" xml:id="CAT_000040_e28">
+               <num type="lot">28</num>
+               <name type="author">Cobden (Richard)</name>
+               <trait>
+                  <p>illustre économiste anglais, l'apôtre du libre-échange</p>
+               </trait>
+               <desc xml:id="CAT_000040_e28_d1">L. a. s. à M. Cauville, 1857, 2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Très-curieuse lettre par laquelle il refuse de donner son portrait, refus qu'il
+                  a invariablement oppose à toutes les demandes qui lui ont été faites par ses
+                  amis</note>
+            </item>
+            <item n="29" xml:id="CAT_000040_e29">
+               <num type="lot">29</num>
+               <name type="author">Condé (Louis de Bourbon, prince de)</name>
+               <trait>
+                  <p>dit le Grand</p>
+               </trait>
+               <desc xml:id="CAT_000040_e29_d1">L. a. s. à M. Lenet; Dijon, 23 mars 1663, 1/3 de p.
+                  in-f. Cachets et soies. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+            </item>
+            <item n="30" xml:id="CAT_000040_e30">
+               <num type="lot">30</num>
+               <name type="author">Constant (Benjamin)</name>
+               <trait>
+                  <p>célèbre publiciste et orateur libéral</p>
+               </trait>
+               <desc xml:id="CAT_000040_e30_d1">L. a. s. à Mme de Montjoye; 18 nov. 1830, 1 p. 1/4
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Belle et curieuse lettre relative à la réception de sa femme chez la reine
+                  Marie-Amélie. « J'aurais été heureux que Mme Benj. Constant, déjà reçue avec tant
+                  de bonté, par Mme Adélaïde, eût une occasion nouvelle de faire sa cour à la
+                  famille dont la France attend son salut.</note>
+            </item>
+            <item n="31" xml:id="CAT_000040_e31">
+               <num type="lot">31</num>
+               <name type="author">Cooper (Fenimore)</name>
+               <trait>
+                  <p>le grand romancier américain</p>
+               </trait>
+               <desc xml:id="CAT_000040_e31_d1">L. a. s., en français, à M. Leini, 1831, 1 p. in-8.
+                  Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="32" xml:id="CAT_000040_e32">
+               <num type="lot">32</num>
+               <name type="author">Danton (Georges)</name>
+               <trait>
+                  <p>le célèbre conventionnel</p>
+               </trait>
+               <desc xml:id="CAT_000040_e32_d1">L. sig. de Danton, Barère, Lindet, Cambon et autres,
+                  comme membres du Comité de salut public, à la Municipalité de Charleville; Paris,
+                  26 av. 1793, 1 p. 1/2 in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <note>Ordre à la Municipalité de Charleville de faire transporter 2,000 fusils à
+                  l'arsenal de Péronne. (Danton n'ayant été que très-peu de temps membre du Comité
+                  de salut public, ses signatures en cette qualité sont très-rares.) </note>
+            </item>
+            <item n="33" xml:id="CAT_000040_e33">
+               <num type="lot">33</num>
+               <name type="author">David d'Angers</name>
+               <trait>
+                  <p>le grand statuaire.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e33_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="34" xml:id="CAT_000040_e34">
+               <num type="lot">34</num>
+               <name type="author">Delavigne (Casimir)</name>
+               <trait>
+                  <p>l'auteur des Messéniennes, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e34_d1">L. a. s. à une femme de lettres; 12 oct. 1835, 2 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Belle lettre relative à la première représentation de sa comédie de Don Juan
+                  d'Autriche.</note>
+            </item>
+            <item n="35" xml:id="CAT_000040_e35">
+               <num type="lot">35</num>
+               <name type="author">Diane de Poitiers</name>
+               <trait>
+                  <p>duchesse de Valentinois, la célèbre maîtresse de Henri II</p>
+               </trait>
+               <desc xml:id="CAT_000040_e35_d1">.-L. sig., avec la souscription autog., au seigneur
+                  de Ribadenez; Paris, 22 janv. (1553), 1 p. in-f., traces de cachets. Superbe
+                  pièce. Très-rare. </desc>
+               <measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <note>Lettre adressée à un envoyé confidentiel. Elle l'assure qu'il ne manquera pas
+                  d'argent, et lui recommande, quand il voudra lui écrire, de lui envoyer ses
+                  lettres par l'ambassadeur du roi</note>
+            </item>
+            <item n="36" xml:id="CAT_000040_e36">
+               <num type="lot">36</num>
+               <name type="author">Donizetti (Gaétano)</name>
+               <trait>
+                  <p>le grand compositeur italien</p>
+               </trait>
+               <desc xml:id="CAT_000040_e36_d1">L. a. s., 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="37" xml:id="CAT_000040_e37">
+               <num type="lot">37</num>
+               <name type="author">Dorval (Marie)</name>
+               <trait>
+                  <p>célèbre actrice</p>
+               </trait>
+               <desc xml:id="CAT_000040_e37_d1">L. a. s. à un prince; 1 p. 1/4 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="38" xml:id="CAT_000040_e38">
+               <num type="lot">38</num>
+               <name type="author">Doudan (H.)</name>
+               <trait>
+                  <p>spirituel épistolaire contemporain, dont on vient de publier la
+                     correspondance</p>
+               </trait>
+               <desc xml:id="CAT_000040_e38_d1">L. a. s. à un littérateur, 1 p. in-8. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Jolie épitre, d'un tour charmant</note>
+            </item>
+            <item n="39" xml:id="CAT_000040_e39">
+               <num type="lot">39</num>
+               <name type="author">Du Barry (Mme)</name>
+               <trait>
+                  <p>maîtresse de Louis XV</p>
+               </trait>
+               <desc xml:id="CAT_000040_e39_d1">Billet de 2 lignes aut., 17 sept. 1790, in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Reçu de 202 livres, qu'elle paye elle-même et qui est signé par Thirion, son
+                  créancier</note>
+            </item>
+            <item n="40" xml:id="CAT_000040_e40">
+               <num type="lot">40</num>
+               <name type="author">Dumas (Alex.)</name>
+               <trait>
+                  <p>père, le fécond romancier</p>
+               </trait>
+               <desc xml:id="CAT_000040_e40_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="41" xml:id="CAT_000040_e41">
+               <num type="lot">41</num>
+               <name type="author">Dumas (Alex.)</name>
+               <trait>
+                  <p>fils, célèbre auteur dramatique, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e41_d1">L. a. s. de 3 lignes, à M. de Fiennes, 1/2 p. in-4.
+                  Sur le roman du Vicomte de Bragelonne.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="42" xml:id="CAT_000040_e42">
+               <num type="lot">42</num>
+               <name type="author">Dupanloup (F.)</name>
+               <trait>
+                  <p>évêque d'Orléans, sénateur, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e42_d1">L. a. s. à une dame, 1 p. in-4. Rare autog.
+                  signé.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Relative à un bref que le pape vient d'accorder à cette dame et qui a été
+                  transmis au prélat par la princesse Borghèse</note>
+            </item>
+            <item n="43" xml:id="CAT_000040_e43">
+               <num type="lot">43</num>
+               <name type="author">Favart (Marie)</name>
+               <trait>
+                  <p>célèbre actrice de la Comédie française</p>
+               </trait>
+               <desc xml:id="CAT_000040_e43_d1">L. a. s., (1848), 2 p. in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Charmante épitre, écrite à l'âge de 15 ans, au sujet de ses débuts au
+                  Théâtre-Français. Son nom de Favart lui paraît lourd à porter. Elle joue ce soir
+                  Céphise dans Andromaque et Elise dans les Plaideurs</note>
+            </item>
+            <item n="44" xml:id="CAT_000040_e44">
+               <num type="lot">44</num>
+               <name type="author">Favre (Jules)</name>
+               <trait>
+                  <p>homme d'Etat, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e44_d1">L. a. s. à M. Virmaître, avocat, 29 avril 1835, 1 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Relative à la défense des Lyonnais dans le procès d'Avril</note>
+            </item>
+            <item n="45" xml:id="CAT_000040_e45">
+               <num type="lot">45</num>
+               <name type="author">Flocon (Ferdinand)</name>
+               <trait>
+                  <p>publiciste, membre du gouvernement provisoire de 1848</p>
+               </trait>
+               <desc xml:id="CAT_000040_e45_d1">L. a. s. au rédacteur du Corsaire-Satan; 11 mai
+                  1845, 2 p. 1/2 in-4. </desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Ce journal ayant annoncé que Godefroid Cavaignac avait été assisté à son lit de
+                  mort par le Père Ravignan, Flocon donne à cette assertion le plus absolu démenti,
+                  les amis du défunt ne l'ayant pas quitté pendant les derniers jours de sa noble
+                  vie</note>
+            </item>
+            <item n="46" xml:id="CAT_000040_e46">
+               <num type="lot">46</num>
+               <name type="author">Fouché (Jos.)</name>
+               <trait>
+                  <p>le célèbre ministre de la police</p>
+               </trait>
+               <desc xml:id="CAT_000040_e46_d1">L. a. s. au préfet des Deux-Nethes, 11 flor., 1 p.
+                  in-4, cachet. L. a. moitié du feuillet d'adresse découpée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <note>Belle lettre avec la jolie vignette signée de Prudhon. -Relative à
+                  l'arrestation de plusieurs contrebandiers d'Anvers. « Il n'y a, dit-il, que la
+                  sévérité à remplir ses devoirs qui soit bonne au pays que l'on administre. Tôt ou
+                  tard la faiblesse, la pusillanimité, font le même mal que la méchanceté et la
+                  friponnerie.</note>
+            </item>
+            <item n="47" xml:id="CAT_000040_e47">
+               <num type="lot">47</num>
+               <name type="author">François Ier</name>
+               <trait>
+                  <p>roi de France</p>
+               </trait>
+               <desc xml:id="CAT_000040_e47_d1">Pièce sig. sur vélin; Amboise, 12 janv. 1517,
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Pièce historique. Ordre de payer à Guillaume Preudhomme la somme de 20,000
+                  livres tournois, pour la construction du Havre de Grâce</note>
+            </item>
+            <item n="48" xml:id="CAT_000040_e48">
+               <num type="lot">48</num>
+               <name type="author">François Ier</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e48_d1">Pièce sig. sur vélin; Elbeuf, 19 av. 1540, 1 p.
+                  in-4. Légères piqûres d'humidité.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Ordre de payer 675 livres tournois à Vincent Dymagy, gentilhomme de Bresse,
+                  pour son voyage d'Elbeuf à Constantinople, où il va porter au sieur de Rincon des
+                  lettres de grande importance</note>
+            </item>
+            <item n="49" xml:id="CAT_000040_e49">
+               <num type="lot">49</num>
+               <name type="author">Gambetta (Léon)</name>
+               <trait>
+                  <p>chef du parti républicain démocratique</p>
+               </trait>
+               <desc xml:id="CAT_000040_e49_d1">Petite l. a. s., 1876, 1/2 p. in-8. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+            </item>
+            <item n="50" xml:id="CAT_000040_e50">
+               <num type="lot">50</num>
+               <name type="author">Genlis (Mme de)</name>
+               <trait>
+                  <p>femme célèbre</p>
+               </trait>
+               <desc xml:id="CAT_000040_e50_d1">L. a. s., 2 p. in-8. Jolie et curieuse épître,
+                  relative à son frère. </desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="51" xml:id="CAT_000040_e51">
+               <num type="lot">51</num>
+               <name type="author">Gérard (Jules)</name>
+               <trait>
+                  <p>le célèbre tueur de lions</p>
+               </trait>
+               <desc xml:id="CAT_000040_e51_d1">Pièce sig.; Constantine, 1853, 1 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <note>Reçu d'une prime de 40 fr. pour la destruction d'une lionne</note>
+            </item>
+            <item n="52" xml:id="CAT_000040_e52">
+               <num type="lot">52</num>
+               <name type="author">Gladstone (W.-E.)</name>
+               <trait>
+                  <p>illustre homme d'Etat anglais</p>
+               </trait>
+               <desc xml:id="CAT_000040_e52_d1">L. a. s., 1867, 1 p. 1/4 in-18.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="53" xml:id="CAT_000040_e53">
+               <num type="lot">53</num>
+               <name type="author">Goethe</name>
+               <trait>
+                  <p>l'illustre écrivain allemand</p>
+               </trait>
+               <desc xml:id="CAT_000040_e53_d1">Billet de 5 lignes aut. sig., sur une carte, à J.-J.
+                  Ampère, 1827, in-18. </desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="54" xml:id="CAT_000040_e54">
+               <num type="lot">54</num>
+               <name type="author">Golowine (Ivan)</name>
+               <trait>
+                  <p>célèbre publiciste et patriote russe</p>
+               </trait>
+               <desc xml:id="CAT_000040_e54_d1">L. a. s., en français (au rédacteur du Corsaire,
+                  1845), 3 p. in-8. </desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Curieuse lettre relative à ses articles sur la Russie, dans le Corsaire. Il se
+                  défend d'avoir attaqué le comte Orloff et les dames russes qui fréquentent le bal
+                  Mabille</note>
+            </item>
+            <item n="55" xml:id="CAT_000040_e55">
+               <num type="lot">55</num>
+               <name type="author">Gortschakoff (Alex.-M.)</name>
+               <trait>
+                  <p>célèbre diplomate russe</p>
+               </trait>
+               <desc xml:id="CAT_000040_e55_d1">L. a. s. de ses initiales, 1854, 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="56" xml:id="CAT_000040_e56">
+               <num type="lot">56</num>
+               <name type="author">Grétry (Modeste)</name>
+               <trait>
+                  <p>célèbre compositeur</p>
+               </trait>
+               <desc xml:id="CAT_000040_e56_d1">Billet de 4 lignes aut. sig., à une dame, 1812, 1/2
+                  p. in-8 obl.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="57" xml:id="CAT_000040_e57">
+               <num type="lot">57</num>
+               <name type="author">Grouchy (Em.)</name>
+               <trait>
+                  <p>maréchal de France</p>
+               </trait>
+               <desc xml:id="CAT_000040_e57_d1">L. a. s., an XII, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="58" xml:id="CAT_000040_e58">
+               <num type="lot">58</num>
+               <name type="author">Guérin (P.-N.)</name>
+               <trait>
+                  <p>célèbre peintre d'histoire</p>
+               </trait>
+               <desc xml:id="CAT_000040_e58_d1">L. a. s. au comte de Forbin; Rome, 1824, 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Relative à son tableau de Saint Louis, qu'il a ébauché à Paris et qu'il pense
+                  terminer vers le milieu de 1825</note>
+            </item>
+            <item n="59" xml:id="CAT_000040_e59">
+               <num type="lot">59</num>
+               <name type="author">Guttinguer (Ulric)</name>
+               <trait>
+                  <p>célèbre poète romantique</p>
+               </trait>
+               <desc xml:id="CAT_000040_e59_d1">L. a. s. (à M. Virmaître), 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="60" xml:id="CAT_000040_e60">
+               <num type="lot">60</num>
+               <name type="author">Henri III</name>
+               <trait>
+                  <p>roi de France</p>
+               </trait>
+               <desc xml:id="CAT_000040_e60_d1">Pièce sig., sur vélin ; Fontainebleau, 1580, 1/2
+                  p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Ordre à Jacq. Leroy, trésorier de l'épargne, de remettre en ses mains 23,333
+                  écus et 1/3, pour certaines affaires importantes dont il ne veut pas qu'il soit
+                  fait mention</note>
+            </item>
+            <item n="61" xml:id="CAT_000040_e61">
+               <num type="lot">61</num>
+               <name type="author">Hérault-Séchelles</name>
+               <trait>
+                  <p>conventionnel célèbre, décapité avec Danton</p>
+               </trait>
+               <desc xml:id="CAT_000040_e61_d1">L. a. s. à Le Brun, ministre des affaires
+                  étrangères; 3 déc. 1792, 1 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Lettre intime par laquelle il lui annonce son départ pour la Savoie, comme
+                  commissaire de la Convention. Il lui dit en plaisantant que lui et ses collègues
+                  vont enlever l'Allobrogie à sa diplomatie</note>
+            </item>
+            <item n="62" xml:id="CAT_000040_e62">
+               <num type="lot">62</num>
+               <name type="author">Hugo (Victor)</name>
+               <trait>
+                  <p>le grand écrivain</p>
+               </trait>
+               <desc xml:id="CAT_000040_e62_d1">L. a. s. à M. Virmaître, 1842, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Relative à son ouvrage intitulé le Rhin</note>
+            </item>
+            <item n="63" xml:id="CAT_000040_e63">
+               <num type="lot">63</num>
+               <name type="author">Hugo (Victor)</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e63_d1">L. a. sig. de ses initiales, au même, 1845, 1/2 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="64" xml:id="CAT_000040_e64">
+               <num type="lot">64</num>
+               <name type="author">Hugo (Mme Adèle)</name>
+               <trait>
+                  <p>épouse de Victor Hugo</p>
+               </trait>
+               <desc xml:id="CAT_000040_e64_d1">L. a. s. à M. Virmaître, 18 janv. 1838, 2 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Relative à la reprise d'Hernani</note>
+            </item>
+            <item n="65" xml:id="CAT_000040_e65">
+               <num type="lot">65</num>
+               <name type="author">Hugo (Ch.)</name>
+               <trait>
+                  <p>le traducteur de Shakspeare</p>
+               </trait>
+               <desc xml:id="CAT_000040_e65_d1">L. a. s. à M. Virmaître, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="66" xml:id="CAT_000040_e66">
+               <num type="lot">66</num>
+               <name type="author">Humboldt (Alex. de)</name>
+               <trait>
+                  <p>illustre savant</p>
+               </trait>
+               <desc xml:id="CAT_000040_e66_d1">L. a. s. à Ducis ; (1815), 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Belle et curieuse lettre relative au séjour des Prussiens à Versailles.
+                  Humboldt recommande son illustre confrère à l'Institut au général Grolimann,
+                  l'homme le plus puissant du quartier-général de Blâcher, et qui doit rendre la
+                  paix domestique à Versailles</note>
+            </item>
+            <item n="67" xml:id="CAT_000040_e67">
+               <num type="lot">67</num>
+               <name type="author">Janin (Jules)</name>
+               <trait>
+                  <p>le célèbre critique, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e67_d1">L. a. s. à à M. Véry, 1840, 3/4 de p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="68" xml:id="CAT_000040_e68">
+               <num type="lot">68</num>
+               <name type="author">Jeanne de France (la bienheureuse)</name>
+               <trait>
+                  <p>reine de France, fille de Louis XI, femme de Louis XII, qui l'a répudiée,
+                     fondatrice de l'ordre de l'Annonciade, béatifiée par Benoït XIV</p>
+               </trait>
+               <desc xml:id="CAT_000040_e68_d1">L. sig. aux gens des comptes, à Blois; Chinon, 2
+                  avril, 1 p. in-4. Belle pièce. Très-rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="80">80</measure>
+               <note>Sur les remontrances d'Hector Montenard, gouverneur d'Ast, elle ordonne de
+                  faire réparer les châteaux de la Tour et de la Melle</note>
+            </item>
+            <item n="69" xml:id="CAT_000040_e69">
+               <num type="lot">69</num>
+               <name type="author">Joséphine (l'impératrice)</name>
+               <desc xml:id="CAT_000040_e69_d1">L. sig., an XI, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Recommandation en faveur de Mlle Coulon, artiste du Théâtre-des-Arts</note>
+            </item>
+            <item n="70" xml:id="CAT_000040_e70">
+               <num type="lot">70</num>
+               <name type="author">Joubert (Jos.)</name>
+               <trait>
+                  <p>écrivain moraliste profond et original, ami de Fontanes et de Châteaubriand</p>
+               </trait>
+               <desc xml:id="CAT_000040_e70_d1">L. a. s.; Aunay, 1er octobre 1813, 1 p. in-8.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+            </item>
+            <item n="71" xml:id="CAT_000040_e71">
+               <num type="lot">71</num>
+               <name type="author">Junot, </name>
+               <trait>
+                  <p>duc d'Abrantés, un des plus intrépides lieutenants de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e71_d1">L. a. s. à l'ordonnateur en chef de l'armée de
+                  Portugal; en rade de Lisbonne, 18 sept. 1808, 1 p. 1/4 in-f. Rare autographe
+                  signé.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Curieuse lettre relative à sa campagne de Portugal. Il reproche sévèrement à
+                  son ordonnateur de laisser manquer de vivres ses troupes. Il a donné ordre au
+                  général Travot de ne pas le laisser retourner à bord avant qu'il n'ait pris des
+                  mesures efficaces</note>
+            </item>
+            <item n="72" xml:id="CAT_000040_e72">
+               <num type="lot">72</num>
+               <name type="author">Kock (Paul de)</name>
+               <trait>
+                  <p>le romancier populaire</p>
+               </trait>
+               <desc xml:id="CAT_000040_e72_d1">L. a. s. à son ami Blondat, 1 p. in-4. Légères
+                  piqûres de rouille. </desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Très-plaisante lettre d'invitation à une joyeuse fête de famille, où il y aura
+                  un merveilleux concert. « De plus, il y aura danse, ballet, évolutions, décors,
+                  galettes, franchipanes, etc., avec lesquels j'ai l'honneur d'être.... » Il
+                  intitule sa lettre : Brin-d'Amour à don Belle-Fleur</note>
+            </item>
+            <item n="73" xml:id="CAT_000040_e73">
+               <num type="lot">73</num>
+               <name type="author">Lacordaire (H.-D.)</name>
+               <trait>
+                  <p>célèbre prédicateur, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e73_d1">L. a. s. à M. Vagner, imprimeur ; Paris, 1850, 1 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Relative à l'impression de ses Conférences, dont il reverra les épreuves à
+                  Rome</note>
+            </item>
+            <item n="74" xml:id="CAT_000040_e74">
+               <num type="lot">74</num>
+               <name type="author">Lafayette</name>
+               <trait>
+                  <p>l'illustre général.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e74_d1">L. a. s., 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="75" xml:id="CAT_000040_e75">
+               <num type="lot">75</num>
+               <name type="author">Lamartine (A. de)</name>
+               <trait>
+                  <p>l'illustre écrivain</p>
+               </trait>
+               <desc xml:id="CAT_000040_e75_d1">L. a. s. à un général, 1845, 2 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="76" xml:id="CAT_000040_e76">
+               <num type="lot">76</num>
+               <name type="author">Lambrechts (F.)</name>
+               <trait>
+                  <p>ministre de l'intérieur sous la présidence de M. Thiers</p>
+               </trait>
+               <desc xml:id="CAT_000040_e76_d1">Billet de 4 lignes aut. sig. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="77" xml:id="CAT_000040_e77">
+               <num type="lot">77</num>
+               <name type="author">Lamennais (F. de)</name>
+               <trait>
+                  <p>illustre écrivain français</p>
+               </trait>
+               <desc xml:id="CAT_000040_e77_d1">L. a. s. à Roger, de l'Acad. fr.; Saint-Malo, 1822,
+                  1 p. 1/3 in-4. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="78" xml:id="CAT_000040_e78">
+               <num type="lot">78</num>
+               <name type="author">Lanclos (Ninon de)</name>
+               <trait>
+                  <p>l'Aspasie du XVIIe siècle</p>
+               </trait>
+               <desc xml:id="CAT_000040_e78_d1">Quittance sig. sur vélin d'une rente constituée sur
+                  les aides et gabelles de France, 1er juin 1698, in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="80">80</measure>
+               <note>Pièce très-rare, les quelques lettres que l'on trouve de Ninon de Lanclos
+                  n'étant point signées</note>
+            </item>
+            <item n="79" xml:id="CAT_000040_e79">
+               <num type="lot">79</num>
+               <name type="author">Languet de Gergy</name>
+               <trait>
+                  <p>archevêque de Sens, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e79_d1">L. a. s. à M. Le Paige, 1747, 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="80" xml:id="CAT_000040_e80">
+               <num type="lot">80</num>
+               <name type="author">La Porte (Madelaine de)</name>
+               <trait>
+                  <p>connue sous le nom de Mlle de La Meilleraye, parente de Richelieu, qui la placa
+                     auprès de Marie de Médicis, abbesse de Chelles</p>
+               </trait>
+               <desc xml:id="CAT_000040_e80_d1">L. a., 1 p. in-f. Petite écornure dans une
+                  marge.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+            </item>
+            <item n="81" xml:id="CAT_000040_e81">
+               <num type="lot">81</num>
+               <name type="author">Laya (J.-L.)</name>
+               <trait>
+                  <p>auteur de l'Ami des lois, membre de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e81_d1">L. a. s. au comédien Colson, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Il le félicite sur la manière aisée dont il a joué hier le Clitandre des Femmes
+                  savantes</note>
+            </item>
+            <item n="82" xml:id="CAT_000040_e82">
+               <num type="lot">82</num>
+               <name type="author">Lazerges (J.-R.-Hip.)</name>
+               <trait>
+                  <p>peintre distingué, né à Narbonne</p>
+               </trait>
+               <desc xml:id="CAT_000040_e82_d1">L. a. s., 1856, 2 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="83" xml:id="CAT_000040_e83">
+               <num type="lot">83</num>
+               <name type="author">Lebon (Joseph)</name>
+               <trait>
+                  <p>le fameux proconsul d'Arras</p>
+               </trait>
+               <desc xml:id="CAT_000040_e83_d1">L. a. s. au conventionnel Laurent; Saint-Pol, 16
+                  brum. an II. 1 p. in-8. </desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
+               <note>Curieuse lettre sur un tanneur qui est soumis à deux réquisitions, celle qui
+                  l'appelle aux frontières et celle qui l'oblige à travailler pour les fournitures
+                  de l'armée. Lebon pense que ce citoyen, nommé Havet, est très-utile dans sa
+                  tannerie, « surtout au moment où tant de scélérats font disparaître les matières
+                  les plus nécessaires aux succès de nos armes.</note>
+            </item>
+            <item n="84" xml:id="CAT_000040_e84">
+               <num type="lot">84</num>
+               <name type="author">Lesdiguières (Marie Vignon, duchesse de)</name>
+               <trait>
+                  <p>marquise de Treffort, femme du connétable de Lesdiguières, et dont Tallemant
+                     raconte les histoires les plus étranges</p>
+               </trait>
+               <desc xml:id="CAT_000040_e84_d1">L. a. s. à M. d'Arbaud, secrétaire d'Etat; 4 sept.
+                  1628, 3 p. in-folio. Très-rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="100">100</measure>
+               <note>Très-curieuse lettre, relative à ses démêlés avec le maréchal de Créquy, son
+                  gendre, après la mort de Lesdiguières. Elle se plaint de la malicieuse action que
+                  lui intente le maréchal pour avoir le peu de bien que ses soins et ses peines lui
+                  ont acquis par les bienfaits de Leurs Méjestés. Il ne se contente pas d'avoir
+                  dépouillé sa fille et de jouir des travaux d'un si grand personnage
+                  (Lesdiguières), il la tyranise injustement et l'oblige à avoir recours à la
+                  justice du roi. (La famille Créquy, très-avide, tentait de dépouiller Marie
+                  Vignon des biens que lui avait laissés le connétable.)</note>
+            </item>
+            <item n="85" xml:id="CAT_000040_e85">
+               <num type="lot">85</num>
+               <name type="author">Lincoln (Abraham)</name>
+               <trait>
+                  <p>président des Etats-Unis</p>
+               </trait>
+               <desc xml:id="CAT_000040_e85_d1">4 petites lignes aut. sig., 29 mars 1862, in-18.
+                  Très-Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="86" xml:id="CAT_000040_e86">
+               <num type="lot">86</num>
+               <name type="author">Louis XVI</name>
+               <trait>
+                  <p>roi des Français</p>
+               </trait>
+               <desc xml:id="CAT_000040_e86_d1">Pièce sig. avec le mot payez aut., 1776, 1/2 p.
+                  in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Ordre de payer 300 livres à Pierre Régnier, âgé de 109 ans, pour une année de
+                  sa subsistance</note>
+            </item>
+            <item n="87" xml:id="CAT_000040_e87">
+               <num type="lot">87</num>
+               <name type="author">Louis XVI</name>
+               <trait>
+                  <p>Le même.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e87_d1">Note de 6 lignes aut., 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Liste du tiré que sa Majesté a fait dans le parc de Villeneuve-le-Roi, ce
+                  samedi 8 octobre 1774. Le gibier tué par Louis XVI se monte à 251 pièces, dont il
+                  fait lui-même la répartition pour la bouche de la Reine, les petits appartements,
+                  etc</note>
+            </item>
+            <item n="88" xml:id="CAT_000040_e88">
+               <num type="lot">88</num>
+               <name type="author">Louis-Philippe Ier</name>
+               <trait>
+                  <p>roi des Français</p>
+               </trait>
+               <desc xml:id="CAT_000040_e88_d1">L. sig., contresignée par M. Thiers, 1834, 1/2 p.
+                  in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="89" xml:id="CAT_000040_e89">
+               <num type="lot">89</num>
+               <name type="author">Mac-Mahon (la maréchale de)</name>
+               <desc xml:id="CAT_000040_e89_d1">L. a. s.; Alger, 10 déc. 2 p. 1/4 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Demande d'emploi pour un père de famille</note>
+            </item>
+            <item n="90" xml:id="CAT_000040_e90">
+               <num type="lot">90</num>
+               <name type="author">Malet (le général)</name>
+               <trait>
+                  <p>le chef de la conspiration de 1812</p>
+               </trait>
+               <desc xml:id="CAT_000040_e90_d1">L. a. s.; Angouleme, 21 prair. an XII, 2 p.
+                  in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Curieuse lettre, où il se plaint d'être remplacé dans le commandement du
+                  département de la Charente au moment même où il vient de dénoncer les factieux
+                  royaux qui tenaient des conciliabules presque publics</note>
+            </item>
+            <item n="91" xml:id="CAT_000040_e91">
+               <num type="lot">91</num>
+               <name type="author">Malmesbury (lord James)</name>
+               <trait>
+                  <p>célèbre homme d'état tory, l'ami intime de Napoléon III</p>
+               </trait>
+               <desc xml:id="CAT_000040_e91_d1">L. a. s. en français, à un prince, 1860, 1 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="92" xml:id="CAT_000040_e92">
+               <num type="lot">92</num>
+               <name type="author">Marcère (de)</name>
+               <trait>
+                  <p>député, ministre de l'intérieur</p>
+               </trait>
+               <desc xml:id="CAT_000040_e92_d1">L. a. s. ; Versailles, 1873, 1 p. in-8. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="93" xml:id="CAT_000040_e93">
+               <num type="lot">93</num>
+               <name type="author">Marguerite de France</name>
+               <trait>
+                  <p>duchesse de Savoie, fille de François Ier et de Claude de France, femme du duc
+                     de Savoie Emmanuel-Philibert, princesse célèbre par son savoir et son
+                     amabilité, célébrée par Ronsard et les autres poètes de son temps</p>
+               </trait>
+               <desc xml:id="CAT_000040_e93_d1">L. a. s. (à Charles IX, vers 1570), 1 p. in-f.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <note>Superbe pièce, mais qui pourrait avoir été rognée dans la marge de tête, encore
+                  très-grande. </note>
+            </item>
+            <item n="94" xml:id="CAT_000040_e94">
+               <num type="lot">94</num>
+               <name type="author">Marie d'Anjou</name>
+               <trait>
+                  <p>reine de France, femme de Charles VII, fondratrice de l'hôpital de Bourges,
+                     célèbre par son goût pour les romans de chevalerie</p>
+               </trait>
+               <desc xml:id="CAT_000040_e94_d1">Pièce sig., sur vélin; 8 mars 1444, 1 p. in-4 obl.
+                  Précieuse pièce, parfaitement conservée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <note>Elle confesse avoir reçu de maître Etienne Petit, receveur des finances en
+                  Languedoc, par les mains de Jacques Coeur, argentier du roi, la somme de 1,500
+                  livres tournois, que le roi lui a donnée pour acheter une chaine d'or.</note>
+            </item>
+            <item n="95" xml:id="CAT_000040_e95">
+               <num type="lot">95</num>
+               <name type="author">Marie-Thérèse</name>
+               <trait>
+                  <p>impératrice d'Allemagne, dite la Grande</p>
+               </trait>
+               <desc xml:id="CAT_000040_e95_d1">L. sig. à son résident en Pologne; 1743, 6 p. in-f.,
+                  sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="96" xml:id="CAT_000040_e96">
+               <num type="lot">96</num>
+               <name type="author">Marie-Leczinska</name>
+               <trait>
+                  <p>reine de France, femme de Louis XV</p>
+               </trait>
+               <desc xml:id="CAT_000040_e96_d1">L. a. s. au cardinal de Fleury; oct. 1729, 1 p. in-4,
+                  beaux cachets à ses armes, avec soies. Superbe et curieuse pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <note>Epître d'un tour très-piquant. Elle prie le cardinal de lui donner des
+                  nouvelles du roi et de l'assurer de sa tendresse. Le dauphin se porte très-bien.
+                  Quant à elle, elle vient de souper en compagnie, et s'il ne trouve pas beaucoup de
+                  raison dans sa lettre, il ne faut pas qu'il en soit étonné : « Ce qu'il y a de
+                  certain, c'est que l'on dit dans le vin la vérité, et que c'est avec une
+                  très-grande que je suis, mon cher cardinal...</note>
+            </item>
+            <item n="97" xml:id="CAT_000040_e97">
+               <num type="lot">97</num>
+               <name type="author">Mars (Mlle)</name>
+               <trait>
+                  <p>la célèbre comédienne</p>
+               </trait>
+               <desc xml:id="CAT_000040_e97_d1">L. a. s. à M. Védel, directeur du Théâtre-Français,
+                  1 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="98" xml:id="CAT_000040_e98">
+               <num type="lot">98</num>
+               <name type="author">Mazzini (Jos.)</name>
+               <trait>
+                  <p>le dictateur de la République romaine</p>
+               </trait>
+               <desc xml:id="CAT_000040_e98_d1">L. a. s. en français, 2 p. in-18.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Jolie et curiéuse épître. Il n'est jamais libre le dimanche, qu'il passe avec
+                  des amis intimes, pour ainsi dire en famille. « Tout puéril que cela puisse
+                  paraître à beaucoup de monde, c'est la seule tradition que je tienne à ne pas
+                  briser.</note>
+            </item>
+            <item n="99" xml:id="CAT_000040_e99">
+               <num type="lot">99</num>
+               <name type="author">Mérimée (Prosper)</name>
+               <trait>
+                  <p>l'auteur de Clara Gazul, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e99_d1">L. a. s., 1856, 3 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Curieuse appréciation d'un manuscrit qu'on lui communique sur des documents
+                  historiques anciens. Il y pose les vrais principes de la critique en matière
+                  d'érudition</note>
+            </item>
+            <item n="100" xml:id="CAT_000040_e100">
+               <num type="lot">100</num>
+               <name type="author">Mickiewicz (Adam)</name>
+               <trait>
+                  <p>célèbre poète et patriote polonais</p>
+               </trait>
+               <desc xml:id="CAT_000040_e100_d1">L. a. s. en français à M. Paul Muchanoff, 1/2 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="101" xml:id="CAT_000040_e101">
+               <num type="lot">101</num>
+               <name type="author">Mieroslawski (Louis)</name>
+               <trait>
+                  <p>célèbre publiciste et général polonais, chef de l'insurrection de 1846</p>
+               </trait>
+               <desc xml:id="CAT_000040_e101_d1">L. a. s., en français, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Il va s'aboucher avec M. de Girardin pour traiter de sa collaboration au
+                  journal la Presse</note>
+            </item>
+            <item n="102" xml:id="CAT_000040_e102">
+               <num type="lot">102</num>
+               <name type="author">Mirabeau</name>
+               <trait>
+                  <p>le grand orateur</p>
+               </trait>
+               <desc xml:id="CAT_000040_e102_d1">L. a. s. (à M. Boucher, employé de la police), 5
+                  av. 1778, 1/2 p. in-8. </desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Joli et curieux billet écrit du donjon de Vincennes. Il demande que l'on
+                  remette des pieds à ceux de ses bas dont la jambe est encore bonne, et ajoute : «
+                  cela me ménera quelque temps.</note>
+            </item>
+            <item n="103" xml:id="CAT_000040_e103">
+               <num type="lot">103</num>
+               <name type="author">Mistral (Fréd.)</name>
+               <trait>
+                  <p>célèbre poète provencal</p>
+               </trait>
+               <desc xml:id="CAT_000040_e103_d1">L. a. s.; 1876, 2 p. in-8. Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="104" xml:id="CAT_000040_e104">
+               <num type="lot">104</num>
+               <name type="author">Montalembert (Ch. de)</name>
+               <trait>
+                  <p>célèbre orateur parlementaire</p>
+               </trait>
+               <desc xml:id="CAT_000040_e104_d1">L. a. s. à un de ses collègues à l'Assemblée
+                  nationale, 21 mai 1850, 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Il le prie de lui céder son tour de parole pour répondre au discours du général
+                  Cavaignac</note>
+            </item>
+            <item n="105" xml:id="CAT_000040_e105">
+               <num type="lot">105</num>
+               <name type="author">Montez (Lola)</name>
+               <trait>
+                  <p>danseuse, la célèbre maîtresse du roi Louis Ier, de Bavière</p>
+               </trait>
+               <desc xml:id="CAT_000040_e105_d1">L. a. s. au prince Radziwill, 1 p. in-8. Cachet.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="106" xml:id="CAT_000040_e106">
+               <num type="lot">106</num>
+               <name type="author">Murat (Joachim)</name>
+               <trait>
+                  <p>roi de Naples</p>
+               </trait>
+               <desc xml:id="CAT_000040_e106_d1">L. sig.; an XIII, 1 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="107" xml:id="CAT_000040_e107">
+               <num type="lot">107</num>
+               <name type="author">Napoléon 1er</name>
+               <trait>
+                  <p>empereur des Français</p>
+               </trait>
+               <desc xml:id="CAT_000040_e107_d1">Sa signature Bonaparte, comme premier Consul, avec
+                  4 mots aut. sur une lettre du général Reille, an VIII, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="108" xml:id="CAT_000040_e108">
+               <num type="lot">108</num>
+               <name type="author">Napoléon 1er</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e108_d1">Sa signature Napoléon, en toutes lettres, avec le
+                  mot approuvé aut., 1806, 1 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="109" xml:id="CAT_000040_e109">
+               <num type="lot">109</num>
+               <name type="author">Napoléon 1er</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e109_d1">Apostille sig. N, avec une apostille aut. sig. du
+                  maréchal Davout, 1815, 3 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="110" xml:id="CAT_000040_e110">
+               <num type="lot">110</num>
+               <name type="author">Nivernois (le duc de)</name>
+               <trait>
+                  <p>un de nos meilleurs fabulistes, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e110_d1">L. a. s. à M. Berryer, lieutenant de police, 1757,
+                  1/2 p. in-4. Cachet à ses armes.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Jolie et intéressante lettre en faveur du peintre Chantereau, qui vient d'être
+                  emprisonné au Petit-Châtelet. Il assure que c'est un garçon de beaucoup de talent,
+                  qui a la tête un peu vive, mais qui est incapable d'une mauvaise action</note>
+            </item>
+            <item n="111" xml:id="CAT_000040_e111">
+               <num type="lot">111</num>
+               <name type="author">Ollivier (Emile)</name>
+               <trait>
+                  <p>ministre de Napoléon III, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e111_d1">L. a. s. à un homme de lettres, 1861, 1 p. in-8.
+                  Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="112" xml:id="CAT_000040_e112">
+               <num type="lot">112</num>
+               <name type="author">Orfila</name>
+               <trait>
+                  <p>savant chimiste</p>
+               </trait>
+               <desc xml:id="CAT_000040_e112_d1">L. a. s.; 22 janv. 1816, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Belle lettre relative à son élection comme membre correspondant de
+                  l'Institut</note>
+            </item>
+            <item n="113" xml:id="CAT_000040_e113">
+               <num type="lot">113</num>
+               <name type="author">Parabère (Marie-Madeleine de La Vieuville, comtesse de)</name>
+               <trait>
+                  <p>la célèbre maîtresse du Régent</p>
+               </trait>
+               <desc xml:id="CAT_000040_e113_d1">L. a. s. au cardinal de Fleury; 26 janv. 1740, 4 p.
+                  pet. in-4. Très-rare. </desc>
+               <measure commodity="currency" unit="FRF" quantity="75">75</measure>
+               <note>Très-jolie lettre par laquelle elle demande un régiment pour son fils, le comte
+                  de Parabère, capitaine de carabiniers, qui a fait la guerre d'Italie avec
+                  l'approbation de tous</note>
+            </item>
+            <item n="114" xml:id="CAT_000040_e114">
+               <num type="lot">114</num>
+               <name type="author">Patterson (Elisabeth)</name>
+               <trait>
+                  <p>première femme de Jérôme Bonaparte, roi de Westphalie, dont il fut séparé par
+                     ordre de Napoléon Ier</p>
+               </trait>
+               <desc xml:id="CAT_000040_e114_d1">L. a. s. à M. G. Grzymala, 1833, 2 p. in-8.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="115" xml:id="CAT_000040_e115">
+               <num type="lot">115</num>
+               <name type="author">Peel (Robert)</name>
+               <trait>
+                  <p>illustre homme d'Etat anglais</p>
+               </trait>
+               <desc xml:id="CAT_000040_e115_d1">L. a. s., en français, 1860, 3 p. in-8. Très-jolie
+                  pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="116" xml:id="CAT_000040_e116">
+               <num type="lot">116</num>
+               <name type="author">Persigny (le duc de)</name>
+               <trait>
+                  <p>ministre et ami de Napoléon III</p>
+               </trait>
+               <desc xml:id="CAT_000040_e116_d1">L. a. s., 1858, 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="117" xml:id="CAT_000040_e117">
+               <num type="lot">117</num>
+               <name type="author">Persigny (le duc de)</name>
+               <trait>
+                  <p>Le même</p>
+               </trait>
+               <desc xml:id="CAT_000040_e117_d1">Certificat de vie sig., 1854, 1 p. in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <note>Pièce donnant des renseignements authentiques sur ses nom, prénoms, lieu et
+                  époque de naissance</note>
+            </item>
+            <item n="118" xml:id="CAT_000040_e118">
+               <num type="lot">118</num>
+               <name type="author">Poniatowski (Jos.)</name>
+               <trait>
+                  <p>brave guerrier polonais, maréchal de France</p>
+               </trait>
+               <desc xml:id="CAT_000040_e118_d1">L. sig., en français, comme commandant en chef de
+                  l'armée polonaise; Varsovie, 15 janv. 1810, 1 p. in-f. Belle pièce. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+            </item>
+            <item n="119" xml:id="CAT_000040_e119">
+               <num type="lot">119</num>
+               <name type="author">Ristori (Adélaïde)</name>
+               <trait>
+                  <p>cantatrice et tragédienne célèbre</p>
+               </trait>
+               <desc xml:id="CAT_000040_e119_d1">L. a. s. au ministre Muchanow, 1 p. 1/2 in-12.
+                  Enveloppe. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="120" xml:id="CAT_000040_e120">
+               <num type="lot">120</num>
+               <name type="author">Rohan (Henriette de)</name>
+               <trait>
+                  <p>la plus jeune des filles de Catherine de Parthenay</p>
+               </trait>
+               <desc xml:id="CAT_000040_e120_d1">L. a. s. à Richelieu; 29 mai 1624, 1 p. in-fol.,
+                  cachets.</desc>
+               <measure commodity="currency" unit="FRF" quantity="45">45</measure>
+            </item>
+            <item n="121" xml:id="CAT_000040_e121">
+               <num type="lot">121</num>
+               <name type="author">Rouget de Lisle</name>
+               <trait>
+                  <p>l'auteur de la Marseillaise.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e121_d1">L. a. s., 19 déc. 1809, 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Belle et curieuse épitre. Propriétaire d'un lustre magnifique en cristal de
+                  roche, il propose de le céder au gouvernement. C'est le dernier débris qui lui
+                  reste. « Vous vous assureriez des droits éternels à la reconnaissance d'un homme
+                  qui ne fut pas toujours inutile à sa patrie, qui fut quelquefois utile aux autres,
+                  et que des circonstances bien difficiles peuvent seules forcer à vous
+                  importuner.</note>
+            </item>
+            <item n="122" xml:id="CAT_000040_e122">
+               <num type="lot">122</num>
+               <name type="author">Saint-Pierre (Bernardin de)</name>
+               <trait>
+                  <p>l'auteur de Paul et Virginie</p>
+               </trait>
+               <desc xml:id="CAT_000040_e122_d1">L. a. s., an X, 3/4 de p. in-4. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Relative à son indemnité de 600 francs pour son déménagement du Louvre.</note>
+            </item>
+            <item n="123" xml:id="CAT_000040_e123">
+               <num type="lot">123</num>
+               <name type="author">Sainte-Beuve</name>
+               <trait>
+                  <p>le célèbre critique, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000040_e123_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
 </TEI>

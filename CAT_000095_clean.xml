@@ -1,11 +1,12 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000095">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000095">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
             <title>Collection Bruyères-Chalabre</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
-               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+               <resp>éditeur scientifique <date when="2019">2019</date>
+               </resp>
             </respStmt>
          </titleStmt>
          <extent>à remplir en indiquant la taille finale du fichier</extent>
@@ -75,7 +76,7 @@
                         <idno type="shelfmark">SJ AK 087/51</idno>
                      </msIdentifier>
                   </msDesc>
-                  <desc>Exemplaire annoté</desc>
+                  <desc xml:id="CAT_000095_e_d1">Exemplaire annoté</desc>
                   <ptr type="catalogue" target="https://catalogue.bm-lyon.fr/ark:/75584/pf0000888901"/>
                   <ptr type="digit" target="numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103380890"/>
                   <ptr type="digit" target="https://books.google.de/books?id=V-XXKUxlteQC"/>
@@ -99,82 +100,30 @@
          <list>
             <gap/>
             <item n="170" xml:id="CAT_000095_eAutographes170">
-               <num>170.</num>
-                <desc>Maisons de Rabutin et de Grignan.</desc>
-               <list>
-                  <item xml:id="CAT_000095_eAutographes170_1">
-                     <num>1.</num>
-                     <desc>Lettre de sainte Chantal, aïeule de Mme de Sévigné. (Voir infrà, n°407.)</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_2">
-                     <num>2.</num>
-                     <desc>Lettre de Mme de Sévigné à Mme de Grignan, sa fille, 5 oct. 1684. 4 pages. Autogr.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_3">
-                     <num>3.</num>
-                     <desc>Lettre de la même à sa fille, 14 février 1685. 8 pages. Autour. signé.
-                        Plusieurs passages inédits dans ces deux lettres.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_4">
-                     <num>4.</num>
-                     <desc>Projet d'articles du mariage projeté entre Mlle de Sévigné et M. de Grignan,
-                        arrêté le 16 octobre 1669 et signé M. Rabutin-Chantal, de Mme de Lafayette de la Vergne,
-                        l'abbé de Colanges (Coulanges), de Mlle de Sévigné, de M. de Grignan et autres. 10 pages.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_5">
-                     <num>5.</num>
-                     <desc>Lettre de Mme de Grignan (Françoise-Marguerite de Sévigné) à son mari, 5 janvier 1668.
-                        Autogr. signé. Inédit.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_6">
-                     <num>6.</num>
-                     <desc>Lettre de la même à M.… Autour. signé. Inédit.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_7">
-                     <num>7.</num>
-                     <desc>Lettre de Mme de Grignan à M. de Lamoignon, avocat général au Parlement,
-                        10 décembre 1688. Autogr. signé.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_8">
-                     <num>8.</num>
-                     <desc>Lettre de Charles de Sévigné, frère de Mme de Grignan, à M. de Brandon,
-                        6 janvier 1690. Autogr. signé.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_9">
-                     <num>9.</num>
-                     <desc>Lettre du même, et l'état de ses affaires, 27 septembre 1696. Autogr.
-                        signé. 12 pages.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_10">
-                     <num>10.</num>
-                     <desc>Lettres de M. de Coulanges (Philippe-Emmanuel) à M. de Lamoignon, avocat général.
-                        Rome, 14 juillet 1691. 6 pages. Autogr.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_11">
-                     <num>11.</num>
-                     <desc>Lettre du chevalier de Grignan à M. de Lamoignon. Autogr. signé.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_12">
-                     <num>12.</num>
-                     <list>
-                        <item>
-                           <desc>Pièce du 10 juillet 1705 signée de Julie-Françoise Adhémar de Monteil, marquise de Vibrate.</desc>
-                        </item>
-                        <item>
-                           <desc>– Pièce du 21 septembre 1711 signée de Catherine-Louise Adhémar, sa sœur.</desc>
-                        </item>
-                     </list>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_13">
-                     <num>13.</num>
-                     <desc>Vente par la marquise de Simiane des meubles et effets mobiliers du château de Grignan,
-                        non compris les portraits de Mme de Sévigné et des membres de la famille, 16 décembre 1730. Signé.</desc>
-                  </item>
-                  <item xml:id="CAT_000095_eAutographes170_14">
-                     <num>14.</num>
-                     <desc>Lettre de la même à M. d'Héricourt, 7 juin 1735. Autogr. signé.</desc>
-                  </item>
-               </list>
+               <num type="lot">170.</num>
+               <desc xml:id="CAT_000095_e170_d1">Maisons de Rabutin et de Grignan.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_1">1. Lettre de sainte Chantal, aïeule de Mme de Sévigné. (Voir infrà, n°407.)</desc>
+               <desc xml:id="CAT_000095_eAutographes170_2">2.Lettre de Mme de Sévigné à Mme de Grignan, sa fille, 5 oct. 1684. 4 pages. Autogr.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_3">3. Lettre de la même à sa fille, 14 février 1685. 8 pages. Autour. signé. Plusieurs passages inédits dans ces deux lettres.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_4">4. Projet d'articles du mariage projeté entre Mlle de Sévigné et M. de Grignan,
+                  arrêté le 16 octobre 1669 et signé M. Rabutin-Chantal, de Mme de Lafayette de la Vergne,
+                  l'abbé de Colanges (Coulanges), de Mlle de Sévigné, de M. de Grignan et autres. 10 pages.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_5">5. Lettre de Mme de Grignan (Françoise-Marguerite de Sévigné) à son mari, 5 janvier 1668.
+                  Autogr. signé. Inédit.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_6">6. Lettre de la même à M.… Autour. signé. Inédit.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_7">7. Lettre de Mme de Grignan à M. de Lamoignon, avocat général au Parlement,
+                  10 décembre 1688. Autogr. signé.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_8">8. Lettre de Charles de Sévigné, frère de Mme de Grignan, à M. de Brandon,
+                  6 janvier 1690. Autogr. signé.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_9">9. Lettre du même, et l'état de ses affaires, 27 septembre 1696. Autogr.
+                  signé. 12 pages.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_10">10. Lettres de M. de Coulanges (Philippe-Emmanuel) à M. de Lamoignon, avocat général.
+                  Rome, 14 juillet 1691. 6 pages. Autogr.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_11">11. Lettre du chevalier de Grignan à M. de Lamoignon. Autogr. signé.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_12">12.Pièce du 10 juillet 1705 signée de Julie-Françoise Adhémar de Monteil, marquise de Vibrate. – Pièce du 21 septembre 1711 signée de Catherine-Louise Adhémar, sa sœur.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_13">13. Vente par la marquise de Simiane des meubles et effets mobiliers du château de Grignan,
+                  non compris les portraits de Mme de Sévigné et des membres de la famille, 16 décembre 1730. Signé.</desc>
+               <desc xml:id="CAT_000095_eAutographes170_14">14. Lettre de la même à M. d'Héricourt, 7 juin 1735. Autogr. signé.</desc>
             </item>
             <gap/>
          </list>

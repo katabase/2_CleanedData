@@ -1,11 +1,12 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000092">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000092">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
             <title>Collection Markham Sherwill</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
-               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+               <resp>éditeur scientifique <date when="2019">2019</date>
+               </resp>
             </respStmt>
          </titleStmt>
          <extent>à remplir en indiquant la taille finale du fichier</extent>
@@ -51,7 +52,7 @@
                         <idno type="shelfmark">D2/52-d-11(2)</idno>
                      </msIdentifier>
                   </msDesc>
-                  <desc>Exemplaire annoté</desc>
+                  <desc xml:id="CAT_000092_e_d1">Exemplaire annoté</desc>
                   <ptr type="catalogue" target="https://rcp.soutron.net/Portal/Default/en-GB/RecordView/Index/27358"/>
                   <ptr type="digit" target="https://wellcomelibrary.org/item/b28040065"/>
                   <ptr type="digit" target="https://archive.org/details/b28040065"/>
@@ -75,483 +76,145 @@
          <list>
             <gap/>
             <item n="303" xml:id="CAT_000092_e303">
-               <num>303</num>
-               <name>Assolini,</name>
+               <num type="lot">303</num>
+               <name>Assolini</name>
                <trait>
                   <p>physician to Nepoleon;</p>
                </trait>
-               <desc>he visited Joanna Southcott, and believed her pregnant;
-                  Arago, the astronomer, &amp;c.
-                  <num>4</num>
-               </desc>
+               <desc xml:id="CAT_000092_e303_d1">he visited Joanna Southcott, and believed her pregnant;
+                  Arago, the astronomer, &amp;c.</desc>
+               <num type="price">4</num>
             </item>
             <item n="304" xml:id="CAT_000092_e304">
-               <num>304</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>BAYLE,</name>
-                        <desc>dated 6th of July, 1697, author of the “Hist and Crit. Dictionary”,
-                           which forms the subject of this Letter;</desc>
-                     </item>
-                     <item>
-                        <name>HELVETIUS,</name>
-                        <desc>the celebrated writer, dated Versailles, 1750,</desc>
-                     </item>
-                  </list>
-                  <num>2</num>
-               </desc>
+               <num type="lot">304</num>
+               <desc xml:id="CAT_000092_e304_d1">BAYLE,dated 6th of July, 1697, author of the “Hist and Crit. Dictionary”,
+                           which forms the subject of this Letter;HELVETIUS,the celebrated writer, dated Versailles, 1750,2</desc>
+               <num type="price"/>
             </item>
             <item n="305" xml:id="CAT_000092_e305">
-               <num>305</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Beranger,</name>
-                        <trait><p>poet,</p></trait>
-                        <desc>dated from the prison of St Pélagie;</desc>
-                     </item>
-                     <item>
-                        <name>Monsieur du Vaucal,</name>
-                        <trait>
-                           <p>naturalist;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Lacépede,</name>
-                        <trait>
-                           <p>ditto;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>De Stanches,</name>
-                        <trait>
-                           <p>of the Academie Françoise;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Vis’t de Villeneuve,</name>
-                        <trait>
-                           <p>historian;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Victor Hugo,</name>
-                        <trait>
-                           <p>poet;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Dr. Paulet,</name>
-                        <desc>“History of Mushrooms,”</desc>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>12</num>
-               </desc>
+               <num type="lot">305</num>
+               <desc xml:id="CAT_000092_e305_d1">Beranger,poet,dated from the prison of St Pélagie;Monsieur du Vaucal,naturalist;Lacépede,ditto;De Stanches,of the Academie Françoise;Vis’t de Villeneuve,historian;Victor Hugo,poet;Dr. Paulet,“History of Mushrooms,”
+                  &amp;c.</desc>
+               <num type="price">12</num>
             </item>
             <item n="306" xml:id="CAT_000092_e306">
-               <num>306</num>
+               <num type="lot">306</num>
                <name>D’EON (LA CHEVALIERE);</name>
-               <desc>a letter of six pages,  addressed to the minister, Count of Maurepas,
+               <desc xml:id="CAT_000092_e306_d1">a letter of six pages,  addressed to the minister, Count of Maurepas,
                   stating her reasons for her having alternatively worn breeches and petticoats.
                   She was at one time ambassador from France resident in London, and had been
                   captain in the dragoons, as well as “Avocat au Parlement,” and Censeur Royal.
                   This very curious Letter is written throughout at the time she wore petticoats,
                   being in the feminine gender, she says, “le plus sot des Roles' a jouer,
                   est celui de Pucelle à la Cour. It is dated Versailles, 8th of Feb. 1779.
-                  One other from her also.
-                  <num>2</num>
-               </desc>
+                  One other from her also.</desc>
+               <num type="price">2</num>
             </item>
             <item n="307" xml:id="CAT_000092_e307">
-               <num>307</num>
+               <num type="lot">307</num>
                <name>Du Val (Abbe);</name>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Daunou;</name>
-                     </item>
-                     <item>
-                        <name>Aubert,</name>
-                        <desc>author of the "Revolution Françoise;"</desc>
-                     </item>
-                     <item>
-                        <num/>
-                        <name>Feburier,</name>
-                        <desc>botanist,</desc>
-                     </item>
-                  </list>
-                  &amp;c
-                  <num>6</num>
-               </desc>
+               <desc xml:id="CAT_000092_e307_d1">Daunou;Aubert,author of the "Revolution Françoise;"Feburier,botanist,
+                  &amp;c</desc>
+               <num type="price">6</num>
             </item>
             <item n="308" xml:id="CAT_000092_e308">
-               <num>308</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>DE LA LANDE,</name>
-                        <desc>dated 3d of July, 1800, addressed "A la savante Miss Herschell",
-                           in which he states that he has fifty thousand stars "bien determinees;"</desc>
-                     </item>
-                     <item>
-                        <name>Ducis, Jean François</name>
-                        <trait>
-                           <p>Membre of the Institut National,</p>
-                        </trait>
-                        <desc>dated Versailles, 27th of March, 1807.</desc>
-                        <note>This learned man translated several of Shakspeare’s Plays,
-                           in all the spirit of the original text,</note>
-                     </item>
-                  </list>
-                  <num>2</num>
-               </desc>
+               <num type="lot">308</num>
+               <desc xml:id="CAT_000092_e308_d1">DE LA LANDE,dated 3d of July, 1800, addressed "A la savante Miss Herschell",
+                           in which he states that he has fifty thousand stars "bien determinees;"Ducis, Jean FrançoisMembre of the Institut National,dated Versailles, 27th of March, 1807.This learned man translated several of Shakspeare’s Plays,
+                           in all the spirit of the original text,2</desc>
+               <num type="price"/>
             </item>
-            
             <item n="309" xml:id="CAT_000092_e309">
-               <num>309</num>
-               <desc>
-              <list>
-                 <item>
-                    <name>De la Lande</name>
-                    <trait>
-                       <p>the astronomer,</p>
-                    </trait>
-                    <desc>written in the valley of Chamouni, August, 1796, in admiration of
+               <num type="lot">309</num>
+               <desc xml:id="CAT_000092_e309_d1">De la Landethe astronomer,written in the valley of Chamouni, August, 1796, in admiration of
                        the beauties of that wonderful country; on the same paper the signature
                        of his learned niece, and a very handsome tribute of respect to De la Lande,
-                       by his associate Fred. Maurice the astronomer;</desc>
-                 </item>
-                 <item>
-                    <name>Viscount de Vaux ;</name>
-                 </item>
-                 <item>
-                    <name>Humboldt the traveller;</name>
-                 </item>
-                 <item>
-                    <name>Baron de  Costaz,</name>
-                    <trait>
-                       <p>President of the Committee for Egyptian Antiquities;</p>
-                    </trait>
-                 </item>
-                 <item>
-                    <name>and Dom Calmet,</name>
-                    <trait>
-                       <p>the learned abbe and antiquary,</p>
-                    </trait>
-                    <desc>1734,</desc>
-                 </item>
-              </list>
-                  &amp;c.
-                  <num>9</num>
-               </desc>
+                       by his associate Fred. Maurice the astronomer;Viscount de Vaux ;Humboldt the traveller;Baron de Costaz,President of the Committee for Egyptian Antiquities;and Dom Calmet,the learned abbe and antiquary,1734,
+                  &amp;c.</desc>
+               <num type="price">9</num>
             </item>
             <item n="310" xml:id="CAT_000092_e310">
-               <num>310</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>FLORIAN,</name>
-                        <desc>of one of his plays in his own hand-writing, a 
-                           scene between Guzman and Olivette ;</desc>
-                     </item>
-                     <item>
-                        <name>De Lamartine,</name>
-                        <trait>
-                           <p>poet, author of the beautiful "Meditations Poetiques,"
-                              and the "Dernier Chant du Childe Harold," lately translated
-                              into English Verse;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Baron Denon</name>
-                     </item>
-                  </list>
-               </desc>
+               <num type="lot">310</num>
+               <desc xml:id="CAT_000092_e310_d1">FLORIAN of one of his plays in his own hand-writing, a
+                     scene between Guzman and Olivette ;</desc>
+               <desc xml:id="CAT_000092_e310_d2">De Lamartine poet, author of the beautiful "Meditations Poetiques,"
+                  and the "Dernier Chant du Childe Harold," lately translated
+                  into English Verse;</desc>
+               <desc xml:id="CAT_000092_e310_d3">Baron Deno</desc>
             </item>
             <item n="311" xml:id="CAT_000092_e311">
-               <num>311</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Genlis (Madame de);</name>
-                     </item>
-                     <item>
-                        <name>Madame de Grafigni, and the Countess de Fouchécour,</name>
-                        <desc>"Poems"</desc>
-                     </item>
-                  </list>
-                  <num>3</num>
-               </desc>
+               <num type="lot">311</num>
+               <desc xml:id="CAT_000092_e311_d1">Genlis (Madame de);Madame de Grafigni, and the Countess de Fouchécour,"Poems"3</desc>
+               <num type="price"/>
             </item>
             <item n="312" xml:id="CAT_000092_e312">
-               <num>312</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Humboldt,</name>
-                        <trait>
-                           <p>the traveller;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>General Jomini;</name>
-                     </item>
-                     <item>
-                        <name>Ignace, the metropolitan of Pisa;</name>
-                     </item>
-                     <item>
-                        <name>General Pillet;</name>
-                     </item>
-                     <item>
-                        <name>Pouqueville;</name>
-                     </item>
-                     <item>
-                        <name>Parseval Grand-maison;</name>
-                     </item>
-                     <item>
-                        <name>Abbe Sicard,</name>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>9</num>
-               </desc>
+               <num type="lot">312</num>
+               <desc xml:id="CAT_000092_e312_d1">Humboldt,the traveller;General Jomini;Ignace, the metropolitan of Pisa;General Pillet;Pouqueville;Parseval Grand-maison;Abbe Sicard,
+                  &amp;c.</desc>
+               <num type="price">9</num>
             </item>
             <item n="313" xml:id="CAT_000092_e313">
-               <num>313</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Le Bailly,</name>
-                        <desc>"Fables;"</desc>
-                     </item>
-                     <item>
-                        <name>Choiseul Gouffier;</name>
-                     </item>
-                     <item>
-                        <name>De Bray,</name>
-                        <trait>
-                           <p>historian,</p>
-                        </trait>
-                        <name>and the Marquiss de Bonnay,</name>
-                        <trait>
-                           <p>ambassador at Berlin, translator of "Tom Jones," and the intimate friend of Louis XVI and Louis XVII,</p>
-                        </trait>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>5</num>
-               </desc>
+               <num type="lot">313</num>
+               <desc xml:id="CAT_000092_e313_d1">Le Bailly,"Fables;"Choiseul Gouffier;De Bray,historian,and the Marquiss de Bonnay,ambassador at Berlin, translator of "Tom Jones," and the intimate friend of Louis XVI and Louis XVII,
+                  &amp;c.</desc>
+               <num type="price">5</num>
             </item>
             <item n="314" xml:id="CAT_000092_e314">
-               <num>314</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Lambrechts;</name>
-                     </item>
-                     <item>
-                        <name>Maltebrun;</name>
-                     </item>
-                     <item>
-                        <name>Baron de Pahlen;</name>
-                     </item>
-                     <item>
-                        <name>Mentelle;</name>
-                     </item>
-                     <item>
-                        <name>Hoffman;</name>
-                     </item>
-                     <item>
-                        <name>Langles,</name>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>10</num>
-               </desc>
+               <num type="lot">314</num>
+               <desc xml:id="CAT_000092_e314_d1">Lambrechts;Maltebrun;Baron de Pahlen;Mentelle;Hoffman;Langles,
+                  &amp;c.</desc>
+               <num type="price">10</num>
             </item>
             <item n="315" xml:id="CAT_000092_e315">
-               <num>315</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>PEYRESC,</name>
-                        <trait>
-                           <p>the celebrated antiquary of the 16th century,</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>and DOM JEAN MABILLON,</name>
-                        <desc>dated Paris, 1696, so often celebrated in literature</desc>
-                     </item>
-                  </list>
-                  <num>2</num>
-               </desc>
+               <num type="lot">315</num>
+               <desc xml:id="CAT_000092_e315_d1">PEYRESC,the celebrated antiquary of the 16th century,and DOM JEAN MABILLON,dated Paris, 1696, so often celebrated in literature2</desc>
+               <num type="price"/>
             </item>
             <item n="316" xml:id="CAT_000092_e316">
-               <num>316</num>
-             
-               <desc>
-                  <list>
-                     <item>
-                        <name>SEVIGNE (MADAME DE)</name>
-                        <desc>regretting that she is not able to visit Vichy, the celebrated waters of which place she has so facetiously described in her "Letters;"</desc>
-                     </item>
-                     <item>
-                        <name>Madame de Simiane her grand-daughter</name>
-                        <desc>, two</desc>
-                     </item>
-                  </list>
-                  <num>3</num>
-               </desc>
+               <num type="lot">316</num>
+               <desc xml:id="CAT_000092_e316_d1">SEVIGNE (MADAME DE)regretting that she is not able to visit Vichy, the celebrated waters of which place she has so facetiously described in her "Letters;"Madame de Simiane her grand-daughter, two3</desc>
+               <num type="price"/>
             </item>
             <item n="317" xml:id="CAT_000092_e317">
-               <num>317</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>ST PIERRE (BERNARDIN DE)</name>
-                        <trait>
-                           <p>author of the interesting tale of "Paul and Virginia";</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>Lambrechts</name>
-                        <desc>to Amaury Duval;</desc>
-                     </item>
-                     <item>
-                        <name>CAYLUS</name>
-                        <desc>to Madame de Grafigni,</desc>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>4</num>
-               </desc>
+               <num type="lot">317</num>
+               <desc xml:id="CAT_000092_e317_d1">ST PIERRE (BERNARDIN DE)author of the interesting tale of "Paul and Virginia";Lambrechtsto Amaury Duval;CAYLUSto Madame de Grafigni,
+                  &amp;c.</desc>
+               <num type="price">4</num>
             </item>
             <item n="318" xml:id="CAT_000092_e318">
-               <num>318</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Dr. Tissot,</name>
-                        <trait>
-                           <p>the friend of Hume;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>de Loménie,</name>
-                        <trait>
-                           <p>Abp. of Toulouse, and Minister;</p>
-                        </trait>
-                     </item>
-                     <item>
-                        <name>De Viennet;</name>
-                     </item>
-                     <item>
-                        <name>Thurot</name>
-                     </item>
-                     <item>
-                        <name>Madame de Stael,</name>
-                     </item>
-                  </list>
-                  &amp;c.
-                  <num>9</num>
-               </desc>
+               <num type="lot">318</num>
+               <desc xml:id="CAT_000092_e318_d1">Dr. Tissot,the friend of Hume;de Loménie,Abp. of Toulouse, and Minister;De Viennet;ThurotMadame de Stael,
+                  &amp;c.</desc>
+               <num type="price">9</num>
             </item>
-
             <item n="319" xml:id="CAT_000092_e319">
-               <num>319</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Valli,</name>
-                        <trait>
-                           <p>of Pisa, whose experiments on Animal Physiolgy are well known,</p>
-                        </trait>
-                        <desc>dated 1792;</desc>
-                     </item>
-                     <item>
-                        <name>De Luc's</name>
-                        <desc>account of him in his own hand-writing;</desc>
-                     </item>
-                     <item>
-                        <name>Madame de Montolieu</name>
-                        <trait>
-                           <p>, writer</p>
-                        </trait>
-                     </item>
-                  </list>
-                  <num>3</num>
-               </desc>
+               <num type="lot">319</num>
+               <desc xml:id="CAT_000092_e319_d1">Valli,of Pisa, whose experiments on Animal Physiolgy are well known,dated 1792;De Luc'saccount of him in his own hand-writing;Madame de Montolieu, writer3</desc>
+               <num type="price"/>
             </item>
-
             <item n="320" xml:id="CAT_000092_e320">
-               <num/>
-               <desc>
-                  <list>
-                     <item>
-                        <name>VOLTAIRE,</name>
-                        <desc>dated Ferney, 3d of July, 1773, an account of money transactions between him and Mons. Rozé;</desc>
-                     </item>
-                     <item>
-                        <name>D'ALEMBERT,</name>
-                        <desc>mentioning an attack on the French King’s life by Damiens</desc>
-                     </item>
-                  </list>
-                  <num>2</num>
-               </desc>
+               <num type="lot"/>
+               <desc xml:id="CAT_000092_e320_d1">VOLTAIRE,dated Ferney, 3d of July, 1773, an account of money transactions between him and Mons. Rozé;D'ALEMBERT,mentioning an attack on the French King’s life by Damiens2</desc>
+               <num type="price"/>
             </item>
-               
             <item n="321" xml:id="CAT_000092_e321">
-               <num>321</num>
-               <name>VOLTAIRE,</name>
-               <desc>A MANUSCRIPT COPY OF THE "PUCELLE D'ORLEANS,"
+               <num type="lot">321</num>
+               <name>VOLTAIRE</name>
+               <desc xml:id="CAT_000092_e321_d1">A MANUSCRIPT COPY OF THE "PUCELLE D'ORLEANS,"
                   WITH VOLTAIRE'S MARGINAL NOTES, CORRECTIONS, AND INTERLINEATIONS:</desc>
-               <note>to the collectors of autographs this MS. is of inestimable value</note>
+               <note anchored="true">to the collectors of autographs this MS. is of inestimable value</note>
             </item>
- 
             <item n="322" xml:id="CAT_000092_e322">
-               <num>322</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>VOLNEY,</name>
-                        <trait>
-                           <p>(Ruins of Empires,)</p>
-                        </trait>
-                        <desc>Paris, 3d of August, 1818, a letter in very good English;</desc>
-                     </item>
-                     <item>
-                        <desc>another, in French, Paris, 19th of September, 1818</desc>
-                     </item>
-                  </list>
-                  <num>2</num>
-               </desc>
+               <num type="lot">322</num>
+               <desc xml:id="CAT_000092_e322_d1">VOLNEY,(Ruins of Empires,)Paris, 3d of August, 1818, a letter in very good English;another, in French, Paris, 19th of September,</desc>
+               <num type="price">18182</num>
             </item>
-
             <item n="323" xml:id="CAT_000092_e323">
-               <num>323</num>
-               <desc>
-                  <list>
-                     <item>
-                        <name>Gerard;</name>
-                     </item>
-                     <item>
-                        <name>Girodet;</name>
-                     </item>
-                     <item>
-                        <name>Blondel;</name>
-                     </item>
-                     <item>
-                        <name>Isabey;</name>
-                     </item>
-                  </list>
-                  &amp;c. all painters
-                  <num>5</num>
-               </desc>
+               <num type="lot">323</num>
+               <desc xml:id="CAT_000092_e323_d1">Gerard;Girodet;Blondel;Isabey;
+                  &amp;c. all painters</desc>
+               <num type="price">5</num>
             </item>
-
             <gap/>
          </list>
       </body>

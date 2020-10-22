@@ -1,11 +1,12 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000090">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000090">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
             <title>Vente Bodin, 16/05/2018</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
-               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+               <resp>éditeur scientifique <date when="2019">2019</date>
+               </resp>
             </respStmt>
          </titleStmt>
          <extent>à remplir en indiquant la taille finale du fichier</extent>
@@ -52,16 +53,16 @@
          <list>
             <gap/>
             <item n="353" xml:id="CAT_000090_e353" corresp="#MS_000012">
-               <num>353</num>
+               <num type="lot">353</num>
                <name type="author">Marie de Rabutin-Chantal, marquise de SÉVIGNÉ</name>
                <trait>
                   <p>(1626-1696).</p>
                </trait>
-               <desc>L.A., [aux Rochers 4 novembre ? 1671], à François Adhémar de Monteil comte de GRIGNAN;
-                  1 page in-4, adresse au verso « pour Monsieur de Grignan » (taches d’encre).
-                  <num value="5000" type="euros">5 000/6 000€</num>
-               </desc>
-               <note><p>RARE LETTRE À SON GENDRE, PEU AVANT L'ACCOUCHEMENT DE SA FILLE DONT ELE S'INQUIÈTE
+               <desc xml:id="CAT_000090_e353_d1">L.A., [aux Rochers 4 novembre ? 1671], à François Adhémar de Monteil comte de GRIGNAN;
+                  1 page in-4, adresse au verso « pour Monsieur de Grignan » (taches d’encre).</desc>
+                  <measure unit="EUR" commodity="currency" quantity="5000">5 000/6 000€</measure>
+               <note>
+                  <p>RARE LETTRE À SON GENDRE, PEU AVANT L'ACCOUCHEMENT DE SA FILLE DONT ELE S'INQUIÈTE
                   [le 17 novembre 1671, naissance à Lambesc de Louis-Provence de Grignan;
                   un an avant, le 15 novembre 1670, à Paris, elle avait accouché d’une fille, Marie-Blanche, son premier enfant]</p>
                   <p>«Voila ce que je vous adresse, a vous qui estes un vray badin, a vous qui faites des aplications,

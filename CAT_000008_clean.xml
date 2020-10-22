@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000008">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000008">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -65,12 +65,12 @@
          <list>
             <gap/>
             <item n="230" xml:id="CAT_000007_e230" corresp="#MS_000008">
-               <num>230</num>
+               <num type="lot">230</num>
                <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de),</name>
                <trait>
-                  <p>la célèbre épistolaire, n. 1636, m. 1696. —</p>
+                  <p>la célèbre épistolaire, n. 1636, m. 1696.</p>
                </trait>
-               <desc>L. a. à M. Duplessis. Les Rochers, dimanche 20 août, 4 pp. in-4</desc>
+               <desc xml:id="CAT_000007_e230_d1">L. a. à M. Duplessis. Les Rochers, dimanche 20 août, 4 pp. in-4</desc>
                <note>Jolie lettre dans laquelle elle le console. «… Vous ne saurez croire, mon cher Monsieur,
                   combien je suis touchée des sujets de chagrin qui ont noirci votre joie naturelle…
                   Je suis toujours persuadée que quand vous aurez remis votre petit poussin sous l'aile

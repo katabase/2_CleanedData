@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000010">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000010">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -77,12 +77,12 @@
          <list>
             <gap/>
             <item n="171" xml:id="CAT_000010_e171" corresp="#MS_000008" rend="facs">
-               <num>171</num>
+               <num type="lot">171</num>
                <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de)</name>
                <trait>
                   <p>(1626-1696)</p>
                </trait>
-               <desc>Lettres autographes n.s. à M. du Plessis. Aux Rochers, dimanche 20 aoust (1690),
+               <desc xml:id="CAT_000010_e171_d1">Lettres autographes n.s. à M. du Plessis. Aux Rochers, dimanche 20 aoust (1690),
                   4 pages in-4, avec suscription (voir reproduction, page 61).</desc>
                <note>Lettre autographe dans les <title>Mémoires de Coulanges</title>, 1820, p. 334, et reproduite dans l'édition des
                   Grands Écrivains, HAchette, tome IX, p. 562, lettre n°1296. Il est a signalé que les auteurs

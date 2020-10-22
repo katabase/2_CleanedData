@@ -1,4 +1,4 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000013">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000013">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -80,12 +80,12 @@
          <list>
             <gap/>
             <item n="268" xml:id="CAT_000013_e268">
-               <num>268</num>
+               <num type="lot">268</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
                <trait>
                   <p>l'illustre épistolière, n. 1626, m. 1696.</p>
                </trait>
-               <desc>L. aut. à M. Du Plessis; aux Rochers, 26 juin (1689), 3 p. 1/2
+               <desc xml:id="CAT_000013_e268_d1">L. aut. à M. Du Plessis; aux Rochers, 26 juin (1689), 3 p. 1/2
                in-4, coupée dans les plis.</desc>
                <note>Elle le félicite de la bonne éducation qu'il a donné à son fils; M. de
                Boufflers lui en mande des merveilles. «C'est une chose étrange comme

@@ -1,8 +1,8 @@
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000060">
-	  <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000060">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-             <title>CAT_000060</title>
+            <title>CAT_000060</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -14,17 +14,18 @@
          <publicationStmt>
             <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
             <availability status="restricted">
-               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic
+                  (CC BY 2.0)</licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl>
-                <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-                <num>72</num>
-                <editor>Eugène Charavay fils</editor>
-                <publisher>Eugène Charavay fils</publisher>
-                <pubPlace>Paris,8 quai du Louvre</pubPlace>
-                <date when="1882-03">Mars 1882</date>
+               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>72</num>
+               <editor>Eugène Charavay fils</editor>
+               <publisher>Eugène Charavay fils</publisher>
+               <pubPlace>Paris,8 quai du Louvre</pubPlace>
+               <date when="1882-03">Mars 1882</date>
             </bibl>
             <listEvent>
                <event>
@@ -39,8 +40,8 @@
                </event>
             </listEvent>
             <listWit>
-                <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
-                </witness>
+               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               </witness>
             </listWit>
             <listBibl>
                <bibl/>
@@ -54,7 +55,9 @@
       </profileDesc>
       <encodingDesc>
          <samplingDecl>
-            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to
+               documents for sale. All text preceding or succeeding the list of documents for sale
+               is not reproduced below.</p>
          </samplingDecl>
          <appInfo>
             <application version="1.6" ident="Transkribus" when="2019">
@@ -62,695 +65,464 @@
                <ptr target="https://transkribus.eu/Transkribus/"/>
             </application>
             <application version="0.5.4" ident="GROBID" when="2019-06-12">
-               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized
+                  dictionaries</label>
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
       </encodingDesc>
    </teiHeader>
-	  <text>
-		    <body>
+   <text>
+      <body>
          <gap/>
          <list>
-    
-
             <item n="1" xml:id="CAT_000060_e1">
-               <num>1</num>
-
-
-               <name type="author">Couture (Thomas),</name>
-
+               <num type="lot">1</num>
+               <name type="author">Couture (Thomas)</name>
                <trait>
                   <p>peintre célèbre, auteur des Romains de la décadence</p>
                </trait>
-
-
-
-
-               <desc>Pièce aut. sig.; Paris, 20 janvier 1850, 1 p. in-8 oblong. 8</desc>
-
-               <note>Reçu de la somme de 500 fr. à compte sur la somme de 3,000 fr., prix convenu d'un tableau qu'il doit faire, représentant un jeune fou</note>
-
+               <desc xml:id="CAT_000060_e1_d1">Pièce aut. sig.; Paris, 20 janvier 1850, 1 p. in-8
+                  oblong.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Reçu de la somme de 500 fr. à compte sur la somme de 3,000 fr., prix convenu
+                  d'un tableau qu'il doit faire, représentant un jeune fou</note>
             </item>
-
             <item n="2" xml:id="CAT_000060_e2">
-               <num>2</num>
-
-
-               <name type="author">Couturier (Jean-Pierre),</name>
-
+               <num type="lot">2</num>
+               <name type="author">Couturier (Jean-Pierre)</name>
                <trait>
-                  <p>homme politique, membre de la Convention, où il défendit Carrier, députe de la Moselle</p>
+                  <p>homme politique, membre de la Convention, où il défendit Carrier, députe de la
+                     Moselle</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. au général Dumouriez; Paris, an Ier, 1/2 p. in-f. 20</desc>
-
-               <note>Lettre historique se rapportant aux premières victoires des armées de la République. La bataille de Valmy venait d'avoir lieu. « Vos exploits sont si beaux que je n'ay pas d'expressions pour les peindre. Votre lettre au général prussien est un chef-d'oeuvre. » On a cependant trouvé qu'il y avait un peu de flagornerie au roi de Prusse. « Si ce roi avait connu ses intérêts il aurait profité de votre ouverture, et avec son alliance nous aurions fait besser touttes les testes rebelles.</note>
-
+               <desc xml:id="CAT_000060_e2_d1">L. a. s. au général Dumouriez; Paris, an Ier, 1/2 p.
+                  in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Lettre historique se rapportant aux premières victoires des armées de la
+                  République. La bataille de Valmy venait d'avoir lieu. « Vos exploits sont si beaux
+                  que je n'ay pas d'expressions pour les peindre. Votre lettre au général prussien
+                  est un chef-d'oeuvre. » On a cependant trouvé qu'il y avait un peu de flagornerie
+                  au roi de Prusse. « Si ce roi avait connu ses intérêts il aurait profité de votre
+                  ouverture, et avec son alliance nous aurions fait besser touttes les testes
+                  rebelles.</note>
             </item>
-
             <item n="3" xml:id="CAT_000060_e3">
-               <num>3</num>
-
-
-               <name type="author">Debay (J.-B.-J.),</name>
-
+               <num type="lot">3</num>
+               <name type="author">Debay (J.-B.-J.)</name>
                <trait>
                   <p>célèbre statuaire, né à Nantes</p>
                </trait>
-
-
-
-
-               <desc>Pièce sig. avec une lig. aut.; Paris, 13 janvier 1832, 2 p. in-4. 8</desc>
-
-               <note>Résiliation de son traité avec M. Carbonneaux, fondeur, au sujet de la statue de Louis XIV destinée à la ville de Versailles, qui lui avait été commandée par le Gouvernement et dont l'exécution est suspendue</note>
-
+               <desc xml:id="CAT_000060_e3_d1">Pièce sig. avec une lig. aut.; Paris, 13 janvier
+                  1832, 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Résiliation de son traité avec M. Carbonneaux, fondeur, au sujet de la statue
+                  de Louis XIV destinée à la ville de Versailles, qui lui avait été commandée par le
+                  Gouvernement et dont l'exécution est suspendue</note>
             </item>
-
             <item n="4" xml:id="CAT_000060_e4">
-               <num>4</num>
-
-
-               <name type="author">Eugénie,</name>
-
+               <num type="lot">4</num>
+               <name type="author">Eugénie</name>
                <trait>
                   <p>impératrice des Français</p>
                </trait>
-
-
-
-
-               <desc>Let. sig. au cardinal Barnabo; Paris, 25 février 1868, 1/2 p. in-f. Cachet. Belle pièce. 18</desc>
-
+               <desc xml:id="CAT_000060_e4_d1">Let. sig. au cardinal Barnabo; Paris, 25 février
+                  1868, 1/2 p. in-f. Cachet. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
             </item>
-
             <item n="5" xml:id="CAT_000060_e5">
-               <num>5</num>
-
-
-               <name type="author">Florian (J.-P. Claris de),</name>
-
+               <num type="lot">5</num>
+               <name type="author">Florian (J.-P. Claris de)</name>
                <trait>
                   <p>le célèbre fabuliste</p>
                </trait>
-
-
-
-
-               <desc>L. a. s.; château de Vernon, 16 fév., 2 p. 1/2 in-8. 20</desc>
-
-               <note>Intéressante lettre écrite à un imprimeur à l'époque où il était auprès du duc de Penthièvre. Il lui renvoie deux épreuves de l'ouvrage du duc. Instructions pour le choix des caractères et des dispositions. Voici le titre de cet ouvrage que nous trouvons sur les deux épreuves dont il est parlé plus haut, et qui sont jointes à la lettre : Officium dispositum per Hebdomadam</note>
-
+               <desc xml:id="CAT_000060_e5_d1">L. a. s.; château de Vernon, 16 fév., 2 p. 1/2
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Intéressante lettre écrite à un imprimeur à l'époque où il était auprès du duc
+                  de Penthièvre. Il lui renvoie deux épreuves de l'ouvrage du duc. Instructions pour
+                  le choix des caractères et des dispositions. Voici le titre de cet ouvrage que
+                  nous trouvons sur les deux épreuves dont il est parlé plus haut, et qui sont
+                  jointes à la lettre : Officium dispositum per Hebdomadam</note>
             </item>
-
             <item n="6" xml:id="CAT_000060_e6">
-               <num>6</num>
-
-
-               <name type="author">Gaillard (Gabriel-Henri),</name>
-
+               <num type="lot">6</num>
+               <name type="author">Gaillard (Gabriel-Henri)</name>
                <trait>
-                  <p>célèbre publiciste et historien, membre de l'Acad. fr., né en 1726, mort en 1806</p>
+                  <p>célèbre publiciste et historien, membre de l'Acad. fr., né en 1726, mort en
+                     1806</p>
                </trait>
-
-
-
-
-               <desc>L. a. s.; Paris, 8 mars, 2 p. in-4. Très-belle lettre. 10</desc>
-
+               <desc xml:id="CAT_000060_e6_d1">L. a. s.; Paris, 8 mars, 2 p. in-4. Très-belle
+                  lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
-
             <item n="7" xml:id="CAT_000060_e7">
-               <num>7</num>
-
-
-               <name type="author">Garnerin (J.-B.),</name>
-
+               <num type="lot">7</num>
+               <name type="author">Garnerin (J.-B.)</name>
                <trait>
                   <p>célèbre aéronaute, témoin à charge dans le procès de Marie-Antoinette</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. Pereire, 11 oct. 1841, 2 p. in-4. Cachet. 12</desc>
-
-               <note>Belle et intéressante lettre sur des expériences aérostatiques extraordinaires qu'il doit faire à Saint-Germain. Ce sera, paraît-il, un spectacle nouveau, « celui d'une double ascension avec deux aérostats et deux essais de direction le même jour par deux moyens différents employés par deux aéronautes luttant ensemble. Jamais l'on n'a vu deux ballons s'élever à la fois, chacun monté par un aéronaute.</note>
-
+               <desc xml:id="CAT_000060_e7_d1">L. a. s. à M. Pereire, 11 oct. 1841, 2 p. in-4.
+                  Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <note>Belle et intéressante lettre sur des expériences aérostatiques extraordinaires
+                  qu'il doit faire à Saint-Germain. Ce sera, paraît-il, un spectacle nouveau, «
+                  celui d'une double ascension avec deux aérostats et deux essais de direction le
+                  même jour par deux moyens différents employés par deux aéronautes luttant
+                  ensemble. Jamais l'on n'a vu deux ballons s'élever à la fois, chacun monté par un
+                  aéronaute.</note>
             </item>
-
             <item n="8" xml:id="CAT_000060_e8">
-               <num>8</num>
-
-
-               <name type="author">Gladstone (W.-E.),</name>
-
+               <num type="lot">8</num>
+               <name type="author">Gladstone (W.-E.)</name>
                <trait>
                   <p>illustre homme d'Etat anglais</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. de James; 1844, 2 p. in-8. Jolie lettre. 15</desc>
-
+               <desc xml:id="CAT_000060_e8_d1">L. a. s. à M. de James; 1844, 2 p. in-8. Jolie
+                  lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-
             <item n="9" xml:id="CAT_000060_e9">
-               <num>9</num>
-
-
-               <name type="author">Gohier (L.-J.),</name>
-
+               <num type="lot">9</num>
+               <name type="author">Gohier (L.-J.)</name>
                <trait>
                   <p>ministre de la justice en 1793, membre dn Directoire, auteur de Mémoires</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à Champein; au Morais, près Argenteuil, 6 thermidor an V, 4 p. pet. in-4. 30</desc>
-
-               <note>Très-belle lettre intime. Il lui annonce la nomination de Hoche, leur ami commun au Ministère de la Guerre, et l'obstacle qui l'a rendue inutile. (On sait que son défaut d'âge, car il avait, moins de trente ans, ne lui permit pas d'accepter.) Il ajoute plaisamment : « Je lui aurais donné avec grand plaisir une de mes années les plus heureuses, mais ce cadeau que feront encore plus volontiers nos jolies femmes de Paris est malheureusement impossible. » Merlin et Ramel restent dans le Ministère, mais on assure que ce ne sera pas pour longtemps. Il vient de terminer son ouvrage, qui ne ressemble en rien à celui dont Champein a commencé la musique, etc</note>
-
+               <desc xml:id="CAT_000060_e9_d1">L. a. s. à Champein; au Morais, près Argenteuil, 6
+                  thermidor an V, 4 p. pet. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Très-belle lettre intime. Il lui annonce la nomination de Hoche, leur ami
+                  commun au Ministère de la Guerre, et l'obstacle qui l'a rendue inutile. (On sait
+                  que son défaut d'âge, car il avait, moins de trente ans, ne lui permit pas
+                  d'accepter.) Il ajoute plaisamment : « Je lui aurais donné avec grand plaisir une
+                  de mes années les plus heureuses, mais ce cadeau que feront encore plus volontiers
+                  nos jolies femmes de Paris est malheureusement impossible. » Merlin et Ramel
+                  restent dans le Ministère, mais on assure que ce ne sera pas pour longtemps. Il
+                  vient de terminer son ouvrage, qui ne ressemble en rien à celui dont Champein a
+                  commencé la musique, etc</note>
             </item>
-
             <item n="10" xml:id="CAT_000060_e10">
-               <num>10</num>
-
-
-               <name type="author">Heine (Henri),</name>
-
+               <num type="lot">10</num>
+               <name type="author">Heine (Henri)</name>
                <trait>
                   <p>illustre poète allemand</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., en français, à Gérard de Nerval; Paris, 28 sept. 1848, 1/2 p. in-8. Jolie lettre. Rare. 25</desc>
-
+               <desc xml:id="CAT_000060_e10_d1">L. a. s., en français, à Gérard de Nerval; Paris, 28
+                  sept. 1848, 1/2 p. in-8. Jolie lettre. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
-
             <item n="11" xml:id="CAT_000060_e11">
-               <num>11</num>
-
-
-               <name type="author">Janvier (Antide),</name>
-
+               <num type="lot">11</num>
+               <name type="author">Janvier (Antide)</name>
                <trait>
-                  <p>habile mécanicien, horloger du roi, célèbre par ses inventions ingénieuses, né dans le Jura</p>
+                  <p>habile mécanicien, horloger du roi, célèbre par ses inventions ingénieuses, né
+                     dans le Jura</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à Napoléon Ier; Paris, 15 mai 1815, 2 p. in-f. 15</desc>
-
-               <note>Très-curieuse lettre sur l'organisation du Conservatoire des Arts et Métiers</note>
-
+               <desc xml:id="CAT_000060_e11_d1">L. a. s. à Napoléon Ier; Paris, 15 mai 1815, 2 p.
+                  in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Très-curieuse lettre sur l'organisation du Conservatoire des Arts et
+                  Métiers</note>
             </item>
-
             <item n="12" xml:id="CAT_000060_e12">
-               <num>12</num>
-
-
-               <name type="author">Jongkind (J.-B.),</name>
-
+               <num type="lot">12</num>
+               <name type="author">Jongkind (J.-B.)</name>
                <trait>
                   <p>célèbre peintre hollandais contemporain, élève de E. Isabey</p>
                </trait>
-
-
-
-
-               <desc>1° L. a. s., en français, à François Cavé; 1854, 2 p. in-8; 2° Dessin au crayon représentant Cavé assis dans un fauteuil; in-8. 12</desc>
-
+               <desc xml:id="CAT_000060_e12_d1">1° L. a. s., en français, à François Cavé; 1854, 2
+                  p. in-8;</desc>
+               <desc xml:id="CAT_000060_e12_d2">2° Dessin au crayon représentant Cavé assis dans un fauteuil;
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-
             <item n="13" xml:id="CAT_000060_e13">
-               <num>13</num>
-
-
-               <name type="author">Krauss (Gabrielle),</name>
-
+               <num type="lot">13</num>
+               <name type="author">Krauss (Gabrielle)</name>
                <trait>
                   <p>une des plus célèbres cantatrices de l'Opéra, née à Vienne en 1842</p>
                </trait>
-
-
-
-
-                <desc>L. a. s., en allemand, au docteur Mandl, (1869), 2 p. in-8. Jolie lettre. 12</desc>
-
-
+               <desc xml:id="CAT_000060_e13_d1">L. a. s., en allemand, au docteur Mandl, (1869), 2
+                  p. in-8. Jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-
             <item n="14" xml:id="CAT_000060_e14">
-               <num>14</num>
-
-
-               <name type="author">Lawrence (Thomas),</name>
-
+               <num type="lot">14</num>
+               <name type="author">Lawrence (Thomas)</name>
                <trait>
-                  <p>célèbre peintre anglais, à qui l'on doit un grand nombre de portraits historiques</p>
+                  <p>célèbre peintre anglais, à qui l'on doit un grand nombre de portraits
+                     historiques</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., 16 décembre 1826, 1 p. in-8. 20</desc>
-
+               <desc xml:id="CAT_000060_e14_d1">L. a. s., 16 décembre 1826, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-
             <item n="15" xml:id="CAT_000060_e15">
-               <num>15</num>
-
-
-               <name type="author">Longfellow (H.-W.),</name>
-
+               <num type="lot">15</num>
+               <name type="author">Longfellow (H.-W.)</name>
                <trait>
                   <p>poète et romancier américain</p>
                </trait>
-
-
-
-
-               <desc>L. a. s.; 13 juin 1865, 1 p. in-8. Jolie lettre. 18</desc>
-
+               <desc xml:id="CAT_000060_e15_d1">L. a. s.; 13 juin 1865, 1 p. in-8. Jolie
+                  lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
             </item>
-
             <item n="16" xml:id="CAT_000060_e16">
-               <num>16</num>
-
-
-               <name type="author">Louis XVIII,</name>
-
+               <num type="lot">16</num>
+               <name type="author">Louis XVIII</name>
                <trait>
                   <p>roi de France</p>
                </trait>
-
-
-
-
-               <desc>Pièce sig.; Versailles, 13 janvier 1776, 1 p. in-fol. 8</desc>
-
-               <note>Curieuse pièce. Il donne l'ordre de pavyer au sieur Imbert, secrétaire de la chambre de Madame, la somme de 50,000 livres pour être employée au paiement des diamants dont elle a fait l'achat</note>
-
+               <desc xml:id="CAT_000060_e16_d1">Pièce sig.; Versailles, 13 janvier 1776, 1 p.
+                  in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Curieuse pièce. Il donne l'ordre de pavyer au sieur Imbert, secrétaire de la
+                  chambre de Madame, la somme de 50,000 livres pour être employée au paiement des
+                  diamants dont elle a fait l'achat</note>
             </item>
-
             <item n="17" xml:id="CAT_000060_e17">
-               <num>17</num>
-
-
-               <name type="author">Maistre (le comte Joseph de),</name>
-
+               <num type="lot">17</num>
+               <name type="author">Maistre (le comte Joseph de)</name>
                <trait>
                   <p>célèbre publiciste ultramontain, auteur du livre du Pape</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. au comte de Celles; Rome, 16 mars, 1/2 p. in-8. 30</desc>
-
+               <desc xml:id="CAT_000060_e17_d1">L. a. s. au comte de Celles; Rome, 16 mars, 1/2 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
-
             <item n="18" xml:id="CAT_000060_e18">
-               <num>18</num>
-
-
-               <name type="author">Maistre (Xavier de),</name>
-
+               <num type="lot">18</num>
+               <name type="author">Maistre (Xavier de)</name>
                <trait>
-                  <p>un de nos meilleurs écrivains, auteur du Voyage autour de ma Chambre, né à Chambéry</p>
+                  <p>un de nos meilleurs écrivains, auteur du Voyage autour de ma Chambre, né à
+                     Chambéry</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. au baron de Wolzogen ; ce lundi 28, 1/2 p. in-8. Raccommodage. 30</desc>
-
+               <desc xml:id="CAT_000060_e18_d1">L. a. s. au baron de Wolzogen ; ce lundi 28, 1/2 p.
+                  in-8. Raccommodage.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
-
             <item n="19" xml:id="CAT_000060_e19">
-               <num>19</num>
-
-
-               <name type="author">Malherbe (François de),</name>
-
+               <num type="lot">19</num>
+               <name type="author">Malherbe (François de)</name>
                <trait>
                   <p>l'illustre restaurateur de la poésie française</p>
                </trait>
-
-
-
-
-               <desc>Pièce sig.; 1604, 2 p. 1/2 in-f. 40</desc>
-
+               <desc xml:id="CAT_000060_e19_d1">Pièce sig.; 1604, 2 p. 1/2 in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="40">40</measure>
             </item>
-
             <item n="20" xml:id="CAT_000060_e20">
-               <num>20</num>
-
-
-               <name type="author">Manet (Edouard),</name>
-
+               <num type="lot">20</num>
+               <name type="author">Manet (Edouard)</name>
                <trait>
                   <p>peintre et aquafortiste distingué, le chef des Impressionnistes, ne en 1833</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., 1 p. in-18. 7</desc>
-
+               <desc xml:id="CAT_000060_e20_d1">L. a. s., 1 p. in-18.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
-
             <item n="21" xml:id="CAT_000060_e21">
-               <num>21</num>
-
-
-               <name type="author">Manteuffel (E.-R.-C., baron de),</name>
-
+               <num type="lot">21</num>
+               <name type="author">Manteuffel (E.-R.-C., baron de)</name>
                <trait>
-                  <p>célèbre général prussien, qui prit une part active à la guerre de 1870, gouverneur de l'Alsace-Lorraine</p>
+                  <p>célèbre général prussien, qui prit une part active à la guerre de 1870,
+                     gouverneur de l'Alsace-Lorraine</p>
                </trait>
-
-
-
-
-               <desc>Let. sig. à M. Graffunder; 1866, 1 p. in-fol. 12</desc>
-
+               <desc xml:id="CAT_000060_e21_d1">Let. sig. à M. Graffunder; 1866, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-
             <item n="22" xml:id="CAT_000060_e22">
-               <num>22</num>
-
-
-               <name type="author">Millière (J.-B.),</name>
-
+               <num type="lot">22</num>
+               <name type="author">Millière (J.-B.)</name>
                <trait>
-                  <p>célèbre révolutionnaire, fusillé lors de l'entrée des troupes de Versailles à Paris</p>
+                  <p>célèbre révolutionnaire, fusillé lors de l'entrée des troupes de Versailles à
+                     Paris</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., 1870, 1 p. 1/2 in-8. 7</desc>
-
+               <desc xml:id="CAT_000060_e22_d1">L. a. s., 1870, 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
-
             <item n="23" xml:id="CAT_000060_e23">
-               <num>23</num>
-
-
-               <name type="author">Montpensier (Louis II de Bourbon, duc de),</name>
-
+               <num type="lot">23</num>
+               <name type="author">Montpensier (Louis II de Bourbon, duc de)</name>
                <trait>
-                  <p>gouverneur de Bretagne à l'époque de la Saint-Barthélemy, et général en chef de l'armée du Poitou, connu par ses cruautés</p>
+                  <p>gouverneur de Bretagne à l'époque de la Saint-Barthélemy, et général en chef de
+                     l'armée du Poitou, connu par ses cruautés</p>
                </trait>
-
-
-
-
-               <desc>Let. sig., avec la souscrip. aut., à son cousin M. de Borall, lieutenant au gouvernement de Bretagne; Champigny, 29 juin 1575, 1 p. in-f. Traces de cachet. 18</desc>
-
-               <note>Il a reçu les lettres qui lui annoncent la mort du duc de Rohan et qui insistent sur le besoin de veiller aux places qu'il a délaissées</note>
-
+               <desc xml:id="CAT_000060_e23_d1">Let. sig., avec la souscrip. aut., à son cousin M.
+                  de Borall, lieutenant au gouvernement de Bretagne; Champigny, 29 juin 1575, 1 p.
+                  in-f. Traces de cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
+               <note>Il a reçu les lettres qui lui annoncent la mort du duc de Rohan et qui
+                  insistent sur le besoin de veiller aux places qu'il a délaissées</note>
             </item>
-
             <item n="24" xml:id="CAT_000060_e24">
-               <num>24</num>
-
-
-               <name type="author">Moore (Thomas),</name>
-
+               <num type="lot">24</num>
+               <name type="author">Moore (Thomas)</name>
                <trait>
                   <p>illustre poète anglais, ami de lord Byron, dont il publia les Mémoires</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. Ackerman; 1823, 1 p. in-8. Jolie lettre. 15</desc>
-
-
+               <desc xml:id="CAT_000060_e24_d1">L. a. s. à M. Ackerman; 1823, 1 p. in-8. Jolie
+                  lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="25" xml:id="CAT_000060_e25">
-               <num>25</num>
-
-
-               <name type="author">Napoléon III,</name>
-
+               <num type="lot">25</num>
+               <name type="author">Napoléon III</name>
                <trait>
                   <p>empereur des Français</p>
                </trait>
-
-
-
-
-               <desc>Let. sig. à un cardinal, contresignée par Walewski; Paris, 25 février 1856, 1 p. in-f. Belle pièce. 15</desc>
-
+               <desc xml:id="CAT_000060_e25_d1">Let. sig. à un cardinal, contresignée par Walewski;
+                  Paris, 25 février 1856, 1 p. in-f. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-
             <item n="26" xml:id="CAT_000060_e26">
-               <num>26</num>
-
-
-               <name type="author">Nesmond (Henri de),</name>
-
+               <num type="lot">26</num>
+               <name type="author">Nesmond (Henri de)</name>
                <trait>
-                  <p>évêque de Montauban, puis archevêque de Toulouse, prélat célèbre par sa modération envers les protestants, membre de l'Acad. fr</p>
+                  <p>évêque de Montauban, puis archevêque de Toulouse, prélat célèbre par sa
+                     modération envers les protestants, membre de l'Acad. fr.</p>
                </trait>
-
-
-
-
-               <desc>L. a. s.; Bayeux, 30 sept. 1687, 1 p. in-4. 18</desc>
-
+               <desc xml:id="CAT_000060_e26_d1">L. a. s.; Bayeux, 30 sept. 1687, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
                <note>Belle lettre relative à sa nomination à l'évêché de Montauban</note>
-
             </item>
-
             <item n="27" xml:id="CAT_000060_e27">
-               <num>27</num>
-
-
-               <name type="author">Patterson (Elisabeth),</name>
-
+               <num type="lot">27</num>
+               <name type="author">Patterson (Elisabeth)</name>
                <trait>
-                  <p>première femme de Jérôme Bonaparte, roi de Westphalie, dont il fut séparé par ordre de Napoléon Ier</p>
+                  <p>première femme de Jérôme Bonaparte, roi de Westphalie, dont il fut séparé par
+                     ordre de Napoléon Ier</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. Albert Grzymala, 1833, 1 p. 1/2 in-8. Rare. 15</desc>
-
+               <desc xml:id="CAT_000060_e27_d1">L. a. s. à M. Albert Grzymala, 1833, 1 p. 1/2 in-8.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Jolie lettre dans laquelle il est question de la princesse Czartoriska</note>
-
             </item>
-
             <item n="28" xml:id="CAT_000060_e28">
-               <num>28</num>
-
-
+               <num type="lot">28</num>
                <name type="author">Pie IX, pape</name>
-
-
-
-
-               <desc>Pièce sig. avec une ligne aut. sur vélin; Rome, 9 septembre 1863, 1 p. in-f. à mi-marges. 15</desc>
-
+               <desc xml:id="CAT_000060_e28_d1">Pièce sig. avec une ligne aut. sur vélin; Rome, 9
+                  septembre 1863, 1 p. in-f. à mi-marges.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-
             <item n="30" xml:id="CAT_000060_e30">
-               <num>30</num>
-
-
-               <name type="author">Préault (Aug.),</name>
-
+               <num type="lot">30</num>
+               <name type="author">Préault (Aug.)</name>
                <trait>
                   <p>célèbre sculpteur</p>
                </trait>
-
-
-
-
-               <desc>Dessin au crayon représentant la statue de Lamartine, dédié à son ami Ch. Asselineau, 1869, in-4 obl. 20</desc>
-
+               <desc xml:id="CAT_000060_e30_d1">Dessin au crayon représentant la statue de
+                  Lamartine, dédié à son ami Ch. Asselineau, 1869, in-4 obl.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-
             <item n="31" xml:id="CAT_000060_e31">
-               <num>31</num>
-
-
-               <name type="author">Revoil (P.),</name>
-
+               <num type="lot">31</num>
+               <name type="author">Revoil (P.)</name>
                <trait>
                   <p>célèbre peintre d'histoire et de genre, élève de David, né à Lyon</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. Duchesne ; Lyon, 14 août, 3 p. in-8. 7</desc>
-
-               <note>Jolie lettre sur des acquisitions d'estampes, qu'il le prie de faire pour lui</note>
-
+               <desc xml:id="CAT_000060_e31_d1">L. a. s. à M. Duchesne ; Lyon, 14 août, 3 p.
+                  in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+               <note>Jolie lettre sur des acquisitions d'estampes, qu'il le prie de faire pour
+                  lui</note>
             </item>
-
             <item n="32" xml:id="CAT_000060_e32">
-               <num>32</num>
-
-
-               <name type="author">Robert Ier (C.-L.-M. de Bourbon),</name>
-
+               <num type="lot">32</num>
+               <name type="author">Robert Ier (C.-L.-M. de Bourbon)</name>
                <trait>
                   <p>infant d'Espagne, successeur de son père Charles III, né en 1848</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., 3 p. in-8. 7</desc>
-
-               <note>Charmante épître intime signée Bob, adressée à sa soeur qu'il appelle sa chère Meg</note>
-
+               <desc xml:id="CAT_000060_e32_d1">L. a. s., 3 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+               <note>Charmante épître intime signée Bob, adressée à sa soeur qu'il appelle sa chère
+                  Meg</note>
             </item>
-
             <item n="33" xml:id="CAT_000060_e33">
-               <num>33</num>
-
-
-               <name type="author">Robert (Hubert),</name>
-
+               <num type="lot">33</num>
+               <name type="author">Robert (Hubert)</name>
                <trait>
                   <p>célèbre peintre et graveur, né en 1733, mort en 1808</p>
                </trait>
-
-
-
-
-               <desc>Pièce sig. des membres du Comité de sûreté générale Merlin de Thionville, Lacoste, Vadier, Goupilleau de Fontenay, Legendre, Louis, du Bas-Rhin, etc.; 17 thermidor an II, 3/4 de p. in-f. Sceau. 12</desc>
-
-               <note>Ordre de mettre le citoyen Robert en liberté. (On sait qu'il fut arrêté à l'époque de la Révolution et que le hasard seul lui sauva la vie : un prisonnier qui portait le même nom que lui monta à sa place sur l'échafaud.)</note>
-
+               <desc xml:id="CAT_000060_e33_d1">Pièce sig. des membres du Comité de sûreté générale
+                  Merlin de Thionville, Lacoste, Vadier, Goupilleau de Fontenay, Legendre, Louis, du
+                  Bas-Rhin, etc.; 17 thermidor an II, 3/4 de p. in-f. Sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <note>Ordre de mettre le citoyen Robert en liberté. (On sait qu'il fut arrêté à
+                  l'époque de la Révolution et que le hasard seul lui sauva la vie : un prisonnier
+                  qui portait le même nom que lui monta à sa place sur l'échafaud.)</note>
             </item>
             <item n="34" xml:id="CAT_000060_e34">
-               <num>34</num>
-
-
-               <name type="author">Rousseau (J.-J.),</name>
-
+               <num type="lot">34</num>
+               <name type="author">Rousseau (J.-J.)</name>
                <trait>
                   <p>le grand écrivain</p>
                </trait>
-
-
-
-
-               <desc>Let. aut.; 24 mars 1768, 1 p. in-4. 30</desc>
-
-               <note>Il a appris avec une vive joie, la délivrance de son ami M. Lenieps, puis il donne des nouvelles de sa santé, qui n'est pas aussi satisfaisante qu'il le désirerait. :</note>
-
+               <desc xml:id="CAT_000060_e34_d1">Let. aut.; 24 mars 1768, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Il a appris avec une vive joie, la délivrance de son ami M. Lenieps, puis il
+                  donne des nouvelles de sa santé, qui n'est pas aussi satisfaisante qu'il le
+                  désirerait. :</note>
             </item>
             <item n="35" xml:id="CAT_000060_e35">
-               <num>35</num>
-
-
-               <name type="author">Samson (J.-I),</name>
-
+               <num type="lot">35</num>
+               <name type="author">Samson (J.-I)</name>
                <trait>
-                  <p>célèbre acteur du Théâtre-Français, auteur dramatique, né en 1793, mort en 1871</p>
+                  <p>célèbre acteur du Théâtre-Français, auteur dramatique, né en 1793, mort en
+                     1871</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à Alexandre Dumas; Paris, 17 janvier 1869, 2 p. in-8. 20</desc>
-
+               <desc xml:id="CAT_000060_e35_d1">L. a. s. à Alexandre Dumas; Paris, 17 janvier 1869,
+                  2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Belle lettre relative à Mme Forley, son élève</note>
-
             </item>
-
             <item n="36" xml:id="CAT_000060_e36">
-               <num>36</num>
-
-
-               <name type="author">Sauvage (P.-L.-F.),</name>
-
+               <num type="lot">36</num>
+               <name type="author">Sauvage (P.-L.-F.)</name>
                <trait>
-                  <p>mécanicien, le célèbre inventeur de l'hélice, à qui on vient d'élever une statue à Boulogne-sur- Mer, sa ville natale</p>
+                  <p>mécanicien, le célèbre inventeur de l'hélice, à qui on vient d'élever une
+                     statue à Boulogne-sur-Mer, sa ville natale</p>
                </trait>
-
-
-
-
-               <desc>L. a. s. à M. Fagniez, 1842, 1 p. 1/2 pet. in-4. Rare. 20</desc>
-
+               <desc xml:id="CAT_000060_e36_d1">L. a. s. à M. Fagniez, 1842, 1 p. 1/2 pet. in-4.
+                  Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-
             <item n="37" xml:id="CAT_000060_e37">
-               <num>37</num>
-
-
-               <name type="author">Saxe (Maurice, comte de),</name>
-
+               <num type="lot">37</num>
+               <name type="author">Saxe (Maurice, comte de)</name>
                <trait>
                   <p>illustre maréchal de France le vainqueur de Fontenoy</p>
                </trait>
-
-
-
-
-               <desc>Pièce aut.; (1748), 2 p. 1/2 in-f. 25</desc>
-
-               <note>Minute d'une lettre de lui relative au gouvernement des Pays-Bas que le Roi devait lui donner en récompense de ses services. Il ne croit pas que sa qualité de protestant puisse lui nuire dans cette circonstance, d'autant plus que le Roi pourra retrancher de ses pouvoirs ce qu'il jugera convenable. « Je me flate que sur se que sa bonté voudras me confié il seras obéis et servis avec le zelle qui jusqu'à presant n'a pas démantis ma conduite. Le Roy m'a confier ses armes, la défance de son roiaume, sa pérsonne, coment ne me confière-t-il pas ses conquêtes, ou dalieur je ne puis que faire administres la loy et les coutumes ressue, et obéir aux ordres qui me viendront de sa part.</note>
-
+               <desc xml:id="CAT_000060_e37_d1">Pièce aut.; (1748), 2 p. 1/2 in-f.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <note>Minute d'une lettre de lui relative au gouvernement des Pays-Bas que le Roi
+                  devait lui donner en récompense de ses services. Il ne croit pas que sa qualité de
+                  protestant puisse lui nuire dans cette circonstance, d'autant plus que le Roi
+                  pourra retrancher de ses pouvoirs ce qu'il jugera convenable. « Je me flate que
+                  sur se que sa bonté voudras me confié il seras obéis et servis avec le zelle qui
+                  jusqu'à presant n'a pas démantis ma conduite. Le Roy m'a confier ses armes, la
+                  défance de son roiaume, sa pérsonne, coment ne me confière-t-il pas ses conquêtes,
+                  ou dalieur je ne puis que faire administres la loy et les coutumes ressue, et
+                  obéir aux ordres qui me viendront de sa part.</note>
             </item>
-
             <item n="38" xml:id="CAT_000060_e38">
-               <num>38</num>
-
-
-               <name type="author">Tennyson (Alfred),</name>
-
+               <num type="lot">38</num>
+               <name type="author">Tennyson (Alfred)</name>
                <trait>
-                  <p>célèbre poète contemporain, surnommé « le plus classique des romantiques anglais, » né en 1809</p>
+                  <p>célèbre poète contemporain, surnommé « le plus classique des romantiques
+                     anglais, » né en 1809</p>
                </trait>
-
-
-
-
-               <desc>L. a. s., 1880, 1 p. in-8. Rare. 20</desc>
-
+               <desc xml:id="CAT_000060_e38_d1">L. a. s., 1880, 1 p. in-8. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-
             <item n="39" xml:id="CAT_000060_e39">
-               <num>39</num>
-
-
-               <name type="author">Victor-Emmanuel II,</name>
-
+               <num type="lot">39</num>
+               <name type="author">Victor-Emmanuel II</name>
                <trait>
                   <p>roi d'Italie</p>
                </trait>
-
-
-
-
-               <desc>Pièce sig.; Turin, 26 juin 1856, 1 p. in-fol. Belle pièce. 20</desc>
-
-
+               <desc xml:id="CAT_000060_e39_d1">Pièce sig.; Turin, 26 juin 1856, 1 p. in-fol. Belle
+                  pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-		       </list>
+         </list>
       </body>
       <gap/>
-	  </text>
+   </text>
 </TEI>
