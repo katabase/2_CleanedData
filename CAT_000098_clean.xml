@@ -1,0 +1,165 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000098">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Dolomieu et Libri</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue d’une belle collection de lettres autographes</title>
+               <publisher>Charon</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1843">1843</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Maison de vente Silvestre</addrLine>
+                     </address>
+                     <persName type="auctioneer">M° Commendeur</persName>
+                     <persName type="expert" ref="#PE2_000029">Charon</persName>
+                     <persName type="collector" ref="#PE2_000028">Madame de Dolomieu</persName>
+                     <persName type="collector" ref="#PE2_000027">M. Libri</persName>
+                     <date from="1843-05-15" to="1843-05-20">Du lundi 15 au samedi 20 mai</date>
+                  </p>
+               </event>
+               <event type="report">
+                  <p>
+                     <bibl>
+                        <title>L'Amateur d'autographes</title>,
+                        N°3, Février 1862, p. 149 <ptr target="https://books.google.ch/books?id=ShRKAAAAcAAJ&amp;hl=fr&amp;pg=PA149"/>.
+                     </bibl>
+                     <bibl>
+                        <title>Isographie des hommes célèbres</title>, Paris: T. Delarue, Truttel et Wurtz,
+                        vol. 4, 1843, p. 34 <ptr type="digit" target="https://gallica.bnf.fr/ark:/12148/bpt6k6545594v/f526.image"/> (donne le prix de 56 Fr. 50).
+                     </bibl>
+                  </p>
+               </event>
+               <event type="identification">
+                  <p>
+                     <bibl>
+                        Ludovic Lalanne,
+                        <title>Dictionnaire de pièces autographes volées aux bibliothèques publiques de la France</title>,
+                        Paris: Panckoucke, 1851, p. 47<ptr target="https://books.google.ch/books?id=Kn2JqKCyLbsC&amp;hl=fr&amp;pg=PA47"/>.
+                     </bibl>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness xml:id="CAT_000098_w1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">????</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <desc>Exemplaire annoté</desc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb36549786j"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            
+            <item n="205" xml:id="CAT_000098_e205">
+               <num>205.</num>
+               <name ref="#PE1_000002">GRIGNAN (la comtesse de),</name>
+               <trait>
+                  <p>fille de Mme de Sévigné.
+                     N. 1648. M. 1705.</p>
+               </trait>
+               <desc>L. aut. sig., à… 3 pages in-8. Sans date.</desc>
+               <note>Détails curieux sur son arrivée à la grotte.</note>
+               <add corresp="#CAT_000098_w1">
+                  <num value="57" type="francs">57</num>
+               </add>
+            </item>
+            
+            <gap/>
+            
+            <item n="470" xml:id="CAT_000098_e470">
+               <num>470.</num>
+               <name ref="#PE1_000031">SCUDÉRY (George de),</name>
+               <trait>
+                  <p>poëte, membre de l'Académie
+                     française. N. 1601. M. 1667.</p>
+               </trait>
+               <desc>L. aut. sig. (sans date), dans laquelle se trouve une pièce de
+                  vers sur la Mort de Sénèque, à l'occasion du tableau du Brun;
+                  15 strophes de 4 vers. 4 pages pleines in-fol.</desc>
+               <add corresp="#CAT_000098_w1">
+                  <num value="191" type="francs">191</num>
+               </add>
+            </item>
+            
+            <item n="471" xml:id="CAT_000098_e471">
+               <num>471.</num>
+               <name ref="#PE1_000025">SCUDÉRY (Madeleine de),</name>
+               <trait>
+                  <p>célèbre par ses écrits.
+                     N. 1607. M. 1701.</p>
+               </trait>
+               <desc>L. aut. sig., à M. de … 3 pages in-4.</desc>
+               <note>
+                  <p>Lettre de félicitation sur ce que le roi vient de le faire ministre d'État.
+                     M. Pélisson qui n'ignore pas ses sentiments, s'en est réjoui avec elle.
+                     Elle l'entretient ensuite de l'hôtel de Rambouillet.</p>
+                  <p>«Souvenez-vous, Monsieur, que j'ai commencé d'estre connue des gens,
+                     par l'hostel de Rambouillet, et en suis sortie par l'hostel de Nevers et
+                     l'hostel de Croquis… »</p>
+               </note>
+               <add corresp="#CAT_000098_w1">
+                  <num value="130" type="francs">130</num>
+               </add>
+            </item>
+            
+            <gap/>
+              
+            <item n="473" xml:id="CAT_000098_e473">
+               <num>473.</num>
+               <name ref="#PE1_000001">SÉVIGNÉ (Marie de Rabutin Chantal, marquise de).</name>
+               <trait>
+                  <p>N. 1627. M. 1696.</p>
+               </trait>
+               <desc>L. aut., pour ma très bonne et très belle (sa fille), dans son château
+                  du Polidon. Aux Rochers, dimanche 21e de juin. 15 pages
+                  in-4. Avec cachets.</desc>
+               <add corresp="#CAT_000098_w1">
+                  <num value="222" type="francs">222</num>
+               </add>
+            </item>
+            
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

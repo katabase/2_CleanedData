@@ -1,0 +1,449 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000091">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Germain Garnier</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue des livres, imprimés et manuscrits de la bibliothèque de feu M. le marquis Germain Garnier</title>
+               <publisher>Brunet</publisher>
+               <publisher>Delestre-Boulage</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1822">1822</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Rue des Bons-Enfants, n°30</addrLine>
+                     </address>
+                     <persName type="auctioneer">M° Mérault</persName>
+                     <persName type="auctioneer">M° Dudant</persName>
+                     <persName type="expert">Brunet</persName>
+                     <persName type="expert">Delestre-Boulage</persName>
+                     <persName type="collector" ref="#PE2_000020">Germain Garnier</persName>
+                     <date from="1822-03-04" to="2018-03-22">Mercredi 4 mars au vendredi 22 mars 1822</date>
+                  </p>
+               </event>
+               <event type="report">
+                  <p>
+                     <bibl>
+                        <title>L'Amateur d'autographes</title>,
+                        N°1, Janvier 1862, p. 6. <ptr target="https://books.google.ch/books?id=ShRKAAAAcAAJ&amp;hl=fr&amp;pg=PA6"/>.
+                     </bibl>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">DELTA-33204</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb36535442x"/>
+               </witness>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Pays-Bas</country>
+                        <settlement>La Haye</settlement>
+                        <institution>Koninklijke Bibliotheek | Nationale Bibliotheek van Nederland</institution>
+                        <idno>KW Verz Cat 4290</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <desc>Exemplaire annoté</desc>
+                  <ptr type="catalogue" target="http://opc4.kb.nl/DB=1/XMLPRS=Y/PPN?PPN=399125523"/>
+                  <ptr type="digit" target="https://books.google.fr/books?id=AvpcAAAAcAAJ"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="1180" xml:id="CAT_000091_e1180">
+               <num>1180</num>
+               <desc>Recueil de Lettres originales, au nombre d’environ cent, de personnages
+                  célèbres du XVIe siècle. In-fol. demi-rel.
+                  MANUSCRIT AUTOGRAPHE et très précieux, contenant 
+                  <list>
+                     <item>
+                        <name>des lettres d’Henri III, roi de France;</name>
+                     </item>
+                     <item>
+                        <name>de l’empereur Charles-Quint;</name>
+                     </item>
+                     <item>
+                        <name>de Philippe II, roi d’Espagne;</name>
+                     </item>
+                     <item>
+                        <name>de Charles, cardinal de Lorraine;</name>
+                     </item>
+                     <item>
+                        <name>de Manuel Philibert, duc de Savoie;</name>
+                     </item>
+                     <item>
+                        <name>de Guillaume de Saulx Tavanne;</name>
+                     </item>
+                     <item>
+                        <name>de Paul de Termes, maréchal de France;</name>
+                     </item>
+                     <item>
+                        <name>de François de Clèves, duc de Nevers;</name>
+                     </item>
+                     <item>
+                        <name>de Jacques de Châtillon;</name>
+                     </item>
+                     <item>
+                        <name>de Jacques de Humières;</name>
+                     </item>
+                     <item>
+                        <name>du maréchal de Bourdillon;</name>
+                     </item>
+                     <item>
+                        <name>d’Hyppolite d’Est, cardinal de Ferrare;</name>
+                     </item>
+                     <item>
+                        <name>du maréchal de Strozzi;</name>
+                     </item>
+                     <item>
+                        <name>de Charles de Bourbon, mort en 1565;</name>
+                     </item>
+                     <item>
+                        <name>de Louis de Bourbon, prince de Condé, mort en 1565;</name>
+                     </item>
+                     <item>
+                        <name>de François de Montmorency;</name>
+                     </item>
+                     <item>
+                        <name>de Côme et François Marie de Médicis, grands ducs de Toscane;</name>
+                     </item>
+                     <item>
+                        <name>du marquis de Pescaire;</name>
+                     </item>
+                     <item>
+                        <name>du chevalier de Self;</name>
+                     </item>
+                     <item>
+                        <name>d’Alexandre Montanus;</name>
+                     </item>
+                     <item>
+                        <name>de Martin Dubellay,</name>
+                     </item>
+                  </list>
+                  et autres. La plupart de ces lettres sont adressées au duc de Guise (Henri de Lorraine),
+                  tué par Poltron en 1563; au roi Henri III, lui-même;
+                  à la reine Catherine de Médicis, et au roi de Navarre: M. Gail en a publié récemment plusieurs.</desc>
+            </item>
+            <item n="1181" xml:id="CAT_000091_e1181">
+               <num>1181.</num>
+               <desc>
+                  Recueil de lettres autographes de LOUIS XIV et autres personnes de la maison royale
+                  de France à madame de Maintenon, avec plusieurs autres lettres de différens personnages
+                  célèbres du XVIIe siècle. In fol. dos de mar. r.
+                  Ce recueil, du plus haut intérêt, est d’autant plus remarquable que toutes les lettres qui
+                  le composent sont écrites de la main des illustres personnes qui les ont signées; ce qui est
+                  fort rare lorsqu’il s’agit, comme ici, de lettres de souverains et de princes du sang royal.
+                  Voici la liste des pièces qui le composent, lesquelles sont au nombre de cinquante-huit:
+                  <list>
+                     <item>
+                        <desc>Lettre de LOUIS XIV à madame de Maintenon, en date du 4 novembre 1696;
+                           elle occupe dix pages,</desc>
+                     </item>
+                     <item>
+                        <desc>et on y a joint une note autographe de madame de MAINTENON.</desc>
+                     </item>
+                     <item>
+                        <desc>– Autre lettre du même à la même, écrite en 1699.</desc>
+                     </item>
+                     <item>
+                        <desc>– Quinze lettres de MONSEIGNEUR, fils de Louis XIV, pendant les campagnes de 1690, 1693 et 1694.</desc>
+                     </item>
+                     <item>
+                        <desc>– Vingt-trois lettres du DUC DE BOURGOGNE, petit-fils de Louis XIV,
+                           pendant le voyage qu’il fit en 1701 pour accompagner son frère le roi d’Espagne,
+                           et pendant les campagnes de 1702 et 1708.</desc>
+                     </item>
+                     <item>
+                        <desc>– Trois lettres du DUC D’ORLÉANS (depuis régent de France).</desc>
+                     </item>
+                     <item>
+                        <desc>– Une lettre du PRINCE DE CONTI (François-Louis de Bourbon).</desc>
+                     </item>
+                     <item>
+                        <desc>_ Lettre de la DUCHESSE DE BOURGOGNE (Marie-Adelaïde de Savoie).</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux lettres de MADAME (Élisabeth-Charlotte de Bavière), seconde femme de MONSIEUR,
+                           frère de Louis XIV.</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux lettres du DUC DE LORRAINE (Léopold, fils du duc Charles V), 1699.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre de la DUCHESSE DE LORRAINE, fille de MONSIEUR, frère de Louis XIV, en 1701.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre du maréchal de CATINAT au chevalier de la Fare, en 1692.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre du DUC DE VENDOSME, au même, en 1693.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre du maréchal de BOUFFLERS, au même, en 1695.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre BOILEAU DESPRÉAUX à Racine.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre de J. RACINE à l’abbé Le Vasseur, en date du 3 juin, 1661.</desc>
+                     </item>
+                     <item>
+                        <desc>– Brouillon (autographe de J. Racine) du Mémoire pour les religieuses de Port-Royal,
+                           envoyé par Racine au cardinal de Noailles, archevêque de Paris, en 1697.
+                           (M. le marquis de Garnier a écrit en note que ce fragment n’avait pas été imprimé.)</desc>
+                     </item>
+                     <item>
+                        <desc>– Brouillon (autographe) de la seconde partie de l’histoire de Port-Royal, par RACINE.</desc>
+                     </item>
+                     <item>
+                        <desc>– Copie de deux lettres de Louis XIV.</desc>
+                     </item>
+                  </list>
+               </desc>
+            </item>
+            <item n="1182" xml:id="CAT_000091_e1182">
+               <num>1182.</num>
+               <name/>
+               <desc>
+                  Lettres autographes et originales de plusieurs personnes célèbres du XVIIe et du XVIIIe siècle,
+                  notamment de <persName>madame de SÉVIGNÉ</persName>, de <persName>madame de MAINTENON</persName>,
+                  de <persName>VOLTAIRE</persName>, de <persName>J.J. ROUSSEAU</persName>, de <persName>BUFFON</persName>,
+                  de <persName>WASHINGTON</persName>, etc. etc. In-fol. dos de mar. r. Volume non moins précieux que le précédent,
+                  et encore plus varié; on y compte soixante-dix-sept lettres, savoir:
+                  <list>
+                     <item>
+                        <desc>Une de madame de SÉVIGNÉ à M. d’Hacqueville; huit de la même à la marquise de Grignan sa fille,
+                           dont plusieurs de douze pages chacune. – Une de madame de MAINTENON au duc de Richelieu.</desc>
+                     </item>
+                     <item>
+                        <desc>–Trois du cardinal de NOAILLES, datées de 1708 et 1713.</desc>
+                     </item>
+                        <desc>– Deux de J.J. ROUSSEAU à madame de Lessert, du 6 décembre 1771.</desc>
+                     <item>
+                        <desc>– Quarante lettres et billets originaux de VOLTAIRE à M. de Vaines, écrits depuis le 27
+                           février 1775 jusqu’au 7 mai 1778;
+                           le dernier est entièrement de la main de Voltaire.</desc>
+                     </item>
+                     <item>
+                        <desc>– Trois de BUFFON à M. de Vaines, écrites en 1775 et 1778.</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux de Georges WASHINGTON à M. Barbé-Marbois, datées de 1781, en anglais.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une de J. HUNTINCTON, président du congrès, au même, 1785, en anglais.</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux de John ADAMS, au même, 1779 et 1780, en anglais.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une de M. NECKER à M. le marquis Garnier, datée de 1801.</desc>
+                     </item>
+                     <item>
+                        <desc>– De M. de MALSHERBES, en 1786.</desc>
+                     </item>
+                     <item>
+                        <desc>– De l’abbé RAYNAL, en 1791.</desc>
+                     </item>
+                     <item>
+                        <desc>– Du baron de GRIMM, en 1783.</desc>
+                     </item>
+                     <item>
+                        <desc>– Du chevalier de CHASTELLUX.</desc>
+                     </item>
+                     <item>
+                        <desc>– Du comte DU BUAT, en 1785.</desc>
+                     </item>
+                     <item>
+                        <desc>– De madame COTTIN; cette lettre, datée de Venise et de Milan, est très curieuse,
+                           et elle occupe cinq pages d’une écriture fort menue.</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux billets de LA HARPE.</desc>
+                     </item>
+                     <item>
+                        <desc> Une lettre de SAINT-LAMBERT.</desc>
+                     </item>
+                     <item>
+                        <desc>– Un billet de FLORIAN.</desc>
+                     </item>
+                     <item>
+                        <desc>– Lettre et vers autographes de l’abbé MOUSSINOT, en date du 22 août 1801,
+                           de laquelle il résulte que cet abbé est le véritable auteur du conte intitulé
+                           le Cheval et la Fille, bien que ce même conte ait été attribué au chevalier de
+                           Boufflers.</desc>
+                     </item>
+                     <item>
+                        <desc>A la suite des lettres de madame de Sévigné, se lit l’extrait d’une lettre
+                           du duc de Brancas, au sujet de la première édition des Lettres de cette femme
+                           célèbre, qui parut en 1726.</desc>
+                     </item>
+                  </list>
+               </desc>
+            </item>
+            <item n="1183" xml:id="CAT_000091_e1183">
+               <num>1183.</num>
+               <desc>
+                  Recueil de lettres autographes, XVIIIe siècle.In fol. dos de mar. r.
+                  Ce volume renferme quarante et une lettres; savoir:
+                  <list>
+                     <item>
+                        <desc>Une du maréchal de Berwick, 26 septembre 1716..</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux du duc de Saint-Simon à M. le duc de Nouilles, 1716 et 1717.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une du comte d’Evreux.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une du cardinal de Noailles au duc de Nouilles.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une du chancelier d’Aguesseau au duc de Noailles.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une du cardinal de Fleury, au même, 24 juillet 1740.</desc>
+                     </item>
+                     <item>
+                        <desc>– Deux de Louis XV, au même, 16 et 24 avril 1743.</desc>
+                     </item>
+                     <item>
+                        <desc>– Une de M. d’Argenson, au même, même date.</desc>
+                     </item>
+                     <item>
+                        <desc>– Huit de la duchesse de Châteauroux, au même, 1743 et années suivantes.</desc>
+                     </item>
+                     <item>
+                        <desc>– Vingt-trois de Voltaire à la duchesse du Maine, etc. 1749 et suivantes.</desc>
+                     </item>
+                     <item>
+                        <desc>– Plus, deux quittances de madame de Maintenon.</desc>
+                     </item>
+                  </list>
+               </desc>
+            </item>
+            <item n="1184" xml:id="CAT_000091_e1184">
+               <num>1184</num>
+               <desc>Lettres de SAINT VINCENT DE PAUL, datée du 20 novembre 1644, à M. Delville, supérieur
+                  des prêtres de la Mission, à Montmirail.</desc>
+            </item>
+            <item n="1185" xml:id="CAT_000091_e1185">
+               <num>1185</num>
+               <desc>Lettre de FÉNÉLON à une dame, datée de Cambray, 8 février 1709.</desc>
+            </item>
+            <item n="1186" xml:id="CAT_000091_e1186">
+               <num>1186</num>
+               <desc>Deux lettres du maréchal de BELLE-ISLE, de 1738 et 1739.</desc>
+            </item>
+            <item n="1187" xml:id="CAT_000091_e1187">
+               <num>1187</num>
+               <desc>Lettre du maréchal de SAXE, du 7 mai 1749.</desc>
+            </item>
+            <item n="1188" xml:id="CAT_000091_e1188">
+               <num>1188</num>
+               <desc>Billet du Prince-royal de Suède, depuis GUSTAVE III, du 22 septembre 1770.</desc>
+            </item>
+            <item n="1189" xml:id="CAT_000091_e1189">
+               <num>1189</num>
+               <desc>Lettre de CRÉBILLON, du 17 avril 1751.</desc>
+            </item>
+            <item n="1190" xml:id="CAT_000091_e1190">
+               <num>1190</num>
+               <desc>Lettre DE PIRON, du 3 août 1750.</desc>
+            </item>
+            <item n="1191" xml:id="CAT_000091_e1191">
+               <num>1191</num>
+               <desc>Douze lettres de M. de VAINES à Voltaire.</desc>
+            </item>
+            <item n="1192" xml:id="CAT_000091_e1192">
+               <num>1192</num>
+               <desc>
+                  <list>
+                     <item>
+                        <desc>Lettre de M. de MONTMORIN, 1786;</desc>
+                     </item>
+                     <item>
+                        <desc>lettre du baron de BRETEUIL, 1790;</desc>
+                     </item>
+                     <item>
+                        <desc>de M. de LESSART, 1792;</desc>
+                     </item>
+                     <item>
+                        <desc>de M. de FORBONNAIS, 1790.</desc>
+                     </item>
+                  </list>
+               </desc>
+            </item>
+            <item n="1193" xml:id="CAT_000091_e1193">
+               <num>1193</num>
+               <desc>Lettre du général Green, un des amis de Washington;
+                  du fils de Lawrens, président du congrès des États-Unis;
+                  billet d’Arnold, et trois autres lettres analogues au sujet;
+                  le tout en anglais.</desc>
+            </item>
+            <item n="1194" xml:id="CAT_000091_e1194">
+               <num>1194</num>
+               <desc>Cinq lettres de madame Cottin à M. le marquis Garnier.</desc>
+            </item>
+            <item n="1195" xml:id="CAT_000091_e1195">
+               <num>1195</num>
+               <desc>
+                  <list>
+                     <item>
+                        <desc>Fac-simile du Testament de LOUIS XVI.</desc>
+                     </item>
+                     <item>
+                        <desc>– De la lettre de la reine Marie-Antoinette (trois exemplaires).</desc>
+                     </item>
+                     <item>
+                        <desc>– D’une lettre de M. le duc de Berry.</desc>
+                     </item>
+                  </list>
+               </desc>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

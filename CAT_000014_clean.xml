@@ -1,0 +1,104 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000014">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Sotheby, Wilkinson &amp; Hodge (18/07/1904)</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue of Autograph Letters and Historical Documents</title>
+               <publisher>Sotheby, Wilkinson &amp; Hodge</publisher>
+               <pubPlace>Londres</pubPlace>
+               <date when="1904">1904</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>13 Wellington Street, Srand, W.C.</addrLine>
+                     </address>
+                     <persName type="auctioneer">Sotheby</persName>
+                     <persName type="auctioneer">Wilkinson</persName>
+                     <persName type="auctioneer">Hodge</persName>
+                     <orgName>Sotheby, Wilkinson &amp; Hodge</orgName>
+                     <date from="1904-07-18" to="1904-07-19">Lundi 18 juillet 1904 et mardi 19 juillet 1904.</date>
+                  </p>
+               </event>
+               <event type="minutes" xml:id="CAT_000014_m">
+                  <p>«Les ventes d'autographes à Londres», <bibl>L'Amateur d'autographes</bibl>,
+                  1904, p. 197.</p>
+               </event>
+            </listEvent>
+            <listWit>                  
+               <witness xml:id="CAT_000014_w">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Angleterre</country>
+                        <settlement>Londres</settlement>
+                        <institution>British Library</institution>
+                        <repository>Department of manuscripts</repository>
+                        <idno type="shelfmark">87 E, 1904 (II), S. 31 (16-31)</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <desc>Exemplaire annoté</desc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">english</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="26" xml:id="CAT_000014_e26" corresp="#MS_000003">
+               <num>26</num>
+               <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de)</name>
+               <trait>
+                  <p>b. 1626, married Henry Marquis de Sévigné, 1644, widow 1651, her
+                     "letters" first printed in 1726, first authorised edition, 1734,
+                     d. 1696.</p>
+               </trait>
+               <desc>A.L. 4 1/2 pp. 4to, 19 Nov. (1670), EXTREMELY RARE,</desc>
+               <note> endorsed, "these letters are in the handwriting of Madame de
+                  Sévigné's and her daughter, and were given to Mrs Rosenhagen
+                  at Monaco, 1 Jan. 1781, by a lady of Madame de
+                  Sévigné's family as original: also a Note signed by
+                  Henry Grey Bennet, brother of the Earl of Tankerville, as
+                  follows: "given to me by my mother, the Countess Tankerville,
+                  and given by me to my beloved wifs Gertrude (daughter
+                  of Lord William Russell), May 18, 1816." The first half
+                  sheet of the letter appears to be in the handwriting of her
+                  daughter the Countess de Grignan.</note>
+               <add corresp="#CAT_000014_w">
+                  <num value="6.10" type="pound">£6.10</num>
+               </add>
+               <add corresp="#CAT_000014_m">
+                  <num value="162.50" type="francs">162.50 Fr.</num>
+               </add>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

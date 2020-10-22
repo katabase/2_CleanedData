@@ -1,0 +1,323 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000094">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Techener, 31/01/1831</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue de livres rares et curieux et collection de lettres autographes</title>
+               <publisher>J. Techener</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1831">1831</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Maison Silvestre</addrLine>
+                     </address>
+                     <persName type="auctioneer">M° Regnard-Silvestre</persName>
+                     <persName type="expert" ref="#PE2_000024">J. Techener</persName>
+                     <date from="1831-01-31" to="1831-02-05">Du lundi 31 janvier au samedi 5 février 1831</date>
+                  </p>
+               </event>
+               <event type="report">
+                  <p>
+                     <bibl>
+                        Pierre Jules Fontaine,
+                        <title>Manuel de l'amateur d'autographes</title>,
+                        p. <ref target="https://books.google.de/books?id=wCdSAAAAcAAJ&amp;hl=fr&amp;pg=PA103">103</ref> et
+                        <ref target="https://books.google.de/books?id=wCdSAAAAcAAJ&amp;hl=fr&amp;pg=PA285">285</ref>.
+                     </bibl>
+                     <bibl>
+                        <title>L'Amateur d'autographes</title>,
+                        N°3, Février 1862, p. 37 <ptr target="https://books.google.ch/books?id=ShRKAAAAcAAJ&amp;hl=fr&amp;pg=PA37"/>.
+                     </bibl>
+                     <bibl>
+                        <title>Isographie des hommes célèbres</title>, Paris: T. Delarue, Truttel et Wurtz,
+                        vol. 4, 1843, p. 34 <ptr type="digit" target="https://gallica.bnf.fr/ark:/12148/bpt6k6545594v/f526.image"/> (donne le prix de 56 Fr. 50).
+                     </bibl>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Arsenal</repository>
+                        <idno type="shelfmark">8-C-1866</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb41688331b"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item>
+               <name>Louis, duc de Vendôme,</name>
+               <desc>1695. Lettre entière.</desc>
+            </item>
+            <item>
+               <name>Louis, duc de Vendôme,</name>
+               <desc>1659. Pièce signée.</desc>
+            </item>
+            <item>
+               <name>Charles de Bourbon, comte de Soissons,</name>
+               <desc>1696. P.S.</desc>
+            </item>
+            <item>
+               <name>Le Grand Condé,</name>
+               <desc>1685. Lettre.</desc>
+            </item>
+            <item>
+               <name>Turenne,</name>
+               <desc>1666. Grande lettre. S.</desc>
+            </item>
+            <item>
+               <name>Le maréchal de Tessé,</name>
+               <desc>1707. P.S.</desc>
+            </item>
+            <item>
+               <name>Le maréchal de la Ferté,</name>
+               <desc>1696. P.S.</desc>
+            </item>
+            <item>
+               <name>Le duc de Lude,</name>
+               <desc>1679. P.S.</desc>
+            </item>
+            <item>
+               <name>Duc de Caumont,</name>
+               <desc>1674. P.S.</desc>
+            </item>
+            <item>
+               <name>Le chevalier de Forbin,</name>
+               <desc>1677. P.S.</desc>
+            </item>
+            <item>
+               <name>Duquesne,</name>
+               <desc>1685. P.S.</desc>
+            </item>
+            <item>
+               <name>Ruyter,</name>
+               <desc>1692. P.S.</desc>
+            </item>
+            <item>
+               <name>Le maréchal de Berwick,</name>
+               <desc>1719 P.S.</desc>
+            </item>
+            <item>
+               <name>Vauban,</name>
+               <desc>1674. P.S.</desc>
+            </item>
+            <item>
+               <name>Le maréchal de Bissy.</name>
+               <desc>Lettre.</desc>
+            </item>
+            <item>
+               <name>Bussy Rabutin,</name>
+               <desc>1666. P.S.</desc>
+            </item>
+            <item>
+               <name>Paluan,</name>
+               <desc>1652. P.S.</desc>
+            </item>
+            <item>
+               <name>Gondi,</name>
+               <trait>
+                  <p>évêque de Paris.</p>
+               </trait>
+               <desc>Ligne. S.</desc>
+            </item>
+            <item>
+               <name>Fénelon,</name>
+               <desc>26 janvier 1695. Lettre. 4 pages.</desc>
+            </item>
+            <item>
+               <name>Bossuet,</name>
+               <desc>30 avril 1690, Versailles. Lettre entière.</desc>
+            </item>
+            <item>
+               <name>M. de Belzunce,</name>
+               <desc>16 avril 1739, Marseille. Lettre entière.</desc>
+            </item>
+            <item>
+               <name>Le Tellier,</name>
+               <trait>
+                  <p>confesseur du roi,</p>
+               </trait>
+               <desc>1679, Rouen, 14 novembre. Gr. l. Id.</desc>
+            </item>
+            <item>
+               <name>Le cardinal de Fleury.</name>
+               <desc>Billet signé.</desc>
+            </item>
+            <item>
+               <name>Colbert,</name>
+               <desc>1674. P.S.</desc>
+            </item>
+            <item>
+               <name>Seignelay,</name>
+               <desc>1674. P.S.</desc>
+            </item>
+            <item>
+               <name>Barbesieux,</name>
+               <desc>1700. P.S.</desc>
+            </item>
+            <item>
+               <name>Fouquet,</name>
+               <desc>1667. P.S.</desc>
+            </item>
+            <item>
+               <name>Pontchartrain,</name>
+               <desc>1705. P.S.</desc>
+            </item>
+            <item>
+               <name>Voysin,</name>
+               <desc>1711. P.S.</desc>
+            </item>
+            <item>
+               <name>Cany,</name>
+               <desc>1709. P.S.</desc>
+            </item>
+            <item>
+               <name>Bellisle.</name>
+               <desc>Lettre.</desc>
+            </item>
+            <item>
+               <name>Saint Vincent de Paul.</name>
+               <desc>P.S.</desc>
+            </item>
+            <item>
+               <name>Massillon,</name>
+               <desc>1711. P.S.</desc>
+            </item>
+            <item>
+               <name>Madame de Sévigné,</name>
+               <desc>1687. Grande lettre de 8 pag. en parte inédite.</desc>
+            </item>
+            <item>
+               <name>Madame de Simiane.</name>
+               <desc>Id.</desc>
+            </item>
+            <item>
+               <name>Scarron,</name>
+               <desc>1677. P.S.</desc>
+            </item>
+            <item>
+               <name>Corbinelly.</name>
+               <desc>L. ent. et pièce de vers.</desc>
+            </item>
+            <item>
+               <name>Charlevoix,</name>
+               <desc>1650. Id.</desc>
+            </item>
+            <item>
+               <name>Bayle,</name>
+               <desc>1697, Id.</desc>
+            </item>
+            <item>
+               <name>Le Vayer,</name>
+               <desc>1699. Id. 4 pages.</desc>
+            </item>
+            <item>
+               <name>Pellisson,</name>
+               <desc>1690.  P.S.</desc>
+            </item>
+            <item>
+               <name>Ch. Perrault,</name>
+               <desc>1696. Pièce de sa main. S.</desc>
+            </item>
+            <item>
+               <name>Nicole,</name>
+               <desc>1687. P.S.</desc>
+            </item>
+            <item>
+               <name>Beautru.</name>
+               <desc>P.S.</desc>
+            </item>
+            <item>
+               <name>Quinault,</name>
+               <desc>1676. P.S.</desc>
+            </item>
+            <item>
+               <name>Ch. Rollin,</name>
+               <desc>1686. P.S.</desc>
+            </item>
+            <item>
+               <name>Félibien,</name>
+               <desc>1696. P.S.</desc>
+            </item>
+            <item>
+               <name>d'Héricourt,</name>
+               <desc>1699. Lettre.</desc>
+            </item>
+            <item>
+               <name>Régnard.</name>
+               <desc>Fragment.</desc>
+            </item>
+            <item>
+               <name>Duc de Saint-Simon,</name>
+               <desc>1727. Gr. l.</desc>
+            </item>
+            <item>
+               <name>Mignard,</name>
+               <desc>1678. P.S.</desc>
+            </item>
+            <item>
+               <name>Lully,</name>
+               <desc>1669. P.S.</desc>
+            </item>
+            <item>
+               <name>Audran,</name>
+               <desc>1692. P.S.</desc>
+            </item>
+            <item>
+               <name>Bon Boulogne,</name>
+               <desc>1699. P.S.</desc>
+            </item>
+            <item>
+               <name>Anguiez,</name>
+               <desc>1680. P.S.</desc>
+            </item>
+            <item>
+               <name>Elisabeth Beard,</name>
+               <trait>
+                  <p>femme de Molière.</p>
+               </trait>
+               <desc>P.S.</desc>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

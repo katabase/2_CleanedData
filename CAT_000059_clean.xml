@@ -1,0 +1,551 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000059">
+    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+        <fileDesc>
+            <titleStmt>
+                <title>CAT_000059</title>
+                <respStmt>
+                    <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
+                    <resp>
+                        <date when="2019">2019</date>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0
+                        Generic (CC BY 2.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+                    <num>71</num>
+                    <editor>Eugène Charavay fils</editor>
+                    <publisher>Eugène Charavay fils</publisher>
+                    <pubPlace>Paris,8 quai du Louvre</pubPlace>
+                    <date when="1882-02">Février 1882</date>
+                </bibl>
+                <listEvent>
+                    <event>
+                        <p>
+                            <address>
+                                <addrLine/>
+                            </address>
+                            <persName type="auctioneer"/>
+                            <persName type="expert"/>
+                            <date/>
+                        </p>
+                    </event>
+                </listEvent>
+                <listWit>
+                    <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl/>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr">french</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <samplingDecl>
+                <p>This electronic version of the catalog only reproduces the entries that
+                    correspond to documents for sale. All text preceding or succeeding the list of
+                    documents for sale is not reproduced below.</p>
+            </samplingDecl>
+            <appInfo>
+                <application version="1.6" ident="Transkribus" when="2019">
+                    <label>Transkribus</label>
+                    <ptr target="https://transkribus.eu/Transkribus/"/>
+                </application>
+                <application version="0.5.4" ident="GROBID" when="2019-06-12">
+                    <label>GROBID_Dictionaries - A machine learning software for structuring
+                        digitized dictionaries</label>
+                    <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <gap/>
+            <list>
+
+
+                <item n="1" xml:id="CAT_000059_e1">
+                    <num>1</num>
+
+
+                    <name type="author">Abrantès (Napoléon-Andoche, duc d'),</name>
+
+                    <trait>
+                        <p>fils aîné de la duchesse d'Abrantés, écrivain distingué, filleul de
+                            Napoléon et de Joséphine, mort en 1851</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Louis Desnoyers, 25 septembre 1849, 2 p. 1/2 in-4. 6</desc>
+
+                    <note>Curieuse lettre où il proteste contre un article de Louis Desnoyers publié
+                        dans le Siècle, et calomnieux au dernier point pour la mémoire de Mme
+                        Récamier. Il croit devoir relever ces attaques, dirigées contre une femme
+                        qui fut l'amie de sa mère et que lui-même a connue, par un homme qui ne l'a
+                        vue de sa vie, sinon par hasard et à la dérobée. Curieux détails</note>
+
+                </item>
+
+                <item n="2" xml:id="CAT_000059_e2">
+                    <num>2</num>
+
+
+                    <name type="author">Ainsworth (W. Harrison),</name>
+
+                    <trait>
+                        <p>un des plus féconds romanciers de l'Angleterre</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s., en français; Brighton, 1859, 4 p. in-8. 8</desc>
+
+                    <note>Belle lettre adressée au traducteur de son roman Un an et un jour. Il le
+                        félicite sur la façon remarquable dont il a fait son travail et lui parle de
+                        plusieurs de ses ouvrages.</note>
+
+                </item>
+                <item n="3" xml:id="CAT_000059_e3">
+                    <num>3</num>
+
+
+                    <name type="author">Alphonse XII,</name>
+
+                    <trait>
+                        <p>roi d'Espagne</p>
+                    </trait>
+
+
+
+
+                    <desc>Let. sig., en français, à M. de Pawlowsky; palais de Madrid, 19 avril
+                        1879, 1 p. 1/2 in-4, papier de deuil a son chiffre. Rare. 17</desc>
+
+                </item>
+
+                <item n="4" xml:id="CAT_000059_e4">
+                    <num>4</num>
+
+
+                    <name type="author">Barthélemy (Aug.),</name>
+
+                    <trait>
+                        <p>célèbre poète satirique, auteur de la Némésis, né à Marseille</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Alexandre Dumas ; Paris, 19 juillet 1852, 3 p. in-4. Fatiguée.
+                        17</desc>
+
+                    <note>Curieuse lettre de rectification à propos de sa biographie insérée dans
+                        les Mémoires d'Alexandre Dumas. Il convient d'avoir publié une ode sur le
+                        sacre de Charles X, et il n'est pas le premier à lui en faire le reproche. «
+                        J'admets également comme vérité que je suis de haute taille (vous pouviez
+                        ajouter très-brun et très-maigre), que je suis froid comme une glace, muet
+                        et concentré, et que je manque d'esprit dans la conversation. » Mais ce
+                        qu'il ne peut accepter, c'est son dépouillement dans sa part de
+                        collaboration dans la Villéliade, d'autant plus qu'il ne l'a jamais
+                        désavouée, ni dans les notes du sixième chant de l'Enéide, ni
+                        ailleurs</note>
+
+                </item>
+
+                <item n="5" xml:id="CAT_000059_e5">
+                    <num>5</num>
+
+
+                    <name type="author">Beauharnais (Stéphanie),</name>
+
+                    <trait>
+                        <p>fille adoptive de Napoléon Ier, grande-duchesse de Bade</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à M. Pictet de Rochemont, à Genève; Manheim, 14 février, 2 p.
+                        in-8. 7</desc>
+
+                    <note>Belle lettre de recommandation en faveur de M. Lévy, pianiste de
+                        talent</note>
+
+                </item>
+
+                <item n="6" xml:id="CAT_000059_e6">
+                    <num>6</num>
+
+
+                    <name type="author">Benedetti (le comte Vincent),</name>
+
+                    <trait>
+                        <p>diplomate, ambassadeur à Berlin en 1870, et dont le nom se trouve mêlé à
+                            la déclaration de guerre</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à un de ses amis, diplomate en Orient; Paris, 13 mai 1859, 3 p.
+                        1/4 in-8. 12</desc>
+
+                    <note>Curieuse lettre relative à la guerre d'Italie et aux précautions à prendre
+                        à Constantinople pour éviter que la question d'Orient ne vienne compliquer
+                        la question pendante et provoquer une conflagration européenne</note>
+
+                </item>
+
+                <item n="7" xml:id="CAT_000059_e7">
+                    <num>7</num>
+
+
+                    <name type="author">Berry (Marie-Caroline, duchesse de),</name>
+
+                    <trait>
+                        <p>mère du comte de Chambord</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Mme Cayron; Brunsée, 15 nov. 1866, 1 p. in-8. Charmante épître.
+                        25</desc>
+
+                </item>
+
+                <item n="8" xml:id="CAT_000059_e8">
+                    <num>8</num>
+
+
+                    <name type="author">Blessington (lady),</name>
+
+                    <trait>
+                        <p>célèbre écrivain humoristique, l'amie de lord Byron</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à M. Hertog; 29 janvier 1844, 2 p. 1/2 in-8. Cachet. Jolie
+                        lettre. 15</desc>
+
+                </item>
+
+                <item n="9" xml:id="CAT_000059_e9">
+                    <num>9</num>
+
+
+                    <name type="author">Boileau-Despréaux (Nicolas),</name>
+
+                    <trait>
+                        <p>l'illustre poète satirique, de l'Acad. fr</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s.; Paris, samedi 2 juin, 1 p. 1/4 in-4. Très-belle lettre.
+                        150</desc>
+
+                </item>
+
+                <item n="10" xml:id="CAT_000059_e10">
+                    <num>10</num>
+
+
+                    <name type="author">Bonaparte (Laetitia),</name>
+
+                    <trait>
+                        <p>mère de Napoléon Ier.</p>
+                    </trait>
+
+
+
+
+                    <desc>Pièce sig., 1 p. in-4. 12</desc>
+
+                </item>
+
+                <item n="11" xml:id="CAT_000059_e11">
+                    <num>11</num>
+
+
+                    <name type="author">Bonaparte (Jérôme),</name>
+
+                    <trait>
+                        <p>roi de Westphalie</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Napoléon Ier; Kalish, 4 décembre 1806, 1 p. in-f. 30</desc>
+
+                    <note>Très-belle lettre écrite pendant la campagne de Prusse. Il lui annonce
+                        qu'il se mettra en route le 5 et sera le 8 devant Breslau, ayant avec lui la
+                        brigade de cavalerie du général Lefebvre. « Il me serait impossible, Sire,
+                        d'exprimer à Votre Majesté tous les sentiments de reconnaissance et de
+                        respect dont mon coeur est pénétré pour elle. Je regrette que les
+                        circonstances ne m'aient pas encore été assez favorables pour me rendre
+                        digne par quelqu'action d'éclat des bontés dont elle m'honore.</note>
+
+                </item>
+
+                <item n="12" xml:id="CAT_000059_e12">
+                    <num>12</num>
+
+
+                    <name type="author">Bonaparte (Caroline),</name>
+
+                    <trait>
+                        <p>reine de Naples, femme de Murat</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. au général baron Domon; Naples, 17 octobre, 2 p. 1/2 pet. in-4.
+                        12</desc>
+
+                    <note>Elle le remercie des nouvelles du Roi qu'il veut bien lui donner et lui
+                        parle du général Exelmans, auquel elle s'intéresse</note>
+
+                </item>
+
+                <item n="13" xml:id="CAT_000059_e13">
+                    <num>13</num>
+
+
+                    <name type="author">Bonaparte (Charlotte),</name>
+
+                    <trait>
+                        <p>fille de Joseph, femme du frère aîné de Napoléon III, célèbre par la
+                            passion qu'elle inspira à Léopold Robert</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à sa cousine…; Florence, ce mardi soir, 1 p. 1/2 in-8. Légère
+                        déchirure. Charmante épître. 17</desc>
+
+                </item>
+
+                <item n="14" xml:id="CAT_000059_e14">
+                    <num>14</num>
+
+
+                    <name type="author">Bonheur (Rosa),</name>
+
+                    <trait>
+                        <p>célèbre peintre d'animaux</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s.; 9 juillet 1867, 3 p. in-8. Belle lettre. 12</desc>
+
+                </item>
+
+                <item n="15" xml:id="CAT_000059_e15">
+                    <num>15</num>
+
+
+                    <name type="author">Bourbon (Louis-Henri de Condé, duc de),</name>
+
+                    <trait>
+                        <p>premier ministre de Louis XV</p>
+                    </trait>
+
+
+
+
+                    <desc>Pièce sig.; Versailles, 10 mai 1724, 1 p. in-4. 7</desc>
+
+                    <note>Curieuse pièce relative à la nourriture des prisonniers de la
+                        Bastille</note>
+
+                </item>
+
+                <item n="16" xml:id="CAT_000059_e16">
+                    <num>16</num>
+
+
+                    <name type="author">Boyer (Philoxène),</name>
+
+                    <trait>
+                        <p>un des littérateurs les plus célèbres de l'école romantique, né à
+                            Grenoble</p>
+                    </trait>
+
+
+
+
+                    <desc>Après le bain, pièce de vers aut. sig.; 23 juin 1866, 1/2 p. in-8. Jolie
+                        pièce. 12</desc>
+
+                </item>
+
+                <item n="17" xml:id="CAT_000059_e17">
+                    <num>17</num>
+
+
+                    <name type="author">Bradi (Agathe-Pauline, comtesse de),</name>
+
+                    <trait>
+                        <p>célèbre romancière, auteur de la Galerie des Femmes célèbres</p>
+                    </trait>
+
+
+
+
+                    <desc>Let. aut. à Mme de Genlis; Orléans, 1823, 4 p. in-4. 12</desc>
+
+                    <note>Belle et charmante épitre intime dans laquelle elle parle des ouvrages de
+                        Mme de Genlis, dont elle fait l'éloge</note>
+
+                </item>
+
+                <item n="18" xml:id="CAT_000059_e18">
+                    <num>18</num>
+
+
+                    <name type="author">Brunel (F.-J.),</name>
+
+                    <trait>
+                        <p>célèbre ingénieur français, constructeur du tunnel de la Tamise</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à M. Baroche, son cousin, à Rouen; Londres, 30 mai 1829, 1 p. 1/2
+                        in-4. 20</desc>
+
+                    <note>Très-belle lettre sur la situation politique de l'Angleterre. « Bien des
+                        protestants sont encore effrayés des persécutions des anciens tems de Luther
+                        et Calvin. Après tout, lorsque la loi aura passé les deux Chambres et reçu
+                        la sanction royale, ce sera fini, on n'en parlera plus. L'association sera
+                        défunte et la majorité catholique soutiendra le Gouvernement, comme la
+                        majorité protestante aujourd'hui.</note>
+
+                </item>
+
+                <item n="19" xml:id="CAT_000059_e19">
+                    <num>19</num>
+
+
+                    <name type="author">Calamatta (L.),</name>
+
+                    <trait>
+                        <p>illustre graveur italien</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s.; 1867, 3 p. in-8. 7</desc>
+
+                </item>
+
+                <item n="20" xml:id="CAT_000059_e20">
+                    <num>20</num>
+
+
+                    <name type="author">Calmet (dom Augustin),</name>
+
+                    <trait>
+                        <p>un des plus savants bénédictins de la congrégation de Saint-Maur, né en
+                            Lorraine</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Titon du Pillet; 7 mai 1747, 2 p. in-4. 15</desc>
+
+                    <note>Il lui envoie le second tome de son Histoire de Lorraine, et lui accuse
+                        réception du Parnasse</note>
+
+                </item>
+
+                <item n="21" xml:id="CAT_000059_e21">
+                    <num>21</num>
+
+
+                    <name type="author">Carteaux (Jean-François),</name>
+
+                    <trait>
+                        <p>célèbre général de la République, peintre d'histoire, né en 1751, mort en
+                            1813</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. à Pétion; 8 sept. 1792, 3/4 de p. in-f. Cachet. 17</desc>
+
+                    <note>Belle lettre par laquelle il sollicite une place d'adjudant général dans
+                        l'armée de Paris. En marge se trouvent deux apostilles aut. sig. de Pétion
+                        et de Brissot qui appuient chaudement sa demande</note>
+
+                </item>
+
+                <item n="22" xml:id="CAT_000059_e22">
+                    <num>22</num>
+
+
+                    <name type="author">Charles VIII,</name>
+
+                    <trait>
+                        <p>roi de France</p>
+                    </trait>
+
+
+
+
+                    <desc>Pièce sig.; Lyon, 17 mai 1497, 1 p. in-f. obl. Belle pièce. 23</desc>
+
+                </item>
+
+                <item n="23" xml:id="CAT_000059_e23">
+                    <num>23</num>
+
+
+                    <name type="author">Cooper (Fenimore),</name>
+
+                    <trait>
+                        <p>le grand romancier américain</p>
+                    </trait>
+
+
+
+
+                    <desc>L. a. s. au prince de Musignano, 1 p. in-8. 15</desc>
+                </item>
+            </list>
+
+
+        </body>
+        <gap/>
+    </text>
+</TEI>

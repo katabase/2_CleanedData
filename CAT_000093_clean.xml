@@ -1,0 +1,119 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000093">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Jacob</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue d'un choix de livres des plus précieux […], manuscrits, autographes  de la bibliothèque de M. le C... J..</title>
+               <publisher>Silvestre</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1829">1829</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Maison Silvestre</addrLine>
+                     </address>
+                     <persName type="auctioneer">M° Regnard-Silvestre</persName>
+                     <persName type="expert" ref="#PE2_000022">Louis-Catherine Silvestre</persName>
+                     <persName type="collector" ref="#PE2_000022">Gérard Jacob-Kolb</persName>
+                     <date from="1829-11-03" to="1829-11-11">Du mardi 3 au mercredi 11 novembre 1829</date>
+                  </p>
+               </event>
+               <event type="report">
+                  <p>
+                     <bibl>
+                        <title>L'Amateur d'autographes</title>,
+                        N°3, Février 1862, p. 36 <ptr target="https://books.google.ch/books?id=ShRKAAAAcAAJ&amp;hl=fr&amp;pg=PA36"/>.
+                     </bibl>
+                  </p>
+               </event>
+               <event type="identification">
+                  <p>
+                     <bibl>
+                        Pierre Jules Fontaine,
+                        <title>Manuel de l'amateur d'autographes</title>,
+                        p. 96 <ptr target="https://books.google.de/books?id=wCdSAAAAcAAJ&amp;hl=fr&amp;pg=PA96"/>.
+                     </bibl>
+                     <bibl>
+                        Ludovic Lalanne,
+                        <title>Dictionnaire de pièces autographes volées aux bibliothèques publiques de la France</title>,
+                        Paris: Panckoucke, 1851, p. 38 <ptr target="https://books.google.ch/books?id=Kn2JqKCyLbsC&amp;hl=fr&amp;pg=PA38"/>.
+                     </bibl>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">DELTA-6371</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb36548396h"/>
+               </witness>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Lyon</settlement>
+                        <institution>Bibliothèque municipale de Lyon</institution>
+                        <collection>Collection jésuite des Fontaines</collection>
+                        <idno type="shelfmark">SJ AK 087/53, 6</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <desc>Exemplaire annoté</desc>
+                  <ptr type="catalogue" target="https://catalogue.bm-lyon.fr/ark:/75584/pf0000888976"/>
+                  <ptr type="digit" target="http://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001101391998"/>
+                  <ptr type="digit" target="https://books.google.de/books?id=3gM-bDy7HO4C"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="342" xml:id="CAT_000093_e342">
+              <num>342.</num>
+               <desc>Lettres de Mme de Sévigné, édition publiée par M. de Gault de Saint-Germain.
+                  Paris, Dalibon, 1825, 12 vol. in-8. non rognés, portraits, dem. rel. dos de mar.
+                  bleu de ciel, par Héring.</desc>
+               <note>Exemplaire orné de figures et portraits de l'édition de Blaise, du supplément
+                  aux figures de Blaise, enrichi d'une lettre autographe et signée de madame de Sévigné,
+                  et de deux autres, line de madame de Villars, et l'autre de madame de Coulanges.</note>
+           </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

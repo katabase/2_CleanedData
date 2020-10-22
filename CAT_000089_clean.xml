@@ -1,0 +1,80 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000089">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Bodin, 20-21/06/2019</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Lettres et manuscrits autographes</title>
+               <publisher>Thierry Bodin</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="2019">2019</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Salle des ventes Favart</addrLine>
+                     </address>
+                     <persName type="auctioneer">Marc Guyot</persName>
+                     <persName type="expert">Thierry Bodin</persName>
+                     <date from="2019-06-20" to="2019-06-21">du jeudi 20 au vendredi 21 juin 2019</date>
+                  </p>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="176" xml:id="CAT_000089_e176" corresp="#MS_000012">
+               <num>176</num>
+               <name type="author">Marie de Rabutin-Chantal, marquise de SÉVIGNÉ</name>
+               <trait>
+                  <p>(1626-1696).</p>
+               </trait>
+               <desc>L.A., [aux Rochers 4 novembre ? 1671], à François Adhémar de Monteil comte de GRIGNAN;
+                  1 page in-4, adresse au verso « pour Monsieur de Grignan » (taches d’encre).
+                  <num value="4500" type="euros">4 500/5 000€</num>
+               </desc>
+               <note><p>RARE LETTRE À SON GENDRE, PEU AVANT L'ACCOUCHEMENT DE SA FILLE DONT ELE S'INQUIÈTE
+                  [le 17 novembre 1671, naissance à Lambesc de Louis-Provence de Grignan;
+                  un an avant, le 15 novembre 1670, à Paris, elle avait accouché d’une fille, Marie-Blanche, son premier enfant]</p>
+                  <p>«Voila ce que je vous adresse, a vous qui estes un vray badin, a vous qui faites des aplications,
+                     jay trouvé celle cy, toute faite au bout de ma plume et tout en riant, je dis la verité, je souhaitte
+                     que le temps passe, a quel prix, helas  au  prix  de  ma  vie,  cest une grande folie que de vouloir acheter sy cher,
+                     une chose qui vient infailliblement mais enfin cela est ainsy. Je  ne  scay  sy  vous  avies lannée passée
+                     daussy grandes inquietudes  que  celles  que  je sens que je vais avoir, sy cela est je vous plains et jespere
+                     de vostre amitié les mesmes soins que jeus de vous. Adieu mon tres cher ne soyes pas paresseux descrire en ce temps la».
+                     Correspondance,  Bibl. de  la Pléiade, t. I, p. 376.</p>
+               </note>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

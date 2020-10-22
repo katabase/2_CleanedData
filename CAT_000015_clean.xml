@@ -1,0 +1,113 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000015">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Whitney-Hoff</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Autographes précieux provenant de la Collection de Madame Whitney-Hoff</title>
+               <publisher>Pierre Cornuau</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1949">1949</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Hôtel des commissaires-priseurs, 9 rue Drouot, salle n°8</addrLine>
+                     </address>
+                     <persName type="auctioneer">Étienne Ader</persName>
+                     <persName type="expert">Pierre Cornuau</persName>
+                     <persName type="collector" ref="#PE2_000017">Whitney-Hoff</persName>
+                     <date when="1949-05-31">Mardi 31 mai 1949</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness xml:id="CAT_000015_w">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Archives nationales</institution>
+                        <repository>Pierrefitte-sur-Seine</repository>
+                        <idno type="shelfmark">AB XXXVIII 130</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <desc>Exemplaire annoté</desc>
+                  <ptr type="catalogue" target="http://www.archivesnationales.culture.gouv.fr/chan/chan/AP-pdf/AB-XXXVIII-inventaire.pdf"/>
+               </witness>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">DELTA-47121</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb365620196"/>
+               </witness>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu – Département des manuscrits</repository>
+                        <idno type="shelfmark">CV-1828</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://catalogue.bnf.fr/ark:/12148/cb365620196"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="94" xml:id="CAT_000015_e94" corresp="#MS_000011">
+               <num>26</num>
+               <name type="author">SEVIGNE (Marie de Rabutin-Chantal, marquise de)</name>
+               <trait>
+                  <p>, (1626-1696).</p>
+               </trait>
+               <desc>L. aut., au président de Moulceau, Grignan, 5 juin
+               1695. 4 pp. 1/4 in-8.</desc>
+               <note>Charmante lettre de reproche pour un silence persévérant. Belle pièce
+               très rare, surtout autog. signée.</note>
+               <add corresp="#CAT_000014_w">
+                  <num atLeast="18000" atMost="45000" type="francs">18000/45000 Fr.</num>
+                  <note>Vendu à Lambert.</note>
+               </add>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

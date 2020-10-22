@@ -1,0 +1,86 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000008">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Henry Fatio, troisième vente.</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue de la précieuse collection de lettres autographes composant le cabinet de feu M. Henry Fatio dont la troisième vente aura lieu á Genève</title>
+               <publisher>W.-S. Kundig</publisher>
+               <pubPlace>Genève</pubPlace>
+               <date when="1935">1935</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Genève, place du Port, 2</addrLine>
+                     </address>
+                     <persName type="expert">W.S. Kundig</persName>
+                     <persName type="collector" ref="#PE2_000013">Henry Fatio</persName>
+                     <date when="1935-05-18">Samedi 18 mai 1935</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Allemagne</country>
+                        <settlement>Heidelberg</settlement>
+                        <institution>Universitätsbibliothek Heidelberg</institution>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="digit" target="https://digi.ub.uni-heidelberg.de/diglit/kundig1935_05_18/0001"/>
+                  <ptr type="catalogue" target="https://digi.ub.uni-heidelberg.de/diglit/kundig1935_05_18/0001"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="230" xml:id="CAT_000007_e230" corresp="#MS_000008">
+               <num>230</num>
+               <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de),</name>
+               <trait>
+                  <p>la célèbre épistolaire, n. 1636, m. 1696. —</p>
+               </trait>
+               <desc>L. a. à M. Duplessis. Les Rochers, dimanche 20 août, 4 pp. in-4</desc>
+               <note>Jolie lettre dans laquelle elle le console. «… Vous ne saurez croire, mon cher Monsieur,
+                  combien je suis touchée des sujets de chagrin qui ont noirci votre joie naturelle…
+                  Je suis toujours persuadée que quand vous aurez remis votre petit poussin sous l'aile
+                  de son brave père, vous rentrerez dans le giron de cette tribu de Grignan où vous êtes
+                  fort aimé…, je ne veux plus aussi parler des dragons. Ce sont des démons, ils ont le
+                  diable au corps, mais je suis en furie contre le Mercure galant qui loue tous ceux qui
+                  ont été à cette bataille et ne dit pas un seul mot du Chevalier de Pomponne…»</note>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>

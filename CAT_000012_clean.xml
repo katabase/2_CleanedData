@@ -1,0 +1,153 @@
+<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000012">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Collection Morrison II</title>
+            <respStmt>
+               <persName ref="#COL_000001">Simon Gabay</persName>
+               <resp>éditeur scientifique <date when="2019">2019</date></resp>
+            </respStmt>
+         </titleStmt>
+         <extent>à remplir en indiquant la taille finale du fichier</extent>
+         <publicationStmt>
+            <publisher>Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Catalogue of the Renowned Collection of Autograph Letters and Historical Manuscipts Formed by the Late Alfred Morrison […] The second portion.</title>
+               <publisher>Sotheby, Wilkinson &amp; Hodge</publisher>
+               <pubPlace>Londres</pubPlace>
+               <date when="1918">1918</date>
+            </bibl>
+            <listEvent>
+               <event type="auction">
+                  <p>
+                     <address>
+                        <addrLine>Sotheby, Wilkinson &amp; Hodge Galleries,
+                           34 and 35 New Bond Street, Londres</addrLine>
+                     </address>
+                     <orgName>Sotheby, Wilkinson &amp; Hodge</orgName>
+                     <persName type="auctioneer">Sotheby</persName>
+                     <persName type="auctioneer">Wilkinson</persName>
+                     <persName type="auctioneer">Hodge</persName>
+                     <persName type="collector" ref="#PE2_000016">Alfred Morrison</persName>
+                     <date from="1918-04-15" to="1918-04-19">Lundi 15 avril 1918</date>
+                  </p>
+               </event>
+               <event type="minutes" xml:id="CAT_000011_m">
+                  <p><bibl>Autograph Prices Current</bibl>, vol. 3 (1917-1918)<ptr target="https://hdl.handle.net/2027/mdp.39015076047409"/></p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>États-Unis</country>
+                        <settlement>Ann Arbor</settlement>
+                        <institution>University of Michigan Library</institution>
+                        <idno type="callNumber">Z 42 .M87</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="https://search.lib.umich.edu/catalog/record/001159187"/>
+                  <ptr type="digit" target="https://hdl.handle.net/2027/mdp.39015067292287"/>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces selected entries</p>
+         </samplingDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <gap/>
+            <item n="1078" xml:id="CAT_000012_e1078" corresp="#MS_000004">
+               <num>1078</num>
+               <name type="author">SÉVIGNÉ (Madame de)</name>
+               <trait>
+                  <p>Celebrated French Woman of Letters,</p>
+               </trait>
+               <list>
+                  <item>
+                     <desc>A.L. 3 1/2 pp. 4to, "aux Rochers, dimanche, 26e de juin" (1689),
+                        M. du Plessis:</desc>
+                     <note>… Vous menés donc la vie des sages; vous vous retireés du monde:
+                     vous estes bien jeune, mon amy, pour le prendre d'un ton si haut. Vous
+                     vous</note>
+                  </item>
+                  <item>
+                     <desc>A. L. 3 pp. 4to, "Rochers, mercredi, 4e juin" (1690) to the same,
+                        with seal</desc>
+                     <note/>
+                  </item>
+               </list>
+               <add corresp="#CAT_000012_m">
+                  <num value="13" type="pound">£13</num>
+                  <note>Vendu à Fatio.</note>
+               </add>
+            </item>
+            <item n="1079" xml:id="CAT_000012_e1079" corresp="#MS_000008">
+               <num>1079</num>
+               <name type="author">SÉVIGNÉ (Madame de)</name>
+               <list>
+                  <item>
+                     <desc>A. L. 4 pp. 4to (conclusion wanting?),
+                        "aux Rochers, mercredi, 19e juillet" (1690) to the same,
+                        speaking of the death of Beaulieu, her maître d'hôtel: –</desc>
+                     <note/>
+                  </item>
+                  <item>
+                     <desc>A. L. 4 pp. 4to, "aux Rochers, mercredi, 20e aoust" (1690) to
+                        the same:</desc>
+                     <note/>
+                  </item>
+               </list>
+               <add corresp="#CAT_000012_m">
+                  <num value="11" type="pound">£11</num>
+                  <note>Vendu à Fatio.</note>
+               </add>
+            </item>
+            <item n="1080" xml:id="CAT_000007_e1080">
+               <num>1080</num>
+               <name type="author">SÉVIGNÉ (Madame de)</name>
+               <list>
+                  <desc>A. L. 3 1/4 pp. 4to, "aux Rochers,
+                     mercredy, 30e aoust" (1690), to the same:–</desc>
+                  <note/>
+                  <desc>A. L. 3 1/2 pp. 4to, "à Grignan, ce 19e janvier, 1691," to the
+                     same:</desc>
+                  <note/>
+               </list>
+            </item>
+            <item n="1081" xml:id="CAT_000012_e1081">
+               <num>1081</num>
+               <name type="author">SÉVIGNÉ (Madame de)</name>
+               <list>
+                  <desc>A. L. s. "L. a. M. de Sévigné", 5 pp.
+                     4to, "à Grignan, ce premier may" (1691), to the same:</desc>
+                  <note/>
+                  <desc>A. L. 5 pp. 4to, "à Grignan, ce 15e Septembre" (1691), to the
+                     same:</desc>
+                  <note/>
+               </list>
+               <add corresp="#CAT_000012_m">
+                  <num value="25" type="pound">£25</num>
+                  <note>Vendu à Agnew.</note>
+               </add>
+            </item>
+            <gap/>
+         </list>
+      </body>
+   </text>
+</TEI>
