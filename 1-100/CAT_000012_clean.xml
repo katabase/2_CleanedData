@@ -103,20 +103,20 @@
                   <note>Vendu à Fatio.</note>
                </add>
             </item>
-            <item n="1080" xml:id="CAT_000007_e1080">
+            <item n="1080" xml:id="CAT_000012_e1080">
                <num type="lot">1080</num>
                <name type="author">SÉVIGNÉ (Madame de)</name>
-               <desc xml:id="CAT_000007_e1080_d1">A. L. 3 1/4 pp. 4to, "aux Rochers,
+               <desc xml:id="CAT_000012_e1080_d1">A. L. 3 1/4 pp. 4to, "aux Rochers,
                   mercredy, 30e aoust" (1690), to the same:–</desc>
-               <desc xml:id="CAT_000007_e1080_d2">A. L. 3 1/2 pp. 4to, "à Grignan, ce 19e janvier, 1691," to the
+               <desc xml:id="CAT_000012_e1080_d2">A. L. 3 1/2 pp. 4to, "à Grignan, ce 19e janvier, 1691," to the
                   same:</desc>
             </item>
             <item n="1081" xml:id="CAT_000012_e1081">
                <num type="lot">1081</num>
                <name type="author">SÉVIGNÉ (Madame de)</name>
-               <desc xml:id="CAT_000007_e1081_d1">A. L. s. "L. a. M. de Sévigné", 5 pp.
+               <desc xml:id="CAT_000012_e1081_d1">A. L. s. "L. a. M. de Sévigné", 5 pp.
                   4to, "à Grignan, ce premier may" (1691), to the same:</desc>
-               <desc xml:id="CAT_000007_e1081_d2">A. L. 5 pp. 4to, "à Grignan, ce 15e Septembre" (1691), to the
+               <desc xml:id="CAT_000012_e1081_d2">A. L. 5 pp. 4to, "à Grignan, ce 15e Septembre" (1691), to the
                   same:</desc>
                <add corresp="#CAT_000012_m">
                   <measure commodity="currency" unit="GBP" quantity="25">25</measure>
