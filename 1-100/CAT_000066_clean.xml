@@ -76,7 +76,7 @@
       <body>
          <gap/>
          <list>
-            <item n="1">
+            <item n="1" xml:id="CAT_000066_e1">
                <num type="lot">1</num>
                <name type="author">.Ancre (Concino-Concini, maréchal d')</name>
                <trait>
@@ -88,7 +88,7 @@
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Lettre historique sur la défense de Corbie</note>
             </item>
-            <item n="2">
+            <item n="2" xml:id="CAT_000066_e2">
                <num type="lot">2</num>
                <name type="author">Argenville (Ant.-Jos Desallier d')</name>
                <trait>
@@ -108,7 +108,7 @@
                   Informations sur M. de La Rochefoucauld. Il lui recommande en terminant de brûler
                   sa lettre</note>
             </item>
-            <item n="3">
+            <item n="3" xml:id="CAT_000066_e3">
                <num type="lot">3</num>
                <name type="author">Bailly (Sylvain)</name>
                <trait>
@@ -117,7 +117,7 @@
                <desc xml:id="CAT_000066_e3_d1">L. a. s.; 15 février, 1 p. pet. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
-            <item n="4">
+            <item n="4" xml:id="CAT_000066_e4">
                <num type="lot">4</num>
                <name type="author">Baluze (Et.)</name>
                <trait>
@@ -128,7 +128,7 @@
                <measure commodity="currency" unit="FRF" quantity="18">18</measure>
                <note>Belle lettre intime</note>
             </item>
-            <item n="5">
+            <item n="5" xml:id="CAT_000066_e5">
                <num type="lot">5</num>
                <name type="author">Barat (Nie.)</name>
                <trait>
@@ -138,7 +138,7 @@
                <desc xml:id="CAT_000066_e5_d1">L. a. s., 3 p. in-4. Belle lettre. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-            <item n="6">
+            <item n="6" xml:id="CAT_000066_e6">
                <num type="lot">6</num>
                <name type="author">Bellegarde (J.-B. Morvan, abbé de)</name>
                <trait>
@@ -150,7 +150,7 @@
                <measure commodity="currency" unit="FRF" quantity="13">13</measure>
                <note>Curieuse lettre sur ses ouvrages</note>
             </item>
-            <item n="7">
+            <item n="7" xml:id="CAT_000066_e7">
                <num type="lot">7</num>
                <name type="author">Berchény (Ladislas-Ignace, comte de)</name>
                <trait>
@@ -160,7 +160,7 @@
                <desc xml:id="CAT_000066_e7_d1">Let. sig.; Lusancy, 1776, 1 p. 1/2 in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-            <item n="8">
+            <item n="8" xml:id="CAT_000066_e8">
                <num type="lot">8</num>
                <name type="author">Bigot (Emery)</name>
                <trait>
@@ -172,7 +172,7 @@
                   p. in-8, cachet. Rare. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-            <item n="9">
+            <item n="9" xml:id="CAT_000066_e9">
                <num type="lot">9</num>
                <name type="author">Bourbon (Charles de)</name>
                <trait>
@@ -184,7 +184,7 @@
                   oblong.</desc>
                <measure commodity="currency" unit="FRF" quantity="13">13</measure>
             </item>
-            <item n="10">
+            <item n="10" xml:id="CAT_000066_e10">
                <num type="lot">10</num>
                <name type="author">Bourbon (Henri de)</name>
                <trait>
@@ -199,7 +199,7 @@
                   il est à craindre que le pays ne souffre de leur passage, mais s'il obéit aux
                   instructions du prince, il dégagera sa responsabilité</note>
             </item>
-            <item n="11">
+            <item n="11" xml:id="CAT_000066_e11">
                <num type="lot">11</num>
                <name type="author">Boursault (J.-F.)</name>
                <trait>
@@ -210,7 +210,7 @@
                   Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-            <item n="12">
+            <item n="12" xml:id="CAT_000066_e12">
                <num type="lot">12</num>
                <name type="author">Cambridge (Adolphe-Frédéric, duc de)</name>
                <trait>
@@ -222,7 +222,7 @@
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
                <note>Superbe lettre intime écrite à l'âge de 14 ans</note>
             </item>
-            <item n="13">
+            <item n="13" xml:id="CAT_000066_e13">
                <num type="lot">13</num>
                <name type="author">Charles VIII</name>
                <trait>
@@ -235,7 +235,7 @@
                   rendre compte au roi Ferdinand 1er des sommes qu'il a dû manier. L'ambassadeur
                   français, le seigneur de Clerieu, lui obtiendra un sauf-conduit</note>
             </item>
-            <item n="14">
+            <item n="14" xml:id="CAT_000066_e14">
                <num type="lot">14</num>
                <name type="author">Charlet (N.-T.)</name>
                <trait>
@@ -247,7 +247,7 @@
                <note>Il le prie d'obtenir l'inhumation gratuite d'un nommé Grumet, laissant une
                   pauvre veuve avec plusieurs enfants dans la misère</note>
             </item>
-            <item n="15">
+            <item n="15" xml:id="CAT_000066_e15">
                <num type="lot">15</num>
                <name type="author">Chateaubriand (le vicomte de)</name>
                <trait>
@@ -261,7 +261,7 @@
                   Majesté n'aurait pas de sujet plus dévoué qu'un exilé resté fidèle à ses rois
                   malheureux.</note>
             </item>
-            <item n="16">
+            <item n="16" xml:id="CAT_000066_e16">
                <num type="lot">16</num>
                <name type="author">Condé (Louis II de Bourbon, prince de)</name>
                <trait>
@@ -271,7 +271,7 @@
                   Vitry; Saint-Germain, 8 janvier 1674, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="18">18</measure>
             </item>
-            <item n="17">
+            <item n="17" xml:id="CAT_000066_e17">
                <num type="lot">17</num>
                <name type="author">Daubenton (L.-J.-M.)</name>
                <trait>
@@ -285,7 +285,7 @@
                   très bonne, mais qui est cloué ici par les glaces qui rendent les chemins
                   impraticables</note>
             </item>
-            <item n="18">
+            <item n="18" xml:id="CAT_000066_e18">
                <num type="lot">18</num>
                <name type="author">Desaix (L.-Ch.-Ant.)</name>
                <trait>
@@ -297,7 +297,7 @@
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Belle lettre écrite comme général en chef de l'armée du Rhin et Moselle</note>
             </item>
-            <item n="19">
+            <item n="19" xml:id="CAT_000066_e19">
                <num type="lot">19</num>
                <name type="author">Fénelon (François de Salignctc de)</name>
                <trait>
@@ -307,7 +307,7 @@
                   avril 1704, 1 p. in-8, cachets. Très jolie lettre intime.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
-            <item n="20">
+            <item n="20" xml:id="CAT_000066_e20">
                <num type="lot">20</num>
                <name type="author">Fourmont (Et.)</name>
                <trait>
@@ -324,7 +324,7 @@
                   L'impression une fois faite, je suis sûr de l'approbation de toute la terre et que
                   le chinois-deviendra aussi commun que le grec.</note>
             </item>
-            <item n="21">
+            <item n="21" xml:id="CAT_000066_e21">
                <num type="lot">21</num>
                <name type="author">Frédéric Ier, roi de Wurtemberg, beau-père du roi Jérôme, prince
                   célèbre par son attachement pour Napoléon</name>
@@ -341,7 +341,7 @@
                   d'immoralité à cause de la rupture de son mariage. Il y est aussi parlé de
                   Witzingerode et du baron de Linden</note>
             </item>
-            <item n="22">
+            <item n="22" xml:id="CAT_000066_e22">
                <num type="lot">22</num>
                <name type="author">G-aliani (l'abbé Ford.)</name>
                <trait>
@@ -354,7 +354,7 @@
                   Breteuil, d'A.-J. Bignon et donne des détails sur les ruines de Sorrente et le
                   tombeau de Cecilia Metella</note>
             </item>
-            <item n="23">
+            <item n="23" xml:id="CAT_000066_e23">
                <num type="lot">23</num>
                <name type="author">Gates (Horatio)</name>
                <trait>
@@ -368,7 +368,7 @@
                   général Rochambeau et de l'amiral de Grasse, commandant la flotte française. Il
                   redoute un débarquement de la flotte anglaise</note>
             </item>
-            <item n="24">
+            <item n="24" xml:id="CAT_000066_e24">
                <num type="lot">24</num>
                <name type="author">Geofïrin (Marie-Thérèse Rodet)</name>
                <trait>
@@ -379,7 +379,7 @@
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
-            <item n="25">
+            <item n="25" xml:id="CAT_000066_e25">
                <num type="lot">25</num>
                <name type="author">Gillot (Germain)</name>
                <trait>
@@ -391,7 +391,7 @@
                   novembre 1674, 2 p. in-8. Rare. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
-            <item n="26">
+            <item n="26" xml:id="CAT_000066_e26">
                <num type="lot">26</num>
                <name type="author">Goujet (l'abbé Cl.-Pierre)</name>
                <trait>
@@ -402,7 +402,7 @@
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Relative à Grosley, qui fait un long voyage dans le midi de la France</note>
             </item>
-            <item n="27">
+            <item n="27" xml:id="CAT_000066_e27">
                <num type="lot">27</num>
                <name type="author">Gustave-Adolphe</name>
                <trait>
@@ -412,7 +412,7 @@
                   sceau.</desc>
                <measure commodity="currency" unit="FRF" quantity="23">23</measure>
             </item>
-            <item n="28">
+            <item n="28" xml:id="CAT_000066_e28">
                <num type="lot">28</num>
                <name type="author">Kotzebue (A.-F.-F. de)</name>
                <trait>
@@ -423,7 +423,7 @@
                   cachet. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="17">17</measure>
             </item>
-            <item n="29">
+            <item n="29" xml:id="CAT_000066_e29">
                <num type="lot">29</num>
                <name type="author">La Chalotais (L.-R. de Caradeuc de)</name>
                <trait>
@@ -435,7 +435,7 @@
                   1747, 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
-            <item n="30">
+            <item n="30" xml:id="CAT_000066_e30">
                <num type="lot">30</num>
                <name type="author">Law (J.)</name>
                <trait>
@@ -445,7 +445,7 @@
                   le texte. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-            <item n="31">
+            <item n="31" xml:id="CAT_000066_e31">
                <num type="lot">31</num>
                <name type="author">Ledieu (l'abbé François)</name>
                <trait>
@@ -457,7 +457,7 @@
                   Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
             </item>
-            <item n="32">
+            <item n="32" xml:id="CAT_000066_e32">
                <num type="lot">32</num>
                <name type="author">Lemot (F.-F.)</name>
                <trait>
@@ -472,7 +472,7 @@
                   l'avancement de son travail et demande le paiement d'un mandat de 45,000 francs
                   formant le sixième acompte sur la somme totale</note>
             </item>
-            <item n="33">
+            <item n="33" xml:id="CAT_000066_e33">
                <num type="lot">33</num>
                <name type="author">Lincoln (B.)</name>
                <trait>
@@ -482,7 +482,7 @@
                   lettre relative à la guerre. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
-            <item n="34">
+            <item n="34" xml:id="CAT_000066_e34">
                <num type="lot">34</num>
                <name type="author">Mailly (J.-B.)</name>
                <trait>
@@ -493,7 +493,7 @@
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Intéressante lettre littéraire dans laquelle il parle de ses ouvrages</note>
             </item>
-            <item n="35">
+            <item n="35" xml:id="CAT_000066_e35">
                <num type="lot">35</num>
                <name type="author">Maintenon (Françoise d'Aubigné, marquise de)</name>
                <trait>
@@ -503,7 +503,7 @@
                   lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
             </item>
-            <item n="36">
+            <item n="36" xml:id="CAT_000066_e36">
                <num type="lot">36</num>
                <name type="author">Mayenne (Charles de Lorraine, duc de)</name>
                <trait>
@@ -516,7 +516,7 @@
                   escus, à prendre sur la vente des immeubles des hérétiques de la ville de
                   Dieppe</note>
             </item>
-            <item n="37">
+            <item n="37" xml:id="CAT_000066_e37">
                <num type="lot">37</num>
                <name type="author">Méchain (P.-F.-T.)</name>
                <trait>
@@ -526,7 +526,7 @@
                   1788, 3 p. in-4. Lettre scientifique d'un grand intérêt.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
-            <item n="38">
+            <item n="38" xml:id="CAT_000066_e38">
                <num type="lot">38</num>
                <name type="author">Mirabeau (Victor Riquetti, marquis de)</name>
                <trait>
@@ -536,7 +536,7 @@
                   Paris, 3 avril 1785, 3 p. 1/4 in-4, cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="13">13</measure>
             </item>
-            <item n="39">
+            <item n="39" xml:id="CAT_000066_e39">
                <num type="lot">39</num>
                <name type="author">Noailles (Louis, duc de)</name>
                <trait>
@@ -548,7 +548,7 @@
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Sur la construction d'un boulevard à Versailles</note>
             </item>
-            <item n="40">
+            <item n="40" xml:id="CAT_000066_e40">
                <num type="lot">40</num>
                <name type="author">Ormesson (Louis-Fr. d')</name>
                <trait>
@@ -562,7 +562,7 @@
                   nouvelle machine inventée sous le nom d'aérostatique par les « sieurs Mongossier
                   (Montgolfier).</note>
             </item>
-            <item n="41">
+            <item n="41" xml:id="CAT_000066_e41">
                <num type="lot">41</num>
                <name type="author">Pellerin (Jos.)</name>
                <trait>
@@ -573,7 +573,7 @@
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="13">13</measure>
             </item>
-            <item n="42">
+            <item n="42" xml:id="CAT_000066_e42">
                <num type="lot">42</num>
                <name type="author">Poniatowski (Joseph, prince)</name>
                <trait>
@@ -583,7 +583,7 @@
                   1813, 2 p. in-fol. Belle lettre militaire</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
-            <item n="43">
+            <item n="43" xml:id="CAT_000066_e43">
                <num type="lot">43</num>
                <name type="author">Rohan (L.-R.-E., prince de)</name>
                <trait>
@@ -596,7 +596,7 @@
                <note>Il propose d'envoyer les déserteurs, qui sont en grand nombre dans l'armée, aux
                   Colonies.</note>
             </item>
-            <item n="44">
+            <item n="44" xml:id="CAT_000066_e44">
                <num type="lot">44</num>
                <name type="author">Sainte-Palaye (J.-B. de La Curne de)</name>
                <trait>
@@ -607,7 +607,7 @@
                   p. in-4. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
-            <item n="45">
+            <item n="45" xml:id="CAT_000066_e45">
                <num type="lot">45</num>
                <name type="author">Spada (Fabrizio)</name>
                <trait>

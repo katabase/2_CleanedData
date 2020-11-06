@@ -3066,13 +3066,13 @@
                   lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
-            <item n="267" xml:id="CAT_000226_e_267">
+            <item n="267" xml:id="CAT_000226_e267">
                <num type="lot">267</num>
                <name type="author">Voltaire</name>
                <trait>
                   <p>l'illustre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000226_e_d1">-Let. aut. à Mme de Grafigny; L. a. Haye, 30 oct. 1740, 1 p. in-4.</desc>
+               <desc xml:id="CAT_000226_e267_d1">-Let. aut. à Mme de Grafigny; L. a. Haye, 30 oct. 1740, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note anchored="true">Belle lettre. (Probablement inédite). Il déplore avec elle la mort de Mme de
                   Richelieu . « sa mémoire me sera toujours d'autant plus chère qu'elle a mieux
