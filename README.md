@@ -8,8 +8,9 @@ The data have been cleaned (level 2) but not post-processed (level 3) yet.
 
 Once the data have been cleaned, we can start to extract information from the `desc`.
 
-* First, EXTRACTOR-XML extracts informations and then retrieves them in an XML file (level 3).
-* Then, we can check the data and its encoding. Some errors may appear and some corrections may be needed.
+EXTRACTOR-XML extracts informations and then retrieves them in an XML file (level 3). 
+
+The script transforms this
 
 
 ```xml
@@ -35,8 +36,9 @@ into
       <p>l'illustre compositeur</p>
    </trait>
    <desc><term>L. a. s.</term>;<date>1836</date>,
-   <measure type="length" unit="p" n="1">1 p.</measure> <measure unit="f" type="format" n="8">in-8</measure>.
-   <measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
+   	<measure type="length" unit="p" n="1">1 p.</measure> 
+   	<measure unit="f" type="format" n="8">in-8</measure>.
+   	<measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
 </item>
 ```
 
