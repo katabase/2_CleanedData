@@ -42,8 +42,25 @@ into
 </item>
 ```
 
-To carry this task we use the `???.py` [[available here](https://github.com/katabase/2_CleanedData/tree/master/script/???)].
+To carry this task we use `extractor-xml.py` [[available here](https://github.com/katabase/2_CleanedData/tree/master/script/extractor-xml.py)].
 
+## Installation and use
+
+```shell
+git clone https://github.com/katabase/2_CleanedData.git
+cd 2_CleanedData
+python3 -m venv my_env
+source my_env/bin/activate
+pip install -r requirements.txt
+cd script 
+python3 extractor-xml.py directory_to_process
+```
+
+**Note that you have to be in the folder `script`to execute `extractor-xml.py`.**
+
+The output files will be in the folder `output`.
+
+## Credits 
 
 ## Cite this repository
 Alexandre Bartz, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Lucie Rondeau du Noyer, _Manuscript sale catalogues_, Neuchâtel: Université de Neuchâtel, 2019, [https://github.com/katabase/2_CleanedData](https://github.com/katabase/2_CleanedData).
