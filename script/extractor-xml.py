@@ -802,7 +802,7 @@ xml_taxonomy = """
               <catDesc>Document (?) Autographe signé</catDesc>
            </category>
         </taxonomy>
-    </classDesc>"""
+    </classDecl>"""
 
 
 def xml_output_production(dictionary, path):
