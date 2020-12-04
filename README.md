@@ -44,7 +44,7 @@ into
 </item>
 ```
 
-To carry this task we use `extractor-xml.py` [[available here](https://github.com/katabase/2_CleanedData/tree/master/script/extractor-xml.py)].
+To carry this task we use `extractor_xml.py` [[available here](https://github.com/katabase/2_CleanedData/tree/master/script/extractor-xml.py)].
 
 ## Installation and use
 
@@ -55,10 +55,10 @@ To carry this task we use `extractor-xml.py` [[available here](https://github.co
 * source my_env/bin/activate
 * pip install -r requirements.txt
 * cd script 
-* python3 extractor-xml.py directory_to_process
+* python3 extractor_xml.py directory_to_process
 ```
 
-**Note that you have to be in the folder `script`to execute `extractor-xml.py`.**
+**Note that you have to be in the folder `script`to execute `extractor_xml.py`.**
 
 The output files will be in the folder `output`.
 
