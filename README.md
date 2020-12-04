@@ -48,7 +48,7 @@ To carry this task we use `extractor-xml.py` [[available here](https://github.co
 
 ## Installation and use
 
-```shell
+```bash
 * git clone https://github.com/katabase/2_CleanedData.git
 * cd 2_CleanedData
 * python3 -m venv my_env
