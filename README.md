@@ -62,7 +62,11 @@ To carry this task we use `extractor-xml.py` [[available here](https://github.co
 
 The output files will be in the folder `output`.
 
-## Credits 
+## Credits
+
+* Scripts were created by Matthias Gille Levenson and improved by Alexandre Bartz with the help of Simon Gabay.
+* The catalogs were encoded by Lucie Rondeau du Noyer, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Alexandre Bartz.
+
 
 ## Cite this repository
 Alexandre Bartz, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Lucie Rondeau du Noyer, _Manuscript sale catalogues_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/katabase/2_CleanedData](https://github.com/katabase/2_CleanedData).
