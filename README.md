@@ -2,13 +2,13 @@
 
 This repository contains digitised manuscripts sale catalogs encoded in XML-TEI at level 2.
 
-The data have been cleaned (level 2) but not post-processed (level 3) yet.
+The data have been cleaned (level 2) but not post-processed ([level 3](https://github.com/katabase/3_TaggedData)) yet.
 
 ## Workflow
 
 Once the data have been cleaned, we can start to extract information from the `desc`.
 
-EXTRACTOR-XML extracts informations and then retrieves them in an XML file (level 3). 
+`extractor-xml.py` extracts informations and then retrieves them in the same XML file (level 3). 
 
 The script transforms this
 
@@ -35,10 +35,12 @@ into
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc><term>L. a. s.</term>;<date>1836</date>,
+   <desc>
+      <term>L. a. s.</term>;<date>1836</date>,
    	<measure type="length" unit="p" n="1">1 p.</measure> 
    	<measure unit="f" type="format" n="8">in-8</measure>.
-   	<measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
+   	<measure commodity="currency" unit="FRF" quantity="12">12</measure>
+   </desc>
 </item>
 ```
 
@@ -47,13 +49,13 @@ To carry this task we use `extractor-xml.py` [[available here](https://github.co
 ## Installation and use
 
 ```shell
-git clone https://github.com/katabase/2_CleanedData.git
-cd 2_CleanedData
-python3 -m venv my_env
-source my_env/bin/activate
-pip install -r requirements.txt
-cd script 
-python3 extractor-xml.py directory_to_process
+* git clone https://github.com/katabase/2_CleanedData.git
+* cd 2_CleanedData
+* python3 -m venv my_env
+* source my_env/bin/activate
+* pip install -r requirements.txt
+* cd script 
+* python3 extractor-xml.py directory_to_process
 ```
 
 **Note that you have to be in the folder `script`to execute `extractor-xml.py`.**
@@ -63,7 +65,7 @@ The output files will be in the folder `output`.
 ## Credits 
 
 ## Cite this repository
-Alexandre Bartz, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Lucie Rondeau du Noyer, _Manuscript sale catalogues_, Neuchâtel: Université de Neuchâtel, 2019, [https://github.com/katabase/2_CleanedData](https://github.com/katabase/2_CleanedData).
+Alexandre Bartz, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Lucie Rondeau du Noyer, _Manuscript sale catalogues_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/katabase/2_CleanedData](https://github.com/katabase/2_CleanedData).
 
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
