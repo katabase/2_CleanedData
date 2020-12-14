@@ -197,8 +197,8 @@ def date_extractor(descList, input_dict):
             date_log_path = 6
             date, date_string = tables.rep_greg_conversion.main(desc)
             if date_string is not None:
-                desc_xml = desc.replace(date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 date=\u0022{date}\u0022'
-                                                     f' type=\u0022length\u0022>{date_string}</date>')
+                desc_xml = desc.replace(date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
+                                                     f'when=\u0022{date}\u0022>{date_string}</date>')
             else:
                 desc_xml = desc
             dict_values["date"] = date
