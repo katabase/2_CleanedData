@@ -62,7 +62,7 @@ To carry this task we use `extractor_xml.py` [[available here](https://github.co
 * python3 extractor_xml.py directory_to_process
 ```
 
-**Note that you have to be in the folder `script`to execute `extractor_xml.py`.**
+**Note that you have to be in the folder `script`to execute `extractor_xml.py` and that the script only works with filenames ending with `_clean.xml` (files must have been beforehand cleaned).**
 
 The output files will be in the folder `output`.
 
