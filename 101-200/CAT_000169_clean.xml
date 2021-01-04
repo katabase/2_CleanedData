@@ -1,12 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000169">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000169</title>
+            <title>RDA, N°159 (Octobre 1893)</title>
             <respStmt>
-               <persName ref="#COL_000001">Matthias Gille Levenson</persName>
+               <persName ref="#COL_000006">Matthias Gille Levenson</persName>
                <resp>
-                  <date when="2019">2020</date>
+                  <date when="2020">2020</date>
                </resp>
             </respStmt>
          </titleStmt>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">159</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02">Octobre 1893</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>159</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1893-10">Octobre 1893</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -970,7 +983,7 @@
                   au pape Léon XII. Il n'a pas écrit la Cassandra, à cause de laquelle l'imprimeur
                   Allenger a été mis à mort à Heilbronn, il rappelle ses services durant les guerres
                   de Vendée; il a sauvé, à Nantes, 132 habitants qu'on voulait noyer dans la Loire,
-                  il a favorisé, à Rouen, l'évasion de Filleul, curé de Saint- Eloi. Il parle encore
+                  il a favorisé, à Rouen, l'évasion de Filleul, curé de Saint-Eloi. Il parle encore
                   de sa brochure : Le fiéau des tyrans et des septembriseurs. -Playeberg, près
                   ltzehoe (Holstein), 18 juin 1829. Il se plaint d'un duc qu'il a sauvé sous
                   Robespierre et qui l'a déshonoré sous Louis XVIII.</note>
@@ -1980,7 +1993,7 @@
                      Meilhan (Lot-et-Garonne) en 1765, mort en 1829.</p>
                </trait>
                <desc xml:id="CAT_000169_e158_d1">P. a. s., comme capitaine général de la Guadeloupe
-                  ; L. a. Basse-Terre, 28 germinal an XI, 1 p. in-fol., tête imp., vignette.</desc>
+                  ; La Basse-Terre, 28 germinal an XI, 1 p. in-fol., tête imp., vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="159" xml:id="CAT_000169_e159">
@@ -2171,7 +2184,7 @@
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Intéressante lettre. Il lui adresse un paquet venant de feu son mari, le
                   général Leclerc ; il lui présente, à ce propos, ses compliments de condoléances et
-                  désire informer Bonaparte de l'état de Saint- Domingue, il lui remet aussi des
+                  désire informer Bonaparte de l'état de Saint-Domingue, il lui remet aussi des
                   lettres pour Mme Bacciochi, M. de Vaublanc, etc.</note>
             </item>
             <item n="172" xml:id="CAT_000169_e172">
@@ -2678,7 +2691,7 @@
                   <p>duc de Conégliano, maréchal de France, né à Besançon en 1754, mort en 1842.
                   </p>
                </trait>
-               <desc xml:id="CAT_000169_e209_d1">L. a. s., L. a. Vaivre. 29 juillet 1825, 2 p. in-4,
+               <desc xml:id="CAT_000169_e209_d1">L. a. s., La Vaivre. 29 juillet 1825, 2 p. in-4,
                   cachet. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -2807,7 +2820,7 @@
                <trait>
                   <p>. Elle espère que le président Pierre Viole (seigneur de Guermande, partisan
                      des princes) réussira à rétablir la paix entre le prince de Condé et Gaston
-                     d'Orléans. En arrivant à Saint- Denis, elle a éprouvé une grande douleur. « Je
+                     d'Orléans. En arrivant à Saint-Denis, elle a éprouvé une grande douleur. « Je
                      trouve la petite trinité (les trois filles de Gaston et de sa deuxième femme,
                      Marguerite de Lorraine) avec la fièvre.</p>
                </trait>
@@ -3291,7 +3304,7 @@
                      1764, mort en Angleterre en 1803.</p>
                </trait>
                <desc xml:id="CAT_000169_e256_d1">11 lettres ou fragments aut. à la comtesse de
-                  Laage; 1800-1803, 23 p. in-4 et in-8. L. a. plupart de ces lettres sont
+                  Laage; 1800-1803, 23 p. in-4 et in-8. La plupart de ces lettres sont
                   mutilées.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Curieuses lettres intimes écrites pendant son exil et peu de temps avant sa
@@ -3442,7 +3455,7 @@
                   <p>le célèbre homme d'Etat et ministre du XVIIe siècle, né en 1542, mort en 1617.
                   </p>
                </trait>
-               <desc xml:id="CAT_000169_e269_d1">L. a. s. à J.-N. de Caumont L. a. Force, gouverneur de
+               <desc xml:id="CAT_000169_e269_d1">L. a. s. à J.-N. de Caumont La Force, gouverneur de
                   Béarn ; Paris, 3 mai 1612, 2 p. 1/2 in-fol. Un peu fatiguée.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il le prévient qu'il a remplacé l'évêque de Bayonne (Bertrand d'Echaus) par

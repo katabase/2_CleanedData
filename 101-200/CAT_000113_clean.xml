@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000113">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000113</title>
+            <title>RDA, N°110 (Décembre 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">110</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>110</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -447,7 +460,7 @@
                <trait>
                   <p>chef de l'école communiste dite Icarienne, né à Dijon en 1788, mort en 1856</p>
                </trait>
-               <desc xml:id="CAT_000113_e38_d1">L. a. s., 1 p. in-4. L. a. date a été coupée.</desc>
+               <desc xml:id="CAT_000113_e38_d1">L. a. s., 1 p. in-4. La date a été coupée.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Au sujet de son procès avec le National. « Je ne pouvais prévoir un pareil
                   excès d'indignité et une pareille folie. Mais je déclare que ces bruits sont
@@ -1301,7 +1314,7 @@
                <trait>
                   <p>célèbre poète romantique, né à Rouen en 1785, mort en 1866</p>
                </trait>
-               <desc xml:id="CAT_000113_e126_d1">L'habit et la robe de chambre, fable aut. sig., 2 p. 1/4 in-4. L. a. partie
+               <desc xml:id="CAT_000113_e126_d1">L'habit et la robe de chambre, fable aut. sig., 2 p. 1/4 in-4. La partie
                   blanche du second feuillet manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -3711,7 +3724,7 @@
             <item n="361" xml:id="CAT_000113_e361">
                <num type="lot">361</num>
                <name type="author">Maine. -</name>
-               <desc xml:id="CAT_000113_e361_d1">Pièce sur vélin; L. a. Fontaine Saint-Martin
+               <desc xml:id="CAT_000113_e361_d1">Pièce sur vélin; La Fontaine Saint-Martin
                   (Sarthe), 21 février 1409 (1410), in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Quittance de Catherine de Tucé, prieure de La Fontaine

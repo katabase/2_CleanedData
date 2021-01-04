@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000079">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000079</title>
+            <title>RDA, N°92 (Septembre-octobre 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>92</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -865,7 +879,7 @@
                <trait>
                   <p>savant botaniste et voyageur, né à La Rochelle</p>
                </trait>
-               <desc xml:id="CAT_000079_e69_d1">L. a. s.; L. a. Malmaison, 12 mars 1813, 1/2 p.
+               <desc xml:id="CAT_000079_e69_d1">L. a. s.; La Malmaison, 12 mars 1813, 1/2 p.
                   in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Relative à des travaux à exécuter à la Malmaison pour le service de
@@ -1164,7 +1178,7 @@
                   <p>femme du maréchal, très-maltraitée par Tallemant des Réaux dans ses
                      Historiettes, amie de Mme de Sévigné, morte à plus de 80 ans, en 1696</p>
                </trait>
-               <desc xml:id="CAT_000079_e96_d1">L. a. s. à M. de L. a. Loubère (le célèbre géomètre) ;
+               <desc xml:id="CAT_000079_e96_d1">L. a. s. à M. de La Loubère (le célèbre géomètre) ;
                   Paris, 19 juil. 1659, 1 p. in-4, cachets et soies.</desc>
                <measure commodity="currency" unit="FRF" quantity="23">23</measure>
                <note>Très-belle lettre, curieuse par son orthographe fantaisiste, et relative au
@@ -1851,7 +1865,7 @@
                      président de Thou, né en 1545, mort en 1594</p>
                </trait>
                <desc xml:id="CAT_000079_e156_d1">L. a. s. à M. Plasat, procureur de la princesse de
-                  L. a. Roche-sur-Yon (Catherine-Marie de Lorraine, duchesse de Montpensier), à
+                  La Roche-sur-Yon (Catherine-Marie de Lorraine, duchesse de Montpensier), à
                   Argenton-sur-Creuse, 1 p. in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>

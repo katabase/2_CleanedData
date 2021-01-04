@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000154">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000154</title>
+            <title>RDA, N°151 (Janvier 1893)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">151</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>151</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-01">Janvier 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1994,7 +2007,7 @@
                <trait>
                   <p>le célèbre écrivain</p>
                </trait>
-               <desc xml:id="CAT_000154_e153_d1">L. a. s. ; L. a. Chenais, par Dinan (Côtes-du-Nord), 28 sept. 1820, 4. p. in-4.</desc>
+               <desc xml:id="CAT_000154_e153_d1">L. a. s. ; La Chenais, par Dinan (Côtes-du-Nord), 28 sept. 1820, 4. p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Magnifique lettre relative au 2me volume de son Essai sur l'indifférence en
                   matière de retigion. « Veuillez vous rappeler qu'en combattant, dans mon premier
@@ -3276,7 +3289,7 @@
                   <p>homme politique et poète distingué de l'école romantique, né à Toulouse en
                      1789, mort en 1862</p>
                </trait>
-               <desc xml:id="CAT_000154_e258_d1">L. a. Châtelaine de la Vendée, pièce de vers aut. sig.; (vers 1832), 1 p. double
+               <desc xml:id="CAT_000154_e258_d1">La Châtelaine de la Vendée, pièce de vers aut. sig.; (vers 1832), 1 p. double
                   in-4 en long.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Très jolie pièce dont voici un extrait : Châtelaine, Vendéenne, Porte un

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000072">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000072</title>
+            <title>RDA, N°85 (Octobre 1884)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>85</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -221,7 +235,7 @@
                <trait>
                   <p>célèbre poète romantique, auteur des Odes funambulesques</p>
                </trait>
-               <desc xml:id="CAT_000072_e12_d1">Lettres à Pierrot : L. a. Vieillesse, article aut.
+               <desc xml:id="CAT_000072_e12_d1">Lettres à Pierrot : La Vieillesse, article aut.
                   sig.; 14 p. in-8 obl. Découpée pour l'impression.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -577,7 +591,7 @@
                      Saint-Jean-d'Angély en 1588</p>
                </trait>
                <desc xml:id="CAT_000072_e42_d1">Let. sig., avec la souscrip. aut., à M. de Lansac,
-                  gouverneur de Brouage et des Iles de Saintonge; L. a. Rochelle, 6 mars 1578, 1 p.
+                  gouverneur de Brouage et des Iles de Saintonge; La Rochelle, 6 mars 1578, 1 p.
                   in-fol., cachet. Tachée d'eau dans le bas de la lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Il lui recommande M. de Bryac et se plaint qu'on lui retient à Brouage un
@@ -1519,7 +1533,7 @@
                      d'Orléans, et décapité à Toulouse devant la statue de Henri IV, son parrain, le
                      30 octobre 1632</p>
                </trait>
-               <desc xml:id="CAT_000072_e116_d1">L. a. s. au cardinal de L. a. Valette, (1630), 1 p.
+               <desc xml:id="CAT_000072_e116_d1">L. a. s. au cardinal de La Valette, (1630), 1 p.
                   in-4., cachets et soies. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
             </item>

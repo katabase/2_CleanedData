@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000141">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000141</title>
+            <title>RDA, N°138 (Juin 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">138</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>138</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1141,7 +1154,7 @@
                <trait>
                   <p>major de la marine britannique, traducteur du Voyaye à Billardière</p>
                </trait>
-               <desc xml:id="CAT_000141_e93_d1">L. a. s., en français, à L. a. Billardière; Londres, 11 juillet 1800, 2 p. in-4.</desc>
+               <desc xml:id="CAT_000141_e93_d1">L. a. s., en français, à La Billardière; Londres, 11 juillet 1800, 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Il lui adresse la traduction de son livre : Relation du voyage à la recherche
                   de La Pérouse, fait par ordre de l'Assemblée Constituante (1799-1800, 2 vol. in-4 et
@@ -1457,7 +1470,7 @@
                   <p>célèbre naturaliste et littérateur, né à Reims en 1688, mort le 19 nov.
                      1761</p>
                </trait>
-               <desc xml:id="CAT_000141_e118_d1">L. a. s. à Robert Estienne; L. a. Varenne-Saint-Maur, 9 mars 1761, 2/3 de p.
+               <desc xml:id="CAT_000141_e118_d1">L. a. s. à Robert Estienne; La Varenne-Saint-Maur, 9 mars 1761, 2/3 de p.
                   in-4. Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -1719,7 +1732,7 @@
                   <p>le fameux bourreau de Paris pendant la période révolutionnaire, et qui exécuta
                      Louis XVI</p>
                </trait>
-               <desc xml:id="CAT_000141_e140_d1">L. a. s. à Maton de L. a. Varenne ; 12 sept. 1790, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000141_e140_d1">L. a. s. à Maton de La Varenne ; 12 sept. 1790, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="55">55</measure>
             </item>
             <item n="141" xml:id="CAT_000141_e141">
@@ -2221,7 +2234,7 @@
                <trait>
                   <p>comte de)</p>
                </trait>
-               <desc xml:id="CAT_000141_e188_d1">L. a. s. à Née de L. a. Rochelle ; Paris, 8 vendémiaire an XII, 2 p. 3/4 in-4,
+               <desc xml:id="CAT_000141_e188_d1">L. a. s. à Née de La Rochelle ; Paris, 8 vendémiaire an XII, 2 p. 3/4 in-4,
                   tête impr., vignette. Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -3040,7 +3053,7 @@
             <item n="296" xml:id="CAT_000141_e296">
                <num type="lot">296</num>
                <name type="author">Bourdon (F.-L.)</name>
-               <desc xml:id="CAT_000141_e296_d1">Pièce sig. par Bourdon de l'Oise, Barbé Marbois. De L. a. Villeurnoy, Pichegru,
+               <desc xml:id="CAT_000141_e296_d1">Pièce sig. par Bourdon de l'Oise, Barbé Marbois. De La Villeurnoy, Pichegru,
                   Barthélemy, Rovère, Ramel, Tronson Ducoudray, Brotier, Aubry, Willot, Daaberjon
                   Murinais, etc. ; Cayenne, 27 brumaire an VI, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>

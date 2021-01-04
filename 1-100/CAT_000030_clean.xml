@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000030">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000030</title>
+            <title>RDA, N°38 (Février 1874)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>38</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1839,7 +1853,7 @@
                <num type="lot">183</num>
                <name type="author">Barbier (Aug)</name>
                <trait>
-                  <p>célèbre poète satvrique, auteur des Iambes, membre de l'Acad. fr</p>
+                  <p>célèbre poète satvrique, auteur des Iambes, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000030_e183_d1">L. a. s., 1868, 1 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -1941,7 +1955,7 @@
                <num type="lot">192</num>
                <name type="author">Chateaubriand (le vicomte de)</name>
                <trait>
-                  <p>illustre écrivain et homme d'état, de l'Acad. fr</p>
+                  <p>illustre écrivain et homme d'état, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000030_e192_d1">L. a. s., 1er juin 1838, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
@@ -2129,7 +2143,7 @@
                <trait>
                   <p>illustre compositeur, auteur de la Juive</p>
                </trait>
-               <desc xml:id="CAT_000030_e208_d1">L. a. Romance de Guido, tirée d'un de ses grands
+               <desc xml:id="CAT_000030_e208_d1">La Romance de Guido, tirée d'un de ses grands
                   opéras, beau morceau de musique autog., avec 6 lig. d'envoi aut. sig. ; 1857, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>

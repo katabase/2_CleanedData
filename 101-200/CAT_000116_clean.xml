@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000116">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000116</title>
+            <title>RDA, N°112 (Mars 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">113</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>113</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -775,7 +788,7 @@
                   <p>duc de Berry et de Guyenne, fils de Charles VII et frère de Louis XI,
                      instigateur de la guerre du Bien public, né en 1446, mort en 1472</p>
                </trait>
-               <desc xml:id="CAT_000116_e67_d1">Let. sig.. sur vélin; L. a. Rochelle, 10 juillet 1469, 1 p. in-fol. obl., cachet.
+               <desc xml:id="CAT_000116_e67_d1">Let. sig.. sur vélin; La Rochelle, 10 juillet 1469, 1 p. in-fol. obl., cachet.
                   Très-rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Précieux document historique. Renouvellement et confirmation de son alliance
@@ -2099,7 +2112,7 @@
                   <p>stathouder de Hollande, fils de Guillaume-le-Taciturne, né à Delit en 1584,
                      mort en 1647</p>
                </trait>
-               <desc xml:id="CAT_000116_e197_d1">Pièce sig., sig. aussi par Constantin Huyghens ; L. a. Have, 1642, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000116_e197_d1">Pièce sig., sig. aussi par Constantin Huyghens ; La Have, 1642, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Approbation du legs fait par Piéter Danner à la famille van Hollam</note>
             </item>

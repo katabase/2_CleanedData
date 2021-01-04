@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000005">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000005</title>
+            <title>Catalogue Laverdet, N°3 (octobre 1856)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -21,14 +22,27 @@
          <sourceDesc>
             <bibl>
                <title>Catalogue de lettres autographes, manuscrits, documents historiques, etc. de A. Laverdet</title>
-               <num type="lot">3</num>
+               <num>3</num>
                <editor>Auguste Laverdet</editor>
                <publisher>Auguste Laverdet</publisher>
                <pubPlace>Paris, 24 rue Saint-Lazare</pubPlace>
                <date when="1856-10">Octobre 1856</date>
             </bibl>
             <listWit>
-               <witness>BnF, NUMM-9687751 <ptr target="ark:/12148/bpt6k9687751c"/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">DELTA-9995</idno>
+                        <altIdentifier>
+                           <idno>NUMM-9687751</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30755439z"/>
                </witness>
             </listWit>
             <listBibl>
@@ -38,7 +52,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -60,8 +74,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -644,7 +658,7 @@
                <trait>
                   <p>seigneur de La Mauvissière, ambassadeur</p>
                </trait>
-               <desc xml:id="CAT_000005_e199_d1">Né à L. a. Mauvissière, M…1592. Pièce notariée, 2
+               <desc xml:id="CAT_000005_e199_d1">Né à La Mauvissière, M…1592. Pièce notariée, 2
                   fois signée. 25 août 1586. 1 p. pl. et demie in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -1390,7 +1404,7 @@
                <trait>
                   <p>maréchal de France</p>
                </trait>
-               <desc xml:id="CAT_000005_e270_d1">L. aut. sig. L. a. Fère, 10 juillet 1842. 1 p. pl.
+               <desc xml:id="CAT_000005_e270_d1">L. aut. sig. La Fère, 10 juillet 1842. 1 p. pl.
                   in-8. Cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>

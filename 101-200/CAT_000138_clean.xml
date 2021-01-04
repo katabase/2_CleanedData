@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000138">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000138</title>
+            <title>RDA, N°135 (Avril 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">135</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>135</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -300,7 +313,7 @@
             <item n="31" xml:id="CAT_000138_e31">
                <num type="lot">31</num>
                <name type="author">Vadier (M.-G.)</name>
-               <desc xml:id="CAT_000138_e31_d1">P. a. s., sig. aussi par Moise Bayle, Jagot, Elie Lacoste, L. a. vicomterie,
+               <desc xml:id="CAT_000138_e31_d1">P. a. s., sig. aussi par Moise Bayle, Jagot, Elie Lacoste, La vicomterie,
                   Louis (du Bas Rhin) e Voulland; 14 pluviôse an II, 1 p. in-4. tête impr.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Ordre de mise en liberté des citoyens Saucédé frères.</note>

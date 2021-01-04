@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000018">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000018</title>
+            <title>RDA, N°37 (août 1873)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>37</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -72,8 +82,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -176,7 +186,7 @@
                <num type="lot">9</num>
                <name type="author">Barbier (Auguste)</name>
                <trait>
-                  <p>célèbre poète satirique, auteur des Iambes, membre de l'Acad. fr</p>
+                  <p>célèbre poète satirique, auteur des Iambes, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e9_d1">L. a. s. à Mme Valmore, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -424,7 +434,7 @@
                <num type="lot">32</num>
                <name type="author">Campistron (J. de)</name>
                <trait>
-                  <p>célèbre poète dramatique, de l'Acad. fr</p>
+                  <p>célèbre poète dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e32_d1">Let. écrite de sa main, sig. par Louis de Vendôme,
                   dont il était le secrétaire, au conseil suprême de Mantoue ; camp de la Révolte,
@@ -438,7 +448,7 @@
                   <p>savant archéologue, directeur de l'imprimerie de la Propagande</p>
                </trait>
                <desc xml:id="CAT_000018_e33_d1">L. a. s. au libraire Molini; Rome, 1809, 1
-                  p.-in-4.</desc>
+                  p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="34" xml:id="CAT_000018_e34">
@@ -560,7 +570,7 @@
                   <p>femme du maréchal Armand de Caumont-La Force</p>
                </trait>
                <desc xml:id="CAT_000018_e43_d1">Pièce sig. d'elle et de son beau-père, le maréchal
-                  Jacques CaumontL. a. Force; 1637, 1 p. in-f.</desc>
+                  Jacques CaumontLa Force; 1637, 1 p. in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="44" xml:id="CAT_000018_e44">
@@ -604,7 +614,7 @@
                   <p>frère du précédent</p>
                </trait>
                <desc xml:id="CAT_000018_e47_d1">Pièce sig. de lui et de sa femme, Anne-Elisabeth de
-                  Gruel de L. a. Frette, 1733, 2 p. pet. in-4.</desc>
+                  Gruel de La Frette, 1733, 2 p. pet. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="48" xml:id="CAT_000018_e48">
@@ -637,7 +647,7 @@
                <num type="lot">50</num>
                <name type="author">Champagny (le comte Franz de)</name>
                <trait>
-                  <p>littérateur, membre de l'Acad. fr</p>
+                  <p>littérateur, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e50_d1">L. a. s., 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -790,7 +800,7 @@
                <trait>
                   <p>illustre poète tragique du XVIIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000018_e64_d1">L. a. matrone d'Ephése, comédie avec approbation aut.
+               <desc xml:id="CAT_000018_e64_d1">La matrone d'Ephése, comédie avec approbation aut.
                   sig. de Crébillon, 1775, 1 cahier in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
@@ -936,7 +946,7 @@
                <name type="author">Fontanes (Louis de)</name>
                <trait>
                   <p>un des écrivains français les plus élégants, grand maître de l'Université,
-                     membre de l'Acad. fr</p>
+                     membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e79_d1">L. a. s. à Dorat-Cubières, chez Mme de Beauharnais,
                   an XIII, 1 p. in-8.</desc>
@@ -1125,7 +1135,7 @@
                <num type="lot">95</num>
                <name type="author">Haussonville (le comteJos. d')</name>
                <trait>
-                  <p>littérateur et homme politique, de l'Acad. fr</p>
+                  <p>littérateur et homme politique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e95_d1">M. de Cavour et la Crise italienne, manusc. sig.,
                   avec de nombreuses corrections aut., 114 p. in-4.</desc>
@@ -1233,7 +1243,7 @@
                <name type="author">Le Brun (Ch.-F.)</name>
                <trait>
                   <p>duc de Plaisance, 3e consul de la République, archi-trésorier de l'Empire,
-                     traducteur d'Homère et du Tasse, membre de l'Acad. fr</p>
+                     traducteur d'Homère et du Tasse, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e105_d1">L. a. s. à Ramel, an IV, 1 p. 1/4 in-4.
                   Cachet.</desc>
@@ -1681,7 +1691,7 @@
                <trait>
                   <p>l'auteur de Paul et Virginie</p>
                </trait>
-               <desc xml:id="CAT_000018_e147_d1">L. a. s. au citoyen L. a. Varenne ; Paris, chez le
+               <desc xml:id="CAT_000018_e147_d1">L. a. s. au citoyen La Varenne ; Paris, chez le
                   citoyen Didot, 3 nivôse an IV, 1 p. in-8. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Relative à une contrefaçon de ses Etudes de la Nature, par le libraire
@@ -1749,7 +1759,7 @@
                <num type="lot">153</num>
                <name type="author">Séguier (Pierre III)</name>
                <trait>
-                  <p>illustre chancelier de France, fondateur et membre de l'Acad. fr</p>
+                  <p>illustre chancelier de France, fondateur et membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e153_d1">L. a. s. à M. de Chavigny, 1641, 1 p. pl. in-f.,
                   cachets.</desc>
@@ -1768,7 +1778,7 @@
                <name type="author">Ségur (L.-Ph. de)</name>
                <trait>
                   <p>dit l'aîné, diplomate, littérateur, grandmaitre des cérémonies, de l'Acad.
-                     fr</p>
+                     fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e154_d1">Pourquoi pas?, chanson aut. sig. (sous le
                   Consulat), 1 p. 1/2 in-4.</desc>
@@ -1780,14 +1790,14 @@
                <trait>
                   <p>dit le Jeune, littérateur et chansonnier, frère du précédent</p>
                </trait>
-               <desc xml:id="CAT_000018_e155_d1">L. a. Valse, chanson aut. sig., 2 p. in-4.</desc>
+               <desc xml:id="CAT_000018_e155_d1">La Valse, chanson aut. sig., 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="156" xml:id="CAT_000018_e156">
                <num type="lot">156</num>
                <name type="author">Sicard (l'abbé)</name>
                <trait>
-                  <p>l'instituteur des Sourds-Muets, de l'Acad. fr</p>
+                  <p>l'instituteur des Sourds-Muets, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e156_d1">L. a. s. à son collègue Tochon, 1817, 3 p.
                   in-8.</desc>
@@ -2013,7 +2023,7 @@
                <num type="lot">175</num>
                <name type="author">Alembert (J. Lerond d')</name>
                <trait>
-                  <p>illustre savant et écrivain du XVIIIe siècle, de l'Acad. fr</p>
+                  <p>illustre savant et écrivain du XVIIIe siècle, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000018_e175_d1">L. a. s. (à Grosley), 1767, 3 p. pet. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
@@ -2140,9 +2150,9 @@
                <num type="lot">187</num>
                <name type="author">Nodier (Ch.)</name>
                <trait>
-                  <p>un de nos écrivains les plus originaux, de l'Acad. fr</p>
+                  <p>un de nos écrivains les plus originaux, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000018_e187_d1">L. a. s. au comte de L. a. Boulaye; Paris, hôtel du
+               <desc xml:id="CAT_000018_e187_d1">L. a. s. au comte de La Boulaye; Paris, hôtel du
                   Bouloy, 8 janv. 1818, 2 p. in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Lettre fort curieuse, qu'il signe Charles de Nodier, la seule que nous ayons

@@ -1,8 +1,9 @@
-<?xml-model href="../../1_OutputData/schema/out/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../1_OutputData/schema/out/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000105">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000105">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000105</title>
+            <title>RDA, N°102 (Décembre 1886)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>102</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1411,7 +1424,7 @@
                <trait>
                   <p>fameux contrôleur géneral des finances sous Louis XV</p>
                </trait>
-               <desc xml:id="CAT_000105_e119_d1">L. a. s. à M. Joly; L. a. MottePilly, 14 sept. 1764, 1 p. in-4. Belle pièce.</desc>
+               <desc xml:id="CAT_000105_e119_d1">L. a. s. à M. Joly; La MottePilly, 14 sept. 1764, 1 p. in-4. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="120" xml:id="CAT_000105_e120">
@@ -1973,7 +1986,7 @@
                <trait>
                   <p>célèbre généalogiste</p>
                </trait>
-               <desc xml:id="CAT_000105_e163_d1">L. a. Vie de Charles V, duc de Lorrainc et de Bar, et généralissime des troupes
+               <desc xml:id="CAT_000105_e163_d1">La Vie de Charles V, duc de Lorrainc et de Bar, et généralissime des troupes
                   impériales, Amsterdam ; 1691, in-12 v.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Ouvrage ayant appartenu à Charles-René d'Hozier (né en 1640, mort en 1732),
@@ -2291,7 +2304,7 @@
                </trait>
                <desc xml:id="CAT_000105_e186_d1">XXII ariettes à voix seule avec accompagnement de violons et basse par MM.
                   Philidor et Trial, 1769, 2 vol. in-4. Les deux volumes sont : l'un pour le premier
-                  violon et l'autre pour la basse. L. a. reliure primitive en veau n'existe pour ainsi
+                  violon et l'autre pour la basse. La reliure primitive en veau n'existe pour ainsi
                   dire plus. Provenant de la bibliothèque de M. de Villebois, dont ils portent
                   l'exlibris.</desc>
                <measure commodity="currency" unit="FRF" quantity="150">150</measure>

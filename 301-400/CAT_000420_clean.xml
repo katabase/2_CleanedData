@@ -1,6 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000420">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -300,7 +299,7 @@
                <desc xml:id="CAT_000420_e19_d1">Let. sig. avec la souscript aut., en latin, à George de Sayn, comte de
                   Wittgenstein ; Genève, 11 juil. 1584, 1 p. in-4 in-fol., cachet à ses armes (de
                   gueules à la fasce d'or chargée de trois roses d'azur, accompagnées en pointe
-                  d'une clef en pale). L. a. moitié du feuillet blanc de l'adresse a été
+                  d'une clef en pale). La moitié du feuillet blanc de l'adresse a été
                   enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Importante lettre où il le félicite d'avoir donné sa démission de chanoine de
@@ -465,7 +464,7 @@
                   <p>laborieux écrivain du XVIIIe siècle, auteur du Grand Dictionnaire géographique,
                      né à Dieppe.</p>
                </trait>
-               <desc xml:id="CAT_000420_e31_d1">L. a. s. à M. Bourguignon d'Anville, géographe du roi ; L. a. Haye, 9 novembre
+               <desc xml:id="CAT_000420_e31_d1">L. a. s. à M. Bourguignon d'Anville, géographe du roi ; La Haye, 9 novembre
                   1730, 3 p. in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Superbe lettre relative à son Dictionnaire géographique Il lui rappelle que le
@@ -2598,7 +2597,7 @@
                <trait>
                   <p>peintre d'histoire et de genre, élève de David né à Lyon.</p>
                </trait>
-               <desc xml:id="CAT_000420_e214_d1">L. a. Pastourelle ; pièce de vers aut. 3 p. 1/2 in-4. Curieuse.</desc>
+               <desc xml:id="CAT_000420_e214_d1">La Pastourelle ; pièce de vers aut. 3 p. 1/2 in-4. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="215" xml:id="CAT_000420_e215">
@@ -3214,7 +3213,7 @@
             <item n="266" xml:id="CAT_000420_e266">
                <num type="lot">266</num>
                <name type="author">Champagne</name>
-               <desc xml:id="CAT_000420_e266_d1">Pièce sig. de Pierre Hodoard, écuyer, seigneur de L. a. Borde, Vaujouan et
+               <desc xml:id="CAT_000420_e266_d1">Pièce sig. de Pierre Hodoard, écuyer, seigneur de La Borde, Vaujouan et
                   Montacher ; Sens, 28 février 1608, 2 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Copie d'un acte daté du 26 oct. 1569 ; commission de Louis de Sansac,
@@ -3438,7 +3437,7 @@
             <item n="284" xml:id="CAT_000420_e284">
                <num type="lot">284</num>
                <name type="author">Boulanger (Louis)</name>
-               <desc xml:id="CAT_000420_e284_d1">L. a. Crêche, dessin original à la plume sig., in-4.</desc>
+               <desc xml:id="CAT_000420_e284_d1">La Crêche, dessin original à la plume sig., in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
             <item n="285" xml:id="CAT_000420_e285">

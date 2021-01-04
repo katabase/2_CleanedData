@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000107">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000107</title>
+            <title>RDA, N°104 (Mars 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>104</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -190,7 +203,7 @@
                   <p>célèbre compositeur, auteur de la Dame Blanche, né à Rouen en 1775, mort en
                      1834</p>
                </trait>
-               <desc xml:id="CAT_000107_e12_d1">L. a. s. au baron de L. a. Ferté, 1 p. in-4. Belle
+               <desc xml:id="CAT_000107_e12_d1">L. a. s. au baron de La Ferté, 1 p. in-4. Belle
                   lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -1251,7 +1264,7 @@
                      1545, mort en 1603</p>
                </trait>
                <desc xml:id="CAT_000107_e107_d1">L. a. s. à M de Lézignan (Louis de Saint-Gelais,
-                  baron de L. a. Mothe-Sainte-Héraye), 1 p. in-8 obl., cachet. Rare</desc>
+                  baron de La Mothe-Sainte-Héraye), 1 p. in-8 obl., cachet. Rare</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
             </item>
             <item n="108" xml:id="CAT_000107_e108">
@@ -1637,7 +1650,7 @@
                   <p>illustre réformateur de la Trappe, dont Chauteaubriand a écrit la vie, né en
                      1626, mort à Soligny-la-Trappe en 1700</p>
                </trait>
-               <desc xml:id="CAT_000107_e136_d1">Let. sig. au R. P. prieur de Perseigne; L. a. Trappe,
+               <desc xml:id="CAT_000107_e136_d1">Let. sig. au R. P. prieur de Perseigne; La Trappe,
                   3 octobre 1685, 2 p. 1/2 in-4, cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Belle et intéressante lettre. Il lui donne des conseils pour sa conscience
@@ -2162,7 +2175,7 @@
                      en 1626, morte au château de Grignan (Drôme) en 1696</p>
                </trait>
                <desc xml:id="CAT_000107_e180_d1">P. S., signée aussi par son mari Henri, marquis de
-                  Sévigné, Marie de L. a. Croix, veuve de Gabriel de Guénégaud. Claude de Guénégaud,
+                  Sévigné, Marie de La Croix, veuve de Gabriel de Guénégaud. Claude de Guénégaud,
                   trésorier du Roi, Philippe de Coulanges (oncle de Madame de Sévigné), Léonor de
                   Rabutin, comte de Bussy, lieutenant-général, et l'abbé Christophe de Coulanges ;
                   Paris, 8 fév. 1644 et 30 janv 1645, 3. p. 1/2 in-4. Tachée d'humidité et
@@ -3095,7 +3108,7 @@
                <trait>
                   <p>littérateur et poète, traducteur d'Horace, né en 1770, mort en 1821</p>
                </trait>
-               <desc xml:id="CAT_000107_e258_d1">L. a. s. à M. de L. a. Garde ; an XII, 1 p.
+               <desc xml:id="CAT_000107_e258_d1">L. a. s. à M. de La Garde ; an XII, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>

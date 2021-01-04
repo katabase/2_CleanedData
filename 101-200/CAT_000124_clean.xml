@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000124">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000124</title>
+            <title>RDA, N°121 (Avril 1889)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">121</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>121</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1733,7 +1746,7 @@
                <trait>
                   <p>amiral, troisième fils du roi Louis-Philippe, né en 1818</p>
                </trait>
-               <desc xml:id="CAT_000124_e150_d1">L. a. s. à l'amiral Baudin; à bord de L. a. Créole, 15 octobre 1838, 3/4 de p.
+               <desc xml:id="CAT_000124_e150_d1">L. a. s. à l'amiral Baudin; à bord de La Créole, 15 octobre 1838, 3/4 de p.
                   in-4. Avec apostille aut. sig. de l'amiral Baudin.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -2148,7 +2161,7 @@
                   <p>petit-fils du Régent, grand-père du roi Louis-Philippe, qui épousa secrètement
                      Mme de Montesson, né en 1725, mort en 1786</p>
                </trait>
-               <desc xml:id="CAT_000124_e187_d1">Pièce sig., sig. aussi par le comte de L. a. Marche (L.-F. de Bourbon, prince de
+               <desc xml:id="CAT_000124_e187_d1">Pièce sig., sig. aussi par le comte de La Marche (L.-F. de Bourbon, prince de
                   Conti); P'aris, 20 jaillet 1752, 19 p. 1/2 in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Règlement des comptes de tutelle du comte de la Marche et de Diane d'Orléans,
@@ -2239,7 +2252,7 @@
                <trait>
                   <p>homme d'Etat et érudit, de l'Acad fr., né à Marseille en 1756, mort en 1840</p>
                </trait>
-               <desc xml:id="CAT_000124_e194_d1">L. a. Pluralité des Mondes, ode « M. de la Lande, célèbre astronome, pièce aut.;
+               <desc xml:id="CAT_000124_e194_d1">La Pluralité des Mondes, ode « M. de la Lande, célèbre astronome, pièce aut.;
                   (1805), 3 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Très belle pièce écrite à propos d'une nouvelle édition de Fontenelle</note>

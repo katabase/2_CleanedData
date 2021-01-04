@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000328">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000328</title>
+            <title>RDA, N°200 (Juillet 1897)</title>
             <respStmt>
                <persName ref="#COL_000001">Matthias Gille Levenson</persName>
                <resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl status="draft">
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">200</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02">Juillet 1897</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>200</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1897-07">Juillet 1897</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -269,7 +278,7 @@
                <trait>
                   <p>fils du roi Charles X, né en 1778, assassiné par Louvel en 1820.</p>
                </trait>
-               <desc xml:id="CAT_000328_e16_d1">Let. sig. avec 3 lig. aut. à M. de L. a. Chappelle;
+               <desc xml:id="CAT_000328_e16_d1">Let. sig. avec 3 lig. aut. à M. de La Chappelle;
                   Vienne, 3 avril 1800, 1 p. 1/4 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Intéressante lettre écrite pendant l'émigration. Il recommande au roi MM. de
@@ -1142,7 +1151,7 @@
                   <p>le grand peintre, né en 1748, mort en 1825.</p>
                </trait>
                <desc xml:id="CAT_000328_e90_d1">1° Pièce sig. avec 2 lig. aut.; 1822, 1 p. in-4.
-                  Relative à la planche de son tableau : L. a. mort de Socrate. 2° 19 pièces
+                  Relative à la planche de son tableau : La mort de Socrate. 2° 19 pièces
                   manuscrites et imprimées, 1791-1828, 25 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note anchored="true">Important dossier relatif à ses oeuvres; la Mort de Socrate, le Serment du Jeu
@@ -1399,7 +1408,7 @@
                <trait>
                   <p>poète chansonnier et publiciste, ne à Toul en 1761, mort en 1835.</p>
                </trait>
-               <desc xml:id="CAT_000328_e112_d1">-L. a. Liberté reconquise, chanson aut. sig.; (juillet
+               <desc xml:id="CAT_000328_e112_d1">-La Liberté reconquise, chanson aut. sig.; (juillet
                   1831), 4 p. in-4. Jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
@@ -2263,7 +2272,7 @@
                <trait>
                   <p>romancier réaliste belge contemporain, auteur d'Un Mâle.</p>
                </trait>
-               <desc xml:id="CAT_000328_e185_d1">L. a. s.; L. a. Hulpe, 3 sept. 1886. 8 p. pl. in-8. 8
+               <desc xml:id="CAT_000328_e185_d1">L. a. s.; La Hulpe, 3 sept. 1886. 8 p. pl. in-8. 8
                   » Intéressante lettre toute littéraire.</desc>
             </item>
             <item n="186" xml:id="CAT_000328_e186">
@@ -2782,7 +2791,7 @@
                <trait>
                   <p>stathouder des Pays-Bas, né en 1748. mort en 1806.</p>
                </trait>
-               <desc xml:id="CAT_000328_e229_d1">Let. sig. au prince de Salm-Salm; L. a. Haye, 25
+               <desc xml:id="CAT_000328_e229_d1">Let. sig. au prince de Salm-Salm; La Haye, 25
                   novembre 1771, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note anchored="true">Il le félicite du mariage de sa soeur Marie Joséphe, princesse de Salm,
@@ -3351,7 +3360,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000328_e278_d1">L. a. s., au comte de Maurepas ; L. a. Motte Tilly, 9
+               <desc xml:id="CAT_000328_e278_d1">L. a. s., au comte de Maurepas ; La Motte Tilly, 9
                   sept. 1774, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Il le remercie de lui avoir obtenu de Louis XVI la conservation des honneurs de
@@ -3620,7 +3629,7 @@
             <item n="302" xml:id="CAT_000328_e302">
                <num type="lot">302</num>
                <name type="author">Charles VI</name>
-               <desc xml:id="CAT_000328_e302_d1">Pièce sur vélin; L. a. Rochelle (Charente
+               <desc xml:id="CAT_000328_e302_d1">Pièce sur vélin; La Rochelle (Charente
                  -Inférieure), 11 mars 1387 (1388). in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Quittance de Roys Goutières, chevalier. de 720 francs d'or « en prest sur les

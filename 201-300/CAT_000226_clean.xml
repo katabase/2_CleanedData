@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000226">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000226">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -2367,7 +2368,7 @@
                <trait>
                   <p>éminent écrivain, de l'Acad. fr., né à Besançon.</p>
                </trait>
-               <desc xml:id="CAT_000226_e206_d1">L. a. s. (au comte de L. a. Boulaye) ; Paris, 8 janvier 1818, 2 p. in-fol. Légère
+               <desc xml:id="CAT_000226_e206_d1">L. a. s. (au comte de La Boulaye) ; Paris, 8 janvier 1818, 2 p. in-fol. Légère
  tache.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note anchored="true">Très curieuse lettre qu'il signe Charles de Nodier. Elle contient un état de sa
@@ -2881,7 +2882,7 @@
                   <p>littérateur distingué, ami et correspondant de Voltaire, né en 1696, mort en
                      1772.</p>
                </trait>
-               <desc xml:id="CAT_000226_e251_d1">Let. aut., prose et vers, à Devaux; L. a. Haye, 17 avril 1744, 4 p. in-4</desc>
+               <desc xml:id="CAT_000226_e251_d1">Let. aut., prose et vers, à Devaux; La Haye, 17 avril 1744, 4 p. in-4</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note anchored="true">Très importante lettre toute relative à Voltaire. Voltaire parle de la physique
                   de Newton, sans la comprendre; il a peu d'originalité et emprunte ses idées à
@@ -3072,7 +3073,7 @@
                <trait>
                   <p>l'illustre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000226_e267_d1">-Let. aut. à Mme de Grafigny; L. a. Haye, 30 oct. 1740, 1 p. in-4.</desc>
+               <desc xml:id="CAT_000226_e267_d1">-Let. aut. à Mme de Grafigny; La Haye, 30 oct. 1740, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note anchored="true">Belle lettre. (Probablement inédite). Il déplore avec elle la mort de Mme de
                   Richelieu . « sa mémoire me sera toujours d'autant plus chère qu'elle a mieux

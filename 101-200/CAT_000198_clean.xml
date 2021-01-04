@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000198">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000198</title>
+            <title>RDA, N°168 (Juillet 1894)</title>
             <respStmt>
-               <persName ref="#COL_000001">Matthias Gille Levenson</persName>
+               <persName ref="#COL_000006">Matthias Gille Levenson</persName>
                <resp>
                   <date when="2020">2020</date>
                </resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">168</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02">Juillet 1894</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>168</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1894-07">Juillet 1894</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -465,7 +478,7 @@
                <desc xml:id="CAT_000198_e31_d1">3 pièces sig., comme membre de la commission chargée
                   de l'armement des côtes de la Méditerranée; Toulon, an VI, 3 p. 1/2 in-fol.,
                   vignettes.-On a joint une l. a. s. de Dominique Blanquet du Chayla au comte de
-                  Montalivet ; Paris, 26 juil¬ let 1811, 1 p. in-fol.</desc>
+                  Montalivet ; Paris, 26 juil¬ let. 1811, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="32" xml:id="CAT_000198_e32">
@@ -801,7 +814,7 @@
                   <p>général, qui se distingua à la tête de son régiment pendant la guerre de
                      l'Indépendance américaine, né en 1756, mort en 1842.</p>
                </trait>
-               <desc xml:id="CAT_000198_e59_d1">Let. sig. avec 5 lig. aut. au comte de L. a. Tour du
+               <desc xml:id="CAT_000198_e59_d1">Let. sig. avec 5 lig. aut. au comte de La Tour du
                   Pin; Paris, 30 août 1790, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Belle lettre relative à M de Chauvigny.</note>
@@ -859,7 +872,7 @@
                   <p>compositeur contemporain, distingué, auteur de Gwendoline né à Ambert (Puy-de-
                      Dôme) en 1842.</p>
                </trait>
-               <desc xml:id="CAT_000198_e64_d1">L. a. s.; L. a. Membrolle, par Mettray, 1889, 3 p.
+               <desc xml:id="CAT_000198_e64_d1">L. a. s.; La Membrolle, par Mettray, 1889, 3 p.
                   in-8. Belle et curieuse lettre</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -1028,7 +1041,7 @@
                <trait>
                   <p>célèbre poète et auteur dramatique, de l'Acad. fr., né en 1842.</p>
                </trait>
-               <desc xml:id="CAT_000198_e79_d1">L. a. s.; L. a. Fraizière, par Mandres, 23 oct. 1892, 1
+               <desc xml:id="CAT_000198_e79_d1">L. a. s.; La Fraizière, par Mandres, 23 oct. 1892, 1
                   p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre relative à l'interview. « Je trouve qu'il faut du talent pour
@@ -1390,7 +1403,7 @@
                      (Vendée) en 1752, mort en 1829.</p>
                </trait>
                <desc xml:id="CAT_000198_e109_d1">L. a. s.; Paris, 17 nov. 1822, 2 p. 3/4 in-4. 10 »
-                  Relative à son élévation à la pairie. L. a. duchesse d'Angoulême est souffrante, mais
+                  Relative à son élévation à la pairie. La duchesse d'Angoulême est souffrante, mais
                   son état n'inquiète pas les médecins.</desc>
             </item>
             <item n="110" xml:id="CAT_000198_e110">
@@ -1887,7 +1900,7 @@
                <trait>
                   <p>célèbre dessinanateur et graveur né à Bordeaux en 1827, mort en 1885.</p>
                </trait>
-               <desc xml:id="CAT_000198_e148_d1">L. a. nouvelle caserne à Pau, dessin au crayon
+               <desc xml:id="CAT_000198_e148_d1">La nouvelle caserne à Pau, dessin au crayon
                   rehaussé de blanc, signé ; Pau, 12 septembre 1859, in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -1963,7 +1976,7 @@
                <num type="lot">155</num>
                <name type="author">Leconte de Lisle (Ch.-M R)</name>
                <trait>
-                  <p>célèbre poète contemporain, de l'Acad fr</p>
+                  <p>célèbre poète contemporain, de l'Acad fr.</p>
                </trait>
                <desc xml:id="CAT_000198_e155_d1">L. a. s., 1 p. in-8. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -1973,7 +1986,7 @@
                <name type="author">Legrenzi (Giovanni)</name>
                <trait>
                   <p>un des plus habiles compositeurs italiens de son temps, maître de chapelle de
-                     Saint- Marc, à Venise, né à Clusone vers 1625, mort en 1660.</p>
+                     Saint-Marc, à Venise, né à Clusone vers 1625, mort en 1660.</p>
                </trait>
                <desc xml:id="CAT_000198_e156_d1">L. a. s.; 1684, 1 p. in-fol. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
@@ -2231,7 +2244,7 @@
                <num type="lot">176</num>
                <name type="author">Martène (dom Edmond)</name>
                <trait>
-                  <p>érudit bénédictin de la congrégation de Saint- Maur, né à Saint-Jean de Losne
+                  <p>érudit bénédictin de la congrégation de Saint-Maur, né à Saint-Jean de Losne
                      en 1654, mort en 1739.</p>
                </trait>
                <desc xml:id="CAT_000198_e176_d1">L. a. s. au doyen de l'église de Sens;
@@ -2410,7 +2423,7 @@
                   affaire où j'ai mis quelque imprudence (sa séparation avec sa femme), mais, j'ose
                   le dire, une honorable sensibilité, a été la cause d'une détention longue et
                   rigoureuse, que le souvenir et les embarras de mon dérangement pécu¬ niaire ont
-                  engagé mon père à prolonger. » Il s'est réfugié à Paris; il prie M. de Saint- Paul
+                  engagé mon père à prolonger. » Il s'est réfugié à Paris; il prie M. de Saint-Paul
                   de lui adresser les ordres du ministre de la guerre, comte de Saint-Germain, à sa
                   mère retirée aux dames de la Trinité du faubourg Saint-Antoine ; il rappelle qu'il
                   a 26 ans et qu'il n'a jamais manqué à l'honneur. (Il fut envoyé en Corse).</note>
@@ -3619,7 +3632,7 @@
                   monseigneur en ses cuerres que luy a fait le conte de Waudemont ». Ils ont entre
                   les mains des otages et menacent d'occuper la Lorraine avec leurs gens d'armes,
                   s'ils ne sont payés au plus tot; Thirion contraindra au payement les prévôts du
-                  bailliage de Saint- Mihiel; au conseil assistaient l'évêque de Toul, Louis
+                  bailliage de Saint-Mihiel; au conseil assistaient l'évêque de Toul, Louis
                   d'Haraucourt et Erard du Châtelet. (René d'Anjou fut battu et fait prisonnier à
                   Bullégneville par Antoine de Vaudemont, mais sa femme Isabelle de Lorraine sut
                   défendre le duché contre le vainqueur de son mari).</note>

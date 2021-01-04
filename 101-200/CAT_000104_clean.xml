@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000104">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000104</title>
+            <title>RDA, N°101 (Novembre 1886)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">101</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>101</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1092,7 +1105,7 @@
                   <p>roi d'Angleterre</p>
                </trait>
                <desc xml:id="CAT_000104_e88_d1">Let. sig. avec la souscript. aut., en allemand, au
-                  roi de Prusse FrédéricGuillaume; Londres, 18 nov. 1716, 2 p. in-fol. L. a. partie
+                  roi de Prusse FrédéricGuillaume; Londres, 18 nov. 1716, 2 p. in-fol. La partie
                   blanche du feuillet de l'adresse a. été. enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="24">24</measure>
                <note>Il lui recommande le sous-lieutenant Ludolf Henning von Eltz et l'invite à lé
@@ -1242,7 +1255,7 @@
                      habiles capitaines de son temps, né en 1601, mort en 1666</p>
                </trait>
                <desc xml:id="CAT_000104_e100_d1">Let. sig. au marquis du Pont de Courlay; Toulon,
-                  1637, 1 p. in-4, cachets à ses armes. L. a. moitié du feuillet de l'adresse
+                  1637, 1 p. in-4, cachets à ses armes. La moitié du feuillet de l'adresse
                   manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1354,7 +1367,7 @@
                      1615</p>
                </trait>
                <desc xml:id="CAT_000104_e111_d1">Pièce sig., signée aussi : 1° par J.-L. de Nogaret,
-                  duc de L. a. Valette et d'Epernon;</desc>
+                  duc de La Valette et d'Epernon;</desc>
                <desc xml:id="CAT_000104_e111_d2">2° par Jean de Berthier, évêque de Rieux; 15 mars
                   1611, 7 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -1463,7 +1476,7 @@
                      Fontarabie, né vers 1580, mort en 1675</p>
                </trait>
                <desc xml:id="CAT_000104_e120_d1">Let. sig. avec la souscript. aut. à M. Ferry (poète
-                  et théologien protestant, mort à Metz en 1669); L. a. Mothe, 16 juin 1634, 3 p. pet.
+                  et théologien protestant, mort à Metz en 1669); La Mothe, 16 juin 1634, 3 p. pet.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Lettre historique. Le siège de la Mothe (qui dura 52 jours) continue, et nous «
@@ -1492,7 +1505,7 @@
                   <p>comte de Braine, baron de Sérignan, capitaine et colonel de la garde des
                      Cent-Suisses, fils de Ch</p>
                </trait>
-               <desc xml:id="CAT_000104_e122_d1">Rob. de L. a. Marck et d'Antoinette de La
+               <desc xml:id="CAT_000104_e122_d1">Rob. de La Marck et d'Antoinette de La
                   Tour-Limeuil, né en 1575, mort en 1652.-Quittance de 6 lignes aut. sig. sur
                   vélin, 1614, 1 p. 1/2 in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -1655,7 +1668,7 @@
                <trait>
                   <p>roi de France.</p>
                </trait>
-               <desc xml:id="CAT_000104_e135_d1">Let. sig. sur vélin au cardinal de L. a. Rochefoucauld
+               <desc xml:id="CAT_000104_e135_d1">Let. sig. sur vélin au cardinal de La Rochefoucauld
                   grand aumônier; Saint-Germain-en-Laye, 7 décembre 1619, 1 p. double in-fol.
                   Quelques piqûres d'humidité n'atteignant pas le texte</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -1797,7 +1810,7 @@
                   <p>célèbre philologue hollandais, précepteur des enfants de Jean Barneveldt, né
                      près de La Haye en 1579, mort en 1639</p>
                </trait>
-               <desc xml:id="CAT_000104_e149_d1">L. a. s., en latin, à Vulcanins, à Leyde; L. a. Haye,
+               <desc xml:id="CAT_000104_e149_d1">L. a. s., en latin, à Vulcanins, à Leyde; La Haye,
                   1602, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
                <note>Il lui adresse des corrections pour son édition d'Apulée</note>
@@ -1862,7 +1875,7 @@
                <trait>
                   <p>mari de la célèbre marquise de Montespan</p>
                </trait>
-               <desc xml:id="CAT_000104_e155_d1">Let. sig. ; L. a. Rousselière, 18 juin 1682, 2 p.
+               <desc xml:id="CAT_000104_e155_d1">Let. sig. ; La Rousselière, 18 juin 1682, 2 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Relative à la création des compagnies de cadets.</note>
@@ -2113,7 +2126,7 @@
                <trait>
                   <p>célèbre écrivain italien, auteur de Mes Prisons, né en 1789, mort en 1854</p>
                </trait>
-               <desc xml:id="CAT_000104_e178_d1">Pièce aut., 1 p. 1/2 in-fol. L. a. signature a été
+               <desc xml:id="CAT_000104_e178_d1">Pièce aut., 1 p. 1/2 in-fol. La signature a été
                   enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Critique d'un ouvrage intitulé : Hommes de transition. -« A m'en croire, une
@@ -2301,7 +2314,7 @@
                <trait>
                   <p>l'illustre ministre de</p>
                </trait>
-               <desc xml:id="CAT_000104_e194_d1">Let. sig. au marquis de L. a. FertéImbault; Rueil, 10
+               <desc xml:id="CAT_000104_e194_d1">Let. sig. au marquis de La FertéImbault; Rueil, 10
                   janvier 1640, 1 p. in-fol. Cachets et soies.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Très-belle lettre où il lui recommande les terres du président Viguier, situées
@@ -2942,7 +2955,7 @@
             <item n="249" xml:id="CAT_000104_e249">
                <num type="lot">249</num>
                <name type="author">Angoumois.</name>
-               <desc xml:id="CAT_000104_e249_d1">Pièce sur vélin; 9 juil. let 1557; in-4 obl.</desc>
+               <desc xml:id="CAT_000104_e249_d1">Pièce sur vélin; 9 juil. let. 1557; in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Attestation sig. par Jacques Chrestien, « religieux de l'ordre des Mathurins et
                   docteur régent en l'Université de Paris, » à l'évêque de Poitiers, Jean VIII

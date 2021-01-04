@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000002">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000002</title>
+            <title>RDA, N°29 (septembre 1871)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,22 +21,31 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">29</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>29</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
                <pubPlace>Paris, 60 rue Saint-Andre-des-Arts</pubPlace>
-               <date when="1871">Septembre - Decembre 1871</date>
+               <date from="1871-09" to="1871-12">Septembre - Decembre 1871</date>
             </bibl>
             <listWit>
-               <witness> BnF, MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -57,8 +67,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -1476,7 +1486,7 @@
                <trait>
                   <p>illustre compositeur, auteur du Pré aux Clercs</p>
                </trait>
-               <desc xml:id="CAT_000002_e130_d1">L. a. s. (1824), 1/2 p. in-4. L. a. moitié de la
+               <desc xml:id="CAT_000002_e130_d1">L. a. s. (1824), 1/2 p. in-4. La moitié de la
                   feuille d'adresse enlevée. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Prière de donner une place pour la représentation de son Roi René</note>
@@ -1811,7 +1821,7 @@
                <num type="lot">160</num>
                <name type="author">La Harpe (J.-F. de)</name>
                <trait>
-                  <p>célèbre littérateur du XVIIIe siècle, de l'Acad. fr</p>
+                  <p>célèbre littérateur du XVIIIe siècle, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000002_e160_d1">Pièce autog., 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>

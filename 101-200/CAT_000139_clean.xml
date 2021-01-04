@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000139">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000139</title>
+            <title>RDA, N°136 (Mars 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">136</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>136</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1809,7 +1822,7 @@
                <trait>
                   <p>célèbre écrivain italien, auteur de Mes Prisons, né en 1789, mort en 1854</p>
                </trait>
-               <desc xml:id="CAT_000139_e161_d1">Pièce aut., 1 p. 1/2 in-fol. L. a. signature a été enlevée.</desc>
+               <desc xml:id="CAT_000139_e161_d1">Pièce aut., 1 p. 1/2 in-fol. La signature a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="24">24</measure>
                <note>Critique d'un ouvrage intitulé : Hommes de transition. -« A m'en croire, une
                   telle classification n'est pas admissible, en représentant les fauteurs de
@@ -2367,7 +2380,7 @@
                <trait>
                   <p>célèbre diplomate hollandais, né à Amsterdam vers 1600, mort en 1670</p>
                </trait>
-               <desc xml:id="CAT_000139_e210_d1">L. a. s., en latin, à Gaspard Barlaeus ; L. a. Haye, 27 sept. 1644, 1 p. 1/2
+               <desc xml:id="CAT_000139_e210_d1">L. a. s., en latin, à Gaspard Barlaeus ; La Haye, 27 sept. 1644, 1 p. 1/2
                   in¬</desc>
                <note>Très curieuse lettre. Il lui adresse vers amoureux de Huyghens. Le priq
                   d'Orange doit se rendre à Bréda avant venir à La Haye; le roi de Danemal n'ayant

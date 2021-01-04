@@ -1,12 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000168">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000168</title>
+            <title>Vente Etienne Charavay, 12 juillet 1879</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
-                  <date when="2019">2019</date>
+                  <date when="2020">2020</date>
                </resp>
             </respStmt>
          </titleStmt>
@@ -26,7 +27,7 @@
                <publisher>Frédéric Naylor</publisher>
                <pubPlace>Paris</pubPlace>
                <pubPlace>Londres</pubPlace>
-               <date>1879</date>
+               <date when="1879">1879</date>
             </bibl>
             <listEvent>
                <event>
@@ -43,7 +44,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -53,7 +62,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -74,6 +83,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -530,7 +543,7 @@
                <trait>
                   <p>père du grand Condé.</p>
                </trait>
-               <desc xml:id="CAT_000168_e41_d1">L. a. s. au cardinal de L. a. Vallette; Dijon, 21 août
+               <desc xml:id="CAT_000168_e41_d1">L. a. s. au cardinal de La Vallette; Dijon, 21 août
                   1636, 1 p. pl. in-fol., cachets et soies. Superbe pièce</desc>
                <note>Instructions sur les mouvements militaires, pour servir le roi avec bonne union
                   et mettre le duc Charles en la plus grande peine où il ait jamais été.</note>
@@ -763,7 +776,7 @@
                <trait>
                   <p>évêque de Grasse, poète, un des membres fondateurs de l'Académie française.</p>
                </trait>
-               <desc xml:id="CAT_000168_e62_d1">L. a. s. au cardinal de L. a. Vallette; Dreux, 3 nov.
+               <desc xml:id="CAT_000168_e62_d1">L. a. s. au cardinal de La Vallette; Dreux, 3 nov.
                   1636, 1 p. in-fol., cachet. Rare</desc>
                <note>Très-belle lettre d'envoi d'une églogue et d'une hymne sur la naissance de
                   Notre-Seigneur. « Lisez cet ouvrage avec des yeux préocupez et ne vous souvenez,
@@ -1588,7 +1601,7 @@
                   <p>un des plus grands capitaines de son temps.</p>
                </trait>
                <desc xml:id="CAT_000168_e137_d1">L. s., en français, avec la souscript. aut., au
-                  cardinal de L. a. Vallette; 27 (juillet 1635?), 1/2 p. in-fol., cachets et
+                  cardinal de La Vallette; 27 (juillet 1635?), 1/2 p. in-fol., cachets et
                   soies</desc>
                <note>Envoi d'un gentilhomme qui lui fera connaître l'état de ses troupes.</note>
             </item>
@@ -1694,7 +1707,7 @@
                <trait>
                   <p>le grand tragédien.</p>
                </trait>
-               <desc xml:id="CAT_000168_e147_d1">L. a. Méprise, comédie, manuscrit autographe, avec
+               <desc xml:id="CAT_000168_e147_d1">La Méprise, comédie, manuscrit autographe, avec
                   ratures et corrections, 37 p. in-4 rel. Très intéressant manuscrit</desc>
             </item>
             <item n="148" xml:id="CAT_000168_e148">
@@ -1753,7 +1766,7 @@
                <trait>
                   <p>fils du précédent, ami de Cinq-Mars, avec lequel il fut décapité.</p>
                </trait>
-               <desc xml:id="CAT_000168_e152_d1">L. a. s. au cardinal de L. a. Vallette; 16 (janv.
+               <desc xml:id="CAT_000168_e152_d1">L. a. s. au cardinal de La Vallette; 16 (janv.
                   1637), 3 p. pl. in-fol., cachets et soies</desc>
                <note>Pièce historique, où il narre une entrevue qu'il a eue avec le cardinal de
                   Richelieu.</note>
@@ -1764,7 +1777,7 @@
                <trait>
                   <p>illustre maréchal de France, tué en 1636.</p>
                </trait>
-               <desc xml:id="CAT_000168_e153_d1">L. a. s. au duc de L. a. Rochefoucauld ; citadelle de
+               <desc xml:id="CAT_000168_e153_d1">L. a. s. au duc de La Rochefoucauld ; citadelle de
                   Ré, 4 août 1627, 2 p. in-fol.</desc>
                <note>Les ennemis du roi ne prendront pas avantage sur cette place. Ils menacent de
                   la battre de 60 pièces de canon. Cela ne fera pas grand effet. Depuis qu'ils ont
@@ -1911,7 +1924,7 @@
             <item n="167" xml:id="CAT_000168_e167">
                <num type="lot">167</num>
                <name type="author">Voltaire (F.-M. Arquet de)</name>
-               <desc xml:id="CAT_000168_e167_d1">Minute de lettre autographe à Amelot; L. a. Haye, 11
+               <desc xml:id="CAT_000168_e167_d1">Minute de lettre autographe à Amelot; La Haye, 11
                   août 1743, 3 p. in-fol.</desc>
                <note>Superbe lettre sur le roi de Prusse et les événements du temps.</note>
             </item>

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000132">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000132</title>
+            <title>RDA, N°129 (Juin 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">129</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>129</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -2656,7 +2669,7 @@
             <item n="308" xml:id="CAT_000132_e308">
                <num type="lot">308</num>
                <name type="author">Rouergue.</name>
-               <desc xml:id="CAT_000132_e308_d1">Pièce sur vélin ; L. a. Guépie
+               <desc xml:id="CAT_000132_e308_d1">Pièce sur vélin ; La Guépie
                   (Tarn-et-Garonne), 16 déc. 1587, in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Montre de la garnison de la Guépie, composée de six arquebusiers à pied, reçue
@@ -2666,7 +2679,7 @@
             <item n="309" xml:id="CAT_000132_e309">
                <num type="lot">309</num>
                <name type="author">Roussillon.</name>
-               <desc xml:id="CAT_000132_e309_d1">Pièce sur vélin ; L. a. Roque d'Albères
+               <desc xml:id="CAT_000132_e309_d1">Pièce sur vélin ; La Roque d'Albères
                   (Pyrénées-Orientales), 23-26 mars 1486 (1487), in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Montre de la garnison de la Roque, composée de dix hommes aux ordres de
@@ -2997,7 +3010,7 @@
                   <p>né en 1626, morte en 1689.</p>
                </trait>
                <desc xml:id="CAT_000132_e339_d1">Pièce sig., en latin, sur vélin, par Gabriel Oxenstiern,
-                  Jacques de L. a. Gardie, Charles Gultdenhielm, Pierre Bauner et Gabriel Oxenstiern
+                  Jacques de La Gardie, Charles Gultdenhielm, Pierre Bauner et Gabriel Oxenstiern
                   jeune; Stockholm, 25 sept. 1634, 1 p. double in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Important document historique. Nomination faite par le Conseil de Régence,
@@ -3155,7 +3168,7 @@
                <name type="author">Artois</name>
                <desc xml:id="CAT_000132_e352_d1">Pièce sig. par G. van Wichen, missionnaire apostolique et
                   premier aumônier de l'Ambassade de France, à la Have, et par M. Desrivaux, chargé
-                  d'affaires de France, à L. a. Haye; 1767, 1 p. in-fol.</desc>
+                  d'affaires de France, à La Haye; 1767, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Ils déclarent certifier que le Mle d'Havrincourt (Louis de Cardevac),
                   lieutenant-général des Armées du roi de France, gouverneur de la ville d'Hesdin et
@@ -3165,7 +3178,7 @@
             <item n="353" xml:id="CAT_000132_e353">
                <num type="lot">353</num>
                <name type="author">Bretagne</name>
-               <desc xml:id="CAT_000132_e353_d1">Let. sig. de Marchais, intendant, à L. a. Pérouse; Brest, 30 oct. 1770, 3 p. in-4.</desc>
+               <desc xml:id="CAT_000132_e353_d1">Let. sig. de Marchais, intendant, à La Pérouse; Brest, 30 oct. 1770, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Il va examiner son projet de vigies et sémaphores à placer aux environs de
                   Brest; il sait qu'un vaisseau vénitien est mouillé dans la baie de Douarnenez, en

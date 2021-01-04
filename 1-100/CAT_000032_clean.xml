@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000032">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000032</title>
+            <title>RDA, N°40 (Mai 1874)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>40</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -98,7 +112,7 @@
             </item>
             <item n="3" xml:id="CAT_000032_e3">
                <num type="lot">3</num>
-               <name type="author">Balzac (J.-L. Guez de),</name>
+               <name type="author">Balzac (J.-L. Guez de)</name>
                <trait>
                   <p>grand écrivain du XVIIe siècle, le réformateur de notre langue, membre de
                      l'Acad. fr., né à Angoulême.</p>
@@ -1086,7 +1100,7 @@
                <trait>
                   <p>écrivain original, membre de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000032_e89_d1">L. a. Divina Comedia di Dante Alighieri, col comento di
+               <desc xml:id="CAT_000032_e89_d1">La Divina Comedia di Dante Alighieri, col comento di
                   Biagioli (second article), manuscrit autog. sig., 8 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Article curieux écrit par Ch. Nodier en 1818, et qui est peut-être

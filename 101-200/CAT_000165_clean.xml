@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000165">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000165</title>
+            <title>RDA, N°158 (Août-Septembre 1893)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -19,11 +20,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>158</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 34 rue du Faubourg Poissonière</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-08">Août-Septembre 1893</date>
             </bibl>
             <listEvent>
@@ -40,7 +41,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +59,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -68,6 +77,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -171,7 +184,7 @@
                <num type="lot">12</num>
                <name type="author">Armaignac (Jean d')</name>
                <trait>
-                  <p>gentilhomme français, premier valet de chambre de Henri IV, qu'il aida à fuir de Saint- Germain le 20 février 1576.</p>
+                  <p>gentilhomme français, premier valet de chambre de Henri IV, qu'il aida à fuir de Saint-Germain le 20 février 1576.</p>
                </trait>
                <desc xml:id="CAT_000165_e12_d1">Pièce sig. sur vélin, 1611, 2/3 de p. in-4 obl. 8</desc>
             </item>
@@ -232,7 +245,7 @@
                <trait>
                   <p>le célèbre révolutionnaire.</p>
                </trait>
-               <desc xml:id="CAT_000165_e19_d1">L. a. s. à une dame; L. a. Haye, 1865, 4 p. in-8. 6</desc>
+               <desc xml:id="CAT_000165_e19_d1">L. a. s. à une dame; La Haye, 1865, 4 p. in-8. 6</desc>
                <note>Très belle lettre où il lui mande qu'ayant été très peu valide depuis quelque temps, il a profité de quelques heures d'amélioration pour aller au Doèlen, à Amsterdam. Curieux détails..</note>
             </item>
             <item n="20" xml:id="CAT_000165_e20">
@@ -328,7 +341,7 @@
                <trait>
                   <p>célèbre peintre militaire, né en 1800, mort en 1866.</p>
                </trait>
-               <desc xml:id="CAT_000165_e30_d1">L. a. s., (au colonel L. a. Combe) ; Paris, 27 janvier 1857 , 2 p. 1/2 in-8. 4</desc>
+               <desc xml:id="CAT_000165_e30_d1">L. a. s., (au colonel La Combe) ; Paris, 27 janvier 1857 , 2 p. 1/2 in-8. 4</desc>
                <note>Très belle lettre où il exprime toute son admiration pour Charlet.</note>
             </item>
             <item n="31" xml:id="CAT_000165_e31">
@@ -1020,7 +1033,7 @@
                <trait>
                   <p>conseiller d'Etat et trésorier de l'épargne.</p>
                </trait>
-               <desc xml:id="CAT_000165_e111_d1">Pièce sig. sur vélin; Paris, 24 avril 1631, 1 p. in-4 obl. L. a. signature a été coupée en deux endroits, mais est restée intacte. 5</desc>
+               <desc xml:id="CAT_000165_e111_d1">Pièce sig. sur vélin; Paris, 24 avril 1631, 1 p. in-4 obl. La signature a été coupée en deux endroits, mais est restée intacte. 5</desc>
                <note>Ordre de payer 16,800 livres à Messieurs de Beaulieu, de Chambres, de Joyeuse, de Carlincas, de Tircourt, de Leymon, de Barnevay de Bourgongne, de Saint-Cyr Rochechouart, de Palais, d'Antragues de Daulphiné, de la Varenne Nagut, de Saint-Surin, de Malicy, de Moncolins, maistres de camp en l'infanterie française, pour leurs appointements d'un semestre de 1630.</note>
             </item>
             <item n="112" xml:id="CAT_000165_e112">
@@ -1148,7 +1161,7 @@
                <trait>
                   <p>ministre de la Justice en 1793, membre du Directoire, auteur de Mémoires, né à Semblançay (Indreet-Loire) en 1746, mort en 1830.</p>
                </trait>
-               <desc xml:id="CAT_000165_e126_d1">L. a. s. à l'abbé L. a. Bouderie; Paris 5 décembre 1827, 1 p. 3/4 in-8. 15</desc>
+               <desc xml:id="CAT_000165_e126_d1">L. a. s. à l'abbé La Bouderie; Paris 5 décembre 1827, 1 p. 3/4 in-8. 15</desc>
                <note>Très-curieuse lettre où il le félicite sur son Panésyrique de saint Louis : « Il serait à désirer que le clergé actuel fût bien pénétré des sentimens que vous exprimés si bien sur les regrets inutiles qui le tourmentent, et que ceux qui nous gouvernent fussent comme vous bien persuadés que la plupart de nos maux nous viennent de l'ignorance et que les grands désordres qui affligent l'espèce humaine ont pris leur source dans la profondeur des ténèbres de l'âme.»</note>
             </item>
             <item n="127" xml:id="CAT_000165_e127">
@@ -1544,7 +1557,7 @@
                <trait>
                   <p>général distingué, député de la noblesse du Puy aux Etats généraux, ami et compagnon de Lafayette, dont il partagea la captivité à Magdebourg et à Olmutz, né en 1758, mort en 1831.</p>
                </trait>
-               <desc xml:id="CAT_000165_e172_d1">-2 let. aut. (à son frère, le marquis Marie-Victor de Fay de L. a. Tour-Maulbourg), 1791, 3 p. 1/2 in-8. 12</desc>
+               <desc xml:id="CAT_000165_e172_d1">-2 let. aut. (à son frère, le marquis Marie-Victor de Fay de La Tour-Maulbourg), 1791, 3 p. 1/2 in-8. 12</desc>
                <note>Curieuses lettres sur les débuts de la Révolution. Il recommande à son frère de maintenir la discipline dans son régiment de chasseurs : « Je conçois que le travail d'hiver, quelque peu fatigant qu'il soit, ait excité un peu de fermentation, parce qu'il y a longtemps que la machine est relâchée et que les chasseurs ont toujours été menés par compliments... J'aurais voulu que, sans leur (aux anciens) parler durement, tu eus mis dans tes phrases un ton ferme et décidé qui leur eut fait voir que tu ne les craignois pas. » La guerre civile agite le Haut Vivarais et il a dû s'évader de Maubourg ; on lui écrit cependant du Puy de demeurer en France; il espère, avec ses chasseurs, tirer l'épée contre les émigrants; il lui recommande de faire faire des armes à son fils Charles ; il lui parle aussi de MM. de Montrond et de Montbrun. -Ordres pour l'exercice de ses trois escadrons; il parle de MM. de Birague, de Bournazel et de la Ferté.</note>
             </item>
             <item n="173" xml:id="CAT_000165_e173">
@@ -1606,7 +1619,7 @@
                <trait>
                   <p>le principal fondateur de la chimie moderne, né en 1743, guillotiné en 1794.</p>
                </trait>
-               <desc xml:id="CAT_000165_e179_d1">Pièce sig. ; Paris, 1784, 1 p. in-4.-On a joint une notice imprimée sur L. a. voisier, avec fac-similé, par J.-J.-N. Huot, 14 p. in-4. 5</desc>
+               <desc xml:id="CAT_000165_e179_d1">Pièce sig. ; Paris, 1784, 1 p. in-4.-On a joint une notice imprimée sur La voisier, avec fac-similé, par J.-J.-N. Huot, 14 p. in-4. 5</desc>
             </item>
             <item n="180" xml:id="CAT_000165_e180">
                <num type="lot">180</num>
@@ -1647,7 +1660,7 @@
                <num type="lot">184</num>
                <name type="author">Lemaire (Madeleine)</name>
                <trait>
-                  <p>célèbre femme peintre contemporaine, née à Sainte- Rosteline (Var).</p>
+                  <p>célèbre femme peintre contemporaine, née à Sainte-Rosteline (Var).</p>
                </trait>
                <desc xml:id="CAT_000165_e184_d1">L. a. s., 1 p. in-8. Belle lettre. 4</desc>
             </item>
@@ -2105,7 +2118,7 @@
                <trait>
                   <p>célèbre graveur et dessinateur contemporain.</p>
                </trait>
-               <desc xml:id="CAT_000165_e237_d1">L. a. s. Félic.. explorateur, au crayon, à un écrivain; paquebot-poste L. a. Bretagne, le 28 sept. ; en mer, 4 p. pl. in-8. 20</desc>
+               <desc xml:id="CAT_000165_e237_d1">L. a. s. Félic.. explorateur, au crayon, à un écrivain; paquebot-poste La Bretagne, le 28 sept. ; en mer, 4 p. pl. in-8. 20</desc>
                <note>Très belle et curieuse lettre humoristique où il lui décrit ses compagnons de voyage. « Des cabotins, des banquiers qui ont mangé toutes les grenouilles de France, des colonels de West-Point, des demoiselles très enceintes, des professeurs de danses mortes, des pharmaciens à poisons internationaux et transatlantiques, des inventeurs d'explosifs et de panclastiques, et tout cela avec le mal de mer... On sent ici le modernisme à outrance. Le sentiment des canailleries internationales est dans l'air. et l'on rêve en pensant aux soixante-dix mille péchés capitaux que porte ce bachot de cent et soixante-dix mêtres de long !»</note>
             </item>
             <item n="238" xml:id="CAT_000165_e238">
@@ -2148,7 +2161,7 @@
                   <p>l'illustre auteur des Mémoires.</p>
                </trait>
                <desc xml:id="CAT_000165_e242_d1">L. a. s. (au comte de Maurepas); Paris, 27 mars 1726, 2 p. 1/2 in-4. 100</desc>
-               <note>Très belle et curieuse lettre écrite dans le style mordant des Mémoires, relative au chevalier d'Espoy, qui se plaint que Saint- Simon l'empêche d'entrer à la Trappe. « Le ch. d'Espoy est un chevalier d'industrie de dévotion et qui par cette voye a vesçu au despends d'autruy depuis plus de 30 ans. » Intéressants détails.</note>
+               <note>Très belle et curieuse lettre écrite dans le style mordant des Mémoires, relative au chevalier d'Espoy, qui se plaint que Saint-Simon l'empêche d'entrer à la Trappe. « Le ch. d'Espoy est un chevalier d'industrie de dévotion et qui par cette voye a vesçu au despends d'autruy depuis plus de 30 ans. » Intéressants détails.</note>
             </item>
             <item n="243" xml:id="CAT_000165_e243">
                <num type="lot">243</num>

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000142">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000142</title>
+            <title>RDA, N°139 (Octobre 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">139</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>139</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1891-10">Octobre 1891</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -275,7 +288,7 @@
                   <p>intendant de la duchesse de Chevreus dont il négocia le retour en France avec
                      Richelieu</p>
                </trait>
-               <desc xml:id="CAT_000142_e16_d1">L. a. s. à Chavigny L. a. Haye (Indre-et-Loire), 15 février 1661, 2 p. 1/2 in-8.
+               <desc xml:id="CAT_000142_e16_d1">L. a. s. à Chavigny La Haye (Indre-et-Loire), 15 février 1661, 2 p. 1/2 in-8.
                   Cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
                <note>Lettre historique où il annonce que MM. de Marsillac, la Vrillière et Feydeau
@@ -360,7 +373,7 @@
                <desc xml:id="CAT_000142_e24_d2">2° Etat de ses
                   services au moment de sa mise en non-activité; 20 août 1818, 1 p. 1/2 in-fol.
                   Curieuse pièce pour sa biographie.</desc>
-                  
+
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
             <item n="25" xml:id="CAT_000142_e25">
@@ -1193,7 +1206,7 @@
                <trait>
                   <p>le célèbre acteur de drame, créateur du type de Robert-Macaire</p>
                </trait>
-               <desc xml:id="CAT_000142_e93_d1">L. a. s. ; (L. a. Rochelle, 30 juillet 1838), 1 p. in-4. Un peu fatiguée.
+               <desc xml:id="CAT_000142_e93_d1">L. a. s. ; (La Rochelle, 30 juillet 1838), 1 p. in-4. Un peu fatiguée.
                   Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>

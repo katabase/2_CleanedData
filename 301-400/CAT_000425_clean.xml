@@ -1,6 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000425">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -481,7 +480,7 @@
                <trait>
                   <p>célèbre amiral français, né à Sedan en 1784, mort en 1854.</p>
                </trait>
-               <desc xml:id="CAT_000425_e31_d1">L. a. s. au comte Molé; L. a. Barre (Montmorency), 18 octobre 1839, 2 p. 1/2
+               <desc xml:id="CAT_000425_e31_d1">L. a. s. au comte Molé; La Barre (Montmorency), 18 octobre 1839, 2 p. 1/2
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante lettre politique où il lui annonce que le baron de Las Cases
@@ -686,7 +685,7 @@
                   <p>laborieux écrivain du XVIIIe siècle, auteur du Dictionnaire géographique, né à
                      Dieppe en 1683, mort en 1749.</p>
                </trait>
-               <desc xml:id="CAT_000425_e48_d1">L. a. s., L. a. Haye, 9 jauvier 1744, 3 p. 1/2 in-4. Rare. Très belle lettre toute
+               <desc xml:id="CAT_000425_e48_d1">L. a. s., La Haye, 9 jauvier 1744, 3 p. 1/2 in-4. Rare. Très belle lettre toute
                   littéraire.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -2418,7 +2417,7 @@
                   <p>intendant de la liste civile, dépositaire des papiers secrets de Louis XVI, né
                      à Versailles en 1744, guillotiné le 28 août 1792.</p>
                </trait>
-               <desc xml:id="CAT_000425_e185_d1">Let. sig. à M. de L. a. Rochefoucauld ; Paris, 8 décembre 1791, 1 p.
+               <desc xml:id="CAT_000425_e185_d1">Let. sig. à M. de La Rochefoucauld ; Paris, 8 décembre 1791, 1 p.
                   in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -2559,7 +2558,7 @@
                   <p>homme politique et poète distingué de l'école romantique, né à Toulouse en
                      1789, mort en 1862.</p>
                </trait>
-               <desc xml:id="CAT_000425_e195_d1">L. a. Châtelaine de la Vendée, pièce de vers aut. sig. ; (vers 1832). 1 p. in-4,
+               <desc xml:id="CAT_000425_e195_d1">La Châtelaine de la Vendée, pièce de vers aut. sig. ; (vers 1832). 1 p. in-4,
                   obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Très jolie pièce dont voici un extrait : Châtelaine, Vendéenne Porte un drapeau

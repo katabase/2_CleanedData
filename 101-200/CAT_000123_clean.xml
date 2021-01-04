@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000123">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000123</title>
+            <title>RDA, N°120 (Avril 1889)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">120</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>120</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -524,7 +537,7 @@
                   <p>illustre marin, gouverneur de Saint-Domingue, né dans le Béarn en 1650, mort en
                      1715</p>
                </trait>
-               <desc xml:id="CAT_000123_e35_d1">Pièce sig.; L. a. Rochelle, 28 mai 1703, 1/2 p. in-4.
+               <desc xml:id="CAT_000123_e35_d1">Pièce sig.; La Rochelle, 28 mai 1703, 1/2 p. in-4.
                   Un peu tachée d'eau. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -864,7 +877,7 @@
                   <p>prince d'Orange, puis roi d'Angleterre, né en 1650, mort en 1702</p>
                </trait>
                <desc xml:id="CAT_000123_e62_d1">Let. sig. avec la souscrip. aut., en français, au
-                  roi de Danemark; L. a. Haye, 26 mars 1670, 1 p. in-fol., cachet à ses armes.</desc>
+                  roi de Danemark; La Haye, 26 mars 1670, 1 p. in-fol., cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="32">32</measure>
                <note>Belle lettre. Il espère qu'il lui permettra, comme précédemment, de prendre des
                   faucons dans les juridictions de Batsberg et de Pillemanhen</note>
@@ -1213,7 +1226,7 @@
                   <p>célèbre littérateur du XVIIIe siècle, historiographe du roi, né à Dijon en
                      1707, mort en 1781</p>
                </trait>
-               <desc xml:id="CAT_000123_e89_d1">L. a. s. à L. a. Chaussée; Londres 10 avril 1738, 3 p.
+               <desc xml:id="CAT_000123_e89_d1">L. a. s. à La Chaussée; Londres 10 avril 1738, 3 p.
                   1/4 in-4., cachet à ses armes. Légère déchirure.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Superbe et intéressante épitre. Il le félicite de sa tragédie de Maximien. «
@@ -1811,7 +1824,7 @@
             <item n="137" xml:id="CAT_000123_e137">
                <num type="lot">137</num>
                <name type="author">Solignac (P)</name>
-               <desc xml:id="CAT_000123_e137_d1">J. de L. a. Pimpie, chevalier de), secrétaire du roi
+               <desc xml:id="CAT_000123_e137_d1">J. de La Pimpie, chevalier de), secrétaire du roi
                   Stanislas, bibliothécaire et secrétaire perpétuel . de l'Académie de Nancy, né à
                   Montpellier en 1687, mort en 1773. 21. a. s. au président de Ruffey; 1734-55, 5 p.
                   in-4.</desc>
@@ -2711,7 +2724,7 @@
                <trait>
                   <p>prince de</p>
                </trait>
-               <desc xml:id="CAT_000123_e217_d1">Let. sig. à M. de L. a. Tour du Pin Gouvernet ;
+               <desc xml:id="CAT_000123_e217_d1">Let. sig. à M. de La Tour du Pin Gouvernet ;
                   Fontainebleau, 1776, 1 p. 1/3 in-4. Très belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>

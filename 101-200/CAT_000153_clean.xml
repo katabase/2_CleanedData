@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000153">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000153</title>
+            <title>RDA, N°150 (Décembre 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">150</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>150</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-12">Décembre 1892</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -85,7 +98,7 @@
                      Régence, né en 1635, mort en 1716</p>
                </trait>
                <desc xml:id="CAT_000153_e1_d1">Pièce sig. sur vélin, sig. aussi par Claire Le Picart, sa femine, et Catherine
-                  Le Picart, veuve de Nicolas Le Peletier, seigneur de L. a. Houssaye, comme héritières
+                  Le Picart, veuve de Nicolas Le Peletier, seigneur de La Houssaye, comme héritières
                   de Catherine Talon leur mère ; Paris, 28 nov. 1710, 1 p. in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -494,7 +507,7 @@
                <desc xml:id="CAT_000153_e35_d1">Let. sig. avec la souscript aut., en latin, à George de Sava, comte de
                   Wittgenstein ; Genève, 11 juill. 1584, 1 p. 1/4 in-fol., cachet à ses armes (de
                   gueules à la fasce d'or chargée de trois roses d'azur, accompagnées en pointe
-                  d'une clef en pale). L. a. moitié du feuillet blanc de l'adresse a été enlevée.</desc>
+                  d'une clef en pale). La moitié du feuillet blanc de l'adresse a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Importante lettre où il le félicite d'avoir donné sa démission de chanoine de
                   Cologne, cet archevêché n'étant que boues et immondices ; il a bien fait
@@ -508,7 +521,7 @@
                   <p>jurisconsulte distingué, ministre des cultes sous Napoléon Ier de l'Acad. fr.,
                      né à Rennes en 1747, mort en 1825</p>
                </trait>
-               <desc xml:id="CAT_000153_e36_d1">2 let sig. ; Paris, 1815, 2 p. 1/2 in-fol. Belles lettres.</desc>
+               <desc xml:id="CAT_000153_e36_d1">2 let. sig. ; Paris, 1815, 2 p. 1/2 in-fol. Belles lettres.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="37" xml:id="CAT_000153_e37">
@@ -2076,7 +2089,7 @@
                <trait>
                   <p>illustre général et patriote, né en Auvergne en 1757, mort en 1834</p>
                </trait>
-               <desc xml:id="CAT_000153_e171_d1">L. a. s. à un général; L. a. Grange, 18 oct. 1833. 2/3 de p. in-4.</desc>
+               <desc xml:id="CAT_000153_e171_d1">L. a. s. à un général; La Grange, 18 oct. 1833. 2/3 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Très belle lettre où il parle de M. et Mme Ridgely, de Baltimore, qui désirent
                   faire un voyage en Italie. « Avés vous des nouvelles de Naples? Les journaux
@@ -2220,7 +2233,7 @@
                      en Angleterre, secrétaire des commandements de Henri IV, né en 1560, mort en
                      1638</p>
                </trait>
-               <desc xml:id="CAT_000153_e183_d1">L. a. s. au vicomte de Turenne (Henri de L. a. Tour, depuis maréchal de Bouillon)
+               <desc xml:id="CAT_000153_e183_d1">L. a. s. au vicomte de Turenne (Henri de La Tour, depuis maréchal de Bouillon)
                   . au camp devant Chartres, 23 mars 1591, 3/4 de p. in-fol. Rare.</desc>
                <note>Superbe pièce par laquelle il lui annonce que M. de Rozel va lui remettre cette
                   lettre: « Il n'a bougé de la court, si byen que je luy fascheux discours; il vaut
@@ -2421,7 +2434,7 @@
                <trait>
                   <p>duc de Bassano, l'infatigable ministre de Napoléon Ier</p>
                </trait>
-               <desc xml:id="CAT_000153_e202_d1">L. a. s. à M. de L. a. Tour Maubourg, ministre de France, à Wurtzbourg; Paris, 6
+               <desc xml:id="CAT_000153_e202_d1">L. a. s. à M. de La Tour Maubourg, ministre de France, à Wurtzbourg; Paris, 6
                   avril 1813, 2/3 de p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Belle lettre. Il lui annonce confidentiellement que l'Empereur sera à Mayence
@@ -2749,7 +2762,7 @@
                <trait>
                   <p>empereur des Français</p>
                </trait>
-               <desc xml:id="CAT_000153_e230_d1">L. a. s. à Félix Desportes ; L. a. Conciergerie, 17 août 1840, 2/3 de p. in-8.</desc>
+               <desc xml:id="CAT_000153_e230_d1">L. a. s. à Félix Desportes ; La Conciergerie, 17 août 1840, 2/3 de p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Curieuse lettre écrite onze jours après le débarquement de Boulogne : «
                   J'espère bien que vous viendrez me voir dans ma prison dès que le secret sera levé
@@ -3219,7 +3232,7 @@
                   <p>maréchal de France, qui prit une grande part aux campagnes de Flandre et
                      d'Italie, né en 1685</p>
                </trait>
-               <desc xml:id="CAT_000153_e269_d1">Let. sig. avec 2 lig. aut.; L. a. Rochelle, 27 juillet 1761, 2 p. 2/3 in-4.
+               <desc xml:id="CAT_000153_e269_d1">Let. sig. avec 2 lig. aut.; La Rochelle, 27 juillet 1761, 2 p. 2/3 in-4.
                   Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -3404,7 +3417,7 @@
                   <p>le célèbre favori de Louis XIV, ami intime de Mme de Sévigné, né en 1615, mort
                      en 1688</p>
                </trait>
-               <desc xml:id="CAT_000153_e285_d1">L. a. s. à Turenne ; L. a. Fère, 18 juin, 2 p. petit in-8, cachets brisés. Légère
+               <desc xml:id="CAT_000153_e285_d1">L. a. s. à Turenne ; La Fère, 18 juin, 2 p. petit in-8, cachets brisés. Légère
                   déchirure. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -3678,7 +3691,7 @@
             <item n="310" xml:id="CAT_000153_e310">
                <num type="lot">310</num>
                <name type="author">Angoumois</name>
-               <desc xml:id="CAT_000153_e310_d1">Pièce sig. par Ant. de L. a. Rochefoucauld, évêque d'Angoulême; Paris, 2 mars
+               <desc xml:id="CAT_000153_e310_d1">Pièce sig. par Ant. de La Rochefoucauld, évêque d'Angoulême; Paris, 2 mars
                   1607, 4 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Transport de rente par Ant. de la Rochefoucauld, agissant pour sa soeur,

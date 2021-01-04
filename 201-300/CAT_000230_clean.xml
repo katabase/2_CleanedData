@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000230">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000230">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -312,7 +313,7 @@
                <trait>
                   <p>le savant général et écrivain militaire, né en 1693, mort en 1761.</p>
                </trait>
-               <desc xml:id="CAT_000230_e20_d1">L. a. s., L. a. Fère, 26 févr. 1738, 3 p. in-4, cachet
+               <desc xml:id="CAT_000230_e20_d1">L. a. s., La Fère, 26 févr. 1738, 3 p. in-4, cachet
                   bien conservé. Très belle lettre scientifique. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -857,7 +858,7 @@
                <trait>
                   <p>le célèbre compositeur, auteur du Désert.-Le Jugement dernier.</p>
                </trait>
-               <desc xml:id="CAT_000230_e65_d1">L'Eden.-L. a. Danse des Astres, morceaux de musique
+               <desc xml:id="CAT_000230_e65_d1">L'Eden.-La Danse des Astres, morceaux de musique
                   (fragments) avec paroles aut., 24 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
@@ -1428,7 +1429,7 @@
                   <p>empereur d'Allemagne.</p>
                </trait>
                <desc xml:id="CAT_000230_e116_d1">Let. sig. ; Berlin, 14 avril 1877. 2/3 de p in-4.
-                  Jolie let tre.</desc>
+                  Jolie let. tre.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="117" xml:id="CAT_000230_e117">
@@ -1862,7 +1863,7 @@
                </trait>
                <desc xml:id="CAT_000230_e151_d1">L. a. s. à Desbordes frères, à Brest; Nantes, 16
                   juin 1774, 1 p. in-4.-On a joint une l. a. s. de son frère le marquis de La
-                  Galis-sonnière à Desbordes frères, à Brest; L. a. Galissonnière (Anjou), 4 mars
+                  Galis-sonnière à Desbordes frères, à Brest; La Galissonnière (Anjou), 4 mars
                   1782, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
@@ -2800,7 +2801,7 @@
                <trait>
                   <p>célèbre poète grivois.</p>
                </trait>
-               <desc xml:id="CAT_000230_e230_d1">L'Ours et l'Hermine.-L. a. Noblesse, fables, 2 pièces
+               <desc xml:id="CAT_000230_e230_d1">L'Ours et l'Hermine.-La Noblesse, fables, 2 pièces
                   de vers aut., 4 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -2872,7 +2873,7 @@
                   <p>l'auteur de la Géographie aniverselle, né à Sainte-Foy- la-Grande (Gironde) en
                      1830.</p>
                </trait>
-               <desc xml:id="CAT_000230_e236_d1">L. a. s., L. a. Haye, 11 déc., 1 p. 1/2 in-8.</desc>
+               <desc xml:id="CAT_000230_e236_d1">L. a. s., La Haye, 11 déc., 1 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note anchored="true">Relative à la rédaction du journal le Travailleur.</note>
             </item>
@@ -3616,7 +3617,7 @@
             <item n="301" xml:id="CAT_000230_e301">
                <num type="lot">301</num>
                <name type="author">Poitou.</name>
-               <desc xml:id="CAT_000230_e301_d1">Pièce originale; L. a. Merlatière (Vendée), 18 avril
+               <desc xml:id="CAT_000230_e301_d1">Pièce originale; La Merlatière (Vendée), 18 avril
                   1518, 5 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note anchored="true">Aveu rendu au prince Jacques Ier de Rohan et de Léon, sgr de la Garnache, par

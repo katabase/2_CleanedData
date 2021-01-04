@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000087">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000087</title>
+            <title>RDA, N°94 (Novembre 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>94</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -173,7 +187,7 @@
                <trait>
                   <p>littérateur du XVIIIe siècle, auteur des Epreuves du sentiment</p>
                </trait>
-               <desc xml:id="CAT_000087_e7_d1">-L. a. Saxe, pièce de vers aut. sig., 1 p. 3/4 in-4.
+               <desc xml:id="CAT_000087_e7_d1">-La Saxe, pièce de vers aut. sig., 1 p. 3/4 in-4.
                   Très-jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -684,7 +698,7 @@
                      écrivain romantique, né en 1801, mort en 1845.</p>
                </trait>
                <desc xml:id="CAT_000087_e48_d1">1° L. a. s. à M. Teste, (1830), 1/2 p. in-8.
-                  Curieuse lettre écrite pendant les journées de 1830. « L. a. proclamation fait le
+                  Curieuse lettre écrite pendant les journées de 1830. « La proclamation fait le
                   meilleur effet. Il faut en faire distribuer à force, crier, etc.</desc>
                <desc xml:id="CAT_000087_e48_d2">2° Pièce aut., 11 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -1329,7 +1343,7 @@
                <trait>
                   <p>roi de Hollande</p>
                </trait>
-               <desc xml:id="CAT_000087_e99_d1">Let. sig., en français, L. a. Haye, 15 octobre 1819, 1
+               <desc xml:id="CAT_000087_e99_d1">Let. sig., en français, La Haye, 15 octobre 1819, 1
                   p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Notification de la mort de la duchesse douairière de Brunswick</note>
@@ -1340,7 +1354,7 @@
                <trait>
                   <p>roi de Hollande</p>
                </trait>
-               <desc xml:id="CAT_000087_e100_d1">Let. sig., en français; L. a. Haye, 6 juillet 1841, 1
+               <desc xml:id="CAT_000087_e100_d1">Let. sig., en français; La Haye, 6 juillet 1841, 1
                   p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Notification de la naissance d'une princesse</note>

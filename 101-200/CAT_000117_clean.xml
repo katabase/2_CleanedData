@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000117">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000117</title>
+            <title>RDA, N°114 (Août 1888)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">114</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>114</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -249,7 +262,7 @@
                   <p>romancier célèbre, auteur des Epreuves du sentiment, né en 1718, mort en
                      1805</p>
                </trait>
-               <desc xml:id="CAT_000117_e13_d1">L. a. Saxe, pièce de vers, aut. sig., 1 p. 3/4 in-4.
+               <desc xml:id="CAT_000117_e13_d1">La Saxe, pièce de vers, aut. sig., 1 p. 3/4 in-4.
                   Très jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -322,7 +335,7 @@
                <trait>
                   <p>célèbre poète romantique, auteur des Odes funambulesques</p>
                </trait>
-               <desc xml:id="CAT_000117_e19_d1">Lettres à Pierrot: L. a. Vieillesse, article aut. sig.;
+               <desc xml:id="CAT_000117_e19_d1">Lettres à Pierrot: La Vieillesse, article aut. sig.;
                   14 p. in-8 obl. Découpé pour l'impression.</desc>
                <measure commodity="currency" unit="FRF" quantity="18">18</measure>
             </item>
@@ -1321,7 +1334,7 @@
                      Inscriptions, né en 1644, mort en 1716</p>
                </trait>
                <desc xml:id="CAT_000117_e100_d1">Let. sig. aux bourgmestre et Conseil de Ville de
-                  Bergop-Zoom ; L. a. Haye, 10 nov. 1692, 2 p. 1/2 in-fol., sceau.</desc>
+                  Bergop-Zoom ; La Haye, 10 nov. 1692, 2 p. 1/2 in-fol., sceau.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Pièce historique. Il leur donne l'ordre de recevoir dans leurs murs les troupes
                   alliées envoyées par le roi de la Grande-Bretagne (Guillaume III), pour renforcer
@@ -1988,7 +2001,7 @@
                   <p>roi d'Angleterre</p>
                </trait>
                <desc xml:id="CAT_000117_e156_d1">Let. sig. avec la souscript. aut., en allemand, au
-                  roi de Prusse FrédéricGuillaume; Londres, 18 nov. 1716, 2 p. in-fol. L. a. partie
+                  roi de Prusse FrédéricGuillaume; Londres, 18 nov. 1716, 2 p. in-fol. La partie
                   blanche du feuillet de l'adresse a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Illui recommande le sous-lieutenant Ludolf Henning von Eltz et l'invite à le
@@ -3240,7 +3253,7 @@
                <trait>
                   <p>célèbre littérateur et auteur dramatique contemporain</p>
                </trait>
-               <desc xml:id="CAT_000117_e262_d1">L. a. Mer 2e édition, Paris, Dreyfous, 1886, 1 voi,
+               <desc xml:id="CAT_000117_e262_d1">La Mer 2e édition, Paris, Dreyfous, 1886, 1 voi,
                   in-18 br. Avec envoi de 2 lignes aut. sig.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>

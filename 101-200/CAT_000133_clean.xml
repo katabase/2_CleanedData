@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000133">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000133</title>
+            <title>RDA, N°130 (Octobre 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">130</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>130</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1083,7 +1096,7 @@
                      de Charles-Quint, née en 1501, morte en 1568.</p>
                </trait>
                <desc xml:id="CAT_000133_e92_d1">Let. sig., en français, au bailli
-                  d'Hesdin; Bruxelles, 24 fév. 1544 (1545), 1 p. 1/2 in-fol., sceau. L. a. demi-page du
+                  d'Hesdin; Bruxelles, 24 fév. 1544 (1545), 1 p. 1/2 in-fol., sceau. La demi-page du
                   feuillet de l'adresse manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Elle lui annonce que les villages des comtés d'Artois et de Saint-Pol, enclavés
@@ -1847,7 +1860,7 @@
                      né en 1588, mort en 1645</p>
                </trait>
                <desc xml:id="CAT_000133_e157_d1">L. a. s., à M. de Lambert; Rocroi, 27 avril (1635),
-                  1 p. in-4. Belle lettre. L. a. moitié du feuillet de l'adresse manque.</desc>
+                  1 p. in-4. Belle lettre. La moitié du feuillet de l'adresse manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
             <item n="158" xml:id="CAT_000133_e158">
@@ -2277,7 +2290,7 @@
             <item n="198" xml:id="CAT_000133_e198">
                <num type="lot">198</num>
                <name type="author">Louis XIII</name>
-               <desc xml:id="CAT_000133_e198_d1">Let. sur vélin au cardinal de L. a. Rochefoucauld, grand aumônier ;
+               <desc xml:id="CAT_000133_e198_d1">Let. sur vélin au cardinal de La Rochefoucauld, grand aumônier ;
                   Saint-Germain-en-Laye, 7 décembre 1619, 1 p. double in-fol. Quelques piqûres
                   d'humidité n'atteignant pas le texte.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -2383,7 +2396,7 @@
             <item n="213" xml:id="CAT_000133_e213">
                <num type="lot">213</num>
                <name type="author">Napoléon Ier</name>
-               <desc xml:id="CAT_000133_e213_d1">Let. sig. au baron de L. a. Bouillerie; Saint-Cloud, 4 mai 1812, 1/2 p. in-4. Un peu
+               <desc xml:id="CAT_000133_e213_d1">Let. sig. au baron de La Bouillerie; Saint-Cloud, 4 mai 1812, 1/2 p. in-4. Un peu
                   tachée.</desc>
                <measure commodity="currency" unit="FRF" quantity="33">33</measure>
                <note>Relative à la pension de 2,000 francs faite à Mme la comtesse de Bouillé et qui
@@ -2636,7 +2649,7 @@
                <num type="lot">249</num>
                <name type="author">Sixte-Quint</name>
                <desc xml:id="CAT_000133_e249_d1">Let. sig. à Castellino et J.-A. Pinelli; Rome, 20 juin 1586, 3/4 de p. in--4.
-                  L. a. signature est un peu endommagée par suite de la mauvaise qualité de l'encre.</desc>
+                  La signature est un peu endommagée par suite de la mauvaise qualité de l'encre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Ordre de verser entre les mains de GiuliaUrsina Bangonna, femme du marquis
                   Baldassano, une partie de l'argent déposé aux mains d'Olgrati, pour recouvrer le

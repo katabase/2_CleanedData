@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000232">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000232">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -442,7 +443,7 @@
                   <p>célèbre et infortuné navigateur, né à Rouen, perdu dans les glaces du pôle
                      boréal en 1833.</p>
                </trait>
-               <desc xml:id="CAT_000232_e30_d1">L. a. s. à M. Duclerc; à bord de L. a. Chevrette,
+               <desc xml:id="CAT_000232_e30_d1">L. a. s. à M. Duclerc; à bord de La Chevrette,
                   Karikal (Indes françaises), 1828, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1344,7 +1345,7 @@
                   <p>célèbre par le complot ténébreux, dont il fut accusé d'être le chef, peudu le
                      19 février 1790.</p>
                </trait>
-               <desc xml:id="CAT_000232_e104_d1">L. a. s. au chevalier de Gerville; L. a. Haye; 7 juin
+               <desc xml:id="CAT_000232_e104_d1">L. a. s. au chevalier de Gerville; La Haye; 7 juin
                   1785, 2 p. in-4, cachet à ses armes. Très belle lettre. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
@@ -2005,7 +2006,7 @@
                   <p>homme d'Etat suisse et général au service de la Russie.</p>
                </trait>
                <desc xml:id="CAT_000232_e157_d1">L. a. s. à M. de Bure; au Plessis-Piquet, 20 avril
-                  1811, 1 p. in-8.-On a joint une lettre de Mme de L. a. Harpe à Mme de Ginguené;
+                  1811, 1 p. in-8.-On a joint une lettre de Mme de La Harpe à Mme de Ginguené;
                   Lausanne, 24 août 1815, 3 p. in-4. Belle lettre littéraire.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -2055,7 +2056,7 @@
                <trait>
                   <p>le célèbre écrivain, né à Saint-Malo</p>
                </trait>
-               <desc xml:id="CAT_000232_e161_d1">L. a. s. à M. J. Liszt: L. a. Chenaie, 21 août 1834, 1
+               <desc xml:id="CAT_000232_e161_d1">L. a. s. à M. J. Liszt: La Chenaie, 21 août 1834, 1
                   p. 3/4 in-8. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -2439,7 +2440,7 @@
                   <p>fille de Victor-Amédée III, roi de Sardaigne, femme du comte de Provence,
                      depuis Louis XVIII, née en 1753, morte en 1810.</p>
                </trait>
-               <desc xml:id="CAT_000232_e190_d1">Let. aut. à la comtesse de L. a. Ferronnays; (Mittau),
+               <desc xml:id="CAT_000232_e190_d1">Let. aut. à la comtesse de La Ferronnays; (Mittau),
                   27 novembre 1805, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -3344,7 +3345,7 @@
                <trait>
                   <p>fameux contrôleur général des finances sous Louis XV.</p>
                </trait>
-               <desc xml:id="CAT_000232_e263_d1">L. a. s. au premier président à Rouen; L. a. Molte
+               <desc xml:id="CAT_000232_e263_d1">L. a. s. au premier président à Rouen; La Molte
                   Tilly, 31 août 1770, 1 p. pet in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Curieuse lettre. « Enfin, Monsieur, vous en êtes venu à bout, il est heureux

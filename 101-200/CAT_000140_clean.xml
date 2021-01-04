@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000140">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000140</title>
+            <title>RDA, N°137 (Mai 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">137</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>137</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -922,7 +935,7 @@
                   <p>savant philologue, poète latin et homme d'Etat hollandais, bibliothécaire de
                      Chrisline de Suède, né en 1620, mort en 1681</p>
                </trait>
-               <desc xml:id="CAT_000140_e76_d1">L. a. s., en latin, à (Christian Huygens); L. a. Haye, 16 juin 1675, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000140_e76_d1">L. a. s., en latin, à (Christian Huygens); La Haye, 16 juin 1675, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="32">32</measure>
                <note>Il regrette qu'il ne lui ait pas répondu au sujet des livres achetés à
                   Bienville et lui adresse un catalogue pour lui prouver qu'il se souvient toujours
@@ -949,7 +962,7 @@
                <trait>
                   <p>poète comtemporain très distingué</p>
                </trait>
-               <desc xml:id="CAT_000140_e78_d1">L. a. Conque, pièce de vers aut. sig., 1 p. in-8. Très jolie pièce.</desc>
+               <desc xml:id="CAT_000140_e78_d1">La Conque, pièce de vers aut. sig., 1 p. in-8. Très jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="79" xml:id="CAT_000140_e79">
@@ -1076,7 +1089,7 @@
                   <p>homme politique et anthropologiste distingué, auteur du Transformisme, député
                      de la Seine, gouverneur général de l'IndoChine</p>
                </trait>
-               <desc xml:id="CAT_000140_e90_d1">P. a. s., contenant sa devise : L. a. Roue tourne, accompagnée de son cachet,
+               <desc xml:id="CAT_000140_e90_d1">P. a. s., contenant sa devise : La Roue tourne, accompagnée de son cachet,
                   1882, 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -1783,7 +1796,7 @@
                   <p>célèbre par ses aventures et par la dure captivité de dix années que lui fit
                      subir Frédéric II, né en 1/26, guillotiné le 25 juillet 1794</p>
                </trait>
-               <desc xml:id="CAT_000140_e153_d1">L. a. s. à la citoyenne Onfroi, libraire; prison de L. a. Force, 7 messidor 1794,
+               <desc xml:id="CAT_000140_e153_d1">L. a. s. à la citoyenne Onfroi, libraire; prison de La Force, 7 messidor 1794,
                   1/2 p. in-8 obl. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Curieux billet, écrit un mois avant sa mort, où il la supplie de lui envoyer
@@ -2188,7 +2201,7 @@
             <item n="200" xml:id="CAT_000140_e200">
                <num type="lot">200</num>
                <name type="author">Dessaix (Joseph-Marie)</name>
-               <desc xml:id="CAT_000140_e200_d1">Let. sig.; L. a. Haye, an IX, 1 p. in-4, fête impr.</desc>
+               <desc xml:id="CAT_000140_e200_d1">Let. sig.; La Haye, an IX, 1 p. in-4, fête impr.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="201" xml:id="CAT_000140_e201">

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000136">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000136</title>
+            <title>RDA, N°133 (Janvier 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">133</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>133</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1791,7 +1804,7 @@
                      en 1745, pendu le 19 février 1790</p>
                </trait>
                <desc xml:id="CAT_000136_e150_d1">L. a. s. à sa cousine (la princesse d'Anhalt-Schaumbourg); prison du Châtelet,
-                  15 jauvier 1790, 2 p. in-8, cachet à ses armes L. a. moitié du feuillet de l'adresse
+                  15 jauvier 1790, 2 p. in-8, cachet à ses armes La moitié du feuillet de l'adresse
                   a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="60">60</measure>
                <note>Touchante lettre au sujet de sa triste situation. Il la prie de s'associer à sa
@@ -2292,7 +2305,7 @@
                <trait>
                   <p>le célèbre écrivain, né à Saint-Malo en 1782, mort en 1854</p>
                </trait>
-               <desc xml:id="CAT_000136_e192_d1">L. a. s. ; L. a. Chenaie, 1833, 1 p. in-4. Curieuse.</desc>
+               <desc xml:id="CAT_000136_e192_d1">L. a. s. ; La Chenaie, 1833, 1 p. in-4. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="193" xml:id="CAT_000136_e193">
@@ -2433,7 +2446,7 @@
                <trait>
                   <p>romancier réaliste belge contemporain, auteur d'Un Mâle</p>
                </trait>
-               <desc xml:id="CAT_000136_e205_d1">L. a. s.; L. a. Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre.</desc>
+               <desc xml:id="CAT_000136_e205_d1">L. a. s.; La Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="206" xml:id="CAT_000136_e206">
@@ -2753,7 +2766,7 @@
                   <p>homme d'Etat, ministre du roi Louis-Philippe, membre libre de l'Acad. des
                      Beaux-Arts, né à Valence (Drôme) en 1801, mort en 1880</p>
                </trait>
-               <desc xml:id="CAT_000136_e234_d1">L. a. s.; L. a. Grange (Cher), (1850), 2 p. in-8.</desc>
+               <desc xml:id="CAT_000136_e234_d1">L. a. s.; La Grange (Cher), (1850), 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="16">16</measure>
                <note>Relative à la mort de Louis-Philippe. Retenu à la campagne par un accès de
                   goutte, il ne pourra se rendre à Paris pour assister à l'ouverture de deux
@@ -2810,7 +2823,7 @@
                <trait>
                   <p>le roi et l'historien de la Bohême</p>
                </trait>
-               <desc xml:id="CAT_000136_e238_d1">L. a. mission, pièce de vers aut. sig. ; 4 p. in-8. Légère tache.</desc>
+               <desc xml:id="CAT_000136_e238_d1">La mission, pièce de vers aut. sig. ; 4 p. in-8. Légère tache.</desc>
                <measure commodity="currency" unit="FRF" quantity="55">55</measure>
                <note>Très belle pièce dont voicitun extrait : « Mais gloire à l'apôtre intrépide Qui
                   reut marcher le front levé Dont le seul talent soit l'égide Qui du malheur l'ait
@@ -2891,7 +2904,7 @@
                <trait>
                   <p>savant littérateur, né en 1751, mort en 1838</p>
                </trait>
-               <desc xml:id="CAT_000136_e244_d1">L. a. s. à Michaud aîné; L. a. Charité, 28 juil. 1827, 3 p. in-4.</desc>
+               <desc xml:id="CAT_000136_e244_d1">L. a. s. à Michaud aîné; La Charité, 28 juil. 1827, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
                <note>Intéressante lettre littéraire relative à des mémoires historiques sur le
                   département de la Nièvre</note>

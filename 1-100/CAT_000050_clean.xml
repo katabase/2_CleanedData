@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000050">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000050</title>
+            <title>RDA, N°62 (Mai 1880)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>62</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -126,7 +140,7 @@
                <trait>
                   <p>célèbre révolutionnaire</p>
                </trait>
-               <desc xml:id="CAT_000050_e5_d1">L. a. s. à M. Lemaître; L. a. Haye, 31 juil. 1856, 3 p.
+               <desc xml:id="CAT_000050_e5_d1">L. a. s. à M. Lemaître; La Haye, 31 juil. 1856, 3 p.
                   1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Curieuse épitre écrite de son exil volontaire en Hollande : « Nous avons bien
@@ -272,7 +286,7 @@
                <trait>
                   <p>sous-secrétaire d'Etat à la guerre et représentant du Puy-de-Dôme</p>
                </trait>
-               <desc xml:id="CAT_000050_e17_d1">L. aut. sig. Ch. à M. Lemaître; L. a. Haye, 17 févr.
+               <desc xml:id="CAT_000050_e17_d1">L. aut. sig. Ch. à M. Lemaître; La Haye, 17 févr.
                   1857, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Toute relative à l'ouvrage du capitaine Brialmont, sur Wellington. « Son
@@ -576,7 +590,7 @@
                      France des pamphlets fameux, parmi lesquels le Bouclier d'Etat et la Sauce au
                      verjus</p>
                </trait>
-               <desc xml:id="CAT_000050_e46_d1">L. a. s., en espagnol; L. a. Haye, 19 fév. 1672, 1 p.
+               <desc xml:id="CAT_000050_e46_d1">L. a. s., en espagnol; La Haye, 19 fév. 1672, 1 p.
                   in-f. Superbe et rare pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="16">16</measure>
             </item>
@@ -1762,7 +1776,7 @@
                   <p>littérateur et jurisconsulte distingué, auteur des Mémoires historiques de Mmat
                      Adélaïde et Victoire de France, né à Caen</p>
                </trait>
-               <desc xml:id="CAT_000050_e155_d1">L. a. s. à M. de L. a. Grange, 1787, 1 p. in-4.</desc>
+               <desc xml:id="CAT_000050_e155_d1">L. a. s. à M. de La Grange, 1787, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="156" xml:id="CAT_000050_e156">

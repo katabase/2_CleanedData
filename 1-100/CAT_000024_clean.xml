@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000024">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000024</title>
+            <title>RDA, N°30 (Avril 1872)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>30</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -304,8 +318,8 @@
                <trait>
                   <p>le plus gai de nos chansonniers</p>
                </trait>
-               <desc xml:id="CAT_000024_e22_d1">1° L. a. Treille de sincérité, chanson aut. sig. 3 p.
-                  in-8. 2° L. a. musique du 1er couplet de cette chanson, paroles et musique aut., 1/2
+               <desc xml:id="CAT_000024_e22_d1">1° La Treille de sincérité, chanson aut. sig. 3 p.
+                  in-8. 2° La musique du 1er couplet de cette chanson, paroles et musique aut., 1/2
                   p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -614,7 +628,7 @@
                <num type="lot">51</num>
                <name type="author">Haussonville (le comte Joseph d')</name>
                <trait>
-                  <p>littérateur et homme politique, de l'Acad. fr</p>
+                  <p>littérateur et homme politique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000024_e51_d1">L. a. s., 1847, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -903,7 +917,7 @@
                <name type="author">Loménie (Louis de)</name>
                <trait>
                   <p>spirituel littérateur, auteur de Beaumarchais et de son temps, memb. de l'Acad.
-                     fr</p>
+                     fr.</p>
                </trait>
                <desc xml:id="CAT_000024_e80_d1">L. a. s. (1840), 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -1307,7 +1321,7 @@
                <num type="lot">118</num>
                <name type="author">Nodier (Ch.)</name>
                <trait>
-                  <p>un de nos écrivains les plus originaux, de l'Acad. fr</p>
+                  <p>un de nos écrivains les plus originaux, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000024_e118_d1">L. a. s. au marquis de Custine, 1833, 1 p.
                   in-8.</desc>

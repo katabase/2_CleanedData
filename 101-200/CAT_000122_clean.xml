@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000122">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000122</title>
+            <title>RDA, N°119 (Mars 1889)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">119</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>119</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1381,7 +1394,7 @@
                <trait>
                   <p>poète contemporain très-distingué</p>
                </trait>
-               <desc xml:id="CAT_000122_e100_d1">L. a. Conque, pièce de vers aut. sig., 1 p. in-8. Très
+               <desc xml:id="CAT_000122_e100_d1">La Conque, pièce de vers aut. sig., 1 p. in-8. Très
                   jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -2760,7 +2773,7 @@
                <trait>
                   <p>célèbre littérateur et poète français contemporain, né à Strasbourg en 1827</p>
                </trait>
-               <desc xml:id="CAT_000122_e207_d1">L. a. Plus Belle des Couleurs, sonnet aut. sig., 1 p.
+               <desc xml:id="CAT_000122_e207_d1">La Plus Belle des Couleurs, sonnet aut. sig., 1 p.
                   in-8. Jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>

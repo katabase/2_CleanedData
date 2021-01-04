@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000135">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000135</title>
+            <title>RDA, N°132 (Décembre 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">132</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>132</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1534,7 +1547,7 @@
                <trait>
                   <p>le roi et l'historien de la Bohême, né en 1822, mort en 1861</p>
                </trait>
-               <desc xml:id="CAT_000135_e139_d1">L. a. Menteuse, pièce de vers aut. sig., 2 p. in-4 obl.</desc>
+               <desc xml:id="CAT_000135_e139_d1">La Menteuse, pièce de vers aut. sig., 2 p. in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="120">120</measure>
                <note>Très curieuse pièce faite pour un album et probablement inédite. Elle est
                   illustrée de piquants dessins se rapportant au texte. Voici la dernière strophe :
@@ -1570,7 +1583,7 @@
                <trait>
                   <p>éminent écrivain, de l'Acad. fr., né à Besançon</p>
                </trait>
-               <desc xml:id="CAT_000135_e142_d1">L. a. s. (au comte de L. a. Boulaye); Paris, 8 janvier 1818, 2 p. in-fol. Légère
+               <desc xml:id="CAT_000135_e142_d1">L. a. s. (au comte de La Boulaye); Paris, 8 janvier 1818, 2 p. in-fol. Légère
                   tache.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Très curieuse lettre qu'il signe Charles de Nodier. Elle contient un état de sa
@@ -2216,7 +2229,7 @@
                <trait>
                   <p>fameux contrôleur général des finances sous Louis XV</p>
                </trait>
-               <desc xml:id="CAT_000135_e200_d1">L. a. s. au premier président à Rouen ; L. a. Motte Pilly, 31 août 1770, 1 p. pet.
+               <desc xml:id="CAT_000135_e200_d1">L. a. s. au premier président à Rouen ; La Motte Pilly, 31 août 1770, 1 p. pet.
                   in-4. 18 « Curieuse lettre. « Enfin, Monsieur, vous</desc>
                <note>en êtes venu à bout, il est heureux que le Parlement vous ait écouté, car je
                   vous assure que le parti est pris de tout entreprendre plutost que de laisser
@@ -2560,7 +2573,7 @@
             <item n="230" xml:id="CAT_000135_e230">
                <num type="lot">230</num>
                <name type="author">Artois</name>
-               <desc xml:id="CAT_000135_e230_d1">Pièce sig. par Valentin de Pardieu, seigneur de L. a. Motte; Gravelines, juin
+               <desc xml:id="CAT_000135_e230_d1">Pièce sig. par Valentin de Pardieu, seigneur de La Motte; Gravelines, juin
                   1580, 3/4 de p. in-fol., cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Importante pièce historique. Promesse par V. de Pardieu au colonel anglais
@@ -3060,7 +3073,7 @@
             <item n="294" xml:id="CAT_000135_e294">
                <num type="lot">294</num>
                <name type="author">Venot d'Auteroche (Eugénie)</name>
-               <desc xml:id="CAT_000135_e294_d1">L. a. Cueillette du houblon à Percey (Haute-Marne). A la plume. Signé, in-4.</desc>
+               <desc xml:id="CAT_000135_e294_d1">La Cueillette du houblon à Percey (Haute-Marne). A la plume. Signé, in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="295" xml:id="CAT_000135_e295">

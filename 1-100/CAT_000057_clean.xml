@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000057">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000057</title>
+            <title>RDA, N°69 (Octobre 1881)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>69</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -153,7 +167,7 @@
                </trait>
                <desc xml:id="CAT_000057_e6_d1">Actes sur vélin, concernant les artistes suivants :
                   Silvestre, peintre du roi de Pologne, 1751 ; J.-M. Pelletier, sculpteur, 1752;
-                  F.-C. Fresson, 1772; L.-F. Marteau, peintre, 1751; L. a. Tour, le célèbre peintre,
+                  F.-C. Fresson, 1772; L.-F. Marteau, peintre, 1751; La Tour, le célèbre peintre,
                   1775; Houasse, peintre du roi et professeur de L'Académie royale de peinture,
                   1690; Christophe (Pierre), architecte, 1784, etc.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
@@ -311,7 +325,7 @@
                   mêmeproverbe, 22 p. in-f.</desc>
                <desc xml:id="CAT_000057_e16_d4">4° Amusement de société ou proverbes dramatiques,
                   formant la matière d'un vol. in-f. de 193 p. contenant les proverbes suivants: La
-                  Guinguette, L. a. robe de chambre, L'Habit neuf, le Seigneur du village amoureux,
+                  Guinguette, La robe de chambre, L'Habit neuf, le Seigneur du village amoureux,
                   L'Asne dans le potager, la Sonnette et le Marchand de bijoux.</desc>
                <measure commodity="currency" unit="FRF" quantity="17">17</measure>
             </item>
@@ -793,7 +807,7 @@
                   vend, an IX, 1 p. 1/2 in-f. Curieuse pièce par laquelle elle donne l'autorisation
                   de faire en son nom « tous échanges et acquisitions de portions de terre, prés,
                   bois et autres immeubles tendant à l'agrandissement et arrondissement de la terre
-                  de L. a. Malmaison.</desc>
+                  de La Malmaison.</desc>
                <desc xml:id="CAT_000057_e50_d2">2° Extrait de l'acte de mariage de Joséphine avec Napoléon; 2 p.
                   1/2 in-4. D'après cet acte, Joséphine, que l'on fait naître le 23 juin 1763,
                   serait née seulement le 23 juin 1767, et Bonaparte', qui est né le 15 août 1769,
@@ -1184,7 +1198,7 @@
                   <p>l'auteur de Paul et Virginie, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000057_e80_d1">1" 16 lettres à lui adressées par les personnages
-                  suivants : L. a. Luzerne, curieuse lettre de 1788 où il lui annonce qu'il souscrit à
+                  suivants : La Luzerne, curieuse lettre de 1788 où il lui annonce qu'il souscrit à
                   100 exemplaires du 4e volume des Etudes de la nature; Lambert, ministre de Louis
                   XVI, intéressante lettre de 1788 sur la continuation des secours dont lui et sa
                   soeur profitaient dans l'état des grâces du roi sur les fonds de la loterie
@@ -1223,7 +1237,7 @@
                <desc xml:id="CAT_000057_e81_d2">2° Let. sig. du duc du Maine à Mlle de Sévigné,
                   1701, 1 p. in-4, cachet. Piqûre d'humidité dans la marge.</desc>
                <desc xml:id="CAT_000057_e81_d3">3° Pièce sur vélin avec 5 lig. aut. sig. d'Anne de
-                  Sévigné; L. a. Gailleule, 1644, 12 p. in-4.</desc>
+                  Sévigné; La Gailleule, 1644, 12 p. in-4.</desc>
                <desc xml:id="CAT_000057_e81_d4">4° 3 let. aut. sig. de Mme la comtesse de
                   Sainte-Agathe, dernière descendante de Mme de Sévigné, etc.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>

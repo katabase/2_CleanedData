@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000088">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000088</title>
+            <title>RDA, N°95 (Décembre 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>95</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -85,7 +99,7 @@
                      France en 1624, né en 1572, mort en 1641</p>
                </trait>
                <desc xml:id="CAT_000088_e1_d1">L. a. s., en français, à Butrinckhausen, conseiller
-                  du duc de Wurtemberg; L. a. Haye, 8 août 1619, 3 p. in-f. Cachet. Très-rare.</desc>
+                  du duc de Wurtemberg; La Haye, 8 août 1619, 3 p. in-f. Cachet. Très-rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Précieuse lettre d'une grande importance historique. Les Hollandais sont
                   décidés à « s'opposer avec courage, effort et conduite, contre les moiens et
@@ -311,7 +325,7 @@
                      Régence, né en 1646, mort en 1733</p>
                </trait>
                <desc xml:id="CAT_000088_e17_d1">L. a. s. (au duc de Noailles); Saragosse, 29 mai
-                  (1709), 2 p. 3/4 in-4. L. a. signature a été biffée légèrement.</desc>
+                  (1709), 2 p. 3/4 in-4. La signature a été biffée légèrement.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Pièce historique. Minute de lettre écrite peu de temps après son élévation au
                   maréchalat. Il le remercie de l'avoir recommandé au duc d'Orléans et lui souhaite
@@ -455,7 +469,7 @@
                   <p>célèbre poète hollandais, ambassadeur en Angleterre, né en 1577, mort en
                      1660</p>
                </trait>
-               <desc xml:id="CAT_000088_e27_d1">L. a. s. au stathouder Frédéric-Henri; L. a. Haye, 15
+               <desc xml:id="CAT_000088_e27_d1">L. a. s. au stathouder Frédéric-Henri; La Haye, 15
                   juin 1646, 1 p. in-f. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
@@ -513,7 +527,7 @@
                <trait>
                   <p>le célèbre médecin de Louis XI, né en Franche-Comté, mort vers 1505</p>
                </trait>
-               <desc xml:id="CAT_000088_e32_d1">Let. sig. avec la sousc. aut.; L. a. Motte d'Egry
+               <desc xml:id="CAT_000088_e32_d1">Let. sig. avec la sousc. aut.; La Motte d'Egry
                   (Loiret), 14 juil. (1480), 1 p. in-4. Montée. Très-rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="110">110</measure>
                <note>Il annonce que le roi lui a donné en récompense des cinq cents livres tournois
@@ -880,7 +894,7 @@
                <trait>
                   <p>célèbre érudit, historiographe de France, né en 1615, mort à Lille en 1681</p>
                </trait>
-               <desc xml:id="CAT_000088_e60_d1">L. a. s. à M. Schaep, à L. a. Haye; Paris, 23 avril
+               <desc xml:id="CAT_000088_e60_d1">L. a. s. à M. Schaep, à La Haye; Paris, 23 avril
                   1650, 1 p. in-fol. Cachets et soies. Légères déchirures.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Il lui explique que Grossus Turonus désigne une monnaie de Tours sur la Loire
@@ -1678,7 +1692,7 @@
                      1567</p>
                </trait>
                <desc xml:id="CAT_000088_e127_d1">Let. sig., avec la souscription aut., à sa fille
-                  Eléonore (femme de François de L. a. Tour, vicomte de Turenne); Fontainebleau, 10
+                  Eléonore (femme de François de La Tour, vicomte de Turenne); Fontainebleau, 10
                   déc. 1547, 1 p. in-f. Légères taches de rouille.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>

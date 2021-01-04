@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000110">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000110</title>
+            <title>RDA, N°107 (Septembre 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>107</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -256,7 +269,7 @@
                      Saint-Fargeau, libraire et journaliste, né en 1785</p>
                </trait>
                <desc xml:id="CAT_000110_e16_d1">10 lettres à lui adressées par Choron, le baron
-                  Méchain, Etienne Lenoir, L. a. Rochefoucauld-Liancourt, etc; 1817-22, 17 pages in-8
+                  Méchain, Etienne Lenoir, La Rochefoucauld-Liancourt, etc; 1817-22, 17 pages in-8
                   ou in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1032,7 +1045,7 @@
                      1488</p>
                </trait>
                <desc xml:id="CAT_000110_e79_d1">Pièce sig. sur vélin ; Dammartin, 14 juin 1476, in-4
-                  obl. L. a. signature est très-pâle et presque effacée. Très-rare.</desc>
+                  obl. La signature est très-pâle et presque effacée. Très-rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Mandement à son gouverneur du comté de Dammartin de la
                   réception de la foi et hommage d'Antoine des Essars, écuyer, seigneur de Thieux, «
@@ -1055,7 +1068,7 @@
                <trait>
                   <p>femme auteur, poète et romancière distinguée, née à Semur en 1780</p>
                </trait>
-               <desc xml:id="CAT_000110_e81_d1">L. a. s. à L. a. Bouisse-Rochefort, 10 sept. 1827, 1 p.
+               <desc xml:id="CAT_000110_e81_d1">L. a. s. à La Bouisse-Rochefort, 10 sept. 1827, 1 p.
                   in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre. Elle ne peut lui donner les renseignements
@@ -1385,7 +1398,7 @@
                   <p>le célèbre peintre réaliste, membre de la Commune de Paris, né à Ornans en
                      1819, mort en 1877</p>
                </trait>
-               <desc xml:id="CAT_000110_e106_d1">L. a. s. à Albert de L. a. Fizelière; Saintes, 23
+               <desc xml:id="CAT_000110_e106_d1">L. a. s. à Albert de La Fizelière; Saintes, 23
                   avril 1863, 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Lettre des plus curieuses : « J'avais voulu savoir le degré de
@@ -2222,7 +2235,7 @@
                      Ensorcelés</p>
                </trait>
                <desc xml:id="CAT_000110_e172_d1">L. a. s. à Favart ; Paris10 fév. 1777, 2 p. 1/4
-                  in-4. L. a. partie blanche du second feuillet manque. Rare.</desc>
+                  in-4. La partie blanche du second feuillet manque. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Intéressante lettre où il le félicite sur le succès de Soliman
                   (Soliman II)</note>
@@ -2443,7 +2456,7 @@
                      en 1748, mort à Brunswick en 1806. C'est contre lui qu'éclata l'insurrection de
                      1783 à 1787.</p>
                </trait>
-               <desc xml:id="CAT_000110_e192_d1">L. a. s., en français, à Starhemberg; L. a. Haye, 29
+               <desc xml:id="CAT_000110_e192_d1">L. a. s., en français, à Starhemberg; La Haye, 29
                   avril1793, 1 p. in-4. Déchirure atteignant légèrement le texte.</desc>
                <measure commodity="currency" unit="FRF" quantity="28">28</measure>
                <note>Il lui annonce qu'il a placé le comte Albert de Brancas dans
@@ -2640,7 +2653,7 @@
                <trait>
                   <p>peintre hollandais très distingué, né à Groningue en 1824</p>
                </trait>
-               <desc xml:id="CAT_000110_e208_d1">L. a. s., en français; L. a. Haye, 8 mars 1878, 1 p.
+               <desc xml:id="CAT_000110_e208_d1">L. a. s., en français; La Haye, 8 mars 1878, 1 p.
                   in-8. Jolie lettre avec un charmant croquis encadré dans le texte.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
@@ -2661,7 +2674,7 @@
                <trait>
                   <p>compositeur distingué, né en 1827</p>
                </trait>
-               <desc xml:id="CAT_000110_e210_d1">L. a. s. à Siraudin ; L. a. Haye, 3 fév. 1871. 2 p.
+               <desc xml:id="CAT_000110_e210_d1">L. a. s. à Siraudin ; La Haye, 3 fév. 1871. 2 p.
                   in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Sur une pièce de Siraudin intitulée Lucrèce, dont il devait
@@ -2998,7 +3011,7 @@
                   <p>l'illustre tragédien français, né en 1728, mort en 1778</p>
                </trait>
                <desc xml:id="CAT_000110_e237_d1">L. a. s. à M. Deschamps, à Toulouse ; Paris, 6 juin
-                  1771. 1 p. 1/4 in-8, écornée. L. a. moitié du feuillet blanc de l'adresse
+                  1771. 1 p. 1/4 in-8, écornée. La moitié du feuillet blanc de l'adresse
                   manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Sur ses projets de voyage en Provence. Quant à Toulouse, il a
@@ -3672,7 +3685,7 @@
                      destruction de Bomarsund et de Sweaborg, né en 1787, mort en 1863</p>
                </trait>
                <desc xml:id="CAT_000110_e291_d1">Let. sig. au capitaine Rivière (plus tard
-                  commandant, mort glorieusement au Tonkin), à bord de L. a. Virginie; Lagskar (Iles
+                  commandant, mort glorieusement au Tonkin), à bord de La Virginie; Lagskar (Iles
                   d'Aland), 24 juin 1854, 2 p. 1/2 in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Lettre historique. Il lui indique ses dispositions pour bloquer
@@ -3788,7 +3801,7 @@
                </trait>
                <desc xml:id="CAT_000110_e300_d1">1° L. a. s. à l'éditeur Fage, 1 p. in-8. Il lui
                   annonce l'envoi de. son manuscrit l'Etourderie.</desc>
-               <desc xml:id="CAT_000110_e300_d2">2° L. a. Barbe ou les Deux Barbes, pièce de vers aut.
+               <desc xml:id="CAT_000110_e300_d2">2° La Barbe ou les Deux Barbes, pièce de vers aut.
                   sig., 2 p. 3/4 pet. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuse pièce contenant la relation d'une piquante aventure
@@ -3922,7 +3935,7 @@
                      1638, mort en 1843</p>
                </trait>
                <desc xml:id="CAT_000110_e311_d1">L. a. s. au cardinal de Fleury, 1830, 1 p. in-8.
-                  Curieuse lettre relative aux ouvrages de M. de L. a. Tour Serran.</desc>
+                  Curieuse lettre relative aux ouvrages de M. de La Tour Serran.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
             <item n="312" xml:id="CAT_000110_e312">
@@ -4271,7 +4284,7 @@
                      la comtesse de Moret, ancienne maîtresse de Henri IV, qu'il épousa en 1617. Il
                      fut condamné à mort par coutumace en 1636 pour avoir mal défendu La Capelle</p>
                </trait>
-               <desc xml:id="CAT_000110_e338_d1">Quittance sig. sur vélin; L. a. Capelle, 30 septembre
+               <desc xml:id="CAT_000110_e338_d1">Quittance sig. sur vélin; La Capelle, 30 septembre
                   1603, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Reçu de 100 livres pour un mois de ses gages comme gouverneur

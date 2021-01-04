@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000171">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000171</title>
+            <title>RDA, N°161 (Décembre 1893)</title>
             <respStmt>
                <persName ref="#COL_000004">Alexandre Bartz</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Revue des autographes</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>161</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-12">Décembre 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -1368,7 +1377,7 @@
                   <p>roi d'Haïti, il prit part à la guerre de l'Indépendance américaine, et fut
                      blessé au siège de Savannah, né en 1767, mort en 1821.</p>
                </trait>
-               <desc xml:id="CAT_000171_e108_d1">Let. sig. comme général de brigade; L. a. Petite-Anse,
+               <desc xml:id="CAT_000171_e108_d1">Let. sig. comme général de brigade; La Petite-Anse,
                   2 fructidor an V, 1 p. 2/3 in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1549,7 +1558,7 @@
                <trait>
                   <p>illustre général et pairiote, né en Auvergne en 1757, mort en 1834.</p>
                </trait>
-               <desc xml:id="CAT_000171_e123_d1">L. a. s. à Boissy d'Anglas; L. a. Grange, 12 septembre
+               <desc xml:id="CAT_000171_e123_d1">L. a. s. à Boissy d'Anglas; La Grange, 12 septembre
                   1826, 3/4 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Relative à une élection à l'Académie des inscriptions et belles-lettres; il lui
@@ -3555,7 +3564,7 @@
             <item n="286" xml:id="CAT_000171_e286">
                <num type="lot">286</num>
                <name type="author">Saintonge-Aunis</name>
-               <desc xml:id="CAT_000171_e286_d1">Let. sig. du marquis du Quesne, L. a. Rochelle, juin
+               <desc xml:id="CAT_000171_e286_d1">Let. sig. du marquis du Quesne, La Rochelle, juin
                   17 6, 3 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Il annonce que pour défendre la Saintonge et l'Aunis, il organise des

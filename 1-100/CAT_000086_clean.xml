@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000086">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000086</title>
+            <title>RDA, N°60 (Février 1877)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>60</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -136,7 +150,7 @@
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse pièce écrite comme curé d'Auriébat, et où il donne, pour se conformer
                   au décret de l'Assemblée nationale du 5 février, la liste des bénéfices dont il a
-                  la jouissance dans le département des Hautes- Pyrénées</note>
+                  la jouissance dans le département des Hautes-Pyrénées</note>
             </item>
             <item n="7" xml:id="CAT_000086_e7">
                <num type="lot">7</num>
@@ -527,7 +541,7 @@
                <num type="lot">42</num>
                <name type="author">Janin (Jules)</name>
                <trait>
-                  <p>le prince des critiques, membre de l'Acad. franc</p>
+                  <p>le prince des critiques, membre de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000086_e42_d1">L. a. s. à un littérateur, 1846, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -1300,7 +1314,7 @@
                <num type="lot">116</num>
                <name type="author">Parseval Grandmaison (F.-A)</name>
                <trait>
-                  <p>célèbre poète, de l'Acad. franc</p>
+                  <p>célèbre poète, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000086_e116_d1">L. a. s. à Cailhava, 1813, 1 p. in-4. Belle lettre.
                   Rare.</desc>
@@ -1675,7 +1689,7 @@
             </item>
             <item n="153" xml:id="CAT_000086_e153">
                <num type="lot">153</num>
-               <name type="author">ROYER (l'abbé P.-Denis),</name>
+               <name type="author">ROYER (l'abbé P.-Denis)</name>
                <trait>
                   <p>littérateur, né aux environs de Rodez.</p>
                </trait>
@@ -1881,7 +1895,7 @@
             </item>
             <item n="174" xml:id="CAT_000086_e174">
                <num type="lot">174</num>
-               <name type="author">LE FILLEUL de la CHAPELLE (U.-A),</name>
+               <name type="author">LE FILLEUL de la CHAPELLE (U.-A)</name>
                <trait>
                   <p>évêque de Vabres.</p>
                </trait>

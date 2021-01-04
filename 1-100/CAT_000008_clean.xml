@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000008">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
@@ -51,7 +52,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -59,6 +60,10 @@
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -66,7 +71,7 @@
             <gap/>
             <item n="230" xml:id="CAT_000008_e230" corresp="#MS_000008">
                <num type="lot">230</num>
-               <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de),</name>
+               <name type="author">SÉVIGNÉ (Marie de Rabutin-Chantal, marquise de)</name>
                <trait>
                   <p>la célèbre épistolaire, n. 1636, m. 1696.</p>
                </trait>

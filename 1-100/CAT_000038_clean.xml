@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000038">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000038</title>
+            <title>RDA, N°48 (Juillet 1876)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>48</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -627,7 +641,7 @@
                   <p>frère du grand Condé, filleul de Richelieu et neveu de Mazarin</p>
                </trait>
                <desc xml:id="CAT_000038_e53_d1">L. sig., 1649, 3/4 de p. in-f.</desc>
-               <measure commodity="currency" unit="FRF" quantity="3"/>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="54" xml:id="CAT_000038_e54">
                <num type="lot">54</num>
@@ -1101,7 +1115,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000038_e99_d1">L. sig. à M. de Beaumont; camp près L. a. Rochelle; 1er
+               <desc xml:id="CAT_000038_e99_d1">L. sig. à M. de Beaumont; camp près La Rochelle; 1er
                   juil. 1573, 3/4 de p. in-f. cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Relative au mariage de Mlle Du Chaussin avec le petit Rivoire, page de sa
@@ -1973,7 +1987,7 @@
                <trait>
                   <p>maréchal de France, mort en 1738</p>
                </trait>
-               <desc xml:id="CAT_000038_e181_d1">L. sig. à M. de L. a. Marque, 1736, 1 p. 1/2 in-4,
+               <desc xml:id="CAT_000038_e181_d1">L. sig. à M. de La Marque, 1736, 1 p. 1/2 in-4,
                   cachet. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>

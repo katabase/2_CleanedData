@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000022">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000022</title>
+            <title>RDA, N°23 (Octobre 1869)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>23</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> BnF, MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -90,7 +104,7 @@
                <num type="lot">2</num>
                <name type="author">Alembert (Lerond d')</name>
                <trait>
-                  <p>célèbre philosophe du XVIIIe siècle, de l'Acad. franc</p>
+                  <p>célèbre philosophe du XVIIIe siècle, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000022_e2_d1">L. a. s.; Paris, 3 nov. 1774, 1 p. in-4. Belle
                   pièce.</desc>
@@ -597,7 +611,7 @@
                <num type="lot">51</num>
                <name type="author">Delavigne (Casimir)</name>
                <trait>
-                  <p>célèbre poète, de l'Acad. franc</p>
+                  <p>célèbre poète, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000022_e51_d1">L. a. s. à Raynouard, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3.3">3 3</measure>
@@ -753,7 +767,7 @@
                <num type="lot">67</num>
                <name type="author">Florian (le chevalier de)</name>
                <trait>
-                  <p>gracieux écrivain, de l'Acad. franc</p>
+                  <p>gracieux écrivain, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000022_e67_d1">Quitt. sig., 1785, 1 p. in-8 obi.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1064,7 +1078,7 @@
                <num type="lot">97</num>
                <name type="author">La Harpe (J.-F. de)</name>
                <trait>
-                  <p>le plus grand critique du XVIIIe siècle, de l'Acad. franc</p>
+                  <p>le plus grand critique du XVIIIe siècle, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000022_e97_d1">L. a. s. à Palissot. 15 juin 1778, 1 p. 1/2 in-4,
                   beau cachet à ses armes. </desc>
@@ -1147,7 +1161,7 @@
                <num type="lot">104</num>
                <name type="author">Lava (J.-L.)</name>
                <trait>
-                  <p>célèbre poète dramat., auteur de l'Ami des Lois, de l'Acad. fr</p>
+                  <p>célèbre poète dramat., auteur de l'Ami des Lois, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e104_d1">L. a. s. à M. de Martignac, 1828, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1659,7 +1673,7 @@
                <num type="lot">154</num>
                <name type="author">Parny (Evariste)</name>
                <trait>
-                  <p>célèbre poète érotique, auteur de la Guerre des Dieux, de l'Acad. fr</p>
+                  <p>célèbre poète érotique, auteur de la Guerre des Dieux, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e154_d1">Note sig. de son initiale, adressée à Tissot, 3/4
                   de p. in-4. Jolie pièce. </desc>
@@ -1868,7 +1882,7 @@
                <num type="lot">174</num>
                <name type="author">Rothelin (l'abbé Ch. d'Orléans de)</name>
                <trait>
-                  <p>littérateur et savant numismate, de l'Acad. fr</p>
+                  <p>littérateur et savant numismate, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e174_d1">Pièce aut. sig. ; Moncy, 20 nov. 1732, 1 p.
                   in-4.</desc>
@@ -1992,7 +2006,7 @@
                <num type="lot">185</num>
                <name type="author">Saint-Pierre (Bernardin de)</name>
                <trait>
-                  <p>l'auteur de Paul et Virginie, de l'Acad. fr</p>
+                  <p>l'auteur de Paul et Virginie, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e185_d1">Reçu sig. des deux premiers volumes des Harmonies
                   de la Nature, an IV, 1 p. in-18.</desc>
@@ -2052,7 +2066,7 @@
                <name type="author">Target (G.-J.-B.)</name>
                <trait>
                   <p>célèbre avocat et constituant, qui refusa de défendre Louis XVI, memb. de
-                     l'Acad. fr</p>
+                     l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e191_d1">Belle pièce sig., 1793, 1/2 p. in-f.,</desc>
                <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
@@ -2070,7 +2084,7 @@
                <num type="lot">193</num>
                <name type="author">Thiers (Ad.)</name>
                <trait>
-                  <p>homme d'Etat, de l'Acad. fr</p>
+                  <p>homme d'Etat, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e193_d1">L. a. s. au libraire Naradan; Paris, 9 mai 1822, 1
                   p. in-8.</desc>
@@ -2157,7 +2171,7 @@
                <num type="lot">201</num>
                <name type="author">Vigny (Alf. de)</name>
                <trait>
-                  <p>poète célèbre, do l'Acad. fr</p>
+                  <p>poète célèbre, do l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000022_e201_d1">L. a. s. à l'imprimeur Tastu, 1825, 1 p. in-8, beau
                   cachet à ses armes. </desc>

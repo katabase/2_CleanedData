@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000034">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000034</title>
+            <title>RDA, N°43 (Janvier 1875)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>43</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1460,7 +1474,7 @@
                   <p>un de nos plus gracieux compositeurs de musique, auteur des Dragons de
                      Villars</p>
                </trait>
-               <desc xml:id="CAT_000034_e130_d1">L. a. Chanson arabe de Lara, paroles et musique aut.,
+               <desc xml:id="CAT_000034_e130_d1">La Chanson arabe de Lara, paroles et musique aut.,
                   2 fois sig. avec trois apostilles aut. sig. de Galli-Marié, Montaubry et Gourdin,
                   les interprètes de Lara, 1864, 1 p. in-f. Belle et intéressante pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
@@ -1870,7 +1884,7 @@
                <trait>
                   <p>l'illustre auteur des Mémoires</p>
                </trait>
-               <desc xml:id="CAT_000034_e169_d1">L. a. s. au marquis de Breteuil; L. a. Ferté, 1740,
+               <desc xml:id="CAT_000034_e169_d1">L. a. s. au marquis de Breteuil; La Ferté, 1740,
                   1/2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Très-jolie lettre relative au fort de Médoc, qui faisait partie de son

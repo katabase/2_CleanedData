@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000006">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000006</title>
+            <title>RDA, N°24, seconde série (1927)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,14 +21,23 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE </title>
+               <title>REVUE DES AUTOGRAPHES, CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>24 - deuxième série</num>
                <publisher>Gabrielle Charavay</publisher>
                <pubPlace>Paris, 6 square du Croisic</pubPlace>
-               <date>1927</date>
+               <date when="1927">1927</date>
             </bibl>
             <listWit>
-               <witness> BnF, 8-Q-928 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">8-Q-928</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -37,7 +47,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -59,8 +69,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -213,7 +223,7 @@
                <desc xml:id="CAT_000006_e13_d1">L. a. s. à l'abbé Mercier-de-Saint-Léger; Milan, 28
                   mai 1788 ; 3 p. gr. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="60">60</measure>
-               <note>Très belle lettre littéraire. L'abbé de Saint- Léger a écrit en tète : Répondu
+               <note>Très belle lettre littéraire. L'abbé de Saint-Léger a écrit en tète : Répondu
                   le 23 août 1788 par le professeur danois Olivarius, et envoyé le catalogue de
                   Soubise, avec la plaisanterie du marquis de Luchet, contre l'Académie française.
                   Il a également écrit un grand nombre de notes sur la 4e page</note>
@@ -614,7 +624,7 @@
                <num type="lot">46</num>
                <name type="author">Morelli (l'abbé Jacques)</name>
                <trait>
-                  <p>helléniste et bibliographe, bibliothécaire de Saint- Marc ; ne à Venise en
+                  <p>helléniste et bibliographe, bibliothécaire de Saint-Marc ; ne à Venise en
                      1745, mort en 1819. Membre correspondant de l'Institut</p>
                </trait>
                <desc xml:id="CAT_000006_e46_d1">L. a. s. en tête à Daniel Wytenbach, professeur à
@@ -1742,7 +1752,7 @@
                   'or. Il mourut le 22 décembre 1640.-P. sig., sig. aussi par Nicolas Brulart de
                   Sillery ; Paris, 6 mai 1610 ; 3/4 de p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="80">80</measure>
-               <note>Arrêt du Roi accordant au sieur de Sainte- Colombe, sénéchal du Béarn, en
+               <note>Arrêt du Roi accordant au sieur de Sainte-Colombe, sénéchal du Béarn, en
                   considération de ses bons services, la permission d'assister aux audiences de la
                   chambre et d'y prendre rang après le président</note>
             </item>
@@ -1764,7 +1774,7 @@
                <num type="lot">135</num>
                <name type="author">Cambacérès (J.-J. Régis de)</name>
                <trait>
-                  <p>consul, archi-chancelier, membre de l'Institut et de l'Acad. fr</p>
+                  <p>consul, archi-chancelier, membre de l'Institut et de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000006_e135_d1">L. sig. au citoyen Lacretelle aîné, membre du Corps
                   législatif; Paris, 6 vendémiaire an XI ; 3/4 de p. in-4.</desc>
@@ -1966,7 +1976,7 @@
                <num type="lot">148</num>
                <name type="author">Ferronnays (Pierre -Louis -Auguste Ferron, comte de La)</name>
                <trait>
-                  <p>célèbre diplomate de la Restauration, né à Saint- Malo en 1777, m. en 1842</p>
+                  <p>célèbre diplomate de la Restauration, né à Saint-Malo en 1777, m. en 1842</p>
                </trait>
                <desc xml:id="CAT_000006_e148_d1">L. a. s. au comte de Rayneval ; Inspruck, 9 oct.
                   1822 ; 1 p. in-4, cachets et nombreuses marques postales.</desc>
@@ -2099,7 +2109,7 @@
             <item n="157" xml:id="CAT_000006_e157">
                <num type="lot">157</num>
                <name type="author">Louis XIII</name>
-               <desc xml:id="CAT_000006_e157_d1">P. sig. par Jacques de L. a. Rocaing, seigneur
+               <desc xml:id="CAT_000006_e157_d1">P. sig. par Jacques de La Rocaing, seigneur
                   Aiguebere, aide de camp des armées du Roi ; 28 mai 1637 ; 1 p. in-4 ocl.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Il reconnaît avoir reçu de M Macé Bertrand de La Bazinière, la somme de 1,500
@@ -2217,7 +2227,7 @@
                <name type="author">Rabutin (Christophe de)</name>
                <trait>
                   <p>gouverneur de Semur, chevalier, seigneur de Bourbilly et de Montholon lez-Ostun
-                     (Monthelon près Autun) résidence de Sainte- Jeanne Chantal entre 1602 et 1609 ;
+                     (Monthelon près Autun) résidence de Sainte-Jeanne Chantal entre 1602 et 1609 ;
                      elle y fut visitée par Saint François de Sales</p>
                </trait>
                <desc xml:id="CAT_000006_e166_d1">P. avec 1/4 de page aut. sig. ; Bourbilly, 14 juin
@@ -2255,7 +2265,7 @@
             <item n="169" xml:id="CAT_000006_e169">
                <num type="lot">169</num>
                <name type="author">Régiment-Duplessis Bellièvre</name>
-               <desc xml:id="CAT_000006_e169_d1">P. sig. par le sieur de L. a. Rabelière, commandant de
+               <desc xml:id="CAT_000006_e169_d1">P. sig. par le sieur de La Rabelière, commandant de
                   la cavalerie légère au dit régiment; au camp devant Girone, 15 septembre 1653 ; 1
                   p. in-4 obl., petite tache d'humidité dans une marge.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -2560,7 +2570,7 @@
                <num type="lot">192</num>
                <name type="author">Dumas (A.)</name>
                <trait>
-                  <p>fils, le célèbre auteur dramatique, membre de l'Acad. fr</p>
+                  <p>fils, le célèbre auteur dramatique, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000006_e192_d1">L. a. s. à une femme de lettres; 11 p. 1/2
                   in-8.</desc>
@@ -2612,7 +2622,7 @@
                <num type="lot">195</num>
                <name type="author">Duruy (Victor)</name>
                <trait>
-                  <p>le célèbre historien et homme d'Etat, membre de l'Acad. fr</p>
+                  <p>le célèbre historien et homme d'Etat, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000006_e195_d1">L. a. s. à M. de Poggenpohl, journaliste, 5 janv.
                   1857 ; 1 p. pl. in-8.</desc>
@@ -2627,7 +2637,7 @@
                <num type="lot">196</num>
                <name type="author">Duruy (Victor)</name>
                <trait>
-                  <p>le célèbre historien, de l'Acad. fr</p>
+                  <p>le célèbre historien, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000006_e196_d1">L. a. s. à M. de Poggenpohl, écrivain russe ;
                   Villeneuve-Saint-Georges, 27 juin 1891 ; 1 p. in-18.</desc>
@@ -3919,8 +3929,8 @@
                <desc xml:id="CAT_000006_e302_d1">énerie, ses nombreux ouvrages lui firent e bonne
                   heure, une bonne réputation, On lui doit des compositions brillantes pleines
                   d'imagination et de fécondité pour divers livres illustrés ; entre autres « Gil
-                  Blas. On peut citer parmi ses principaux tableaux : L. a. mort de Léonard de Vinci,
-                  Antoine et Cléopâtre, L. a. mort du duc d'Alençon à la Bataille d'Azincourt. Né à
+                  Blas. On peut citer parmi ses principaux tableaux : La mort de Léonard de Vinci,
+                  Antoine et Cléopâtre, La mort du duc d'Alençon à la Bataille d'Azincourt. Né à
                   Besançon en 1838.-L. a. s. à un ami ; 1 p. 1/3 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Au sujet d'une estampe qu'il a en 1er état, qui vaut 500 frs, et en 2e état
@@ -4552,7 +4562,7 @@
                   <p>l'auteur de Mémoires. Né à Montpellier en 1784, m. en 1838</p>
                </trait>
                <desc xml:id="CAT_000006_e355_d1">P. a. s. ; « A mon fils Napoléon d'Abrantés,
-                  souvenir de coeur, L. a. duchesse d'A., 1er mai 1816, sur la feuille du titre de .
+                  souvenir de coeur, La duchesse d'A., 1er mai 1816, sur la feuille du titre de .
                   Mémoires sur la Restauration, Tome III.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -4915,7 +4925,7 @@
                <name type="author">La Rochejaquelein (M)</name>
                <desc xml:id="CAT_000006_e385_d1">L. Victoire Donissan, marquise de Lescure puis Mile
                   de), elle fut l'épouse de deux célébres généraux Vendéens, les Marquis de Lescure
-                  et de L. a. Rochejaquelein morts tous les deux au champ d'honneur. Née en 1772 à
+                  et de La Rochejaquelein morts tous les deux au champ d'honneur. Née en 1772 à
                   Versailles, m. à Orléans en 1857.-P. aut. sig. ; Paris, 27 mai 1830 ; 1 p. in-8
                   obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -5027,7 +5037,7 @@
                <num type="lot">395</num>
                <name type="author">Montdragon (Mme Bory de)</name>
                <desc xml:id="CAT_000006_e395_d1">L. a. s. à son frère, grand maître des eaux et
-                  forêts d'Orléans ; Monldragon près L. a. Ferté-Bernard (Sarthe), 21 sept. 1735; 4 p.
+                  forêts d'Orléans ; Monldragon près La Ferté-Bernard (Sarthe), 21 sept. 1735; 4 p.
                   in-4. Beaux cachets à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Aimable lettre où elle regrette de n'avoir pu lui répondre plus tôt car elle
@@ -5094,7 +5104,7 @@
             <item n="402" xml:id="CAT_000006_e402">
                <num type="lot">402</num>
                <name type="author">Poivre (Madame)</name>
-               <desc xml:id="CAT_000006_e402_d1">L. a. s. à M. Mathon de L. a. Cour ; 3 p. pl. in-4,
+               <desc xml:id="CAT_000006_e402_d1">L. a. s. à M. Mathon de La Cour ; 3 p. pl. in-4,
                   cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Aimuble lettre</note>
@@ -5160,7 +5170,7 @@
                <num type="lot">408</num>
                <name type="author">Saint-Georges (Jeanne de HarlayMontglat, dame de)</name>
                <trait>
-                  <p>épouse de Hardouin de Clermont, seigneur de Saint- Georges Elle fut dame
+                  <p>épouse de Hardouin de Clermont, seigneur de Saint-Georges Elle fut dame
                      d'honneur de Christine et d'Henriette de France, filles d'Anne-Marie d'Orléans,
                      duchesse de Montpensier</p>
                </trait>
@@ -5177,7 +5187,7 @@
                      présentation à la Cour</p>
                </trait>
                <desc xml:id="CAT_000006_e409_d1">L. a. s. à son beau-frère le lieutenant général de
-                  L. a. Coste Messelière de la famille bourguignone de Trottier ; 3 p. in-4, cachet a
+                  La Coste Messelière de la famille bourguignone de Trottier ; 3 p. in-4, cachet a
                   ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Au sujet de meubles laissés à Cersigny et à Poitiers, qu'elle réclame pour
@@ -5557,7 +5567,7 @@
                <num type="lot">439</num>
                <name type="author">D'Astros (Paul-Thérèse-David, cardinal)</name>
                <trait>
-                  <p>évêque d'Orange en 1817, de Saint- Flour en 1819, de Bayonne en 1820, à
+                  <p>évêque d'Orange en 1817, de Saint-Flour en 1819, de Bayonne en 1820, à
                      Toulouse en 1830, cardinal en 1850</p>
                </trait>
                <desc xml:id="CAT_000006_e439_d1">L. s. à Monseigneur…; Bayonne, 29 janvier 1822 ;
@@ -5784,7 +5794,7 @@
                      était auteur d'excellents ouvrages, savant botaniste et archéologue et très bon
                      orateur</p>
                </trait>
-               <desc xml:id="CAT_000006_e456_d1">L. a. s. comme évêque nommé de L. a. Rochelle ; Autun,
+               <desc xml:id="CAT_000006_e456_d1">L. a. s. comme évêque nommé de La Rochelle ; Autun,
                   1er mai 1856 ; 3/4 de p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il lui envoie un autographe de Mgr d'Orléans. « La mort si chrétienne de votre

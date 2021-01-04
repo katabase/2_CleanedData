@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000329">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000329</title>
+            <title>RDA, N°201 (Août 1897)</title>
             <respStmt>
                <persName ref="#COL_000001">Matthias Gille Levenson</persName>
                <resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl status="draft">
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">201</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
-               <date when="1893-02">Août 1897</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>201</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1897-08">Août 1897</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -367,7 +380,7 @@
                      Montpellier en 1753, mort en 1824.</p>
                </trait>
                <desc xml:id="CAT_000329_e26_d1">Let. sig., sig. aussi par les conventionnels Roux et
-                  L. a. Porte, comme membres du Comité de Salut public, à André Dumont; Paris, 14
+                  La Porte, comme membres du Comité de Salut public, à André Dumont; Paris, 14
                   floréal an III, 1 p. in-4, tête imp., vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -672,7 +685,7 @@
                   <p>baron de Grandchamp, général d'artillerie de la Révolution et de l'Empire, né à
                      Beaumont (Sarthe) en 1763, mort en 1834.</p>
                </trait>
-               <desc xml:id="CAT_000329_e52_d1">L. a. s.; Ponté de L. a. Menda (Itali?), 12 prairial an
+               <desc xml:id="CAT_000329_e52_d1">L. a. s.; Ponté de La Menda (Itali?), 12 prairial an
                   V, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -931,7 +944,7 @@
                <trait>
                   <p>compositeur contemporain très distingué, né à Nîmes en 1827.</p>
                </trait>
-               <desc xml:id="CAT_000329_e73_d1">L. a. Marseillaise, pour quatre voix d'hommes sans
+               <desc xml:id="CAT_000329_e73_d1">La Marseillaise, pour quatre voix d'hommes sans
                   accompagnement, morceau de musique avec paroles aut. sig. ; Paris, souvenir du
                   siège, 1870-1871, 3 p. 1/2 in-fol. Jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -1635,7 +1648,7 @@
                      en 1766, mort en 1842.</p>
                </trait>
                <desc xml:id="CAT_000329_e126_d1">Let. aut. à Mme la comtesse de Las Cases (née de
-                  Kergariou); (L. a. Malmaison), 29 (juin 1815), 1 p. in-8 obl.</desc>
+                  Kergariou); (La Malmaison), 29 (juin 1815), 1 p. in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note anchored="true">Importante lettre historique. « Au moment de partir, l'empereur, apprenant les
                   dangers de Paris et l'état de l'ennemi, a envoyé au gouvernement provisoire pour

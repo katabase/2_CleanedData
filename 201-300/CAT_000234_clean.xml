@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000234">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000234">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -927,7 +928,7 @@
                <trait>
                   <p>auteur des Lettres sur l'Italie, né à La Rochelle en 1746, mort en 1788.</p>
                </trait>
-               <desc xml:id="CAT_000234_e91_d1">L. a. s. à M. Target, avocat; Rouen, 2 décembre (1786), 1 p. in-8, cachet.-On a joint une brochure intitulée : L. a. mort de M. le Président Dupaty, 1789, 14 p. in-8.</desc>
+               <desc xml:id="CAT_000234_e91_d1">L. a. s. à M. Target, avocat; Rouen, 2 décembre (1786), 1 p. in-8, cachet.-On a joint une brochure intitulée : La mort de M. le Président Dupaty, 1789, 14 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note anchored="true">Belle lettre relative à sa plaidoirie en faveur des trois innocents condamnés à la roue. « Je suis parvenu à faire casser l'arrêt, à obtenir ensuite une sentence unanime d'absolution.»</note>
             </item>
@@ -1477,7 +1478,7 @@
             <item n="150" xml:id="CAT_000234_e150">
                <num type="lot">150</num>
                <name type="author">Lafayette (le marquis de)</name>
-               <desc xml:id="CAT_000234_e150_d1">L. a. s., L. a. Grange, 23 juillet 1809, 1/4 de p. in-4.</desc>
+               <desc xml:id="CAT_000234_e150_d1">L. a. s., La Grange, 23 juillet 1809, 1/4 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="151" xml:id="CAT_000234_e151">
@@ -1524,7 +1525,7 @@
                <trait>
                   <p>l'illustre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000234_e155_d1">L. a. s. (au marquis de L. a. Maisonfort) ; Florence, 17avril 1826, 4 p. in-8.</desc>
+               <desc xml:id="CAT_000234_e155_d1">L. a. s. (au marquis de La Maisonfort) ; Florence, 17avril 1826, 4 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note anchored="true">Très curieuse lettre sur son séjour à Florence. « J'arrive de Pise où j'ai accompagné nos amis le marquis et la marquise de Barol. Le duc de Lucques est parti pour Vienne ex-abrupto. » Le printemps lui a donné le spleen et diminué sa verve. Il croit que son ancien ministre a « trop d'activité dans l'esprit pour sortir tout à fait de la scène.»</note>
             </item>
@@ -1621,7 +1622,7 @@
                <trait>
                   <p>maréchal de France, ministre de la guerre sous Napoléon III.</p>
                </trait>
-               <desc xml:id="CAT_000234_e166_d1">L. a. s. au général Valazé; L. a. Haye, 4 juin 1871, 2 p. 1/2 in-8.</desc>
+               <desc xml:id="CAT_000234_e166_d1">L. a. s. au général Valazé; La Haye, 4 juin 1871, 2 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note anchored="true">Belle lettre de recommandation en faveur de M. Van den Broek.</note>
             </item>
@@ -1822,7 +1823,7 @@
                <trait>
                   <p>duc de Bassano, le célèbre ministre de Napoléon Ier.</p>
                </trait>
-               <desc xml:id="CAT_000234_e187_d1">L. a. s. à M. de L. a. Tour-Maubourg, ministre de France, à Wurtz-bourg; Paris, 6 avril 1813, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000234_e187_d1">L. a. s. à M. de La Tour-Maubourg, ministre de France, à Wurtz-bourg; Paris, 6 avril 1813, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note anchored="true">Il lui annonce confidentiellement que l'Empereur sera à Mayence du 12 au 15 avril. </note>
             </item>
@@ -2131,7 +2132,7 @@
                <trait>
                   <p>un des plus grands capitaines de son temps, fils de Guillaume-le-Taciturne.</p>
                </trait>
-               <desc xml:id="CAT_000234_e220_d1">Let. sig. avec la souscript. aut., en français, au vicomte de L'Isle; L. a. Haye, 14 mai 1614, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000234_e220_d1">Let. sig. avec la souscript. aut., en français, au vicomte de L'Isle; La Haye, 14 mai 1614, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note anchored="true">Relative à un différend entre le capitaine Everarde, sergent-major de Flessingue, et le chevalier Throckmorton, officier anglais.</note>
             </item>
@@ -2347,7 +2348,7 @@
                <trait>
                   <p>l'illustre auteur des Mémoires, né en 1675, mort en 1755.</p>
                </trait>
-               <desc xml:id="CAT_000234_e243_d1">L. a. sig. de ses initiales à M. de Valincourt; L. a. Ferté, 20 octobre 1729, 3 p. in-4.</desc>
+               <desc xml:id="CAT_000234_e243_d1">L. a. sig. de ses initiales à M. de Valincourt; La Ferté, 20 octobre 1729, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="70">70</measure>
                <note anchored="true">Importante lettre. Il critique la politique du roi de Sardaigne, Victor-Amédée, qui résiste au Saint-Siège et ne veut pas accepter la Constitution Unigenitus; il essaye de chasser les jésuites, et, pour gagner le pape, envoie au duc de Gravina le collier de l'ordre de l'Annonciade, dont il discute longuement la valeur : « De chasser les jesuittes et de les depouiller de leurs biens, sans crime, sans felonie, cela me paroit bien fort à faire et plus encore à soustenir ; ce qui s'est passé en France à cet egard est une grande leçon. » Il discute aussi la politique de Victor-Amédée qui aurait voulu empêcher les enfants d'Elisabeth Farnèse et de Philippe V d'occuper Parme et la Toscane. « D'espouser la Palatine ; il n'en aura point d'enfans et son fils à luy a un fils. S'il la prend pour son argent, si elle en a beaucoup, il n'a besoin pour cela que d'elle; si pour des fiefs, elle ne peut avoir que des terres de particulière sans conséquence, si pour succéder au grand Duc il prend l'investiture du Pape, que dira l'Empereur, d'une part, pour son droit, l'Espagne de l'autre, pour don Carlos, et les puissances qui bien ou mal se sont là dessus engagées avec elle ». Il termine en remerciant M. de Valincourt de l'envoi de fleurs, pour lui et Mme de Saint-Simon.</note>
             </item>
@@ -2686,7 +2687,7 @@
             <item n="278" xml:id="CAT_000234_e278">
                <num type="lot">278</num>
                <name type="author">René d'Anjou et Isabelle de Lorraine</name>
-               <desc xml:id="CAT_000234_e278_d1">Pièce sig. sur vélin par Jean de L. a. Sale, conseiller et maître-d'hôtel du roi et de la reine de Sicile; 20 août 1464, 1 p. in-8 obl.</desc>
+               <desc xml:id="CAT_000234_e278_d1">Pièce sig. sur vélin par Jean de La Sale, conseiller et maître-d'hôtel du roi et de la reine de Sicile; 20 août 1464, 1 p. in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note anchored="true">Quittance dudit Jean de la Sale à Olivier Habert, maître de la Chambre aux deniers, de 483 1. 6 s. 8 d. pour les dépenses des gens et chevaux du roi René durant un demi-mois.</note>
             </item>

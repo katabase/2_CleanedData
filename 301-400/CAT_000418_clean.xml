@@ -1,6 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000418">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -156,7 +155,7 @@
                <trait>
                   <p>célèbre romancier, né près de Versailles en 1789, mort en 1856.</p>
                </trait>
-               <desc xml:id="CAT_000418_e6_d1">L. a. Piété, pièce de vers aut. sig., 1 p. in-4 obl.</desc>
+               <desc xml:id="CAT_000418_e6_d1">La Piété, pièce de vers aut. sig., 1 p. in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>cement : Il est des malheureux : Oui, tel est sur laterre, Des destins l'arrêt
                   redouté. Mais Dieu près du malheur place la piété, Appui consolation de l'humaine
@@ -242,7 +241,7 @@
                <trait>
                   <p>le célèbre auteur dramatique.</p>
                </trait>
-               <desc xml:id="CAT_000418_e13_d1">L. a. coix des Orphelins, pièce de vers aut. sig.; 1788, 1 p. pl. in-4. Belle
+               <desc xml:id="CAT_000418_e13_d1">La coix des Orphelins, pièce de vers aut. sig.; 1788, 1 p. pl. in-4. Belle
                   pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1890,7 +1889,7 @@
                <trait>
                   <p>reine de Navarre, mère de Henri IV.</p>
                </trait>
-               <desc xml:id="CAT_000418_e141_d1">L. a. s. à Charles IX; L. a. Rochelle, 3 janvier 1571, 3 p. in-fol. Très
+               <desc xml:id="CAT_000418_e141_d1">L. a. s. à Charles IX; La Rochelle, 3 janvier 1571, 3 p. in-fol. Très
                   rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="300">300</measure>
                <note>Belle et importante lettre historique. Elle ne peut croire aux protestations
@@ -2680,7 +2679,7 @@
                <trait>
                   <p>savant bibliographe et érudit, né en 1751, mort en 1838.</p>
                </trait>
-               <desc xml:id="CAT_000418_e213_d1">L. a. s. en vers, à Firmin Didot; L. a. Charité, 20 mars 1808, 3 p. 1/2
+               <desc xml:id="CAT_000418_e213_d1">L. a. s. en vers, à Firmin Didot; La Charité, 20 mars 1808, 3 p. 1/2
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Curieuse lettre où il lui demande d'imprimer son Eloge historique de Jean
@@ -3583,7 +3582,7 @@
                   <p>célèbre maréchal de France, de l'Acad. fr., né à Moulins en 1653, mort en 1734.
                     </p>
                </trait>
-               <desc xml:id="CAT_000418_e294_d1">Let. sig.. sig. aussi par Armand de Gontaut, duc de Biron, à M. de L. a. Motte
+               <desc xml:id="CAT_000418_e294_d1">Let. sig.. sig. aussi par Armand de Gontaut, duc de Biron, à M. de La Motte
                   Saint-Paul, à Fontenay-le-Comte (Poitou) ; Paris, 8 mai 1718, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>

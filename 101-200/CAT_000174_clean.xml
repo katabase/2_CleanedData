@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000174">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000174</title>
+            <title>RDA, N°164 (Mars 1894)</title>
             <respStmt>
-               <persName ref="#COL_000001">Matthias Gille Levenson</persName>
+               <persName ref="#COL_000006">Matthias Gille Levenson</persName>
                <resp>
                   <date when="2020">2020</date>
                </resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num>174</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02">Mars 1894</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>164</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1894-03">Mars 1894</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -1256,7 +1265,7 @@
                <desc xml:id="CAT_000174_e92_d8">7° Copie d'une lettre
                   de Banks à Dolomieu; Londres, 1801, 2 p. in-fol.</desc>
                <desc xml:id="CAT_000174_e92_d9">8° L. a. s. de Fay, ami de
-                  Dolomieu, à lord Hamilton; L. a. Valette, 8 mai 1800, 2 p. in-4.-9° 3 copies de
+                  Dolomieu, à lord Hamilton; La Valette, 8 mai 1800, 2 p. in-4.-9° 3 copies de
                   lettres de Dolomieu, écrites pendant sa captivité, et une note sur son
                   arrestation; 1799-1800, 9 p. in-fol. et in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
@@ -3033,7 +3042,7 @@
                <trait>
                   <p>célèbre écrivain italien, auteur de Mes Prisons, né en 1789, mort en 1854. </p>
                </trait>
-               <desc xml:id="CAT_000174_e230_d1">Pièce aut., 1 p. 1/2 in-fol. L. a. signature a été
+               <desc xml:id="CAT_000174_e230_d1">Pièce aut., 1 p. 1/2 in-fol. La signature a été
                   enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Critique d'un ouvrage intitulé : Hommes de transition. -« A m'en croire, une

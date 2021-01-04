@@ -1,8 +1,9 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000019">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000019">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000019</title>
+            <title>RDA, N°19 (décembre 1868)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>19</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> BnF, MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -72,8 +82,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -262,7 +272,7 @@
                <trait>
                   <p>célèbre homme politique et économiste, de l'Institut, né dans la Sarthe</p>
                </trait>
-               <desc xml:id="CAT_000019_e3940_d1">L. a. s.; L. a. Grange, 1842, 2 p. in-8. 2 50 Epitre
+               <desc xml:id="CAT_000019_e3940_d1">L. a. s.; La Grange, 1842, 2 p. in-8. 2 50 Epitre
                   intéressante toute relative à l'économiste Eng. Buret, mort prématurément.</desc>
             </item>
             <item n="3941" xml:id="CAT_000019_e3941">
@@ -334,7 +344,7 @@
                <num type="lot">3947</num>
                <name type="author">Biot (J.-B.)</name>
                <trait>
-                  <p>savant astronome, de l'Acad. fr</p>
+                  <p>savant astronome, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e3947_d1">L. a. s. au colonel Crottat; Paris, 1822, 1 p. pl.
                   pet. in-4.</desc>
@@ -713,7 +723,7 @@
                <num type="lot">3981</num>
                <name type="author">Delavigne (Casimir)</name>
                <trait>
-                  <p>l'auteur des Messéniennes, de l'Acad. fr</p>
+                  <p>l'auteur des Messéniennes, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e3981_d1">L. a. s. à M. Leloup, 1 p. in-8. Légèrement
                   fripée.</desc>
@@ -1161,7 +1171,7 @@
                <num type="lot">4022</num>
                <name type="author">Laprade (Victor de)</name>
                <trait>
-                  <p>poète, de l'Acad. fr</p>
+                  <p>poète, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e4022_d1">L. a. s. ; Lyon, 14 mai, 1 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
@@ -1431,7 +1441,7 @@
                <num type="lot">4046</num>
                <name type="author">Nisard (Désiré)</name>
                <trait>
-                  <p>célèbre critique, de l'Acad. fr</p>
+                  <p>célèbre critique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e4046_d1">L. a. s., 1840, 2 p. in-8. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>
@@ -1527,7 +1537,7 @@
                <num type="lot">4055</num>
                <name type="author">Quinault (Ph.)</name>
                <trait>
-                  <p>poète dramatique, de l'Acad. fr</p>
+                  <p>poète dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e4055_d1">Exdono do quatre lignes aut. sig., à M. Dupin,
                   cons. du roi, sur une garde de livre. Très-rare.</desc>
@@ -1540,7 +1550,7 @@
                   <p>évêque d'Orléans, de Dijon, puis arch. d'Aix, dont Mgr Dupanloup a rappelé le
                      souvenir avec beaucoup d'aigreur, né a Bourgoin (Isère)</p>
                </trait>
-               <desc xml:id="CAT_000019_e4056_d1">L. a. s. au bar. Petit de L. a. Fosse ; Paris, 1829,
+               <desc xml:id="CAT_000019_e4056_d1">L. a. s. au bar. Petit de La Fosse ; Paris, 1829,
                   1 p. in-4. Sur sa nomination à l'évêché de Dijon.</desc>
                <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
@@ -1578,7 +1588,7 @@
                <trait>
                   <p>l'auteur do la Marseillaise</p>
                </trait>
-               <desc xml:id="CAT_000019_e4059_d1">L. a. Mère et le Lion (légende du Lion de Florence),
+               <desc xml:id="CAT_000019_e4059_d1">La Mère et le Lion (légende du Lion de Florence),
                   pièce de vers aut., 2 p. in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="9">9</measure>
             </item>
@@ -1663,7 +1673,7 @@
                   <p>fameux brasseur du faubourg Saint-Antoine, commandant général de la garde
                      nationale de Paris lors de l'exécution de Louis XVI.</p>
                </trait>
-               <desc xml:id="CAT_000019_e4067_d1">L. s. au citoyen L. a. Saulsaye; 4 avril 1793, 1 p.
+               <desc xml:id="CAT_000019_e4067_d1">L. s. au citoyen La Saulsaye; 4 avril 1793, 1 p.
                   in-f., tête imprimée.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -1785,7 +1795,7 @@
                <num type="lot">4079</num>
                <name type="author">Tocqueville (Alexis de)</name>
                <trait>
-                  <p>publiciste et homme d'Etat, de l'Acad. fr</p>
+                  <p>publiciste et homme d'Etat, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000019_e4079_d1">L. a. s., 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>

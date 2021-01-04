@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000004">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000004</title>
+            <title>Vente Etienne Charavay, 30 mai 1986</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -26,7 +27,7 @@
                <pubPlace>3 rue de Furstenberg, Paris</pubPlace>
                <publisher>J. Pearson &amp;co</publisher>
                <pubPlace>5, Pall Mall Place, S.W., Londres</pubPlace>
-               <date>1896</date>
+               <date when="1896">1896</date>
             </bibl>
             <listEvent>
                <event>
@@ -42,9 +43,21 @@
                </event>
             </listEvent>
             <listWit>
-               <witness>BnF, CV-11669<ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">CV-11669</idno>
+                        <altIdentifier>
+                           <idno>NUMM-314682</idno>
+                        </altIdentifier>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
                </witness>
-               <witness>BnF, NUMM-314682</witness>
             </listWit>
             <listBibl>
                <bibl/>
@@ -53,7 +66,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -75,8 +88,8 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -146,7 +159,7 @@
             </item>
             <item n="7" xml:id="CAT_000004_e7">
                <num type="lot">7</num>
-               <name type="author">ANNE D'AUTRICHE,</name>
+               <name type="author">ANNE D'AUTRICHE</name>
                <trait>
                   <p>reine de France, femme Louis XIII, n. 1601, m. 1666</p>
                </trait>
@@ -519,7 +532,7 @@
             <item n="41" xml:id="CAT_000004_e41">
                <num type="lot">41</num>
                <name type="author">FLORIAN (Jean-Pierre Claris de)</name>
-               <desc xml:id="CAT_000004_e41_d1">L. a. Sauterelle, fable autographe, 3 p. in-8. Très
+               <desc xml:id="CAT_000004_e41_d1">La Sauterelle, fable autographe, 3 p. in-8. Très
                   jolie pièce</desc>
             </item>
             <item n="42" xml:id="CAT_000004_e42">
@@ -896,7 +909,7 @@
                <trait>
                   <p>frère et compagnon d'armes du précédent</p>
                </trait>
-               <desc xml:id="CAT_000004_e73_d1">L. a. s. à Nicolas Thoynard; L. a. Rochelle, 3 octobre
+               <desc xml:id="CAT_000004_e73_d1">L. a. s. à Nicolas Thoynard; La Rochelle, 3 octobre
                   1700 2 p. in-4. Très rare</desc>
                <note>Intéressante lettre où il lui fait part de la maladie de son frère
                   d'Iberville</note>

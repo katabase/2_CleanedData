@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000227">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000227">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -716,7 +717,7 @@
                <trait>
                   <p>célèbre poète, auteur des Messéniennes, de l'Acad. fr., né au Havre en 1793, mort en 1843.</p>
                </trait>
-               <desc xml:id="CAT_000227_e68_d1">L. a. s. à M. A. Passy, préfet de l'Eure; L. a. Madeleine (près Nonancourt), 8 oct. 1836, 1 p. 1/2 in-4.</desc>
+               <desc xml:id="CAT_000227_e68_d1">L. a. s. à M. A. Passy, préfet de l'Eure; La Madeleine (près Nonancourt), 8 oct. 1836, 1 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Très belle lettre de recommandation pour le docteur Vallée qui désirait obtenir la place de médecin-adjoint, vacante à l'Hôtel-Dieu de Vernon.</note>
             </item>
@@ -1318,7 +1319,7 @@
                <trait>
                   <p>grand prévôt de l'hôtel de Louis XIII.</p>
                </trait>
-               <desc xml:id="CAT_000227_e131_d1">L. a. s. ; camp de L. a. Rochelle, 23 déc. 1623, 1 p. in-4.</desc>
+               <desc xml:id="CAT_000227_e131_d1">L. a. s. ; camp de La Rochelle, 23 déc. 1623, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Belle lettre relative à la charge de grand arpenteur de France dont le roi vient de l'honorer.</note>
             </item>
@@ -1664,7 +1665,7 @@
                <trait>
                   <p>l'illustre ministre de Louis XIV, né en 1602, mort en 1661.</p>
                </trait>
-               <desc xml:id="CAT_000227_e167_d1">Let. sig. au marquis de Poyanne ; Saint-Germain-en-Laye, 18 février 1749, 1 p. in-fol., cachet et soie. L. a. partie blanche du feuillet de l'adresse est enlevée.</desc>
+               <desc xml:id="CAT_000227_e167_d1">Let. sig. au marquis de Poyanne ; Saint-Germain-en-Laye, 18 février 1749, 1 p. in-fol., cachet et soie. La partie blanche du feuillet de l'adresse est enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
             <item n="168" xml:id="CAT_000227_e168">
@@ -1915,7 +1916,7 @@
                <trait>
                   <p>l'introducteur de la pomme de terre en France, né à Montdidier en 1737, mort en 1813.</p>
                </trait>
-               <desc xml:id="CAT_000227_e194_d1">1° Let. aut. , 1 p. 1/2 in-4.-2° L. a. Patate, manuscrit sig. avec d'importantes et nombreuses corrections aut., 22 p. in-fol.</desc>
+               <desc xml:id="CAT_000227_e194_d1">1° Let. aut. , 1 p. 1/2 in-4.-2° La Patate, manuscrit sig. avec d'importantes et nombreuses corrections aut., 22 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
             <item n="195" xml:id="CAT_000227_e195">
@@ -2269,7 +2270,7 @@
                <trait>
                   <p>l'illustre auteur de Mémoires, né en 1675, mort en 1755.</p>
                </trait>
-               <desc xml:id="CAT_000227_e231_d1">L. a. sig. de son paraphe à M. de Valin-cour (de l'Acad. des Sciences) ; L. a. Ferté-Alais, 15 sept. 1726, 1 p. petit in-4.</desc>
+               <desc xml:id="CAT_000227_e231_d1">L. a. sig. de son paraphe à M. de Valin-cour (de l'Acad. des Sciences) ; La Ferté-Alais, 15 sept. 1726, 1 p. petit in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note anchored="true">Très curieuse lettre relative aux pourparlers pour l'élévation du ministre Fleury au cardinalat. « Je ne croy pas ce chapeau prochain... Dieu pardonne aux chapeliers et à ceux qui permettent de porter chapeaux, et non moins à qui les porte. » Il termine par une allusion à la disgrâce du duc de Bourbon, exilé à Chantilly. Intéressants détails.</note>
             </item>

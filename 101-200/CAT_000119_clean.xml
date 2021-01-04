@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000119">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000119</title>
+            <title>RDA, N°116 (Novembre 1888)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">116</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>116</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -242,7 +255,7 @@
                   <p>célèbre diplomate français du XVIIe siécle, ministre plénipotentiaire au
                      Congrès de Nimègue, ambassadeur en Hollande et en Angleterre</p>
                </trait>
-               <desc xml:id="CAT_000119_e13_d1">L. a. s., L. a. Haye, 17 mai 1680, 1 p. 1/2
+               <desc xml:id="CAT_000119_e13_d1">L. a. s., La Haye, 17 mai 1680, 1 p. 1/2
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="33">33</measure>
                <note>Intéressante lettre relative aux plaintes formulées par l'ambassadeur d'Espagne
@@ -452,7 +465,7 @@
                <trait>
                   <p>compositeur, le célèbre auteur de Carmen, né en 1838, mort en 1875</p>
                </trait>
-               <desc xml:id="CAT_000119_e31_d1">L. a. Prêtresse, cavatine, morceau de musique avec
+               <desc xml:id="CAT_000119_e31_d1">La Prêtresse, cavatine, morceau de musique avec
                   paroles aut., 4 p. in-4 obl. Magnifique pièce. Très rare comme musique.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
             </item>
@@ -1231,7 +1244,7 @@
                      a Henri IV, né en 1546, mort en 1592.</p>
                </trait>
                <desc xml:id="CAT_000119_e94_d1">Let. sig. avec la souscript. aut. à Cornelio
-                  Bentivoglio; camp voisin de Béthune, 25 sept. 1581, 1 p. in-fol., sceau. L. a. moitié
+                  Bentivoglio; camp voisin de Béthune, 25 sept. 1581, 1 p. in-fol., sceau. La moitié
                   du feuillet de l'adresse manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Il lui recommande Bartoloméo Guidoni, qui se rend de sa part auprès du duc de
@@ -1536,7 +1549,7 @@
                   <p>écrivain contemporain distingué, un des fondateurs de la Société des
                      Hydropathes</p>
                </trait>
-               <desc xml:id="CAT_000119_e120_d1">L. a. lutte parisienne, pièce de vers aut. sig., 1 p.
+               <desc xml:id="CAT_000119_e120_d1">La lutte parisienne, pièce de vers aut. sig., 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Belle pièce, dont voici un extrait: Les assistants disaient : « Ce lutieur est
@@ -2247,7 +2260,7 @@
                      1700, mort en 1735</p>
                </trait>
                <desc xml:id="CAT_000119_e174_d1">Pièce sig., signée aussi par les maréchaux de
-                  Noailles, d'Isenghien, de Balincourt, de Montmorency, de L. a. Mothe-Houdancourt, et
+                  Noailles, d'Isenghien, de Balincourt, de Montmorency, de La Mothe-Houdancourt, et
                   de Richelier; Paris, 20 mai 1749, 2 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -2324,7 +2337,7 @@
                   <p>célèbre fondeur, qui s'attacha à perfectionner les procédés pour forer et
                      tourner les canons, né à Berne en 1711, mort près de Lyon en 1790</p>
                </trait>
-               <desc xml:id="CAT_000119_e181_d1">L. a. s.; L. a. Rochefoucauld (Charente), 23 avril
+               <desc xml:id="CAT_000119_e181_d1">L. a. s.; La Rochefoucauld (Charente), 23 avril
                   1762, 3 p. 1/2 in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Belle lettre sur la fabrication des mortiers à bombes et de leurs affûts à

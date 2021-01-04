@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000077">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000077</title>
+            <title>RDA, N°90 (Avril 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>90</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -363,7 +377,7 @@
                <trait>
                   <p>femme auteur, poète et romancière distinguée, née à Semur en 1780</p>
                </trait>
-               <desc xml:id="CAT_000077_e25_d1">L. a. s. à L. a. Bouisse-Rochefort, 10 sept. 1827, 1 p.
+               <desc xml:id="CAT_000077_e25_d1">L. a. s. à La Bouisse-Rochefort, 10 sept. 1827, 1 p.
                   in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre. Elle ne peut lui donner les renseignements qu'il lui demande :
@@ -427,7 +441,7 @@
                   <p>reine de Suède, née en 1626, morte en 1689.</p>
                </trait>
                <desc xml:id="CAT_000077_e30_d1">Pièce sig., en latin, sur vélin, par Gabriel
-                  Oxenstiern, Jacques de L. a. Gardie, Charles Gulldenhielm, Pierre Bauner et Gabriel
+                  Oxenstiern, Jacques de La Gardie, Charles Gulldenhielm, Pierre Bauner et Gabriel
                   Oxenstiern jeune ; Stockholm, 25 sept. 1634, 1 p. double in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Important document historique. Nomination faite par le Conseil de Régence,
@@ -1072,7 +1086,7 @@
                <trait>
                   <p>le célèbre fabuliste</p>
                </trait>
-               <desc xml:id="CAT_000077_e82_d1">L. a. M… et le Cochon, fable aut. sig., 3/4 de p.
+               <desc xml:id="CAT_000077_e82_d1">La M… et le Cochon, fable aut. sig., 3/4 de p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuse pièce probablement inédite</note>

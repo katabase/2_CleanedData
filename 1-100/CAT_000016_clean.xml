@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000016">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>Bulletin Charavay (Décembre 1919, n°515)</title>
+            <title>LAD, N°515 (décembre 1919)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
@@ -17,12 +18,14 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Lettres autographes et documents historiques</title>
-               <publisher>Noël Charavary</publisher>
-               <pubPlace>Paris</pubPlace>
-               <date when="1919">1919</date>
+               <title>LETTRES AUTOGRAPHES ET DOCUMENTS HISTORIQUES</title>
+               <num>515</num>
+               <editor>Noël CHARAVAY</editor>
+               <publisher>Noël CHARAVAY</publisher>
+               <pubPlace> 3, rue de Furstenberg, à Paris</pubPlace>
+               <date when="1919-12">Décembre 1919</date>
             </bibl>
-            <listWit>                  
+            <listWit>
                <witness xml:id="CAT_000015_w">
                   <msDesc>
                      <msIdentifier>
@@ -34,6 +37,17 @@
                      </msIdentifier>
                   </msDesc>
                   <ptr type="catalogue" target="http://www.archivesnationales.culture.gouv.fr/chan/chan/AP-pdf/AB-XXXVIII-inventaire.pdf"/>
+               </witness>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Switzerland</country>
+                        <settlement>Genève</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <idno type="shelfmark">BGE Gk 408</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="http://data.rero.ch/01-R008483086"/>
                </witness>
             </listWit>
          </sourceDesc>
@@ -48,6 +62,10 @@
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -55,7 +73,7 @@
             <gap/>
             <item n="89531" xml:id="CAT_000016_e89531" corresp="#MS_000011">
                <num type="lot">89531</num>
-               <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de),</name>
+               <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
                <trait>
                   <p>l'illustre épistolière. –</p>
                </trait>

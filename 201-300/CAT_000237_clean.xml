@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000237">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000237">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -517,7 +518,7 @@
                <trait>
                   <p>reine de France.</p>
                </trait>
-               <desc xml:id="CAT_000237_e39_d1">Let. sig., avec la souscript. aut., au prince de L. a. Rochesur-Yon; Paris, 16
+               <desc xml:id="CAT_000237_e39_d1">Let. sig., avec la souscript. aut., au prince de La Rochesur-Yon; Paris, 16
  janvier 1563, 1/2 p in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note anchored="true">Belle lettre historique où elle mande que le roi a rendu aux principaux chefs
@@ -2456,7 +2457,7 @@
                   <p>le célèbre général des armées de la République, né à Arbois en 1761. mort en
                      1804.</p>
                </trait>
-               <desc xml:id="CAT_000237_e204_d1">L. a. s. au frère du général Moreau ; L. a. Haye, 29 pluviôse an III, 2/3 de p.
+               <desc xml:id="CAT_000237_e204_d1">L. a. s. au frère du général Moreau ; La Haye, 29 pluviôse an III, 2/3 de p.
  in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Belle lettre où il parle de Moreau et le prie de « partager les sentiments

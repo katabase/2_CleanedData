@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000145">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000145</title>
+            <title>RDA, N°142 (Février 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">142</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>142</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-02">Février 1892</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -390,7 +403,7 @@
                <trait>
                   <p>spirituel et fécond vaudevilliste, né à Charolles en 1796, mort en 1853</p>
                </trait>
-               <desc xml:id="CAT_000145_e30_d1">L. a. s.; Château de L. a. Bèche, 9 août 1846, 3 p. in-8. Curieuse.</desc>
+               <desc xml:id="CAT_000145_e30_d1">L. a. s.; Château de La Bèche, 9 août 1846, 3 p. in-8. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="31" xml:id="CAT_000145_e31">
@@ -1415,7 +1428,7 @@
                <num type="lot">122</num>
                <name type="author">Henri IV</name>
                <desc xml:id="CAT_000145_e122_d1">Let. sig. avec la souscrip. aut. à M. de Savaillan, gouverneur de l'Isle en
-                  Jourdain; L. a. Rochelle, 25 octobre 1586, 1/2 p. in-fol.</desc>
+                  Jourdain; La Rochelle, 25 octobre 1586, 1/2 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="26">26</measure>
                <note>Ordre de donner au sieur de Maraval la charge de capitaine que détenait feu La
                   Taulère</note>
@@ -1770,7 +1783,7 @@
                   <p>érudit et écrivain distingué hollandais, auteur d'un glossaire resté inédit, né
                      à Dordrecht en 1508</p>
                </trait>
-               <desc xml:id="CAT_000145_e152_d1">L. a. s., en français, à du Plessis-Mornay ; L. a. Haye, 23 octobre 1614, 1 p.
+               <desc xml:id="CAT_000145_e152_d1">L. a. s., en français, à du Plessis-Mornay ; La Haye, 23 octobre 1614, 1 p.
                   in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
                <note>Lettre historique. Il l'informe des négociations relatives au partage du duché

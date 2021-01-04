@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000172">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000172</title>
+            <title>RDA, N°162 (Janvier 1894)</title>
             <respStmt>
                <persName ref="#COL_000004">Alexandre Bartz</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Revue des autographes</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>162</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -756,7 +765,7 @@
                   <p>célèbre peintre. chef de l'école réaliste, membre de la Commune de 1871. né en
                      1819, mort en 1877.</p>
                </trait>
-               <desc xml:id="CAT_000172_e59_d1">Let. sig. à Ch. Monselet; L. a. Tour de Peilz, près Vevey (vers 1873), 3 p. in-8.</desc>
+               <desc xml:id="CAT_000172_e59_d1">Let. sig. à Ch. Monselet; La Tour de Peilz, près Vevey (vers 1873), 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Il le remercie de l'avoir défendu dans L'Evènement et d'avoir conspué « ce
                   procès inique qui n'a d'autre tendance que de m'éloigner de vous et de la France.
@@ -1009,7 +1018,7 @@
                <num type="lot">81</num>
                <name type="author">Dubois (le cardinal Guillaume)</name>
                <trait>
-                  <p>le fameux premier ministre du Régent, archevêque de Cambrai, de l'Acad. fr</p>
+                  <p>le fameux premier ministre du Régent, archevêque de Cambrai, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000172_e81_d1">L. a. s. à l'abbé de Thésut; 20 fév. 1719. 3/4 de p. in-4. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
@@ -1256,7 +1265,7 @@
                   <p>célèbre poète et écrivain italien, auteur des Ultime Lettere di Jacopo Ortis,
                      né en 1778, mort en 1827.</p>
                </trait>
-               <desc xml:id="CAT_000172_e102_d1">L. a. s., en français, à M. L. a. Flotte ; Valenciennes. 19 frimaire an XIII (10
+               <desc xml:id="CAT_000172_e102_d1">L. a. s., en français, à M. La Flotte ; Valenciennes. 19 frimaire an XIII (10
  déc. 1804), 1 p. in-fol. Légèrement déchirée dans la partie blanche.-On a joint 2
  portraits.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
@@ -1312,7 +1321,7 @@
                      du prince Rupert et de l'Electrice Sophie, né en 1596, mort en 1632.</p>
                </trait>
                <desc xml:id="CAT_000172_e107_d1">Let. sig. avec la souscript. aut., en français, à Charles III, duc de Lorraine;
- L. a. Haye, 11 fév. 1622, 1 p. in-fol.</desc>
+ La Haye, 11 fév. 1622, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Belle lettre de créance pour son envoyé M. Colbe de Wartemberg.</note>
             </item>
@@ -2550,7 +2559,7 @@
                   <p>érudit; garde de la Bibliothèque Royale, dont il a publié un catalogue, de
                      l'Acal. fr., né à Saulieu (Côte-d'or) en 1685, mort en 1761.</p>
                </trait>
-               <desc xml:id="CAT_000172_e214_d1">L. a. s.; 1732, 1 p. in-8. L. a. marge du bas a été coupée.</desc>
+               <desc xml:id="CAT_000172_e214_d1">L. a. s.; 1732, 1 p. in-8. La marge du bas a été coupée.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="215" xml:id="CAT_000172_e215">
@@ -2836,7 +2845,7 @@
                      mort en 1707.</p>
                </trait>
                <desc xml:id="CAT_000172_e238_d1">Pièce sig., sig. aussi par le chancelier Phélypeaux de Pontchartrain. Marie de
- Maupeou, son épouse, Mme de Roye de L. a. Rochefoucauld, etc., 26 déc. 1701, 6 p.
+ Maupeou, son épouse, Mme de Roye de La Rochefoucauld, etc., 26 déc. 1701, 6 p.
  in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Contrat de mariage de Nicolas Bertrand, chef d'office du chancelier de
@@ -3231,7 +3240,7 @@
                <trait>
                   <p>poète romantique, auteur de Mes heures perdues, ne en 1806. mort en 1851.</p>
                </trait>
-               <desc xml:id="CAT_000172_e268_d1">L. a. Course au clocher, comédie en trois actes en vers. Paris, 1839, édition
+               <desc xml:id="CAT_000172_e268_d1">La Course au clocher, comédie en trois actes en vers. Paris, 1839, édition
  originale, brochure in-8, portant la signature aut. d'Arrers.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>

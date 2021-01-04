@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000065">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000065</title>
+            <title>RDA, N°78 (Avril 1883)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>78</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -206,7 +220,7 @@
                <num type="lot">12</num>
                <name type="author">Berryer (A.-P.)</name>
                <trait>
-                  <p>illustre avocat et orateur parlementaire, de l'Acad. fr</p>
+                  <p>illustre avocat et orateur parlementaire, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e12_d1">L. a. s. à M. Gournaud; Angerville, 29 août 1868, 2
                   p. 3/4 in-8.</desc>
@@ -236,7 +250,7 @@
                <num type="lot">15</num>
                <name type="author">Boismont (Nic. Thyrel, abbé de)</name>
                <trait>
-                  <p>prédicateur célèbre du xviiie siècle, poète, membre de l'Acad. fr</p>
+                  <p>prédicateur célèbre du xviiie siècle, poète, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e15_d1">L. a. s. à la 3e pers. à Mme Necker; Paris, 13 mars,
                   1 p. in-8, cachet. Jolie lettre.</desc>
@@ -330,7 +344,7 @@
                <num type="lot">23</num>
                <name type="author">Buffon (G.-L. Leclerc, comte de)</name>
                <trait>
-                  <p>illustre naturaliste, de l'Acad. fr</p>
+                  <p>illustre naturaliste, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e23_d1">Pièce sig.: 1779, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -748,7 +762,7 @@
                <num type="lot">58</num>
                <name type="author">Fénelon (François de Salignac de)</name>
                <trait>
-                  <p>l'illustre archevêque de Cambrai, ae l'Acad. fr</p>
+                  <p>l'illustre archevêque de Cambrai, ae l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e58_d1">Let. aut. (àMmode Montberon); Cambrai, 26 juillet
                   1701, 2 p. pet. in-4. Timbre de collectionneur. Des noms propres ont été coupés
@@ -843,8 +857,8 @@
                <trait>
                   <p>l'illustre évêque de Genève</p>
                </trait>
-               <desc xml:id="CAT_000065_e66_d1">L. a. s. à M. de L. a. Porte, surintendant de la
-                  duchesse de Mercoeur; 2 février 1603, 1 p. in-4. Cachets. L. a. marge blanche du haut
+               <desc xml:id="CAT_000065_e66_d1">L. a. s. à M. de La Porte, surintendant de la
+                  duchesse de Mercoeur; 2 février 1603, 1 p. in-4. Cachets. La marge blanche du haut
                   de la lettre a été coupée.</desc>
                <measure commodity="currency" unit="FRF" quantity="130">130</measure>
                <note>Précieuse lettre. Il attend une occasion pour faire passer de l'argent à Lyon ;
@@ -946,7 +960,7 @@
                <name type="author">Gros de Boze (Cl.)</name>
                <trait>
                   <p>trésorier de France, garde des médailles de la bibliothèque du roi, membre de
-                     l'Acad. fr</p>
+                     l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e75_d1">L. a. s. ; Paris, 30 mars 1714, 7 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
@@ -1171,7 +1185,7 @@
                <desc xml:id="CAT_000065_e95_d1">1° Minute originale de son testament, 1709, 15 p.
                   in-4..</desc>
                <desc xml:id="CAT_000065_e95_d2">2° L. a. s. d'André-Daniel Beaupoil de Sainte-Aulaire, évêque de Tulle, au
-                  marquis de L. a. Vallière. Il lui annonce la mort de son oncle etlui envoie les deux
+                  marquis de La Vallière. Il lui annonce la mort de son oncle etlui envoie les deux
                   minutes ci-dessus</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -1391,7 +1405,7 @@
                   <p>compositeur de musique distingué, savant auteur sur son art, né en 1766, mort
                      en 1838</p>
                </trait>
-               <desc xml:id="CAT_000065_e113_d1">L. a. s. à L. a. Bouisse-Rochefort; Paris, 27 av.
+               <desc xml:id="CAT_000065_e113_d1">L. a. s. à La Bouisse-Rochefort; Paris, 27 av.
                   1805, 1 p. 1/2 in-8. Intéressante .</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -1529,7 +1543,7 @@
                <num type="lot">127</num>
                <name type="author">Pailleron (Ed.)</name>
                <trait>
-                  <p>célèbre auteur dramatique, membre de l'Acad. fr</p>
+                  <p>célèbre auteur dramatique, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000065_e127_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>

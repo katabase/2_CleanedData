@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000073">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000073</title>
+            <title>RDA, N°86 (Novembre 1884)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>86</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +82,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -444,8 +458,8 @@
                <desc xml:id="CAT_000073_e25_d8">8° Relation de la Cour de France, composée par M.
                   Erizza, ambassadeur de la République de Venise, 48 p. in-4.</desc>
                <desc xml:id="CAT_000073_e25_d9">9° Plan imprimé avec légendé explicative du combat
-                  de Wynendale, entre le comte de L. a. Motte et le major Webb, 1708, in-f.</desc>
-               <desc xml:id="CAT_000073_e25_d10">10° Complainte sur la duchesse de L. a. Vallière, 2 p.
+                  de Wynendale, entre le comte de La Motte et le major Webb, 1708, in-f.</desc>
+               <desc xml:id="CAT_000073_e25_d10">10° Complainte sur la duchesse de La Vallière, 2 p.
                   in-4.</desc>
                <desc xml:id="CAT_000073_e25_d11">11° Règlement pour les filles et petites-filles de
                   France, copie de lettres patentes du roi, du 12 mars 1710, 2 p. in-f., etc.</desc>
@@ -615,7 +629,7 @@
                <desc xml:id="CAT_000073_e36_d1">2° Let. sig. du duc du Maine à Mlle de Sévigné,
                   1701, 1 p. in-4, cachet. Piqûre d'humidité dans la marge.</desc>
                <desc xml:id="CAT_000073_e36_d3">3° Pièce sur vélin avec 5 lig. aut. sig. d'Anne de
-                  Sévigné; L. a. Gailleule, 1644, 12 p. in-4.-4° 3 let. aut. sig. de Mme la comtesse
+                  Sévigné; La Gailleule, 1644, 12 p. in-4.-4° 3 let. aut. sig. de Mme la comtesse
                   de Sainte-Agathe, dernière descendante de Mme de Sévigné, etc.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
@@ -637,7 +651,7 @@
                   <p>célèbre écrivain ultramontain, né à Boynes (Loiret) en 1813, mort récemment</p>
                </trait>
                <desc xml:id="CAT_000073_e38_d1">Son portrait photographié en pied, avec dédicace
-                  aut. sig.; 1857, in-4. L. a. photographie est un peu passée.</desc>
+                  aut. sig.; 1857, in-4. La photographie est un peu passée.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="39" xml:id="CAT_000073_e39">
@@ -710,7 +724,7 @@
                <trait>
                   <p>peintre de paysages</p>
                </trait>
-               <desc xml:id="CAT_000073_e111_d1">L. a. tombe du chevalier, au comte de Caen, dessin à
+               <desc xml:id="CAT_000073_e111_d1">La tombe du chevalier, au comte de Caen, dessin à
                   la mine de plomb, signé, 1872, in-8. Provenant de sa vente.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>

@@ -1,9 +1,9 @@
-<?xml-model href="../../../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000151">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000151">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000151</title>
+            <title>RDA, N°148 (Octobre 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -21,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">148</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>148</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-10">Octobre 1892</date>
             </bibl>
             <listEvent>
@@ -42,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -52,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -73,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -315,8 +327,8 @@
                <trait>
                   <p>poète et auteur dramatique distingué, né vers 1760, mort en 1823</p>
                </trait>
-               <desc xml:id="CAT_000151_e20_d1">L. a. s. au vicomte…; Paris, 28 décembre 1820, 2 p.
-                  in-4.</desc>
+               <desc xml:id="CAT_000151_e20_d1">L. a. s. au vicomte…; Paris, 28 décembre 1820, 2
+                  p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Très belle lettre où il parle de sa tragédie de Jeanne Darc à Rouen,
                   représentée avec succès au Théâtre-Français en 1819. « Je n'ai d'autre mérite que
@@ -512,7 +524,7 @@
                   <p>compositeur contemporain distingué, auteur de Carmen, né en 1838, mort en
                      1875</p>
                </trait>
-               <desc xml:id="CAT_000151_e36_d1">L. a. s., 1 p. 1/3 in-8. L. a. partie blanche de la
+               <desc xml:id="CAT_000151_e36_d1">L. a. s., 1 p. 1/3 in-8. La partie blanche de la
                   deuxième page a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -554,7 +566,7 @@
                <trait>
                   <p>sculpteur distingué, frère de Rosa Bonheur, né à Bordeaux en 1827</p>
                </trait>
-               <desc xml:id="CAT_000151_e40_d1">L. a. s. ; 1883, 1 p. pet. in-8. L. a. seconde page
+               <desc xml:id="CAT_000151_e40_d1">L. a. s. ; 1883, 1 p. pet. in-8. La seconde page
                   contient un très-joli dessin à la plume sig., représentant un cheval de
                   halage.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -670,7 +682,7 @@
                <trait>
                   <p>peintre orientaliste très distingué, né à Marseille en 1823</p>
                </trait>
-               <desc xml:id="CAT_000151_e50_d1">L. a. s.; (1875), 1 p. in-8. L. a. seconde page
+               <desc xml:id="CAT_000151_e50_d1">L. a. s.; (1875), 1 p. in-8. La seconde page
                   contient un croquis à la plume sig. d'un de ses tableaux.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -1142,7 +1154,7 @@
                      déroute à l'entrée de la Vilaine, dite bataille de M. de Conflans, durant la
                      guerre de sept ans (1759), né vers 1690, mort en 1777</p>
                </trait>
-               <desc xml:id="CAT_000151_e89_d1">L. a. s.; L. a. Rochelle, 24 février 1746, 2 p. 1/4
+               <desc xml:id="CAT_000151_e89_d1">L. a. s.; La Rochelle, 24 février 1746, 2 p. 1/4
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>La goélette l'Alouette, désemparée à la hauteur de l'île de Ré, est en relâche
@@ -1817,7 +1829,7 @@
                <trait>
                   <p>roi de Prusse, né en 1770, mort en 1840</p>
                </trait>
-               <desc xml:id="CAT_000151_e145_d1">Let. sig. au baron Dufresse (général, né à L. a.
+               <desc xml:id="CAT_000151_e145_d1">Let. sig. au baron Dufresse (général, né à La
                   Rochelle, mort en 1833); Berlin, 17 août 1814, 2/3 de p. in-4. Avec traduction
                   française.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -2050,8 +2062,8 @@
                   <p>poète du XVIIe siècle, ami et éditeur de Gassendi, de l'Acad. fr., mort en
                      1679</p>
                </trait>
-               <desc xml:id="CAT_000151_e165_d1">Pièce sig. avec 6 mots aut. sur vélin ; Paris,
-                  1663, in-18 obl.</desc>
+               <desc xml:id="CAT_000151_e165_d1">Pièce sig. avec 6 mots aut. sur vélin ; Paris, 1663,
+                  in-18 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="166" xml:id="CAT_000151_e166">
@@ -2091,7 +2103,7 @@
                <num type="lot">169</num>
                <name type="author">Henri IV</name>
                <desc xml:id="CAT_000151_e169_d1">Let. sig. au vicomte de Comblizy, gouverneur de
-                  Château-Thierry ; Clermont-en -Beauvaisis, 16 août 1589 ; 1/2 p. in-fol.</desc>
+                  Château-Thierry ; Clermont-en-Beauvaisis, 16 août 1589 ; 1/2 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Lettre historique. Il l'invite à quitter Château-Thierry pour le renforcer avec
                   sa compagnie. (Henri IV se dirigeait vers la mer pour communiquer avec Elisabeth
@@ -2207,7 +2219,7 @@
                <trait>
                   <p>impératrice des Français, première femme de Napoléon Ier</p>
                </trait>
-               <desc xml:id="CAT_000151_e178_d1">Pièce sig. ; L. a. Malmaison, 14 oct. 1809, 1/2 p.
+               <desc xml:id="CAT_000151_e178_d1">Pièce sig. ; La Malmaison, 14 oct. 1809, 1/2 p.
                   in-4. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -2279,7 +2291,7 @@
                <trait>
                   <p>mère d'Henri de La Rochejaquelein, le célèbre chef vendéen</p>
                </trait>
-               <desc xml:id="CAT_000151_e185_d1">L. a. s. à l'intendant Trudaine; L. a. Durbellière,
+               <desc xml:id="CAT_000151_e185_d1">L. a. s. à l'intendant Trudaine; La Durbellière,
                   près Châtillon-sur-Sèvre (Deux-Sèvres), 19 septembre 1769, 2 p. in-4, cachet.
                   Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -2372,8 +2384,8 @@
                <trait>
                   <p>graveur et aquafortiste contemporain très distingué</p>
                </trait>
-               <desc xml:id="CAT_000151_e192_d1">Pièce de vers aut. sig.; 1884, 1/2 p. in-8. L. a.
-                  page est completée par un très joli dessin à la plume, cachet.</desc>
+               <desc xml:id="CAT_000151_e192_d1">Pièce de vers aut. sig.; 1884, 1/2 p. in-8. La page
+                  est completée par un très joli dessin à la plume, cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="193" xml:id="CAT_000151_e193">
@@ -2812,7 +2824,7 @@
                      guillotiné le 24 mars 1794</p>
                </trait>
                <desc xml:id="CAT_000151_e232_d1">L. a. s. à ses collègues de la Commune de Paris;
-                  (Vendée, 1793); 1 p. in-fol.- On a joint un portrait par Pero nard.</desc>
+                  (Vendée, 1793); 1 p. in-fol.-On a joint un portrait par Pero nard.</desc>
                <measure commodity="currency" unit="FRF" quantity="14">14</measure>
                <note>Belle et curieuse lettre écrite comme commissaire national en Vendée. Elle se
                   termine ainsi : « Le général Rossignol vous présente, en républicain, le salut
@@ -2837,8 +2849,8 @@
                   <p>veuve de René de Montejan, maréchal de France, mariée en secondes noces à Ch.
                      de Bourbon, prince de la Rochesur-Yon, morte en 1578</p>
                </trait>
-               <desc xml:id="CAT_000151_e234_d1">Pièce sig. sur vélin; 1574, 1 p. in-fol. obl.-On a
-                  joint un joli portrait.</desc>
+               <desc xml:id="CAT_000151_e234_d1">Pièce sig. sur vélin; 1574, 1 p. in-fol. obl.-On
+                  a joint un joli portrait.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="235" xml:id="CAT_000151_e235">
@@ -2990,8 +3002,8 @@
                <trait>
                   <p>frère de Louis XIII</p>
                </trait>
-               <desc xml:id="CAT_000151_e248_d1">Let. sig. au marquis de L. a. Ferté; Remiremont,
-                  1631, 1 p. in-4.</desc>
+               <desc xml:id="CAT_000151_e248_d1">Let. sig. au marquis de La Ferté; Remiremont, 1631,
+                  1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="249" xml:id="CAT_000151_e249">
@@ -3121,8 +3133,8 @@
                   <p>célèbre général des armées de la République, né à Arbois en 1761, mort en
                      1804</p>
                </trait>
-               <desc xml:id="CAT_000151_e259_d1">L. a. s. au frère du général Moreau ; L. a. Haye,
-                  29 pluviôse an III, 2/3 de p. in-4.</desc>
+               <desc xml:id="CAT_000151_e259_d1">L. a. s. au frère du général Moreau ; La Haye, 29
+                  pluviôse an III, 2/3 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Belle lettre où il parle de Moreau et le prie de « partager les sentiments
                   d'estime et d'attachement que j'ai voués pour la vie à mon camarade Moreau.</note>
@@ -3503,8 +3515,8 @@
                <trait>
                   <p>célèbre général de la garde nationale pendant la Révolution</p>
                </trait>
-               <desc xml:id="CAT_000151_e290_d1">Let. sig. au citoyen L. a. Saulsaye; 4 avril 1793,
-                  1 p. in-fol., têté imp. Portrait.</desc>
+               <desc xml:id="CAT_000151_e290_d1">Let. sig. au citoyen La Saulsaye; 4 avril 1793, 1
+                  p. in-fol., têté imp. Portrait.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="291" xml:id="CAT_000151_e291">
@@ -4005,8 +4017,8 @@
                      s'illustra par la défense de Thionville. commandant de l'armée départementale
                      formée par les Girondins, né en 1745, mort en 1814</p>
                </trait>
-               <desc xml:id="CAT_000151_e330_d1">L. a. s. à Monseigneur…; Neufbrisach, 29 août 1785,
-                  2 p. in-4.</desc>
+               <desc xml:id="CAT_000151_e330_d1">L. a. s. à Monseigneur…; Neufbrisach, 29 août
+                  1785, 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Très belle lettre au sujet de M. du Périer, lieutenant-colonel du régiment de
                   Bouillon, et où il parle du comte du Lau</note>

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000131">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000131</title>
+            <title>RDA, N°128 (Mai 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>128</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -684,7 +697,7 @@
                <trait>
                   <p>célèbre poète, auteur des Messéniennes, de l'Acad. fr., né au Havre</p>
                </trait>
-               <desc xml:id="CAT_000131_e54_d1">L. a. Vache perdue, ballade, dans les Apennins, pièce
+               <desc xml:id="CAT_000131_e54_d1">La Vache perdue, ballade, dans les Apennins, pièce
                   de vers aut. ; 4 p. in-4. Légère tache.</desc>
                <measure commodity="currency" unit="FRF" quantity="45">45</measure>
                <note>Superbe pièce dont voici un extrait : Ingrate, quand la fièvre Glaçait mes
@@ -1184,7 +1197,7 @@
                   <p>le grand métaphysicien allemand</p>
                </trait>
                <desc xml:id="CAT_000131_e88_d1">L. a. s. à un libraire; Koenigsberg, 12 avril 1790, 1
-                  p. in-8 obl. L. a. partie blanche du feuillet a été enlevée.</desc>
+                  p. in-8 obl. La partie blanche du feuillet a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="110">110</measure>
                <note>Demande de 4 exemplaires de ses oeuvres, (Critique de la Raison pure, de la
                   Raison pratique, etc.)</note>
@@ -1195,7 +1208,7 @@
                <trait>
                   <p>le célèbre romancier populaire</p>
                </trait>
-               <desc xml:id="CAT_000131_e89_d1">L. a. s. au rédacteur du journal L. a. Presse ; 7 nov.
+               <desc xml:id="CAT_000131_e89_d1">L. a. s. au rédacteur du journal La Presse ; 7 nov.
                   1834, 1 p. 1/2 in-4</desc>
                <measure commodity="currency" unit="FRF" quantity="16">16</measure>
                <note>Curieuse lettre où il annonce qu'il publie ses OEuvres complètes, dans le
@@ -2570,7 +2583,7 @@
                      affaires étrangères et de la guerre à Lisbonne. Il engagea son pays dans la
                      coalition contre la France et dut céder à l'Espagne Olivença, mort en 1803</p>
                </trait>
-               <desc xml:id="CAT_000131_e203_d1">2 1 a. s. et 1 1. s., en français, à lord Hamilton
+               <desc xml:id="CAT_000131_e203_d1">2 l a. s. et 1 1. s., en français, à lord Hamilton
                   ; Londres, 1781-82, 5 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
                <note>Au sujet de l'envoi de poèmes portugais, éditions du Camoéns. Il joint à l'une
@@ -2906,7 +2919,7 @@
                   <p>érudit, garde de la Bibliothèque royale dont il a publié un catalogue, de
                      l'Acad. fr., né à Saulieu (Côte-d'Or) en 1685, mort en 1761</p>
                </trait>
-               <desc xml:id="CAT_000131_e234_d1">L. a. s.; 1732, 1 p. in-8. L. a. marge du bas a été
+               <desc xml:id="CAT_000131_e234_d1">L. a. s.; 1732, 1 p. in-8. La marge du bas a été
                   coupée.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>

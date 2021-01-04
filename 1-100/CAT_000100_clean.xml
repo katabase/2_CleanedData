@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000100">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000100</title>
+            <title>RDA, N°97 (Février 1886)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>97</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -462,7 +475,7 @@
                   <p>médecin de Louis XV, illustre par son dévouement pendant la peste de Marseille
                      né à Montpellier en 1672, mort en 1752</p>
                </trait>
-               <desc xml:id="CAT_000100_e37_d1">L. a. s., à Sauvages de L. a. Croix, à Alais; Marly,
+               <desc xml:id="CAT_000100_e37_d1">L. a. s., à Sauvages de La Croix, à Alais; Marly,
                   1732, 1 p. 3/4 in-4, cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -1332,7 +1345,7 @@
                <desc xml:id="CAT_000100_e122_d1">L. a. s., 1880, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note anchored="true">Curieuse lettre adressée à un homme politique roumain. « Je
-                  serai particulière- ment heureux de savoir quel est votre sentiment sur le
+                  serai particulièrement heureux de savoir quel est votre sentiment sur le
                   mouvement qui pousse l'une vers l'autre la Bulgarie et la Roumélie et sur
                   l'intérêt de la France dans cette question.</note>
             </item>
@@ -2804,7 +2817,7 @@
                   <p>littérateur et bel esprit, un des meilleurs écrivains français du XVIIe siècle,
                      né près de Coutances en 1613, mort dans l'exil en Angleterre en 1703</p>
                </trait>
-               <desc xml:id="CAT_000100_e263_d1">Fin de lettre aut. sig., 1 p. in-4. L. a. signature et
+               <desc xml:id="CAT_000100_e263_d1">Fin de lettre aut. sig., 1 p. in-4. La signature et
                   le compliment sont barrés mais lisibles.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -2985,7 +2998,7 @@
                   <p>en 1696</p>
                </trait>
                <desc xml:id="CAT_000100_e280_d1">. P. S., signée aussi par son mari Henri, marquis
-                  de Sévigné, Marie de L. a. Croix, veuve de Gabriel de Guénégaud, Claude de Guénégaud,
+                  de Sévigné, Marie de La Croix, veuve de Gabriel de Guénégaud, Claude de Guénégaud,
                   trésorier du Roi, Philippe de Coulanges (oncle de Madame de Sévigné), Léonor de
                   Rabutin, comte de Bussy, lieutenant-général, et l'abbé Christophe de Coulanges;
                   Paris, 8 février 1644 et 30 janvier 1645, 3 p. 1/2 in-4. Tachée d'humidité et

@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000222">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000222">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1493,7 +1494,7 @@
                   <p>évêque de Metz, puis de Strasbourg, à qui Louis XIV donna l'abbaye de
                      Saint-Germain-des-Prés, né en 1629, mort en 1704.</p>
                </trait>
-               <desc xml:id="CAT_000222_e118_d1">P. a. s.; L. a. Bourdaisière, 12 juin 1703, 1 p. 1/2 in-8. Rare.</desc>
+               <desc xml:id="CAT_000222_e118_d1">P. a. s.; La Bourdaisière, 12 juin 1703, 1 p. 1/2 in-8. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="119" xml:id="CAT_000222_e119">
@@ -3169,7 +3170,7 @@
                   <p>fameux danseur italien, surnommé le Diou de la Dance, né à Florence en 1729,
                      mort en 1808.</p>
                </trait>
-               <desc xml:id="CAT_000222_e248_d1">Let. sig., sig. aussi par Francoeur, Ant. Daucergne Lasalle, de L. a. Suse, Boquet
+               <desc xml:id="CAT_000222_e248_d1">Let. sig., sig. aussi par Francoeur, Ant. Daucergne Lasalle, de La Suse, Boquet
  et Janson; 12 juin 1789, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Belle lettre écrite au nom des sujets de l'Académie royale de musique sur des

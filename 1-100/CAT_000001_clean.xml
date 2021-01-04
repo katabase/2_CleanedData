@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>CAT_000001</title>
+            <title>Vente Charon, 14 mai 1845</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness>München, Bayerische Staatsbibliothek, 9999875925<ptr target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11021427-7"/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>Germany</country>
+                        <settlement>München</settlement>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <idno type="shelfmark">9999875925</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr type="catalogue" target="http://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb11021427-7"/>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,15 +82,15 @@
          </appInfo>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID
-            for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <gap/>
          <list>
-            <head> PREMIÈRE VACATION, mercredi 14 mai 1845 -N° 1 à 94. </head>
+            <head>PREMIÈRE VACATION, mercredi 14 mai 1845 -N° 1 à 94.</head>
             <item n="1" xml:id="CAT_000001_e1">
                <num type="lot">1</num>
                <name type="author">ACADÉMIE FRANÇAISE</name>
@@ -90,7 +100,7 @@
                   troublent… « A cet effet a été adressé le présent acte, « signé des vingt-trois
                   membres présents. » Suivent les signatures de « l'abbé Tallemant, Hardoin de
                   Péréfixe, Lautru, Chapelain, Desmarest, Olivier Patru, Charpentier, Lachambre,
-                  Pellisson-Fontanier, L. a. Meinadière, De L. a. Mothe, Doujat, Chaumont, Giry, Gombault,
+                  Pellisson-Fontanier, La Meinadière, De La Mothe, Doujat, Chaumont, Giry, Gombault,
                   César d'Estrées, Priézac, Ch. Colin, Mézeray, De Metz, etc.</desc>
             </item>
             <item n="2" xml:id="CAT_000001_e2">
@@ -313,7 +323,7 @@
             </item>
             <item n="21" xml:id="CAT_000001_e21">
                <num type="lot">21</num>
-               <name type="author">BÉRANGER,</name>
+               <name type="author">BÉRANGER</name>
                <trait>
                   <p>noire poëte national. N. 1780</p>
                </trait>
@@ -342,7 +352,7 @@
                <trait>
                   <p>savant mathématicien. N. 1700. M. 1782</p>
                </trait>
-               <desc xml:id="CAT_000001_e23_d1">L. aut. sig. à M. de L. a. Condamine. Bâle, 18 mars
+               <desc xml:id="CAT_000001_e23_d1">L. aut. sig. à M. de La Condamine. Bâle, 18 mars
                   1754. Belle lettre toute littéraire et scientifique. 3 grandes pages in-4 ; avec
                   cachet</desc>
             </item>
@@ -369,7 +379,7 @@
             </item>
             <item n="26" xml:id="CAT_000001_e26">
                <num type="lot">26</num>
-               <name type="author">BERTON (Jean-Baptiste),</name>
+               <name type="author">BERTON (Jean-Baptiste)</name>
                <trait>
                   <p>général de la République et de l'Empire; entraîné dans la conspiration de
                      Saumur, par des agents provocateurs, il fut arrêté, livré à une commission
@@ -459,7 +469,7 @@
             </item>
             <item n="33" xml:id="CAT_000001_e33">
                <num type="lot">33</num>
-               <name>BONAPARTE (Napoléon),</name>
+               <name>BONAPARTE (Napoléon)</name>
                <trait>
                   <p>N. 1769. M. 1821.</p>
                </trait>
@@ -851,7 +861,7 @@
             </item>
             <item n="62" xml:id="CAT_000001_e62">
                <num type="lot">62</num>
-               <name type="author">CARNOT,</name>
+               <name type="author">CARNOT</name>
                <trait>
                   <p> convention et minist. N. 1753. M. 1823</p>
                </trait>
@@ -898,7 +908,7 @@
             </item>
             <item n="66" xml:id="CAT_000001_e66">
                <num type="lot">66</num>
-               <name type="author">CATHERINE DE MÉDICIS,</name>
+               <name type="author">CATHERINE DE MÉDICIS</name>
                <trait>
                   <p>reine de France, femme de Henri II. N. 1519. M. 1589</p>
                </trait>
@@ -2086,7 +2096,7 @@
             </item>
             <item n="164" xml:id="CAT_000001_e164">
                <num type="lot">164</num>
-               <name>JACQUES II,</name>
+               <name>JACQUES II</name>
                <trait>
                   <p>roi d'Angleterre. N. 1633. M. 1701.</p>
                </trait>
@@ -2300,7 +2310,7 @@
                <trait>
                   <p>Idem</p>
                </trait>
-               <desc xml:id="CAT_000001_e181_d1">Fable. L. a. Fôrest et le Bûcheron. Aut. sig., 1 page
+               <desc xml:id="CAT_000001_e181_d1">Fable. La Fôrest et le Bûcheron. Aut. sig., 1 page
                   in-fol.</desc>
                <note>Pour madame la duchesse de Bouillon. « Un bûcheron venoit de rompre ou d'égarer
                   Le bois dont il avait eininenché sa coignée, « Cette perte ne put silost se
@@ -2794,7 +2804,7 @@
             </item>
             <item n="223" xml:id="CAT_000001_e223">
                <num type="lot">223</num>
-               <name type="author">MARÉCHAUX DE FRANCE,</name>
+               <name type="author">MARÉCHAUX DE FRANCE</name>
                <desc xml:id="CAT_000001_e223_d1">4 lett. autog. signées</desc>
                <note>D'AUMONT DE VILLEQUIER. 17 avril 1651. 1 page in-folio. ESTRADES (Godefroy,
                   comte d'). 24 nov. 1673. 2 pages in-4. LA MELLERAYE (Leduc de). 25 mars 1641. 1
@@ -3368,7 +3378,7 @@
             </item>
             <item n="271" xml:id="CAT_000001_e271">
                <num type="lot">271</num>
-               <name type="author">ORDELAFFI (Pino Degli),</name>
+               <name type="author">ORDELAFFI (Pino Degli)</name>
                <trait>
                   <p>souverain de Forli, grand capitaine, et prolecteur des arts et des lettres. M.
                      en 1480. (Biog. de Michaud, t. XXXII, p. 53.)</p>
@@ -3385,7 +3395,7 @@
                <trait>
                   <p>N. 1608. M. 1660</p>
                </trait>
-               <desc xml:id="CAT_000001_e272_d1">L. aut. sig., au cardinal de L. a. Valette. Paris, 3
+               <desc xml:id="CAT_000001_e272_d1">L. aut. sig., au cardinal de La Valette. Paris, 3
                   août 1637. 1 page in-4. Cachets et soies</desc>
                <note>II le remercie et lui témoigne sa joie de la nouvelle qu'il lui donne de la
                   prise de Landrecy</note>
@@ -3549,7 +3559,7 @@
             </item>
             <item n="285" xml:id="CAT_000001_e285">
                <num type="lot">285</num>
-               <name type="author">PICHEGRU,</name>
+               <name type="author">PICHEGRU</name>
                <trait>
                   <p>général de la Répub. N. 1761. M. 1804</p>
                </trait>
@@ -3869,7 +3879,7 @@
             </item>
             <item n="309" xml:id="CAT_000001_e309">
                <num type="lot">309</num>
-               <name type="author">REINES DE FRANCE ET D'ESPAGNE,</name>
+               <name type="author">REINES DE FRANCE ET D'ESPAGNE</name>
                <desc xml:id="CAT_000001_e309_d1">4 lettres in-folio</desc>
                <note>CATHERINE DE MÉDICIS. L. sig. et le compliment aut., au grand duc de Toscane.
                   Fontainebleau, 6 février 1548. MARIE DE MÉDICIS. L. sig. et compl. aut, à son
@@ -3906,7 +3916,7 @@
                </trait>
                <desc xml:id="CAT_000001_e311_d1">L. aut. sig. de son paraphe, à M. Lanthenas, datée
                   de Lyon, le 2 juillet 1790. 3 pages pleines petit in-4. Belle et intéressante
-                  lettre. L. a. première page est relative à l'inquiétude qu elle éprouve sur le sort
+                  lettre. La première page est relative à l'inquiétude qu elle éprouve sur le sort
                   de sa chère Agathe; les deux autres sont toutes consacrées à la politique,
                   principalement sur les affaires de Lyon, « qui sont, dit-elle, dans un terrible
                   cahos, le peuple n'y est pas si violent qu'on le dit, mais la municipalité y fait
@@ -4313,7 +4323,7 @@
             </item>
             <item n="347" xml:id="CAT_000001_e347">
                <num type="lot">347</num>
-               <name type="author">SOUVERAINES ETRANGERES,</name>
+               <name type="author">SOUVERAINES ETRANGERES</name>
                <desc xml:id="CAT_000001_e347_d1">4 lettres signées, d'une parfaite
                   conservation.</desc>
                <note>MARIE D'AUTRICHE, soeur de Charles-Quint, reine de Hongrie et de Bohême, au

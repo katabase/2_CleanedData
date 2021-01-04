@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000173">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000173</title>
+            <title>RDA, N°163 (Février 1894)</title>
             <respStmt>
                <persName ref="#COL_000004">Alexandre Bartz</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>Revue des autographes</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>163</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1894-02">Février 1894</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -540,7 +549,7 @@
                <trait>
                   <p>sculpteur distingué, frère de Rosa Bonheur, né à Bordeaux en 1827.</p>
                </trait>
-               <desc xml:id="CAT_000173_e41_d1">L. a. s.; 1883, 1 p. pet. in-8. L. a. seconde page contient un très joli dessin à
+               <desc xml:id="CAT_000173_e41_d1">L. a. s.; 1883, 1 p. pet. in-8. La seconde page contient un très joli dessin à
  la plume sig., représentant un cheval de halage.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -752,7 +761,7 @@
                <trait>
                   <p>compositeur contemporain distingué, auteur de Gwendoline.</p>
                </trait>
-               <desc xml:id="CAT_000173_e60_d1">L. a. s., L. a. Membrolle, par Mettray (Indre-et-Loire); 6 sept. 1890, 1 p. 1/2
+               <desc xml:id="CAT_000173_e60_d1">L. a. s., La Membrolle, par Mettray (Indre-et-Loire); 6 sept. 1890, 1 p. 1/2
  in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Belle lettre toute relative à Gwendoline.</note>
@@ -2039,7 +2048,7 @@
                   <p>dit Lebrun-Pindare, célèbre poète lyrique, de l'Acad. fr., né en 1729, mort en
                      1807.</p>
                </trait>
-               <desc xml:id="CAT_000173_e168_d1">L. a. sig. en abrégé (minute) à M. (de Chassiron, à L. a. Rochelle); 26 novembre
+               <desc xml:id="CAT_000173_e168_d1">L. a. sig. en abrégé (minute) à M. (de Chassiron, à La Rochelle); 26 novembre
  1760, 2 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Il lui adresse l'un de ses ouvrages, le félicite sur les mémoires insérés au
@@ -2061,7 +2070,7 @@
                <trait>
                   <p>graveur et aquafortiste contemporain très distingué.</p>
                </trait>
-               <desc xml:id="CAT_000173_e170_d1">Pièce de vers aut. sig., 1884, 1/2 p. in-8. L. a. page est complétée par un très
+               <desc xml:id="CAT_000173_e170_d1">Pièce de vers aut. sig., 1884, 1/2 p. in-8. La page est complétée par un très
  joli dessin à la plume, cachet.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
@@ -2789,7 +2798,7 @@
                      en 1835.</p>
                </trait>
                <desc xml:id="CAT_000173_e233_d1">L. a. s., comme procureur général syndic de la Commune de Paris, aux membres du
- Directoire du Département; prison de L. a. Force, (21 août 1792), 2/3 de p. in-4.</desc>
+ Directoire du Département; prison de La Force, (21 août 1792), 2/3 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Très curieuse lettre. « Coinme il faut pourvoir aux besoins ainsi qu'à la
                   sûreté des prisonniers (des suspects arrêtés après la journée du 10 août), je me
@@ -2898,7 +2907,7 @@
                   <p>célèbre général de la garde nationale pendant la Révolution, né en 1752, mort
                      en 1809.</p>
                </trait>
-               <desc xml:id="CAT_000173_e243_d1">Let. sig. comme général de division de l'armée des côtes de L. a. Rochelle;
+               <desc xml:id="CAT_000173_e243_d1">Let. sig. comme général de division de l'armée des côtes de La Rochelle;
  Saumur, 19 août 1793, 2 p. 1/2 in-fol., tête imp.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Belle et intéressante lettre contenant de curieux détails sur les opérations

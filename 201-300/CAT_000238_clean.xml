@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000238">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000238">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -81,7 +82,7 @@
                <trait>
                   <p>général d'artillerie, qui prit une grande part à la guerre de l'Indépendance américaine, né à Brest en 1730, mort en 1819.</p>
                </trait>
-               <desc xml:id="CAT_000238_e1_d1">L. a. s.; L. a. Fère, 9 fructidor an III, 2 p. in-8.</desc>
+               <desc xml:id="CAT_000238_e1_d1">L. a. s.; La Fère, 9 fructidor an III, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note anchored="true">Relative aux difficultés qu'il éprouve pour recouvrer ses biens dans le département du Finistère.</note>
             </item>
@@ -940,7 +941,7 @@
                <trait>
                   <p>célèbre homme d'Etat et diplomate, un des principaux rédacteurs de l'édit de Nantes, né en 1544, mort en 1610.</p>
                </trait>
-               <desc xml:id="CAT_000238_e92_d1">L. a. s. à M. de L. a. Rochepot, ambassadeur en Espagne; Paris, 12 mars 1692, 1. p. in-fol.</desc>
+               <desc xml:id="CAT_000238_e92_d1">L. a. s. à M. de La Rochepot, ambassadeur en Espagne; Paris, 12 mars 1692, 1. p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note anchored="true">Belle lettre au sujet d'un traité avec la Savoie.</note>
             </item>
@@ -2090,7 +2091,7 @@
                <trait>
                   <p>stathouder de Hollande, dépossédé en 1795, né en 1748, mort à Brunswick en 1806.</p>
                </trait>
-               <desc xml:id="CAT_000238_e212_d1">L. a. s., en français, à Stahremberg; L. a. Haye, 29 avril 1793, 1 p. in-4. Coupure atteignant légèrement le texte</desc>
+               <desc xml:id="CAT_000238_e212_d1">L. a. s., en français, à Stahremberg; La Haye, 29 avril 1793, 1 p. in-4. Coupure atteignant légèrement le texte</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note anchored="true">Il lui annonce qu'il a placé le comte Albert de Brancas dans les dragons de Hesse-Cassel ; il va essayer de satisfaire le prince de Saxe-Cobourg, au point de vue de son artillerie..</note>
             </item>
@@ -2275,7 +2276,7 @@
                <trait>
                   <p>colonel du génie, délégué à la guerre sous la Commune, fusillé à Satory le 28 novembre 1871.</p>
                </trait>
-               <desc xml:id="CAT_000238_e232_d1">Let. sig. au général L. a. Cécilia; Paris, 5 mai 1871, 1 p. in-4, cachet. Rare.</desc>
+               <desc xml:id="CAT_000238_e232_d1">Let. sig. au général La Cécilia; Paris, 5 mai 1871, 1 p. in-4, cachet. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Ordre de faire une opération contre la tranchée du chemin de fer de Clamart.</note>
             </item>
@@ -2527,7 +2528,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000238_e259_d1">Let. sig. au capitaine Gaultier, commandant le château de Peççais; L. a. Voulte (Ardèche), 14 août 1615, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000238_e259_d1">Let. sig. au capitaine Gaultier, commandant le château de Peççais; La Voulte (Ardèche), 14 août 1615, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Ordre d'établir un bureau à la Voulte pour la perception de la traite foraine sur les marchandises descendant l'Isère par bateaux. (La traite foraine, mise sur les marchandises importées en France, constituait une des cinq grosses fermes; elle devint fort impopulaire.)</note>
             </item>

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000102">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000102</title>
+            <title>RDA, N°99 (Mai-Juillet 1886)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>99</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -51,7 +52,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +73,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -538,7 +543,7 @@
                   <p>poète populaire allemand, qui s'est fait remarquer par son patriotisme, né en
                      1791, tue à vingt-deux ans, au combat de Rosenberg, le 26 août 1813</p>
                </trait>
-               <desc xml:id="CAT_000102_e37_d1">Die Gesellschaft (L. a. Société), manuscrit aut., 7 p.
+               <desc xml:id="CAT_000102_e37_d1">Die Gesellschaft (La Société), manuscrit aut., 7 p.
                   1/2 in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="100">100</measure>
                <note anchored="true">Pièce importante et inédite, paraissant être le début d'une
@@ -787,7 +792,7 @@
                   <p>épouse de Don Carlos, fille de Charles III, duc de Parme, et de Louise de
                      Bourbon, née en 1847</p>
                </trait>
-               <desc xml:id="CAT_000102_e56_d1">L. a. s.; L. a. Faraz, 21 avril 1870, 3 p. in-8.</desc>
+               <desc xml:id="CAT_000102_e56_d1">L. a. s.; La Faraz, 21 avril 1870, 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note anchored="true">Touchante épitre sur la mort de la duchesse de Berri</note>
             </item>
@@ -867,7 +872,7 @@
                   <p>célèbre fondeur, qui s'attacha à perfectionner les procédés pour forer et
                      tourner les canons, né à Berne en 1711, mort près de Lyon en 1790</p>
                </trait>
-               <desc xml:id="CAT_000102_e63_d1">L. a. s.; L. a. Rochefoucauld (Charente), 23 avril
+               <desc xml:id="CAT_000102_e63_d1">L. a. s.; La Rochefoucauld (Charente), 23 avril
                   1762, 3 p. 1/2 in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note anchored="true">Belle lettre sur la fabrication de mortiers à bombes et de
@@ -1576,7 +1581,7 @@
                <trait>
                   <p>l'éminent pianiste, né à Naples en 1814, mort en 1866</p>
                </trait>
-               <desc xml:id="CAT_000102_e121_d1">L. a. Vita, morceau de musique avec paroles aut. sig.,
+               <desc xml:id="CAT_000102_e121_d1">La Vita, morceau de musique avec paroles aut. sig.,
                   dédié à G. Ronconi, 5 p. in-4 obl. Légères taches.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -2059,7 +2064,7 @@
                <trait>
                   <p>célèbre compositeur et musicographe, né à Philippeville (Belgique) en 1762</p>
                </trait>
-               <desc xml:id="CAT_000102_e167_d1">L. a. s. à la 3e pers. à L. a. Bouisse Rochefort, 1/2
+               <desc xml:id="CAT_000102_e167_d1">L. a. s. à la 3e pers. à La Bouisse Rochefort, 1/2
                   p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -2663,7 +2668,7 @@
                   <p>compositeur hongrois, élève de Salieri, maître de chapelle, de l'impératrice
                      Marie-Louise, né en 1766, mort en 1846</p>
                </trait>
-               <desc xml:id="CAT_000102_e228_d1">L. a. Famille Suisse, morceau de musique aut., 22 p.
+               <desc xml:id="CAT_000102_e228_d1">La Famille Suisse, morceau de musique aut., 22 p.
                   in-4 obl. Incomplet de la fin.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>

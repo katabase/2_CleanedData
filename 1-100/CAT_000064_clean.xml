@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000064">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000064</title>
+            <title>RDA, N°77 (Mars 1883)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>77</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -83,7 +97,7 @@
                   <p>célèbre compositeur de musique, né en 1803</p>
                </trait>
                <desc xml:id="CAT_000064_e1_d1">L. a. s., 1 p. in-1</desc>
-               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <measure commodity="currency" unit="FRF" quantity="8.2">8 2</measure>
             </item>
             <item n="2" xml:id="CAT_000064_e2">
                <num type="lot">2</num>
@@ -91,7 +105,7 @@
                <trait>
                   <p>dame de Beaujeu, fille de Louis XI, régente de France</p>
                </trait>
-               <desc xml:id="CAT_000064_e2_d1">Let. signée à maître Odras ; L. a. Chaussien, 26
+               <desc xml:id="CAT_000064_e2_d1">Let. signée à maître Odras ; La Chaussien, 26
                   septembre, 1 p. in-8 6bl.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Belle pièce relative à un procès contre les détenteurs du comté de
@@ -121,7 +135,7 @@
                <num type="lot">5</num>
                <name type="author">Barbier (Aug.j)</name>
                <trait>
-                  <p>célèbre poète satirique, auteur des Ïambes, de l'Acad. fr</p>
+                  <p>célèbre poète satirique, auteur des Ïambes, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e5_d1">L. a. s., (1872), 1. p. in-18. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -185,7 +199,7 @@
                <num type="lot">11</num>
                <name type="author">Berryer (A.-P.)</name>
                <trait>
-                  <p>illustre orateur parlementaire, de l'Acad. fr</p>
+                  <p>illustre orateur parlementaire, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e11_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -264,7 +278,7 @@
                <num type="lot">18</num>
                <name type="author">Broglie (Albert, duc de)</name>
                <trait>
-                  <p>ministre et historien, membre de l'Acad. fr</p>
+                  <p>ministre et historien, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e18_d1">L. a. s., 2 p. 1/2 in-18. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -456,7 +470,7 @@
                <num type="lot">37</num>
                <name type="author">Cuvier (Georges)</name>
                <trait>
-                  <p>illustre naturaliste, de l'Acad. fr</p>
+                  <p>illustre naturaliste, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e37_d1">L. a. s. à M. Fabien Pillet, 1821, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -468,7 +482,7 @@
                   <p>le spirituel statuaire</p>
                </trait>
                <desc xml:id="CAT_000064_e38_d1">L. a. s., 1 p. in-8.</desc>
-               <measure commodity="currency" unit="FRF" quantity="2"/>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="39" xml:id="CAT_000064_e39">
                <num type="lot">39</num>
@@ -535,7 +549,7 @@
                <num type="lot">45</num>
                <name type="author">Ducamp (Maxime)</name>
                <trait>
-                  <p>poète et romancier, de l'Acad. fr</p>
+                  <p>poète et romancier, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e45_d1">L. a. s., 1 p. 1/2 in-8. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -566,7 +580,7 @@
                <num type="lot">48</num>
                <name type="author">Dumas (Alex.)</name>
                <trait>
-                  <p>fils,célèbre auteur dramatique, de l'Acad. fr</p>
+                  <p>fils,célèbre auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e48_d1">L. a. s. à un littérateur, 1 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -578,7 +592,7 @@
                <num type="lot">49</num>
                <name type="author">Dupanloup (Félix)</name>
                <trait>
-                  <p>évêque d'Orléans, de l'Acad. fr</p>
+                  <p>évêque d'Orléans, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e49_d1">L. a. s., 1/2 p. in-8. Rare aut. sig.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -844,7 +858,7 @@
                <num type="lot">75</num>
                <name type="author">Labiche (Eug.)</name>
                <trait>
-                  <p>un de nos plus spirituels vaudevillistes, de l'Acad. fr</p>
+                  <p>un de nos plus spirituels vaudevillistes, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e75_d1">L. a. s., 23 déc. 1872, 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -888,7 +902,7 @@
                <num type="lot">79</num>
                <name type="author">Laprade (Victor de)</name>
                <trait>
-                  <p>célèbre poète lyonnais, de l'Acad. fr</p>
+                  <p>célèbre poète lyonnais, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e79_d1">L. a. s. à M. Léon Boitel ; samedi 22, 1 p. pl.
                   in-8.</desc>
@@ -934,7 +948,7 @@
                <name type="author">Lemercier (Népomucène)</name>
                <trait>
                   <p>secrétaire des commandements de la princesse de Lamballe, poète dramatique
-                     original, l'un des précurseurs du Romantisme, de l'Acad. fr</p>
+                     original, l'un des précurseurs du Romantisme, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e83_d1">L. a. s. à M. Guénepin; Bayeux, 1826, 2 p. pet.
                   in-4., cachet. Belle lettre.</desc>
@@ -963,7 +977,7 @@
                <num type="lot">86</num>
                <name type="author">Littré (E.)</name>
                <trait>
-                  <p>savant écrivain, l'auteur du Dictionnaire, de l'Acad. fr</p>
+                  <p>savant écrivain, l'auteur du Dictionnaire, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e86_d1">L. a. s., 2 p. in-8. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -1080,7 +1094,7 @@
                <num type="lot">97</num>
                <name type="author">Mérimée (Prosper)</name>
                <trait>
-                  <p>célèbre écrivain romantique, l'quteur de Clara Gazul, de l'Acad. fr</p>
+                  <p>célèbre écrivain romantique, l'quteur de Clara Gazul, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e97_d1">L. a. s. au baron Taylor, 13 mars, 1/2 p. in-4,
                   cachet.</desc>
@@ -1198,7 +1212,7 @@
                <num type="lot">109</num>
                <name type="author">Pailleron (Ed.)</name>
                <trait>
-                  <p>célèbre auteur dramatique, membre de l'Acad. fr</p>
+                  <p>célèbre auteur dramatique, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e109_d1">L. a. s. à M. Morère, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -1239,7 +1253,7 @@
                <name type="author">Perraud (Adolphe-Louis)</name>
                <trait>
                   <p>prélat célèbre comme orateur et comme écrivain, évêque d'Autun, membre de
-                     l'Acad. fr</p>
+                     l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e113_d1">L. a. s., Autun, 1875, 1 p. in-8. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -1362,7 +1376,7 @@
                <num type="lot">125</num>
                <name type="author">Sandeau (Jules)</name>
                <trait>
-                  <p>écrivain distingué, de l'Acad. fr</p>
+                  <p>écrivain distingué, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e125_d1">L. a. s., 1/2 p. in-8. Fripée et fatiguée.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1380,7 +1394,7 @@
                <num type="lot">127</num>
                <name type="author">Sardou (Victorien)</name>
                <trait>
-                  <p>spirituel et fécond auteur dramatique, de l'Acad. fr</p>
+                  <p>spirituel et fécond auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e127_d1">L. a. s. (à Amédée Achard) ; Louveciennes, 21 mai
                   (1858), 1 p. pl. in-8.</desc>
@@ -1411,7 +1425,7 @@
                <num type="lot">129</num>
                <name type="author">Simon (Jules)</name>
                <trait>
-                  <p>homme d'Etat, de l'Acad. fr</p>
+                  <p>homme d'Etat, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e129_d1">L. a. s., 1 p. in-8. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1582,7 +1596,7 @@
                <name type="author">Vieil-Castel (L. de)</name>
                <trait>
                   <p>diplomate et historien, dont on vient de publier les Mémoires, de l'Acad.
-                     fr</p>
+                     fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e145_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -1591,7 +1605,7 @@
                <num type="lot">146</num>
                <name type="author">Vigny (Alfred de)</name>
                <trait>
-                  <p>célèbre poète dramatique, de l'Acad. t'r</p>
+                  <p>célèbre poète dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000064_e146_d1">L. a. s., 28 nov. 1839, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -1630,9 +1644,11 @@
                <desc xml:id="CAT_000064_e149_d1">5 lig. aut. sig. sur sa carte de visite, adressées
                   à M. Derney, in-18.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
-               <note>AUTOGRAPHES CLASSÉS PAR DÉPARTEMENTS PERSONNAGES QUI Y SONT NÉS OU s'Y
-                  RATTACHENT COTES-DU-NORD</note>
             </item>
+         </list>
+         <list>
+            <head>AUTOGRAPHES CLASSÉS PAR DÉPARTEMENTS PERSONNAGES QUI Y SONT NÉS OU s'Y
+               RATTACHENT COTES-DU-NORD</head>
             <item n="150" xml:id="CAT_000064_e150">
                <num type="lot">150</num>
                <name type="author">BESLAY (Ch.)</name>

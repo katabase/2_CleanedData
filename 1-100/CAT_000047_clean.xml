@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000047">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000047</title>
+            <title>RDA, N°58 (Novembre 1879)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>58</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -997,7 +1011,7 @@
                   <p>jurisconsulte français, auteur de plusieurs ouvrages, bailli des villes et
                      marquisat de La Palisse</p>
                </trait>
-               <desc xml:id="CAT_000047_e93_d1">L. a. s. ; L. a. Palisse, 1756, 2 p. in-4.</desc>
+               <desc xml:id="CAT_000047_e93_d1">L. a. s. ; La Palisse, 1756, 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="94" xml:id="CAT_000047_e94">
@@ -2276,7 +2290,7 @@
                <trait>
                   <p>littérateur distingué, né en Provence</p>
                </trait>
-               <desc xml:id="CAT_000047_e219_d1">L. a. s.; L. a. Garde, près Toulon, 1874, 1 p. in-8.
+               <desc xml:id="CAT_000047_e219_d1">L. a. s.; La Garde, près Toulon, 1874, 1 p. in-8.
                   Envoi des Poêmes de Provence. </desc>
                <measure commodity="currency" unit="FRF" quantity=".3"> 3</measure>
             </item>
@@ -2305,7 +2319,7 @@
                <num type="lot">222</num>
                <name type="author">Augier (Emile)</name>
                <trait>
-                  <p>auteur dramatique, de l'Acad. fr</p>
+                  <p>auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e222_d1">L. a. s. à un journaliste, 1852, 2 p. 1/2 in-8.
                   Cachet.</desc>
@@ -2398,7 +2412,7 @@
                <num type="lot">231</num>
                <name type="author">Caro (Em.)</name>
                <trait>
-                  <p>philosophe, de l'Acad. fr</p>
+                  <p>philosophe, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e231_d1">L. a. s., 1863, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -2435,7 +2449,7 @@
                <num type="lot">235</num>
                <name type="author">Cuvillier-Fleury</name>
                <trait>
-                  <p>célèbre critique, de l'Acad. fr</p>
+                  <p>célèbre critique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e235_d1">L. a. s. à un littérateur, 1867, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -2465,7 +2479,7 @@
                <num type="lot">238</num>
                <name type="author">Feuillet (Octave)</name>
                <trait>
-                  <p>célèbre auteur dramatique, de l'Acad. fr</p>
+                  <p>célèbre auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e238_d1">L. a. s. à M. Aubert, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -2561,7 +2575,7 @@
                <num type="lot">248</num>
                <name type="author">Janin (Jules)</name>
                <trait>
-                  <p>le prince des critiques, membre de l'Acad. fr</p>
+                  <p>le prince des critiques, membre de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e248_d1">L. a. s. à un critique, 1846, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -2643,7 +2657,7 @@
                <num type="lot">256</num>
                <name type="author">Sardou (Victorien)</name>
                <trait>
-                  <p>spirituel et fécond auteur dramatique, de l'Acad. fr</p>
+                  <p>spirituel et fécond auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e256_d1">L. a. s. à un de ses collaborateurs, 2 p. pl.
                   in-8.</desc>
@@ -2665,7 +2679,7 @@
                <num type="lot">258</num>
                <name type="author">Vigny (Alfred de)</name>
                <trait>
-                  <p>célèbre poète, de l'Acad. fr</p>
+                  <p>célèbre poète, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000047_e258_d1">L. a. s. à un poète, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>

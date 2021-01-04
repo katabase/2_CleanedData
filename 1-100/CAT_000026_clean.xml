@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000026">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000026</title>
+            <title>RDA, N°32 (Mai-Juin 1872)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>32</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -585,7 +599,7 @@
                <num type="lot">48</num>
                <name type="author">Feuillet (Octave)</name>
                <trait>
-                  <p>célèbre romancier et auteur dramatique, de l'Acad. fr</p>
+                  <p>célèbre romancier et auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000026_e48_d1">L. a. s., 1 p. 1/2 in-18, charmante épître sur une
                   de ses comédies.</desc>
@@ -793,7 +807,7 @@
                <num type="lot">68</num>
                <name type="author">Lacordaire (J.-B.-H.)</name>
                <trait>
-                  <p>illustre prédicateur, de l'Acad. fr</p>
+                  <p>illustre prédicateur, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000026_e68_d1">L. a. s., à Pons-de-l'Hérault ; Sorèze, 1858, 1 p.
                   in-4.</desc>
@@ -1723,7 +1737,7 @@
                <name type="author">Target (G.-J.-B.)</name>
                <trait>
                   <p>avocat célèbre du XVIIIe siècle, qui refusa de défendre Louis XVI, le principal
-                     auteur de la constitution de 1791, membre do l'Acad. fr</p>
+                     auteur de la constitution de 1791, membre do l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000026_e150_d1">L. a. s. au président de l'Assemblée électorale de
                   Paris; 27 nov. 1790, 1 p. in-4.</desc>
@@ -1897,7 +1911,7 @@
                <num type="lot">166</num>
                <name type="author">Vigny (Alfred de)</name>
                <trait>
-                  <p>illustre littérateur et auteur dram., de l'Acad. fr</p>
+                  <p>illustre littérateur et auteur dram., de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000026_e166_d1">L. a. s. au docteur Brière de Boismont, 1837, 1 p.
                   in-8. Délicieux billet.</desc>

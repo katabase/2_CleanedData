@@ -1,6 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000427">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1620,7 +1619,7 @@
                   <p>médecin anglais,éditeur du Système de philosophie morale de sonpère, le célèbre
                      philosophe,</p>
                </trait>
-               <desc xml:id="CAT_000427_e131_d1">L. a. s. à L. a. Beaumelle ; Dublin, 29 janvier 1768, 2 p. 1/2 in-4.</desc>
+               <desc xml:id="CAT_000427_e131_d1">L. a. s. à La Beaumelle ; Dublin, 29 janvier 1768, 2 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Très curieuse épître où il parle de l'expulsion des Jésuites de France : « Les
                   procédures contre les Jésuites par toute l'Europe peuvent avoir, et je crois,

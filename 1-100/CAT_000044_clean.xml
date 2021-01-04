@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000044">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000044</title>
+            <title>RDA, N°55 (Décembre 1878)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>55</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -259,7 +273,7 @@
                <trait>
                   <p>le chevaleresque révolutionnaire</p>
                </trait>
-               <desc xml:id="CAT_000044_e18_d1">L. a. s.; L. a. Haye, 23 déc. 1869, 2 p. in-8.
+               <desc xml:id="CAT_000044_e18_d1">L. a. s.; La Haye, 23 déc. 1869, 2 p. in-8.
                   Fripée.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse épitre sur sa photographie, que lui demandent ses amis. Il s'en
@@ -501,7 +515,7 @@
                <trait>
                   <p>célèbre général</p>
                </trait>
-               <desc xml:id="CAT_000044_e42_d1">L. a. s. à son cher de L. a. Pierre; Versailles, 7 mai
+               <desc xml:id="CAT_000044_e42_d1">L. a. s. à son cher de La Pierre; Versailles, 7 mai
                   1871, 2 p. in-8. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
@@ -697,7 +711,7 @@
                <trait>
                   <p>poète romantique</p>
                </trait>
-               <desc xml:id="CAT_000044_e61_d1">L. a. Bague du Père, parabole, pièce de vers aut. sig.
+               <desc xml:id="CAT_000044_e61_d1">La Bague du Père, parabole, pièce de vers aut. sig.
                   1 p. 1/2 in-4. </desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Pièce de sa jeunesse, composée, sous la Restauration, pour le journal
@@ -737,7 +751,7 @@
                <trait>
                   <p>poète tragique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000044_e65_d1">L. a. s. au cit. L. a. Chabeaussière, an IX, 3/4 de p.
+               <desc xml:id="CAT_000044_e65_d1">L. a. s. au cit. La Chabeaussière, an IX, 3/4 de p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Au sujet de la candidature de La Chabeaussière à l'Institut, en remplacement de
@@ -1137,7 +1151,7 @@
                <trait>
                   <p>quatrième fils de Georges III, père de la reine Victoria</p>
                </trait>
-               <desc xml:id="CAT_000044_e103_d1">Let. sig., en français, au comte de L. a. Châtre;
+               <desc xml:id="CAT_000044_e103_d1">Let. sig., en français, au comte de La Châtre;
                   Kensington, 6 juil. 1814, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Sur la nomination de M de La Châtre à l'ambassade de Londres</note>
@@ -1662,7 +1676,7 @@
                <trait>
                   <p>l'auteur des Contes, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000044_e156_d1">Billet aut. sig. à M. de L. a. Planche, 1672, 1/2 p.
+               <desc xml:id="CAT_000044_e156_d1">Billet aut. sig. à M. de La Planche, 1672, 1/2 p.
                   in-8. Relatif à des vases faits pour Trianon.</desc>
                <measure commodity="currency" unit="FRF" quantity="14">14</measure>
             </item>
@@ -2208,7 +2222,7 @@
                   <p>le célèbre diplomate hollandais</p>
                </trait>
                <desc xml:id="CAT_000044_e209_d1">L. a. s. à M. Stella de Morimont, résident de
-                  France à Strasbourg; L. a. Haye, 2 janv. 1645, 2 p. in-f., beau cachet à ses
+                  France à Strasbourg; La Haye, 2 janv. 1645, 2 p. in-f., beau cachet à ses
                   armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Intéressante lettre politique sur les affaires de la Cour de Cassel et des

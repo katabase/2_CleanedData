@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000063">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000063</title>
+            <title>RDA, N°75 (Janvier 1883)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>75</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1235,7 +1249,7 @@
                <trait>
                   <p>célèbre poète élégiaque, de l'Académie française</p>
                </trait>
-               <desc xml:id="CAT_000063_e107_d1">L. a. s.; Paris, 10 therm. an X, 2 p. in-4. L. a. fin
+               <desc xml:id="CAT_000063_e107_d1">L. a. s.; Paris, 10 therm. an X, 2 p. in-4. La fin
                   du post-scriptum manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Curieuse lettre écrite à l'âge de vingt ans à un écrivain de ses amis. Il le
@@ -1444,7 +1458,7 @@
             </item>
             <item n="127" xml:id="CAT_000063_e127">
                <num type="lot">127</num>
-               <name type="author">Puthod (J.-P.-L.-M., baron),</name>
+               <name type="author">Puthod (J.-P.-L.-M., baron)</name>
                <trait>
                   <p>intrépide général dont le nom est inscrit sur l'Arc-de-Triomphe de l'Etoile, né
                      à Bagèle-Châtel.</p>
@@ -1626,7 +1640,7 @@
                   <p>le grand écrivain</p>
                </trait>
                <desc xml:id="CAT_000063_e143_d1">L. a. s. V. à M. d'Aiguebère, conseiller au
-                  parlement de Toulouse ; Paris, 26 oct. 1749, 2 p. 1/4 in-4. L. a. moitié du papier de
+                  parlement de Toulouse ; Paris, 26 oct. 1749, 2 p. 1/4 in-4. La moitié du papier de
                   la troisième page a été enlevée, mais le texte n'est pas atteint.</desc>
                <measure commodity="currency" unit="FRF" quantity="55">55</measure>
                <note>Très belle lettre sur la mort de la marquise du Châtelet. Il lui rappelle que

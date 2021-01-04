@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000084">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000084</title>
+            <title>RDA, N°50 (Janvier 1877)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>50</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -572,7 +586,7 @@
                <trait>
                   <p>le célèbre poète chansonnier</p>
                </trait>
-               <desc xml:id="CAT_000084_e46_d1">L. a. s. à Mlle Raoulx; prison de L. a. Force, 16 janv.
+               <desc xml:id="CAT_000084_e46_d1">L. a. s. à Mlle Raoulx; prison de La Force, 16 janv.
                   1829, 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Curieuse lettre sur sa détention. Il ne s'étonne point que
@@ -1250,7 +1264,7 @@
                <trait>
                   <p>roi des Français</p>
                </trait>
-               <desc xml:id="CAT_000084_e105_d1">L. a. s. au comte de L. a. Châtre; Palerme, 30 av.
+               <desc xml:id="CAT_000084_e105_d1">L. a. s. au comte de La Châtre; Palerme, 30 av.
                   1810, 1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Envoi de lettres pour le roi-(Louis XVIII), la reine et la

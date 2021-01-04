@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000007">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000007</title>
+            <title>Collection Schuman, 4 et 5 mars 1965</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
@@ -22,7 +23,7 @@
                <pubPlace>3 rue Furstenberg, Paris</pubPlace>
                <publisher>Pierre Cornuau</publisher>
                <pubPlace>22 rue Laffitte, Paris</pubPlace>
-               <date>1965</date>
+               <date when="1965">1965</date>
             </bibl>
             <listEvent>
                <event type="auction">
@@ -35,7 +36,7 @@
                      <persName type="expert">Michel Castaing</persName>
                      <persName type="expert">Pierre Cornuau</persName>
                      <persName type="collector" ref="#PE2_000012">Robert Schuman</persName>
-                     <date from="1965-03-04" to="1965-03-05">les 4 et 5 mars 1965.</date>
+                     <date from="1965-03-04" to="1965-03-05">les 4 et 5 mars 1965</date>
                   </p>
                </event>
                <event type="report">
@@ -79,7 +80,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -88,7 +89,8 @@
          </samplingDecl>
       </encodingDesc>
       <revisionDesc>
-         <change who="#COL_000001" when="2020-07">Correction, adding new mark-up for price and an ID for desc</change>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -97,7 +99,7 @@
             <gap/>
             <item n="279" xml:id="CAT_000007_e279" corresp="#MS_000008" rend="facs">
                <num type="lot">279</num>
-               <name type="author">SEVIGNE (Marie de Rabutin-Chantal Marquise de),</name>
+               <name type="author">SEVIGNE (Marie de Rabutin-Chantal Marquise de)</name>
                <trait>
                   <p>l'illustre épistolière
                      (1626-1696). Lettre autographe à du Plessis. Aux Rochers, 20 août (1690).</p>

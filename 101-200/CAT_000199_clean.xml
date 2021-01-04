@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000199">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000199</title>
+            <title>RDA, N°169 (Août-septembre 1894)</title>
             <respStmt>
-               <persName ref="#COL_000001">Matthias Gille Levenson</persName>
+               <persName ref="#COL_000006">Matthias Gille Levenson</persName>
                <resp>
                   <date when="2020">2020</date>
                </resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">169</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
-               <date when="1893-02">Août-Septembre 1894</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>169</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1894-08">Août-septembre 1894</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -596,7 +609,7 @@
                      1756.</p>
                </trait>
                <desc xml:id="CAT_000199_e42_d1">Pièce sig., 1738, 1 p. in-fol.</desc>
-               <measure commodity="currency" unit="FRF" quantity="6"/>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="43" xml:id="CAT_000199_e43">
                <num type="lot">43</num>
@@ -1101,7 +1114,7 @@
                <trait>
                   <p>écrivain cynégétique contemporain très distingué, né à Chartres en 1821.</p>
                </trait>
-               <desc xml:id="CAT_000199_e83_d1">15 1 a. s. à un littérateur; 28 p. in-8 et in-18.
+               <desc xml:id="CAT_000199_e83_d1">15 l a. s. à un littérateur; 28 p. in-8 et in-18.
                   Très curieuse correspon¬ dance.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -1400,7 +1413,7 @@
                <name type="author">Devaux (Pierre)</name>
                <trait>
                   <p>célèbre général de la République et de l'Empire, qui monta le premier à
-                     l'assaut à Saint- Jean-d'Acre, né à Vierzon (Cher) en 1762, mort en 1836.</p>
+                     l'assaut à Saint-Jean-d'Acre, né à Vierzon (Cher) en 1762, mort en 1836.</p>
                </trait>
                <desc xml:id="CAT_000199_e107_d1">L. a. s. à Lacuée ; Cadix, 29 messidor an VIII (18
                   juillet 1800), 4 p. in-4. Jolie vignette républicaine.</desc>
@@ -1692,7 +1705,7 @@
                   <p>célèbre poète et écrivain italien, auteur des Ultime Let- tere di Jacopo Ortis,
                      né en 1778, mort en 1827.</p>
                </trait>
-               <desc xml:id="CAT_000199_e129_d1">L. a. s., en français, à M. L. a. Flotte ;
+               <desc xml:id="CAT_000199_e129_d1">L. a. s., en français, à M. La Flotte ;
                   Valenciennes, 19 frimaire an XIII (10 déc. 1804), 1 p. in-fol. Légèrement
                   déchirée dans la partie blanche.-Ou a joint 2 portraits.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -2229,7 +2242,7 @@
                <num type="lot">174</num>
                <name type="author">Lemaire (Madeleine)</name>
                <trait>
-                  <p>célèbre femme peintre contemporaine, née à Sainte- Rosteline (Var).</p>
+                  <p>célèbre femme peintre contemporaine, née à Sainte-Rosteline (Var).</p>
                </trait>
                <desc xml:id="CAT_000199_e174_d1">L. a. s., 2 p. 1/2 in-8. Très belle lettre où elle
                   parle de M. Alexandre Dumas.</desc>
@@ -2548,7 +2561,7 @@
                <num type="lot">201</num>
                <name type="author">Martin (L.-Aimé)</name>
                <trait>
-                  <p>littérateur, disciple et ami de Bernardin de Saint- Pierre, dont il épousa la
+                  <p>littérateur, disciple et ami de Bernardin de Saint-Pierre, dont il épousa la
                      veuve, né à Lyon en 1781. mort en 1847.</p>
                </trait>
                <desc xml:id="CAT_000199_e201_d1">L. a. s., avec apostilles aut. sig. de G. Cuvier,
@@ -2665,8 +2678,8 @@
                      1870.</p>
                </trait>
                <desc xml:id="CAT_000199_e210_d1">1° 13 l. a. s., dont 12 de son initiale, à Mgr
-                  Dupanloup; L. a. Roche-en-Breny, 1845-1850, 37 p. in-8.-2° Let. sig. (copie) à
-                  l'abbé Hiron, à Rome; L. a. Roche-en-Breny, 31 oct. 1846, 4 p. in-4.</desc>
+                  Dupanloup; La Roche-en-Breny, 1845-1850, 37 p. in-8.-2° Let. sig. (copie) à
+                  l'abbé Hiron, à Rome; La Roche-en-Breny, 31 oct. 1846, 4 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Importante correspondance toute relative à la défense de la religion
                   catholique. Il parle du P. de Ravignan, de Louis Veuillot, du P. Lacordaire, etc.
@@ -2968,7 +2981,7 @@
                <trait>
                   <p>célèbre comédien du Théâtre-Français, né en 1807, mort en 1885.</p>
                </trait>
-               <desc xml:id="CAT_000199_e236_d1">L. a. Joconde, comédie en cinq actes, en prose, par
+               <desc xml:id="CAT_000199_e236_d1">La Joconde, comédie en cinq actes, en prose, par
                   Paul Foucher et Régnier; 1855, broch. in-12, avec envoi aut. sig. de
                   Régnier.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -3378,7 +3391,7 @@
                   <p>célèbre littérateur et auteur dramatique, mari de Mme Madeleine Brohan, né en
                      1824.</p>
                </trait>
-               <desc xml:id="CAT_000199_e267_d1">L. a. Fiammina, comédie en 4 actes, en prose, par
+               <desc xml:id="CAT_000199_e267_d1">La Fiammina, comédie en 4 actes, en prose, par
                   Mario Uchard, 3e édition : Paris, 1857, broch. in-12, avec envoi d'auteur aut.
                   sig.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>

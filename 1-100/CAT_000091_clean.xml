@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000091">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
@@ -117,7 +118,7 @@
                <desc xml:id="CAT_000091_e1180_d20">du chevalier de Self;</desc>
                <desc xml:id="CAT_000091_e1180_d21">d’Alexandre Montanus;</desc>
                <desc xml:id="CAT_000091_e1180_d22">de Martin Dubellay</desc>
-               <desc xml:id="CAT_000091_e1180_d23">et autres. L. a. plupart de ces lettres sont adressées au duc de Guise (Henri de Lorraine),
+               <desc xml:id="CAT_000091_e1180_d23">et autres. La plupart de ces lettres sont adressées au duc de Guise (Henri de Lorraine),
                   tué par Poltron en 1563; au roi Henri III, lui-même;
                   à la reine Catherine de Médicis, et au roi de Navarre: M. Gail en a publié récemment plusieurs.</desc>
             </item>

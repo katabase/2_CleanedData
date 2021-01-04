@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000114">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000114</title>
+            <title>RDA, N°111 (Février 1888)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">111</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>111</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -973,7 +986,7 @@
                   <p>célèbre poète, surnommé le La Fontaine hollandais, grand pensionnaire de
                      Hollande, ambassadeur en Angleterre, né en 1577, mort en 1660</p>
                </trait>
-               <desc xml:id="CAT_000114_e79_d1">L. a. s. à Vorst; L. a. Haye, 1640, 2 p. in-fol.
+               <desc xml:id="CAT_000114_e79_d1">L. a. s. à Vorst; La Haye, 1640, 2 p. in-fol.
                   Superbe lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
@@ -1329,7 +1342,7 @@
                   <p>célèbre compositeur de musique, auteur du Désert, né en Provence en 1810, mort
                      en 1876</p>
                </trait>
-               <desc xml:id="CAT_000114_e111_d1">L. a. Perle du Brésil, manuscril aut., 23 p. in-4.
+               <desc xml:id="CAT_000114_e111_d1">La Perle du Brésil, manuscril aut., 23 p. in-4.
                   Fragment de ce célèbre opéra.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
@@ -1799,7 +1812,7 @@
                   <p>le célèbre publiciste, né en 1806, mort en 1881</p>
                </trait>
                <desc xml:id="CAT_000114_e155_d1">Que veut la France? Article aut. sig., paru dans le
-                  journal L. a. France du 9 mars 1879, 7 p. in-8. 2 feuillets ont été déchirés puis
+                  journal La France du 9 mars 1879, 7 p. in-8. 2 feuillets ont été déchirés puis
                   recollés.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Cet article débute ainsi : « Ce que veulent impatiemment tous les travailleurs,
@@ -2254,7 +2267,7 @@
                      les Anglais sur mer en 1517</p>
                </trait>
                <desc xml:id="CAT_000114_e196_d1">Let. sig., avec la souscript. aut., à M. d'Acigné,
-                  seigneur de L. a. RocheJagu; Vitré, 1er janvier 1528, 3/4 de p. in-fol. Légère
+                  seigneur de La RocheJagu; Vitré, 1er janvier 1528, 3/4 de p. in-fol. Légère
                   déchirure.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Relative à la terre de Quimperguegenec, ayant appartenu à sa tante Catherine
@@ -2842,7 +2855,7 @@
                      Bastille de 1726 à 1728 pour ses intrigues contre le cardinal de Fleury, né en
                      1684, mort en 1770</p>
                </trait>
-               <desc xml:id="CAT_000114_e251_d1">L. a. s.; L. a. Bastille, 18 avril 1727, 3 p. in-4.
+               <desc xml:id="CAT_000114_e251_d1">L. a. s.; La Bastille, 18 avril 1727, 3 p. in-4.
                   Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Curieuse lettre. Comme le motif de sa détention est d'être accusé d'avoir

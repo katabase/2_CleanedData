@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000021">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000021</title>
+            <title>RDA, N°22 (Mai-Juillet 1869)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>22</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> BnF, MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -696,7 +710,7 @@
                <num type="lot">4356</num>
                <name type="author">Chapelain (Jean)</name>
                <trait>
-                  <p>célèbre poète, auteur de la Pucelle, de l'Acad. franc</p>
+                  <p>célèbre poète, auteur de la Pucelle, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4356_d1">L. a. s. (à Colbert?); 17 mai 1665, 4p. pl. in-8.
                   Jolie pièce.</desc>
@@ -751,7 +765,7 @@
                <num type="lot">4360</num>
                <name type="author">Châteaubriand</name>
                <trait>
-                  <p>écrivain illustre, de l'Acad. franc</p>
+                  <p>écrivain illustre, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4360_d1">L. a. s. à M. Dulau ; Paris, 14 mars 1803, 1 p.
                   in-1. J</desc>
@@ -894,7 +908,7 @@
                <trait>
                   <p>savant helléniste</p>
                </trait>
-               <desc xml:id="CAT_000021_e4372_d1">L. a. s. à L. a. Porte du Theil, an X, 1 p.
+               <desc xml:id="CAT_000021_e4372_d1">L. a. s. à La Porte du Theil, an X, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
                <note>Relative à un passage de leur traduction de Strabon. -On y a joint deux notes
@@ -1116,7 +1130,7 @@
                <name type="author">Estrées (le card. César d')</name>
                <trait>
                   <p>évêque de Laon, ambassadeur de Louis XIV à Rome, un des auteurs de la Guirlande
-                     de Julie, memb. de l'Acad. franc</p>
+                     de Julie, memb. de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4392_d1">L. a. s. (à Marie-Casimire, reine de Pologne);
                   Fontainebleau, 12 oct. 1699, 4 p. pl. in-4.</desc>
@@ -1369,7 +1383,7 @@
                <name type="author">Hardouin de Périfixe</name>
                <trait>
                   <p>le meilleur historien de Henry IV, archevêque de Paris, membre de l'Acad.
-                     fr</p>
+                     fr.</p>
                </trait>
                <desc xml:id="CAT_000021_e4410_d1">L. a. s. à la soeur Marie de Sainte-Madeleine,
                   abbesse de Port-Royal des Champs; Paris, 3 août 1669, 1 p. pl. in-4, enveloppe avec
@@ -1467,7 +1481,7 @@
                <num type="lot">4419</num>
                <name type="author">Hugo (Victor)</name>
                <trait>
-                  <p>illustre écrivain, de l'Acad. franc</p>
+                  <p>illustre écrivain, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4419_d1">L. a. s. (à M. Gromier); Hauteville-House, 23 juin
                   1808, 1 p. pl. in-8.</desc>
@@ -1882,7 +1896,7 @@
                <num type="lot">4454</num>
                <name type="author">Mignet</name>
                <trait>
-                  <p>célèbre historien, de l'Acad. fr</p>
+                  <p>célèbre historien, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000021_e4454_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>
@@ -2016,7 +2030,7 @@
                <num type="lot">4465</num>
                <name type="author">Perrault (Ch.)</name>
                <trait>
-                  <p>l'auteur des Contes, de l'Acad. franc</p>
+                  <p>l'auteur des Contes, de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4465_d1">Billet aut. sig., 21 sept. 1677, 1/2 p. in-8.
                   6.</desc>
@@ -2195,7 +2209,7 @@
                <num type="lot">4481</num>
                <name type="author">Richelieu (le duc de)</name>
                <trait>
-                  <p>célèbre ministre de Louis XVIII, membre de l'Acad. franc</p>
+                  <p>célèbre ministre de Louis XVIII, membre de l'Acad. franc.</p>
                </trait>
                <desc xml:id="CAT_000021_e4481_d1">L. a. s., l/2p. in-4. Jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>

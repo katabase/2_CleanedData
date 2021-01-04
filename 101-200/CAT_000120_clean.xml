@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000120">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000120</title>
+            <title>RDA, N°117 (Décembre 1888)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">117</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>117</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -795,7 +808,7 @@
                <trait>
                   <p>l'illustre compositeur, né à Florence en 1760, mort en 1842</p>
                </trait>
-               <desc xml:id="CAT_000120_e59_d1">L. a. s., en français, au baron de L. a. Ferté; Paris,
+               <desc xml:id="CAT_000120_e59_d1">L. a. s., en français, au baron de La Ferté; Paris,
                   22 janvier 1824, 1 p. in-fol. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -948,7 +961,7 @@
                      1797</p>
                </trait>
                <desc xml:id="CAT_000120_e72_d1">Let. sig., signée aussi par Francoeur Vestris père;
-                  Lasalle, de L. a. Suze, Boquet et Janson; 12 juin 1789, 1 p. in-fol.</desc>
+                  Lasalle, de La Suze, Boquet et Janson; 12 juin 1789, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="18">18</measure>
                <note>Belle lettre écrite au nom des sujets de l'Académie royale de musique sur des
                   réclamations touchant leurs pensions</note>
@@ -1255,7 +1268,7 @@
                      Ensorcelés</p>
                </trait>
                <desc xml:id="CAT_000120_e97_d1">L. a. s. à Favart ; Paris, 10 fév. 1777, 2 p. 1/4
-                  in-4. L. a. partie blanche du second feuillet manque. Rare.</desc>
+                  in-4. La partie blanche du second feuillet manque. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Intéressante lettre où il le félicite sur son succès de Soliman (Soliman
                   II)</note>
@@ -1519,7 +1532,7 @@
                      1615</p>
                </trait>
                <desc xml:id="CAT_000120_e121_d1">Pièce sig., signée aussi: 1° par J.-L. de Nogaret,
-                  duc de L. a. Valette et d'Epernon ;</desc>
+                  duc de La Valette et d'Epernon ;</desc>
                <desc xml:id="CAT_000120_e121_d2">2° par Jean de Berthier, évêque de Rieux; 15 mars
                   1611, 7 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -2904,7 +2917,7 @@
                      en 1626, morte au château de Grignan (Drôme) en 1696</p>
                </trait>
                <desc xml:id="CAT_000120_e249_d1">P. s., signée aussi par son mari Henri, marquis de
-                  Sevigné, Marie de L. a. Croix, veuve de Gabriel de Guénégaud. Claude de Guénégaud,
+                  Sevigné, Marie de La Croix, veuve de Gabriel de Guénégaud. Claude de Guénégaud,
                   trésorier du Roi, Phitippe de Coulanges (oncle de Madame de Sévigné), Léonor de
                   Rabutin, comte de Bussy, lieutenant-général, et l'abbé Christophe de Coulanges;
                   Paris, 8 fév. 1644 et 30 janvier 1645, 3 p. 1/2 in-4. Tachée d'humidité et

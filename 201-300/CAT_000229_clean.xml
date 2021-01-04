@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000229">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000229">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -324,7 +325,7 @@
                <trait>
                   <p>célèbre écrivain, auteur de l'Histoire du peuple de Dieu, ouvrage qui fut condamné par le pape Clément XIII, né à Rouen en 1681, mort en 1758.</p>
                </trait>
-               <desc xml:id="CAT_000229_e27_d1">L. a. s. au marquis de Thiboutot, son neveu, à L. a. Fère; Paris, 7 janv. 1751, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000229_e27_d1">L. a. s. au marquis de Thiboutot, son neveu, à La Fère; Paris, 7 janv. 1751, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="28" xml:id="CAT_000229_e28">
@@ -527,7 +528,7 @@
                <trait>
                   <p>célèbre homme d'Etat, conventionnel, archi-chancelier de l'Empire, né à Montpellier en 1753, mort en 1824.</p>
                </trait>
-               <desc xml:id="CAT_000229_e48_d1">Let. sig., sig. aussi par les conventionnels Roux et L. a. Porte, comme membres du Comité de Salut-Publie à André Dumont; Paris, 14 floréal an III, 1 p. in-4, tête impr., vignette.</desc>
+               <desc xml:id="CAT_000229_e48_d1">Let. sig., sig. aussi par les conventionnels Roux et La Porte, comme membres du Comité de Salut-Publie à André Dumont; Paris, 14 floréal an III, 1 p. in-4, tête impr., vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="49" xml:id="CAT_000229_e49">
@@ -856,7 +857,7 @@
                <trait>
                   <p>célèbre constituant, député des Ardennes à la Convention, général et ministre, né à Charleville en 1747, mort en 1814.</p>
                </trait>
-               <desc xml:id="CAT_000229_e83_d1">Pièce sig., sig. aussi par les conventionnels J.-B. Chazal, J.-J. Breard, L. a. Porte, A.-F. Fourcroy, Lacombe Saint-Michel et P. Marec, comme membres du Comité de Salut-Public ; 26 ventôse an III, 2 p. in-fol., tête impr., vignette.</desc>
+               <desc xml:id="CAT_000229_e83_d1">Pièce sig., sig. aussi par les conventionnels J.-B. Chazal, J.-J. Breard, La Porte, A.-F. Fourcroy, Lacombe Saint-Michel et P. Marec, comme membres du Comité de Salut-Public ; 26 ventôse an III, 2 p. in-fol., tête impr., vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="84" xml:id="CAT_000229_e84">
@@ -1299,7 +1300,7 @@
                <trait>
                   <p>roi de France.</p>
                </trait>
-               <desc xml:id="CAT_000229_e130_d1">Pièce sig., comme duc d'Anjou ; camp de Nyeul (Nieul), près L. a. Rochelle, 20 février 1573, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000229_e130_d1">Pièce sig., comme duc d'Anjou ; camp de Nyeul (Nieul), près La Rochelle, 20 février 1573, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Belle pièce. Nomination de Jean de Chastellier, dit le Général, comme surintendant des finances de l'armée devant La Rochelle.</note>
             </item>
@@ -1822,7 +1823,7 @@
                <trait>
                   <p>grand capitaine, le chef de la Ligue, né en 1554, mort en 1611.</p>
                </trait>
-               <desc xml:id="CAT_000229_e185_d1">Let. sig. à Mme la générale de Chastellier; camp de L. a. Mure, 10 nov. 1580, 1 p. in-fol. Fripée.</desc>
+               <desc xml:id="CAT_000229_e185_d1">Let. sig. à Mme la générale de Chastellier; camp de La Mure, 10 nov. 1580, 1 p. in-fol. Fripée.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Lettre de condoléances au sujet de la mort de M. de Chastellier. « Consolez-vous, je vous prie avecq cela et de ce qu'il vous a laissé grand nombre d'amys qui vous assisteront et à vos enfants de tous les meilleurs offices que se pourront faire pour leur bien et advancement.»</note>
             </item>
@@ -2106,7 +2107,7 @@
                <trait>
                   <p>célèbre naturaliste et littérateur, né à Reims en 1688, mort le 19 nov. 1761.</p>
                </trait>
-               <desc xml:id="CAT_000229_e215_d1">L. a. s. à Robert Estienne ; L. a. Varenne-Saint-Maur, 9 mars 1761, 2/3 de p. in-4. Intéressante.</desc>
+               <desc xml:id="CAT_000229_e215_d1">L. a. s. à Robert Estienne ; La Varenne-Saint-Maur, 9 mars 1761, 2/3 de p. in-4. Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="216" xml:id="CAT_000229_e216">
@@ -2180,7 +2181,7 @@
                <trait>
                   <p>député de la Sarthe à la Convention.</p>
                </trait>
-               <desc xml:id="CAT_000229_e223_d1">Pièce sig., comme représentant près les armées du Nord et de Sambre-et-Meuse ; L. a. Haye, 23 floréal an III, tête impr.. jolie vignette.</desc>
+               <desc xml:id="CAT_000229_e223_d1">Pièce sig., comme représentant près les armées du Nord et de Sambre-et-Meuse ; La Haye, 23 floréal an III, tête impr.. jolie vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="224" xml:id="CAT_000229_e224">
@@ -2338,7 +2339,7 @@
                <trait>
                   <p>maréchal de France, qui prit une grande part aux campagnes de Flandre et d'Italie, né en 1685.</p>
                </trait>
-               <desc xml:id="CAT_000229_e240_d1">Let. sig. avec 2 lig. aut.; L. a. Rochelle, 27 juillet 1761, 2 p. 2/3 in-4. Intéres-sante.</desc>
+               <desc xml:id="CAT_000229_e240_d1">Let. sig. avec 2 lig. aut.; La Rochelle, 27 juillet 1761, 2 p. 2/3 in-4. Intéres-sante.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="241" xml:id="CAT_000229_e241">
@@ -2772,7 +2773,7 @@
             <item n="289" xml:id="CAT_000229_e289">
                <num type="lot">289</num>
                <name type="author">Paris</name>
-               <desc xml:id="CAT_000229_e289_d1">L. a. Bastille.-Pièce sig. avec 3 lignes aut. sur vélin par Allain de Vauzé, « commandant pour le service du Roy au chasteau de la Bastille »; 2 avril 1615, in-8 obl.</desc>
+               <desc xml:id="CAT_000229_e289_d1">La Bastille.-Pièce sig. avec 3 lignes aut. sur vélin par Allain de Vauzé, « commandant pour le service du Roy au chasteau de la Bastille »; 2 avril 1615, in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Quittance de 603 livres, par lui déboursées, pour la nourriture de trois prisonniers : Jean Boursier, Julien Michel, Jean du Castolet, « à raison de III livres par jour pour chacun ».</note>
             </item>

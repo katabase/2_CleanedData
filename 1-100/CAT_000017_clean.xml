@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000017">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>Collection Merlin</title>
+            <title>Collection Merlin, 31 octobre 1871</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
@@ -37,7 +38,7 @@
                   </p>
                </event>
             </listEvent>
-            <listWit>                  
+            <listWit>
                <witness>
                   <msDesc>
                      <msIdentifier>
@@ -75,6 +76,10 @@
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>

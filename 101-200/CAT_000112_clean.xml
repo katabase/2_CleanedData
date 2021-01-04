@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000112">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000112</title>
+            <title>RDA, N°109 (Novembre 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">109</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>109</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -291,7 +304,7 @@
                <trait>
                   <p>célèbre amiral français, né à Sedan en 1784, mort en 1854</p>
                </trait>
-               <desc xml:id="CAT_000112_e19_d1">L. a. s. au comte Molé ; L. a. Barre (Montmorency) 18
+               <desc xml:id="CAT_000112_e19_d1">L. a. s. au comte Molé ; La Barre (Montmorency) 18
                   octobre 1839, 2. p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante lettre politique où il lui annonce que le baron de Las Cases
@@ -598,7 +611,7 @@
                   <p>duc d'Isly, célèbre maréchal de France, un des meilleurs généraux de l'armée
                      d'Ale 10 juin 1849</p>
                </trait>
-               <desc xml:id="CAT_000112_e45_d1">L. a. s. à M. Fabard: L. a. Durantie, 20 mars (1848), 4
+               <desc xml:id="CAT_000112_e45_d1">L. a. s. à M. Fabard: La Durantie, 20 mars (1848), 4
                   p. pl. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Superbe et importante lettre politique. Les circulaires Ledru-Rollin et Carnot
@@ -774,7 +787,7 @@
                   <p>célèbre poète et diplomate hollandais, ambassadeur en Angleterre,
                      grand-pensionnaire de Hollande, né en 1577, mort en 1660</p>
                </trait>
-               <desc xml:id="CAT_000112_e59_d1">L. a. s. à Vorst; L. a. Haye, 2 septembre 1646, 1 p.
+               <desc xml:id="CAT_000112_e59_d1">L. a. s. à Vorst; La Haye, 2 septembre 1646, 1 p.
                   in-fol. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -1865,7 +1878,7 @@
                   <p>homme politique et anthropologiste distingué, auteur du Transformisme, député
                      de la Seine</p>
                </trait>
-               <desc xml:id="CAT_000112_e150_d1">Pièce aut. sig. contenant sa devise : L. a. roue
+               <desc xml:id="CAT_000112_e150_d1">Pièce aut. sig. contenant sa devise : La roue
                   tourne, accompagnée de son cachet; 1882, 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -2713,7 +2726,7 @@
                   <p>maréchal de France, gouverneur de Bretagne, célèbre guerrier du règne de Louis
                      XIII, qui arrêta le prince de Condé au Louvre en 1616</p>
                </trait>
-               <desc xml:id="CAT_000112_e220_d1">L. a. s. à J.-N. de Caumont L. a. Force; Paris, 23
+               <desc xml:id="CAT_000112_e220_d1">L. a. s. à J.-N. de Caumont La Force; Paris, 23
                   mars 1614, 1 p. pl. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="100">100</measure>
                <note>Magnique lettre. J'ai « sceu comme vous aviés satistaict au dézir de la reyne
@@ -2895,7 +2908,7 @@
             <item n="235" xml:id="CAT_000112_e235">
                <num type="lot">235</num>
                <name type="author">Anjou.</name>
-               <desc xml:id="CAT_000112_e235_d1">Pièce sur vélin; L. a. Chapelle St-Laud
+               <desc xml:id="CAT_000112_e235_d1">Pièce sur vélin; La Chapelle St-Laud
                   (Maine-et-Loire), 11 déc. 1458, in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Procuration générale passée par Jean de Coué, seigneur du dit lieu.</note>

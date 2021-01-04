@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000129">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000129</title>
+            <title>RDA, N°126 (Mars 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">126</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>126</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -187,7 +200,7 @@
                <trait>
                   <p>le célèbre révolutionnaire, né à la Guadeloupe en 1809. mort en 1870</p>
                </trait>
-               <desc xml:id="CAT_000129_e8_d1">L. a. sig. en abrégé; L. a. Haye, 26 janvier, 1862, 2 p. in-8.</desc>
+               <desc xml:id="CAT_000129_e8_d1">L. a. sig. en abrégé; La Haye, 26 janvier, 1862, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Touchante épître adressée à un ami qu'il cherche à consoler de la mort de sa
                   femme: « Si, comme j'aime à le croire, l'être d'aucun de nous ne périt avec
@@ -815,7 +828,7 @@
                      1592</p>
                </trait>
                <desc xml:id="CAT_000129_e62_d1">Let. sig. en français, à M. de la Motte, gouverneur de Gravelines; Beugen, 19
-                  nov. 1578, 2 p. in-4. L. a. marge du bas a été enlevée.</desc>
+                  nov. 1578, 2 p. in-4. La marge du bas a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Importante lettre historique. Il lui accuse réception d'une réponse à ses deux
                   lettres « tant sur la griefve maladie de feu monsdon Juan (d'Autriche que sa mort,
@@ -1875,7 +1888,7 @@
                   <p>comte de Jouy, homme d'Etat, ministre de la marine, et grand maître des postes,
                      né en 1689, mort en 1761</p>
                </trait>
-               <desc xml:id="CAT_000129_e146_d1">Let. sig. à M. de L. a. Villehelier, à Vannes ; Versailles, 21 mars 1754, 1 p. 1/2
+               <desc xml:id="CAT_000129_e146_d1">Let. sig. à M. de La Villehelier, à Vannes ; Versailles, 21 mars 1754, 1 p. 1/2
                   in-fol. Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -1950,7 +1963,7 @@
                   <p>maréchal de France, qui prit une grande part aux campagnes de Flandre et
                      d'Italie, né en 1685</p>
                </trait>
-               <desc xml:id="CAT_000129_e152_d1">Let. sig. avec 2 lig. aut.: L. a. Rochelle, 27 juillet 1761, 2 p. 2/3 in-4.
+               <desc xml:id="CAT_000129_e152_d1">Let. sig. avec 2 lig. aut.: La Rochelle, 27 juillet 1761, 2 p. 2/3 in-4.
                   Intéressante.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>

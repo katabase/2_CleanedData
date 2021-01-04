@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000233">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000233">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -175,7 +176,7 @@
                   <p>romancier célèbre, auteur des Epreuves du sentiment, né en 1718, mort en 1805.
                   </p>
                </trait>
-               <desc xml:id="CAT_000233_e9_d1">L. a. Saxe, pièce de vers aut. sig. , 1 p. 3/4 in-4. Très
+               <desc xml:id="CAT_000233_e9_d1">La Saxe, pièce de vers aut. sig. , 1 p. 3/4 in-4. Très
                   jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -1858,7 +1859,7 @@
                <trait>
                   <p>amiral, troisième fils du roi Louis- Philippe, né en 1818.</p>
                </trait>
-               <desc xml:id="CAT_000233_e145_d1">L. a. s. à l'amiral Baudin; à bord de L. a. Créole, 15
+               <desc xml:id="CAT_000233_e145_d1">L. a. s. à l'amiral Baudin; à bord de La Créole, 15
                   octobre 1838, 3/4 de p. in-4. Avec apostille aut. sig. de l'amiral Baudin. Belle
                   lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
@@ -1994,7 +1995,7 @@
                <trait>
                   <p>l'illustre général et patriote.</p>
                </trait>
-               <desc xml:id="CAT_000233_e156_d1">Let. sig. ; L. a. Grange, 3 novembre 1833, 1 p.
+               <desc xml:id="CAT_000233_e156_d1">Let. sig. ; La Grange, 3 novembre 1833, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Belle lettre où il le remercie de son ouvrage sur la Pologne. « Vous donnez de
@@ -2941,7 +2942,7 @@
                <num type="lot">226</num>
                <name type="author">Réaumur (R)</name>
                <desc xml:id="CAT_000233_e226_d1">A. de), illustre physicien et naturaliste
-                  l'inventeur du thermomètre, né à L. a. Rochelle en 1683, mort en 1757. Pièce aut.
+                  l'inventeur du thermomètre, né à La Rochelle en 1683, mort en 1757. Pièce aut.
                   sig., Paris, 16 juillet 1755, 2/3 de p. in-4. Montée.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note anchored="true">Relative à un mémoire du commandeur Godehen sur la mer lumineuse.</note>

@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000235">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000235">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -597,7 +598,7 @@
                <trait>
                   <p>célèbre historien et archéologue holla dais, né en 1644, mort en 1716.</p>
                </trait>
-               <desc xml:id="CAT_000235_e55_d1">1° L. a. s.; Deventer, 29 août 1697, 1 p. in-4. Belle lettre.-2° Let. sig. par lui et par Fagel; L. a. Haye, 16 novembre 1692, 2 p. 1/2 in-fol. Sceau.</desc>
+               <desc xml:id="CAT_000235_e55_d1">1° L. a. s.; Deventer, 29 août 1697, 1 p. in-4. Belle lettre.-2° Let. sig. par lui et par Fagel; La Haye, 16 novembre 1692, 2 p. 1/2 in-fol. Sceau.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note anchored="true">Document historique. Ordre très détaillé d'un jour de prières et de jeûne à observer dans les églises protestantes à la fin de la campagne de 1692.</note>
             </item>
@@ -805,7 +806,7 @@
                <trait>
                   <p>femme de lettres très distinguée, auteur d'Ouriha, née à Brest.</p>
                </trait>
-               <desc xml:id="CAT_000235_e77_d1">L. a. s. au vicomte de L. a. Landelle; Paris, 3 mars 1822, 2 p. in-8.</desc>
+               <desc xml:id="CAT_000235_e77_d1">L. a. s. au vicomte de La Landelle; Paris, 3 mars 1822, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="78" xml:id="CAT_000235_e78">
@@ -1342,7 +1343,7 @@
                <trait>
                   <p>illustre général et patriote.</p>
                </trait>
-               <desc xml:id="CAT_000235_e134_d1">L. a. s. à Berthier; L. a. Grange, 25 ventôse an X, 3/4 de p. in-4.</desc>
+               <desc xml:id="CAT_000235_e134_d1">L. a. s. à Berthier; La Grange, 25 ventôse an X, 3/4 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note anchored="true">Document historique. « Associé dès l'origine aux institutions qui ont triomphé de l'Europe, uni de coeur à la gloire des généraux de la République, je n'ai jamais cessé d'être leur camarade, et je ne prétends pas, après tant de victoires, être leur concurrent. Je vous prie donc, si vous pensez que je doive obtenir ma retraite, de vouloir bien la demander au Premier Consul. » </note>
             </item>
@@ -1356,7 +1357,7 @@
             <item n="136" xml:id="CAT_000235_e136">
                <num type="lot">136</num>
                <name type="author">Lafayette (le marquis de)</name>
-               <desc xml:id="CAT_000235_e136_d1">Billet aut. sig. ; L. a. Grange, 18 nov. 1829, in-18 obl.</desc>
+               <desc xml:id="CAT_000235_e136_d1">Billet aut. sig. ; La Grange, 18 nov. 1829, in-18 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="137" xml:id="CAT_000235_e137">
@@ -2409,7 +2410,7 @@
                <trait>
                   <p>célèbre général de la garde nationale pendant la Révolution.</p>
                </trait>
-               <desc xml:id="CAT_000235_e247_d1">Let. sig. au citoyen L. a. Saulsaye; 4 avril 1793, 1 p. in-fol., tête imp. Portrait.</desc>
+               <desc xml:id="CAT_000235_e247_d1">Let. sig. au citoyen La Saulsaye; 4 avril 1793, 1 p. in-fol., tête imp. Portrait.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Belle lettre écrite comme général de la garde nationale parisienne.</note>
             </item>
@@ -2798,7 +2799,7 @@
                <trait>
                   <p>mère du comte de Chambord.</p>
                </trait>
-               <desc xml:id="CAT_000235_e288_d1">L. a. s. du général de Bouvet, au marquis de L. a. Tour Maubourg ; Nevers, 31 août 1821, 1 p. in-fol.</desc>
+               <desc xml:id="CAT_000235_e288_d1">L. a. s. du général de Bouvet, au marquis de La Tour Maubourg ; Nevers, 31 août 1821, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Curieuse lettre relative au séjour de la duchesse de Berri à Nevers.</note>
             </item>
@@ -2863,7 +2864,7 @@
             <item n="296" xml:id="CAT_000235_e296">
                <num type="lot">296</num>
                <name type="author">Franche-Comté</name>
-               <desc xml:id="CAT_000235_e296_d1">Let. sig. par A. de Clermont, Adrien de Salins, M. de Boisset, L. de Boisset et J. de L. a. Tour, à Marguerite d'Autriche ; Dôle, 15 mars 1517, 4 p. in-fol.</desc>
+               <desc xml:id="CAT_000235_e296_d1">Let. sig. par A. de Clermont, Adrien de Salins, M. de Boisset, L. de Boisset et J. de La Tour, à Marguerite d'Autriche ; Dôle, 15 mars 1517, 4 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Intéressante pièce. Adresse des susdits, conseillers au parlement de Dôle, pour défendre leur président contre les allégations des Etats de Franche-Comté. </note>
             </item>

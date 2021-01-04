@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000137">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000137</title>
+            <title>RDA, N°134 (Février 1891)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">134</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>134</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -763,7 +776,7 @@
                   <p>célèbre actrice de la Comédie italienne et de l'Opéra-Comique, née à Melz en
                      1747, morte en 1829</p>
                </trait>
-               <desc xml:id="CAT_000137_e58_d1">L. a. s. à Mme de Vimeux; (1800), 1 p. 3/4 in-4. L. a. 1/2 du feuillet de l'adresse
+               <desc xml:id="CAT_000137_e58_d1">L. a. s. à Mme de Vimeux; (1800), 1 p. 3/4 in-4. La 1/2 du feuillet de l'adresse
                   manque. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -1055,7 +1068,7 @@
                <trait>
                   <p>le plus célèbre bibliophile du XVIIIe siècle, né en 1708, mort en 1780</p>
                </trait>
-               <desc xml:id="CAT_000137_e83_d1">Let. aut. à L. a. Chaussée (de l'Acad. fr.); 29 janvier .1737, 3/4 de p. in-8,
+               <desc xml:id="CAT_000137_e83_d1">Let. aut. à La Chaussée (de l'Acad. fr.); 29 janvier .1737, 3/4 de p. in-8,
                   cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Il le prie de lui envoyer le manuscrit de sa pièce qu'il désire faire lire « en
@@ -2297,7 +2310,7 @@
                <trait>
                   <p>illustre connétable de France</p>
                </trait>
-               <desc xml:id="CAT_000137_e193_d1">Pièce sur velin; L. a. Roche-Derrien (Côtes-du-Nord), 26 sept. 1386, in-8 obl.</desc>
+               <desc xml:id="CAT_000137_e193_d1">Pièce sur velin; La Roche-Derrien (Côtes-du-Nord), 26 sept. 1386, in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
                <note>Quittance de Louis de Robien, écuyer, à Jean le Flament, de 180 francs d'or en
                   prêt sur ses gages et ceux de 11 écuyers, sous les ordres du connétable Olivier de
@@ -2384,7 +2397,7 @@
             <item n="200" xml:id="CAT_000137_e200">
                <num type="lot">200</num>
                <name type="author">Angoumois</name>
-               <desc xml:id="CAT_000137_e200_d1">Pièce sig. par Ant. de L. a. Rochefoucauld, évêque d'Angoulême ; Paris, 2 mars
+               <desc xml:id="CAT_000137_e200_d1">Pièce sig. par Ant. de La Rochefoucauld, évêque d'Angoulême ; Paris, 2 mars
                   1607, 4 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Transport de rente par Ant. de la Rochefoucauld, agissant pour sa soeur,
@@ -2644,7 +2657,7 @@
             <item n="226" xml:id="CAT_000137_e226">
                <num type="lot">226</num>
                <name type="author">Révolution</name>
-               <desc xml:id="CAT_000137_e226_d1">2 l. a. s. par M. de L. a. Morandière, lieutenant au 40e régiment d'infanterie, à
+               <desc xml:id="CAT_000137_e226_d1">2 l. a. s. par M. de La Morandière, lieutenant au 40e régiment d'infanterie, à
                   son père; Barraux (Dauphiné) et Mâcon, 1792, 4 p. 1/2 in-4, cachets. Curieuses.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>

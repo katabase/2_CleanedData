@@ -1,8 +1,9 @@
-<?xml-model href="../../../../../programmes/GROBID_Dictionaries/_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../../../../programmes/GROBID_Dictionaries/_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000330">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000330">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000330</title>
+            <title>RDA, N°202 (Septembre 1897)</title>
             <respStmt>
                <persName ref="#COL_000001">Matthias Gille Levenson</persName>
                <resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">202</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02" instant="false">Septembre 1897</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>202</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1897-09" instant="false">Septembre 1897</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -823,7 +836,7 @@
                <trait>
                   <p>le célèbre romancier réaliste, né à Montaubin en 1835, mort en 1892.</p>
                </trait>
-               <desc xml:id="CAT_000330_e62_d1">L. a. Très-Belle, sonnet aut. sig., 1 p. in-8. Montée.
+               <desc xml:id="CAT_000330_e62_d1">La Très-Belle, sonnet aut. sig., 1 p. in-8. Montée.
                   Curieuse pièce.</desc>
                <num type="price">12</num>
             </item>
@@ -1771,7 +1784,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000330_e145_d1">L. a. latte parisienne, pièce de vers aut. sig., 1 p.
+               <desc xml:id="CAT_000330_e145_d1">La latte parisienne, pièce de vers aut. sig., 1 p.
                   in-4. Belle pièce.</desc>
                <num type="price">5</num>
             </item>
@@ -2232,7 +2245,7 @@
                <trait>
                   <p>la célèbre comédienne</p>
                </trait>
-               <desc xml:id="CAT_000330_e185_d1">L. a. s. à Jouslin de L. a. Salle, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000330_e185_d1">L. a. s. à Jouslin de La Salle, 1 p. in-8.</desc>
                <num type="price">5</num>
             </item>
             <item n="186" xml:id="CAT_000330_e186">
@@ -3810,7 +3823,7 @@
                   Belot (Ad., let. sig.), Berrier (Constant), Bertin (Armand), Bonnelier (H.),
                   Bourgeois (Anicet), Buloz, Burette (Th.), Claudin (G.), Delord (Taxile), Elzéar
                   (Pierre), Ennery (A. d’), Feydeau (F.), Fournier (E.), Girardin (Em. de), Granier
-                  de Cassagnac, Joubert (Léon), Karr (Alph.), Kock (Paul de), L. a. Bédolière,
+                  de Cassagnac, Joubert (Léon), Karr (Alph.), Kock (Paul de), La Bédolière,
                   Lambert-Thiboust, Lermina, Lescure (M. de), Masson (Michel), Mazières, Mire-court
                   (Eug. de), Monselet (Ch.), Musset (Paul de), Poujade (Eug.), Pyat (Félix), Romey
                   (Ch.), Silvestre (Arm.), Sué (Eug.), des initiales, Véron (Louis), Vitu (Aug.),

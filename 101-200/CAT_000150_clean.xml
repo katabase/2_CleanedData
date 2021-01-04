@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000150">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000150</title>
+            <title>RDA, N°147 (Septembre 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">147</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>147</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-06">Septembre 1892</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -885,7 +898,7 @@
                <trait>
                   <p>dit le Grand</p>
                </trait>
-               <desc xml:id="CAT_000150_e78_d1">Let. sig. au comte de L. a. Suze, à Belfort; Rocroy, 6 nov. 1663, 2/3 de p. in-4,
+               <desc xml:id="CAT_000150_e78_d1">Let. sig. au comte de La Suze, à Belfort; Rocroy, 6 nov. 1663, 2/3 de p. in-4,
                   cachel.Un peu tachée, légères déchirures.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1607,7 +1620,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000150_e147_d1">ièce sig. sur vélin ; L. a. Fère en Tardenois, 1557,
+               <desc xml:id="CAT_000150_e147_d1">ièce sig. sur vélin ; La Fère en Tardenois, 1557,
                   1 p. in-fol. obl. Incomplète des bouts de lignes. Un peu tachée et fripée.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -1727,7 +1740,7 @@
                <trait>
                   <p>impératrice des Français, première femme de Napoléon 1er</p>
                </trait>
-               <desc xml:id="CAT_000150_e158_d1">Pièce sig. ; L. a. Malmaison, 31 déc. 1809. 1/4 de p. in-4.</desc>
+               <desc xml:id="CAT_000150_e158_d1">Pièce sig. ; La Malmaison, 31 déc. 1809. 1/4 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Elle autorise le peintre Redouté à remettre à Mlle Raucourt un exemplaire de
                   son ouvrage : Les Liliacées et la Flore de la Malmaison</note>
@@ -1942,7 +1955,7 @@
                      Coligny et de Henri IV, né près de Nantes en 1531, mort à Montcontour d'une
                      blessure reçue au siège de Lamballe en 1591</p>
                </trait>
-               <desc xml:id="CAT_000150_e177_d1">L. a. s. à M. de Gadagne ; L. a. Rochelle (janvier 1573), 1 p. in-fol. Très rare.</desc>
+               <desc xml:id="CAT_000150_e177_d1">L. a. s. à M. de Gadagne ; La Rochelle (janvier 1573), 1 p. in-fol. Très rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Lettre historique très importante. Les Rochelais, dont il est à la fois le
                   capitaine et l'ambassadeur près de l'armée royale, ne veulent plus conférer avec

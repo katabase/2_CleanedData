@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000076">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000076</title>
+            <title>RDA, N°89 (Mars 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>89</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -132,7 +146,7 @@
                <trait>
                   <p>amiral de France, fils de Charles X</p>
                </trait>
-               <desc xml:id="CAT_000076_e4_d1">L. a. s. à l'évêque de L. a. Rochelle; Madrid, 17 mai
+               <desc xml:id="CAT_000076_e4_d1">L. a. s. à l'évêque de La Rochelle; Madrid, 17 mai
                   1815, 1 p. in-4. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
@@ -292,7 +306,7 @@
                   <p>seigneur d'Epiry, lieutenant du roi en Nivernais, père du célèbre
                      Bussy-Rabutin, né en 1587, mort en 1645</p>
                </trait>
-               <desc xml:id="CAT_000076_e14_d1">Let. sig. au maréchal de Caumont L. a. Force ; Trêves,
+               <desc xml:id="CAT_000076_e14_d1">Let. sig. au maréchal de Caumont La Force ; Trêves,
                   3 juin 1634, 2 p. in-fol. Cachets et soies.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante lettre sur la défense des électorats de Trêves et de Cologne ; il
@@ -347,7 +361,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000076_e17_d1">L. a. s. à l'évêque de L. a. Rochelle; Edimbourg, 1er
+               <desc xml:id="CAT_000076_e17_d1">L. a. s. à l'évêque de La Rochelle; Edimbourg, 1er
                   mars 1803, 1 p. 1/2 in-4, cachet. Légers raccommodages.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il le remercie de ses protestations de dévoûment</note>
@@ -660,7 +674,7 @@
                      Vidocq, né en 1789, mort en 1852.</p>
                </trait>
                <desc xml:id="CAT_000076_e39_d1">21 lettres à lui adressées par D'lphine Gay, Jules
-                  Bastide, Capefigue, Dornès, Flocon, Altaroche, H. de L. a. Touche, Hetz-l,
+                  Bastide, Capefigue, Dornès, Flocon, Altaroche, H. de La Touche, Hetz-l,
                   etc.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Intéressant dossier au point de vue littéraire</note>
@@ -919,7 +933,7 @@
                </trait>
                <desc xml:id="CAT_000076_e57_d1">1° L. a. s. à l'éditeur Fage, 1 p. in-8. Il lui
                   annonce l'envoi de son manuscrit l'Etourderie.</desc>
-               <desc xml:id="CAT_000076_e57_d2">2° L. a. Barbe ou les Deux Barbes, pièce de vers aut.
+               <desc xml:id="CAT_000076_e57_d2">2° La Barbe ou les Deux Barbes, pièce de vers aut.
                   sig., 2 p. 3/4 pet. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuse pièce contenant la relation d'une piquante aventure entre un moine
@@ -1323,7 +1337,7 @@
                <trait>
                   <p>fameux contrôleur général des finances sous Louis XV</p>
                </trait>
-               <desc xml:id="CAT_000076_e93_d1">L. a. s. à M. Joly; L. a. Motte-Pilly, 14 sept. 1764, 1
+               <desc xml:id="CAT_000076_e93_d1">L. a. s. à M. Joly; La Motte-Pilly, 14 sept. 1764, 1
                   p. in-4. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -1860,7 +1874,7 @@
                <trait>
                   <p>littérateur et poète, traducteur d'Horace, né en 1770, mort en 1821</p>
                </trait>
-               <desc xml:id="CAT_000076_e145_d1">L. a. s. à M. de L. a. Garde ; an XII, 1 p.
+               <desc xml:id="CAT_000076_e145_d1">L. a. s. à M. de La Garde ; an XII, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -1946,7 +1960,7 @@
                      Bretagne en Hollande, fils de l'auteur des Athenian letters</p>
                </trait>
                <desc xml:id="CAT_000076_e152_d1">L. a. s., en français (au secrétaire de l'Amirauté
-                  d'Amsterdam); L. a. Haye, 20 octobre 1774, 2 p. in-4. curieuse.</desc>
+                  d'Amsterdam); La Haye, 20 octobre 1774, 2 p. in-4. curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="153" xml:id="CAT_000076_e153">

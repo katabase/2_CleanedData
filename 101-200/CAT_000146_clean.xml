@@ -1,8 +1,9 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000146">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000146">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000146</title>
+            <title>RDA, N°143 (Mars 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">143</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>143</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-03">Mars 1892</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -1549,7 +1562,7 @@
                   <p>célèbre danseur et chorégraphe, maître des ballets de l'Opéra, né à Nancy en
                      1758 mort en 1840</p>
                </trait>
-               <desc xml:id="CAT_000146_e131_d1">Let. sig., sig. aussi par J.-B. Rochefort (compositeur distingué). L. a. Suze et
+               <desc xml:id="CAT_000146_e131_d1">Let. sig., sig. aussi par J.-B. Rochefort (compositeur distingué). La Suze et
                   Cavailhès, comme administrateurs du Théâtre-des-Arts; Paris, 14 nivôse an IV, 1
                   p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -1604,7 +1617,7 @@
                      Suger et d'une Histoire de la réforme de l'ordre de Citeaux, qui le fit exiler
                      à l'abbaye des Reclus, né en 1660, mort en 1751</p>
                </trait>
-               <desc xml:id="CAT_000146_e136_d1">2 l. a. s.; L. a. Trappe, 1118 septembre 1698, 5 p. in-4.</desc>
+               <desc xml:id="CAT_000146_e136_d1">2 l. a. s.; La Trappe, 1118 septembre 1698, 5 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="32">32</measure>
                <note>Très curieuses lettres. Il maintient sa démission, et propose pour le remplacer
                   dom Malachie ou dom Prieur, tout en médisant sur leur compte</note>

@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000225">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schema/out/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/out/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000225">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1483,7 +1484,7 @@
                      l'ile de Ré, mort pendant le siège de La Capelle, au moment d'être nommé
                      maréchal de France, en 1637.</p>
                </trait>
-               <desc xml:id="CAT_000225_e121_d1">Let. aut. à sa femme ; devant L. a. Rochelle, 22 mai 1628, 19 p. in-4, cachets.</desc>
+               <desc xml:id="CAT_000225_e121_d1">Let. aut. à sa femme ; devant La Rochelle, 22 mai 1628, 19 p. in-4, cachets.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note anchored="true">Intéressante lettre historique pour le siège de La Rochelle. « Nous avons pris
                   troys vesseaux ennemi chargée de vivre, qui vouloit entrer dans la Rochel et avoit
@@ -1610,7 +1611,7 @@
                <trait>
                   <p>romancier réaliste belge contemporain, auteur d'Un Mâle.</p>
                </trait>
-               <desc xml:id="CAT_000225_e131_d1">L. a. s.; L. a. Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre
+               <desc xml:id="CAT_000225_e131_d1">L. a. s.; La Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre
  littéraire.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
@@ -2491,7 +2492,7 @@
                   <p>célèbre guerrier polonais au service de la Suède contre la Russie, père du roi
                      Stanislas-Auguste, né en 1677, mort en 1762.</p>
                </trait>
-               <desc xml:id="CAT_000225_e205_d1">L. a. s., en français, à Monseigneur…; L. a. Haye, 4 decembre 1716. 2 p. in-4.
+               <desc xml:id="CAT_000225_e205_d1">L. a. s., en français, à Monseigneur…; La Haye, 4 decembre 1716. 2 p. in-4.
  Belle lettre. Rare</desc>
                <measure commodity="currency" unit="FRF" quantity="16">16</measure>
             </item>
@@ -3126,7 +3127,7 @@
                      fut condamné à mort par contumace en 1636 pour avoir mal défendu La Capelle.
                     </p>
                </trait>
-               <desc xml:id="CAT_000225_e257_d1">Quittance sig. sur vélin ; L. a. Capelle, 30 septembre 1603, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000225_e257_d1">Quittance sig. sur vélin ; La Capelle, 30 septembre 1603, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Reçu de 100 livres pour un mois de ses gages comme gouverneur de la
                   Capelle.</note>

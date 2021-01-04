@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000071">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000071</title>
+            <title>RDA, N°84 (Avril 1884)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>84</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -406,7 +420,7 @@
                   <p>femme du maréchal, très-maltraitée par Tallemant des Reaux dans ses
                      Historiettes, amie de Mme de Sévigné, morte à plus de 80 ans en 1696</p>
                </trait>
-               <desc xml:id="CAT_000071_e25_d1">L. a. s. à M. de L. a. Loubère (le célèbre géomètre);
+               <desc xml:id="CAT_000071_e25_d1">L. a. s. à M. de La Loubère (le célèbre géomètre);
                   Paris, 19 juillet 1659, 1 p. in-4., cachets et soies.</desc>
                <measure commodity="currency" unit="FRF" quantity="23">23</measure>
                <note>Très-belle lettre, curieuse par son orthographe fantaisiste et relative au
@@ -728,7 +742,7 @@
                      ami du président de Thou, né en 1545, mort en 1594</p>
                </trait>
                <desc xml:id="CAT_000071_e49_d1">L. a. s. à M. Plasat, procureur de la princesse de
-                  L. a. Roche-sur-Yon (Catherine-Marie de Lorraine, duchesse de Montpensier), à
+                  La Roche-sur-Yon (Catherine-Marie de Lorraine, duchesse de Montpensier), à
                   Argenton-sur-Creuse, 1 p. in-4. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -917,7 +931,7 @@
                   <p>célèbre financier, qui fut le banquier de Voltaire, né en 1724, décapité en
                      1794</p>
                </trait>
-               <desc xml:id="CAT_000071_e64_d1">L. a. s.; L. a. Ferté-Vidame, 15 septembre 1772, 1 p.
+               <desc xml:id="CAT_000071_e64_d1">L. a. s.; La Ferté-Vidame, 15 septembre 1772, 1 p.
                   3/4 in-4. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -1249,7 +1263,7 @@
                      1567</p>
                </trait>
                <desc xml:id="CAT_000071_e89_d1">Let. sig., avec la souscription aut., à sa fille
-                  Eléonore (femme de François de L. a. Tour, vicomte de Turenne) ; Fontainebleau, 10
+                  Eléonore (femme de François de La Tour, vicomte de Turenne) ; Fontainebleau, 10
                   décembre 1547, 1 p. in-fol. Légères taches de rouille.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -1564,7 +1578,7 @@
                      associé au fameux Triumvirat, tué à la bataille de Dreux en 1562</p>
                </trait>
                <desc xml:id="CAT_000071_e113_d1">Let. sig., avec la souscription aut., à M. de
-                  Jarnac (Gui Chabot, si célèbre par son duel avec L. a. Chateigneraie); Bayonne, 11
+                  Jarnac (Gui Chabot, si célèbre par son duel avec La Chateigneraie); Bayonne, 11
                   nov., 1 p. in-4. Déchirée. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Lettre historique contenant des détails sur la ville de Fontarabie, assiégée
@@ -1716,7 +1730,7 @@
                </trait>
                <desc xml:id="CAT_000071_e124_d1">L. a. s., 29 juin 1831, 4 p. pl. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="13">13</measure>
-               <note>Très-curieuse lettre relative à M. Hermann, régisseur du Théâtre- Allemand. Il
+               <note>Très-curieuse lettre relative à M. Hermann, régisseur du Théâtre-Allemand. Il
                   désire le recommander lui et sa troupe à M. Royer-Collard. Il fait cette demande
                   sans grand espoir de succès, mais parce qu'il croit qu'il est toujours du devoir
                   de l'autorité d'écouter les gens. (l'est lui qui est cause de l'arrivée des
@@ -1786,7 +1800,7 @@
                   <p>gouverneur de Châtellerault, grand-père de Henri IV, mort à Amiens en 1537</p>
                </trait>
                <desc xml:id="CAT_000071_e129_d1">Pièce sig. sur vélin, sig. aussi par sa femme
-                  Françoise d'Alençon; L. a. Fère, 6 février 1518, 1 p. in-4 obl.</desc>
+                  Françoise d'Alençon; La Fère, 6 février 1518, 1 p. in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Ils reconnaissent avoir reçu la somme de 16,000 écus qui leur a été payée par
                   la duchesse de Longueville et l'archevêque de l'oulouse, en exécution d'une

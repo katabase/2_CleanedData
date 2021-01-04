@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000080">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000080</title>
+            <title>RDA, N°93 (Octobre 1885)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>93</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -299,7 +313,7 @@
                      accompagna en qualité de secrétaire une ambassade envoyée par ce monarque en
                      Hollande</p>
                </trait>
-               <desc xml:id="CAT_000080_e21_d1">L. a. Sainte-Bible et le Nouveau-Testament, mise en
+               <desc xml:id="CAT_000080_e21_d1">La Sainte-Bible et le Nouveau-Testament, mise en
                   vers par J.-P.-J. Du Bois, copie du temps avec dédicaces, au comte et à la
                   comtesse de Brühl, 52 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -624,7 +638,7 @@
                <trait>
                   <p>compositeur de musique contemporain, né en 1827</p>
                </trait>
-               <desc xml:id="CAT_000080_e49_d1">L. a. s. à Siraudin; L. a. Haye, 25 janv. 1871, 1 p.
+               <desc xml:id="CAT_000080_e49_d1">L. a. s. à Siraudin; La Haye, 25 janv. 1871, 1 p.
                   in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -1420,7 +1434,7 @@
                <trait>
                   <p>célèbre poète élégiaque</p>
                </trait>
-               <desc xml:id="CAT_000080_e115_d1">L. a. s.; Paris, 10 therm. an X, 2 p. in-4. L. a. fin
+               <desc xml:id="CAT_000080_e115_d1">L. a. s.; Paris, 10 therm. an X, 2 p. in-4. La fin
                   du postscriptum manque.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Curieuse lettre écrite à l'âge de vingt ans à un écrivain de ses amis II le

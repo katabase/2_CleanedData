@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000125">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000125</title>
+            <title>RDA, N°122 (Avril 1889)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">122</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>122</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -286,7 +299,7 @@
                <trait>
                   <p>le célèbre archevêque de Paris</p>
                </trait>
-               <desc xml:id="CAT_000125_e21_d1">Let. sig.; L. a. Trappe, 17 avril 1764, 1 p. 1/2 in-4.</desc>
+               <desc xml:id="CAT_000125_e21_d1">Let. sig.; La Trappe, 17 avril 1764, 1 p. 1/2 in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="22" xml:id="CAT_000125_e22">
@@ -2255,7 +2268,7 @@
                   <p>pape illustre, né en 1521, mort en 1590</p>
                </trait>
                <desc xml:id="CAT_000125_e218_d1">Let. sig. à Castellino et J.-A. Pinelli ; Roine, 20 juin 1586, 3/4 de p. in-4.
-                  L. a. signature est un peu endommagée par suite de la mauvaise qualité de l'encre.</desc>
+                  La signature est un peu endommagée par suite de la mauvaise qualité de l'encre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Ordre de verser entre les mains de GluliaUrsina Rangona, femme du marquis
                   Baldassano, une partie de l'argent déposé aux mains d'Olgrati, pour recouvrer le
@@ -2898,7 +2911,7 @@
                   <p>né à Aix en 1775, mort en 1849.</p>
                </trait>
                <desc xml:id="CAT_000125_e292_d1">1836, 1 p. in-8</desc>
-               <measure commodity="currency" unit="FRF" quantity=""/>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="293" xml:id="CAT_000125_e293">
                <num type="lot">293</num>
@@ -3390,7 +3403,7 @@
             <item n="350" xml:id="CAT_000125_e350">
                <num type="lot">350</num>
                <name type="author">Charles VI.</name>
-               <desc xml:id="CAT_000125_e350_d1">Pièce sur vélin; L. a. Rochelle (Charente-Infre), 11 mars 1387 (1388), in-4 obl.</desc>
+               <desc xml:id="CAT_000125_e350_d1">Pièce sur vélin; La Rochelle (Charente-Infre), 11 mars 1387 (1388), in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Quittance de Roys Goutières, chevalier, de 720 francs d'or « en prest sur les
                   gaiges de nous, patron de la gallée nommée Sainte-Croiz de dix-huit hommes

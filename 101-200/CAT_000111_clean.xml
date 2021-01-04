@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000111">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000111</title>
+            <title>RDA, N°108 (Octobre 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">108</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>108</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -730,7 +743,7 @@
                   <p>célèbre poète, surnommé le La Fontaine hollandais, grand pensionnaire de
                      Hollande, ambassadeur en Angleterre, né en 1577, mort en 1660</p>
                </trait>
-               <desc xml:id="CAT_000111_e56_d1">L. a. s. à Vorst; L. a. Haye, 1640, 2 p. in-fol.
+               <desc xml:id="CAT_000111_e56_d1">L. a. s. à Vorst; La Haye, 1640, 2 p. in-fol.
                   Superbe lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
@@ -2696,7 +2709,7 @@
                   <p>célèbre littérateur du XVIIIe siècle, auteur des Philosophes et de la Dunciade,
                      né à Nancy en 1730, mort en 1814</p>
                </trait>
-               <desc xml:id="CAT_000111_e231_d1">L. a. s. à L. a. Bouisse Rochefort; Les Prés
+               <desc xml:id="CAT_000111_e231_d1">L. a. s. à La Bouisse Rochefort; Les Prés
                   Saint-Gervais, 29 juillet 1810, 1 p. in-4. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="17">17</measure>
             </item>
@@ -2975,7 +2988,7 @@
                <trait>
                   <p>célèbre poète provençal, né à Saint-Remy (Bouches-du-Rhône) en 1818</p>
                </trait>
-               <desc xml:id="CAT_000111_e255_d1">L. a. Campano Mountado, pouémo en sèt cant; Avignon,
+               <desc xml:id="CAT_000111_e255_d1">La Campano Mountado, pouémo en sèt cant; Avignon,
                   1857, 1 vol. in-18 rel. Avec dédicace aut. sig., en laigue provençale, à Ant. de
                   Latour.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -3479,7 +3492,7 @@
                   <p>l'illustre chef de l'école des violonistes modernes, né à Fontanetto en 1753,
                      mort en 1824</p>
                </trait>
-               <desc xml:id="CAT_000111_e297_d1">L. a. s., en français, au baron de L. a. Ferté, 1 p.
+               <desc xml:id="CAT_000111_e297_d1">L. a. s., en français, au baron de La Ferté, 1 p.
                   in-8. Jolie lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>

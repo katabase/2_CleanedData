@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000148">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000148</title>
+            <title>RDA, N°145 (Mai 1892)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">145</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>145</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1892-05">Mai 1892</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -382,7 +395,7 @@
                <trait>
                   <p>roi de Hollande, père de Napoléon III</p>
                </trait>
-               <desc xml:id="CAT_000148_e30_d1">L. a. s. (à l'impératrice Joséphine) ; (L. a. Haye), 20 mai 1807, 3 p. in-4.</desc>
+               <desc xml:id="CAT_000148_e30_d1">L. a. s. (à l'impératrice Joséphine) ; (La Haye), 20 mai 1807, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="75">75</measure>
                <note>Touchante épitre toute relative a son fils Napoléon-Charles, qui avait succombé
                   au croup à l'âge de 5 ans, le 5 mai 1807. «Je n'ai qu'une pensée, qu'une
@@ -1344,7 +1357,7 @@
                <trait>
                   <p>illustre général et patriote, né en Auvergne en 1757, mort en 1834</p>
                </trait>
-               <desc xml:id="CAT_000148_e119_d1">L. a. s. à Alibert ; L. a. Grange, par Rosiy, 6 mai, 3/4 de p. in-4.</desc>
+               <desc xml:id="CAT_000148_e119_d1">L. a. s. à Alibert ; La Grange, par Rosiy, 6 mai, 3/4 de p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="120" xml:id="CAT_000148_e120">
@@ -1435,7 +1448,7 @@
                <trait>
                   <p>romancier réaliste belge contemporain, auteur d'Un Mâle</p>
                </trait>
-               <desc xml:id="CAT_000148_e127_d1">L. a. s., L. a. Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre.</desc>
+               <desc xml:id="CAT_000148_e127_d1">L. a. s., La Hulpe, 1888, 2 p. 2/3 in-8. Belle et intéressante lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="128" xml:id="CAT_000148_e128">
@@ -2139,7 +2152,7 @@
                   <p>célèbre guerrier, polonais au service de la Suède contre la Russie, père du roi
                      Stanislas-Auguste, né en 1677, mort en 1762</p>
                </trait>
-               <desc xml:id="CAT_000148_e188_d1">L. a. s., en français, à Mouseigneur…; L. a. Haye, 4 décembre 17 16, 2 p. in-4.
+               <desc xml:id="CAT_000148_e188_d1">L. a. s., en français, à Mouseigneur…; La Haye, 4 décembre 17 16, 2 p. in-4.
                   Belle lettre. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="22">22</measure>
             </item>
@@ -2863,7 +2876,7 @@
                   consuls de Mende. Le roi, à cause de la deuxième prise d'armes des huguenots, a dû
                   lever une « grosse et puissante armée » de pistoliers et reitres français,
                   suisses, allemands ; il ne peut soulager son pauvre peuple et se voit obligé de
-                  lui demander des aides extraordinaires. L. a. lettre fixe la part du Languedoc et
+                  lui demander des aides extraordinaires. La lettre fixe la part du Languedoc et
                   celle du diocèse de Mende dans ces levées d'impôts.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note/>

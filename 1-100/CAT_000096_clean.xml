@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000096">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
@@ -329,7 +330,7 @@
                <trait>
                   <p>célèbre réformateur de la Trappe.</p>
                </trait>
-               <desc xml:id="CAT_000096_e790_d1">L. a. Trappe, 29 juillet 1691; aut. sig., … 1 pag. (Lettre affectueuse. Rare.)</desc>
+               <desc xml:id="CAT_000096_e790_d1">La Trappe, 29 juillet 1691; aut. sig., … 1 pag. (Lettre affectueuse. Rare.)</desc>
             </item>
             <item n="791" xml:id="CAT_000096_e791">
                <num type="lot">791.</num>

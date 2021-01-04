@@ -1,12 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000157">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000157</title>
+            <title>RDA, N°154 (Avril 1893)</title>
             <respStmt>
                <persName ref="#COL_000004">Alexandre Bartz</persName>
                <resp>
-                  <date when="2019">2019</date>
+                  <date when="2020">2020</date>
                </resp>
             </respStmt>
          </titleStmt>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>154</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-04">Avril 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -679,7 +692,7 @@
                      écrivain romantique, né en 1801, mort en 1845</p>
                </trait>
                <desc xml:id="CAT_000157_e48_d1">1° L. a. s. à M. Teste; (1830), 1/2 p. in-8.
-                  Curieuse lettre écrite pen dant les journées de 1830. « L. a. proclamation fait le
+                  Curieuse lettre écrite pen dant les journées de 1830. « La proclamation fait le
                   meilleur effet. Il fau en faire distribuer à force, crier, etc.</desc>
                <desc xml:id="CAT_000157_e48_d2">2° Pièce aut., 11 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
@@ -1929,7 +1942,7 @@
                   <p>fameux critique, ennemi de Voltaire, né à Valleraugue (Gard) en 1726, mort en
                      1773</p>
                </trait>
-               <desc xml:id="CAT_000157_e151_d1">P. a. s. 4 fois; L. a. Bastille; 1756-57, 1 p. 1/2
+               <desc xml:id="CAT_000157_e151_d1">P. a. s. 4 fois; La Bastille; 1756-57, 1 p. 1/2
                   in-8 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
@@ -2102,7 +2115,7 @@
                   alteignant le texte.</desc>
                <desc xml:id="CAT_000157_e164_d2">2° Pièce manuscrite originale, vers 1721, double in-fol.
                   Résumé du procès intenté au maréchal et au chevalier de Belle-Isle par le
-                  financier L. a. Jonchère, au sujet de billets de la banque de Law.</desc>
+                  financier La Jonchère, au sujet de billets de la banque de Law.</desc>
                <desc xml:id="CAT_000157_e164_d3">3° Très curieuse
                   gravure satirique de Bernard Picart, représentant une émission de billets de la
                   banque de Law, dans la rue Quincampoix; 1720, in-fol. obl. Curieuse
@@ -2297,7 +2310,7 @@
                <num type="lot">179</num>
                <name type="author">Loti (Julien Viaud, dit Pierre)</name>
                <trait>
-                  <p>le célèbre écrivain contemporain, auteur de Pécheur d'Islande, de l'Acad fr</p>
+                  <p>le célèbre écrivain contemporain, auteur de Pécheur d'Islande, de l'Acad fr.</p>
                </trait>
                <desc xml:id="CAT_000157_e179_d1">Carmen Sylva, manuscrit aut. sig., 13 p
                   in-fol.</desc>
@@ -3091,7 +3104,7 @@
                <num type="lot">243</num>
                <name type="author">Richelieu (F. du Plessis, duc de)</name>
                <trait>
-                  <p>célèbre ministre de Louis XVIII, de l'Acad. fr</p>
+                  <p>célèbre ministre de Louis XVIII, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000157_e243_d1">L. a. s. au général de Hédouville, ambassadeur de
                   la République française auprès de l'empereur de Russie; Odessa, 1803, 2 p
@@ -3539,7 +3552,7 @@
                   <p>le célèbre historien et critique, de l'Acad. fr., né à Vouziers (Ardennes) en
                      1828, mort ré cemment</p>
                </trait>
-               <desc xml:id="CAT_000157_e277_d1">L. a. s.; L. a. Cheylane, par L. a. Londe (Var), 13
+               <desc xml:id="CAT_000157_e277_d1">L. a. s.; La Cheylane, par La Londe (Var), 13
                   octobre 1883, 2 p. pl. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Très belle lettre. « Jamais je n'ai pensé que la personne de l'artiste

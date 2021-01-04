@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000224">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000224">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -477,7 +478,7 @@
                <trait>
                   <p>le spirituel et savant écrivain, né à Cambrai en 1804.</p>
                </trait>
-               <desc xml:id="CAT_000224_e36_d1">L. a. Prière de Marie, pièce de vers aut. sig., 1 p. in-4 obl. Jolie pièce.</desc>
+               <desc xml:id="CAT_000224_e36_d1">La Prière de Marie, pièce de vers aut. sig., 1 p. in-4 obl. Jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="37" xml:id="CAT_000224_e37">
@@ -1670,7 +1671,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000224_e141_d1">L. a. s., en latin, (à Christian Huygens) ; L. a. Haye, 16 juin 1675, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000224_e141_d1">L. a. s., en latin, (à Christian Huygens) ; La Haye, 16 juin 1675, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note anchored="true">Il regrette qu'il ne lui ait pas répondu au sujet des livres achetés à
                   Bienville et lui adresse un catalogue pour lui prouver qu'il se souvient toujours
@@ -1932,7 +1933,7 @@
                <trait>
                   <p>illustre géneral et patriote, né en Auvergne en 1757, mort en 1834.</p>
                </trait>
-               <desc xml:id="CAT_000224_e165_d1">L. a. s., à Ed. Mounier; L. a. Grange, 27 sept., 3/4 de p. in-4, cachet. Très
+               <desc xml:id="CAT_000224_e165_d1">L. a. s., à Ed. Mounier; La Grange, 27 sept., 3/4 de p. in-4, cachet. Très
  belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -2068,7 +2069,7 @@
                   <p>le promoteur du percement de l'isthme de Suez, de l'Acad. fr., né à Versailles
                      en 1805, mort récemment.</p>
                </trait>
-               <desc xml:id="CAT_000224_e176_d1">L. a. s.; L. a. Chénaie, par Vatan (Indre), 1877, 1 p. in-8. Belle lettre.</desc>
+               <desc xml:id="CAT_000224_e176_d1">L. a. s.; La Chénaie, par Vatan (Indre), 1877, 1 p. in-8. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="177" xml:id="CAT_000224_e177">
@@ -3451,7 +3452,7 @@
                   (Ad., let. sig.), Berrier (Constant), Bertin (Armand), Bonnelier (H.), Bourgeois
                   (Anicet), Buloz, Burette (Th.), Claudin (G.), Delord (Taxile), Elzéar (Pierre),
                   Ennery (A. d’), Feydeau (F.), Fournier (E.), Girardin (Em. de), Granier de
-                  Cassagnac, Joubert (Léon), Karr (Alph.), Kock (Paul de), L. a. Bédolière,
+                  Cassagnac, Joubert (Léon), Karr (Alph.), Kock (Paul de), La Bédolière,
                   Lambert-Thi¬ boust, Lermina, Lescure (M. de), Masson (Michel), Mazières, Mire-                  court (Eug. de), Monselet (Ch.), Musset (Paul de), Poujade (Eug.) Pyat (Félix),
                   Romey (Ch.), Silvestre (Arm.), Süe (Eug.), des initiales, Véron (Louis), Vitu
                   (Aug.), Wey (Francis), etc.</desc>

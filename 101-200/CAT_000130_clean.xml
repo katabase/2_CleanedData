@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000130">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000130</title>
+            <title>RDA, N°127 (Avril 1890)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,8 +21,8 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">127</num>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>127</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
                <pubPlace>Paris, 8 quai du Louvre</pubPlace>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -105,7 +118,7 @@
                   <p>poète et littérateur distingué, auteur des Poèmes de Provence, né à Toulon en
                      1848</p>
                </trait>
-               <desc xml:id="CAT_000130_e3_d1">L. a. Mort, au sculpteur Préault, pièce de vers aut.
+               <desc xml:id="CAT_000130_e3_d1">La Mort, au sculpteur Préault, pièce de vers aut.
                   sig., 1877, 3 p. in-8. Avec une annotation de 3 lignes aut. sig. d'Aug.
                   Préault.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
@@ -2591,7 +2604,7 @@
                   <p>prince de Marcillac, fils de François Ier et de Louise de Crussol; il épousa
                      Anne de Polignac, dame de Randan</p>
                </trait>
-               <desc xml:id="CAT_000130_e204_d1">Pièce signée sur vélin ; L. a. Rochefoucauld
+               <desc xml:id="CAT_000130_e204_d1">Pièce signée sur vélin ; La Rochefoucauld
                   (Charente), 29 décembre 1520, in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Réception de l'honmage lige de François de la Tousche, écuyer, fils et

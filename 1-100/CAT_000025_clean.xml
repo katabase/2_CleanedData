@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000025">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000025</title>
+            <title>RDA, N°31 (Mai-Juin 1872)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>31</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936 <ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -115,7 +129,7 @@
                <num type="lot">4</num>
                <name type="author">Alembert (J. Lerond d')</name>
                <trait>
-                  <p>illustre savant et philosophe du XVIIIe siècle, de l'Acad. fr</p>
+                  <p>illustre savant et philosophe du XVIIIe siècle, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000025_e4_d1">L. a. s. à Malhesherbes, (1775), 1 p. in-4. (Pièce de
                   la vente Lajarriette).</desc>
@@ -360,7 +374,7 @@
                   <p>constituant, général en chef des armées de la République, premier mari de
                      l'impératrice Joséphine, guillotiné en 1793</p>
                </trait>
-               <desc xml:id="CAT_000025_e21_d1">L. a. s. à Guys, de Marseille; L. a. Rocheguyon, 16 mai
+               <desc xml:id="CAT_000025_e21_d1">L. a. s. à Guys, de Marseille; La Rocheguyon, 16 mai
                   1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -803,7 +817,7 @@
                <num type="lot">56</num>
                <name type="author">Florian (J.-P. Claris de)</name>
                <trait>
-                  <p>célèbre littérateur, un de nos meilleurs fabulistes, membre do l'Acad. fr</p>
+                  <p>célèbre littérateur, un de nos meilleurs fabulistes, membre do l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000025_e56_d1">Compte de ses ouvrages fournis à Didot, avec 5
                   lignes aut. sig.; 1787, 3 p. in-4.</desc>
@@ -930,7 +944,7 @@
                <num type="lot">66</num>
                <name type="author">Janin (Jules)</name>
                <trait>
-                  <p>le célèbre critique, do l'Acad. fr</p>
+                  <p>le célèbre critique, do l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000025_e66_d1">L. a. s. à Jules Tardieu, 1843, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -1845,7 +1859,7 @@
                <trait>
                   <p>l'auteur de Paul et Virginie</p>
                </trait>
-               <desc xml:id="CAT_000025_e150_d1">L. a. s. au citoyen L. a. Varenne ; Paris, chez le
+               <desc xml:id="CAT_000025_e150_d1">L. a. s. au citoyen La Varenne ; Paris, chez le
                   citoyen Didot, 3 nivôse an IV. 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Relative à une contrefaçon de ses Etudes de la Nature, par le libraire
@@ -1867,7 +1881,7 @@
                <trait>
                   <p>bourreau de Paris, qui exécuta Louis XVI</p>
                </trait>
-               <desc xml:id="CAT_000025_e152_d1">L. a. s. (à Mathon de L. a. Varenne); 5 juin 1790, 1
+               <desc xml:id="CAT_000025_e152_d1">L. a. s. (à Mathon de La Varenne); 5 juin 1790, 1
                   p. pl. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
@@ -2011,7 +2025,7 @@
                      de grêve, où sa tête fut promenée au bout d'une pique, ainsi que celle de
                      Foullon, son beau-père</p>
                </trait>
-               <desc xml:id="CAT_000025_e165_d1">L. a. s. à L. a. Millière; Sens, 4 sept. 1788, 2 p.
+               <desc xml:id="CAT_000025_e165_d1">L. a. s. à La Millière; Sens, 4 sept. 1788, 2 p.
                   1/2 in-4. Rare autographe signé.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
@@ -2033,7 +2047,7 @@
                <trait>
                   <p>fondateur et primat de l'Eglise française, né à Gannat</p>
                </trait>
-               <desc xml:id="CAT_000025_e167_d1">L. a. s. au journal L. a. Tribune; Paris, 11 av. 1833,
+               <desc xml:id="CAT_000025_e167_d1">L. a. s. au journal La Tribune; Paris, 11 av. 1833,
                   1 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Relative à une messe en musique qu'il fait célébrer dans les églises françaises

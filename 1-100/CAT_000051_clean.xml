@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000051">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000051</title>
+            <title>RDA, N°63 (Juillet 1880)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>63</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -165,7 +179,7 @@
                   <p>l'amant de Mlle Aïssé</p>
                </trait>
                <desc xml:id="CAT_000051_e7_d1">L. a. s. (à la marquise de Créqui), 1 p. 1/2 in-4.</desc>
-               <measure commodity="currency" unit="FRF" quantity="6"/>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Belle lettre de condoléances sur la perte qu'elle vient de faire</note>
             </item>
             <item n="8" xml:id="CAT_000051_e8">
@@ -362,7 +376,7 @@
                   <p>poète érotique, ami et émule de Parny</p>
                </trait>
                <desc xml:id="CAT_000051_e22_d1">L. a. s. au président Dupaty ; Versailles 1781, 2 p.
-                  1/2 in-4. L. a. partie blanche du second feuillet a été enlevée. Curieuse.</desc>
+                  1/2 in-4. La partie blanche du second feuillet a été enlevée. Curieuse.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="23" xml:id="CAT_000051_e23">
@@ -397,7 +411,7 @@
                <trait>
                   <p>roi de Hollande, père de Napoléon III</p>
                </trait>
-               <desc xml:id="CAT_000051_e25_d1">L. a. s. à M.Pastoret; L. a. Haye, 15 avril 1807, 1 p.
+               <desc xml:id="CAT_000051_e25_d1">L. a. s. à M.Pastoret; La Haye, 15 avril 1807, 1 p.
                   in-4. Cachet à ses armes. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
@@ -654,7 +668,7 @@
                <trait>
                   <p>peintre de paysages, mort récemment</p>
                </trait>
-               <desc xml:id="CAT_000051_e48_d1">L. a. tombe du chevalier, au comte de Caen, dessin à la
+               <desc xml:id="CAT_000051_e48_d1">La tombe du chevalier, au comte de Caen, dessin à la
                   mine de plomb, signé, 1872, gr. in-8. Provenant de sa vente.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -674,7 +688,7 @@
                <trait>
                   <p>spirituel dessinateur contemporain</p>
                </trait>
-               <desc xml:id="CAT_000051_e50_d1">L. a. Révision, Trop petits !!! dessin au crayon, 1869,
+               <desc xml:id="CAT_000051_e50_d1">La Révision, Trop petits !!! dessin au crayon, 1869,
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Ce curieux dessin politique, fait pour un journal satirique, a été refusé par
@@ -1438,7 +1452,7 @@
                <trait>
                   <p>illustre général.</p>
                </trait>
-               <desc xml:id="CAT_000051_e116_d1">L. a. s. L. F. à Mme Lebreton ; L. a. Grange, 31
+               <desc xml:id="CAT_000051_e116_d1">L. a. s. L. F. à Mme Lebreton ; La Grange, 31
                   octobre, 2 p. in-4, cachet. </desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
                <note>Curieux détails sur les élections et l'ouverture des Chambres. Il n'a pas été

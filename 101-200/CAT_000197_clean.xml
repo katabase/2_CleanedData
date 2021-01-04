@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000197">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000197</title>
+            <title>RDA, N°167 (Juin 1894)</title>
             <respStmt>
-               <persName ref="#COL_000001">Matthias Gille Levenson</persName>
+               <persName ref="#COL_000006">Matthias Gille Levenson</persName>
                <resp>
                   <date when="2020">2020</date>
                </resp>
@@ -20,12 +21,12 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">167</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris,8 quai du Louvre</pubPlace>
-               <date when="1893-02">Juin 1894</date>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>167</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
+               <date when="1894-06">Juin 1894</date>
             </bibl>
             <listEvent>
                <event>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -84,7 +97,7 @@
                   <p>poète et littérateur contemporain, auteur des Poèmes de Procence, né à Toulon
                      en 1848.</p>
                </trait>
-               <desc xml:id="CAT_000197_e1_d1">L. a. s.; L. a. Garde, près Toulon, 1 p. 3/4 in-8. Belle
+               <desc xml:id="CAT_000197_e1_d1">L. a. s.; La Garde, près Toulon, 1 p. 3/4 in-8. Belle
                   lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -460,7 +473,7 @@
                <trait>
                   <p>roi de Hollande, père de Napoléon III.</p>
                </trait>
-               <desc xml:id="CAT_000197_e32_d1">L. a. s. (à l'impératrice Joséphine); (L. a. Haye), 20
+               <desc xml:id="CAT_000197_e32_d1">L. a. s. (à l'impératrice Joséphine); (La Haye), 20
                   mai 1807, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Touchante épitre toute relative à son fils Napoléon-Charles, qui avait succombé
@@ -529,14 +542,14 @@
             <item n="37" xml:id="CAT_000197_e37">
                <num type="lot">37</num>
                <name type="author">Boulanger (Louis)</name>
-               <desc xml:id="CAT_000197_e37_d1">L. a. sainte Vierge tenant le Christ dans ses bras
+               <desc xml:id="CAT_000197_e37_d1">La sainte Vierge tenant le Christ dans ses bras
                   après la descente de croix, dessin à la plume sig. Louis B, in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="38" xml:id="CAT_000197_e38">
                <num type="lot">38</num>
                <name type="author">Boulanger (Louis)</name>
-               <desc xml:id="CAT_000197_e38_d1">L. a. Crêche, dessin à la plume, in-4 obl.</desc>
+               <desc xml:id="CAT_000197_e38_d1">La Crêche, dessin à la plume, in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="39" xml:id="CAT_000197_e39">
@@ -766,7 +779,7 @@
                <num type="lot">58</num>
                <name type="author">Cicéri (Pierre-Luc-Ch.)</name>
                <trait>
-                  <p>célèbre peintre et aquafortiste, né à Saint- Cloud en 1782, mort en 1868.</p>
+                  <p>célèbre peintre et aquafortiste, né à Saint-Cloud en 1782, mort en 1868.</p>
                </trait>
                <desc xml:id="CAT_000197_e58_d1">Dessin original au lavis de couleur; 1838, in-32
                   obl. Jolie pièce.</desc>
@@ -1405,7 +1418,7 @@
                <desc xml:id="CAT_000197_e111_d1">L. a. s.; Paris, 25 février 1747, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante lettre. L'abbé Lemierre n'a pu faire imprimer les homélies de
-                  Saint- Chrysostome sur Saint-Jean ; l'avocat Cochin vient de mourir. Il souhaite
+                  Saint-Chrysostome sur Saint-Jean ; l'avocat Cochin vient de mourir. Il souhaite
                   la paix extérieure et la paix religieuse. Les oeuvres posthumes du président
                   Bouhier viennent de paraître. Il désirerait savoir si le sieur de Thémiseuil de
                   Saint-Hyacinthe, s'appelait Cordier. (On sait que cet Orléanais passait pour le
@@ -1538,7 +1551,7 @@
                <trait>
                   <p>roi de France.</p>
                </trait>
-               <desc xml:id="CAT_000197_e122_d1">Let. sig. à M. de L. a. Chesnaye; Paris, 16 sept.
+               <desc xml:id="CAT_000197_e122_d1">Let. sig. à M. de La Chesnaye; Paris, 16 sept.
                   1575, 3/4 de p. in-fol. Jaunie sur les bords.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Pièce historique où il lui mande que son frère, le duc d'Alençon, a quitté
@@ -1749,7 +1762,7 @@
                      et d'Artois; il passe pour être l'inventeur de l'artillerie de campagne, né en
                      Italie vers 1510, mort en 1579.</p>
                </trait>
-               <desc xml:id="CAT_000197_e139_d1">3 let sig. avec la souscript. aut., en français, à
+               <desc xml:id="CAT_000197_e139_d1">3 let. sig. avec la souscript. aut., en français, à
                   M. de Capres; Arras, 1570, 4 p. in-fol. Intéressantes.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
@@ -1930,7 +1943,7 @@
                <num type="lot">152</num>
                <name type="author">Loti (Julien Viaud dit Pierre)</name>
                <trait>
-                  <p>célèbre écrivain contemporain, de l'Acad fr</p>
+                  <p>célèbre écrivain contemporain, de l'Acad fr.</p>
                </trait>
                <desc xml:id="CAT_000197_e152_d1">L. a. s.; Formidable, 25 juin, 1 p. in-8. Belle
                   lettre.</desc>
@@ -1987,7 +2000,7 @@
                      Jacques de Savoie, comte de Romont, puis de François de Bourbon, comte de
                      Vendôme, morte en 1546.</p>
                </trait>
-               <desc xml:id="CAT_000197_e156_d1">Pièce sig. sur vélin; L. a. Fère (Aisne), 14 oct.
+               <desc xml:id="CAT_000197_e156_d1">Pièce sig. sur vélin; La Fère (Aisne), 14 oct.
                   1510: in-4 obl.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Quittance au sieur de Gapennes (Somme), de 800 livres tournois qu'il lui devait
@@ -2467,7 +2480,7 @@
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Belle lettre relative à sa réception à l'Institut. « La nature m'a refusé la
                   facilité de la parole et la faiblesse de ma voix ajoute à cet inconvénient. M.
-                  Regnaud de Saint- Jean d'Angely me rendra le service de lire mon discours.»</note>
+                  Regnaud de Saint-Jean d'Angely me rendra le service de lire mon discours.»</note>
             </item>
             <item n="198" xml:id="CAT_000197_e198">
                <num type="lot">198</num>
@@ -2895,7 +2908,7 @@
                <num type="lot">232</num>
                <name type="author">Vaissète (Dom.-Jos.)</name>
                <trait>
-                  <p>célèbre historien de la Congrégation de Saint- Maur, auteur d'une Histoire
+                  <p>célèbre historien de la Congrégation de Saint-Maur, auteur d'une Histoire
                      générale du Languedoc, né à Gaillac (Tarn) en 1685, mort en 1756.</p>
                </trait>
                <desc xml:id="CAT_000197_e232_d1">L. a. s. à dom Jacques Portal, à l'abbaye de Saint
@@ -3439,7 +3452,7 @@
                <desc xml:id="CAT_000197_e275_d1">2 pièces.-1° L. a. s. de Clément de Cugnot de
                   l'Epinay (fermier-général, guillotiné le 19 floréal an II); 1788, 1 p. in-4.-2°
                   Let. sig. de J.-J. de Brac de Laperrière, Guillaume Couturier. Clément de Laage,
-                  E.-M. de L. a. Haye, A.-L.La¬ voisier, J.-L. Loiseau-Béranger, G.-G. Montecloux,
+                  E.-M. de La Haye, A.-L.La¬ voisier, J.-L. Loiseau-Béranger, G.-G. Montecloux,
                   Jacq. Paulze, F. Puissant, A.-V. de Saint-Amand et J.-Cl. Douet (fermiers-généraux
                   guillotinés les 19 et 25 floréal an II), à Emmery, député de Metz à l'Assemblée
                   nationale; 21 mars 1791, 1 p. in-4.</desc>

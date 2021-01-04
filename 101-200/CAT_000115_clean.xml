@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000115">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000115</title>
+            <title>RDA, N°113 (Avril-mai 1887)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>112</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -720,7 +733,7 @@
                <trait>
                   <p>célèbre littérateur, né en 1761, mort en 1819</p>
                </trait>
-               <desc xml:id="CAT_000115_e59_d1">L. a. s. à Maton de L. a. Varenne; Sainte-Pélagie, 19 nivôse, 1 p. in-8.</desc>
+               <desc xml:id="CAT_000115_e59_d1">L. a. s. à Maton de La Varenne; Sainte-Pélagie, 19 nivôse, 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
                <note>Très-belle lettre écrite de prison où il avait été enfermé pour avoir laissé
                   passer, dans les Petites Affiches, l'annonce d'une vente à payer en assignats
@@ -1312,7 +1325,7 @@
                      Saint-Barthélemy</p>
                </trait>
                <desc xml:id="CAT_000115_e109_d1">Let. sig. avec la souscript, et un postscriptum de 5 lignes aut. à Nicolas
-                  Lefèvre, intendant des finances en Lorraine; L. a. Mothe, 13 août 1634, 1 p. in-fol.</desc>
+                  Lefèvre, intendant des finances en Lorraine; La Mothe, 13 août 1634, 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Lettre historique. Il le prie d'empêcher le prince de La Petite-Pierre
                   (Lûitzelstein) d'usurper quelques villages à la dame de Tanniser. (Caumont La
@@ -1494,7 +1507,7 @@
                      en Angleterre, secrétaire des commandements de Henri IV, né en 1560, mort en
                      1638</p>
                </trait>
-               <desc xml:id="CAT_000115_e124_d1">L. a. s. au vicomte de Turenne (Henri de L. a. Tour, depuis maréchal de Bouillon);
+               <desc xml:id="CAT_000115_e124_d1">L. a. s. au vicomte de Turenne (Henri de La Tour, depuis maréchal de Bouillon);
                   au camp devant Chartres, 23 mars 1591, 3/4 de p. in-fol. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Superbe pièce par laquelle il lui annonce que M. de Rozel va lui remettre cette
@@ -2252,7 +2265,7 @@
                <trait>
                   <p>célèbre poète provençal, né à Saint-Remy (Bouchesdu-Rhône) en 1818</p>
                </trait>
-               <desc xml:id="CAT_000115_e197_d1">L. a. Glenarello, pièce de vers aut. sig., en provençal, 15 mars 1869, 2 p. 1/2
+               <desc xml:id="CAT_000115_e197_d1">La Glenarello, pièce de vers aut. sig., en provençal, 15 mars 1869, 2 p. 1/2
                   in-18. Avec traduction aut.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Jolie pièce faite pour un amateur</note>
@@ -2296,7 +2309,7 @@
                      Saint-Quentin en 1523</p>
                </trait>
                <desc xml:id="CAT_000115_e201_d1">Let. sig. avec la souscript. aut. à M. de Jarnac (Charles de Chabot, gouverneur
-                  de L. a. Rochelle, vice-amiral de Guienne); Bayonne, 11 novembre (1522), 1 p. petit in-4.
+                  de La Rochelle, vice-amiral de Guienne); Bayonne, 11 novembre (1522), 1 p. petit in-4.
                   Coupée dans les marges.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Lettre historique où il annonce que les Espagnols sont toujours à Sainte-Marie

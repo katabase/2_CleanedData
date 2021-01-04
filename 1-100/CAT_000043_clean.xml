@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000043">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000043</title>
+            <title>RDA, N°54 (Juin 1878)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>54</num>
                <editor>Gabriel Charavay</editor>
                <publisher>Gabriel Charavay</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -120,7 +134,7 @@
                <num type="lot">5</num>
                <name type="author">Arnault (V.-Ant.)</name>
                <trait>
-                  <p>poète tragique, auteur de Marius à Minturne, de l'Acad. fr</p>
+                  <p>poète tragique, auteur de Marius à Minturne, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e5_d1">L. a. s., an X, 2 p. 1/4, petit in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -153,13 +167,13 @@
                </trait>
                <desc xml:id="CAT_000043_e8_d1">L. s. Augereau, duc de Castiglione, 1813, 1 p.
                   in-f.</desc>
-               <measure commodity="currency" unit="FRF" quantity="1.50">1</measure>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
             </item>
             <item n="9" xml:id="CAT_000043_e9">
                <num type="lot">9</num>
                <name type="author">Augier (Emile)</name>
                <trait>
-                  <p>auteur dram., de l'Acad. fr</p>
+                  <p>auteur dram., de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e9_d1">L. a. s. à Empis, 1850, 1 p. 1/4 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -168,7 +182,7 @@
                <num type="lot">10</num>
                <name type="author">Aumale (le duc d')</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e10_d1">L. a. s. 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -242,7 +256,7 @@
                <num type="lot">17</num>
                <name type="author">Bausset (le cardinal de)</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e17_d1">L. a. s., lp. in-18. Envoi d'un billet pour une
                   séance de l'Académie. </desc>
@@ -402,7 +416,7 @@
                <num type="lot">32</num>
                <name type="author">Blanc (Ch.)</name>
                <trait>
-                  <p>écrivain sur les arts, de l'Acad. fr</p>
+                  <p>écrivain sur les arts, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e32_d1">L. a. s., 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>
@@ -553,7 +567,7 @@
                <num type="lot">47</num>
                <name type="author">Bussy-Rabutin (Roger de)</name>
                <trait>
-                  <p>l'auteur de l'Histoire amoureuse des Gaules, de l'Acad. fr</p>
+                  <p>l'auteur de l'Histoire amoureuse des Gaules, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e47_d1">Quit. sig. sur vélin, avec 3 lignes aut., 1665,
                   in-8.</desc>
@@ -721,7 +735,7 @@
                <num type="lot">63</num>
                <name type="author">Collin d'Harleville</name>
                <trait>
-                  <p>poète dramatique, de l'Acad. fr</p>
+                  <p>poète dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e63_d1">L. a. s. au citoyen Langlé, 2 p. in-12.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -806,7 +820,7 @@
                <num type="lot">71</num>
                <name type="author">Cuvier (Georges)</name>
                <trait>
-                  <p>illustre naturaliste, de l'Acad. fr</p>
+                  <p>illustre naturaliste, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e71_d1">L. a. s., 2 p. 1/2 in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -893,7 +907,7 @@
                <num type="lot">79</num>
                <name type="author">Dumas fils</name>
                <trait>
-                  <p>auteur dram., de l'Acad. fr</p>
+                  <p>auteur dram., de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e79_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1087,7 +1101,7 @@
                <num type="lot">98</num>
                <name type="author">Guizot</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e98_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1096,7 +1110,7 @@
                <num type="lot">99</num>
                <name type="author">Haussonville (le comte d')</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e99_d1">L. a. s., 1847, 3 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
@@ -1143,7 +1157,7 @@
                <num type="lot">104</num>
                <name type="author">Lacordaire</name>
                <trait>
-                  <p>le célèbre prédicateur, de l'Acad. fr</p>
+                  <p>le célèbre prédicateur, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e104_d1">L. a. s., 1845, 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="9">9</measure>
@@ -1162,7 +1176,7 @@
                <num type="lot">106</num>
                <name type="author">Lamartine</name>
                <trait>
-                  <p>illustre écrivain, de l'Acad. fr</p>
+                  <p>illustre écrivain, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e106_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1310,7 +1324,7 @@
                <num type="lot">120</num>
                <name type="author">Marmontel (J.-Fr.)</name>
                <trait>
-                  <p>écrivain célèbre, de l'Acad. fr</p>
+                  <p>écrivain célèbre, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e120_d1">L. a. s. à M. Eyssautier, 1776, 1 p. 1/2 in-8,
                   cachet camée.</desc>
@@ -1330,7 +1344,7 @@
                <num type="lot">122</num>
                <name type="author">Martin (Henri)</name>
                <trait>
-                  <p>historien, de l'Acad. fr</p>
+                  <p>historien, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e122_d1">L. a. s. à une dame, 2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1351,7 +1365,7 @@
                <num type="lot">124</num>
                <name type="author">Mérimée (Prosper)</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e124_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1379,7 +1393,7 @@
                <num type="lot">127</num>
                <name type="author">Montesquiou (l'abbé de)</name>
                <trait>
-                  <p>homme d'Etat, de l'Acad. fr</p>
+                  <p>homme d'Etat, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e127_d1">Billet aut. sig. 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -1528,7 +1542,7 @@
                <num type="lot">141</num>
                <name type="author">Renan (Ernest)</name>
                <trait>
-                  <p>savant écrivain, de l'Acad. fr</p>
+                  <p>savant écrivain, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e141_d1">L. a. s., 1856, 3 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1551,7 +1565,7 @@
                <name type="author">Renouard (Jean-Jacques de)</name>
                <trait>
                   <p>sieur de Villayer, conseiller d'Etat et maître des requêtes, membre de l'Acad.
-                     fr</p>
+                     fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e143_d1">Quit. sig. sur vélin; Paris, 1678.
                   Très-rare.</desc>
@@ -1638,7 +1652,7 @@
                <num type="lot">151</num>
                <name type="author">Sainte-Beuve</name>
                <trait>
-                  <p>célèbre littérateur, de l'Acad. fr</p>
+                  <p>célèbre littérateur, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e151_d1">2 let. aut. sig., 1867-68, 5 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1845,7 +1859,7 @@
                <num type="lot">170</num>
                <name type="author">Vatout</name>
                <trait>
-                  <p>de l'Acad. fr</p>
+                  <p>de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000043_e170_d1">L. a. s., 1 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>

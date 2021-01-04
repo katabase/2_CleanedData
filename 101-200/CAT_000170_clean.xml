@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000170">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000170</title>
+            <title>RDA, N°160 (Novembre 1893)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>160</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-11">Novembre 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -484,7 +497,7 @@
                   <p>maréchal de France, fils naturel de Jacques II, roi d'Angleterre, né en 1660,
                      tué au siège de Philipsbourg en 1734.</p>
                </trait>
-               <desc xml:id="CAT_000170_e32_d1">Let. sig. avec 3 lig. aut. au duc de L. a. Vrillière;
+               <desc xml:id="CAT_000170_e32_d1">Let. sig. avec 3 lig. aut. au duc de La Vrillière;
                   Nice, janvier 170 , 1 p. in-fol.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Relative à la capitulation de la citadelle et du château de Nice, qui avait eu
@@ -615,7 +628,7 @@
                <trait>
                   <p>peintre orientaliste très distingué, né à Marseille en 1823.</p>
                </trait>
-               <desc xml:id="CAT_000170_e42_d1">L. a. s.; (1875), 1 p. in-8. L. a. seconde page
+               <desc xml:id="CAT_000170_e42_d1">L. a. s.; (1875), 1 p. in-8. La seconde page
                   contient un croquis à la plume sig. d'un de ses tableaux.</desc>
                <measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
@@ -1260,7 +1273,7 @@
                   <p>célèbre critique et érudit, de l'Acad. des inscriptions, né à Rennes en 1760,
                      mort en 1838.</p>
                </trait>
-               <desc xml:id="CAT_000170_e96_d1">L. a. s. à Mme de L. a. Grange; 11 ventose, 1 p. in-8.
+               <desc xml:id="CAT_000170_e96_d1">L. a. s. à Mme de La Grange; 11 ventose, 1 p. in-8.
                  -On a joint une curieuse brochure de 16 pages in-4 en français et en italien,
                   relatant les événements de janvier 1793 à Rome, où Bassville fut assassiné et où
                   Amaury, Duval faillit perdre la vie.</desc>
@@ -2347,7 +2360,7 @@
                </trait>
                <desc xml:id="CAT_000170_e185_d1">Pièce sig., sig. aussi par François de Harlay,
                   archevêque de Paris; Jules Hardouin-Mansart, le célèbre architecte ; Jacques
-                  Lemasson, seigneur de L. a. Fontaine; Madeleine d'Angennes, femme du précédent;
+                  Lemasson, seigneur de La Fontaine; Madeleine d'Angennes, femme du précédent;
                   Nicole-Geneviève Nanteuil, etc. ; Paris, 1670-1674, 9 p. in-fol. Très rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="200">200</measure>
                <note>Vente par le seigneur de la Fontaine d'une maison sise au faubourg
@@ -2392,7 +2405,7 @@
                   <p>un des plus célèbres mathématiciens du XVIIe siècle, ami de Gassendi, né à.
                      Loudun vers le commencement du XVIIe siècle, mort en 1677.</p>
                </trait>
-               <desc xml:id="CAT_000170_e188_d1">P. a. s., en latin, 1 p. in-fol. L. a. moitié du
+               <desc xml:id="CAT_000170_e188_d1">P. a. s., en latin, 1 p. in-fol. La moitié du
                   feuillet de l'adresse manque. Très rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Eloge envers adressé à Ménage pour ses étrennes. Il servait de préface à un

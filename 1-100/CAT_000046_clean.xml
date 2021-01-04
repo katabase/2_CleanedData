@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000046">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000046</title>
+            <title>RDA, N°57 (Juillet 1879)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>57</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -137,7 +151,7 @@
                <trait>
                   <p>intendant de Paris, l'une des premières victimes de la Révolution en 1789</p>
                </trait>
-               <desc xml:id="CAT_000046_e6_d1">L. a. s.; L. a. Chapelle, 6 nov., 2 p. 1/2 pet.
+               <desc xml:id="CAT_000046_e6_d1">L. a. s.; La Chapelle, 6 nov., 2 p. 1/2 pet.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -274,7 +288,7 @@
                <trait>
                   <p>célèbre compositeur</p>
                </trait>
-               <desc xml:id="CAT_000046_e18_d1">L. a. s. au baron de L. a. Ferté, 1823, 1 p.
+               <desc xml:id="CAT_000046_e18_d1">L. a. s. au baron de La Ferté, 1823, 1 p.
                   in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -768,7 +782,7 @@
                   <p>littérateur et pamphlétaire, renfermé à la Bastille pour la publication des
                      Lettres de Mme de Maintenon</p>
                </trait>
-               <desc xml:id="CAT_000046_e59_d1">L. a. s. à M. de L. a. Condamine; 10 janv. 1754, 1 p.
+               <desc xml:id="CAT_000046_e59_d1">L. a. s. à M. de La Condamine; 10 janv. 1754, 1 p.
                   pet. in-4. Curieuse. </desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
@@ -897,7 +911,7 @@
                <trait>
                   <p>maître de chapelle de Napoléon Ier</p>
                </trait>
-               <desc xml:id="CAT_000046_e69_d1">L. a. s. au vicomte de L. a. Rochefoucauld; 28 av.
+               <desc xml:id="CAT_000046_e69_d1">L. a. s. au vicomte de La Rochefoucauld; 28 av.
                   1825, 1 p. in-f.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Tout son temps étant consacré à la cérémonie du sacre de Charles X, il regrette
@@ -1339,7 +1353,7 @@
                   <p>conventionnel et membre du Directoire, surnommé le Pape des
                      Théophilanthropes.</p>
                </trait>
-               <desc xml:id="CAT_000046_e109_d1">L. a. s.; L. a. Rousselière, 8 nov. 1807, 2 p. pl.
+               <desc xml:id="CAT_000046_e109_d1">L. a. s.; La Rousselière, 8 nov. 1807, 2 p. pl.
                   pet. in-4. 5 </desc>
                <note>Curieuse lettre sur son mémoire qui doit être lu à l'Académie celtique, dont il
                   est membre</note>

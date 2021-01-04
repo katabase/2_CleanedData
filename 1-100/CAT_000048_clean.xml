@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000048">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000048</title>
+            <title>RDA, N°59 (Décembre 1879)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>59</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -803,7 +817,7 @@
                <trait>
                   <p>conventionnel, célèbre historien de Paris; né à Clermont-Ferrand</p>
                </trait>
-               <desc xml:id="CAT_000048_e70_d1">L. a. s. à l'abbé de L. a. Bouderie, 1824, 1 p.
+               <desc xml:id="CAT_000048_e70_d1">L. a. s. à l'abbé de La Bouderie, 1824, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Il lui donne des détails biographiques sur Pierre Chanut</note>
@@ -1251,7 +1265,7 @@
                <trait>
                   <p>reine de Navarre, mère de Henri IV</p>
                </trait>
-               <desc xml:id="CAT_000048_e113_d1">Pièce sig. sur vélin; L. a. Flèche, 1565, in-f.
+               <desc xml:id="CAT_000048_e113_d1">Pièce sig. sur vélin; La Flèche, 1565, in-f.
                   oblong. Une écornure.</desc>
                <measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Foi et hommage pour le fief de la Grande-Barbée</note>
@@ -2272,7 +2286,7 @@
                <trait>
                   <p>député de l'Aude</p>
                </trait>
-               <desc xml:id="CAT_000048_e215_d1">L. a. s.; L. a. Haye, an IV, 1 p. in-18.</desc>
+               <desc xml:id="CAT_000048_e215_d1">L. a. s.; La Haye, an IV, 1 p. in-18.</desc>
                <measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="216" xml:id="CAT_000048_e216">
@@ -2299,7 +2313,7 @@
                <trait>
                   <p>médecin, né à Carcassonne</p>
                </trait>
-               <desc xml:id="CAT_000048_e218_d1">L. a. s. au rédacteur de L. a. Quotidienne, 1814, 1 p.
+               <desc xml:id="CAT_000048_e218_d1">L. a. s. au rédacteur de La Quotidienne, 1814, 1 p.
                   in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>

@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000055">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000055</title>
+            <title>RDA, N°67 (Mars 1881)</title>
             <respStmt>
                <persName ref="#COL_000002">Lucie Rondeau du Noyer</persName>
                <resp>
@@ -20,7 +21,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>67</num>
                <editor>Eugène Charavay fils</editor>
                <publisher>Eugène Charavay fils</publisher>
@@ -40,7 +41,16 @@
                </event>
             </listEvent>
             <listWit>
-               <witness> MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936<ptr/>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -50,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -71,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -179,7 +193,7 @@
                      connu par ses luttes contre Louis XI et Charles VIII, père d'Anne de
                      Bretagne</p>
                </trait>
-               <desc xml:id="CAT_000055_e8_d1">Pièce sig. sur vélin; L. a. Bouvardière, 12 déc. 1466,
+               <desc xml:id="CAT_000055_e8_d1">Pièce sig. sur vélin; La Bouvardière, 12 déc. 1466,
                   in-f. obl. Rare.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
@@ -317,7 +331,7 @@
                <trait>
                   <p>illustre architecte, le constructeur de la colonnade du Louvre</p>
                </trait>
-               <desc xml:id="CAT_000055_e18_d1">Billet aut. sig. à M. de L. a. Planche, 1672, 1/4 de
+               <desc xml:id="CAT_000055_e18_d1">Billet aut. sig. à M. de La Planche, 1672, 1/4 de
                   p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="16">16</measure>
                <note>Ordre de payer 2,000 livres acompte sur les travaux de l'avant-cour de
@@ -806,7 +820,7 @@
                <trait>
                   <p>érudit et botaniste anglais, fixé en Normandie</p>
                </trait>
-               <desc xml:id="CAT_000055_e64_d1">L. a. s., en français, à l'abbé L. a. Bouderie, 1842, 1
+               <desc xml:id="CAT_000055_e64_d1">L. a. s., en français, à l'abbé La Bouderie, 1842, 1
                   p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
@@ -1566,7 +1580,7 @@
                <num type="lot">139</num>
                <name type="author">LANDOLPHE (J)</name>
                <desc xml:id="CAT_000055_e139_d1">L.), marin célèbre, auteur de Mémoires, né à
-                  Auxonne. L. a. s. à M. de L. a. Brillantais, à Rochefort; rade de l'Isle-d'Aix, 1786,
+                  Auxonne. L. a. s. à M. de La Brillantais, à Rochefort; rade de l'Isle-d'Aix, 1786,
                   l p. in-4, cachet à ses armes.</desc>
                <measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
@@ -2103,7 +2117,7 @@
                <name type="author">DOCUMENTS SUR LE DEPARTEMENT</name>
                <desc xml:id="CAT_000055_e193_d1">environ 550 lettres ou pièces du XVe au XIXe
                   siècle.-Fragments d'un registre de dépenses de la Chartreuse-lés-Dijon, 1492.
-                 -Copies de lettres adressées par L. a. Chaussée et le président Doubler à l'abbé Le
+                 -Copies de lettres adressées par La Chaussée et le président Doubler à l'abbé Le
                   Blanc.-2 pièces relatives au capitaine Thurot, le célèbre marin.-Acte sur vélin,
                   relatif à la construction de deux ponts, et aux réparations exécutées à l'église
                   et au cimetière de la ville de Grancey-sur-Ource.-Dossier d'environ 50 pièces en

@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000158">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000158</title>
+            <title>RDA, N°155 (Mai 1893)</title>
             <respStmt>
-               <persName ref="#COL_000005">Caroline Corbière</persName>
+               <persName ref="#COL_000005">Caroline Corbières</persName>
                <resp>
                   <date when="2020">2020</date>
                </resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
-               <num type="lot">155</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, 8 quai du Louvre</pubPlace>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <num>155</num>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-05">Mai 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -237,7 +250,7 @@
                <num type="lot">13</num>
                <name type="author">Augier (Emile)</name>
                <trait>
-                  <p>célèbre auteur dramatique, de l'Acad. fr</p>
+                  <p>célèbre auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e13_d1">L. a. s.; Croissy, 2 p. petit in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -248,7 +261,7 @@
                <num type="lot">14</num>
                <name type="author">Aumale (Henri d'Orléans, duc d')</name>
                <trait>
-                  <p>fils du roi Louis-Philippe, historien, de l'Acad. fr</p>
+                  <p>fils du roi Louis-Philippe, historien, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e14_d1">Billet aut. sig. de ses initiales, 2/3 de p.in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
@@ -492,7 +505,7 @@
                <trait>
                   <p>écrivain contemporain distingué</p>
                </trait>
-               <desc xml:id="CAT_000158_e34_d1">L. a. comédie théosophiue, manuscrit aut. sig., 4 p.
+               <desc xml:id="CAT_000158_e34_d1">La comédie théosophiue, manuscrit aut. sig., 4 p.
                   in-8. 8 » Très intéressante pièce où il parle de Joséphin Péladan. « Grâce à ce
                   mage, nou , avons bien mieux que l'homme sandwich ou l'homme poisson, nous avons
                   l'homme perroquet. Partout où le sar (c'est ainsi qu'il veut qu'on le nomme)
@@ -622,7 +635,7 @@
                </trait>
                <desc xml:id="CAT_000158_e43_d1">Pièce sig. Georges, sig. aussi par les chefs
                   vendéens suivants : comte de Châtillon, A. Grelier, chevalier d'Andigné, Louis de
-                  Frotté, Constant de Suzannet, comte de Bourmont. L. a. Prévalaye, Joseph de Limoélan,
+                  Frotté, Constant de Suzannet, comte de Bourmont. La Prévalaye, Joseph de Limoélan,
                   Ch. d'Autichamp, Laroche Saint-André, chevalier de la Bouchetière. Victor de la
                   Béraudière, vicomte d'Autichamp, checalier Turpin de Crissé, de Rosmorduc, Menard,
                   etc.; Pouancé, 18 déc. 1799, 9 p. in-fol.</desc>
@@ -1125,7 +1138,7 @@
                <num type="lot">83</num>
                <name type="author">Dumas (Alexandre)</name>
                <trait>
-                  <p>fils, le célèbre auteur dramatique, de l'Acad. fr</p>
+                  <p>fils, le célèbre auteur dramatique, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e83_d1">Son portrait photographie, format album, avec
                   dédicace de 2 lig. aut. sig.</desc>
@@ -1135,7 +1148,7 @@
                <num type="lot">84</num>
                <name type="author">Dupanloup (Félix)</name>
                <trait>
-                  <p>le célèbre évéque d'Orléans, de l'Acad. fr</p>
+                  <p>le célèbre évéque d'Orléans, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e84_d1">L. a. s., 1/2 p. in-8.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -1601,7 +1614,7 @@
                <num type="lot">121</num>
                <name type="author">Généraux</name>
                <desc xml:id="CAT_000158_e121_d1">L. a. s. 1 » Ambert (baron), Carrion-Nisas,
-                  Cavaignac, Clément, Dejean, Goyon, Jacquesminot, Lamarque, L. a. Moskowa, Lawoestine,
+                  Cavaignac, Clément, Dejean, Goyon, Jacquesminot, Lamarque, La Moskowa, Lawoestine,
                   Louvois (le Mle de), Martimprey, Mellinet, Montholon. Pelet, Rampon, Rogniat.
                   Roguet, Rolin, Saint-Cyr Nugues, Saint-Simon, Schramm, Sonnini, Thomassin,
                   Vaudoncourt. Lettres signées : Atthalin, Bertrand, Changarnier, Clarke, Dupont,
@@ -2126,7 +2139,7 @@
                <num type="lot">165</num>
                <name type="author">Leconte de Lisle (Ch.-M.-R.)</name>
                <trait>
-                  <p>le célèbire poète, de l'Acad. fr</p>
+                  <p>le célèbire poète, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e165_d1">L. a. s., 1 p. in-18.</desc>
                <measure commodity="currency" unit="FRF" quantity="3">3</measure>
@@ -2814,7 +2827,7 @@
                <num type="lot">223</num>
                <name type="author">Pasteur (L.)</name>
                <trait>
-                  <p>l'illustre savant, de l'Acad. fr</p>
+                  <p>l'illustre savant, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e223_d1">L. a. s., 1 p. in-8. Belle lettre.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -3261,7 +3274,7 @@
                <num type="lot">257</num>
                <name type="author">Scribe (Eug.)</name>
                <trait>
-                  <p>le célèbre vaudevilliste, de l'Acad. fr</p>
+                  <p>le célèbre vaudevilliste, de l'Acad. fr.</p>
                </trait>
                <desc xml:id="CAT_000158_e257_d1">L. a. s. à Poirson; Lyon, 7 oct. 1839, 2 p. 3/4
                   in-8.</desc>
@@ -3519,7 +3532,7 @@
                   <p>femme de lettres et poète très distinguée, traductrice d'Anacréon, née à Rouen
                      en 1788, morte en 1843</p>
                </trait>
-               <desc xml:id="CAT_000158_e277_d1">L. a. Larme, la Goutte de rosée et le Zéphir, fable
+               <desc xml:id="CAT_000158_e277_d1">La Larme, la Goutte de rosée et le Zéphir, fable
                   aut. 2 p. in-4. Belle pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>

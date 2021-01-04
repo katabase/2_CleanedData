@@ -1,4 +1,5 @@
-<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000228">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000228">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -134,7 +135,7 @@
                <trait>
                   <p>savant littérateur, de l'Acad. fr., né à Lyon en 1800, mort en 1864.</p>
                </trait>
-               <desc xml:id="CAT_000228_e6_d1">L. a. cloche des morts, pièce de vers aut., 2 p. in-4.</desc>
+               <desc xml:id="CAT_000228_e6_d1">La cloche des morts, pièce de vers aut., 2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="7" xml:id="CAT_000228_e7">
@@ -937,7 +938,7 @@
                      en 1745, pendu le 19 février 1790.</p>
                </trait>
                <desc xml:id="CAT_000228_e76_d1">L. a. s. à sa cousine (la princesse d'Anhalt-Schaumbourg) ; prison du Châtelet,
- 15 janvier 1790, 2 p. in-8, cachet à ses armes. L. a. moitié du feuillet de l'adresse
+ 15 janvier 1790, 2 p. in-8, cachet à ses armes. La moitié du feuillet de l'adresse
  a été enlevée.</desc>
                <measure commodity="currency" unit="FRF" quantity="45">45</measure>
                <note anchored="true">Touchante lettre au sujet de sa triste situation. Il la prie de s'associer à sa
@@ -2083,7 +2084,7 @@
                   <p>célèbre général des armées de la République, né à Arbois en 1761, mort en 1804.
                     </p>
                </trait>
-               <desc xml:id="CAT_000228_e179_d1">Let. sig. au général Lefebvre; L. a. Haye, 29 pluviôse an III (17 février 1795), 1
+               <desc xml:id="CAT_000228_e179_d1">Let. sig. au général Lefebvre; La Haye, 29 pluviôse an III (17 février 1795), 1
  p. 1/2 in-fol. vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note anchored="true">Intéressante lettre militaire. Il lui ordonne d'appuyer la gauche de sa
@@ -2557,7 +2558,7 @@
                <trait>
                   <p>le spirituel publiciste.</p>
                </trait>
-               <desc xml:id="CAT_000228_e220_d1">6 l. a. s., dont 1 de ses initiales, à Anatole de L. a. Forge, 8 p. in-8. Papier à
+               <desc xml:id="CAT_000228_e220_d1">6 l. a. s., dont 1 de ses initiales, à Anatole de La Forge, 8 p. in-8. Papier à
  son chiffre. Curieuses.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
@@ -3269,7 +3270,7 @@
                <desc xml:id="CAT_000228_e278_d1">3 pièces.-1° Lettre originale de Jean Fournier, sieur de la Guérinière,
                   chancelier d'Anjou et de Provence, à René d'Anjou ; Angers, 21 avril (vers 1460),
                   1 p. in-4 obl. Il lui demande d'intercéder auprès du roi de France pour les
-                  habitants de la Rochesur-Oyon (L. a. Roche-sur-Yon). 2° Lettre originale de M. de
+                  habitants de la Rochesur-Oyon (La Roche-sur-Yon). 2° Lettre originale de M. de
                   Chauvinière, gentilhomme vendéen, à René d'Anjou, Angers, 22 sept. (vers 1460), 1
                   p in-4. Il se défend d'avoir empêché les gens de la principauté de la
                   Roche-sur-Yon de payer au roi René ce qui lui est dû. 3° Lettre originale des gens

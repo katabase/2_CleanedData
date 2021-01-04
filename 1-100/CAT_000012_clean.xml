@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000012">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>Collection Morrison II</title>
+            <title>Collection Morrison II, 15-19 avril 1918</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>éditeur scientifique <date when="2019">2019</date></resp>
@@ -67,6 +68,10 @@
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -114,7 +119,7 @@
             <item n="1081" xml:id="CAT_000012_e1081">
                <num type="lot">1081</num>
                <name type="author">SÉVIGNÉ (Madame de)</name>
-               <desc xml:id="CAT_000012_e1081_d1">A. L. s. "L. a. M. de Sévigné", 5 pp.
+               <desc xml:id="CAT_000012_e1081_d1">A. L. s. "La M. de Sévigné", 5 pp.
                   4to, "à Grignan, ce premier may" (1691), to the same:</desc>
                <desc xml:id="CAT_000012_e1081_d2">A. L. 5 pp. 4to, "à Grignan, ce 15e Septembre" (1691), to the
                   same:</desc>

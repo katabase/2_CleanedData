@@ -1,8 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000160">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
-            <title>CAT_000160</title>
+            <title>RDA, N°157 (Juillet 1893)</title>
             <respStmt>
                <persName ref="#COL_000001">Simon Gabay</persName>
                <resp>
@@ -20,11 +21,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <title>REVUE DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
+               <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>157</num>
-               <editor>Eugène Charavay fils</editor>
-               <publisher>Eugène Charavay fils</publisher>
-               <pubPlace>Paris, Rue du Faubourg Poissonière 34</pubPlace>
+               <editor>Mme veuve CHARAVAY</editor>
+               <publisher>Mme veuve CHARAVAY</publisher>
+               <pubPlace>Paris, 34 rue du Faubourg-Poissonnière</pubPlace>
                <date when="1893-07">Juillet 1893</date>
             </bibl>
             <listEvent>
@@ -41,7 +42,15 @@
             </listEvent>
             <listWit>
                <witness>
-                  <ptr/>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">MICROFILM M-4961 Récolement : 01/03/1870-31/12/1936</idno>
+                     </msIdentifier>
+                  </msDesc>
                </witness>
             </listWit>
             <listBibl>
@@ -51,7 +60,7 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="fr">french</language>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
       <encodingDesc>
@@ -72,6 +81,10 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <revisionDesc>
+         <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID
+            for <gi>desc</gi></change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -308,7 +321,7 @@
                   <p>écrivain philosophe, un des plus habiles critiques du XVIIIe siècle, né à
                      Ratisbonne en 1723, mort en 1807.</p>
                </trait>
-               <desc xml:id="CAT_000160_e18_d1">L. a. s. , en français (à Anne-César de L. a. Luzerne,
+               <desc xml:id="CAT_000160_e18_d1">L. a. s. , en français (à Anne-César de La Luzerne,
                   ambassadeur aux Etats-Unis) ; Paris, 12 octobre 1779, 4 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Très intéressante lettre. Il le remercie de ses renseignements sur M. Hartwick
@@ -576,7 +589,7 @@
                   <p>célèbre général des armées de la République, né à Arbois en 1761, mort en 1804.
                   </p>
                </trait>
-               <desc xml:id="CAT_000160_e37_d1">Let. sig. au général Lefebvre, L. a. Haye, 29 pluviôse
+               <desc xml:id="CAT_000160_e37_d1">Let. sig. au général Lefebvre, La Haye, 29 pluviôse
                   an III (17 février 1795), 1 p. 1/2 in-fol., vignette.</desc>
                <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Intéressante lettre militaire. Il lui ordonne d'appuyer la gauche de sa
@@ -678,7 +691,7 @@
             </item>
             <item n="45" xml:id="CAT_000160_e45">
                <num type="lot">45</num>
-               <name type="author">Saint-Pol (Louis de Luxembourg, comte de),</name>
+               <name type="author">Saint-Pol (Louis de Luxembourg, comte de)</name>
                <desc xml:id="CAT_000160_e45_d1">de Ligny et de Brienne, dit le Connétable de
                   Saint-Pol, connétable de France, né vers 1418, mort sur l'échafaud à Paris le 19
                   déc. 1473. Pièce sig. sur vélin; 18 mars 1456, in-4 obl. Rare.</desc>
@@ -1318,7 +1331,7 @@
             <item n="128" xml:id="CAT_000160_e128">
                <num type="lot">128</num>
                <name type="author">Sallier (l'abbé Claude)</name>
-               <desc xml:id="CAT_000160_e128_d1">L. a. s.; 1732, 1 p. in-8. L. a. marge du bas a été
+               <desc xml:id="CAT_000160_e128_d1">L. a. s.; 1732, 1 p. in-8. La marge du bas a été
                   coupée.</desc>
                <measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
@@ -2305,7 +2318,7 @@
             <item n="270" xml:id="CAT_000160_e270">
                <num type="lot">270</num>
                <name type="author">Arnaud (Fr. Baculard d')</name>
-               <desc xml:id="CAT_000160_e270_d1">L. a. Saxe, pièce de vers aut. sig., 1 p. 3/4 in-4.
+               <desc xml:id="CAT_000160_e270_d1">La Saxe, pièce de vers aut. sig., 1 p. 3/4 in-4.
                   Très jolie pièce.</desc>
                <measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
