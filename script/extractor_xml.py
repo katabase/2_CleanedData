@@ -760,7 +760,7 @@ xml_taxonomy = """
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
