@@ -849,7 +849,7 @@ if __name__ == "__main__":
     no_price = 0
     no_date = 0
     input_dir = args.input
-    output_dir = '../output'
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../output')
     files = '*_clean.xml'
     input_files = f'{input_dir}/{files}'
     output_files = f'{output_dir}/{files}'
