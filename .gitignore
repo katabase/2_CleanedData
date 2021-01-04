@@ -1,2 +1,4 @@
 .DS_Store
 output/
+script/errors.log
+script/tables/__pycache__
