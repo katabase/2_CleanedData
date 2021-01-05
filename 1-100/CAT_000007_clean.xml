@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/katabase/GROBID_Dictionaries/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/GROBID_Dictionaries/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000007">
+<?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000007">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -17,7 +17,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
+            <bibl ana="RDA">
                <title>Précieux autographes composant la Collection du Président Robert Schuman. Première partie</title>
                <publisher>Michel Castaing</publisher>
                <pubPlace>3 rue Furstenberg, Paris</pubPlace>

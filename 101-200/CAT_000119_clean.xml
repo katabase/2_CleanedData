@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/katabase/GROBID_Dictionaries/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/GROBID_Dictionaries/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000119">
+<?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000119">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -20,7 +20,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
+            <bibl ana="RDA">
                <title>REVUE DES AUTOGRAPHES, DES CURIOSITÉS DE L'HISTOIRE ET DE LA BIOGRAPHIE</title>
                <num>116</num>
                <editor>Eugène Charavay fils</editor>
@@ -80,6 +80,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
       <revisionDesc>
          <change who="#COL_000001" when="2020-07">Correction, improving bibliography, adding new mark-up (<gi>measure</gi>) for price and an ID

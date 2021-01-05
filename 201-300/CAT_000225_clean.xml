@@ -20,7 +20,7 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl status="draft">
+            <bibl status="draft" ana="RDA">
                <title>Revue des autographes</title>
                <num>174</num>
                <editor>Eugène Charavay fils</editor>
@@ -72,6 +72,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
