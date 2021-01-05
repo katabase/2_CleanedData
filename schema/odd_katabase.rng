@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2020-12-18T15:43:32Z. .
+Schema generated from ODD source 2021-01-05T09:26:22Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -2016,7 +2016,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                       context="tei:item/tei:desc">
                                     <sch:assert test="@xml:id" role="error">Please add a @xml:id
                                         attribute</sch:assert>
-                                    <sch:assert test="matches(@xml:id, 'CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?_d[0-9]+')">@xml:id="CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?_d[0-9]+" </sch:assert>
+                                    <sch:assert test="matches(@xml:id, 'CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?_d[0-9]+')">@xml:id="CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?_d[0-9]+"
+                                    </sch:assert>
                                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -2278,7 +2279,8 @@ Measures]</a:documentation>
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:measure[@type='format']">
-                                    <sch:assert test="matches(@unit, 'f')">If @type="format", the value of @unit must be "f".</sch:assert>
+                                    <sch:assert test="matches(@unit, 'f')">If @type="format", the
+                                        value of @unit must be "f".</sch:assert>
                                 </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
@@ -2287,7 +2289,8 @@ Measures]</a:documentation>
                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       context="tei:measure[@type='length']">
-                                    <sch:assert test="matches(@unit, 'p')">If @type="length", the value of @unit must be "p".</sch:assert>
+                                    <sch:assert test="matches(@unit, 'p')">If @type="length", the
+                                        value of @unit must be "p".</sch:assert>
                                 </sch:rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
@@ -2612,7 +2615,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                       context="tei:text//tei:item">
                                     <sch:assert test="@xml:id" role="error">Please add a @xml:id
                                         attribute</sch:assert>
-                                    <sch:assert test="matches(@xml:id, 'CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?')">@xml:id="CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?+" </sch:assert>
+                                    <sch:assert test="matches(@xml:id, 'CAT_[0-9]{6}_e[0-9]+([a-z|\*]+)?')">@xml:id="CAT_[0-9]{6}_e[0-9]+([a-z|*]+)?+" </sch:assert>
                                 </sch:rule>
          </pattern>
          <ref name="att.global.attribute.xmlid"/>
@@ -2641,7 +2644,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                     context="tei:item">
                                             <s:assert test="@n">The tei:item elements must have a @n
                                                 attribute.</s:assert>
-                                      
+                                            
                                         </s:rule>
          </pattern>
          <empty/>
@@ -2960,6 +2963,22 @@ Elements 7.2.5. Speech Contents]</a:documentation>
                </choice>
             </attribute>
          </optional>
+         <optional>
+            <attribute name="ana">
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <text/>
+            </attribute>
+         </optional>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddbyexample-bibl-ana-BiblAna-constraint-rule-17">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:sourceDesc/tei:bibl">
+                                            <sch:assert test="@ana" role="error">Please add a @ana
+                                                attribute</sch:assert>
+                                        </sch:rule>
+         </pattern>
          <empty/>
       </element>
    </define>
