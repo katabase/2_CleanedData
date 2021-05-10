@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000021">
+<?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000021">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1841,13 +1841,13 @@
                   mémoire du chevalier de Châteaubriand de la Guérande (sans doute le célèbre
                   Châteaubriand lui-même)</note>
             </item>
-            <item n="4448" xml:id="CAT_000021_e4s448">
+            <item n="4448" xml:id="CAT_000021_e4448">
                <num type="lot">4448</num>
                <name type="author">Mallefille (Félicien)</name>
                <trait>
                   <p>célèbre auteur dramat., auteur des Sceptiques</p>
                </trait>
-               <desc xml:id="CAT_000021_e4s448_d1">L. a. s. à Verteuil, 1/2 p. in-4.</desc>
+               <desc xml:id="CAT_000021_e4448_d1">L. a. s. à Verteuil, 1/2 p. in-4.</desc>
                <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
             </item>
             <item n="4449" xml:id="CAT_000021_e4449">

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000175">
     <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
         <fileDesc>
             <titleStmt>
@@ -413,15 +413,15 @@
                         Sarah.</desc>
                     <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                 </item>
-                <item n="Bernis" xml:id="CAT_000175_eBernis">
-                    <num type="lot">Bernis</num>
-                    <name type="author">(le cardinal de)</name>
+                <item n="26" xml:id="CAT_000175_e26">
+                    <num type="lot">26</num>
+                    <name type="author">Bernis, (le cardinal de)</name>
                     <trait>
                         <p>poète et homme d'Etat, de l'Acad. fr., né à Saint-Marcel-d'Ardèche en
                             1715, mort en 1794.</p>
                     </trait>
-                    <desc xml:id="CAT_000175_eBernis_d1">L. a. s. à Malesherbes; Rome, 3 janvier
-                        1776. 2 p. in-4.</desc>
+                    <desc xml:id="CAT_000175_e26_d1">L. a. s. à Malesherbes; Rome, 3 janvier 1776. 2
+                        p. in-4.</desc>
                     <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                     <note anchored="true">Recommandation pour l'abbé de Pradines, son grand vicaire,
                         aumônier de la comtesse d'Artois.</note>
@@ -459,18 +459,16 @@
                         <p>dit de Bretagne, comte de Penthièvre, seigneur de Laigle, mort en
                             1454.</p>
                     </trait>
-                    <desc xml:id="CAT_000175_e29_d1">Let. sig</desc>
-                </item>
-                <item n="" xml:id="CAT_000175_e">
-                    <note anchored="true">au duc de Bretagne, François Ier; Ségur (Aveyron), 20
-                        juillet (1447), 1 p. in-fol. 20 » Importante lettre. Il accepte les
-                        propositions que lui fait le duc de Bretagne, François 1er par son sénéchal
-                        de Vannes, Jean Horet, au sujet de la restitution du comté de Penthièvre : «
-                        C'est assavoir que je vous voulsisse proroger le terme auquel vous me devés
-                        rendre les terres et seigneuries contenues en l'appoinctement fait à Nantes
-                        entre vous et moy.» Il parle encore d'indemnité pécuniaire pour la terre de
-                        Châteaumur, des terres « qui furent au pere de la femme de Pierre de
-                        Caradreux.»</note>
+                    <desc xml:id="CAT_000175_e29_d1">Let. sig. au duc de Bretagne, François Ier;
+                        Ségur (Aveyron), 20 juillet (1447), 1 p. in-fol.</desc>
+                    <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+                    <note>Importante lettre. Il accepte les propositions que lui fait le duc de
+                        Bretagne, François 1er par son sénéchal de Vannes, Jean Horet, au sujet de
+                        la restitution du comté de Penthièvre : « C'est assavoir que je vous
+                        voulsisse proroger le terme auquel vous me devés rendre les terres et
+                        seigneuries contenues en l'appoinctement fait à Nantes entre vous et moy.»
+                        Il parle encore d'indemnité pécuniaire pour la terre de Châteaumur, des
+                        terres « qui furent au pere de la femme de Pierre de Caradreux.»</note>
                 </item>
                 <item n="30" xml:id="CAT_000175_e30">
                     <num type="lot">30</num>
@@ -564,15 +562,11 @@
                     <name type="author">Borda (J.-Ch., chevalier de)</name>
                     <trait>
                         <p>célèbre géomètre, qui prit une grande part à la guerre de l'Indépendance
-                            américaine, ué à Dax (Landes) en 1733.</p>
+                            américaine, ué à Dax (Landes) en 1733, mort en 1779</p>
                     </trait>
-                </item>
-                <item n="mort" xml:id="CAT_000175_emort">
-                    <num type="lot">mort</num>
-                    <name type="author">en 1779</name>
-                    <desc xml:id="CAT_000175_emort_d1">Pièce sig. avec petites lignes aut., sig.
-                        aussi par l'ingénieur Perronet, comme membre de l'Acad. des Sciences; Paris,
-                        11 déc. 1787, 5 p. 1/2 in-fol.</desc>
+                    <desc xml:id="CAT_000175_e37_d1">Pièce sig. avec petites lignes aut., sig. aussi
+                        par l'ingénieur Perronet, comme membre de l'Acad. des Sciences; Paris, 11
+                        déc. 1787, 5 p. 1/2 in-fol.</desc>
                     <measure commodity="currency" unit="FRF" quantity="12">12</measure>
                 </item>
                 <item n="38" xml:id="CAT_000175_e38">
@@ -754,14 +748,7 @@
                     <name type="author">Chamfort (Sébastien-Roch-Nicolas)</name>
                     <trait>
                         <p>un des meilleurs écrivains du XVIIIe siècle, de l'Acad. fr., né à Theix
-                            (Puy</p>
-                    </trait>
-                </item>
-                <item n="de" xml:id="CAT_000175_ede">
-                    <num type="lot">de</num>
-                    <name type="author">-Dôme)</name>
-                    <trait>
-                        <p>en 1741, mort en 1794.</p>
+                            (Puy-de-Dôme) en 1741, mort en 1794.</p>
                     </trait>
                     <desc xml:id="CAT_000175_ede_d1">Pièce aut., 3 p. 3/4 in-8.</desc>
                     <measure commodity="currency" unit="FRF" quantity="15">15</measure>
@@ -1345,17 +1332,11 @@
                     <desc xml:id="CAT_000175_e101_d1">Let. sig. à François Errault, seigneur de
                         Chemans en Anjou, garde des sceaux</desc>
                 </item>
-                <item n="Saint" xml:id="CAT_000175_eSaint">
-                    <num type="lot">Saint</num>
-                    <name type="author">-Souplet (Nord)</name>
-                    <trait>
-                        <p/>
-                    </trait>
-                    <trait>
-                        <p/>
-                    </trait>
-                    <desc xml:id="CAT_000175_eSaint_d1">L. a. s. au baron de Mont-Saint-Jean et de
-                        la Bastie; Annecy, 9 nov 1620, 1 p. in-4. Un peu jaunie. Belle lettre.
+                <item n="102" xml:id="CAT_000175_e102">
+                    <num type="lot">102</num>
+                    <name type="author">Saint-Souplet (Nord)</name>
+                    <desc xml:id="CAT_000175_e102_d1">L. a. s. au baron de Mont-Saint-Jean et de la
+                        Bastie; Annecy, 9 nov 1620, 1 p. in-4. Un peu jaunie. Belle lettre.
                         Rare.</desc>
                     <measure commodity="currency" unit="FRF" quantity="100">100</measure>
                 </item>
@@ -1862,16 +1843,10 @@
                     <num type="lot">145</num>
                     <name type="author">Leblanc (Léonide)</name>
                     <trait>
-                        <p>actrice distinguée de l'Odéon, née à Dampierre</p>
+                        <p>actrice distinguée de l'Odéon, née à Dampierre-sur-Loire (Loiret) en
+                            1845, morte récemment.</p>
                     </trait>
-                </item>
-                <item n="sur" xml:id="CAT_000175_esur">
-                    <num type="lot">sur</num>
-                    <name type="author">-Loire (Loiret)</name>
-                    <trait>
-                        <p>en 1845, morte récemment.</p>
-                    </trait>
-                    <desc xml:id="CAT_000175_esur_d1">L. a. s. 1 p. 1/2 petit in-8. Papier avec sa
+                    <desc xml:id="CAT_000175_e145_d1">L. a. s. 1 p. 1/2 petit in-8. Papier avec sa
                         devise : Quid mihi.-On a joint son portrait-carte photographie avec sa
                         signature aut., in-32.</desc>
                     <measure commodity="currency" unit="FRF" quantity="5">5</measure>
@@ -3348,36 +3323,21 @@
                     <num type="lot">261</num>
                     <desc xml:id="CAT_000175_e261_d1">L. a. s. à</desc>
                     <measure commodity="currency" unit="FRF" quantity="1">1</measure>
+                    <note>Arago (Fr.), Arcet (J.-P. d'), Babinet, Barbié du Bocage, Becquerel
+                        (A.-C), Bert (Paul) Bois-onade. Bory de Saint-Vincent, Boussingault,
+                        Brongniart (Alex.). Cadet- Gassicourt, Cadet de Vaux, Candolle (Alph. de).
+                        Chaptal, let. sig ; Comte (Achide), Coquebert-Montbret, Desnoyers (J.),
+                        Despretz, Dieulafoy (L.) Duméril, Elie de Beaumont, Figuier (L.). Gail,
+                        Geoffroy Saint-Hilaire (Isidore. Jaume Saint-Hilaire, Julia-Fontenelle,
+                        Jussieu (Adrien de), Jussieu (Laurent de).</note>
                 </item>
-                <item n="Arago" xml:id="CAT_000175_eArago">
-                    <num type="lot">Arago</num>
-                    <name type="author">(Fr.)</name>
+                <item n="262" xml:id="CAT_000175_e262">
+                    <num type="lot">262</num>
+                    <name type="author">Charles V</name>
                     <trait>
-                        <p>Arcet (J.-P. d'.</p>
+                        <p>roi de France.</p>
                     </trait>
-                    <trait>
-                        <p>Babinet, Barbié du Bocage, Becquerel (A.-C..</p>
-                    </trait>
-                    <trait>
-                        <p>Bert (Paul.</p>
-                    </trait>
-                    <trait>
-                        <p>Bois-onade. Bory de Saint-Vincent, Boussingault, Brongniart (Alex.).
-                            Cadet- Gassicourt, Cadet de Vaux, Candolle (Alph. de). Chaptal, let. sig
-                            ; Comte (Achide), Coquebert-Montbret, Desnoyers (J..</p>
-                    </trait>
-                    <trait>
-                        <p>Despretz, Dieulafoy (L..</p>
-                    </trait>
-                    <trait>
-                        <p>Duméril, Elie de Beaumont, Figuier (L.). Gail, Geoffroy Saint-Hilaire
-                            (Isidore. </p>
-                    </trait>
-                    <trait>
-                        <p>Jaume Saint-Hilaire, Julia-Fontenelle, Jussieu (Adrien de), Jussieu
-                            (Laurent de). DOCUREENES262 Charles V, roi de France.</p>
-                    </trait>
-                    <desc xml:id="CAT_000175_eArago_d1">Pièce sur vélin; Paris, 12 mars 1363 (1364),
+                    <desc xml:id="CAT_000175_e262_d1">Pièce sur vélin; Paris, 12 mars 1363 (1364),
                         in-1 obl.</desc>
                     <measure commodity="currency" unit="FRF" quantity="8">8</measure>
                     <note anchored="true">Quittance de Nicolas le Flamenc, drapier et bourgeois de
@@ -3635,14 +3595,9 @@
                 <item n="281" xml:id="CAT_000175_e281">
                     <num type="lot">281</num>
                     <name type="author">Valenciennes</name>
-                    <desc xml:id="CAT_000175_e281_d1">L. a. s., de</desc>
-                    <note anchored="true">Prouveur, député du Nord à l'Assemblée législative, à
-                        Grenet homme de loi, à Valenciennes; Paris, 6 sept.</note>
-                </item>
-                <item n="an" xml:id="CAT_000175_ean">
-                    <num type="lot">an</num>
-                    <name type="author">IV (1792</name>
-                    <desc xml:id="CAT_000175_ean_d1">1 p. 1/2 in-4.</desc>
+                    <desc xml:id="CAT_000175_e281_d1">L. a. s., de Prouveur, député du Nord à
+                        l'Assemblée législative, à Grenet homme de loi, à Valenciennes; Paris, 6
+                        sept. an IV (1792) 1 p. 1/2 in-4.</desc>
                     <measure commodity="currency" unit="FRF" quantity="10">10</measure>
                     <note anchored="true">Votre silence avec moi m'afflige beaucoup, mon cher
                         camarade; je suis peu sensible à l'opinion de beaucoup d'imbéciles et de
@@ -3700,9 +3655,9 @@
                 <item n="285" xml:id="CAT_000175_e285">
                     <num type="lot">285</num>
                     <name type="author">Louisiane</name>
-                    <desc xml:id="CAT_000175_e285_d1">Let. sig. de Sartine alors ministre de la marine, à Vernais, commis de
-                        M. de Saint-James, trésorier général; Versailles, 28 janvier 177 , 2 p. in
-                        fol.</desc>
+                    <desc xml:id="CAT_000175_e285_d1">Let. sig. de Sartine alors ministre de la
+                        marine, à Vernais, commis de M. de Saint-James, trésorier général;
+                        Versailles, 28 janvier 177 , 2 p. in-fol.</desc>
                     <measure commodity="currency" unit="FRF" quantity="5">5</measure>
                     <note anchored="true">Curieuse lettre. Il le charge de vérifier le déficit «
                         d'environ un million qui paroit dans la caisse du feu sr Detrehan, trésorier

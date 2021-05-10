@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000236">
+<?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href=https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000236">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1865,7 +1865,7 @@
                <note anchored="true">Très belle lettre. Il n'a pu se reudre en Orient, ni visiter Jérusalem ; il y
                   retournera quand son fils (le prince de Wasa) sera majeur.</note>
             </item>
-            <item n="155"/>
+            <item n="155" xml:id="CAT_000236_e155"/>
             <item n="156" xml:id="CAT_000236_e156">
                <num type="lot">156</num>
                <name type="author">Hamelin (Mme)</name>
