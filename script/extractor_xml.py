@@ -1,63 +1,114 @@
 #!/usr/bin/python
 # coding: utf-8
+
+# -----------------------------------------------------------
+#  Katabase project: github.com/katabase/
+# Python script to create XML files with normalised <desc> out of cleaned XML
+# produced in the previous step (1_OutputData)
+# Input : a directory containing XML files with names following the pattern 'CAT_\d+_clean.xml'
+#
+# * FULL PROCESS BREAKDOWN *
+# - conversion_to_list() extracts the <desc>s of the input XML files and stores them in a list
+#   containing nested lists (a list for all the descs in an XML file -> a list for each desc)
+# - price_extractor() extracts all prices and stores them in an output_dict ; this dict will be
+#   updated in the following steps to contain all important items in the <desc>
+# - date_extractor() extracts all dates, stores them in an XML <date> and updates output_dict with
+#   this XML element
+# - length_extractor() extracts the length of the sold manuscript (e.g., 1 page...), stores it in a
+#   <measure> XML element and updates output_dict with this element
+# - format_extractor() extracts the format of the sold manuscript (folio, in-quatro...), stores it in
+#   a <measure> XML element and updates output_dict with this element
+# - term_extractor() extracts all other meaningful elements (type of autograph...) and updates the output_dict
+#   with this data
+# - xml_output_production() replaces the input XMLs' descs with a new, normalised <desc> using elements
+#   of output_dict()
+# - if __name__ == "__main__" initates a command line interface that takes the input directory as
+#   parameter, creates output directories and runs all the steps above in order to create the new XML files
+# -----------------------------------------------------------
+
+
 import shutil
 import os
+import sys
 import glob
 import re
+import logging
 import dateparser
-import datetime
-from decimal import *
 import tables.rep_greg_conversion
 import tables.conversion_tables
-from dateparser.search import search_dates
-
 import argparse
-arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument("input", help="input directory")
-args = arg_parser.parse_args()
-
-# Module used to parse XML files.
 from lxml import etree
-import xml.etree.ElementTree as ET
+from pathlib import Path
 from xml.etree import ElementTree
 
+# UNUSED IMPORTS
+# import datetime
+# from decimal import *
+# from dateparser.search import search_dates
+# import xml.etree.ElementTree as ET
 
-# Module used to note errors in a .log file.
-import logging
+# log errors in a .log file
 logging.basicConfig(filename='errors.log', level=logging.DEBUG, filemode="w", format="%(levelname)-8s [%(filename)s:%(lineno)d] %(message)s")
-
-
-###### CE QU'IL SE PASSE ######
-# en général, on prend desc_list pour extraire des données de la liste de <desc> et on ajoute les données
-# à un output_dict
-# - utiliser conversion_to_list() pour récupérer le dossier à traiter ;
-#   - dans cette fonction, utiliser desc_extractor pour extraire les <desc> de l'élément et
-#     les stocker dans une liste de listes
-#   - à ce stade, on a obtenu une liste de listes de listes de descs
-# - appeler price_extractor() pour créer une variable output_dict, qui stocke toutes les données
-#   - price_extractor() utilise clean_text() pour normaliser les espaces
-# - appeler date_extractor() pour ajouter les dates à output_dict
-# - appeler length_extractor() pour extraire la longueur du document (nombre de pages)
-# - appeler format_extractor() pour extraire les formats (in-f, oblong...)
-# - appeler term_extractor() pour extraire et normaliser les données signifiantes
-# - if __name__ == "__main__" : écrire des nouveaux fichiers normalisés en XML
-# et y intégrer une taxonomie pour les données normalisées
 
 
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
-# extraire les prix des manuscrits ; génère un dictionnaire imbriqué:
-# {'id': {
-#         'desc' : 'description normalisée',
-#         'price' : 'prix extrait',
-#         'author' : auteur normalisé
-#         },
-#  'id': ....
-#}
+# ----- MAIN FUNCTIONS ----- #
+def conversion_to_list(path):
+    """
+    This function creates a global list gathering all tei:desc from the xml files.
+    :param path:date
+    :return: a list
+    """
+    final_list = []
+    for xml_file in glob.iglob(path):
+        for desc_element in desc_extractor(xml_file):
+            final_list.append(desc_element)
+    return final_list
+
+
+def desc_extractor(input):
+    """
+    This function extracts from the xml files all of the tei:desc elements and returns them as nested lists
+    (a list for all the descs in an XML file -> a list for each desc).
+    :return: a list of lists that contains the tei:desc value, the date of the sale,
+    """
+    with open(input, 'r+') as fichier:
+        f = etree.parse(fichier)
+        root = f.getroot()
+        desc = root.xpath("//tei:desc", namespaces=tei)
+        list_desc = []
+        sell_date = root.xpath("//tei:sourceDesc//tei:date", namespaces=tei)[0].text
+        for i in desc:
+            author = i.xpath("parent::tei:item/tei:name", namespaces=tei)
+            try:
+                price = i.xpath("parent::tei:item//tei:measure[@commodity='currency']/@quantity", namespaces=tei)[0]
+            except:
+                price = None
+            # Only items with an @xml:id attribute are kept.
+            id = i.xpath("@xml:id", namespaces=tei)
+            if len(id) > 0:
+                id = id[0]
+                if len(author) > 0:
+                    author = author[0].text
+                    try:
+                        # We keep only the surname of the author.
+                        author = author.split(" ")[0]
+                        list_desc.append([i.text, id, author,  sell_date, price])
+                    except:
+                        author = None
+                        list_desc.append([i.text, id, author,  sell_date, price])
+                else:
+                    author = None
+                    list_desc.append([i.text, id, author, sell_date, price])
+        return list_desc
+
+
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
+    Returns those prices in a dictionnary.
     :param descList: the list containing all of the tei:desc
     :return: a dict with the ids as keys, and value another dict with the prices
     """
@@ -73,8 +124,8 @@ def price_extractor(descList):
                 try:
                     price = float(item[-1])
                 except Exception as e:
-                	logging.info('Failed to parse price %s for id : %s', e, id)
-                	price = None
+                    logging.info('Failed to parse price %s for id : %s', e, id)
+                    price = None
             # sinon, c'est un integer et l'enregistrer comme tel
             else:
                 try:
@@ -95,25 +146,21 @@ def price_extractor(descList):
     return (output_dict)
 
 
-# fonction permettant d'extraire les dates et de les rajouter à output_dict. fonctionnement du truc
-# - itérer sur chaque élément de desList (liste contenant tous les tei:desc)
-#   - si on a une date au format grégorien ('\d{4}'), 2 méthodes d'extraction
-#     deux méthodes d'extractions de date. la 1e "à la main", la 2e avec dateparser
-#     - à la main
-#       - récupérer le str qui contient la date et split le bloc en éléments de plus en plus petits pour
-#         ne conserver que la date elle-même ; cibler la date avec des matches regex
-#       - une fois que les dates sont précisément extraites (qu'on a gardé que la date au format AAAA idéalement,
-#         la mettre dans un élement tei <date>
-#     - avec dateparser :
-#       - on extrait la date et on la normalise (dateparser peut remplacer des jours et mois
-#         automatiquement ; c'est pas top donc on modifie ça
-#       - on injecte la date automatiquement dans un <date>
-#   - si c'est une date au format républicain ('An \d{1}'), convertir au format grégorien et la mettre dans un date ;
-#   - sinon (si aucune date n'a été extraite), ne pas conserver de date
-# - mettre à jour input dict avec la date
 def date_extractor(descList, input_dict):
     """
     Extracts the dates from the list containing all of the tei:desc, and update the main dict.
+
+    *COMPLETE BREAKDOWN OF THE PROCESS*
+    - loop over every item of descList (a list containing all the <desc>s of the processed xml file
+      - if the date is in gregorian format (YYYY-MM-DD...), extract the date
+        - try to extract it "by hand" using regexes and tokenizing the string containing the date
+          into smaller and smaller chunk until a date in format YYYY is obtained
+        - if that fails, use the dateparser library to extract a date
+        - save the date in a <date> XML element
+      - if the date is french republican format ("An \d{1}"), convert it into a gregorian format
+        and save it in a <date>
+    - update input_dict with the normalized date in a XML <date>
+
     :param descList: the list containing all of the tei:desc
     :param input_dict: the dictionnary containing the data previously extracted (at this moment, only the price)
     :return: a dict which keys are the ids, and which values are another dict with prices and dates
@@ -257,41 +304,10 @@ def date_extractor(descList, input_dict):
     return output_dict
 
 
-# vérifier si une chaîne de caractère est INT
-def isInt(string):
-    try:
-        int(string)
-        result = isinstance(int(string), int)
-    except:
-        result = False
-    return result
-
-
-# vérifier si une chaîne de caractère est FLOAT
-def is_float(string):
-    try:
-        float(string)
-        result = isinstance(float(string), float)
-    except:
-        result = False
-    return result
-
-
-# vérifier si une chaîne de caractère est un nombre romain et convertir en chiffres arabes
-def is_roman(value):
-    try:
-        value in tables.conversion_tables.roman_to_arabic.keys()
-        value = tables.conversion_tables.roman_to_arabic[value]
-        return value
-    except:
-        return value
-
-
-# récupérer le nombre de pages : on fait une série de if elif pour capturer les formats à coup de regex ; si ça matche,
-# ajouter ces formats à <measure> ; sinon, ne pas les ajouter (fonctionnement similaire à date_extractor()
 def length_extractor(descList, input_dict):
     """
-    Extracts the lengths from the list containing all of the tei:desc, and update the main dict.
+    Extracts the lengths (number of pages) from the list containing all of the tei:desc, and update the main dict.
+    If no length can be extracted, then None is added to the main dict
     :param descList: the list containing all of the tei:desc
     :param input_dict: the dictionnary containing the data previously extracted (prices and dates)
     :return: a dict which keys are the ids, and which values are another dict with prices, dates and lenghts
@@ -388,15 +404,11 @@ def length_extractor(descList, input_dict):
     return input_dict
 
 
-# récupérer le nombre de formats
-# - pour chaque item du dictionnaire
-#   - chercher les formats les plus tradi avec format_simple_pattern*
-#   - récupérer les parties plus compliquées (folio, oblong)
-#   - xml_encoded_format : renvoie à des notations formalisés dans une table de conversion externe
-# - ajouter ça à un élément <measure>
 def format_extractor(descList, input_dict):
     """
     Extracts the format from the list containing all of the tei:desc, and update the main dict.
+    First, "simple" formats are extracted ; then, others ; then, formats are converted using an external
+    conversion table (see: xml_encoded_format). The whole thing is stored in a <measure> tei element.
     :param descList: the list containing all of the tei:desc
     :param input_dict: the dictionnary containing the data previously extracted
     :return: a dict which keys are the ids, and which values are another dict 
@@ -411,33 +423,31 @@ def format_extractor(descList, input_dict):
         format_simple_pattern2 = re.compile("(in-folio\.?\s?[obl]{0,3}\.?)")
         format_simple_pattern3 = re.compile("(in-f[ol]{0,2}\.?\s?[obl]{0,3}\.?)")
 
-        # si on trouve format_simple_pattern dans desc, supprimer les espaces à la fin (note perso),
         if re.search(format_simple_pattern, desc):
             format_search = re.search(format_simple_pattern, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
+            end_position = position[1]
 
         elif re.search(format_simple_pattern2, desc):
             format_search = re.search(format_simple_pattern2, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
+            end_position = position[1]
 
         elif re.search(format_simple_pattern3, desc):
             format_search = re.search(format_simple_pattern3, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
+            end_position = position[1]
         else:
             desc_xml = desc
             start_position = None
             end_position = None
 
-        # si on a récupéré un format, extraire les oblique, infolio, oblong (note de paul)
         # dict_values["desc_xml"] = desc_xml
         # let's improve the format identification: the "oblong" cases
         obl_pattern = re.compile(".*ob[l]{0,1}.*")
@@ -482,8 +492,6 @@ def format_extractor(descList, input_dict):
     return input_dict
 
 
-# extraction de termes et normalisation à grands coups de regex ; c'est tjs +- le même fonctionnement
-# qu'avant (on match avec des regex, on normalise, on update le dict)
 def term_extractor(descList, input_dict):
     """
     Extracts the term from the list containing all of the tei:desc, and update the main dict.
@@ -657,6 +665,58 @@ def term_extractor(descList, input_dict):
     return input_dict
 
 
+def xml_output_production(dictionary, path):
+    """
+    This function is used to rewrite all the tei:desc of the output files with the new informations contained in the dictionary.
+    param dictionary: the dictionary that contains all the informations produced.
+    param path: a path to the output files to rewrite.
+    """
+    print("Updating the xml files")
+    # For XPath search
+    tei_namespace = "http://www.tei-c.org/ns/1.0"
+    NSMAP1 = {'tei': tei_namespace}
+    # http://effbot.org/zone/element-namespaces.htm#preserving-existing-namespace-attributes
+    ElementTree.register_namespace("", tei_namespace)
+
+    for xml_file in glob.iglob(path):
+        with open(xml_file, 'r+') as fichier:
+            tree = etree.parse(fichier)
+
+            # Add taxonomy to the teiHeader.
+            taxonomy = etree.fromstring(xml_taxonomy)
+            tei_encodingDesc = tree.xpath('//tei:encodingDesc', namespaces=tei)[0]
+            tei_encodingDesc.insert(1, taxonomy)
+
+            # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
+            for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=NSMAP1):
+                # For now, all desc don't have an @xml:id
+                id = desc.xpath('./@xml:id')[0]
+                desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
+                new_desc = etree.fromstring(
+                    "<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
+                desc.getparent().replace(desc, new_desc)
+
+        # Rewrite the file with updated descs.
+        with open(xml_file.replace("clean", "tagged"), "w+") as sortie_xml:
+            output = etree.tostring(tree, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
+                'utf8')
+            sortie_xml.write(str(output))
+            os.remove(xml_file)
+
+
+# ----- UTILS / AUXILIARY FUNCTIONS ----- #
+def clean_text(input_text):
+    """
+    A function that cleans the text
+    :param text: any string
+    :return: the cleaned string
+    """
+    input_text = re.sub('\n', ' ', input_text)
+    input_text = re.sub('\s+', ' ', input_text)
+    output_text = re.sub('\s+$', '', input_text)
+    return output_text
+
+
 def no_price_trigger():
     """
     :return: Increases the counter when called
@@ -673,66 +733,50 @@ def no_date_trigger():
     no_date += 1
 
 
-# extraire les éléments du tei:desc et les retourner sous forme de liste de liste
-def desc_extractor(input):
+def isInt(string):
     """
-    This function extracts from an xml file all of the tei:desc elements
-    :return: a list of lists that contains the tei:desc value, the date of the sale,
+    Check if a string is an integer
+    :param string: the input string
+    :return: True if string is an integer, False if not
+    :rtype: str
     """
-    with open(input, 'r+') as fichier:
-        f = etree.parse(fichier)
-        root = f.getroot()
-        desc = root.xpath("//tei:desc", namespaces=tei)
-        list_desc = []
-        sell_date = root.xpath("//tei:sourceDesc//tei:date", namespaces=tei)[0].text
-        for i in desc:
-            author = i.xpath("parent::tei:item/tei:name", namespaces=tei)
-            try:
-                price = i.xpath("parent::tei:item//tei:measure[@commodity='currency']/@quantity", namespaces=tei)[0]
-            except:
-                price = None
-            # Only items with an @xml:id attribute are kept.
-            id = i.xpath("@xml:id", namespaces=tei)
-            if len(id) > 0: 
-                id = id[0]
-                if len(author) > 0:
-                    author = author[0].text
-                    try:
-                        # We keep only the surname of the author.
-                        author = author.split(" ")[0]
-                        list_desc.append([i.text, id, author,  sell_date, price])
-                    except:
-                        author = None
-                        list_desc.append([i.text, id, author,  sell_date, price])
-                else:
-                    author = None
-                    list_desc.append([i.text, id, author, sell_date, price])
-        return list_desc
+    try:
+        int(string)
+        result = isinstance(int(string), int)
+    except:
+        result = False
+    return result
 
 
-def clean_text(input_text):
+def is_float(string):
     """
-    A function that cleans the text
-    :param text: any string
-    :return: the cleaned string
+    Check if a string is an float
+    :param string: the input string
+    :return: True if string is an float, False if not.
+    :rtype: bool
     """
-    input_text = re.sub('\n', ' ', input_text)
-    input_text = re.sub('\s+', ' ', input_text)
-    output_text = re.sub('\s+$', '', input_text)
-    return output_text
+    try:
+        float(string)
+        result = isinstance(float(string), float)
+    except:
+        result = False
+    return result
 
 
-def conversion_to_list(path):
+def is_roman(value):
     """
-    This function creates a global list gathering all tei:desc from the xml files.
-    :param path:date
-    :return: a list
+    try to convert a date in roman numbers to a date in arabic numbers
+    :param value: the string to convert
+    :return: if there is no mistake, the date in arabic numbers ; else, the date in roman numbers
+    :rtype: str
     """
-    final_list = []
-    for xml_file in glob.iglob(path):
-        for desc_element in desc_extractor(xml_file):
-            final_list.append(desc_element)
-    return final_list
+    try:
+        value in tables.conversion_tables.roman_to_arabic.keys()
+        value = tables.conversion_tables.roman_to_arabic[value]
+        return value
+    except:
+        return value
+
 
 # This is the taxonomy informations to add to the teiHeader of each output file.
 xml_taxonomy = """
@@ -863,63 +907,47 @@ xml_taxonomy = """
     </classDecl>"""
 
 
-def xml_output_production(dictionary, path):
-    """
-    This function is used to rewrite all the tei:desc of the output files with the new informations contained in the dictionary.
-    param dictionary: the dictionary that contains all the informations produced.
-    param path: a path to the output files to rewrite.
-    """
-    print("Updating the xml files")
-    # For XPath search
-    tei_namespace = "http://www.tei-c.org/ns/1.0"
-    NSMAP1 = {'tei': tei_namespace}
-    # http://effbot.org/zone/element-namespaces.htm#preserving-existing-namespace-attributes
-    ElementTree.register_namespace("", tei_namespace)
- 
-    for xml_file in glob.iglob(path):
-        with open(xml_file, 'r+') as fichier:
-            tree = etree.parse(fichier)
-
-            # Add taxonomy to the teiHeader.
-            taxonomy = etree.fromstring(xml_taxonomy)
-            tei_encodingDesc = tree.xpath('//tei:encodingDesc', namespaces=tei)[0]
-            tei_encodingDesc.insert(1, taxonomy)
-
-            # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
-            for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=NSMAP1):
-                # For now, all desc don't have an @xml:id
-                id = desc.xpath('./@xml:id')[0]
-                desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
-                new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
-                desc.getparent().replace(desc, new_desc)
-
-        # Rewrite the file with updated descs. 
-        with open(xml_file.replace("clean", "tagged"), "w+") as sortie_xml:
-            output = etree.tostring(tree, pretty_print=True, encoding='utf-8', xml_declaration=True).decode(
-                        'utf8')
-            sortie_xml.write(str(output))
-            os.remove(xml_file)
-
-
-
-
+# ----- COMMAND LINE INTERFACE ----- #
 if __name__ == "__main__":
+    """
+    command line interface to replace <desc> in the cleaned XML obtained in 1_OutputData with 
+    a normalised <desc>. output files are saved in the output, in a directory that follows the 
+    pattern: "INPUT-DIR_tagged"
+    """
     no_price = 0
     no_date = 0
+
+    # initiate CLI
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("input", help="input directory")
+    if len(sys.argv) == 1:
+        sys.exit("* Please indicate the relative path to the directory *")
+    args = arg_parser.parse_args()
     input_dir = args.input
-    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../output')
+
+    # clean input directory name and create output directory
+    cwd = os.path.dirname(os.path.abspath(__file__))  # current directory : script
+    root = Path(cwd).parent  # root directory : 2_CleanedData
+    # indir_clean : cleaned output directory : removed relative path and trailing "/"
+    indir_clean = re.sub(r"((^\.+/)|(/$))", "", input_dir)
+    output_dir = os.path.join(root, "output", f"{indir_clean}_tagged")
+    if not output_dir:
+        os.makedirs(output_dir)
     files = '*_clean.xml'
     input_files = f'{input_dir}/{files}'
     output_files = f'{output_dir}/{files}'
     input_dir = os.path.dirname(input_files)
 
+    # copy the input xml files to the output directory ; in the output directory,
+    # xml_output_production will replace the old xml descriptions with the new, normalized
+    # and tagged xml descriptions
     try:
         # shutil.copytree contains a mkdir command, we have to delete the directory if it exists
         shutil.copytree(input_dir, output_dir)
-
     except:
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
+
     list_desc = conversion_to_list(input_files)
     output_dict = price_extractor(list_desc)
     output_dict = date_extractor(list_desc, output_dict)
@@ -930,13 +958,8 @@ if __name__ == "__main__":
     # We write the xml output files.
     xml_output_production(output_dict, output_files)
 
-    print(list_desc[-1])
-    out = output_dict["CAT_000050_e180_d1"]
-
-
     for key in output_dict:
         del output_dict[key]["desc_xml"]
-
 
     print("Done !")
     # print(f'Number of entries without price: {str(no_price)}')
