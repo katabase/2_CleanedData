@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from tables.conversion_tables import *
+from .conversion_tables import *
 
 corresp_table = "corresp_table.json"
 actual_path = os.path.dirname(os.path.abspath(__file__))

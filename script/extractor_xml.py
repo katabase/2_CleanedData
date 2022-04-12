@@ -21,14 +21,40 @@ from lxml import etree
 import xml.etree.ElementTree as ET
 from xml.etree import ElementTree
 
+
 # Module used to note errors in a .log file.
 import logging
 logging.basicConfig(filename='errors.log', level=logging.DEBUG, filemode="w", format="%(levelname)-8s [%(filename)s:%(lineno)d] %(message)s")
 
+
+###### CE QU'IL SE PASSE ######
+# en général, on prend desc_list pour extraire des données de la liste de <desc> et on ajoute les données
+# à un output_dict
+# - utiliser conversion_to_list() pour récupérer le dossier à traiter ;
+#   - dans cette fonction, utiliser desc_extractor pour extraire les <desc> de l'élément et
+#     les stocker dans une liste de listes
+#   - à ce stade, on a obtenu une liste de listes de listes de descs
+# - appeler price_extractor() pour créer une variable output_dict, qui stocke toutes les données
+#   - price_extractor() utilise clean_text() pour normaliser les espaces
+# - appeler date_extractor() pour ajouter les dates à output_dict
+# - appeler length_extractor() pour extraire la longueur du document (nombre de pages)
+# - appeler format_extractor() pour extraire les formats (in-f, oblong...)
+# - appeler term_extractor() pour extraire et normaliser les données signifiantes
+# - if __name__ == "__main__" : écrire des nouveaux fichiers normalisés en XML
+# et y intégrer une taxonomie pour les données normalisées
+
+
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
-
+# extraire les prix des manuscrits ; génère un dictionnaire imbriqué:
+# {'id': {
+#         'desc' : 'description normalisée',
+#         'price' : 'prix extrait',
+#         'author' : auteur normalisé
+#         },
+#  'id': ....
+#}
 def price_extractor(descList):
     """
     Extracts the prices of the manuscripts sold and described in the tei:desc.
@@ -42,18 +68,21 @@ def price_extractor(descList):
         pre_extracted_price = item[-1]
         if pre_extracted_price is not None:
             pattern = re.compile("[0-9]{0,3}\.[0-9]{0,2}")
+            # si le prix est un nombre décimal et correspond à la pattern ci-dessus, le convertir en float
             if pattern.match(item[-1]):
                 try:
                     price = float(item[-1])
                 except Exception as e:
                 	logging.info('Failed to parse price %s for id : %s', e, id)
                 	price = None
+            # sinon, c'est un integer et l'enregistrer comme tel
             else:
                 try:
                     price = int(item[-1])
                 except Exception as j:
                     logging.info('Failed to parse price %s for id : %s', j, id)
                     price = None
+        # si on a pas réussi à récupérer de prix, alors price = None
         else:
             price = None
         desc = clean_text(desc)
@@ -66,7 +95,22 @@ def price_extractor(descList):
     return (output_dict)
 
 
-
+# fonction permettant d'extraire les dates et de les rajouter à output_dict. fonctionnement du truc
+# - itérer sur chaque élément de desList (liste contenant tous les tei:desc)
+#   - si on a une date au format grégorien ('\d{4}'), 2 méthodes d'extraction
+#     deux méthodes d'extractions de date. la 1e "à la main", la 2e avec dateparser
+#     - à la main
+#       - récupérer le str qui contient la date et split le bloc en éléments de plus en plus petits pour
+#         ne conserver que la date elle-même ; cibler la date avec des matches regex
+#       - une fois que les dates sont précisément extraites (qu'on a gardé que la date au format AAAA idéalement,
+#         la mettre dans un élement tei <date>
+#     - avec dateparser :
+#       - on extrait la date et on la normalise (dateparser peut remplacer des jours et mois
+#         automatiquement ; c'est pas top donc on modifie ça
+#       - on injecte la date automatiquement dans un <date>
+#   - si c'est une date au format républicain ('An \d{1}'), convertir au format grégorien et la mettre dans un date ;
+#   - sinon (si aucune date n'a été extraite), ne pas conserver de date
+# - mettre à jour input dict avec la date
 def date_extractor(descList, input_dict):
     """
     Extracts the dates from the list containing all of the tei:desc, and update the main dict.
@@ -213,6 +257,7 @@ def date_extractor(descList, input_dict):
     return output_dict
 
 
+# vérifier si une chaîne de caractère est INT
 def isInt(string):
     try:
         int(string)
@@ -222,6 +267,7 @@ def isInt(string):
     return result
 
 
+# vérifier si une chaîne de caractère est FLOAT
 def is_float(string):
     try:
         float(string)
@@ -231,6 +277,7 @@ def is_float(string):
     return result
 
 
+# vérifier si une chaîne de caractère est un nombre romain et convertir en chiffres arabes
 def is_roman(value):
     try:
         value in tables.conversion_tables.roman_to_arabic.keys()
@@ -240,17 +287,18 @@ def is_roman(value):
         return value
 
 
+# récupérer le nombre de pages : on fait une série de if elif pour capturer les formats à coup de regex ; si ça matche,
+# ajouter ces formats à <measure> ; sinon, ne pas les ajouter (fonctionnement similaire à date_extractor()
 def length_extractor(descList, input_dict):
     """
-    Extracts the lenghts from the list containing all of the tei:desc, and update the main dict.
+    Extracts the lengths from the list containing all of the tei:desc, and update the main dict.
     :param descList: the list containing all of the tei:desc
     :param input_dict: the dictionnary containing the data previously extracted (prices and dates)
     :return: a dict which keys are the ids, and which values are another dict with prices, dates and lenghts
     """
     print("Extracting length information")
     # This pattern works with the most frequent cases.
-    length_pattern = re.compile(
-        "([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")
+    length_pattern = re.compile("([IVXivx0-9\/]{1,6})\.?\s(pages|page|pag.|p.)\s([0-5\/]{0,3})")
     pattern_fraction = re.compile("([0-9\/]{1,6})\s?de\s?p[ages]{0,3}\.?")
     for item in descList:
         desc, id = item[0], item[1]
@@ -261,7 +309,7 @@ def length_extractor(descList, input_dict):
         log_path = None
         length = None
         if re.search(length_pattern, desc):
-            position_chaîne = re.search(length_pattern, desc).span()
+            position_chaîne = re.search(length_pattern, desc).span()  # divise la chaîne en sous-groupes jcrois
             pn_search = re.search(length_pattern, desc)
             first_group = pn_search.group(1)
             second_group = pn_search.group(3)
@@ -340,6 +388,12 @@ def length_extractor(descList, input_dict):
     return input_dict
 
 
+# récupérer le nombre de formats
+# - pour chaque item du dictionnaire
+#   - chercher les formats les plus tradi avec format_simple_pattern*
+#   - récupérer les parties plus compliquées (folio, oblong)
+#   - xml_encoded_format : renvoie à des notations formalisés dans une table de conversion externe
+# - ajouter ça à un élément <measure>
 def format_extractor(descList, input_dict):
     """
     Extracts the format from the list containing all of the tei:desc, and update the main dict.
@@ -357,32 +411,33 @@ def format_extractor(descList, input_dict):
         format_simple_pattern2 = re.compile("(in-folio\.?\s?[obl]{0,3}\.?)")
         format_simple_pattern3 = re.compile("(in-f[ol]{0,2}\.?\s?[obl]{0,3}\.?)")
 
+        # si on trouve format_simple_pattern dans desc, supprimer les espaces à la fin (note perso),
         if re.search(format_simple_pattern, desc):
             format_search = re.search(format_simple_pattern, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]
+            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
 
         elif re.search(format_simple_pattern2, desc):
             format_search = re.search(format_simple_pattern2, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]
+            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
 
         elif re.search(format_simple_pattern3, desc):
             format_search = re.search(format_simple_pattern3, desc)
             ms_format = re.sub(r"\s$", "", format_search.group(1))
             position = format_search.span()
             start_position = position[0]
-            end_position = position[1]
+            end_position = position[1]  # stocker le début / fin de chaîne dans start_/end_position
         else:
             desc_xml = desc
             start_position = None
             end_position = None
 
-
+        # si on a récupéré un format, extraire les oblique, infolio, oblong (note de paul)
         # dict_values["desc_xml"] = desc_xml
         # let's improve the format identification: the "oblong" cases
         obl_pattern = re.compile(".*ob[l]{0,1}.*")
@@ -423,10 +478,12 @@ def format_extractor(descList, input_dict):
             xml_encoded_format = None
         dict_values["format"] = encoded_ms_format
         input_dict[id] = dict_values
-        item[0] = desc_xml # we update the list
+        item[0] = desc_xml  # we update the list
     return input_dict
 
 
+# extraction de termes et normalisation à grands coups de regex ; c'est tjs +- le même fonctionnement
+# qu'avant (on match avec des regex, on normalise, on update le dict)
 def term_extractor(descList, input_dict):
     """
     Extracts the term from the list containing all of the tei:desc, and update the main dict.
@@ -616,6 +673,7 @@ def no_date_trigger():
     no_date += 1
 
 
+# extraire les éléments du tei:desc et les retourner sous forme de liste de liste
 def desc_extractor(input):
     """
     This function extracts from an xml file all of the tei:desc elements
@@ -829,7 +887,7 @@ def xml_output_production(dictionary, path):
 
             # For each desc, with an @xml:id attribute, replace them with their enhanced desc retrieved from the dictionary.
             for desc in tree.xpath("//tei:desc[@xml:id]", namespaces=NSMAP1):
-            	# For now, all desc don't have an @xml:id
+                # For now, all desc don't have an @xml:id
                 id = desc.xpath('./@xml:id')[0]
                 desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
                 new_desc = etree.fromstring("<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
@@ -871,6 +929,9 @@ if __name__ == "__main__":
 
     # We write the xml output files.
     xml_output_production(output_dict, output_files)
+
+    print(list_desc[-1])
+    out = output_dict["CAT_000050_e180_d1"]
 
 
     for key in output_dict:
