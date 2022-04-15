@@ -931,7 +931,7 @@ if __name__ == "__main__":
     # indir_clean : cleaned output directory : removed relative path and trailing "/"
     indir_clean = re.sub(r"((^\.+/)|(/$))", "", input_dir)
     output_dir = os.path.join(root, "output", f"{indir_clean}_tagged")
-    if not output_dir:
+    if not os.path.isdir(output_dir):
         os.makedirs(output_dir)
     files = '*_clean.xml'
     input_files = f'{input_dir}/{files}'
