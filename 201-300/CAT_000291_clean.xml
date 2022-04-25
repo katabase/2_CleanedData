@@ -1,0 +1,1339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000291">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Noël Charavay, 25 novembre 1903</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="AUC">
+               <title>CATALOGUE D'UNE PRÉCIEUSE COLLECTION DE LETTRES AUTOGRAPHES ET DE DOCUMENTS HISTORIQUES</title>
+               <num/>
+               <editor>Noël Charavay</editor>
+               <publisher>Noël Charavay</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1903">1903</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, hôtel des Commissaires-priseurs, rue Drouot, nº 8</addrLine>
+                     </address>
+                     <persName type="auctioneer">Maurice Delestre</persName>
+                     <persName type="expert">Noël Charavay</persName>
+                     <date when="1903-11-25">25 novembre 1903</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">CV-11671</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="1" xml:id="CAT_000291_e1">
+               <num type="lot">1</num>
+               <name type="author">ANDRÉ (Antoine-Balthazar-Joseph d')</name>
+               <trait>
+                  <p>député de la noblesse de Provence aux États-Généraux, adversaire des sociétés populaires. Il s'opposa, lors de la fuite de Louis XVI, à ce que la déchéance soit mise en cause, n. à Aix, 1759, m. à Paris, 1825.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e1_d1">P. s. comme président de l'Assemblée nationale, signée aussi par Varin, J. Lancelot, Bion, Latyl, Armand, Martineau, secrétaires; Paris, 27 décembre 1790, 1 p. in-folio, tête et vignette imprimées, cachet. La plupart de ces signatures sont rares</desc>
+               <note>Le président et les secrétaires de l'Assemblée nationale certifient que M. Gausserand, curé de Rivières, a prêté, le 27 décembre 1790, le serment civique.</note>
+            </item>
+            <item n="2" xml:id="CAT_000291_e2">
+               <num type="lot">2</num>
+               <name type="author">ANTONELLE (Pierre-Antoine  marquis d')</name>
+               <trait>
+                  <p>député à l'Assemblée législative, puis juré du Tribunal révolutionnaire, défenseur de la Convention lors de l'insurrection de Vendémiaire an IV, n. à Arles, 1747, m. dans la même ville, 1817.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e2_d1">P. s., signée aussi par Stanislas Girardin, Lacuée, Broussonet, Dorizy, secrétaires de l'Assemblée législative ; Paris, 20 janvier 1792, 1 p. in-folio, tête et vignette imprimées, cachets. Rare</desc>
+               <note>Extrait des procès-verbaux de l'Assemblée concernant la discussion des comptes du bureau de comptabilité.</note>
+            </item>
+            <item n="3" xml:id="CAT_000291_e3">
+               <num type="lot">3</num>
+               <name type="author">BABEUF (François-Noél)</name>
+               <trait>
+                  <p>dit Graccus, fameux publiciste, apôtre du socialisme, chef de la conspiration qui porte son nom, n. à Saint-Quentin (Aisne), 1764, décapité à Vendôme, 25 mai 1797.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e3_d1">1º L. a. s. à sa femme; Vendôme, 12 vendémiaire (an V-4 octo-tobre 1796), 1 p. 1/2 in-4</desc>
+               <note>Il exprime la joie qu'il a ressentie en apercevant sa femme et son fils, de loin, avec une lorgnette. Il espère que ses geôliers ne lui enlèveront pas ce bonheur et qu'ils permettront a son fils de venir l'embrasser dans sa prison. Il parle de 1 impression de sa défense et annonce qu'on va fonder un grand journal, Le Sténographe, pour recueillir les débats.</note>
+               <desc xml:id="CAT_000291_e3_d2">2° P. a. 1 p. in-4</desc>
+               <note>Minute d'un article défendant la liberté. Elle est écrite au dos d'un prospectus lancé par Babeuf pour la fondation d'un journal. Sa signature autographe a été biffée, mais est encore très visible.</note>
+            </item>
+            <item n="4" xml:id="CAT_000291_e4">
+               <num type="lot">4</num>
+               <name type="author">BALZAC (Honoré de)</name>
+               <trait>
+                  <p>le grand romancier, n. 1799, m. 1850.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e4_d1">L. a. s. à Berthoud, 1/2 p. in-8</desc>
+               <note>Il le prie d'accepter des croquis en témoignage du plaisir qu'il a eu en lisant ses feuilletons.</note>
+            </item>
+            <item n="5" xml:id="CAT_000291_e5">
+               <num type="lot">5</num>
+               <name type="author">BALZAC (Honoré de)</name>
+               <desc xml:id="CAT_000291_e5_d1">Pièce autographe signée ; 1848, 1 p. 1/2 in-4</desc>
+               <note>Sur le recto on lit le titre de la Marâtre, avec la signature autographe de Balzac. Au verso, la distribution de la pièce et les instructions pour la mise en scène. En outre de son intérêt littéraire, la pièce offre un spécimen typique du talent calligraphique de Balzac.</note>
+            </item>
+            <item n="6" xml:id="CAT_000291_e6">
+               <num type="lot">6</num>
+               <name type="author">BALZAC (Honoré de)</name>
+               <desc xml:id="CAT_000291_e6_d1">Pièce aut., 1/4 de p. in-4 oblong</desc>
+               <note>Page détachée d'un album. Elle contient cette pensée de Balzac : « La France ne se réveille qu'au moment où chacun la croit endormie. » Elle est écrite au- dessus d'un quatrain de Lacretelle jeune.</note>
+            </item>
+            <item n="7" xml:id="CAT_000291_e7">
+               <num type="lot">7</num>
+               <name type="author">BARBÈS (Armand)</name>
+               <trait>
+                  <p>le célèbre homme politique, n. à la Pointe à Pilre, 18 septembre 1809, m. à La Haye, 1870.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e7_d1">15 l. a. s. à M. Pichon; Prisons de Doullens et de Belle-Isle, 5 août 1850-12 juillet 1854.-La Haye, 23 février 1855-21 août 1869, 53 p. in-8</desc>
+               <note>Précieuse correspondance. Dans la première lettre, Barbés se plaint de l'attitude du parti républicain : a Le règne de Louis-Philippe a été une si grande école d'immoralité que la vraie foi se rencontre dans bien peu de coeurs. La plupart de ceux qui criaient le plus fort après février étaient des spéculateurs qui jouaient, comme d'autres le font à la Bourse, sur le triomphe de l'idée nouvelle. A présent qu'ils voient que cette idée semble avoir le dessous pour quelque temps, ils cherchent à se faire une position d'une autre manière. » Il le prie de remettre une lettre à George Sand, à qui il n'ose, de crainte de paraître trop familier, donner son portrait. Dans une lettre suivante, il donne à M. Pichon des renseignements pour distinguer, au milieu d'un paquet, le pli destiné à George Sand. Barbés attend son départ pour Belle-Isle, donne quelques détails sur sa vie de prisonnier et se réjouit d'apprendre que l'idée socialiste est en progrès, « les classes privilégiées font précisément tout ce que nous pourrions leur commander pour montrer qu'en dehors de nos principes il ne saurait y avoir de salut pour personne. » Il parle à plusieurs reprises de George Sand* dont il veut faire lire les oeuvres par ses co-détenus. La première lettre, datée de La Haye (23 février 1855). contient le récit de ses tribulations dans sa nouvelle résidence, il réclame la France. « II n'y a que là réellement où l'on sait vivre. » Le 8 avril 1861, il s'excuse auprès de son ami de ne l'avoir pas reçu, puis il dit son admiration pour George Sand. « Une des pensées qui me font le plus aimer la France, c'est que c'est cette France qui a produit les deux plus grandes femmes qui furent jamais : Jeanne d'Arc et George Sand. D'autres pays ont pu donner le jour à des hommes aussi illustres que ceux qui brillent dans notre histoire, mais à la vieille terre des Gaules, seule, il a été donné d'enfanter les deux sublimités de la vertu et du génie dans le sexe féminin : Jeanne d'Arc, George Sand ! L'histoire commence à mettre la première à la place qui lui appartient, au-dessus de toutes les grandeurs terrestres. Elle acclamera aussi le génie de la seconde et son grand et héroïque coeur qui lui a donné le génie. » 11 critique l'Académie française qui a donné un prix à M. Thiers, alors qu'il revenait de droit au dernier roman de George Sand, Valvèdre. -Le 5 août 1866, il écrit que « Bonaparte » vient de travailler pour le roi de Prusse; il trouve mauvais que toute l'Allemagne soit réunie entre les mains des héritiers de Brunswick, des gallopliages de 1815 ». « Malgré leurs fusils à aiguilles, les petits soldats de la République leur en feraient revoir de grises, s'ils pouvaient se remettre à leurs trousses. » Le 21 août 1869 il prévoit la chute de l'Empire et demande la santé pour voir l'accomplissement de ses rêves. « La République semble près de remettre ses grands principes à la place de ce qui nous gouverne depuis décembre. L'espérance renaît dans tous les coeurs. On sent que la France ne veut plus supporter, ce régime. » -(Barbés mourut le 26 juin 1870, quelques semaines avant la proclamation de la République).</note>
+            </item>
+            <item n="8" xml:id="CAT_000291_e8">
+               <num type="lot">8</num>
+               <name type="author">BARÈRE (Rertrand)</name>
+               <trait>
+                  <p>député des Hautes-Pyrénées à la Convention, l'infatigable rapporteur du Comité de salut public, n. à Tarbes,* 1755, m dans la même ville, 1841.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e8_d1">4 l. a. s. à M. Genetet ; Tarbes, 1835-1836, 8 p. in-8</desc>
+               <note>Intéressantes lettres relatives à ses travaux littéraires. En quittant Paris, en 1832, il a laissé des traductions de l'anglais et de l'italien, dont la publication ne peut compromettre les éditeurs. Il parle de la pension littéraire que M. Thiers lui a accordée, etc.</note>
+            </item>
+            <item n="9" xml:id="CAT_000291_e9">
+               <num type="lot">9</num>
+               <name type="author">BARNAVE (Antoine-Pierre-Joseph-Marie)</name>
+               <trait>
+                  <p>un des plus célèbres orateurs de la Révolution, n. à Grenoble, 1701, décapité le 18 novembre 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e9_d1">L. s. comme président de l'Assemblée nationale, aux administrateurs du directoire du département du Finistère ; Paris, 30 octobre 1790, 1/2 p. in-lolio. Rare</desc>
+            </item>
+            <item n="10" xml:id="CAT_000291_e10">
+               <num type="lot">10</num>
+               <name type="author">BARRAS (document sur Paul)</name>
+               <trait>
+                  <p>célèbre conventionnel et directeur, auteur de Mémoires, n. 1755, m. 1829.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e10_d1">P. a. s. de Lomont, signée aussi par Rovère, Legendre, Mathieu, Perrin et Laignelot, membres du Comité de sûreté générale de la Convention; Paris, 21 pluviôse an III (12 février 1795), 1 p. in-folio, lèie et vignette imprimées, cachet</desc>
+               <note>En exécution du décret du 13 nivôse et autres subséquents relatifs à la nomination d'une commission chargée de proposer un mode d'organisation du gouvernement, le Comité de sûreté générale arrête que le représentant Rarras est nommé membre de cette commission.</note>
+            </item>
+            <item n="11" xml:id="CAT_000291_e11">
+               <num type="lot">11</num>
+               <name type="author">BEAUHARNAIS (Hortense de)</name>
+               <trait>
+                  <p>épouse de Louis Bonaparte, reine de Hollande, mère de Napoléon III, n. 1783, m. 1837.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e11_d1">L. a. s. Hortense ; 19 mai 1834, 3 p. 1/2 in-8</desc>
+               <note>Très curieuse lettre. Elle parle de l'état de l'Europe et paraît convaincue que les peuples reviendront à la morale après Terreur et qu'ils chercheront le repos après l'agitation, n Le malheur de notre état présent est, qu'au lieu de s'occuper de l'amélioration des peuples, premier devoir des rois, les gouvernements ne pensent qu'à se maintenir au pouvoir en dépit de tout ; les peuples et les rois deviennent donc de plus en plus ennemis. Voilà la seule cause qui doit faire craindre des troubles pour l'avenir; quant à la religion, qu elle ne se fasse la baniére d'aucun parti, elle est nécessaire au coeur de l'homme. Ce sentiment d'amour et de consolation est inné en nous ; on en peut changer les formes, on n'en détruira jamais le fond. » Le rôle de la religion doit être, selon la reine Hortense, un doux asile offert aux âmes en détresse, plutôt qu'un dogme imposé par la force, ainsi qu'avaient tenté de le faire les rois de la maison de Bourbon, etc. Elle vient de recevoir l'ouvrage de Lamennais (Les Paroles d'un Croyant). Elle en loue le style et l'élévation de pensées. Longues et très intéressantes considérations. La reine Hortense prévoit que ce livre sera combattu à Rome et qu'il jettera Lamennais dans un autre camp où il deviendra l'apôtre de la liberté.</note>
+            </item>
+            <item n="12" xml:id="CAT_000291_e12">
+               <num type="lot">12</num>
+               <name type="author">BELLEGARDE (Henri  comte de)</name>
+               <trait>
+                  <p>célèbre feld-maréchal autrichien, qui commanda deux corps d'armée aux batailles d'Essling et de Wagram, et détruisit, en 1815, l'armée de Murat, n. à Dresde, 1756, m. à Vienne, 1845.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e12_d1">L. a. s., en français; quartier-général, 25 avril 1799, 2 p. 1/2 in-4</desc>
+               <note>Superbe et rare pièce relative à un échange de prisonniers.</note>
+            </item>
+            <item n="13" xml:id="CAT_000291_e13">
+               <num type="lot">13</num>
+               <name type="author">BERTHIER (Alexandre)</name>
+               <trait>
+                  <p>prince de Wagram, célèbre général républicain et maréchal d'Empire, chef d'état- major de Napoléon Ier, n. à Versailles, 1753, m.1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e13_d1">L. s. au général Vial ; Malte, 29 prairial an VI (17 juin 1798), 1 p. in-folio</desc>
+               <note>Il lui donne Tordre de prendre le commandement de la division Bnraguey d'IIillicrs, dont le titulaire est le général Menou. Cette pièce est ornée d'un magnifique et très rare en-tête signé : And. Appiani inv. et del. 11 représente la Liberté debout, coiffée d'un casque, drapée dans une robe romaine, tenant de la main droite la pique surmontée du bonnet phrygien; elle s'appuie sur le faisceau. Elle tend l'autre main à une femme, hâve et décharnée, gisant à terre, symbolisant l'Italie, pour l'aider à se relever de ses ruines. Derrière, un génie renverse un autel où Ton voit les armes pontificales livrées aux flammes, des mauvais génies s'échappent de toutes parts, effrayés par la lumière nouvelle qu'apporte le génie. -Cette composition, très remarquable, comme toutes celles que Ton doit à l'illustre artiste, mesure 0"*23 sur 0"'14. Derrière elle, suspendues à un arbre, on aperçoit les médailles que le gouvernement français fit frapper pour commémorer les victoires de l'armée d'Italie.</note>
+            </item>
+            <item n="14" xml:id="CAT_000291_e14">
+               <num type="lot">14</num>
+               <name type="author">BESSIÈRES (Jean-Baptiste)</name>
+               <trait>
+                  <p>duc d'Istrie, illustre maréchal d'Empire, n. 1768, tué près de Rippuch, 1813.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e14_d1">L. a. s. à Deriot : Alexandrie, 6 fructidor an VII (23 août 1799) 2 p. in-4. Rare</desc>
+               <note>Intéressante lettre où il lui donne ses instructions au moment de son départ pour l'Egypte. Il le prie d'inventorier ce qu'il laisse et de procéder à la vente; il le charge de mettre le plus grand ordre dans la comptabilité.</note>
+            </item>
+            <item n="15" xml:id="CAT_000291_e15">
+               <num type="lot">15</num>
+               <name type="author">BEURNONVILLE (Pierre Riel  marquis de)</name>
+               <trait>
+                  <p>général des guerres de la République, maréchal de France en 1816, n. 1752, m. 1821.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e15_d1">L. a. s. au Directoire; (février 1797), 44 p. in-4</desc>
+               <note>Précieux document historique. C'est le compte-rendu fait au Directoire, par le général Beurnonville des opérations des armées du Nord, batave et de Sambre-et-Meuse, à son retour de l'armée de Sambre-et-Meuse, le 23 pluviôse an V (12 février 1797). Il propose un nouveau plan pour la prochaine campagne.</note>
+            </item>
+            <item n="16" xml:id="CAT_000291_e16">
+               <num type="lot">16</num>
+               <name type="author">BLANQUET DU CHAYLA (Armand-Simon-Marie de)</name>
+               <trait>
+                  <p>vice-amiral, qui fit les guerres d'Amérique sous d'Estaing, et fut grièvement blessé, à bord du Franklin, à la bataille d'Aboukir, n. à Marvejols (Lozère). 1759, m. à Versailles, 1826.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e16_d1">L. a. s.; Paris, 2 septembre 1815, 2 p. in-folio. Superbe et rare pièce</desc>
+            </item>
+            <item n="17" xml:id="CAT_000291_e17">
+               <num type="lot">17</num>
+               <name type="author">BONAPARTE (Joseph)</name>
+               <trait>
+                  <p>roi de Naples, puis d'Espagne, frère ainé de Napoléon Ier, n. 1768, m. 1844.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e17_d1">L. s. Buonaparte, signée aussi par P. Paoli, Pietri, Arrighi, Mattéi et Farinole, administrateurs du directoire du département de la Corse, à Farinole, juge au tribunal du district de l'île Rousse ; Corte, 26 juin 1792, 1 p. in-folio</desc>
+               <note>Il l'informe qu'il vient d'être nommé un des juges du tribunal de Corte et qu'il doit se rendre à son poste le plus tôt possible.</note>
+            </item>
+            <item n="18" xml:id="CAT_000291_e18">
+               <num type="lot">18</num>
+               <name type="author">BONAPARTE (Jérôme)</name>
+               <trait>
+                  <p>roi de Westphalie, le plus jeune frère de Napoléon Ier n. 1784 m. 1860.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e18_d1">L. s. à Champagny ; Gênes, 21 prairial an XIII (9 juin 1805), 1 p. in-4</desc>
+               <note>Il le félicite au sujet de sa nomination d'organisateur des trois départements de Gênes, Montenotte et des Apennins.</note>
+            </item>
+            <item n="19" xml:id="CAT_000291_e19">
+               <num type="lot">19</num>
+               <name type="author">BONAPARTE (Jérôme)</name>
+               <desc xml:id="CAT_000291_e19_d1">L. a. s. à Alexandre Dumas; Quarto, 12 août 1840, 1 p. in-4</desc>
+               <note>Jolie lettre. Il a remis avec empressement à sa fille (M" la princesse Mathilde) les vers qu elle a inspires à Alexandre Dumas. « J'étais trop certain du plaisir que cette preuve de votre souvenir lui ferait pour avoir voulu en retarder un seul instant la remise. Un jour vous éprouverez par vous-même combien un père est sensible à tout ce qui touche ses enfants, surtout lorsqu'ils sont, comme pour moi, l'unique consolation !»</note>
+            </item>
+            <item n="20" xml:id="CAT_000291_e20">
+               <num type="lot">20</num>
+               <name type="author">BOYER-FONFRÈDE (Jean-Baptiste)</name>
+               <trait>
+                  <p>député de la Gironde à la Convention, un des plus éloquents orateurs du parti girondin, à Bordeaux, 1760. décapité à Paris, 31 octobre 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e20_d1">P. s. signée aussi par La Revelliere-Lépeaux, tous deux comme secrétaires de la Convention, 2 avril 1793, 1 p. in-folio, tète et vignette imprimées. Très rare</desc>
+               <note>Extrait du procès-verbal de la Convention. La Convention décrète que les 3 commissaires envoyés près de Dumouriez par le ministre Le Brun seront libres d'aller où il leur plaira, accompagnés, pour leur sûreté personnelle, d'un gendarme fourni par le pouvoir exécutif. (Ce jour même, les conventionnels Bancal, Camus, Quinelte voulurent s'emparer de Dumouriez, qui les livra aux Autrichiens).</note>
+            </item>
+            <item n="21" xml:id="CAT_000291_e21">
+               <num type="lot">21</num>
+               <name type="author">BRUEYS (Paul)</name>
+               <trait>
+                  <p>célèbre marin, qui commandait la flotte française à la bataille d'Aboukir, n. à Uzès (Gard), 1753, tué à Aboukir, 1er août 1798.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e21_d1">P. a. s.; 1er germinal an III (21 mars 1795), 1/2 p. in-4. Très rare</desc>
+               <note>Reçu des intérêts d'une somme que lui devait son frère Gabriel-François.</note>
+            </item>
+            <item n="22" xml:id="CAT_000291_e22">
+               <num type="lot">22</num>
+               <name type="author">BRUNE (Guillaume Marie-Anne)</name>
+               <trait>
+                  <p>célèbre général républicain et maréchal d'Empire, n. 1763, assassiné à Avignon, 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e22_d1">L. a. s. au général Malet ; Milan, 25 messidor an VI (13 juillet 1798), 1 p. in-folio. Jolie vignette signée: Wezelberg se</desc>
+               <note>Jolie lettre remplie de termes affectueux. « Les événements qui nous séparent tiennent au service de la Patrie. Je souhaite bien sincèrement qu'elle soit bientôt assez paisible pour me permettre de couler d'heureux jours au sein de l'amitié. Mes sentiments pour toi sont aussi durables et aussi purs que les tiens. La nature les a formés et le temps les consolidera. Je t'aime et t'embrasse de tout mon coeur.»</note>
+            </item>
+            <item n="23" xml:id="CAT_000291_e23">
+               <num type="lot">23</num>
+               <name type="author">CAFFARELLI (Auguste  comte)</name>
+               <trait>
+                  <p>célèbre général, qui combattit à Austerlitz, ministre de la guerre du royaume d'Italie, n. au Falga (Haute-Garonne), 1766, m. à Leschelles (Aisne), 1849.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e23_d1">L. a. s. ; Evreux, 7 brumaire an XI (28 octobre 1802), 2 p. in-folio</desc>
+               <note>Intéressante lettre où il annonce l'arrivée du premier Consul pour le lendemain à Rouen, avec sa femme, trois généraux de la garde, quatre aides de camp, son secrétaire, etc. Il donne des instructions pour le logement du premier Consul et de sa suite.</note>
+            </item>
+            <item n="24" xml:id="CAT_000291_e24">
+               <num type="lot">24</num>
+               <name type="author">CAMBACÉRÈS (Jean-Jacques-Régis de)</name>
+               <trait>
+                  <p>conventionnel, deuxième consul, archi-chancelier de l'Empire, n. 1753, m. 1824.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e24_d1">L. s. au maréchal Moncey; Paris, 27 juillet 1812, 3/4 de p. in-4</desc>
+               <note>Très intéressante lettre où il lui mande que l'impératrice est bien portante et a repris de l'embonpoint et que le roi de Rome cioit et se foitiiie. On a reçu de bonnes nouvelles de l'Empereur qui devait quitter Wilna le 17 juillet.</note>
+            </item>
+            <item n="25" xml:id="CAT_000291_e25">
+               <num type="lot">25</num>
+               <name type="author">CAMPAN (Jeanne-Louise-Henriette Genet  Mme)</name>
+               <trait>
+                  <p>lectrice de Marie-Antoinette, auteur de Mémoires, n. 1752, m.1822.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e25_d1">L. a. s. (à Madame Vigée Le Brun) : Saint-Germain, 27 janvier, v. s.,-4 p. in-4</desc>
+               <note>Précieuse lettre où elle rappelle son dévouement à la reine Marie-Antoinette dans la journée du 10 août. Elle suivit la reine jusqu'aux Feuillants et fut séparée d'elle par Petion. Elle prouvera que la Reine lui garda toujours sou affection bien qu'elles fussent en désaccord sur quelques points, sur l'émigration notamment, que M1'"-' Campan désapprouvait, a Habitant les Thuileries, j'étais sans cesse frappée de cette réflexion qu'il n'y avait qu'un quart de lieue de ce palais aux fauxbourgs insurgés et cent lieues de Coblentz ou des armées protectrices. Le sentiment et l'esprit de la femme sont bavards. Je disois trop et trop haut mon opinion sur cette mesure qui dans le temps étoit l'espoir de tous. Un sentiment bien différant de l'amour insensé et criminel d'une révolution affreuse dictait mes craintes, le temps ne les a que trop vérifiées et les innombrables victimes de ce projet ne devroient plus me les imputer en crime.»</note>
+            </item>
+            <item n="26" xml:id="CAT_000291_e26">
+               <num type="lot">26</num>
+               <name type="author">CARRIER (Jean-Baptiste)</name>
+               <trait>
+                  <p>député du Cantal à la Convention, fameux par sa mission à Nantes, n. 1756, décapité en 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e26_d1">P. a. s., 1 p. petit in-4</desc>
+               <note>Il recommande le citoyen Vigien, chef de brigade. C'est un républicain très prononcé, très lié avec Marat.</note>
+            </item>
+            <item n="27" xml:id="CAT_000291_e27">
+               <num type="lot">27</num>
+               <name type="author">CASABIANCA (Luzio de)</name>
+               <trait>
+                  <p>député de la Corse à la Convention et aux Cinq-Cents, capitaine de vaisseau, commandant de l'Orient à la bataille d'Aboukir, n. à Bastia, 1762, tué à Aboukir, 1er août 1798.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e27_d1">L. a. s. Luzio Ca ; Paris, 15 nivôse an IV (4 janvier 1796), fortes taches d'humidité, 2 p. in-4. Très rare</desc>
+               <note>Très intéressante lettre où il lui fait part de sa triste situation. Les représentants du peuple ont cru devoir prêcher d'exemple et ils se sont toujours abstenus de prendre autre chose que la valeur nominale de leurs indemnités, de sorte qu'ils ne reçoivent à peine que 3 livres, valeur de 1790. Il demande que l'on vende jusqu'à concurrence de 1.000 ou 1.200 livres de ses biens, afin qu'il puisse subvenir à ses besoins et à ceux do son garçon (qui périt avec lui à Aboukir à l'âge de dix ans).</note>
+            </item>
+            <item n="28" xml:id="CAT_000291_e28">
+               <num type="lot">28</num>
+               <name type="author">CHABRAN (Joseph  comte)</name>
+               <trait>
+                  <p>célèbre général, un des héros des guerres d'Italie, n. à Cavaillon (Vaucluse), 1763, m. 1843.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e28_d1">L. a. s. à Masséna ; 24 floréal an VII (13 niai 1799), 2 p. in-4</desc>
+               <note>Intéressante lettre où il lui expose sa triste situation et le prie de venir à son secours.</note>
+            </item>
+            <item n="29" xml:id="CAT_000291_e29">
+               <num type="lot">29</num>
+               <name type="author">CHALIER (Joseph)</name>
+               <trait>
+                  <p>chef du parti montagnard à L-ou, n. 1747, décapité en 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e29_d1">L. s., signée aussi par Vitet, maire de Lyon, Maisonneuve, Berthelet et J.-M. Roland, officiers municipaux, aux membres du directoire du district; Lyon, 27 décembre 1790, 1 p. in-folio. Peu commun</desc>
+               <note>Intéressant document relatif à l'emplacement d'un hôtel pour 1 établissement de l'administration du directoire du district.</note>
+            </item>
+            <item n="30" xml:id="CAT_000291_e30">
+               <num type="lot">30</num>
+               <name type="author">CHATEAUBRIAND (François-René  vicomte de)</name>
+               <trait>
+                  <p>l'illustre écrivain, n. 1768, m. 1848.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e30_d1">L. a. s. ; Rome, 16 octobre 1825, 2 p. in-4</desc>
+               <note>Superbe pièce où il parle d'un manuscrit qui est entre les mains de M"" Récamier. Il félicite son correspondant sur son heureux retour de voyage. « J'ai vu aussi les ruines que vous êtes allé chercher et en revoyant celles de Rome, j'ai senti qu'à mon Age, ce qu'il y a de mieux à faire, c'est de rester chez soi et d'y mourir oublié.»</note>
+            </item>
+            <item n="31" xml:id="CAT_000291_e31">
+               <num type="lot">31</num>
+               <name type="author">CHINTREUIL (Antoine)</name>
+               <trait>
+                  <p>un de nos peintres de paysages les plus estimés, n. à Pont-de-Vaux (Ain), 1814, m. à Septeuil (Seine-et-Oise), 1873.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e31_d1">L. a. s. à M. de Mercey ; Paris (rue de Seine, 18), 1 p. in-8. Peu commun</desc>
+               <note>Il est tellement désireux de partir à la campagne étudier les pommiers en fleurs qu'il prend la liberté de lui rappeler la commande promise à Béranger. « Sans cette commande, je ne saurais travailler; je suis condamné à une oisiveté cruelle. Avec elle je pars et j'espère.»</note>
+            </item>
+            <item n="32" xml:id="CAT_000291_e32">
+               <num type="lot">32</num>
+               <name type="author">CONSCIENCE (Henri)</name>
+               <trait>
+                  <p>le populaire écrivain et romancier flamand, n. à Anvers, 3 décembre 1812, m. dans la même ville, 1883.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e32_d1">L. a. s. ; Anvers, 24 septembre 1853, 3 p. in-4</desc>
+               <note>Très intéressante lettre toute relative à la réorganisation de l'Académie royale de peinture d'Anvers, la plus ancienne de l'Europe.</note>
+            </item>
+            <item n="33" xml:id="CAT_000291_e33">
+               <num type="lot">33</num>
+               <name type="author">COPPÉE (François)</name>
+               <trait>
+                  <p>le célèbre poète et auteur dramatique, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e33_d1">L. a. s. ; 44 juin, 1 p. 4/2 in-12</desc>
+               <note>Il recommande Bodoiphe Bresdin (Chien-Caillou), dessinateur et graveur de talent, un honnête homme et un père de famille.</note>
+            </item>
+            <item n="34" xml:id="CAT_000291_e34">
+               <num type="lot">34</num>
+               <name type="author">COUTHON (Georges)</name>
+               <trait>
+                  <p>le fameux conventionnel, ami de Robespierre, avec qui il fut décapité, n. à Orcet (Puy-de-Dôme), 1756, décapité le 28 juillet 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e34_d1">L. a. s.; 21 janvier 4790, 1 p. 1/2 in-4</desc>
+               <note>Il demande l'insertion dans le Journal des Débats d'une note concernant les chasseurs de la garde nationale. Il annonce que sa femme vient de lui donner encore un garçon. « Il vient dans un bon tems, il sucera le lait de la Liberté, et si son père vit, il espère ne pas lui laisser oublier ses devoirs de citoyen.»</note>
+            </item>
+            <item n="35" xml:id="CAT_000291_e35">
+               <num type="lot">35</num>
+               <name type="author">DAMPIERRE (Henri PICOT  comte de)</name>
+               <trait>
+                  <p>célèbre général, qui se couvrit de gloire à la bataille de Jemappes, n. à Paris, 1756, blessé mortellement à la bataille de Raismes (Nord) 18 mai 1793, mort le lendemain.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e35_d1">L. a. s. ; 19 février 1788, 1 p. in-4. Belle et rare pièce</desc>
+            </item>
+            <item n="36" xml:id="CAT_000291_e36">
+               <num type="lot">36</num>
+               <name type="author">DANTON (Georges)</name>
+               <trait>
+                  <p>le fameux conventionnel, n. 1759, décapité le 5 avril 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e36_d1">P. s., signée par Delacroix (d'Eure-et-Loir), Gossuin et Camus; Liège, 11 janvier 1793, 1/2 p. in-4</desc>
+               <note>Les commissaires de la Convention près l'armée en Belgique, délibérant sur les plaintes portées contre le maréchal de camp Desforest, considérant que cet officier général a été remplacé dans le commandement de la ville d'Aix (la Chapelle] par le général Dampierre, décide de renvoyer à la Convention tous les documents concernant cette affaire.</note>
+            </item>
+            <item n="37" xml:id="CAT_000291_e37">
+               <num type="lot">37</num>
+               <name type="author">DAUMESNIL (Pierre  baron)</name>
+               <trait>
+                  <p>célèbre général, dit la Jambe de bois, défenseur de Vincennes en 1814 et en 1815, n. à Périgueux, 27 juillet 1776, m. 1837.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e37_d1">L. a. s. ; Vincennes, 15 mai 1814, 1 p. 1/2 in-folio</desc>
+               <note>Il explique que les habitants de Vincennes ne sont soumis qu'à la réquisition des voitures et qu'on cherche à alléger la population le plus possible. On a joint un dossier de pièces relatif à une souscription en faveur des enfants du général Daumesnil.</note>
+            </item>
+            <item n="38" xml:id="CAT_000291_e38">
+               <num type="lot">38</num>
+               <name type="author">DAVID (Jacques-Louis)</name>
+               <trait>
+                  <p>le grand peiutre, n. 1748, m. 1825.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e38_d1">L. a. s. à Madame de Gérando; 5 mai 1809, 1 p. in-4</desc>
+               <note>Il l'invite à venir visiter son atelier et la félicite sur les dignités qui viennent d'êt» e accordée s à son mari.</note>
+            </item>
+            <item n="39" xml:id="CAT_000291_e39">
+               <num type="lot">39</num>
+               <name type="author">DESAIX (Louis-Charles-Antoine)</name>
+               <trait>
+                  <p>l'illustre général républicain, n. 1768, tué à Marengo, 1800.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e39_d1">L. s. (écrite par SAVARY, le futur duc de Rovigo), à Scherer; quartier-général de Paris, 19 pluviôse an VI (7 févr. 1798), p. in-4. Rare</desc>
+               <note>Il le prie de diriger sur Rouen les guides de l'armée d'Italie, lorsqu'ils se seront réposés sept ou huit jours à Fontainebleau.</note>
+            </item>
+            <item n="40" xml:id="CAT_000291_e40">
+               <num type="lot">40</num>
+               <name type="author">DESMOULINS (Camille)</name>
+               <trait>
+                  <p>célèbre publiciste, député de Paris à la Convention, n. à Guise (Aisne), 1760, décapité avec Danton, 5 avril 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e40_d1">Minute aut. d'une lettre à son père; Paris, 4 juin 1784, 2 p. in-4</desc>
+               <note>TRÈS CURIEUSE LETTRE où il se plaint de l'indifférence de son père, qui néglige les intérêts de ses enfants. Il lui conseille de dépenser 25 louis pour venir suivre lui-même le procès qu'il a engagé. Camille Desmoulins se justifie ensuite de s'être consacré à la littérature. Ce sont ses vers qui lui ont fait sa réputation, c'est à eux qu'il doit tout ce qui lui rend la vie chère. « M. Suard et bien d'autres m'ont dit qu'ils me jugeoient un talent décidé, on me parle que la pièce dont je m'occupe en ce moment me vaudra 1,200 livres, et si j'avois eu de mes parens seulement un revenu modique, suffisant pour vivre, j'ose croire que, me livrant entièrement aux lettres, j'y aurais acquis de la gloire et de la fortune, et que sans aspirer aux places superbes des Racine, des Boileau et de nos grands maîtres, j'aurois pu m'asseoir peut-être au second rang, parmi les Malherbe, les Chaulieu, les Quinault, les La Harpe et les Delille. » Il aspire à devenir le grand homme de sa ville natale.</note>
+            </item>
+            <item n="41" xml:id="CAT_000291_e41">
+               <num type="lot">41</num>
+               <name type="author">DOBSENT (Claude-Emmanuel)</name>
+               <trait>
+                  <p>juge au premier tribunal révolutionnaire, puis président après le 9 thermidor.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e41_d1">L. a. s. aux membres du Comité de salut public ; Paris, 22 thermidor an II (9 août 1794), 1 p. 1/2 in-4.</desc>
+               <note>Belle et rare pièce relative au fonctionnement du tribunal du VIe arrondissement de Paris.</note>
+            </item>
+            <item n="42" xml:id="CAT_000291_e42">
+               <num type="lot">42</num>
+               <name type="author">DUGOMMIER (Jean-François Coquille)</name>
+               <trait>
+                  <p>célèbre général républicain, n. 1736, tué à la bataille de la Montagne Noire, 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e42_d1">L. a. s. au général Lamer, chef de l'état-major de l'armée des quartier-général de la Guillane, Pyrénées-Orientales : 14 fructidor an II (31 août 1794), 1 p. in-4</desc>
+               <note>Il lui recommande de prendre grand soin de son rétablissement et de venir rejoindre l'armée dès que sa santé le lui permettra.</note>
+            </item>
+            <item n="43" xml:id="CAT_000291_e43">
+               <num type="lot">43</num>
+               <name type="author">DUGUA (Charles-François-Joseph)</name>
+               <trait>
+                  <p>général qui se distingua en Egypte, n. 1744, m. 1802.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e43_d1">L. a. s. au représentant Goupilleau de Fontenay; quartiergénéral de Carcassonne, (germinal an III), 2 p. in-4, en-tête représentant un bonnet phrygien.</desc>
+               <note>CURIEUSE LETTRE. Il lui rend compte que les prêtres abusent, à Carcassonne et dans tout le département de l'Aude, de la loi qui protège la liberté des cultes. L'évêque a célébré, le 2 germinal, une messe pontificale, et cette cérémonie a suscité des remarques de la part des militaires, lesquelles ont excité la bile des fidèles, qui se sont mis à frapper les contradicteurs. Il expose que les cérémonies religieuses vont recommencer, que les jours décadaires sont méconnus et que le fanatisme rélève la tête avec insolence et qu'il faut s'empresser de le réprimer. Curieux détails.</note>
+            </item>
+            <item n="44" xml:id="CAT_000291_e44">
+               <num type="lot">44</num>
+               <name type="author">DULAURE (Jacques-Antoine)</name>
+               <trait>
+                  <p>célèbre écrivain, député du Puy-de-Dôme à la Convention, n. à Clermont-Ferrand, 1755, m. 1835.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e44_d1">L. a. s. à Palloy ; Paris, 6 fructidor an III (23 août 1795), 1 p. in-4</desc>
+               <note>Il le remercie d'autant plus de l'envoi d'une médaille commémorative qu'il est de ceux qui, mis hors la loi, n'ont échappé à l'échafaud que par la fuite.</note>
+            </item>
+            <item n="45" xml:id="CAT_000291_e45">
+               <num type="lot">45</num>
+               <name type="author">DUMAS (Alexandre)</name>
+               <trait>
+                  <p>célèbre général des guerres de la République, père du fécond romancier, n. 1762, m. 1807.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e45_d1">L. s. au chef de l'État-major de l'armée des côtes de Brest; quartier-général de Rennes, 20 brumaire an III (10 novembre 1794), 1 p. 1/2 in-4</desc>
+               <note>Il le prie de veiller à la mise en route d'un volontaire et de « recommander au commissaire d'être moins dur ou plus instruit »</note>
+            </item>
+            <item n="46" xml:id="CAT_000291_e46">
+               <num type="lot">46</num>
+               <name type="author">DUMAS père (Alexandre)</name>
+               <trait>
+                  <p>le grand romancier, n. 1802, m. 1870.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e46_d1">Pièce de vers aut. sig., 1 p. in-4</desc>
+               <note>Superbe pièce qui commence ainsi : d Qui jamais aurait dit, excepté Dieu lui seul q Que cette jeune femme avec sa robe blanche « S'inclinant à l'autel d'où le bonheur s'épanche, Aurait, avant un an, son voile pour linceul!</note>
+            </item>
+            <item n="47" xml:id="CAT_000291_e47">
+               <num type="lot">47</num>
+               <name type="author">DUMOURIEZ (Charles-François Dupérier)</name>
+               <trait>
+                  <p>célèbre général, le vainqueur de Jemappes, ministre de la guerre en 1792. n. à Cambrai, 1739, m. à Turville-Park (Angleterre), 1823.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e47_d1">L. s. au général Valence, « chargée des affaires de France à l'entrevue d'Anvers »; Mons, 8 avril 1793, 1 p. in-folio.</desc>
+               <note>PIÈCE HISTORIQUE. Il lui donne ses instructions pour négocier avec les Autrichiens. (Dumouriez, dès ce moment, avait échoué dans ses projets contre la Convention et les places du nord de la France.) -Dumouriez dit que la seule base de négociation est la proclamation du prince de Cobourg. « C'est sur la bonne foi que nous rassemblons sur le territoire autrichien les débris de notre armée, que nous acceptons comme un prêt la solde de l'Empire jusqu'à ce que nous soyons rentrés chez nous et remboursé ce que nous aurons touché. Cette position momentanée ne peut ni nous rendre sujets ni avilir notre liberté. » Si Valence s'apercevait que les généraux autrichiens changéassent de ton et de manière, il lui conseille de négocier avec lord Auckland. (On sait que les Autrichiens voulurent opérer pour leur compte et que Dumouriez dut chercher un asile de pays en pays).</note>
+            </item>
+            <item n="48" xml:id="CAT_000291_e48">
+               <num type="lot">48</num>
+               <name type="author">ESNUE DE LAVALLÉE (François-Joachim)</name>
+               <trait>
+                  <p>député de la Mayenne à l'Assemblée législative et a la Convention, dénoncé comme terroriste après l'insurrection de Prairial au III, n. à Craon (Mayenne), 1751, m. à Paris, 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e48_d1">L. s., avec quatre lignes aut., signée aussi par BOURBOTTE, FRANCASTEL et PRIEUR (de la Marne) au Comité de salut public ; Angers, 16 frimaire an II (6 décembre 1793), 3 p. in-folio. Extrêmement rare.</desc>
+               <note>PIÈCE HiSTORIQUE. Les conventionnels en mission près l'armée de l'Ouest informent le Comité de salut public des combats qui se livrent autour d'Angers. « Parmi les brigands saisis hier les armes à la main s'est trouvée Madame l'abbesse de Sivrac, M. Malcombe, fils du lieutenant-général de la sénéchaussée d'Angers, M. Jourdeuil, ci-devant clerc de procureur, commandant la cavalerie, un prêtre déguisé en meunier portant sur lui les instruments de fanatisme, et un grand nombre d'autres coquins dont la guillotine et la fusillade ont déjà fait et feront justice au peuple. »</note>
+            </item>
+            <item n="49" xml:id="CAT_000291_e49">
+               <num type="lot">49</num>
+               <name type="author">FABRE D'EGLANTINE (Philippe-François-Nazaire)</name>
+               <trait>
+                  <p>poète et auteur dramatique, député de Paris à la Convention, n. 1755, décapité avec Danton, 5 avril 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e49_d1">P. s. comme président du club des Cordeliers, signée aussi par PARÉ, secrétaire; Paris, 1er mars 1790, 2 p. in-4</desc>
+               <note>Curieuse lettre qui contient l'énumération des questions qui doivent être discutées à l'assemblée de l'Archevêché pour l'élection de la municipalité parisienne.</note>
+            </item>
+            <item n="50" xml:id="CAT_000291_e50">
+               <num type="lot">50</num>
+               <name type="author">FAUCHET (Claude)</name>
+               <trait>
+                  <p>prêtre avant la Révolution, puis évêque constitutionnel du Calvados, député de ce département à l'Assemblée législative et à la Convention, dénoncé comme complice de Charlotte Corday, n. à Dornes (Nièvre) 1744, décapité à Paris, 31 octobre 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e50_d1">L. a. s. à Le Coz, évêque constitutionnel d'Ille-et-Vilaine ; Paris, 14 juin 1793, 1 p. in-4</desc>
+               <note>PRÉCIEUSE PIÈCE. Il lui envoie les deux derniers numéros de son journal par l'entremise d'un parent, car la poste n'est plus sûre. «Nous sommes au dernier degré d'oppression. J'attends la mort avec résignation et avec joie Les crimes horribles qui souillent notre patrie me rendent la vie odieuse L'anarchie facilite les succès des rebelles de la Vendée. Tout le mal est à Paris. Si les départements n'y portent pas un prompt remède pour y rétablir l'ordre et y supprimer les scélérats, ensuite se retourner contre les révoltés, tout est perdu. La Bretagne et la Normandie doivent sauver la France, mais il n'y a pas un moment à différer. » Il apostrophe violemment les évêques de Paris et de la Dordogne et annonce qu'il a fait son testament (On voit par cette lettre que Fauchet justifie lui-même les accusations de fédéralisme portées contre lui par Chabot quelques semaines plus tard). Le Coz a écrit en haut de cette pièce : « Je désire qu'on me renvoie cette lettre qui, pour bien des motifs, m'est précieuse. Cl. Le Coz. »</note>
+            </item>
+            <item n="51" xml:id="CAT_000291_e51">
+               <num type="lot">51</num>
+               <name type="author">FOUCHE (Joseph)</name>
+               <trait>
+                  <p>fameux conventionnel, ministre de la police de Napoléon Ier, duc d'Otrante, n. 1763, m. 1820.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e51_d1">L. s. deux fois, signée également deux fois par LAPORTE et ALBITTE, représentants du peuple à Commune-Affranchie (Lyon) aux représentants du peuple à Toulon; Commune Affranchie, 2 nivôse an II (22 décembre 1793), 2 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Ils leur font connaître la joie qu'ils ont éprouvée en apprenant la prise de Toulon. «Voilà donc le territoire français purgé de votre côté de la présence des satellites des tyrans. Maintenant punissés les traîtres, conservés une forte garnison et faites marcher sans délai tout ce qui ne sera pas nécessaire sur Perpignan, où notre armée n'est pas assez en force, pour donner promptement le coup de grâce aux cohortes espagnoles.» - Un long post-scriptum aut. est de la main de Laporte.</note>
+            </item>
+            <item n="52" xml:id="CAT_000291_e52">
+               <num type="lot">52</num>
+               <name type="author">FOUQUIER-TINVILLE (Antoine-Quentin)</name>
+               <trait>
+                  <p>le fameux accusateur public près le tribunal révolutionnaire, n. 1747, décapité en 1795.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e52_d1">L. s. à l'agent national près le district de Chaumont (Haute-Marne) ; Paris, 20 ventose an II (10 mars 1794), 1 p. in-4</desc>
+               <note>Il lui demande de lui envoyer les prévenus accusés d'avoir tenu des propos contre-révolutionnaires.</note>
+            </item>
+            <item n="53" xml:id="CAT_000291_e53">
+               <num type="lot">53</num>
+               <name type="author">GAUTIER (Théophile)</name>
+               <trait>
+                  <p>le célèbre poète et écrivain, n. 1811, m. 1872.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e53_d1">Pièce de vers aut. ; Malaga, 1840, 1 p. in-4</desc>
+               <note>Jolie pièce venant d'un album. Elle se compose de trois quatrains dont voici le premier « La lune de ses mains distraites « A laissé choir du haut de l'air « Son grand éventail à paillettes « Sur le bleu tapis de la mer.»</note>
+            </item>
+            <item n="54" xml:id="CAT_000291_e54">
+               <num type="lot">54</num>
+               <name type="author">GAUTIER (Théophile)</name>
+               <desc xml:id="CAT_000291_e54_d1">Petit dessin à l'encre violette, signé, 1 p. in-4</desc>
+               <note>Joli dessin provenant du même album que la pièce ci-dessus. Il représente une jeune femme couronnée de roses, vue de trois quarts.</note>
+            </item>
+            <item n="55" xml:id="CAT_000291_e55">
+               <num type="lot">55</num>
+               <name type="author">GENSONNÉ (Armand)</name>
+               <trait>
+                  <p>député de la Gironde à la Convention, n. 1758, décapité en 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e55_d1">Apostille de 3 petites lignes aut. sig. sur une lettre incomplète du ministre de l'Intérieur, adressée au président de la Convention ; Paris, 10 mars 1793, 2 p. in-folio. Très rare.</desc>
+            </item>
+            <item n="56" xml:id="CAT_000291_e56">
+               <num type="lot">56</num>
+               <name type="author">GOUVION-SAINT-CYR (Laurent  marquis)</name>
+               <trait>
+                  <p>illustre maréchal de l'Empire, qui réorganisa l'armée, n. 1764, m. 1830.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e56_d1">L. a. s. au général Dessolle ; quartier général de Strasbourg, 14 ventôse an VIII (4 mars 1800), 1 p. in-4</desc>
+               <note>Il lui exprime le plaisir de le revoir sur les bords du Rhin. -La signature est d'une autre encre que le corps de la lettre.</note>
+            </item>
+            <item n="57" xml:id="CAT_000291_e57">
+               <num type="lot">57</num>
+               <name type="author">HÉBERT (Jacques-René)</name>
+               <trait>
+                  <p>dit le Père Duchesne, substitut du procureur de la Commune de Paris, chef du parti qui porte son nom, n. à Alençon, 1757, décapité le 24 mars 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e57_d1">L. s., ; Paris, 6 février 1793, 1 p. in-4, tête et vignette imprimées. La pièce a été séparée en deux parties soigneusement rapprochées</desc>
+               <note>Il rappelle que la couleur blanche est réservée aux affiches officielles et qu'on doit lui signaler les affiches des particuliers qui seraient d'une couleur blanche.</note>
+            </item>
+            <item n="58" xml:id="CAT_000291_e58">
+               <num type="lot">58</num>
+               <name type="author">HERMAN (Armand-Martial-Joseph)</name>
+               <trait>
+                  <p>président du tribunal révolutionnaire, ami de Robespierre, n. 1749, décapité, 1795.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e58_d1">L. s. au commissaire national de Melle (Deux-Sèvres); Paris, 22 messidor an II (10 juillet 1794), 1 p. in-4</desc>
+               <note>Il lui prescrit de juger sans retard le nommé Saint-Hilaire.</note>
+            </item>
+            <item n="59" xml:id="CAT_000291_e59">
+               <num type="lot">59</num>
+               <name type="author">HOCHE (Lazare)</name>
+               <trait>
+                  <p>l'illustre général républicain, n. 1768, m. 1797.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e59_d1">L. s. aux citoyens Guezno et Guermeur, représentants du peuple ; quartier général de Rennes, 15 pluviôse an III (15 fevrier 1795), 1 p. in-4, petite vignette imprimée</desc>
+               <note>Il les informe qu'il a donné des ordres pour que l'on marche le plus promptement possible sur les brigands. Il est d'avis que pour les atteindre il ne faut pas s'embarrasser d'artillerie.</note>
+            </item>
+            <item n="60" xml:id="CAT_000291_e60">
+               <num type="lot">60</num>
+               <name type="author">HUGO (Victor)</name>
+               <trait>
+                  <p>le grand poète, n. 1802, m. 1885.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e60_d1">Pièce de vers aut. sig., 1 p. in-4 oblong</desc>
+               <note>Intéressante pièce ainsi conçue: Oublions ! Oublions ! quand la jeunesse est morte, Laissons-nous emporter par le vent qui l'emporte A l'horizon obscur. Rien ne reste de nous. Notre oeuvre est un problème. L'homme, fantôme errant, passe sans laisser même Son ombre sur le mur Au-dessous de ces vers, George Sand, sollicitée d'écrire quelque chose, a tracé ces mots : « J'aime ma tante. GEORGE SAND. »</note>
+            </item>
+            <item n="61" xml:id="CAT_000291_e61">
+               <num type="lot">61</num>
+               <name type="author">JOSÉPHINE</name>
+               <trait>
+                  <p>impératrice des Français, première femme de Napoléon Ier, n. 1763, m. 1814.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e61_d1">L. a. s. à Ve Beauharnais (à Barras?), 2 p. in-8. Pièce fatiguée</desc>
+               <note>CURIEUSE LETTRE. Elle lui recommande un volontaire, qui a perdu une jambe en combattant pour la patrie. Puis elle ajoute : « Il y a bien longtemps que je n'ay eu le plaisir de vous voir? C'est bien mal a vous d'abandonner ainsi une ancienne connoissance. J'espère que vous serez sensible à ce reproche. Je demeure maintenant rue de l'Université, n° 371.»</note>
+            </item>
+            <item n="62" xml:id="CAT_000291_e62">
+               <num type="lot">62</num>
+               <name type="author">JOUBERT (Barthélemy-Catherine)</name>
+               <trait>
+                  <p>un des plus illustres généraux de la Révolution, n. à Pont-de-Vaux (Ain), 1769, tué à la bataille de Novi, 15 août 1799.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e62_d1">L. a. s. à Barras; quartier général à Turin, 21 frimaire an VII (11 décembre 1798) 1 p. 1/2 in-4</desc>
+               <note>Il proteste contre le remplacement d'Aubernon. Il annonce le départ du roi de Piémont. « L'enthousiasme est général sur tous les points, partout on bénit l'armée française et son gouvernement, J'ai préparé de belles choses à mon successeur si l'Autriche ose attaquer.»</note>
+            </item>
+            <item n="63" xml:id="CAT_000291_e63">
+               <num type="lot">63</num>
+               <name type="author">KLEBER (Jean-Baptiste)</name>
+               <trait>
+                  <p>un des plus célèbres généraux de la République, n. à Strasbourg, 1753, assassiné au Kaire, 14 juin 1800.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e63_d1">L. s. aux représentants du peuple près l'Armée du Rhin et Moselle ; quartier-général de Kockeim, 1 p. in-folio</desc>
+               <note>Belle lettre militaire. Il les informe que la 11e division de l'armée du Rhin et Moselle, qui avait passé la veille de la rive gauche à la rive droite du Rhir reprendra ses anciennes positions. Les divisions de l'armée de Sambre et Meuse se mettront en mouvement dans la nuit pour se rendre derrière la Lahn.</note>
+            </item>
+            <item n="64" xml:id="CAT_000291_e64">
+               <num type="lot">64</num>
+               <name type="author">LACORDAIRE (Henri-Dominique)</name>
+               <trait>
+                  <p>l'éloquent prédicateur, membre de l'Académie française, n. 1802, m. 1861.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e64_d1">4 l. a. s. à l'abbé Bernard ; Sorèze, 1856-1860, 4 p. in-4</desc>
+               <note>Dans la première lettre il lui donne quelques conseils avant son entrée dans le Tiers-ordre de Saint-Dominique. La règle en est moins sévère que celle du séminaire, par conséquent sà santé pourra la supporter ; en ce qui regarde sa mère le Tiers-ordre pourrait lui faire faire une petite pension « Ce n'est pas en vain, dans les temps où nous sommes, que Dieu appelle une âme à la vie religieuse. Plusieurs de vos amis vous ont déjà donné l'exemple. Votre heure, je le crois, est aussi arrivée. Mais il faut un coup suprême et décisif. » Les autres lettres sont relatives aux développements que prend le Tiers-ordre enseignant.</note>
+            </item>
+            <item n="65" xml:id="CAT_000291_e65">
+               <num type="lot">65</num>
+               <name type="author">LAMARCK (Jean-Baptiste-Pierre-Antoine de MONET  chevalier)</name>
+               <trait>
+                  <p>l'illustre naturaliste, membre de l'Académie des Sciences, n. à Bazentin (Somme), 1744, m. Paris, 1829.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e65_d1">L. a. s. au citoyen Cyalis Lavaux; Paris, 16 floréal an V (5 mai 1797), 1 p. 1/2 in-4</desc>
+               <note>Belle lettre relative à l'achat d'immeubles dans le département de l'Oise.</note>
+            </item>
+            <item n="66" xml:id="CAT_000291_e66">
+               <num type="lot">66</num>
+               <name type="author">LASOURCE (Marie-David-Albin)</name>
+               <trait>
+                  <p>ministre protestant, député du Tarn à la Convention, n. 1762, décapité avec les Girondins, 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e66_d1">L. s., signée aussi par INGRAND, DUHEM, MARIBON-MONTAUT, LEGENDRE, ROVERE et Basire, membres du Comité de sûreté générale de la Convention ; Paris, 28 janvier an II (1793), 1 p. in-4. Rare</desc>
+               <note>Ils demandent si la mesure extraordinaire prise contre les malveillants qui infestaient le Palais de l'Egalité ci-devant Palais-Royal a produit des arrestations ; ils en demandent la liste.</note>
+            </item>
+            <item n="67" xml:id="CAT_000291_e67">
+               <num type="lot">67</num>
+               <name type="author">LA TOUR D'AUVERGNE-CORRET (Théophile-Malo de)</name>
+               <trait>
+                  <p>célèbre guerrier, le premier Grenadier de la République, n. à Carhaix, 1743, tué à Oberhausen le 27 juin 1800.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e67_d1">L. a. s. à Monseigneur…; Strasbourg, 21 avril 1783, 2 p. in-fol.</desc>
+               <note>SUPERBE LETTRE où il demande à être employé en Turquie. « La nature m'a doué d'une constitution forte et robuste et ma volonté est extrême. Je parle la langue allemande et l'écris, ainsi que plusieurs langues de l'Europe. J'ai déjà des notions de la langue ottomane, dont j'ai appris les éléments à Marseille en 1776 d'un interprète nommé Lomaca, lorsque je songeais à aller à l'armée du Danube... »</note>
+            </item>
+            <item n="68" xml:id="CAT_000291_e68">
+               <num type="lot">68</num>
+               <name type="author">LAVAL (André de)</name>
+               <trait>
+                  <p>sire de Lohéac, maréchal de France, n. 1411, m. 1486.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e68_d1">P. s., sur vélin; 2 mai 1446, 1 p. in-4 oblong, fragment important d'un sceau sur queue. Très rare</desc>
+               <note>Lettre de transport du fief du Franc par le sire de Lohéac à sa mère.</note>
+            </item>
+            <item n="69" xml:id="CAT_000291_e69">
+               <num type="lot">69</num>
+               <name type="author">LE BAS (Philippe-François-Joseph)</name>
+               <trait>
+                  <p>député du Pas de Calais à la Convention, ami de Robespierre, n. 1765, m. par suicide, 27 juillet 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e69_d1">L. a. s. à un ministre; 11 du 2me mois de l'an II de la République (1er novembre 1793), 1 p. in-4 oblong. Rare</desc>
+               <note>Il annonce que Saint-Just est parti pour Saverne avec le général Pichegru et que les affaires se rétablissent.</note>
+            </item>
+            <item n="70" xml:id="CAT_000291_e70">
+               <num type="lot">70</num>
+               <name type="author">LEFEBVRE (François-Joseph)</name>
+               <trait>
+                  <p>duc de Dantzig, illustre général républicain et marechal d'Empire, n. à Rouffach (Alsace), 1755, m. 1820.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e70_d1">L. s. à M. de Barentin; Paris, 7 octobre 1815, 4 p. in-folio</desc>
+               <note>TRÈS CURIEUSE PIÈCE. Il proteste contre les effets de l'ordonnance du 22 juillet précédent qui le place sur la liste des pairs démissionnaires. Il rappelle son dévouement à la personne de Louis XVI au début de la Révolution, qu'il a fait fermer les clubs en 1799, alors qu'il était gouverneur de Paris et qu'il offrit sa démission quand les projets de Bonaparte commencèrent à se dessiner. En 1814 il accueillit le retour des Bourbons avec joie. « Haï de Bonaparte avant sa première abdication, son retour n'avait pas changé ses sentiments à mon égard. Loin d'avoir participé à sa confiance, à ses conseils, à son intimité, je ne le vis que trois fois, lorsqu'il me fit appeler par son grand maître des cérémonies. Il ne m'adressa même pas la parole. Je fus repoussé, maltraité, mis à la retraite et si plus tard j'ai été l'un des derniers désigné pour faire partie de la Chambre des Pairs qu'il instituait, j'ignore s'il l'a fait pour me compromettre ou par une insinuation étrangère. » Très curieux détails. Il termine en protestant de son dévouement à la personne sacrée du Roi et à son auguste dynastie.</note>
+            </item>
+            <item n="71" xml:id="CAT_000291_e71">
+               <num type="lot">71</num>
+               <name type="author">LEFEBVRE-DESNÖETTES (Charles  comte)</name>
+               <trait>
+                  <p>célèbre général, un des héros de la Campagne de France, n. 1773, m. 1822.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e71_d1">L. a. s. (au colonel Dériot) ; (1808), 1 p. in-4</desc>
+               <note>Il l'informe que la reine de Westphalie, le grand-duc de Wurzbourg et princesse Caroline se rendront le lendemain à Versailles pour visiter le Palais. Le prince et les princesses demandent s'ils pourront loger au château et si on pourra faire jouer les grandes eaux.</note>
+            </item>
+            <item n="72" xml:id="CAT_000291_e72">
+               <num type="lot">72</num>
+               <name type="author">LOFFICIAL (Louis-Prosper)</name>
+               <trait>
+                  <p>député du Poitou aux Etats-Généraux, puis du département des Deux-Sèvres à la Convention, membre du Conseil des Cinq-Cents, n. à Montigné (Maine-et-Loire), 1751, m. à Paris, 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e72_d1">L. a. s. ; Bruxelles, 12 prairial an IX (9 juin (1801), 4 p. in-folio</desc>
+               <note>Superbe lettre entièrement relative au règlement d'affaires privées.</note>
+            </item>
+            <item n="73" xml:id="CAT_000291_e73">
+               <num type="lot">73</num>
+               <name type="author">LOUIS XVII (documents sur)</name>
+               <trait>
+                  <p>l'infortuné fils de Louis XVI et de Marie-Antoinette, n. 1785, m. 1795.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e73_d1">1° L. s. par le Duc De GESVRES ; Paris, 1er avril 1785, 1/2 p. in-folio</desc>
+               <note>Il fait part de la lettre que le roi lui a écrite pour lui annoncer la naissance du duc de Normandie. Le roi demande que les évêques remercient Dieu et fassent chanter un Te Deum.</note>
+               <desc xml:id="CAT_000291_e73_d2">2°P. s. par NOEL, secrétaire-adjoint de la commission temporaire des arts : Versailles, 24 prairial an II (12 juin 1794), 1 p. 1/2 in-4.</desc>
+               <note>Extrait d'un procès-verbal de la Commission temporaire des arts donnant la description et l'estimation d'un tableau conservé à Saint-Cloud, représentant le « fils Capet »</note>
+            </item>
+            <item n="74" xml:id="CAT_000291_e74">
+               <num type="lot">74</num>
+               <name type="author">MAGON (Charles)</name>
+               <trait>
+                  <p>célèbre marin, qui s'illustra à Trafalgar, n. 1763, tué à Trafaljar, 1805.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e74_d1">L. a. s. ; Nantes, 12 ventôse, 1 p. 1/2 in-4</desc>
+               <note>Belle lettre relative à l'approvisionnement de la flotte..</note>
+            </item>
+            <item n="75" xml:id="CAT_000291_e75">
+               <num type="lot">75</num>
+               <name type="author">MAINTENON (Françoise d'AUBIGNÉ  marquise de)</name>
+               <trait>
+                  <p>l'épouse de Louis XIV, n. 1635, m. 1719.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e75_d1">L. a. s. à M. de Mérinville; Marly, 21 janvier 1713, 1 p. 1/2 in-4.</desc>
+               <note>Elle le prie d'arranger avec M. de Guignonville les difficultés qu'elle a avec le chapitre de Chartres.</note>
+            </item>
+            <item n="76" xml:id="CAT_000291_e76">
+               <num type="lot">76</num>
+               <name type="author">MARAT (Jean-Paul)</name>
+               <trait>
+                  <p>célèbre publiciste et conventionnel, dit l'Ami du peuple, n. 1743, assassiné par Charlotte Corday, 13 juillet 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e76_d1">L. a. s. le Dr Marat à une dame ; Paris, 25 janvier 1788, 1 p. in-4.</desc>
+               <note>Jolie lettre où il lui fait hommage d'un de ses ouvrages et lui demande de faire des prosélites à la Vérité.</note>
+            </item>
+            <item n="77" xml:id="CAT_000291_e77">
+               <num type="lot">77</num>
+               <name type="author">MARIE-ANTOINETTE</name>
+               <trait>
+                  <p>reine de France, épouse de Louis XVI, n. 1755, décapitée le 16 octobre 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e77_d1">P. s. avec le mot Payez aut. ; Versailles, 31 décembre 1784, 1 p. in-folio. Quelques lettres sont rognées dans une marge.</desc>
+               <note>Ordre de payer 60 livres à un fourrier de ses écuries.</note>
+            </item>
+            <item n="78" xml:id="CAT_000291_e78">
+               <num type="lot">78</num>
+               <name type="author">MASSÉNA (André)</name>
+               <trait>
+                  <p>duc de Rivoli, prince d'Essling, illustre général républicain et maréchal d'Empire, n. 1758, m. 1817.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e78_d1">L. s. à Soult; quartier général de Gênes, 13 germinal an VIII (2 avril 1800), 1 p. in-4, tête et vignette gravées</desc>
+               <note>Curieuse lettre écrite au moment où Mélas essayait de couper en deux l'armée française. « Je trouve comme vous qu'il faut être bien insolent pour oser vouloir entrer en pourparler avec nous; prenez des moyens de l'en faire repentir. »</note>
+            </item>
+            <item n="79" xml:id="CAT_000291_e79">
+               <num type="lot">79</num>
+               <name type="author">MASSÉNA (André).</name>
+               <desc xml:id="CAT_000291_e79_d1">L. a. s. à Suchet ; au bivouac sous Ciudad-Rodrigo, 6 juillet 1810, 1 p. in-4</desc>
+               <note>Il le félicite de la prise de Mequinenza et lui annonce qu'il se voit forcé de prendre Ciudad-Rodrigo de vive force, « parce que j'ai à faire à des entêtés qui n'ont point de raison et que leur fanatisme est excité au plus haut point par les prêtres qui sont à leur tête. » (Ciudad-Rodrigo fut prise le 10 juillet suivant).</note>
+            </item>
+            <item n="80" xml:id="CAT_000291_e80">
+               <num type="lot">80</num>
+               <name type="author">MAUBREUIL (Armand de GUERRY  comte de)</name>
+               <trait>
+                  <p>marquis d'Orvault, célèbre aventurier qui se prétendit chargé par Talleyrand d'assassiner Napoléon Ier, n. 1782, m. 1856.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e80_d1">3 l. a. s., une à Louis-Philippe, une au duc Decazes, une à M. Brenier, chargé, par intérim, d'affaires de France à Bruxelles ; 23 et 24 septembre 1836, 8 p. in-4</desc>
+               <note>Très curieuses lettres où il proteste contre les mauvais traitements qui lui sont infligés à Bruxelles. Il demande l'appui du ministre de France, la continuation de sa pension et dit qu'il n'est pas pensionné pour être battu, etc...</note>
+            </item>
+            <item n="81" xml:id="CAT_000291_e81">
+               <num type="lot">81</num>
+               <name type="author">MAURE aîné (Nicolas)</name>
+               <trait>
+                  <p>député de l'Yonne à la Convention, ami de Marat et de Robespierre, compromis dans l'insurrection de Prairial, n. à Auxerre, 1743, m. par suicide, 4 juin 1795.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e81_d1">1° P. s., signée aussi par ROVERE, OSSELIN et LEGENDrE, membres du Comité de sûreté générale de la Convention; 16 mai 1793, 1 p. in-4, tête imprimée et cachet de cire rouge</desc>
+               <note>Le Comité de Sûreté générale arrête que les nommés Goubet, Ménioux, Guillote, Bridoux et Le Roy, seront écroués à la prison de l'Abbaye et détenus séparément</note>
+               <desc xml:id="CAT_000291_e81_d2">2º P. s. par BILLAUD-VARENNE, P. A. LALOY, THURIOT, TalLIEN, CARNOT, EschaSSÉRiaUX, BaRERE, membres du Comité de salut public ; Paris, 8 fructidor an II (25 août 1794), 1 p. in-folio, tête et vignette imprimées, cachet de cire rouge</desc>
+               <note>Passe-port pour Nicolas Maure, représentant du peuple, se rendant en mission dans le département de l'Aube. -La pièce donne l'âge et le signalement de Maure..</note>
+            </item>
+            <item n="82" xml:id="CAT_000291_e82">
+               <num type="lot">82</num>
+               <name type="author">MÉRIMÉE (Prosper)</name>
+               <trait>
+                  <p>le célèbre écrivain, membre de l'Académie française, n. 1803, m. 1870.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e82_d1">L. a. s. (au duc Decazes) ; Paris, 20 décembre, 2 p. 1/2 in-4</desc>
+               <note>Intéressante lettre où il donne d'intéressants détails sur le dernier voyage de Victor Jacquemont.</note>
+            </item>
+            <item n="83" xml:id="CAT_000291_e83">
+               <num type="lot">83</num>
+               <name type="author">MERLIN  de Douai  (Philippe-Antoine)</name>
+               <trait>
+                  <p>député du Nord à la Convention, ministre de la Justice, directeur après le 18 fructidor célèbre jurisconsulte, n. 1754, m. 1838.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e83_d1">29 l. aut., dont quelques unes sont signées, et 6 l. seulement signées à Roger, 40 p. in-4 environ</desc>
+               <note>Toutes ces pièces sont écrites d'exil et datées de Bruxelles et de Harlem de 1821 à 1832. Elles offrent le plus grand intérêt pour l'histoire de la vie des dernières années de Merlin de Douai. Il parle souvent de ses anciens collégues, exilés comme lui. Il retrace même des couplets qu'il a composés sui quelques uns d'entre eux, Carnot par exemple. Il parle souvent de Defermon ; ces lettres donne d'intéressants détails sur la vie des conventionnels exilés.</note>
+            </item>
+            <item n="84" xml:id="CAT_000291_e84">
+               <num type="lot">84</num>
+               <name type="author">MILHAUD (Jean-Baptiste  comte)</name>
+               <trait>
+                  <p>député du Cantal à la Convention, un de nos meilleurs généraux de cavalerie, n. à Arpajou (Cantal), 1766, m. 1833.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e84_d1">L. a. s. au duc de Feltre ; Saint-Maur, 7 mai 1816, 1 p. in-folio</desc>
+               <note>Il demande à toucher sa solde de retraite dans le département de la Seine où il est propriétaire. «Je suis père de famille et après vingt-six ans de service il ne me reste que l'honneur et la bonté paternelle du souverain légitime pour achever l'éducation de mes enfants et leur donner les moyens de témoigner un jour notre reconnaissance et notre amour au meilleur des rois et à son auguste dynastie. ».</note>
+            </item>
+            <item n="85" xml:id="CAT_000291_e85">
+               <num type="lot">85</num>
+               <name type="author">MOLITOR (Gabriel-Jean-Joseph  comte)</name>
+               <trait>
+                  <p>général, qui s'illustra dans la campagne de Zurich, maréchal de France, n. à Hayange (Moselle), 1770, m. 1849.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e85_d1">L. s. à MASSÉNA; Paris, 7 vendémiaire an VIII (28 septembre 1799), 3 p. 1/2 in-folio</desc>
+               <note>Pièce historique. Il lui fait part des combats qu'il a soutenus contre les Autrichiens autour de Wésen, de Glaris et dans la vallée de Linthal. Après avoir conquis le champ de bataille contre les Autrichiens, un officier de leur état-major est venu trouver Molitor et lui demander qu'il se rende en lui annonçant la prochaine arrivée de 30.000 Russes. «Je lui ai fait répondre que c'est lui qui se rendra demain avec son monde et je tâcherai de lui tenir parole.</note>
+            </item>
+            <item n="86" xml:id="CAT_000291_e86">
+               <num type="lot">86</num>
+               <name type="author">MONTALIVET (Jean-Pierre BACHASSON  comte de)</name>
+               <trait>
+                  <p>ministre de l'Intérieur de Napoléon Ier, n. 1766, m. 1823.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e86_d1">L. a. s. à Madame Dareste ; 12 (janvier 1819), 1 p. in-4.</desc>
+               <note>Jolie lettre, d'un tour très aimable.</note>
+            </item>
+            <item n="87" xml:id="CAT_000291_e87">
+               <num type="lot">87</num>
+               <name type="author">MOREAU (Victor)</name>
+               <trait>
+                  <p>illustre général républicain, qui ternit sa gloire en passant au service de l'ennemi, n. 1763, blessé mortellement à la bataille de Dresde, 1813.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e87_d1">L. a. s. au commissaire-ordonnateur en chef de l'armée de Sambre et Meuse ; quartier général, 21 nivôse an V (10 janvier 1797), 1 p. 1/2 in-4</desc>
+               <note>Superbe pièce écrite comme général en chef de l'armée de Rhin et Moselle. Elle est ornée en tête de la folie vignette de l'armée de Rhin et Moselle.</note>
+            </item>
+            <item n="88" xml:id="CAT_000291_e88">
+               <num type="lot">88</num>
+               <name type="author">MOULIN (Jean-François-Auguste)</name>
+               <trait>
+                  <p>général, puis directeur, qui s'opposa au 18 brumaire, n. à Caen, 1752, m. 1810.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e88_d1">P. a. s.; Rennes, 11 vendémiaire an III (2 octobre 1794), 2 p. in-4</desc>
+               <note>PIÈCE HISTORIQUE. En exécution de l'arrêté du Comité de salut public en date du 8 vendémiaire, il ordonne au capitaine Luce, commandant le détachement de gendarmerie attaché au quartier-général de l'armée, de partir en poste pour Belle-Isle en mer avec un gendarme, afin d'y mettre en arrestation le général Turreau et de le conduire ensuite au Luxembourg, à Paris.</note>
+            </item>
+            <item n="89" xml:id="CAT_000291_e89">
+               <num type="lot">89</num>
+               <name type="author">MURAT (Joachim)</name>
+               <trait>
+                  <p>beau-frère de Napoléon Ier, maréchal de France, roi de Naples, n. à la Bastide-Fortunière (Lot), 1771, fusille en 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e89_d1">L. s. à Frochot; Paris, 13 pluviôse an XIII (3 février 1805), 1 p. in-folio</desc>
+               <note>Superbe lettre écrite comme gouverneur de Paris. Il l'informe que l'Empereur vient de l'élever à une des grandes dignités de l'Empire. (Il avait été nommé la veille prince et grand-amiral). «Cette faveur m'est d'autant plus précieuse qu'elle ne suspendra point les relations que j'ai avec le corps municipal de Paris et qu'elle me fournira de nouvelles occasions d'être utile aux habitants de la capitale et de leur prouver ma sincère affection. »</note>
+            </item>
+            <item n="90" xml:id="CAT_000291_e90">
+               <num type="lot">90</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <trait>
+                  <p>empereur des Français, n. 1769, m. 1821.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e90_d1">L. s. à BARRAS; quartier-général à Vérone, 22 thermidor an IV (9 août 1796), 1 p. in-folio, entête gravé à la manière noire</desc>
+               <note>PRÉCIEUSE PIÈCE. Il se plaint que son frère Lucien soit à Paris, alors qu'il devrait être à l'armée; il faut qu'il y retourne sur le champ. Puis il parle de lui-même et se plaint que les journaux cherchent à tirer sur lui. « Les misérables qu'ils sont ils auront bien de la peine à m'atteindre. Parce que je suis jeune et vif, ils me croient ambitieux? Mais comment répondre à une calomnie de cette sorte : abandonner les périls et la gloire, c'est ce que je suis décidé à faire. Trois ou quatre mois d'obscurité me concilieront avec tout le monde et me mettront à même de pouvoir servir dans les circonstances où la patrie aurait besoin de moi.» Il annonce que sa femme court l'Italie, qu'elle a été loin des dangers et que sa santé est rétablie. -Cette pièce est, évidemment, une des curieuses que l'on ait vues.</note>
+            </item>
+            <item n="91" xml:id="CAT_000291_e91">
+               <num type="lot">91</num>
+               <name type="author">NEY (Michel)</name>
+               <trait>
+                  <p>duc d'Elchingen, prince de la Moskowa, illustre maréchal d'Empire, n. à Sarrelouis, 1769, fusillé en 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e91_d1">L. s. au commissaire-ordonnateur en chef de l'armée de Sambre et Meuse; quartier-général de Friedberg, 11 vendémiaire an VI (2 octobre 1797), 1 p. 1/2 in-4, tête imprimée, marque postale de l'armée de Sambre et Meuse.</desc>
+               <note>Il lui demande le commissaire des guerres Chapotot pour être affecté à la division qu'il commande..</note>
+            </item>
+            <item n="92" xml:id="CAT_000291_e92">
+               <num type="lot">92</num>
+               <name type="author">PICHEGRU (Charles)</name>
+               <trait>
+                  <p>célèbre général républicain, qui conquit la Hollande, n. 1761, m. 1804.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e92_d1">L. a. s. au citoyen Morivaux, maire d'Arbois ; quartier-général de Lille, 25 floréal an II (14 mai 1794), 1 p. in-folio, bel en-tête finement gravé avec la devise: La victoire ou la mort</desc>
+               <note>Il le remercie des félications qu'il lui a envoyées au nom de ses concitoyens.</note>
+            </item>
+            <item n="93" xml:id="CAT_000291_e93">
+               <num type="lot">93</num>
+               <name type="author">POLIGNAC (Yolande-Gabrielle-Martine de POLASTRON  duchesse de)</name>
+               <trait>
+                  <p>la célèbre amie de Marie-Antoinette, n. à Paris, 1749, m. 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e93_d1">P. s., sur vélin; Paris, 29 mai 1781, 1 p. in-4 oblong. Rare et recherché.</desc>
+            </item>
+            <item n="94" xml:id="CAT_000291_e94">
+               <num type="lot">94</num>
+               <name type="author">PONIATOWSKI (Joseph  prince)</name>
+               <trait>
+                  <p>maréchal de France, illustre patriote polonais, n. 1762, noyé dans l'Elster, à Leipzig, 1813.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e94_d1">L. s., en français, au baron Bignon ; camp de Nowogrod, 20 juin 1812, 1 p. in-folio</desc>
+               <note>Il lui envoie le sieur Jurgaszko, ci-devant lieutenant au service de la Russie, qui s'offre à donner des renseignements sur les armées russes..</note>
+            </item>
+            <item n="95" xml:id="CAT_000291_e95">
+               <num type="lot">95</num>
+               <name type="author">QUINET (Edgar)</name>
+               <trait>
+                  <p>célèbre écrivain et homme politique, n. 1803, m. 1875.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e95_d1">13 l. a. s. à Buloz; Charolles, Strasbourg, Veytaux, 1831-1855, 35 p. in-8</desc>
+               <note>Intéressante correspondance littéraire. Quinet s'entretient de ses oeuvres littéraires. Il félicite Buloz sur le succès de la Revue des Deux-Mondes. « Vous la développez dans un esprit vraiment encyclopédique. Ne vous lassez pas et votre recueil réalisera ce que nous avons imaginé et vous aurez rendu un service éminent à notre époque. Quelles délicieuses choses que ce fragment de roman d'Alfred de Vigny, et que de vrai drame dans ces chroniques de Dumas. Je vous prierai à mon retour de me le faire connaître. L'abbé Prévost de Sainte-Beuve est un de ses plus beaux morceaux. » Le 12 mars 1839 il presse Buloz pour lui faire l'insertion d'un compte rendu sur ses ouvrages. « Vous sentez que j'ai besoin de sortir de Lyon et que je ne dois négliger aucune circonstance de montrer les droits que j'ai à ne pas y rester enseveli. Tâchez donc qu'il y ait un mot dans ce sens. »</note>
+            </item>
+            <item n="96" xml:id="CAT_000291_e96">
+               <num type="lot">96</num>
+               <name type="author">RACHEL (Elisa FÉLIX  dite)</name>
+               <trait>
+                  <p>la grande tragédienne, n. 1821, m. 1858.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e96_d1">L. a. s. à une dame ; 31 janvier 1841, 2 p. in-8</desc>
+               <note>Elle s'excuse de ne pouvoir assister à une soirée. Elle joue Marie Stuart et Polyeucte dans la même semaine; le soin de sa santé lui interdit toute fatigue.</note>
+            </item>
+            <item n="97" xml:id="CAT_000291_e97">
+               <num type="lot">97</num>
+               <name type="author">RATTAZZI (Marie-Studolmine-Laetitia Bonaparte-Wyse  dame de Solms  puis)</name>
+               <trait>
+                  <p>écrivain, petite-fille de Lucien Bonaparte, n. 1831, m.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e97_d1">L. a. s. Marie-Letizia de Solms, 3 p. in-8.</desc>
+               <note>Elle prie son correspondant de faire connaître à l'Empereur l'horrible situation qui lui est faite. « Petite fille de Lucien Bonaparte, cousine de l'Empereur, fière et me sentant pure et noble, je ne puis me résigner à un isolement qui autorise toutes les calomnies, qui me livre découverte à toutes les attaques.» Elle sollicite une entrevue avec l'Empereur, quand il la connaîtra mieux, ses préventions se dissiperont. Curieux détails.</note>
+            </item>
+            <item n="98" xml:id="CAT_000291_e98">
+               <num type="lot">98</num>
+               <name type="author">REILLE (Honoré-Charles-Michel-Joseph  comte)</name>
+               <trait>
+                  <p>maréchal de France, un des héros des guerres de l'Empire, n. à Antibes (Var), 1775, m. 1860.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e98_d1">L. a. s. à la comtesse Lecourbe; Rueil, 24 juillet 1821, 2 p. in-4</desc>
+               <note>Intéressante lettre où il répond au nom de la maréchale Masséna, sa bellemère, à une lettre de condoléance de la générale Lecourbe.</note>
+            </item>
+            <item n="99" xml:id="CAT_000291_e99">
+               <num type="lot">99</num>
+               <name type="author">ROBESPIERRE (Maximilien de)</name>
+               <trait>
+                  <p>le célèbre conventionnel, n. 1758, décapité le 28 juillet 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e99_d1">P. s., signée aussi par CARNOT, BARERE et BILLAUD-VARENNE, 27e jour du 1er mois de la 2e année de la République (17 novembre 1793), 1 p. in-folio</desc>
+               <note>Destitution du citoyen Jacquet, accusateur militaire près l'armée de la Moselle et son remplacement par le citoyen Mallarmé. Robespierre a signé deux fois, par mégarde; une des signatures est biffée.</note>
+            </item>
+            <item n="100" xml:id="CAT_000291_e100">
+               <num type="lot">100</num>
+               <name type="author">ROCHAMBEAU (Donatien de VIMEUR  comte de)</name>
+               <trait>
+                  <p>maréchal de France, qui commanda en chef les troupes françaises pendant les guerres d'Amérique, n. à Vendôme, 1725, m. 1807.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e100_d1">L. a. s. à un duc; sans date, 2 p. in-folio</desc>
+               <note>Magnifique et rare pièce où il fait le récit d'une altercation survenue entre M. de Maignol, lieutenant-colonel du régiment d'Auvergne et le sieur Sauvage, lieutenant au même corps, ayant pour motif une indiscipline habituelle de la part du lieutenant et des voies de fait du côté de son chef.</note>
+            </item>
+            <item n="101" xml:id="CAT_000291_e101">
+               <num type="lot">101</num>
+               <name type="author">ROLAND (Philippe-Laurent)</name>
+               <trait>
+                  <p>célèbre statuaire, membre de l'Institut, n. à Marcq (Nord), 1746, m. à Paris, 1816.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e101_d1">P. s., signée aussi par TRONCHET; 4 janvier 1806, 1 p. 1/2 in-4.</desc>
+               <note>Curieux document. Marché passé entre Tronchet et Roland, pour l'exécu. tion, par ce dernier, du buste de Tronchet, en marbre, grandeur naturelle, dans le costume de sénateur.</note>
+            </item>
+            <item n="102" xml:id="CAT_000291_e102">
+               <num type="lot">102</num>
+               <name type="author">ROMME (Gilbert)</name>
+               <trait>
+                  <p>député du Puy de Dôme à l'Assemblée législative et à la Convention, n. à Riom, 1750, décapité à Paris, 17 juin 1795.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e102_d1">L. a. s. aux administrateurs du département de Paris; Paris, 21 vendémiaire an III (12 octobre 1795). Peu commun</desc>
+               <note>Il les prie de faire verser au dépôt des voitures nationales celle qui lui a servi dans sa mission.</note>
+            </item>
+            <item n="103" xml:id="CAT_000291_e103">
+               <num type="lot">103</num>
+               <name type="author">SAINT-POL (Loys de Luxembourg  connétable de)</name>
+               <trait>
+                  <p>connétable de France, qui servit tour à tour les Anglais et Charles VII, n. vers 1418, décapité à Paris, 1475, pour crime de trahison envers Louis XI.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e103_d1">P. s., sur vélin; 24 juillet 1469, 1 p. grand in-folio.</desc>
+               <note>Il certifie que les 97 hommes d'armes et neuf vingt quatorze archers dont le roi lui a donné la charge sont en bon et suffisant habillemeut de guerre peur servir le roi au service de ses guerres, toutefois qu'il lui plaira pour la garde de son corps. Tous les noms sont inscrits et cette liste de noms nobles est fort intéressante.</note>
+            </item>
+            <item n="104" xml:id="CAT_000291_e104">
+               <num type="lot">104</num>
+               <name type="author">SALLE (Jean-Baptiste)</name>
+               <trait>
+                  <p>député de la Meurthe à la Convention, proscrit avec les Girondins. n. 1760, décapité à Bordeaux, 20 juin 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e104_d1">Minute aut. sig. d'une lettre au garde des sceaux ; sans date, 1 p. in-4. Rare.</desc>
+               <note>Il lui signale que la municipalité de Lauterbourg n'a pas la force nécessaire pour faire respecter la loi.</note>
+            </item>
+            <item n="105" xml:id="CAT_000291_e105">
+               <num type="lot">105</num>
+               <name type="author">SAND (George)</name>
+               <trait>
+                  <p>la grande romancière, n. 1804, m. 1876.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e105_d1">17 l. a. s. à M. Pichon; Nohant, 1854-1861, 30 p. in-8 ou in-16</desc>
+               <note>Intéressante correspondance adressée à un ami qui se chargeait de ses commissions auprès des journaux et des directeurs de théâtre. Elle le prie de retirer un manuscrit de chez Hostein, le prie d'écrire à Barbés qu'elle lui enverra de l'ouvrage, ctc. Le 30 octobre 1861, elle lui transcrit une réponse de Nefftzer à propos du paiement d'une de ses oeuvres : « Madame C'est par une très regrettable erreur que notre administration vous a traitée en bourgeoise. Nous nous ferons un devoir de réparer cette erreur auprès de votre fondé de pouvoirs. Nefftzer. » Toutes ces lettres sont remplies de petits faits curieux sur l'intimité de la grande romancière.</note>
+            </item>
+            <item n="106" xml:id="CAT_000291_e106">
+               <num type="lot">106</num>
+               <name type="author">TALLIEN (Thérésia de CABARRus  Madame)</name>
+               <trait>
+                  <p>la reine de la réaction thermidorienne, épouse de Tallien, n. 1773, m. 1835.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e106_d1">L. a. s. Thérésia de Cabarrus à Mlle Rath; 19 thermidor, 1/2 p. in-8</desc>
+               <note>Jolie lettre où elle l'invite à venir dîner au Raincy.</note>
+            </item>
+            <item n="107" xml:id="CAT_000291_e107">
+               <num type="lot">107</num>
+               <name type="author">TALMA (Julie Carreau  Mme)</name>
+               <trait>
+                  <p>femme célèbre par son esprit, épouse du grand tragédien, 1756, m. 1805.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e107_d1">L. a. s. à Edouard Bignon; 11 ventôse, 1 p. in-8</desc>
+               <note>Jolie lettre où elle lui demande de traduire des journaux anglais pour son ami Louvet. «Vous jugerez facilement de ce qui peut intéresser la République dans ce fatras ; vous nous ferez grâce du reste. »</note>
+            </item>
+            <item n="108" xml:id="CAT_000291_e108">
+               <num type="lot">108</num>
+               <name type="author">THIERS (Adolphe)</name>
+               <trait>
+                  <p>l'illustre homme d'Etat, n. 1797, m. 1877.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e108_d1">L. a. s. A.-T. à Chassan; Paris, 29 juillet 1848, 2 p. 1/2 in-4</desc>
+               <note>IMPORTANTE LETTRE. Il annonce qu'il travaille plus qu'il n'a jamais fait sa vie est une vie de dévouement, car les désagréments égalent les érils. Le lundi suivant il aura une longue discussion avec les socialistes, M. Prudhon (sic.) en tête, et il veut réserver toutes ses forces pour la bataille. Il critique le gouvernement qui n'a pas la force de faire cesser les publications incendiaires. «Vous ne le verrez pas se prononcer hardiment et fermement pour les honnêtes gens. Toutes les fois qu'il sera obligé de réprimer le désordre il demandera pardon le lendemain d'avoir fait son devoir. » Il conseille cependant de soutenir le gouvernement parce qu'il n'y a pas mieux. « M. Cavaignac, par exemple, veut l'impôt sur les successions, avec le caractère progressif. Cela vous donnera l'idée du sentiment du pouvoir actuel. Gagnons du tems et ce sera beaucoup mieux. »</note>
+            </item>
+            <item n="109" xml:id="CAT_000291_e109">
+               <num type="lot">109</num>
+               <name type="author">VADIER (Marie-Guillaume-Albert)</name>
+               <trait>
+                  <p>député de l'Ariège à la Convention, un des agents les plus actifs de la chute de Robespierre, n. 1736, m. 1828.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e109_d1">P. a. s., signée aussi par LEGENDRE, DUBARRAN, AMAR, LOUIS, BERNARD, de Saintes, membres du Comité de sûreté générale de la Convention ; Paris, 25 thermidor an II (12 août 1794), 1/2 p. in-folio, tête et vignette imprimées, cachet.</desc>
+               <note>Ordre de mise en liberté du citoyen Étienne Moulé, rentier.</note>
+            </item>
+            <item n="110" xml:id="CAT_000291_e110">
+               <num type="lot">110</num>
+               <name type="author">VALLÈS (Jules)</name>
+               <trait>
+                  <p>le célèbre écrivain, n. 1832. m. 1885.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e110_d1">L. a. s.; Paris, samedi matin, (186.), 2p. in-8. Un mot est arraché dans un angle</desc>
+               <note>Curieuse lettre écrite comme rédacteur en chef de la Rue. Il demande à un collaborateur d'écrire 120 lignes sur les élèves de l'Ecole normale, qu'il accable d'épithètes virulentes. «Ils songent à faire comme les heureux, à sortir de l'enseignemeut un jour pour sauter dans le journalisme. Mais fais bien remarquer que le temps n'est plus où ils pouvaient réussir. Les finasseries crévent. Et puis, dis encore, dis surtont qu'ils ne sont jamais des plumes bien franches, des esprits élevés, des caractères bien même les plus célèbres ! Prends-le de haut, et vertement ! L'article contre l'éducation universitaire, contre ceux (et ils en sont là tous : Sarcey l'ours Weiss le chat, etc., etc.) contre ceux aussi qui y croient et ne sont que des aspirants à chaires publiques. Bel article et dans ton encre ! Tu la hais, n'est-ce pas? cette éducation qui fait que l'on crêve de faim au premier Villemessant qui vous lâche.»</note>
+            </item>
+            <item n="111" xml:id="CAT_000291_e111">
+               <num type="lot">111</num>
+               <name type="author">VOLTAIRE (François-Marie Arouet de)</name>
+               <trait>
+                  <p>le grand écrivin, n. 1694, r. 1778.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e111_d1">P. a. s.; (27 juillet 1767), 1 p. in-folio</desc>
+               <note>Copie d'une lettre au sieur Cogé. Il se défend d'être l'auteur d'un poème sur la religion naturelle, d'un dictionnaire philosophique. «Vous osez profaner le nom sacré du Roy en disant que Sa Majesté en a marqué, la plus vive indignation à M. le Président Hénault et à M. Capronier. J'ai en main la lettre de M. le Pr Hénaut qui m'assure que ce bruit est faux..... Vous avez voulu outrager et perdre un vieillard de soixante-quatorze ans qui ne fait que du bien dans sa retraite; il ne vous reste plus qu'à vous repentir.»</note>
+            </item>
+            <item n="112" xml:id="CAT_000291_e112">
+               <num type="lot">112</num>
+               <name type="author">VOLTAIRE (François-Marie Arquet de)</name>
+               <desc xml:id="CAT_000291_e112_d1">Pièce de vers autographe; Etioles, 13 juillet 1745, 3/4 de p. in-4.</desc>
+               <note>Très curieuse pièce. C'est la minute d'une épître adressée à Madame Lenormant d'Etioles, à qui le Roi venait d'envoyer le brevet de marquise de Pompadour, en même temps qu'il prenait Gand. (11 juillet 1745). « Ces deux brevets si bien venus «Vivront tous deux dans la mémoire « Chez lui (le Roi) les autels de Vénus « Sont dans le temple de la gloire.</note>
+            </item>
+            <item n="113" xml:id="CAT_000291_e113">
+               <num type="lot">113</num>
+               <name type="author">WURMSER (Dagobert-Siegmund  comte)</name>
+               <trait>
+                  <p>célèbre général autrichien, l'adversaire malheureux de Napoléon à Castiglione, à Roveredo, à Mantoue, etc, n. à Strasbourg, 1724, m. à Vienne, 1797.</p>
+               </trait>
+               <desc xml:id="CAT_000291_e113_d1">L. a. s., en français; Neuf-Brisach, 13 mai 1773, 3 p. in-folio. Rare.</desc>
+               <note>Belle lettre relative au recrutement des régiments allemands de l'Empire.</note>
+            </item>
+            <note>DOCUMENTS HISTORIQUES</note>
+            <item n="114" xml:id="CAT_000291_e114">
+               <num type="lot">114</num>
+               <name type="other">ETATS-GÉNÉRAUX DE 1789.</name>
+               <desc xml:id="CAT_000291_e114_d1">L. s. de Thierryde Ville d'Avrai ; Versailles, 30 avril 1789, 2 p. 1/2 in-folio</desc>
+               <note>Intéressante lettre relative au dais préparé pour le Roi pour les Etats-généraux. Il rappelle les précédents et proteste contre les ingérences des personnes qui n'ont pas le droit de s'occuper du dais. «Vous pouvez être persuadé qu'un intérêt aussi sacré que celui de la conservation du Roi ne sera pas traité avec légèreté. »</note>
+            </item>
+            <item n="115" xml:id="CAT_000291_e115">
+               <num type="lot">115</num>
+               <name type="author">VAINQUEURS DE LA BASTILLE.</name>
+               <desc xml:id="CAT_000291_e115_d1">1° L. a. s. de Dusaulx à M. de la Noraye, administrateur de la ville de Paris; Paris, 3 juillet 1790, 1 p. in-4</desc>
+               <note>Intéressante lettre concernant le sieur Ferrand, bas-officier des Invalides au siège de la Bastille. « Il paraît certain que M. Ferrand avec son camarade Becquard ont empêche M. de Launay de mettre le feu aux poudres. Becquard a péri ; nous avons récompensé sa veuve ; il n'est pas moins juste de traiter de même M. Ferrand.»</note>
+               <desc xml:id="CAT_000291_e115_d2">2° L. a. s. de LÉONARD BOURDON, signé aussi par Dusaulx à Bailly ; 6 août 1790, 1 p. in-4.</desc>
+               <note>Ils lui adressent les quatre dernières veuves de la Bastille fsic J). Elles se nomment : Prévost, Poirier, Rousseau et Becquart. Ils demandent pour elles les mêmes secours que pour les autres. Bailly, par une apostille signée, ordonne qu'il soit délivré a chaque veuve la somme de vingt-quatre livres.</note>
+            </item>
+            <item n="116" xml:id="CAT_000291_e116">
+               <num type="lot">116</num>
+               <name type="other">JOURNÉES D'OCTOBRE 1789.</name>
+               <desc xml:id="CAT_000291_e116_d1">P. a. s. de LAFAYETTE; 7 octobre 1789, 1/2 p. in-4, vignette imprimée.</desc>
+               <note>Il transmet l'ordre du Roi aux grenadiers, chasseurs et fusiliers du régiment de Flandres de se rendre à Versailles.</note>
+            </item>
+            <item n="117" xml:id="CAT_000291_e117">
+               <num type="lot">117</num>
+               <name type="other">DÉPART DU ROI POUR PARIS.</name>
+               <desc xml:id="CAT_000291_e117_d1">L. s. de FRETEAU, président de l'Assemblée nationale, (aux membres de la municipalité de Versailles); 15 octobre 1789, 1 p. in-folio</desc>
+               <note>Il leur exprime le regret que l'Assemblée éprouve en quittant Versailles Liée à la plupart de vos membres par le noeud si étroit et si révéré de l'hospitalité, elle aurait vivement souhaité que les circonstances du moment lui permissent de continuer ses séances près de vous et d'adresser Vos voeux à Sa Majesté. » Il termine en les exhortant à faire des sacrifices pour -Une note écrite en haut de la la régénération prochaine de l'Empire, pièce est ainsi conçue : « Le 17 octobre 1789. Délibéré que cette lettre ne sera pas mise dans les papiers publics.»</note>
+            </item>
+            <item n="118" xml:id="CAT_000291_e118">
+               <num type="lot">118</num>
+               <name type="other">FÉDÉRATION</name>
+               <desc xml:id="CAT_000291_e118_d1">P. s. par MOTEL et CAPITAINE, au nom de Bailly, La Fayette et Charron, ce dernier, commissaire pour le pacte fédératif; à l'Hôtel-de-Ville, 21 juillet 1790, 1 p. in-folio, cachet de la confédération nationale</desc>
+               <note>Ils certifient que Laubard fils, député du département du Gard, district d'Uzès, a assisté au pacte fédératif.</note>
+            </item>
+            <item n="119" xml:id="CAT_000291_e119">
+               <num type="lot">119</num>
+               <name type="other">FUITE DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e119_d1">P. s. par LA FAYETTE; Paris, 21 juin 1791, 1/2 p. in-4.</desc>
+               <note>Il prie le maire de Paris (Bailly) de faire délivrer 2,400 livres pour fournir aux frais des courriers envoyés à la suite du Roi. -La même pièce contient l'ordre, signée de Bailly, de faire payer cette somme et l'acquit de Richardin, adjoint au major-général.</note>
+            </item>
+            <item n="120" xml:id="CAT_000291_e120">
+               <num type="lot">120</num>
+               <name type="other">FUITE DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e120_d1">Placard manuscrit ; (21 juin 1791), 1 p. in-folio</desc>
+               <note>Curieux document, qui parait être un résumé hâtif, écrit pour faire connaître sans retard les décisions de l'Assemblée nationale. Sur la motion de M. Barnave on ordonne que chaque bon citoyen soit armé; on leur recommande la paix pour éviter le guerre civile; on a envoyé chercher MM. Bailly et La Fayette; on va publier à son de trompe, une proclamation pour rassurer le peuple et lui dire que l'Assemblée nationale ne quittera pas le gouvernail, etc...</note>
+            </item>
+            <item n="121" xml:id="CAT_000291_e121">
+               <num type="lot">121</num>
+               <name type="other">FUITE DE LOUIS XVI</name>
+               <desc xml:id="CAT_000291_e121_d1">P. s. deux fois par DEJOLY, secrétaire-greffier de la municipalité de Paris ; 21 juin 1791, 3 p. in-folio</desc>
+               <note>Expédition conforme de deux décrets de l'Assemblée nationale. Le premier ordonnait aux municipalités d'arrêter toutes les personnes sortant du royaume, tous les individus qui tenteraient d'exporter du royaume des matières d'or et d'argent ainsi que ceux qui auraient pu concourir à l'enlèvement du Roi. -Dans le second, l'Assemblée informe les municipalités que le maintien de la Constitution, le salut de l'Empire n'ont jamais exigé plus impérieusement le bon ordre et la tranquillité publique, « que l'Assemblée nationale a pris les mesures les plus actives pour suivre la trace de ceux qui se sont rendus coupabes de l'enlèvement du Roy et de la famille royale, qu'elle va sans interruption dans ses séances, employer tous les moyens pour que la chose publique ne souffre pas de cet événement; que tous les citoyens doivent se reposer entièrement sur elle des soins qu'exige le salut de l'Empire et que tout ce qui exciteroit le trouble, effrayerait les personnes, menacerait les propriétés, seroient d'autant plus coupables que par là seraient compromises et la liberté et la Constitution.</note>
+            </item>
+            <item n="122" xml:id="CAT_000291_e122">
+               <num type="lot">122</num>
+               <name type="other">FUITE DE LOUIS XVI</name>
+               <desc xml:id="CAT_000291_e122_d1">L. s. par J.-J. MILLANOIS, PERISSE dU LUC, RoSTAING et Girerd, députés du département de Rhône-et-Loire à l'Assemblée nationale, aux administrateurs du directoire du département de Rhône-et-Loire; Paris, 24 juin 1791, 2 p. 1/2 in-folio</desc>
+               <note>Ils les informent des incidents de retour du Roi de Varennes à Paris L'Assemblée nationale est en permanence pour prendre les mesures nécessitées par la situation. Le commandant en chef de la garde nationale provisoire a tenu à prêter serment devant l'Assemblée. De 6 à 11 heures du soir les citoyens de Paris, de tous rangs et de tous âges, ont rempli le même devoir. «Il faut se contenter de vous raconter le fait, car il serait impossible de trouver des expressions pour rendre ce que cette auguste cérémonie avait d'imposant et l'attendrissement dont tous les coeurs étoient pénétrés. Le cri de ralliement de ce peuple, si indignement calomLoi et la Loi, seule, aujourd'hui, à la nié, était respect et obéissance règne. » Il leur recommande d'administrer avec zèle afin d'éviter l'anar. chie, «dans laquelle on a voulu nous plonger par l'attentat inouï de l'enlèvement du Roi.</note>
+            </item>
+            <item n="123" xml:id="CAT_000291_e123">
+               <num type="lot">123</num>
+               <name type="other">RETOUR DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e123_d1">L. s. de FILLEUL, au nom des administrateurs des subsistances de Paris ; Paris, 24 juin 1791, 1 p. in-folio, tête et vignette imprimées</desc>
+               <note>Lettre destinée à prévenir les sections que le retour du Roi, de la Reine et de la famille royâle à Paris doit amener une grande quantité de provinciaux et que les boulangers doivent se munir de provisions pour faire face à cette augmentation de consommateurs.</note>
+            </item>
+            <item n="124" xml:id="CAT_000291_e124">
+               <num type="lot">124</num>
+               <name type="other">GARDE DU ROI ET DU DAUPHIN.</name>
+               <desc xml:id="CAT_000291_e124_d1">P. s. par ALEXANDRE de BEAUHARNAIS, président, signée aussi par GRENOT, FRICAUD et Mauriet, secrétaires de de l'Assemblée nationale ; Paris, 25 juin 1791, 2 p. 1/2 in-folio, tête et vignette imprimées, cachet de cire rouge.</desc>
+               <note>PRÉCIEUX DOCUMENT. C'est un décret de l'Assemblée nationale organisant la garde qui veillera à la sûreté du roi et répondra de sa personne. L'héritier présomptif de la couronne aura une garde particulière et un gouverneur, nommé par l'Assemblée, lui sera donné. Tous ceux qui ont accompagné la famille royale seront mis en état d'arrestation. Le Roi et la Reine seront entendus dans leurs déclarations; la Reine aura également une Dés ce moment, la famille royale était prisonnière.</note>
+            </item>
+            <item n="125" xml:id="CAT_000291_e125">
+               <num type="lot">125</num>
+               <name type="other">ARMEMENT DES MARSEILLAIS (Août 1792)</name>
+               <desc xml:id="CAT_000291_e125_d1">P. s. de MOISSON, commandant le bataillon des Marseillais; (4 août 1792), 1 p. in-4</desc>
+               <note>PRÉCIEUX DOCUMENT. Considérant les circonstances où ils se trouvent, les Marseillais demandent à la municipalité de Paris qu'il leur soit délivré cinq cents paquets de cartouches. Sur cette demande Panis a écrit et Sergent a signé avec lui, cette apostille suggestive : « Bon et très bon à délivrer sur-le-champ. De la Mairie, le 4 août 1792, l'an 4e (de la Liberté) » - Le reçu des cartouches est signé par Dufour, lieutenant d'artillerie. - On sait que les Marseillais, au nombre de 516, arrivèrent à Paris le 30 juillet pour aider les Parisiens à détruire la royauté. Depuis leur arrivée, on n'attenCe fut Mois- - dait que l'occasion favorable pour attaquer les Tuileries, son, au dire des historiens de la journée du 10 août, qui entra le premier dans les Tuileries, le pistolet à la main et fit ranger sa troupe face au château. Il fut blessé à la première décharge des Suisses.</note>
+            </item>
+            <item n="126" xml:id="CAT_000291_e126">
+               <num type="lot">126</num>
+               <name type="other">VEILLE DU 10 AOUT 1792.</name>
+               <desc xml:id="CAT_000291_e126_d1">L. s. de Pétion, maire de Paris ; Paris, 9 août 1792, 1 p. 1/2 in-folio</desc>
+               <note>Proclamation aux sections de Paris qui réclamaient la suspension de Louis XVI, que l'Assemblée discutait. « J'ai entendu dire qu'on voulait fixer le jour et l'instant de sa décision. Cette idée est intolérable. Jamais on n'a dit à un juge : A telle heure vous aurez jugé une affaire. A plus forte raison ne peut-on pas tenir ce langage à une assemblée qui prononce sur une grand objet national. »</note>
+            </item>
+            <item n="127" xml:id="CAT_000291_e127">
+               <num type="lot">127</num>
+               <name type="other">JOURNÉE DU 10 AOUT 1792.</name>
+               <desc xml:id="CAT_000291_e127_d1">P. s. par GENSONNÉ, ex-président de l'Assemblée législative, CRESTIN et LECOINTE-PUYRAVEAU, secrétaires; Paris, 10 août 1792, 1 p. in-folio, tête et vignette imprimées</desc>
+               <note>DOCUMENT HISTORIQUE dont voici le texte : « L'Assemblée nationale déclare que les officiers et soldats suisses sont sous la sauvegarde de la loi et des vertus hospitalières du peuple français. » (On sait que Louis XVI, réfugié à l'Assemblée pendant le combat, ordonna aux Suisses de cesser le feu et de se rendre à l'Assemblée; celle-ci, par le document analysé ci-dessus, les prit sous sa protection. Malgré cela, ils furent presque tous massacrés, y compris ceux qui avaient été faits prisonniers).</note>
+            </item>
+            <item n="128" xml:id="CAT_000291_e128">
+               <num type="lot">128</num>
+               <name type="other">DESTRUCTION DES STATUES ROYALES</name>
+               <desc xml:id="CAT_000291_e128_d1">P. s. par PALLOY; (12 août 1792), 2 p. in-folio. En-tête imprimé de la municipalité de Paris.</desc>
+               <note>Palloy rappelle qu'il a été chargé par un décret de l'Assemblée nationale daté de la veille de l'enlèvement des statues royales des places ci-devant Royale, Henri IV, des Victoires, de Vendôme, Louis XV. Il demande qu'on lui donne une garde suffisante pour protéger les travaux. Marie-Joseph Chénier, président du Conseil général de la Commune de Paris, donne l'autorisation et Santerre, commandant provisoire de la garde nationale, a signé également le bon à exécuter.</note>
+            </item>
+            <item n="129" xml:id="CAT_000291_e129">
+               <num type="lot">129</num>
+               <name type="other">ABOLITION DE LA ROYAUTÉ.</name>
+               <desc xml:id="CAT_000291_e129_d1">P. s. par MEHÉE, secrétaire-greffier de la Commune de Paris ; Paris, 21 septembre 1792, 1 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Extrait du registre des délibérations du Conseil général de la Commune de Paris. Après la lecture d'une lettre du citoyen Pétion, maire de Paris, portant que la Convention nationale vient de décréter que la Royauté était abolie en France, le Conseil général de la Commune de Paris arrête qu'il sera envoyé des ordonnances dans les 48 sections pour leur faire part du présent décret et inviter les citoyens à faire illuminer les rues.</note>
+            </item>
+            <item n="130" xml:id="CAT_000291_e130">
+               <num type="lot">130</num>
+               <name type="other">RÉUNION DES PAYS RHÉNANS A LA FRANCE.</name>
+               <desc xml:id="CAT_000291_e130_d1">P. s. par BARERE et par J. DEBRY, secrétaires de la Convention ; Paris, 12 novembre 1792, 1 p. in-folio, tête et vignette imprimées</desc>
+               <note>Extrait des procès-verbaux de la Convention. « Un membre annonce que grand nombre d'habitants des pays des Deux-Ponts, Nassau, Sarrebruck et Darmstadt, demandent à devenir français ; d'autres rappellent que le général Custine avait demandé si la République promettait aux peuples qu'elle rendrait libres de les défendre contre les tentatives des tyrans. Ils proposent de supprimer chez ces peuples le régime féodal. »</note>
+            </item>
+            <item n="131" xml:id="CAT_000291_e131">
+               <num type="lot">131</num>
+               <name type="other">JUGEMENT DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e131_d1">L. s. par SANTERRE, commandant-général provisoire de la garde nationale parisienne, aux citoyens du district de l'Egalité (Bourg-le-Reine) ; Paris, 9 décembre 1792, 1 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Il leur énumère les mesures qui sont prises, pour assurer la sécurité dans Paris pendant le jugement de Louis Capet. « Chaque section indépendamment des citoyens armés qu'elle fournira, tant pour assurer la route, que pour l'escorte, aura une réserve de 200 hommes qui sont destinés à protéger les caisses publiques, les dépôts précieux, les prisons, etc. Il y aura aussi plusieurs réserves aux Thuileries, à la place de la Liberté et à la place Vendôme pour la Convention nationale. D'après ces détails vous voyés que pendant que vous vous occuperés d'assurer la tranquilité au dehors de Paris, nous apporterons tous nos soins pour maintenir l'ordre dans l'intérieur.</note>
+            </item>
+            <item n="132" xml:id="CAT_000291_e132">
+               <num type="lot">132</num>
+               <name type="other">JUGEMENT DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e132_d1">P. s. (griffe), par COULOMBEAU, secrétaire-greffier de la Commune de Paris ; Paris, 11 décembre 1792, 1 p. in-fol., tête et vignette imprimées.</desc>
+               <note>Curieux document. Extrait du registre des délibérations du Conseil général de la Commune de Paris. Les citoyens sont invités à illuminer pendant tout le temps que durera le procès de Louis XVI.</note>
+            </item>
+            <item n="133" xml:id="CAT_000291_e133">
+               <num type="lot">133</num>
+               <name type="other">EXÉCUTION DE LOUIS XVI.</name>
+               <desc xml:id="CAT_000291_e133_d1">P. s. (griffe) par COULOMBEAU, secrétaire-greffier du Conseil général de la Commune de Paris; 20 janvier 1793, 2 p. in-folio, tête et vignette imprimées</desc>
+               <note>PIÈCE HISTORIQUE. Extrait du registre des délibérations du Conseil général du département, en permanence le 20 janvier 1793. Il concerne les précautions à prendre pour veiller à la sûreté de Paris durant la journée du lendemain. Aucun rassemblement, armé ou non, ne devra entrer, ni sortir de Paris. « Les sections feront mettre sous les armes et sur pied demain matin, à 7 heures, tous les citoyens, excepté les fonctionnaires publics et tous les employés à l'administration, qui, tous, devront être à leur poste. » Les comités de sections seront en permanence ; tous les citoyens veilleront à ce que les ennemis de la liberté et de l'égalité ne puissent rien tenter.</note>
+            </item>
+            <item n="134" xml:id="CAT_000291_e134">
+               <num type="lot">134</num>
+               <name type="other">DESTRUCTION DE LYON.</name>
+               <desc xml:id="CAT_000291_e134_d1"> P. s. par FOUCHÉ et LAPORTE, représentants du peuple envoyés devant Commune-Affranchie (Lyon); Commune-Affranchie, 6 ventôse an II (24 février 1794), tête et vignette imprimées, cachet de cire rouge.</desc>
+               <note>PRÉCIEUSE PIÈCE, lqui détermine l'emploi des matériaux provenant de la démolition des maisons de Lyon. En voici le préambule : «Les réprésentants du peuple, etc., occupés de tous les moyens qui peuvent imprimer un grand caractère à la justice sévère, à la puissance terrible du peuple français, donner le courage de la force et de l'espérance à tous les amis de la République et perpétuer l'effroi de la faiblesse et du désespoir dans l'âme de tous ceux qui cherchent à usurper la souveraineté populaire, considérant que si le crime des Lyonnais, leur révolte sanglante et impie contre la représentation du peuple, contre sa volonté suprême ne peuvent être transmis à la postérité d'une manière plus énergique et plus expressive que dans le tableau des ruines d'une partie de leur ville, il importe cependant que ces décombres monarchiques entassées sans ordre, sans précaution, etc...</note>
+            </item>
+            <item n="135" xml:id="CAT_000291_e135">
+               <num type="lot">135</num>
+               <name type="other">PRÉPARATIFS DU 9 THERMIDOR AN II.</name>
+               <desc xml:id="CAT_000291_e135_d1">P. a. s. de Dupuis, député de Seine-et-Oise à la Convention, signée aussi par M.-J. CHÉNIER; tridi thermidor an II (21 juillet 1794), 3/4 de p. in-4</desc>
+               <note>Dupuis déclare qu'il y a environ un mois le citoyen Vilatte venait fréruemment chez lui sans y être itwvité et qu'il a dit maintes fois, en présence du citoyen Chénier (Marie-Joseph), qui l'atteste, « qu'il était nécessaire de purger la Convention nationale de plusieurs scélérats qu'elle renfermait dans son sein et que sous peu il y aurait dix-huit membres de la Convention nationale qui seroient mis en jugement au Tribunal révolutionnaire que leur affaire seroit bientôt faitte et que la paix et tranquilité renaîtroit. » (Vilate, étudiant, juré au Tribunal révolutionnaire, fut décapité avec Fouquier-Tinville le 17 floréal an III (6 mai 1795)</note>
+            </item>
+            <item n="136" xml:id="CAT_000291_e136">
+               <num type="lot">136</num>
+               <name type="other">JOURNÉE DU 9 THERMIDOR AN II.</name>
+               <desc xml:id="CAT_000291_e136_d1">P. s. par S.-E. Monnel, inspecteur de la Convention, signée aussi par VOulland, ex-président, Le VASSEUR (de la Meurthe) et Portiez, secrétaires de la Convention ; Paris 9 thermidor an II (27 juillet 1794), 1 p. in-folio, tête et vignette imprimées, cachet collé.</desc>
+               <note>PIÈCE HISTORIQUE. « La Convention nationale après avoir entendu ses deux comités de salut public et de sûreté générale décrète que le représentant du peuple Barras est nommé commandant de la force armée de Paris qui sera tenue de lui obéir en tout ce qu'il lui commandera. »</note>
+            </item>
+            <item n="137" xml:id="CAT_000291_e137">
+               <num type="lot">137</num>
+               <name type="other">JOURNÉE DU 9 THERMIDOR AN II</name>
+               <desc xml:id="CAT_000291_e137_d1">P. s. par S.-E. Monnel, inspecteur de la Convention, BÉZARD et A. Dumont, secrétaires ; 9 thermidor an II, 1 p. in-folio.</desc>
+               <note>PIÈCE HISTORIQUE. Extrait des procès-verbaux de la Convention. « La Convention nationale a mis hors la loi Henriot, le maire de Paris (Lescot- Fleuriot) et tous les membres du Conseil général de la Commune, qui se sont déclarés en rébellion et qui ont reçu dans leur sein les individus décrétés d'arrestation (les deux Robespierre, Couthon, Saint-Just et Le Bas) dans les séances de ce jour. Tout le ralliement des autorités constituées et de force publique est à la Convention. » La Convention avait décrété la misé hors la loi des Robespierre, de Couthon, Saint-Just et Le Bas, qui avaient été arrêtés à 5 heures et demie. La Commune de Paris s'insurgea ; Hanriot voulu envahir la Convention, fut fait prisonnier par ses propres gendarmes, puis délivré par Coffinhal, qui fit transporter les Robespierre et leurs amis à l'Hôtel de Ville où Payan (v. le n° suivant) invita à se rendre les commandants de la force armée et les autorités constituées. -C'est en apprenant ces faits que la Convention rédigea le décret analysé ci dessus.)</note>
+            </item>
+            <item n="138" xml:id="CAT_000291_e138">
+               <num type="lot">138</num>
+               <name type="other">JOURNÉE DU 9 THERMIDOR AN II.</name>
+               <desc xml:id="CAT_000291_e138_d1">P. s. par PAYAN, agent national de la Commune de Paris ; 9 thermidor an II, 1 p. in-4, tête et vignette imprimées.</desc>
+               <note>DOCUMENT HISTORIQUE. « Le Conseil général invite les commandants de la force armée des sections et les autorités constituées de venir dans son sein prêter le serment de sauver la Patrie. » Cette pièce établie nettement l'intention de la municipalité de soulever les sections contre la Convention. Elle parait être la minute, sur laquelle on devait faire des expéditions aux présidents des comités révolutionnaires des sections.</note>
+            </item>
+            <item n="139" xml:id="CAT_000291_e139">
+               <num type="lot">139</num>
+               <name type="other">JOURNÉE DU 9 THERMIDOR AN II.</name>
+               <desc xml:id="CAT_000291_e139_d1">P. a. s. de Louis François, signée aussi par CHARVET, LABARRE, PIERSON, GEORGET, tous commissaires du Comité de surveillance de la section des Tuileries, Pilot, secrétaire ; Paris, 9 thermidor an II, 1 p. in-4, tête et vignette imprimées</desc>
+               <note>Les membres du comité de surveillance établissent le citoyen Lefèvre gardien des scellés chez « le nommé Couthon, ex-député. » (Couthon devait être écroué à la Bourbe).</note>
+            </item>
+            <item n="140" xml:id="CAT_000291_e140">
+               <num type="lot">140</num>
+               <name type="author">COMPLICES DE ROBESPIERRE</name>
+               <desc xml:id="CAT_000291_e140_d1">Pièce signée par VOULLAND, ELIE LACOSTE, LEGENDRE et GOUPILLEAU (de Fontenai), membres du Comité de sûreté générale de la Convention ; Paris, 15 thermidor, 1 p. infolio, tête imprimée, cachet collé.</desc>
+               <note>Vu l'arrêté du Directoire de Bourg l'Égalité (Bourg-la-Reine) le comité arrête que Vaugeois, maire de la commune de Choisy-sur-Seine (Choisy-le- Roi), oncle de Lebon, et qui avait d'intimes relations avec le traître Robespierre, sera, sur le champ, traduit à la Conciergerie, pour être poursuivi et jugé au Tribunal révolutionnaire.</note>
+            </item>
+            <item n="141" xml:id="CAT_000291_e141">
+               <num type="lot">141</num>
+               <name type="other">JOURNÉE DU 12 GERMINAL AN III.</name>
+               <desc xml:id="CAT_000291_e141_d1">1° L. s. par CHAZAL, LOMONT, BOISSY D'ANGLAS, ROVERE MAREC, CALÈS, CLAUZEL, MATHIEU, PÉMARTIN, LA PORTE, LEGENDRE et Auguis, membres des Comités de sûreté générale et de salut public réunis, au Comité civil de la section du jardin des Plantes ; Paris, 7 germinal an III (27 mars 1795), 1 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Ils leur rappellent que la distribution des grains, faite en deux fois la veille dans la section des Gravilliers, a excité quelque inquiétude dont les ennemis du bien public ont tenté de profiter. Les comités prévoient que la distribution du lendemain ne pourra être que des trois quarts de la distribution ordinaire ; on suppléera par du riz. « L'intention du gouvernement est que les citoyens vivant de leur travail et ceux qui sont peu aisés reçoivent de préférence du pain. Nous nous confions en votre sagesse pour adoucir par ces mesures et votre langage persuasif tout ce que cette privation, très momentanée, peut avoir de pénible..</note>
+               <desc xml:id="CAT_000291_e141_d2">2° P. s. par VIQUY, inspecteur des procès-verbaux de la Paris, secrétaires ; Convention, BALMAIN et SERRES, 12 germinal an III (1er avril 1795), 1 p. in-folio, tête et vignette imprimées, cachet</desc>
+               <note>Extrait du procès-verbal de la Convention. Elle décrète que le général Pichegru est nommé à l'instant général en chef de la garde nationale parisienne tant que durera le péril, et que les représentants Barras et Merlin, de Thionville, lui seront adjoints.</note>
+               <desc xml:id="CAT_000291_e141_d3">3° L. s. par J.-P. CHAZAL, J.-P. LACOMBE, MAREC, MERLIN (de Douai), SIÈYES, REUBELL, DUBOIS-CRANCÉ, membres du Comité de salut public de la Convention, aux représentants du peuple à l'armée d'Italie et des Alpes ; Paris, 13 germinal an III (2 avril 1795), 2 p. 1/2 in-folio, tête et vignette imprimées.</desc>
+               <note>Ils leur apprennent que le mouvement contre la Convention a encore échoué. La Convention, ferme à son poste, épiait le moment où elle pourrait frapper sur les instigateurs, et c'est hier qu'elle l'a fait. « Hier, olusieurs sections sont venues à la barre pour faire une pétition relative aux subsistances ; tandis qu'elles y étaient, une foule égarée, au mépris de la loi et du respect dû à la représentation nationale, viola le lieu de ses séances et, par le mouvement, ils rencognèrent les représentants dans leurs bancs et se mêlèrent entre eux. Mais au signal du ralliement, à la générale battue, les bons citoyens se portèrent en masse autour de la Convention ; l'ordre fut rétabli dans le lieu de ses séances et la tranquilité maintenue dans Paris. Les quatre représentants du peuple (Billaud- Varenne, Collot, Barere et Vadier), dont le procès était longtemps un sujet de discorde, ont été condamnés à la déportation. La Convention nationale a fait mettre en état d'arrestation, au château de Ham, les représentants Choudieu, Foussedoire, Huguet, Léonard Bourdon, Ruamps et Châles. Amar et Duhem ont été arrêtés » Ils les conjurent de maintenir la tranquilité dans l'armée. Des lois sont faites contre les royalistes et les terroristes.</note>
+            </item>
+            <item n="142" xml:id="CAT_000291_e142">
+               <num type="lot">142</num>
+               <name type="other">JOURNÉE DU Ier PRAIRIAL AN III.</name>
+               <desc xml:id="CAT_000291_e142_d1">1° L. s. de Duchauffour et Barbarin, membres de la Commission de police administrative de Paris, aux membres du Comité civil et au commissaire de police de la section du Panthéon français ; Paris, Ier prairial an III (20 mai 1795), 1 p. 1/2 in-4, tête imprimée</desc>
+               <note>Ils sont informés que des perturbateurs forcent les bons citoyens à quit- ter leurs travaux pour marcher sur la Convention; ils leur rappellent que les autorités constituées, à la tête de la force armée, doivent montrer au peuple où est son devoir, «où il rentrera bientôt quand il verra les autorités constituées s'opposer à la séduction où l'on veut les faire tomber. »</note>
+               <desc xml:id="CAT_000291_e142_d2">2° L. s. par PEMARTIN, secrétaire du Comité de sûreté générale de la Convention, au Comité civil de la section des Sans-Culottes ; Paris, 2 prairial an III (21 mai 1795), 1 p. 1/2 in-fol., tête et vignette imprimées.</desc>
+               <note>Il leur exprime la satisfaction du Comité de voir les bonnes dispositions de la force armée des sections. « Tout présage que cette journée sera heureuse pour les amis de la Liberté des lois et de la représentation nation nale. Rependez partout des parolles de paix. Ramenez les citoyens égarés et faites envisager la justice nationale à ceux qui sont mal intentionnés..</note>
+               <desc xml:id="CAT_000291_e142_d3">3° P. s. par S.-E. MONNEL, inspecteur des procès-verbaux de la Convention, THIBAULT et SAINT-MARTIN, secrétaires ; Paris, 2 prairial an III, 1 p. in-folio, tête et vignette imprimées</desc>
+               <note>Extrait des procès-verbaux. « La Convention nationale, en déclarant qu'elle continuera à s'occuper sans relâche des subsistances des citoyens de Paris, décrète que la Commission des onze lui proposera les lois organiques de la Constitution de 1793, le quintidi, 25 du présent mois. Le présent décret sera à l'instant proclamé à tous les citoyens qui entourent la Convention nationale. (Les insurgés de Prairial avaient rédigé une longue oroclamation contenant le programme des revendications. Le mot de ralliement était : Du pain et la constitution de 1793. C'est à ces revendications que le décret de la Convention répond et donne satisfaction).</note>
+               <desc xml:id="CAT_000291_e142_d4">4° L. s. par VARLET, MONMAYOU, MATHIEU, BERGOEING, SeVESTRE, RABAUT, DELECLOY et Gamon, membres des comités de sûreté générale, de salut public et militaire réunis de la Convention, aux administrateurs du district de Franciade (Saint-Denis); Paris, 2 prairial an III (à res denuit), 2 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Ils les informent que l'insurrection contre la Convention a échoué; ils comptent sur leur zèle et leur activité pour déjouer les crimes des malveillants.</note>
+               <desc xml:id="CAT_000291_e142_d5">5º P. s. de DELMAS, conventionnel, commandant de la force armée; Paris, 4 prairial an III, 1 p. in-folio, en-tête imprimé du Comité de la guerre de la Convention.</desc>
+               <note>Il ordonne au citoyen Mahieux, manutentionnaire du pain des troupes à Paris, d'envoyer sur-le-champ aux troupes stationnées sur le boulevard du Temple, mille rations de pain pour leur procurer un rafraichissement.</note>
+               <desc xml:id="CAT_000291_e142_d6">6° P. s. par GENISSIEU, commissaire de la Convention, 2 p. in-folio. En-tête imprimé de la section du Pont-Neuf</desc>
+               <note>Expédition du décret de la Convention du 1er prairial rendant la Commune de Paris responsable envers la République de toute atteinte portée à la représentation nationale.</note>
+            </item>
+            <item n="143" xml:id="CAT_000291_e143">
+               <num type="lot">143</num>
+               <name type="other">JOURNÉE DU Ier PRAIRIAL AN III.</name>
+               <desc xml:id="CAT_000291_e143_d1">P. imprimée portant la signation aut. des généraux MENOU et KILMAINE, commandants la colonne du centre aux journées des 4, 5 et 6 prairial ; Paris, 7 prairial an III (26 mai 1795), 1 p. in-4, tête et vignette imprimées</desc>
+               <note>Curieuse pièce. Ils certifient que le citoyen J.-T. Brugnière a fait partie de la division d'avant-garde et qu'il s'est comporté avec la valeur d'un vrai républicain. La pièce porte une apostille signée par les chefs dudit Brugnière et par Delmas, représentant du peuple, chargé de la direction de la guerre et de la force armée de Paris.</note>
+            </item>
+            <item n="144" xml:id="CAT_000291_e144">
+               <num type="lot">144</num>
+               <name type="author">EXÉCUTION DU MEURTRIER DE FERAUD.</name>
+               <desc xml:id="CAT_000291_e144_d1">P. s. par Faure, accusateur public du Tribunal révoluP tionnaire ; Paris, 3 prairial an III (22 mai 1795), 1 p. in-4, cachet</desc>
+               <note>Ordre au charpentier des travaux du département de Paris de dressei sur la place de la Maison commune, pour 7 heures de relevée, l'échafaud nécessaire pour mettre à exécution le jugement de ce jour, qui ordonne que Jean Tinel, serrurier, natif de Paris, âgé de 50 ans, demeurant à Paris, rue de Lappe, n° 22, convainçu de s'être mis à la tête d'un attroupement et d'avoir porté la tête du représentant Féraud au bout d'une pique, sera mis à mort.</note>
+            </item>
+            <item n="145" xml:id="CAT_000291_e145">
+               <num type="lot">145</num>
+               <name type="other">ARRESTATION DES DERNIERS MONTAGNARDS.</name>
+               <desc xml:id="CAT_000291_e145_d1">P. s. par S.-E. MONNEL, inspecteur aux procès-verbaux de la Convention, signée aussi par RUDEL et A. Blad, secrétaires de la Convention ; Paris, Ier prairial an III, 1 p. in-folio, tête et vignette imprimées</desc>
+               <note>PRÉCIEUX DOCUMENT HISTORIQUE. « La Convention nationale décrète d'arrestation BOURBotte, DUQUESNOY, DUROY, PrieuR (de la Marne), RommE| Soubrany, GouJon, Albitte aîné, Peyssard, Lecarpentier (de la Manche) Tous ces conventionnels étaient PINET aîné, BORIE, FAYAU et RüHL. » accusés d'avoir favorisé la journée du 1er prairial.</note>
+            </item>
+            <item n="146" xml:id="CAT_000291_e146">
+               <num type="lot">146</num>
+               <name type="other">JUGEMENT DES DERNIERS MONTAGNARDS.</name>
+               <desc xml:id="CAT_000291_e146_d1">L. s. par YSABEAU, SEVESTRE, CALÈS, LOMONT, BERGOEING, PIERRET, membres du Comité de sûreté général de la Convention, aux agents du garde-meuble; Paris, 24 prairial an III (12 juin 1795), 1 p. in-folio, tête et vignette im. primées, cachet collé.</desc>
+               <note>Ils leur donnent l'ordre de transporter dans le local où siège la commission militaire huit lits complets avec les fournitures nécessaires pour coucher les députés qui ont été traduits devant la dite commission. (La commission, établie par la loi du 4 prairial an III, se réunit le 29 prairial -Romme, Duquesnoy, Duroy, Bourbotte, Soubrany, Goujon furent 17 juin condamnés à mort, Peyssard fut condamné à la déportation et Forestier reconduit en prison pour être statué sur son sort).</note>
+            </item>
+            <item n="147" xml:id="CAT_000291_e147">
+               <num type="lot">147</num>
+               <name type="other">35 JOURNÉES DE VENDÉMIAIRE AN IV</name>
+               <desc xml:id="CAT_000291_e147_d1">P. s. par LE TOURNEUR, COLLOMBEL, BARRAS et MERLIN (de Douai), membres des comités de salut public et de sûreté générale de la Convention ; Paris, 11 vendémiaire an IV 2 octobre 1795), 1/2 p. in-folio, tête et vignette imprimées.</desc>
+               <note>Ils préviennent les représentants du peuple chargés de la direction de la force armée que 500 patriotes armés sont à leur disposition et qu'ils leur oaraît convenable d'en faire marcher un détachement avec une troupe de ligne</note>
+            </item>
+            <item n="148" xml:id="CAT_000291_e148">
+               <num type="lot">148</num>
+               <name type="other">JOURNÉE DU 13 VENDÉMIAIRE AN IV.</name>
+               <desc xml:id="CAT_000291_e148_d1">1°P. s. par LEHAULT, inspecteur aux procès-verbaux de la Convention, signée aussi par BAUDIN (des Ardennes), brésident, Delleville et GarrAN, secrétaires de la Convention ; Paris, 13 vendémiaire an IV (4 octobre 1795), p. in-folio, tête et vignette imprimées, cachet</desc>
+               <note>PIÈCE HISTORIQUE. « La Convention nationale décrète que le général de brigade Barras, représentant du peuple, est nommé général en chef de la force armée de Paris et de l'armée de l'intérieur, et que toutes les autorités civiles et mnilitaires sont tenues de lui obéir en cette qualité. Les représentants du peuple Delmas, Goupilleau (de Fontenay), et Laporte lui sont adjoints. »</note>
+               <desc xml:id="CAT_000291_e148_d2">2º L. s. par GAUTHIER et P.-M. DELAUNAY, membres de la section de police du Comité de sûreté générale de la Convention, au président et membres du comité civil de la section de Brutus; Paris, 19 vendémiaire an IV (10 octobre 1795) 1 p. in-4, tête et vignette imprimées</desc>
+               <note>Ils leur demandent de leur donner tous les renseignements qu'ils connaissent sur les auteurs ou instigateurs de la révolte qui a existé les 12, 13 et vendémiaire contre la Convention nationale.</note>
+               <desc xml:id="CAT_000291_e148_d3">1° P. s. par MONMAYOU, ROBERJOT, BORDAS, COLLOMBEL, QUIROT, KERVELEGAN, P.-M. DELAUNAY, membres du Comité de sûreté générale de la Convention ; Paris, 26 vendémiaire an IV (17 octobre 1795), 1 p. in-folio, tête et vignette imprimées, cachet collé.</desc>
+               <note>Le Comité de sûreté générale arrête que le procureur général syndic du département de la Seine est chargé de procéder aux arrestations des individus qui se sont réunis en assemblée électorale au Théâtre-Français, ou à la section Le Peletier au mépris des lois. (On sait que c'est la section Le Peletier qui protesta la première contre la date des élections, -Les sectionnaires protestataires s'étaient réunis au Théâtre-Français (l'Odéon actuel).</note>
+            </item>
+            <item n="149" xml:id="CAT_000291_e149">
+               <num type="lot">149</num>
+               <name type="other">ENTRÉE DES FRANÇAIS A MOSCOU.</name>
+               <desc xml:id="CAT_000291_e149_d1">L. s. par Maret, duc de Bassano, au duc de Castiglione (Augereau), commandant en chef le 11e corps d'armée ; Wilna, 20 septembre 1812, 1/2 p. in-folio</desc>
+               <note>Il lui annonce la défaite complète des Russes à la bataille du 7 (bataille de la Moskowa); les Russes sont hors d'état de livrer de nouveaux combats et de couvrir Moscou. « Ils viennent d'abandonner cette grande capitale où les armées victorieuses de S. M. sont entrées le 14 à 3 heures après-midi. » (La ville brûlait depuis le 16; l'incendie s'éteignait au moment où Maret signait cette lettre).</note>
+            </item>
+            <item n="150" xml:id="CAT_000291_e150">
+               <num type="lot">150</num>
+               <name type="other">CENT-JOURS.</name>
+               <desc xml:id="CAT_000291_e150_d1">L. s. par le Comte de Ségur, grand-maître des cérémonies, au secrétaire de la Chambre de Paris; Paris, 6 juin 1815, 1 p. in-folio.</desc>
+               <note>Il lui annonce que l'Empereur partira des Tuileries le mercredi 7, à 4 heures, pour faire l'ouverture de la session des Chambres. Détails pour le cérémonial.</note>
+            </item>
+            <item n="151" xml:id="CAT_000291_e151">
+               <num type="lot">151</num>
+               <name type="other">GOUVERNEMENT PROVISOIRE DE 1815.</name>
+               <desc xml:id="CAT_000291_e151_d1">L. s. par le DUc D'OTRANTE (Fouché), CAULAINCourt, duc DE VICENCE, QUINETTE, CARNOT, GRENIER et BERLIER, au président de la Chambre des Pairs ; Paris, 23 juin 1815, 1 p. in-folio</desc>
+               <note>PIÈCE HISTORIQUE. Ils l'informent qu'ils composent le Gouvernement provisoire qui vient d'être formé sous la présidence du duc d'Otrante.</note>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

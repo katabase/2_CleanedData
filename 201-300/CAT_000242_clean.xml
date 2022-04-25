@@ -1,0 +1,1602 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000242">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Étienne Charavay, 20 février 1886, collection baron de Gérando</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="AUC">
+               <title>CATALOGUE D'UNE IMPORTANTE COLLECTION DE LETTRES AUTOGRAPHES</title>
+               <num/>
+               <editor>Étienne Charavay</editor>
+               <publisher>Étienne Charavay</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1886">1886</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, Hôtel des Commissaires-priseurs, rue Drouot, salle nº 5</addrLine>
+                     </address>
+                     <persName type="auctioneer">Maurice Delestre</persName>
+                     <persName type="expert">Étienne Charavay</persName>
+                     <date when="1886-02-20">20 février 1886</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">CV-11664</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <note>COLLECTION DU BARON DE GÉRANDO</note>
+            <item n="1" xml:id="CAT_000242_e1">
+               <num type="lot">1</num>
+               <name type="author">ACADÉMIE FRANÇAISE.</name>
+               <desc xml:id="CAT_000242_e1_d1">15 l. a. s.</desc>
+               <note>Ampère, Mégères, Patin, Rémusal, Sacy, Saint-Marc Girardin et Salvandy.</note>
+            </item>
+            <item n="2" xml:id="CAT_000242_e2">
+               <num type="lot">2</num>
+               <name type="author">ACADÉMIE FRANÇAISE.</name>
+               <desc xml:id="CAT_000242_e2_d1">17 l. a. s.</desc>
+               <note>Arnaull, Berryer, Dacier, François de Neufchâteau, Lémontey, Molé, Pastoret, Roederer, etc.</note>
+            </item>
+            <item n="3" xml:id="CAT_000242_e3">
+               <num type="lot">3</num>
+               <name type="author">ACADÉMIE FRANÇAISE.</name>
+               <desc xml:id="CAT_000242_e3_d1">19 l. a. s.</desc>
+               <note>Choiseul Gouffier, Collin-Harleville, Dacier, Deslul-Tracy , 2 let., Droz, 2 let., Lacretelle aîné, Lally-Tolendal, 3 let., Roederer, 2 let., Sicard (l'abbé), 6 let.</note>
+            </item>
+            <item n="4" xml:id="CAT_000242_e4">
+               <num type="lot">4</num>
+               <name type="author">AMPÈRE (André-Marie)</name>
+               <trait>
+                  <p>l'illustre savant.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e4_d1">1° L. a. s. au baron de Gérando, 4 p. pl. in-4. Superbe lettre amicale.-2º L. aut. au môme; 5 p. 1/4 in-4.-3° L. a. s. au même; 23 février 1815, 3 p. in-4.</desc>
+               <note>Très intéressante lettre sur sa destitution.</note>
+            </item>
+            <item n="5" xml:id="CAT_000242_e5">
+               <num type="lot">5</num>
+               <name type="author">ANDRIEUX (Fr.-Guill.-J.-St.)</name>
+               <trait>
+                  <p>célèbre poète et auteur dramatique, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e5_d1">3 l. a. s. au baron de Gérando; 1806-1832, 4 p. in-4 ou in-8.</desc>
+               <note>Intéressantes.</note>
+            </item>
+            <item n="6" xml:id="CAT_000242_e6">
+               <num type="lot">6</num>
+               <name type="author">BALLANCHE (Pierre-Simon)</name>
+               <trait>
+                  <p>célèbre philosophe, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e6_d1">7 l. a. s. au baron de Gérando; 1812-1846, 10 p. 1/2 in-8, cachets</desc>
+               <note>Très intéressante correspondance amicale et littéraire.</note>
+            </item>
+            <item n="7" xml:id="CAT_000242_e7">
+               <num type="lot">7</num>
+               <name type="author">BÉRANGER (Pierre-Jean de)</name>
+               <trait>
+                  <p>le célèbre chansonnier.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e7_d1">L. a. s. (au baron de Gérando), 3 p. 3/4 in-8</desc>
+               <note>Très curieuse lettre où il accepte de faire une hymne pour la jeunesse, mais non dans les conditions de temps qui lui ont été hxées. Piquants détails,</note>
+            </item>
+            <item n="8" xml:id="CAT_000242_e8">
+               <num type="lot">8</num>
+               <name type="author">BERRI (Charles-Ferdinand  duc de)</name>
+               <trait>
+                  <p>fils de Charles X, assassiné en 1820.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e8_d1">L. a. s. (au comte de Fouquet) ; quartier général de Mülheim, 27 mai 1795, 2 p. 3/4 in-4</desc>
+               <note>Épître des plus curieuses où il exprime ses regrets d'avoir quitté Carslruhe si tôt. « Comme je m'y attendois bien, M. le prince de Condé m'a fait quelques goguenarderies sur mon séjour prolongé. Je sais même qu'il n'en a pas été trop content, mais, quitte à être campé en prison en arrivant, j'aurois voulu y rester huit jours de plus...»</note>
+            </item>
+            <item n="9" xml:id="CAT_000242_e9">
+               <num type="lot">9</num>
+               <name type="author">BERTHOLLET (Claude-Louis)</name>
+               <trait>
+                  <p>le célèbre chimiste.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e9_d1">5 I. a. s. au baron de Gérando, 5 p. in-4. Intéressantes</desc>
+            </item>
+            <item n="10" xml:id="CAT_000242_e10">
+               <num type="lot">10</num>
+               <name type="author">BOISSY D'ANGLAS (François-Antoine de)</name>
+               <trait>
+                  <p>le célèbre conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e10_d1">4 l. a. s. au baron de Gérando; 1807-1824, 9 p. 1/2 in-4. Intéressantes</desc>
+            </item>
+            <item n="11" xml:id="CAT_000242_e11">
+               <num type="lot">11</num>
+               <name type="author">BONALD (le vicomte Louis-Gabriel-Ambroise de)</name>
+               <trait>
+                  <p>le célèbre auteur de la Législation primitive.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e11_d1">L. a. s. au baron de Gérando; Millau, 11 juillet 1804, 5 p. in-4</desc>
+               <note>Très remarquable lettre où il explique ses opinions sur la philosophie sensualiste. Curieux détails.</note>
+            </item>
+            <item n="12" xml:id="CAT_000242_e12">
+               <num type="lot">12</num>
+               <name type="author">CABANIS (Pierre-Jean-Georges)</name>
+               <trait>
+                  <p>célèbre physiologiste et philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e12_d1">10 l. a. s. au baron de Gérando ; an VI11-1806, 10 p. in-4 ou in-8</desc>
+               <note>Intéressante correspondance philosophique ou il parle de Laromiguière et de Maine de Biran.</note>
+            </item>
+            <item n="13" xml:id="CAT_000242_e13">
+               <num type="lot">13</num>
+               <name type="author">CANDOLLE (Augustin Pyramus de)</name>
+               <trait>
+                  <p>le grand botaniste.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e13_d1">10 l. a. s. au baron de Gérando ; 1812-1839, 23 p. in-4.</desc>
+               <note>Très intéressante correspondance amicale et scientifique.</note>
+            </item>
+            <item n="14" xml:id="CAT_000242_e14">
+               <num type="lot">14</num>
+               <name type="author">CANOVA (Antonio)</name>
+               <trait>
+                  <p>le grand sculpteur.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e14_d1">L. a. s. (au baron de Gérando); Rome, 4 août 1811, 1 p. in-4</desc>
+               <note>Belle lettre de recommandation en faveur du célèbre compositeur de musique Zingarelli, qui se rend à Paris par ordre de l'Empereur.</note>
+            </item>
+            <item n="15" xml:id="CAT_000242_e15">
+               <num type="lot">15</num>
+               <name type="author">CARNOT (Lazare)</name>
+               <trait>
+                  <p>l'illustre organisateur de la victoire.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e15_d1">4 l. a. s. au baron de Gérando; an VIII-1813, 4 p. in-4. Belles lettres</desc>
+            </item>
+            <item n="16" xml:id="CAT_000242_e16">
+               <num type="lot">16</num>
+               <name type="author">CHANNING (William-Ellery)</name>
+               <trait>
+                  <p>un des principaux chefs de l'unitarisme américain.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e16_d1">L. a. s. (au baron de Gérando); Boston, 29 juin 1831, 4 p. in-4</desc>
+               <note>Très intéressante épître philosophique.</note>
+            </item>
+            <item n="17" xml:id="CAT_000242_e17">
+               <num type="lot">17</num>
+               <name type="author">CHÉNIER (Marie-Joseph de)</name>
+               <trait>
+                  <p>célèbre auteur dramatique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e17_d1">L. a. s. ; Paris, 8 juin 1807, 1/2 p. in-4</desc>
+            </item>
+            <item n="18" xml:id="CAT_000242_e18">
+               <num type="lot">18</num>
+               <name type="author">CONDÉ (Louis-Joseph de Bourbon  prince de)</name>
+               <trait>
+                  <p>le chef de l'armée d'émigrés qui porta son nom.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e18_d1">L. a. s. au comte de Fouquet; Mulheim, 18 septembre 1795, 2 p. in-4</desc>
+               <note>Intéressante lettre sur l'envahissement de l'Allemagne par les Français.</note>
+            </item>
+            <item n="19" xml:id="CAT_000242_e19">
+               <num type="lot">19</num>
+               <name type="author">CONSTANT (Benjamin)</name>
+               <trait>
+                  <p>célèbre écrivain et homme politique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e19_d1">23 l. aut., dont 18 signées seulement de ses initiales, au baron ou à la baronne de Gérando, 28 p. in-4 ou in-8.</desc>
+               <note>Très intéressante correspondance amicale.</note>
+            </item>
+            <item n="20" xml:id="CAT_000242_e20">
+               <num type="lot">20</num>
+               <name type="author">COUSIN (Victor)</name>
+               <trait>
+                  <p>le célèbre philosophe</p>
+               </trait>
+               <desc xml:id="CAT_000242_e20_d1">16 l. aut., la plupart signées seulement des initiales, au baron de Gérando; 1826, 22 p. in-8 ou in-18.</desc>
+               <note>Très intéressante correspondance philosophique</note>
+            </item>
+            <item n="21" xml:id="CAT_000242_e21">
+               <num type="lot">21</num>
+               <name type="author">CUVIER (Georges)</name>
+               <trait>
+                  <p>l'illustre naturaliste.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e21_d1">10 l. a. s. au baron ou à la baronne de Gérando, 16 p. in-4. Très belles lettres</desc>
+            </item>
+            <item n="22" xml:id="CAT_000242_e22">
+               <num type="lot">22</num>
+               <name type="author">DAVID (Jacques-Louis)</name>
+               <trait>
+                  <p>le grand peintre.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e22_d1">L. a. s. à Madame de Gérando; 5 mai 1809, 1 p. in-4</desc>
+               <note>Belle lettre où il l'engage à venir visiter son atelier.</note>
+            </item>
+            <item n="23" xml:id="CAT_000242_e23">
+               <num type="lot">23</num>
+               <name type="author">DIVERS</name>
+               <desc xml:id="CAT_000242_e23_d1">36 lettres ou pièces</desc>
+               <note>Afre, Pradt, Fesch, Haüy, Gérard (François), David d'Angers, Drouot, Condé (le prince de), Bonaparte (Lucien et Louis), etc.</note>
+            </item>
+            <item n="24" xml:id="CAT_000242_e24">
+               <num type="lot">24</num>
+               <name type="author">DUPANLOUP (Félix)</name>
+               <trait>
+                  <p>évêque d'Orléans, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e24_d1">L. a. s.; 20 novembre 1848, 1 p. in-8. Jolie pièce</desc>
+            </item>
+            <item n="25" xml:id="CAT_000242_e25">
+               <num type="lot">25</num>
+               <name type="author">DUPANLOUP (Félix)</name>
+               <desc xml:id="CAT_000242_e25_d1">6 l. s. au baron de Gérando; 1860-1874, 6 p. in-8</desc>
+            </item>
+            <item n="26" xml:id="CAT_000242_e26">
+               <num type="lot">26</num>
+               <name type="author">EDGEWORTH (Maria)</name>
+               <trait>
+                  <p>célèbre romancière anglaise.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e26_d1">3 l. a. s. au baron et à la baronne de Gérando ; 1803-1824, 12 p. in-4.</desc>
+               <note>Très intéressantes lettres. Dans l'une d'elles elle déplore la mort Camille Jordan.</note>
+            </item>
+            <item n="27" xml:id="CAT_000242_e27">
+               <num type="lot">27</num>
+               <name type="author">ETRANGERS</name>
+               <desc xml:id="CAT_000242_e27_d1">48 lettres</desc>
+               <note>Dalberg, Spina (le cardinal), Bonstetten, Fellenberg, Oberlin, Sismondi, Lavater, Heyne, Voght (le baron de), etc.</note>
+            </item>
+            <item n="28" xml:id="CAT_000242_e28">
+               <num type="lot">28</num>
+               <name type="author">EUGÉNIE</name>
+               <trait>
+                  <p>impératrice des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e28_d1">Carte de la Société du prince impérial délivrée au baron de Gérando, avec la signature de l'Impératrice, 1 p. in-12 oblong.</desc>
+            </item>
+            <item n="29" xml:id="CAT_000242_e29">
+               <num type="lot">29</num>
+               <name type="author">FEMMES.</name>
+               <desc xml:id="CAT_000242_e29_d1">17 lettres.</desc>
+               <note>Montolieu, Necker de Saussure, Dufrénoy, Voiart, etc.</note>
+            </item>
+            <item n="30" xml:id="CAT_000242_e30">
+               <num type="lot">30</num>
+               <name type="author">FRÉDÉRIC-GUILLAUME III</name>
+               <trait>
+                  <p>roi de Prusse.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e30_d1">L. s., en français, au baron de Gérando; Berlin, 4 septembre 1804, 1/2 p. in-4</desc>
+               <note>Belle lettre de félicitations sur un de ses ouvrages.</note>
+            </item>
+            <item n="31" xml:id="CAT_000242_e31">
+               <num type="lot">31</num>
+               <name type="author">GARAT (Dominique-Joseph)</name>
+               <trait>
+                  <p>constituant, ministre de la justice en 1792 et de l'intérieur en 1793, auteur de Mémoires.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e31_d1">4 l. a. s. au baron de Gérando; an XIII-1822, 4 p. in-4 ou in-8. Belles lettres</desc>
+            </item>
+            <item n="32" xml:id="CAT_000242_e32">
+               <num type="lot">32</num>
+               <name type="author">GAULTIER (l'abbé Aloïsius-Edouard-Camille)</name>
+               <trait>
+                  <p>le célèbre pédagogue.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e32_d1">5 l. a. s. au baron de Gérando; 1811-1817, 8 p. in-4 ou in-8.</desc>
+               <note>Belles lettres relatives à sa méthode d'éducation.</note>
+            </item>
+            <item n="33" xml:id="CAT_000242_e33">
+               <num type="lot">33</num>
+               <name type="author">GENLIS (Félicité DUCREST  comtesse de)</name>
+               <trait>
+                  <p>la célèbre romancière.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e33_d1">L. a. s.; 22 avril 1806, 2 p. 1/2 in-4</desc>
+               <note>Piquante épître sur ses démêlés avec Ameilhon ralativement à son logement à l'Arsenal.</note>
+            </item>
+            <item n="34" xml:id="CAT_000242_e34">
+               <num type="lot">34</num>
+               <name type="author">GÉRARD (Etienne-Maurice  comte)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e34_d1">L. a. s. au baron de Gérando; (juillet 1815), 2 p. 1/2 in-4</desc>
+               <note>Importante lettre historique sur ses négociations en faveur de l'armée de la Loire. Il est au désespoir de voir rejeter « des propositions qui s'alliaient également avec la dignité du trône et l'intérêt qué doit inspirer à tout bon Français la conservation à la patrie d'au moins soixante mille braves. »</note>
+            </item>
+            <item n="35" xml:id="CAT_000242_e35">
+               <num type="lot">35</num>
+               <name type="author">GRÉGOIRE (Henri)</name>
+               <trait>
+                  <p>l'illustre conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e35_d1">2 l. a. s. (au baron de Gérando); Paris, 10 mars 1804 et 24 juillet 1806, 4 p. in-4. Belles lettres</desc>
+            </item>
+            <item n="36" xml:id="CAT_000242_e36">
+               <num type="lot">36</num>
+               <name type="author">GUIZOT (François)</name>
+               <trait>
+                  <p>le célèbre historien et homme d'État.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e36_d1">6 l. a. s. au baron de Gérando ; 1813-1814, 3 p. in-8 ou in-4. Très jolies lettres.</desc>
+            </item>
+            <item n="37" xml:id="CAT_000242_e37">
+               <num type="lot">37</num>
+               <name type="author">GUYTON DE MORVEAU (Louis-Bernard)</name>
+               <trait>
+                  <p>célèbre chimiste et conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e37_d1">4 l. a. s. au baron de Gérando, dont une signée seulement des initiales ; an XIII-1814, 8 p. 1/2 in-4. Belles lettres</desc>
+            </item>
+            <item n="38" xml:id="CAT_000242_e38">
+               <num type="lot">38</num>
+               <name type="author">HENRI IV</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e38_d1">L. s., avec la souscript. aut., à M. de Rossanes; La Rochelle, 19 décembre 1780, 3/4 de p. in-fol. Fripée</desc>
+            </item>
+            <item n="39" xml:id="CAT_000242_e39">
+               <num type="lot">39</num>
+               <name type="author">HOMMES POLITIQUES</name>
+               <desc xml:id="CAT_000242_e39_d1">9 l. a. s</desc>
+               <note>Barrot (Odilon), Marrast (Armand), Montalivet, etc.</note>
+            </item>
+            <item n="40" xml:id="CAT_000242_e40">
+               <num type="lot">40</num>
+               <name type="author">HOMMES POLITIQUES</name>
+               <desc xml:id="CAT_000242_e40_d1">14 l. a. s</desc>
+               <note>Duchâtel, Persigny, Rouher, Corbon, Girardin, Delangle, etc.</note>
+            </item>
+            <item n="41" xml:id="CAT_000242_e41">
+               <num type="lot">41</num>
+               <name type="author">HOMMES POLITIQUES.</name>
+               <desc xml:id="CAT_000242_e41_d1">20 lettres.</desc>
+               <note>Carrion-Nisas, Fain, Gaudin, Portalis, Ravez, Talleyrand, La Rochefoucauld-Liancourt, etc</note>
+            </item>
+            <item n="42" xml:id="CAT_000242_e42">
+               <num type="lot">42</num>
+               <name type="author">HUMBOLDT (Guillaume de)</name>
+               <trait>
+                  <p>illustre critique et homme d'État allemand.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e42_d1">6 l. a. s., en français, au baron de Gérando; 1802-1818, 17 p. 1/2 in-4 ou in-8. Intéressantes.</desc>
+            </item>
+            <item n="43" xml:id="CAT_000242_e43">
+               <num type="lot">43</num>
+               <name type="author">HUMBOLDT (Alexandre de)</name>
+               <trait>
+                  <p>l'illustre savant.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e43_d1">16 l. a. s., en français, au baron de Gérando ; 1804-1809, 20 p. in-4.</desc>
+               <note>Intéressante correspondance scientifique.</note>
+            </item>
+            <item n="44" xml:id="CAT_000242_e44">
+               <num type="lot">44</num>
+               <name type="author">INSTITUT</name>
+               <desc xml:id="CAT_000242_e44_d1">36 lettres</desc>
+               <note>Say, Sacy, Azais, Pougens, Paris (Paulin), Pardessus, Laboulaye, Jomard, Ginguené, Dupont de Nemours, Daunou, Comte, etc.</note>
+            </item>
+            <item n="45" xml:id="CAT_000242_e45">
+               <num type="lot">45</num>
+               <name type="author">JOUFFROY (Théodore)</name>
+               <trait>
+                  <p>le célèbre philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e45_d1">2 l. a. s. au baron de Gérando, 3 p. 1/2 in-4 ou in-8. Intéressantes.</desc>
+            </item>
+            <item n="46" xml:id="CAT_000242_e46">
+               <num type="lot">46</num>
+               <name type="author">KRUDNER (Julie de Wietenghoff  baronne de)</name>
+               <trait>
+                  <p>la célèbre romancière.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e46_d1">L. a. s., en français, à madame de Gérando, 2 p. in-32. Jolie pièce</desc>
+            </item>
+            <item n="47" xml:id="CAT_000242_e47">
+               <num type="lot">47</num>
+               <name type="author">LACÉPÈDE (Bernard-Germain-Etienne de La Ville  comte de)</name>
+               <trait>
+                  <p>le célèbre naturaliste.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e47_d1">2 l. a. s. (au baron de Gérando); 1806, 2 p. in-fol. Belles pièces</desc>
+            </item>
+            <item n="48" xml:id="CAT_000242_e48">
+               <num type="lot">48</num>
+               <name type="author">LACORDAIRE (le père Henri-Dominique)</name>
+               <trait>
+                  <p>le grand prédicateur.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e48_d1">2 l. a. s. au baron de Gérando; 1846-1847, 2 p. in-4</desc>
+               <note>Belles lettres sur l'asile-ouvroir de Gérando.</note>
+            </item>
+            <item n="49" xml:id="CAT_000242_e49">
+               <num type="lot">49</num>
+               <name type="author">LA FAYETTE (Gilbert Motier  marquis de)</name>
+               <trait>
+                  <p>illustre général et homme politique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e49_d1">10 l. a. s. au baron ou à la baronne de Gérando ; 1807-1832, 10 p. in-4</desc>
+               <note>Intéressante correspondance politique et amicale.</note>
+            </item>
+            <item n="50" xml:id="CAT_000242_e50">
+               <num type="lot">50</num>
+               <name type="author">LALANDE (Joseph-Jérôme Le Français de)</name>
+               <trait>
+                  <p>le célèbre astronome.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e50_d1">2 l. a. s. (au baron de Gérando); 1806, 1/2 p. in-4 et in-8</desc>
+            </item>
+            <item n="51" xml:id="CAT_000242_e51">
+               <num type="lot">51</num>
+               <name type="author">LAMARCK (Jean-Baptiste-Pierre-Antoine de MONET de)</name>
+               <trait>
+                  <p>l'illustre naturaliste.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e51_d1">L. a. s. au baron de Gérando; Paris, 28 prairial an XIII, 1 p. 3/4 in-4</desc>
+               <note>Superbe lettre d'envoi de son Annuaire météorologique.</note>
+            </item>
+            <item n="52" xml:id="CAT_000242_e52">
+               <num type="lot">52</num>
+               <name type="author">LAMARQUE (Maximilien)</name>
+               <trait>
+                  <p>célèbre général et homme politique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e52_d1">10 l. a. s. au baron ou à la baronne de Gérando; 1812-1830, 13 p. in-4. Intéressantes</desc>
+            </item>
+            <item n="53" xml:id="CAT_000242_e53">
+               <num type="lot">53</num>
+               <name type="author">LAMARTINE (Alphonse de)</name>
+               <trait>
+                  <p>le grand poète.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e53_d1">1° L. a. s.; (1851), 3 p. in-8. Jolie pièce.-2° L. s. ; 1862, 2 p. 1/2 in-4</desc>
+            </item>
+            <item n="54" xml:id="CAT_000242_e54">
+               <num type="lot">54</num>
+               <name type="author">LAROMIGUIÈRE (Pierre)</name>
+               <trait>
+                  <p>célèbre philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e54_d1">2 l. a. s. au baron de Gérando; 1820-1823, 2 p. in-4. Belles lettres</desc>
+            </item>
+            <item n="55" xml:id="CAT_000242_e55">
+               <num type="lot">55</num>
+               <name type="author">LE BRUN (Charles-François)</name>
+               <trait>
+                  <p>duc de Plaisance, célèbre homme d'État et écrivain, troisième consul, archi-trésorier de l'Empire.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e55_d1">5 l. a. s. et 1 l. s. au baron de Gérando; an X-1811, 6 p. in-4. Belles lettres</desc>
+            </item>
+            <item n="56" xml:id="CAT_000242_e56">
+               <num type="lot">56</num>
+               <name type="author">LOUIS-PHILIPPE Ier</name>
+               <trait>
+                  <p>roi des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e56_d1">3 l. a. s. au baron de Gérando ; 1824, 4 p. in-4. Belles pièces</desc>
+            </item>
+            <item n="57" xml:id="CAT_000242_e57">
+               <num type="lot">57</num>
+               <name type="author">LOUIS-PHILIPPE Ier.</name>
+               <desc xml:id="CAT_000242_e57_d1">1° L. a. parafée au baron de Gérando; Neuilly, 15 mai 1819, 1 p. 3/4 in-4.-2° 2 l. s. ; 1840-1842, 2 p. in-4</desc>
+            </item>
+            <item n="58" xml:id="CAT_000242_e58">
+               <num type="lot">58</num>
+               <name type="author">MACKINTOSH (James)</name>
+               <trait>
+                  <p>le célèbre économiste anglais.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e58_d1">6 l. a. s. en français, au baron de Gérando; 1803-1805, 15 P in-4. Intéressantes.</desc>
+            </item>
+            <item n="59" xml:id="CAT_000242_e59">
+               <num type="lot">59</num>
+               <name type="author">MAINE DE BIRAN (François-Pierre-Gonthier)</name>
+               <trait>
+                  <p>le célèbre philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e59_d1">22 l. a. s. au baron de Gérando; an XII-1823, 68 p. in-4 ou in-8</desc>
+               <note>Importante correspondance philosophique.</note>
+            </item>
+            <item n="60" xml:id="CAT_000242_e60">
+               <num type="lot">60</num>
+               <name type="author">MARÉCHAUX DE FRANCE</name>
+               <desc xml:id="CAT_000242_e60_d1">12 lettres</desc>
+               <note>Augereau, Davout, Gouvion Saint-Cyr, Grouchy, Kellermann, Macdonald, 2 let., Serurier, Soult, Sebastiani, Randon, Canrobert.</note>
+            </item>
+            <item n="61" xml:id="CAT_000242_e61">
+               <num type="lot">61</num>
+               <name type="author">MARET (Hugues)</name>
+               <trait>
+                  <p>duc de Bassano, célèbre ministre de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e61_d1">3 l. a. s. au baron de Gérando; 1809, 5 p. in-4 ou in-fol.</desc>
+            </item>
+            <item n="62" xml:id="CAT_000242_e62">
+               <num type="lot">62</num>
+               <name type="author">MARIE-LOUISE</name>
+               <trait>
+                  <p>impératrice des Français, 2e femme de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e62_d1">2 p. s., sur vélin; 1812-1813, 2 p. in-fol. oblong</desc>
+            </item>
+            <item n="63" xml:id="CAT_000242_e63">
+               <num type="lot">63</num>
+               <name type="author">MICHELET (Jules)</name>
+               <trait>
+                  <p>le grand écrivain.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e63_d1">5 l. a. s. au baron de Gérando ; vers 1830, 3 p. in-4 ou in-8</desc>
+               <note>Superbes lettres sur ses études philosophiques et historiques.</note>
+            </item>
+            <item n="64" xml:id="CAT_000242_e64">
+               <num type="lot">64</num>
+               <name type="author">MIGNET (François-Auguste-Marie)</name>
+               <trait>
+                  <p>le célèbre historien.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e64_d1">4 l. a. s. au baron de Gérando fils; 1874, 10 p. in-4 ou in-8</desc>
+               <note>Intéressantes lettres sur l'éloge historique du baron de Gérando qu'il doit prononcer à la séance publique de l'Académie des sciences morales et politiques.</note>
+            </item>
+            <item n="65" xml:id="CAT_000242_e65">
+               <num type="lot">65</num>
+               <name type="author">MONGE (Gaspard)</name>
+               <trait>
+                  <p>l'illustre géomètre.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e65_d1">5 l. a. s. au baron de Gérando ; 1807-1809, 3 p. in-4. Belles lettres</desc>
+            </item>
+            <item n="66" xml:id="CAT_000242_e66">
+               <num type="lot">66</num>
+               <name type="author">MONTGOLFIER (Joseph)</name>
+               <trait>
+                  <p>un des inventeurs des aérostats.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e66_d1">L. a. s. ; Paris, 14 brumaire an XIV, 2 p. in-4</desc>
+               <note>Belle lettre de recommandation en faveur de M. Burlier Dasis pour une place au Conservatoire des arts.</note>
+            </item>
+            <item n="67" xml:id="CAT_000242_e67">
+               <num type="lot">67</num>
+               <name type="author">MONTLOSIER (François-Dominique de REYNAUD  comte de)</name>
+               <trait>
+                  <p>célèbre publiciste et homme politique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e67_d1">2 l. a. s. (au baron de Gérando), 3 p. in-4. Intéressantes</desc>
+            </item>
+            <item n="68" xml:id="CAT_000242_e68">
+               <num type="lot">68</num>
+               <name type="author">MORELLET (l'abbé André)</name>
+               <trait>
+                  <p>célèbre économiste et écrivain, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e68_d1">10 l. a. s. et 1 l. s. au baron de Gérando ; 1803, 23 p. in-4 ou in-8, Une des lettres est incomplète.</desc>
+               <note>Intéressante correspondance philosophique.</note>
+            </item>
+            <item n="69" xml:id="CAT_000242_e69">
+               <num type="lot">69</num>
+               <name type="author">MOUNIER (Jean-Joseph)</name>
+               <trait>
+                  <p>célèbre constituant.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e69_d1">3 l. aut., dont une seule signée, au baron de Gérando; Rennes, an XII, ; p. in-4. Belles lettres</desc>
+            </item>
+            <item n="70" xml:id="CAT_000242_e70">
+               <num type="lot">70</num>
+               <name type="author">NECKER (Jacques)</name>
+               <trait>
+                  <p>le célèbre homme d'État.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e70_d1">L. a. s. (au baron de Gérando); Coppet, 6 décembre 1806, 3 p. in-4</desc>
+               <note>Belle lettre de félicitations sur ses ouvrages. « Je félicite ma fille de vous avoir pour ami et elle m'a vite prouvé qu'elle avait raison de mettre un grand prix à cette relation. »</note>
+            </item>
+            <item n="71" xml:id="CAT_000242_e71">
+               <num type="lot">71</num>
+               <name type="author">ORLÉANS (Adélaide d')</name>
+               <trait>
+                  <p>soeur du roi Louis-Philippe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e71_d1">L. a. s. (au baron de Gérando); Neuilly, 2; novembre 1823, 1 p. 3/4 in-8.</desc>
+               <note>Jolie lettre de compliments sur ses ouvrages.</note>
+            </item>
+            <item n="72" xml:id="CAT_000242_e72">
+               <num type="lot">72</num>
+               <name type="author">PASQUIER (Etienne-Denis  duc)</name>
+               <trait>
+                  <p>célèbre homme d'État, chancelier de France sous Louis-Philippe, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e72_d1">5 l. a. s. au baron de Gérando; 1809, 1810 et 1842, 14 p. in-4.</desc>
+               <note>Intéressante correspondance. Dans une de ses lettres de 1810, il parle du mariage de Napoléon avec Marie-Louise.</note>
+            </item>
+            <item n="73" xml:id="CAT_000242_e73">
+               <num type="lot">73</num>
+               <name type="author">QUINET (Edgar)</name>
+               <trait>
+                  <p>célèbre écrivain et philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e73_d1">10 l. a. s. au baron de Gérando; 1828-1831, 34 p. in-4 ou in-8</desc>
+               <note>Importante correspondance philosophique où il exprime son admiration pour Herder.</note>
+            </item>
+            <item n="74" xml:id="CAT_000242_e74">
+               <num type="lot">74</num>
+               <name type="author">RAVIGNAN (le Père Gustave-Xavier de)</name>
+               <trait>
+                  <p>célèbre prédicateur.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e74_d1">2 l. a. s. à M. Gustave de Gérando, 12 p. 1/4 in-4 ou in-8. Intéressantes.</desc>
+            </item>
+            <item n="75" xml:id="CAT_000242_e75">
+               <num type="lot">75</num>
+               <name type="author">RÉCAMIER (Juliette)</name>
+               <trait>
+                  <p>la reine de l'Abbaye-aux-Bois</p>
+               </trait>
+               <desc xml:id="CAT_000242_e75_d1">19 l. aut. au baron de Gérando, dont une signée, deux signées de son prénom et neuf signées de ses initiales; 1806-1824, 33 p. in-4, in-8 ou in-32</desc>
+               <note>PRÉCIEUX DOSSIER. C'est une correspondance amicale des plus charmantes avec le baron et avec la baronne de Gérando. Une des lettres à celle-ci porte un post-scriptum autographe de Mme de Staël.</note>
+            </item>
+            <item n="76" xml:id="CAT_000242_e76">
+               <num type="lot">76</num>
+               <name type="author">ROYER-COLLARD (Pierre-Paul)</name>
+               <trait>
+                  <p>célèbre philosophe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e76_d1">3 l. a. s. au baron de Gérando : 1819, 3 p. in-4.</desc>
+            </item>
+            <item n="77" xml:id="CAT_000242_e77">
+               <num type="lot">77</num>
+               <name type="author">SAINT-SIMON (Henri de)</name>
+               <trait>
+                  <p>le fondateur de l'école philosophique qui porte son nom.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e77_d1">2 l. a. s. et 1 l. s. au baron de Gérando; 1813, 3 p. in-4 ou in-fol. Intéressantes.</desc>
+            </item>
+            <item n="78" xml:id="CAT_000242_e78">
+               <num type="lot">78</num>
+               <name type="author">SAVANTS</name>
+               <desc xml:id="CAT_000242_e78_d1">23 lettres</desc>
+               <note>Biot, Bougainville, Chaptal, Conté, Delambre, Dupin (Charles), Gay-Lussac, Geoffroy Saint-Hilaire, Jussieu, Orfila, Parmentier, Péron, Pinel, Prony, etc.</note>
+            </item>
+            <item n="79" xml:id="CAT_000242_e79">
+               <num type="lot">79</num>
+               <name type="author">SCHLEGEL (Frédéric de)</name>
+               <trait>
+                  <p>le célèbre critique.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e79_d1">2 l. a. s., en français (au baron de Gérando); an XIII et 1806, 5 p. in-8</desc>
+               <note>Relatives à l'école supérieure secondaire de Cologne.</note>
+            </item>
+            <item n="80" xml:id="CAT_000242_e80">
+               <num type="lot">80</num>
+               <name type="author">STAEL-HOLSTEIN (Anne-Germaine Necker  baronne de)</name>
+               <trait>
+                  <p>l'auteur de Corinne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e80_d1">45 lettres autographes au baron et à la baronne de Gérando, dont 4 signées et 2 signées des initiales; 1801-1816, 90 p. in-4 ou in-8</desc>
+               <note>PRÉCIEUX DOSSIER. Correspondance des plus curieuses avec des amis intimes. Mme de Staël y parle de Mme Récamier, de Talleyrand, de Schlegel, de Napoléon, de plusieurs de ses amis habituels, de ses ouvrages, etc.</note>
+            </item>
+            <item n="81" xml:id="CAT_000242_e81">
+               <num type="lot">81</num>
+               <name type="author">STEWART (Dugald)</name>
+               <trait>
+                  <p>célèbre philosophe écossais.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e81_d1">5 l. a. s. au baron de Gérando ; 1814-1816, 19 p. in-4</desc>
+               <note>Intéressante correspondance toute philosophique..</note>
+            </item>
+            <item n="82" xml:id="CAT_000242_e82">
+               <num type="lot">82</num>
+               <name type="author">SUARD (J.-B.-Antoine)</name>
+               <trait>
+                  <p>célèbre écrivain, secrétaire perpétuel de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e82_d1">L. a. s. à une dame ; mardi matin, 3 p. in-4</desc>
+               <note>Lettre des plus intéressantes sur Guizot, qui avait alors 26 à 27 ans. Suard en fait le plus grand éloge. « Il m'étonne toujours par la variété, l'étendue et la solidité de ses connaissances. Il sait beaucoup et sait bien... «</note>
+            </item>
+            <item n="83" xml:id="CAT_000242_e83">
+               <num type="lot">83</num>
+               <name type="author">SUARD (J.-B.-Antoine).</name>
+               <desc xml:id="CAT_000242_e83_d1">9 l. a. s. au baron de Gérando ; an XII-1809,16 p. in-14 ou in-8, vig. et têtes impr. Intéressantes.</desc>
+            </item>
+            <item n="84" xml:id="CAT_000242_e84">
+               <num type="lot">84</num>
+               <name type="author">SWETCHINE (la comtesse Sophie de)</name>
+               <trait>
+                  <p>femme célèbre par le salon littéraire qu'elle tint à Paris.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e84_d1">6 l. a. s. au baron et à la baronne de Gérando, 12 p. in-4 ou in-8. Très jolies lettres.</desc>
+            </item>
+            <item n="85" xml:id="CAT_000242_e85">
+               <num type="lot">85</num>
+               <name type="author"> THIERS (Adolphe)</name>
+               <trait>
+                  <p>premier président de la troisième 85. République française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e85_d1">L. a. s. (au baron de Gérando); 22 décembre 1832, 2 p. in-8.</desc>
+               <note>Très curieuse épître où il recommande son ami Mignet pour une place à l'Académie des sciences morales et politiques (Mignet fut en effet nommé).</note>
+            </item>
+            <item n="86" xml:id="CAT_000242_e86">
+               <num type="lot">86</num>
+               <name type="author">VILLEMAIN (Abel-François)</name>
+               <trait>
+                  <p>célèbre écrivain, secrétaire-perpétuel de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e86_d1">7 l. a. s. au baron de Gérando, 10 p. in-4 ou in-8. Belles lettres.</desc>
+            </item>
+            <note>COLLECTION D'UN AMATEUR ETRANGER</note>
+            <item n="87" xml:id="CAT_000242_e87">
+               <num type="lot">87</num>
+               <name type="author">ALEXANDRE VII (Fabio Chigi)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e87_d1">L. s., avec la souscript. aut.; Munster, 30 juin 1645, 1 in-fol.</desc>
+            </item>
+            <item n="88" xml:id="CAT_000242_e88">
+               <num type="lot">88</num>
+               <name type="author">ALLEMAGNE (Empereurs d').</name>
+               <desc xml:id="CAT_000242_e88_d1">4 l. s</desc>
+               <note>Maximilien Ier, sig. Per regem, Anne (1541), Eléonore (1625) et Joseph Ier.</note>
+            </item>
+            <item n="89" xml:id="CAT_000242_e89">
+               <num type="lot">89</num>
+               <name type="author">ALLEMAGNE.</name>
+               <desc xml:id="CAT_000242_e89_d1">16 l. s. par des princes de la maison d'Autriche, de Nassau, de Wurtemberg, etc., des XVIe et XVIIe siècles.</desc>
+            </item>
+            <item n="90" xml:id="CAT_000242_e90">
+               <num type="lot">90</num>
+               <name type="author">ANGLETERRE (rois d')</name>
+               <desc xml:id="CAT_000242_e90_d1">3 l. s</desc>
+               <note>George II, 2 let., et George III.</note>
+            </item>
+            <item n="91" xml:id="CAT_000242_e91">
+               <num type="lot">91</num>
+               <name type="author">APAFI (Michel)</name>
+               <trait>
+                  <p>prince de Transylvanie.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e91_d1">L. s., en latin, à Dietrichstein; Radnoth, 14 août 1687, 3/4 de p. in-fol., cachet. Superbe pièce</desc>
+            </item>
+            <item n="92" xml:id="CAT_000242_e92">
+               <num type="lot">92</num>
+               <name type="author">BADE</name>
+               <desc xml:id="CAT_000242_e92_d1">4 lettres de princes et princesses de cette maison ducale au XVIIe siècle.</desc>
+            </item>
+            <item n="93" xml:id="CAT_000242_e93">
+               <num type="lot">93</num>
+               <name type="author">BAVIÈRE (ducs de).</name>
+               <desc xml:id="CAT_000242_e93_d1">3 lettres.</desc>
+               <note>Christian-Auguste (1675), Philippe (1663) et Philippe (1683).</note>
+            </item>
+            <item n="94" xml:id="CAT_000242_e94">
+               <num type="lot">94</num>
+               <name type="author">BEAUHARNAIS (Eugène de)</name>
+               <trait>
+                  <p>vice-roi d'Italie.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e94_d1">3 l. s. ; 1804-1821, 3 p. in-4 ou in-fol.</desc>
+            </item>
+            <item n="95" xml:id="CAT_000242_e95">
+               <num type="lot">95</num>
+               <name type="author">BENOIT XIII (Vincenzo-Maria Corsini)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e95_d1">L. s., avec la souscription et ; lignes autographes, à Capizucchi ; Césène, 28 déc. 1680, 1 p. in-4</desc>
+            </item>
+            <item n="96" xml:id="CAT_000242_e96">
+               <num type="lot">96</num>
+               <name type="author">BENOIT XIII (Vincenzo-Maria Corsini)</name>
+               <desc xml:id="CAT_000242_e96_d1">L. s., avec la souscript. aut., au prince de Rossano; Bénevent, 5 déc. 1722, 1 p. in-4</desc>
+            </item>
+            <item n="97" xml:id="CAT_000242_e97">
+               <num type="lot">97</num>
+               <name type="author">BENOIT XIV (Prospero Lambertini)</name>
+               <trait>
+                  <p>illustre pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e97_d1">L. a. s.; Ancône, 24 mars 1731, 1 p. in-4. Légère coupure</desc>
+            </item>
+            <item n="98" xml:id="CAT_000242_e98">
+               <num type="lot">98</num>
+               <name type="author">BENOIT XIV (Prospero LAMBERTINI)</name>
+               <desc xml:id="CAT_000242_e98_d1">L. s., avec la souscript. et 5 lignes autographes, au marquis Bentivoglio ; Ancône, 9 juin 1729, 2 p. in-fol. Belle pièce</desc>
+            </item>
+            <item n="99" xml:id="CAT_000242_e99">
+               <num type="lot">99</num>
+               <name type="author">BENTIVOGLIO (famille)</name>
+               <desc xml:id="CAT_000242_e99_d1">7 lettres du XVIIIe siècle émanant de membres de cette illustre famille italienne.</desc>
+            </item>
+            <item n="100" xml:id="CAT_000242_e100">
+               <num type="lot">100</num>
+               <name type="author">BONAPARTE (famille)</name>
+               <desc xml:id="CAT_000242_e100_d1">6 l. s</desc>
+               <note>Joseph, 2 let., Lucien, 2 let., Elisa, 2 let.</note>
+            </item>
+            <item n="101" xml:id="CAT_000242_e101">
+               <num type="lot">101</num>
+               <name type="author">BONGARS (Jacques)</name>
+               <trait>
+                  <p>célèbre érudit et diplomate calviniste, né à Orléans.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e101_d1">L. a. s. à Daniel ; Paris, 18 oct. 1579, 2 p. in-fol.</desc>
+               <note>Belle lettre où il parle de Pithou, qui prépare une édition de Juvénal.</note>
+            </item>
+            <item n="102" xml:id="CAT_000242_e102">
+               <num type="lot">102</num>
+               <name type="author">BONGARS (Jacques)</name>
+               <desc xml:id="CAT_000242_e102_d1">L. a. s. à Daniel; Paris, 10 nov. 1579, 3/4 de p. in-fol.</desc>
+               <note>Belle lettre où il parle des éditions de divers auteurs latins.</note>
+            </item>
+            <item n="103" xml:id="CAT_000242_e103">
+               <num type="lot">103</num>
+               <name type="author">CASAUBON (Isaac)</name>
+               <trait>
+                  <p>un des plus grands érudits de son temps.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e103_d1">L. a. s., en latin, à un cardinal; Paris, 3 des ides de novembre 1604, 4 p. in-fol.</desc>
+               <note>Superbe lettre toute relative à des questions d'érudition.</note>
+            </item>
+            <item n="104" xml:id="CAT_000242_e104">
+               <num type="lot">104</num>
+               <name type="author">CASIMIR V</name>
+               <trait>
+                  <p>roi de Pologne, époux de Marie de Gonzague.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e104_d1">L. s., en latin, avec la souscript. aut., à l'empereur Ferdinand III ; Varsovie, 27 juin 1655, 1 p. 1/4 in-fol., cachet. Belle pièce</desc>
+            </item>
+            <item n="105" xml:id="CAT_000242_e105">
+               <num type="lot">105</num>
+               <name type="author">CASIMIR V</name>
+               <desc xml:id="CAT_000242_e105_d1">L. s., en latin, avec la souscript. aut., à l'empereur Ferdinand III ; Léopold, 20 avril 1656, 1 p. 1/2 in-fol., cachet. Très belle pièce</desc>
+            </item>
+            <item n="106" xml:id="CAT_000242_e106">
+               <num type="lot">106</num>
+               <name type="author">CATHERINE DE BOURBON</name>
+               <trait>
+                  <p>duchesse de Bar, soeur de Henri IV.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e106_d1">L. s., avec la souscript. aut.; Paris, 22 oct. 1598, 3/4 de p. in-fol. Belle pièce</desc>
+            </item>
+            <item n="107" xml:id="CAT_000242_e107">
+               <num type="lot">107</num>
+               <name type="author">CHARLES-QUINT</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e107_d1">1° P. s.; 1521, 1 p. in-fol. oblong, trace de sceau.-2° Charte, en français, sur vélin; 1515, 1 p. in-fol. oblong</desc>
+            </item>
+            <item n="108" xml:id="CAT_000242_e108">
+               <num type="lot">108</num>
+               <name type="author">CHARLES VI</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e108_d1">L. a. s., en latin, au comte Esterhazy ; 18 juin 1720, 1 p. 1/4 in-4, cachet. Belle pièce</desc>
+            </item>
+            <item n="109" xml:id="CAT_000242_e109">
+               <num type="lot">109</num>
+               <name type="author">CHARLES II</name>
+               <trait>
+                  <p>roi d'Espagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e109_d1">2 l. s.; 1686-1690, 1 p. in-fol., cachets</desc>
+            </item>
+            <item n="110" xml:id="CAT_000242_e110">
+               <num type="lot">110</num>
+               <name type="author">CHARLES IX</name>
+               <trait>
+                  <p>roi de Suède.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e110_d1">2 l. s. ; 1594-1604, 1 p. in-fol., cachets</desc>
+            </item>
+            <item n="111" xml:id="CAT_000242_e111">
+               <num type="lot">111</num>
+               <name type="author">CHARLES-GUSTAVE X</name>
+               <trait>
+                  <p>roi de Suède.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e111_d1">L. s. ; Krampakow, 21 oct. 1655, 3/4 de p. in-fol.</desc>
+            </item>
+            <item n="112" xml:id="CAT_000242_e112">
+               <num type="lot">112</num>
+               <name type="author">CHARLES XI</name>
+               <trait>
+                  <p>roi de Suède.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e112_d1">L. s. ; 6 janvier 1676, 1/2 p. in-fol.</desc>
+            </item>
+            <item n="113" xml:id="CAT_000242_e113">
+               <num type="lot">113</num>
+               <name type="author">CHARLES</name>
+               <trait>
+                  <p>duc de Bourgogne, dit le Téméraire.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e113_d1">Charte, sur vélin ; Amiens, 28 mars 1470, 1 p. in-fol. oblong. Très belle pièce.</desc>
+            </item>
+            <item n="114" xml:id="CAT_000242_e114">
+               <num type="lot">114</num>
+               <name type="author">CHRISTINE</name>
+               <trait>
+                  <p>reine de Suède, dite la Grande.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e114_d1">L. s., en italien, au nonce apostolique à Madrid; Rome, 1er juillet 1662, 1/2 p. in-fol., cachet. Belle pièce</desc>
+            </item>
+            <item n="115" xml:id="CAT_000242_e115">
+               <num type="lot">115</num>
+               <name type="author">CLÉMENT VII (Giovanni de Medici)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e115_d1">P. s.; 1508, 1 p. in-fol., cachet</desc>
+            </item>
+            <item n="116" xml:id="CAT_000242_e116">
+               <num type="lot">116</num>
+               <name type="author">CLÉMENT VIII (Ippolito Aldobrandini)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e116_d1">L. s.; Rome, mai 1603, 1/4 de p. in-fol. Jolie pièce</desc>
+            </item>
+            <item n="117" xml:id="CAT_000242_e117">
+               <num type="lot">117</num>
+               <name type="author">CLÉMENT IX (Giulio Rospigliosi)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e117_d1">L. s., avec la souscript. aut., à l'archevêque de Thèbes ; Rome 24 nov. 1655, 1 p. in-fol.</desc>
+            </item>
+            <item n="118" xml:id="CAT_000242_e118">
+               <num type="lot">118</num>
+               <name type="author">CLÉMENT XII (Lorenzo Corsini)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e118_d1">L. s., avec la souscript. aut.; Rome, 31 déc. 1712, 1/2 p. in-4</desc>
+            </item>
+            <item n="119" xml:id="CAT_000242_e119">
+               <num type="lot">119</num>
+               <name type="author">CLÉMENT XIII (Carlo Rezzonico)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e119_d1">L. s., avec la souscript. aut.; Rome, 22 déc. 1742, 1/2 p. in-4. Légère coupure.</desc>
+            </item>
+            <item n="120" xml:id="CAT_000242_e120">
+               <num type="lot">120</num>
+               <name type="author">COMITÉ DE SALUT PUBLIC.</name>
+               <desc xml:id="CAT_000242_e120_d1">26 pièces signées par des membres du Comité de salut public; ans Il et III, 30 p. in-fol., vig. et têtes impr. Intéressant dossier</desc>
+            </item>
+            <item n="121" xml:id="CAT_000242_e121">
+               <num type="lot">121</num>
+               <name type="author">CRUCIGER (Gaspard)</name>
+               <trait>
+                  <p>célèbre réformateur allemand.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e121_d1">Fin de lettre aut. sig., en latin, à Dietrich; Wittenberg, 16 mars 1543, 1 p. in-fol.</desc>
+            </item>
+            <item n="122" xml:id="CAT_000242_e122">
+               <num type="lot">122</num>
+               <name type="author">DANEAU (Lambert)</name>
+               <trait>
+                  <p>célèbre théologien protestant.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e122_d1">Fin de lettre aut. sig., en latin ; 10 des ides de janvier 1566, 1 p. in-8 oblong</desc>
+            </item>
+            <item n="123" xml:id="CAT_000242_e123">
+               <num type="lot">123</num>
+               <name type="author">DIETRICHSTEIN (Adam  comte de)</name>
+               <trait>
+                  <p>un des plus célèbres diplomates de son temps.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e123_d1">L. a. s. à un ambassadeur; 4 octobre 1577, 1 p. in-fol., cachet. Superbe pièce</desc>
+            </item>
+            <item n="124" xml:id="CAT_000242_e124">
+               <num type="lot">124</num>
+               <name type="author">DIVERS</name>
+               <desc xml:id="CAT_000242_e124_d1">28 lettres ou pièces</desc>
+               <note>Antonelli (le cardinal), Becks (le Père), Buxtorf, Consalvi, Ligne le prince de), Maine (le duc du), Munchhausen, Penthièvre (le duc de), etc.</note>
+            </item>
+            <item n="125" xml:id="CAT_000242_e125">
+               <num type="lot">125</num>
+               <name type="author">ESTE (Alphonse II d')</name>
+               <trait>
+                  <p>duc de Ferrare.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e125_d1">L. s. au protonotaire Ariosto; Ferrare, 21 juillet 1565, 1 p. in-fol.</desc>
+            </item>
+            <item n="126" xml:id="CAT_000242_e126">
+               <num type="lot">126</num>
+               <name type="author">ESTE (maison d')</name>
+               <desc xml:id="CAT_000242_e126_d1">18 lettres des XVIIe et XVIIIe siècles émanant de princes de cette illustre famille italienne.</desc>
+            </item>
+            <item n="127" xml:id="CAT_000242_e127">
+               <num type="lot">127</num>
+               <name type="author">FARNÈSE (Alexandre)</name>
+               <trait>
+                  <p>duc de Parme, illustre guerrier, adversaire de Henri IV.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e127_d1">L. s., en français; Bruxelles, 5 fév. 1590, 3/4 de p. in-fol., cachet. Très belle pièce</desc>
+            </item>
+            <item n="128" xml:id="CAT_000242_e128">
+               <num type="lot">128</num>
+               <name type="author">FARNÈSE (maison)</name>
+               <desc xml:id="CAT_000242_e128_d1">9 lettres des XVIe, XVIIe et XVIIIe siècles émanant de princes de cette maison.</desc>
+            </item>
+            <item n="129" xml:id="CAT_000242_e129">
+               <num type="lot">129</num>
+               <name type="author">FERDINAND Ier</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e129_d1">L. s.; 1523, 1 p. in-fol. oblong. Tachée d'eau</desc>
+            </item>
+            <item n="130" xml:id="CAT_000242_e130">
+               <num type="lot">130</num>
+               <name type="author">FERDINAND III</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e130_d1">L. a. s.; 20 mars 1643, 1/2 p. in-fol. Belle pièce</desc>
+            </item>
+            <item n="131" xml:id="CAT_000242_e131">
+               <num type="lot">131</num>
+               <name type="author">FRANÇOIS Ier</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e131_d1">L. s.; Saint-Germain-en-Laye, 17 septembre, 3/4 de p. in-fol. Belle pièce</desc>
+            </item>
+            <item n="132" xml:id="CAT_000242_e132">
+               <num type="lot">132</num>
+               <name type="author">FRANÇOIS</name>
+               <desc xml:id="CAT_000242_e132_d1">2 p. s., sur vélin; 1533-1542, 3 p. in-fol. oblong. Belles pièces</desc>
+            </item>
+            <item n="133" xml:id="CAT_000242_e133">
+               <num type="lot">133</num>
+               <name type="author">FRANÇOIS D'ASSISE</name>
+               <trait>
+                  <p>roi d'Espagne, époux d'Isabelle II.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e133_d1">2 l. s. aux cardinaux Patrizi et Amat; 1857-1859, 2 p. in-fol. oblong</desc>
+            </item>
+            <item n="134" xml:id="CAT_000242_e134">
+               <num type="lot">134</num>
+               <name type="author">FRÉDÉRIC II</name>
+               <trait>
+                  <p>roi de Prusse, dit le Grand.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e134_d1">1° L. s., en français; Potsdam, 1er juillet 1786, 1/4 de p. in-4.-2° Note aut., en français, 2 p. in-8</desc>
+            </item>
+            <item n="135" xml:id="CAT_000242_e135">
+               <num type="lot">135</num>
+               <name type="author">FRÉDÉRIC-GUILLAUME II</name>
+               <trait>
+                  <p>roi de Prusse.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e135_d1">L. s., en français, à M. de Corberon; Potsdam, 7 sept. 1783, 1 p. in-4</desc>
+            </item>
+            <item n="136" xml:id="CAT_000242_e136">
+               <num type="lot">136</num>
+               <name type="author">GONZAGUE (maison de)</name>
+               <desc xml:id="CAT_000242_e136_d1">18 lettres des XVIe, XVIIe et XVIIIe siècles émanant de personnages de cette illustre maison.</desc>
+            </item>
+            <item n="137" xml:id="CAT_000242_e137">
+               <num type="lot">137</num>
+               <name type="author">GRÉGOIRE XIV (Niccolo Sfondrati)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e137_d1">L. s. à Cesi; 11 août 1591, 1/2 p. in-4</desc>
+            </item>
+            <item n="138" xml:id="CAT_000242_e138">
+               <num type="lot">138</num>
+               <name type="author">GRÉGOIRE XVI (Mauro Capellari)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e138_d1">P. s., avec un mot autographe, 1 p. in-4</desc>
+            </item>
+            <item n="139" xml:id="CAT_000242_e139">
+               <num type="lot">139</num>
+               <name type="author">GUERRIERS</name>
+               <desc xml:id="CAT_000242_e139_d1">9 lettres ou pièces signées</desc>
+               <note>Bellegarde (Roger de), Berthier (Alexandre), Castries, Condé (le grand), Davout, Lafayette, 2 let., Montmorency (Anne de) et Turenne.</note>
+            </item>
+            <item n="140" xml:id="CAT_000242_e140">
+               <num type="lot">140</num>
+               <name type="author">HENRI II</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e140_d1">P. s., sur vélin ; 1549, 1/2 p. in-fol. oblong</desc>
+            </item>
+            <item n="141" xml:id="CAT_000242_e141">
+               <num type="lot">141</num>
+               <name type="author">HENRI III</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e141_d1">2 l. s.; 1585, 2 p. in-fol. Belles pièces</desc>
+            </item>
+            <item n="142" xml:id="CAT_000242_e142">
+               <num type="lot">142</num>
+               <name type="author">HENRI III</name>
+               <desc xml:id="CAT_000242_e142_d1">2 p. s., sur vélin ; 1575-1582, 2 p. in-fol. oblong</desc>
+            </item>
+            <item n="143" xml:id="CAT_000242_e143">
+               <num type="lot">143</num>
+               <name type="author">INNOCENT XI (Benedetto Odescalchi)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e143_d1">L. s.; Ferrare, 3 sept. 1649, 1 p. in-4</desc>
+            </item>
+            <item n="144" xml:id="CAT_000242_e144">
+               <num type="lot">144</num>
+               <name type="author">ISABELLE II</name>
+               <trait>
+                  <p>reine d'Espagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e144_d1">2 l. s.; 1854-1859, 2 p. in-fol. oblong. Belles pièces</desc>
+            </item>
+            <item n="145" xml:id="CAT_000242_e145">
+               <num type="lot">145</num>
+               <name type="author">ITALIE</name>
+               <desc xml:id="CAT_000242_e145_d1">34 lettres émanant de personnages italiens des XVIe, XVIIe et XVIIIe siècles.</desc>
+            </item>
+            <item n="146" xml:id="CAT_000242_e146">
+               <num type="lot">146</num>
+               <name type="author">ITALIE</name>
+               <desc xml:id="CAT_000242_e146_d1">36 lettres de cardinaux italiens des XVIIe et XVIIIe siècles.</desc>
+            </item>
+            <item n="147" xml:id="CAT_000242_e147">
+               <num type="lot">147</num>
+               <name type="author">ITALIE</name>
+               <desc xml:id="CAT_000242_e147_d1">7 lettres d'écrivains italiens, parmi lesquels Gamba, Manfredi, Muratori, Recanati, etc.</desc>
+            </item>
+            <item n="148" xml:id="CAT_000242_e148">
+               <num type="lot">148</num>
+               <name type="author">JOSEPH II</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e148_d1">Billet de 4 lignes aut. sig.; 1766, 1/2 p. in-8</desc>
+            </item>
+            <item n="149" xml:id="CAT_000242_e149">
+               <num type="lot">149</num>
+               <name type="author">LECONTE (Antoine)</name>
+               <trait>
+                  <p>célèbre jurisconsulte, né à Noyon.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e149_d1">L. a. s. à Pierre Daniel; Bourges, 29 juillet 1573, 1 p. in-4. Légères déchirures enlevant quelques mots. Rare</desc>
+            </item>
+            <item n="150" xml:id="CAT_000242_e150">
+               <num type="lot">150</num>
+               <name type="author">LÉON XI (Alessandro di Medici)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e150_d1">L. s. au nonce de Venise ; Rome, 12 juillet 1601, 1/2 p. in-fol., cachet. Belle pièce</desc>
+            </item>
+            <item n="151" xml:id="CAT_000242_e151">
+               <num type="lot">151</num>
+               <name type="author">LÉON XII (Annibale della Genga)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e151_d1">P. s., 2 p. in-fol. Belle pièce</desc>
+            </item>
+            <item n="152" xml:id="CAT_000242_e152">
+               <num type="lot">152</num>
+               <name type="author">LIGUORI (Saint Alphonse de)</name>
+               <trait>
+                  <p>évêque de Sainte-Agathe.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e152_d1">P. s.; 13 janvier 1770, 1/4 de p. in-8 oblong. Jolie pièce</desc>
+            </item>
+            <item n="153" xml:id="CAT_000242_e153">
+               <num type="lot">153</num>
+               <name type="author">LORRAINE (Henri II, duc de)</name>
+               <desc xml:id="CAT_000242_e153_d1">P. s., sur vélin; Nancy, 14 juin 1624, 1 p. double in-fol. oblong, grand sceau en cire bien conservé</desc>
+               <note>Superbe pièce. Lettres de noblesse accordées à Pierre Candot, avocat à Nancy. Les armes de l'anobli sont peintes en tête des lettres.</note>
+            </item>
+            <item n="154" xml:id="CAT_000242_e154">
+               <num type="lot">154</num>
+               <name type="author">LORRAINE (Charles III, duc (de)</name>
+               <desc xml:id="CAT_000242_e154_d1">L. a. s., en italien; 9 décembre 1623, 2 p. in-fol. Très belle lettre</desc>
+            </item>
+            <item n="155" xml:id="CAT_000242_e155">
+               <num type="lot">155</num>
+               <name type="author">LORRAINE (Charles IV, duc de)</name>
+               <desc xml:id="CAT_000242_e155_d1">L. a. s., en italien ; Inspruck, 17 juillet 1680, 1 p. in-fol. Belle lettre</desc>
+            </item>
+            <item n="156" xml:id="CAT_000242_e156">
+               <num type="lot">156</num>
+               <name type="author">LORRAINE (ducs de)</name>
+               <desc xml:id="CAT_000242_e156_d1">8 p. s</desc>
+               <note>Antoine, Charles II, Charles III, Charles IV, Charles-Henri et Léopold.</note>
+            </item>
+            <item n="157" xml:id="CAT_000242_e157">
+               <num type="lot">157</num>
+               <name type="author">LOUIS XII</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e157_d1">L. s., sur vélin ; Blois, 13 septembre, 1/2 p. in-4 oblong, cachet. Très belle pièce</desc>
+            </item>
+            <item n="158" xml:id="CAT_000242_e158">
+               <num type="lot">158</num>
+               <name type="author">LOUIS XVI</name>
+               <trait>
+                  <p>roi de France, décapité en 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e158_d1">2 p. s.; 1782-1790, 1 p. in-fol.</desc>
+            </item>
+            <item n="159" xml:id="CAT_000242_e159">
+               <num type="lot">159</num>
+               <name type="author">LOUIS XVIII</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e159_d1">4 p. s., dont 2 sur vélin ; 1777-1820, 4 p. in-fol.</desc>
+            </item>
+            <item n="160" xml:id="CAT_000242_e160">
+               <num type="lot">160</num>
+               <name type="author">LOUIS-PHILIPPE Ier</name>
+               <trait>
+                  <p>roi des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e160_d1">1° 2 l. s.; 1845-1846, 2 p. in-fol.-2° L. s. par la reine Marie Amélie; 1846, 1/2 p. in-fol.</desc>
+            </item>
+            <item n="161" xml:id="CAT_000242_e161">
+               <num type="lot">161</num>
+               <name type="author">MALDACHINI (Olimpia PamphilI)</name>
+               <trait>
+                  <p>belle-soeur et favorite du pape Innocent X.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e161_d1">L. s. au nonce à Florence; Rome, 27 déc. 1651, 3/4 de p. in-4</desc>
+            </item>
+            <item n="162" xml:id="CAT_000242_e162">
+               <num type="lot">162</num>
+               <name type="author">MALPIGHI (Marcel)</name>
+               <trait>
+                  <p>illustré anatomiste italien.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e162_d1">L. a. s.; Boulogne, 2 mai 1676, 2 p. in-4. Belle lettre</desc>
+            </item>
+            <item n="163" xml:id="CAT_000242_e163">
+               <num type="lot">163</num>
+               <name type="author">MANSFELD (Pierre-Ernest  comte de)</name>
+               <trait>
+                  <p>illustre capitaine allemand.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e163_d1">L. s., en français, aux bourgmestre et échevins de Bois-le-Duc; Bruxelles, 20 septembre 1790, 1/2 p. in-fol. oblong, cachet. Très belle pièce</desc>
+            </item>
+            <item n="164" xml:id="CAT_000242_e164">
+               <num type="lot">164</num>
+               <name type="author">MARGUERITE D'AUTRICHE</name>
+               <trait>
+                  <p>gouvernante des Pays-Bas, tante de Charles-Quint.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e164_d1">P. s., en français, sur vélin ; Malines, 20 février 1527, 1 p. in-fol. oblong</desc>
+            </item>
+            <item n="165" xml:id="CAT_000242_e165">
+               <num type="lot">165</num>
+               <name type="author">MARIE DE MÉDICIS</name>
+               <trait>
+                  <p>reine et régente de France.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e165_d1">L. s., avec la souscript. aut., au prince de Condé; Paris, 10 février 1629, 3/4 de p. in-4, cachets brisés</desc>
+               <note>Elle lui recommande les pères de l'Oratoire qui vont fonder un établissement à Moulins.</note>
+            </item>
+            <item n="166" xml:id="CAT_000242_e166">
+               <num type="lot">166</num>
+               <name type="author">MARIE-ANNE D'AUTRICHE</name>
+               <trait>
+                  <p>reine d'Espagne, femme de Philippe IV.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e166_d1">L. s. ; Madrid, 23 mars 1666, 1/2 p. in-fol., cachet</desc>
+            </item>
+            <item n="167" xml:id="CAT_000242_e167">
+               <num type="lot">167</num>
+               <name type="author">MAXIMILIEN II</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e167_d1">3 billets aut. sig., 3 p. in-32, cachets</desc>
+            </item>
+            <item n="168" xml:id="CAT_000242_e168">
+               <num type="lot">168</num>
+               <name type="author">MAZARIN (le cardinal Michel)</name>
+               <trait>
+                  <p>frère du grand ministre archevêque d'Aix.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e168_d1">1° L. a. s.; Rome, 8 juillet 1645, 1 p. in-fol.-2° L. s., avec 1 souscript. et 8 lignes aut., à l'archevêque de Thèbes ; Rome, 4 janvier 1648, 1 p. in-fol.</desc>
+            </item>
+            <item n="169" xml:id="CAT_000242_e169">
+               <num type="lot">169</num>
+               <name type="author">MAZZAFERRATA (Gianbattista)</name>
+               <trait>
+                  <p>célèbre compositeur de musique italien.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e169_d1">L. a. s. ; Ferrare, 15 septembre, 1 p. in-4</desc>
+            </item>
+            <item n="170" xml:id="CAT_000242_e170">
+               <num type="lot">170</num>
+               <name type="author">MÉDICIS (famille de)</name>
+               <desc xml:id="CAT_000242_e170_d1">20 lettres des XVIe et XVIIe siècles émanant de personnages de cette illustre maison.</desc>
+            </item>
+            <item n="171" xml:id="CAT_000242_e171">
+               <num type="lot">171</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <trait>
+                  <p>empereur des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e171_d1">Brevet sig., sur vélin; an X, 1 p. in-fol., vig., tête impr. et cachet</desc>
+            </item>
+            <item n="172" xml:id="CAT_000242_e172">
+               <num type="lot">172</num>
+               <name type="author">NAPOLÉON III</name>
+               <trait>
+                  <p>empereur des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e172_d1">L. s. au cardinal Patrizi; Paris, 20 février 1863, 1/2 p. in-fol., enveloppe et cachet. Très belle pièce</desc>
+            </item>
+            <item n="173" xml:id="CAT_000242_e173">
+               <num type="lot">173</num>
+               <name type="author">PAPES</name>
+               <desc xml:id="CAT_000242_e173_d1">6 pièces signées Fial ut petitur par les papes Paul III, Pie IV, Clément VIII, Urbain VIII, Innocent XII et Pie VII.</desc>
+            </item>
+            <item n="174" xml:id="CAT_000242_e174">
+               <num type="lot">174</num>
+               <name type="author">PAPES</name>
+               <desc xml:id="CAT_000242_e174_d1">6 pièces non signées émanant des papes Grégoire XIII, Paul V, Urbain VIII, Innocent XI, Clément XIII et Grégoire XVI.</desc>
+            </item>
+            <item n="175" xml:id="CAT_000242_e175">
+               <num type="lot">175</num>
+               <name type="author">PAUL V (Camillo Borghese)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e175_d1">L. s. à Capponi; Rome, 23 décembre 1606, 1/2 p. in-4</desc>
+            </item>
+            <item n="176" xml:id="CAT_000242_e176">
+               <num type="lot">176</num>
+               <name type="author">PEDRO II</name>
+               <trait>
+                  <p>empereur du Brésil.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e176_d1">1° 2 l. s. ; Rio de Janeiro; 1855-1858, 2 p. in-fol.-2° L. s. par l'impératrice Thérèse-Christine ; 1832, 1/2 p. in-fol.</desc>
+            </item>
+            <item n="177" xml:id="CAT_000242_e177">
+               <num type="lot">177</num>
+               <name type="author">PHILIPPE Ier</name>
+               <trait>
+                  <p>roi de Castille, dit le Beau.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e177_d1">L. s. ; Bruxelles, 18 octobre 1505, 1/2 p. in-fol. oblong. Légère déchirure. Rare</desc>
+            </item>
+            <item n="178" xml:id="CAT_000242_e178">
+               <num type="lot">178</num>
+               <name type="author">PHILIPPE II</name>
+               <trait>
+                  <p>roi d'Espagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e178_d1">1° P. s., sur vélin ; Madrid, 7 septembre 1578, 1 p. double in-fol. oblong.-2° Lettre, sur vélin, en français ; Bruxelles, 18 décembre 1557, 1/2 p. in-fol. oblong, sceau</desc>
+            </item>
+            <item n="179" xml:id="CAT_000242_e179">
+               <num type="lot">179</num>
+               <name type="author">PHILIPPE IV</name>
+               <trait>
+                  <p>roi d'Espagne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e179_d1">L. s., en français, au comte de Bucquoy; Saragosse, 25 avril 1644, 1/2 p. in-fol., cachet</desc>
+               <note>Il lui mande la nomination du marquis de Castelrodrigo comme lieutenant général de don Juan d'Autriche dans les Pays-Bas.</note>
+            </item>
+            <item n="180" xml:id="CAT_000242_e180">
+               <num type="lot">180</num>
+               <name type="author">PIE VII (Gregorio CHIARAMONTI)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e180_d1">Apostille signée, avec 6 mots autographes, 1 p. in-fol.</desc>
+            </item>
+            <item n="181" xml:id="CAT_000242_e181">
+               <num type="lot">181</num>
+               <name type="author">PIE VIII (Saverio CASTIGLIONE)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e181_d1">2 l.s. ; 1817-1823, 2 p. in-fol.</desc>
+            </item>
+            <item n="182" xml:id="CAT_000242_e182">
+               <num type="lot">182</num>
+               <name type="author">PIE IX (Gianmaria MASTAI-FERRETTI)</name>
+               <trait>
+                  <p>pape.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e182_d1">L. a. s. ; Spoleto, 20 septembre 1831, 1 p. in-fol.</desc>
+            </item>
+            <item n="183" xml:id="CAT_000242_e183">
+               <num type="lot">183</num>
+               <name type="author">PIE IX (Gianmaria MASTAI-FERRETTI)</name>
+               <desc xml:id="CAT_000242_e183_d1">L. a. s. ; Imola, 14 juin 1835, 1/2 p. in-4</desc>
+            </item>
+            <item n="184" xml:id="CAT_000242_e184">
+               <num type="lot">184</num>
+               <name type="author">POLOGNE (rois et reines de)</name>
+               <desc xml:id="CAT_000242_e184_d1">6 l. s</desc>
+               <note>Christiane-Eberhardine, 2 let., Auguste II, 3 let., Eléonore.</note>
+            </item>
+            <item n="185" xml:id="CAT_000242_e185">
+               <num type="lot">185</num>
+               <name type="author">RAKOCZY (Georges Ier)</name>
+               <trait>
+                  <p>prince de Transylvanie.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e185_d1">1° L. s., en latin, avec la souscript. aut., au comte Nicolas Esterhazy de Galanta ; 1er oct. 1642, 1 p. 1/2 in-4, cachet. Très belle pièce.-2° L. s., en latin, avec la souscript. aut., par Georges II Rakoczy, à l'empereur d'Allemagne; 11 janvier 1649, 1 p., 1/2 in-fol., cachet. Fortement rognée</desc>
+            </item>
+            <item n="186" xml:id="CAT_000242_e186">
+               <num type="lot">186</num>
+               <name type="author">RÉVOLUTION FRANÇAISE.</name>
+               <desc xml:id="CAT_000242_e186_d1">14 p. s.</desc>
+               <note>Prieur Merlin de Douai, Carnot, Treilhard, Guffroy, Amar, Voulland, Cambacérès, Louvet, etc.</note>
+            </item>
+            <item n="187" xml:id="CAT_000242_e187">
+               <num type="lot">187</num>
+               <name type="author">ROIS DE FRANCE</name>
+               <desc xml:id="CAT_000242_e187_d1">18 pièces. Henri IV, Louis XIII, Louis XIV (pièces du secrétaire de la main), etc</desc>
+            </item>
+            <item n="188" xml:id="CAT_000242_e188">
+               <num type="lot">188</num>
+               <name type="author">SCALIGER (Joseph-Juste)</name>
+               <trait>
+                  <p>le grand philologue.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e188_d1">L. a. s. à Pierre Daniel; Bâle, 1er juillet 1574, 1 p. 3/4 in-fol., trace de cachet. Légère déchirure</desc>
+               <note>Superbe lettre toute relative à des éditions d'auteurs latins.</note>
+            </item>
+            <item n="189" xml:id="CAT_000242_e189">
+               <num type="lot">189</num>
+               <name type="author">SEGUIER (Jean-François)</name>
+               <trait>
+                  <p>célèbre antiquaire.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e189_d1">4 l. a. s.; 1754-1768, 3 p. in-4 ou in-fol. Intéressantes</desc>
+            </item>
+            <item n="190" xml:id="CAT_000242_e190">
+               <num type="lot">190</num>
+               <name type="author">SIGISMOND III</name>
+               <trait>
+                  <p>roi de Pologne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e190_d1">L. s.; 19 février 1617, 1 p. 1/4 in-fol., cachet</desc>
+            </item>
+            <item n="191" xml:id="CAT_000242_e191">
+               <num type="lot">191</num>
+               <name type="author">SUÈDE (rois de).</name>
+               <desc xml:id="CAT_000242_e191_d1">3 lettres.</desc>
+               <note>Hedwige-Charlotte, Gustave III et Charles XIII.</note>
+            </item>
+            <item n="192" xml:id="CAT_000242_e192">
+               <num type="lot">192</num>
+               <name type="author">TISSOT (Simon-André)</name>
+               <trait>
+                  <p>le célèbre médecin suisse.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e192_d1">5 l. a. s.; 1767-1768, 14 p. in-4 ou in-8. Intéressante correspondance</desc>
+            </item>
+            <item n="193" xml:id="CAT_000242_e193">
+               <num type="lot">193</num>
+               <name type="author">VLADISLAS VII</name>
+               <trait>
+                  <p>roi de Pologne.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e193_d1">L. s., en latin, avec la souscript. aut., à l'empereur Ferdinand III; Varsovie, 9 mai 1641, 1 p. 1/2 in-fol., cachet. Superbe pièce</desc>
+            </item>
+            <item n="194" xml:id="CAT_000242_e194">
+               <num type="lot">194</num>
+               <name type="author">VOLTA (Alessandro)</name>
+               <trait>
+                  <p>l'illustre physicien italien.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e194_d1">P. a. s.; Pavie, 22 juin 1781, 1/2 p. in-4</desc>
+            </item>
+            <item n="195" xml:id="CAT_000242_e195">
+               <num type="lot">195</num>
+               <name type="author">WRANGEL (Charles-Gustave)</name>
+               <trait>
+                  <p>célèbre général suédois.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e195_d1">L. s., avec la souscript. aut., au comte d'Ottingen ; 2 juin 1648, 3/4 de p. in-fol., cachet. Superbe pièce</desc>
+            </item>
+            <item n="196" xml:id="CAT_000242_e196">
+               <num type="lot">196</num>
+               <name type="author">ZUICHEM D'AYTTA (Viglius)</name>
+               <trait>
+                  <p>célèbre jurisconsulte.</p>
+               </trait>
+               <desc xml:id="CAT_000242_e196_d1">L. a. s., en latin, à Jacques de Buezuichem; Bruxelles, 19 mars 1556, 1 p. in-fol., trace de cachet. Très belle lettre</desc>
+            </item>
+            <item n="197" xml:id="CAT_000242_e197">
+               <num type="lot">197</num>
+               <name type="author">DIVERS.</name>
+               <desc xml:id="CAT_000242_e197_d1">Lot considérable de pièces des XVIe, XVIIe et XVIIIe siècles.-Ce lot pourra être divisé.</desc>
+            </item>
+            <item n="198" xml:id="CAT_000242_e198">
+               <num type="lot">198</num>
+               <name type="recipient">LETTRES ADRESSÉES AU CONSEIL DE LA VILLE DE BERNE.</name>
+               <desc xml:id="CAT_000242_e198_d1">Cent cinquante lettres originales du XVIe siècle adressées au Conseil de la ville ou au doyen de l'église de Berne.</desc>
+               <note>PRÉCIEUX DOSSIER HISTORIQUE où l'on voit figurer des lettres des ducs de Savoie, de la duchesse de Longueville et d'un grand nombre de personnages occupant en Suisse, au XVIe siècle, des emplois importants. Il est à désirer qu'un tel recueil soit acquis par une bibliothèque.</note>
+            </item>
+            <item n="199" xml:id="CAT_000242_e199">
+               <num type="lot">199</num>
+               <name type="recipient">LETTRES ADRESSÉES A AMPELANDER.</name>
+               <desc xml:id="CAT_000242_e199_d1">76 lettres du XVIe siècle, adressées par des Allemands à Ampelander. Intéressant dossier.</desc>
+            </item>
+            <item n="200" xml:id="CAT_000242_e200">
+               <num type="lot">200</num>
+               <name type="recipient">LETTRES ADRESSÉES A ALBERT DE HALLER.</name>
+               <desc xml:id="CAT_000242_e200_d1">Précieuse correspondance, dont voici le sommaire : Alberti, 4 lettres.-Allioni (Carlo), 7 lettres.-Bertrand-(Elias), 4 lettres.-Bianchi (Jean), 9 lettres.-BONNET (Charles), 56 lettres.-Burggraw (J.-Ph.), 4 lettres.-Burmann (Jean), 4 lettres.-CALDANI (Léopold), 47 lettres.-Collinson, 4 lettres. ENGEL (Samuel), 42 lettres.-FELICE (Fortunato), 25 lettres.-Gesner (Jean-Mathieu), 8 lettres.-Gesner (Jean), 17 lettres.-Gmelin (Jean-Georges), 6 lettres.-Gmelin (Jean-Frédéric), 9 lettres.-Haller (Jacques), 3 lettres.-Haller (Théophile), 11 lettres.-9 lettres.-HEYNE (Chr.-Th.), 19 lettres.-Hinzel, 3 lettres.-Huber (J.-J.), 2 lettres.-Jacquin (Jos. de), 16 lettres.-Koeslner (Abraham-Théophile), 8 lettres.-Ludwig (Chr.-Th.), 36 lettres.-MECKEL (Frédéric), 23 lettres.-MORGAGNI (J.-B.), 4 lettres.-MULLER (Jean de), 2 lettres.-Michaelis (J.-D.), 28 lettres.-Pringle (John), 3 lettres.-OEder (G.-Chr.), 8 lettres.-SAUSSURE (Horace-Bénédict de), 13 lettres.-Sauvages (Fr. de), 1 lettre.-Schreiber (J.-Fréd)., 17 lettres.-Senebier (Jean), 13 lettres.-Sulzer (J.-G.), 6 lettres.-Tissot (Simon-André), 13 lettres.-Thiéry (Nic.-Jos.), 12 lettres.-Vernet (J.-J.), 2 lettres.-Vical (Ph.-Rod.), 5 lettres.-Werlhof (Paul-Th.), 7 lettres.-ZIMMERMANN (Jean-Georges), 33 lettres.-ZURLAUBEN (le baron de), 31 lettres.-Etc., etc.</desc>
+               <note>(le baron de), 31 lettres. Ce précieux dossier, de la plus haute importance au point de vue scientifique, comprend plus de 670 lettres. Il sera mis eux enchères en bloc sur la mise à prix de trois mille francs. Paris mprimerie G. Rougier et Cie, rue Cassette, 1.</note>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

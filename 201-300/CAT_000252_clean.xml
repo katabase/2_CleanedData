@@ -1,0 +1,478 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000252">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Étienne Charavay, 27 décembre 1886</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="AUC">
+               <title>CATALOGUE D'UNE NOMBREUSE COLLECTION D'AUTOGRAPHES DOCUMENTS, CHARTES, IMPRIMÉS, DESSINS, ETC.</title>
+               <num/>
+               <editor>Étienne Charavay</editor>
+               <publisher>Étienne Charavay</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1886">1886</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, rue des Bons-Enfants, 28, Salle nº 1</addrLine>
+                     </address>
+                     <persName type="auctioneer">Gustave Coulon</persName>
+                     <persName type="expert">Étienne Charavay</persName>
+                     <date when="1886-12-27">27 décembre 1886</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">CV-11664</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="1" xml:id="CAT_000252_e1">
+               <num type="lot">1</num>
+               <name type="author">ACADÉMIE FRANÇAISE</name>
+               <desc xml:id="CAT_000252_e1_d1">8 l. a. s</desc>
+               <note>Berryer, Dumas fils, Dufaure, Janin, Guizot, Legouvé, etc.</note>
+            </item>
+            <item n="2" xml:id="CAT_000252_e2">
+               <num type="lot">2</num>
+               <name type="author">ACTEURS</name>
+               <desc xml:id="CAT_000252_e2_d1">17 l. a. s</desc>
+               <note>Samson, Delaunay, Monnier (Henry), Arnal, Dumaine, Bouffé, Lhéritier, Monrose, Febvre, etc.</note>
+            </item>
+            <item n="3" xml:id="CAT_000252_e3">
+               <num type="lot">3</num>
+               <name type="author">AUTEURS DRAMATIQUES</name>
+               <desc xml:id="CAT_000252_e3_d1">19 l. a. s</desc>
+               <note>Plouvier, Ennery, Saint-Georges, Clairville, Mélesville, etc.</note>
+            </item>
+            <item n="4" xml:id="CAT_000252_e4">
+               <num type="lot">4</num>
+               <name type="author">BOSSUET (Jacques-Bénigne)</name>
+               <trait>
+                  <p>l'illustre évêque de Meaux.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e4_d1">Notes autographes, 18 p. in-4. Fortement tachées d'humidité</desc>
+            </item>
+            <item n="5" xml:id="CAT_000252_e5">
+               <num type="lot">5</num>
+               <name type="author">COMPOSITEURS DE MUSIQUE</name>
+               <desc xml:id="CAT_000252_e5_d1">5 l. a. s</desc>
+               <note>Berlioz, 2 let., Halévy, Thomas (Ambroise) et Herz.</note>
+            </item>
+            <item n="6" xml:id="CAT_000252_e6">
+               <num type="lot">6</num>
+               <name type="author">DARBOY (Georges)</name>
+               <trait>
+                  <p>archevêque de Paris, fusillé en 1871.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e6_d1">L. a. s.; Paris, 7 avril 1856, 3/4 de p. in-8</desc>
+            </item>
+            <item n="7" xml:id="CAT_000252_e7">
+               <num type="lot">7</num>
+               <name type="author">DIVERS</name>
+               <desc xml:id="CAT_000252_e7_d1">7 l. a. s</desc>
+               <note>Déjazet (Virginie), Pelitol, sculpteur, Baroche (Ernest), Régnaud de Saint-Jean d'Angély (le maréchal), Pozzo di Borgo, etc.</note>
+            </item>
+            <item n="8" xml:id="CAT_000252_e8">
+               <num type="lot">8</num>
+               <name type="author">DOUJAT (Jean)</name>
+               <trait>
+                  <p>célèbre jurisconsulte et écrivain, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e8_d1">Deux reçus aut. sig. sur la même feuille ; 1680-1681, 3/4 de p. in-8 oblong. Jolie piece</desc>
+            </item>
+            <item n="9" xml:id="CAT_000252_e9">
+               <num type="lot">9</num>
+               <name type="author">GÉNÉRAUX</name>
+               <desc xml:id="CAT_000252_e9_d1">14 lettres</desc>
+               <note>Belliard, Nansouty, Chabran, Hatry, Vignolle, Lamarque, Donzelot, etc.</note>
+            </item>
+            <item n="10" xml:id="CAT_000252_e10">
+               <num type="lot">10</num>
+               <name type="author">GÉNÉRAUX</name>
+               <desc xml:id="CAT_000252_e10_d1">31 lettres</desc>
+               <note>Bréa, Rogniat, Roguet, Changarnier, Corbineau, etc.</note>
+            </item>
+            <item n="11" xml:id="CAT_000252_e11">
+               <num type="lot">11</num>
+               <name type="author">HOMMES POLITIQUES</name>
+               <desc xml:id="CAT_000252_e11_d1">18 l. a. s</desc>
+               <note>Bac, Duvergier de Hauranne, Crémieux, etc.</note>
+            </item>
+            <item n="12" xml:id="CAT_000252_e12">
+               <num type="lot">12</num>
+               <name type="author">HUGO (Victor)</name>
+               <trait>
+                  <p>le grand poète.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e12_d1">L. a. s. Viclor H. à M. de Fiennes, 1 p. in-8. Jolie pièce.</desc>
+            </item>
+            <item n="13" xml:id="CAT_000252_e13">
+               <num type="lot">13</num>
+               <name type="author">JAUBERT (Pierre-Amédée)</name>
+               <trait>
+                  <p>célèbre orientaliste, membre de l'Académie des Inscriptions, né à Aix.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e13_d1">3 l. a. s. à son élève Charmoy; 1813-1846, 22 p. in-4.</desc>
+               <note>Très intéressante correspondance sur les langues orientales.</note>
+            </item>
+            <item n="14" xml:id="CAT_000252_e14">
+               <num type="lot">14</num>
+               <name type="author">LA CHAPPELLE (Jean de)</name>
+               <trait>
+                  <p>auteur dramatique, membre de l'Académie française, né à Bourges.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e14_d1">P. s., sig. aussi par François-Louis de Bourbon, prince de Conti; Paris, 21 sept. 1683, 3 p. in-fol. Rare.</desc>
+               <note>Intéressant document. C'est un mémoire des fournitures faites par Guilmart, maître ébéniste, au prince de Conti.</note>
+            </item>
+            <item n="15" xml:id="CAT_000252_e15">
+               <num type="lot">15</num>
+               <name type="author">MARIE-JOSÉPHINE DE SAVOIE</name>
+               <trait>
+                  <p>comtesse de 15. Provence, femme de Louis XVIII.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e15_d1">P. s.; Versailles, 1 janv. 1774, 4 p. 1/2 in-fol.</desc>
+               <note>Intéressant document. Etat des nourritures en argent payées aux officiers de sa maison.</note>
+            </item>
+            <item n="16" xml:id="CAT_000252_e16">
+               <num type="lot">16</num>
+               <name type="author">MÉRY (Joseph)</name>
+               <trait>
+                  <p>célèbre poète.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e16_d1">Une traversée, pièce de vers aut. sig., 1 p. in-fol. Superbe pièce</desc>
+            </item>
+            <item n="17" xml:id="CAT_000252_e17">
+               <num type="lot">17</num>
+               <name type="author">MONGE (Gaspard)</name>
+               <trait>
+                  <p>l'illustre savant.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e17_d1">L. a. s., 1 p. in-8. Coupée en tête</desc>
+               <note>Belle lettre relative à la bibliothèque de la ville de Beaune.</note>
+            </item>
+            <item n="18" xml:id="CAT_000252_e18">
+               <num type="lot">18</num>
+               <name type="author">MONTALIVET (Jean-Pierre BACHASSON  comte de)</name>
+               <trait>
+                  <p>célèbre ministre de Napoléon Ier</p>
+               </trait>
+               <desc xml:id="CAT_000252_e18_d1">1° L. a. s.; an XIII, 1 p. in-4.-2° 2 pièces aut., 2 p. in-4.-3° 15 l. s., 20 p. in-4 ou in-fol.-4° 2 l. a. s. de sa femme, dont une annonçant la mort de son mari, 3 p. in-4. Très intéressant dossier.</desc>
+            </item>
+            <item n="19" xml:id="CAT_000252_e19">
+               <num type="lot">19</num>
+               <name type="author">PEINTRES.</name>
+               <desc xml:id="CAT_000252_e19_d1">12 l. a. s.</desc>
+               <note>Gavarni, 2 let., Johannot (Tony), Cham, Roqueplan, etc.</note>
+            </item>
+            <item n="20" xml:id="CAT_000252_e20">
+               <num type="lot">20</num>
+               <name type="author">PUBLICISTES</name>
+               <desc xml:id="CAT_000252_e20_d1">26 l. a. s</desc>
+               <note>Pelletan, Peyrat, Poujoulat, Havin, Villemessant, etc.</note>
+            </item>
+            <item n="21" xml:id="CAT_000252_e21">
+               <num type="lot">21</num>
+               <name type="author">RÉVOLUTION FRANÇAISE</name>
+               <desc xml:id="CAT_000252_e21_d1">27 lettres ou pièces sig. par Carnot, Cambacérès, Roberjot, Legendre, Prieur de la Côte-d'Or, Cambon, Barère, Laricomterie, Tallien, Merlin de Douai, etc., 27 p. in-4 ou in-fol., têtes impr. et vig. Intéressant dossier</desc>
+            </item>
+            <item n="22" xml:id="CAT_000252_e22">
+               <num type="lot">22</num>
+               <name type="author">ROMANCIERS</name>
+               <desc xml:id="CAT_000252_e22_d1">15 l. a. s</desc>
+               <note>Soulié, Pyat (Félix), Pontmartin, Roger de Beauvoir, Dumas père, Féval, Maquet, Méry, etc.</note>
+            </item>
+            <item n="23" xml:id="CAT_000252_e23">
+               <num type="lot">23</num>
+               <name type="author">ROQUELAURE (Antoine-Gaston-Jean-Baptiste  duc de)</name>
+               <trait>
+                  <p>maréchal de France, célèbre par son esprit.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e23_d1">4 l. s. aux consuls de Tournon; 1710-1711, 4 p. in-4. Intéressantes.</desc>
+            </item>
+            <item n="24" xml:id="CAT_000252_e24">
+               <num type="lot">24</num>
+               <name type="author">SOURIGUIÈRE SAINT-MARC (J.-M.)</name>
+               <trait>
+                  <p>auteur dramatique, célèbre par sa chanson anti-révolutionnaire le Réveil du Peuple, né près de Bordeaux.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e24_d1">Frédégonde, tragédie, manuscrit autographe, 100 p. in-fol.</desc>
+            </item>
+            <item n="25" xml:id="CAT_000252_e25">
+               <num type="lot">25</num>
+               <name type="author">VAURÉAL (Louis-Guy de)</name>
+               <trait>
+                  <p>évêque de Rennes, diplomate habile, membre de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e25_d1">P. s.; Madrid, 1 oct. 1747, 3 p. in-fol., cachet bien conservé</desc>
+            </item>
+            <item n="26" xml:id="CAT_000252_e26">
+               <num type="lot">26</num>
+               <name type="author">WALDOR (Mélanie)</name>
+               <trait>
+                  <p>célèbre femme de lettres.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e26_d1">66 lettres adressées par des littérateurs à Mélanie Waldor, environ 75 p. in-8</desc>
+               <note>Intéressante correspondance littéraire où on rencontre les noms suivants : Scribe, Viennet, Camille Doucet, Villemain, David d'Angers, Samson, Pongerville, Alphonse Karr, etc.</note>
+            </item>
+            <note>DOCUMENTS ET CHARTES</note>
+            <item n="27" xml:id="CAT_000252_e27">
+               <num type="lot">27</num>
+               <name type="author">AISNE (départemert de l')</name>
+               <desc xml:id="CAT_000252_e27_d1">Pièce, sur vélin, de Guillaume de Champeaux, évêque de Laon; 21 août 1429, 3/4 de p. in-fol. oblong, trace de cachet. Intéressante pièce.</desc>
+            </item>
+            <item n="28" xml:id="CAT_000252_e28">
+               <num type="lot">28</num>
+               <name type="author">AISNE (département de l')</name>
+               <desc xml:id="CAT_000252_e28_d1">P. s. par Philippe d'Orléans (régent de France), le cardinal d'Estrées, Collin, prieur de l'abbaye de Longpont, etc. ; Paris, 20 août 1714, 19 p. 1/2 in-fol.</desc>
+               <note>Intéressant document concernant l'abbaye de Longpont.</note>
+            </item>
+            <item n="29" xml:id="CAT_000252_e29">
+               <num type="lot">29</num>
+               <name type="author">AISNE (département de l').</name>
+               <desc xml:id="CAT_000252_e29_d1">2 l. s. par J.-F.-J. de Rochechouart, évêque de Laon, au comte de Neuilly; 1760, 3 p. in-4. Intéressantes. 3 chartes de 1371, 1381 et 1389, 3 p. in-4 oblong</desc>
+            </item>
+            <item n="30" xml:id="CAT_000252_e30">
+               <num type="lot">30</num>
+               <name type="author">CALVADOS (département du).</name>
+               <desc xml:id="CAT_000252_e30_d1">3 chartes de 1371, 1381 et 1389, 3 p. in-4 oblong.</desc>
+            </item>
+            <item n="31" xml:id="CAT_000252_e31">
+               <num type="lot">31</num>
+               <name type="author">CHARENTE-INFÉRIEURE (département de la)</name>
+               <desc xml:id="CAT_000252_e31_d1">2 chartes de 1410 et 1423 concernant la Saintonge, 2 p. in-4 oblong, cachets</desc>
+            </item>
+            <item n="32" xml:id="CAT_000252_e32">
+               <num type="lot">32</num>
+               <name type="author">CHARTES</name>
+               <desc xml:id="CAT_000252_e32_d1">11 chartes du XIIIe siècle, 11 p. in-4. oblong. Intéressant dossier</desc>
+            </item>
+            <item n="33" xml:id="CAT_000252_e33">
+               <num type="lot">33</num>
+               <name type="author">COMMUNE DE 1871</name>
+               <desc xml:id="CAT_000252_e33_d1">33 pièces originales, dénonciations, ordres d'arrestation, etc. Intéressant dossier.</desc>
+            </item>
+            <item n="34" xml:id="CAT_000252_e34">
+               <num type="lot">34</num>
+               <name type="other">DOCUMENTS</name>
+               <desc xml:id="CAT_000252_e34_d1">43 pièces des XVIIe et XVIIIe siècles</desc>
+            </item>
+            <item n="35" xml:id="CAT_000252_e35">
+               <num type="lot">35</num>
+               <name type="other">DOCUMENTS DES XVIIe et XVIIIe SIÈCLES</name>
+               <desc xml:id="CAT_000252_e35_d1">65 lettres originales, la plupart adressées à la famille de Béthune par des personnages nobles. Intéressant dossier.</desc>
+            </item>
+            <item n="36" xml:id="CAT_000252_e36">
+               <num type="lot">36</num>
+               <name type="other">DOCUMENTS DU XVIIIe SIÈCLE</name>
+               <desc xml:id="CAT_000252_e36_d1">Recueil de pièces curieuses, congés, brevets, etc. Dossier des plus intéressants.</desc>
+            </item>
+            <item n="37" xml:id="CAT_000252_e37">
+               <num type="lot">37</num>
+               <name type="author">EURE (département de l').</name>
+               <desc xml:id="CAT_000252_e37_d1">3 chartes des XIVe et XVe siècles, 5 p. in-4 oblong</desc>
+            </item>
+            <item n="38" xml:id="CAT_000252_e38">
+               <num type="lot">38</num>
+               <name type="author">GONTAUT-BIRON (famille)</name>
+               <desc xml:id="CAT_000252_e38_d1">Lot de documents concernant cette famille.</desc>
+            </item>
+            <item n="39" xml:id="CAT_000252_e39">
+               <num type="lot">39</num>
+               <name type="author">ILES IONIENNES</name>
+               <desc xml:id="CAT_000252_e39_d1">Dossier de lettres et documents relatifs aux îles loniennes sous Napoléon I. Intéressante réunion.</desc>
+            </item>
+            <item n="40" xml:id="CAT_000252_e40">
+               <num type="lot">40</num>
+               <name type="author">INDES ORIENTALES</name>
+               <desc xml:id="CAT_000252_e40_d1">P. s. par LouiS XV (par le secrétaire de la main) ; Fontainebleau, 10 nov. 1756, 4 p. in-fol.</desc>
+               <note>Pièce historique. C'est l'état du traitement accordé par le Roi aux officiers généraux et autres employés du corps de troupes destiné à passer aux Indes orientales.</note>
+            </item>
+            <item n="41" xml:id="CAT_000252_e41">
+               <num type="lot">41</num>
+               <name type="author">ISÈRE (département de l')</name>
+               <desc xml:id="CAT_000252_e41_d1">P. s. par Flandrin fils et Dompnier; 27 nivôse an VI, 4 p. in-fol. cachet.</desc>
+               <note>Curieux document. Procès-verbal de la réception faite à la colonne de l'armée d'Italie, lors de son passage dans la commune du Pont-Beauvoisin.</note>
+            </item>
+            <item n="42" xml:id="CAT_000252_e42">
+               <num type="lot">42</num>
+               <name type="author">JOUARRE (abbaye de).</name>
+               <desc xml:id="CAT_000252_e42_d1">P. s., sur vélin, avec 2 lignes aut., par Henriette de Lorraine, abbesse de Jouarre ; 21 janv. 1668, 2 p. in-fol.</desc>
+               <note>Accord intervenn, par devant l'abbesse de Jouarre, entre MM. de Caumartin et de Palaiseau.</note>
+            </item>
+            <item n="43" xml:id="CAT_000252_e43">
+               <num type="lot">43</num>
+               <name type="author">LA ROCHEFOUCAULD (famille de)</name>
+               <desc xml:id="CAT_000252_e43_d1">21 lettres de membres de cette famille.</desc>
+            </item>
+            <item n="44" xml:id="CAT_000252_e44">
+               <num type="lot">44</num>
+               <name type="author">MANCHE (département de la)</name>
+               <desc xml:id="CAT_000252_e44_d1">4 chartes des XIVe et XVe siècles, 4 p. in-4 oblong</desc>
+            </item>
+            <item n="45" xml:id="CAT_000252_e45">
+               <num type="lot">45</num>
+               <name type="author">MANTES (ville de)</name>
+               <desc xml:id="CAT_000252_e45_d1">4 chartes des XIVe et XVe siècles concernant cette ville, 4 p. in-fol., oblong. Intéressantes</desc>
+            </item>
+            <item n="46" xml:id="CAT_000252_e46">
+               <num type="lot">46</num>
+               <name type="author">MEAUX (ville de)</name>
+               <desc xml:id="CAT_000252_e46_d1">2 chartes de 1439 concernant cette ville, 2 p. in-4 oblong</desc>
+            </item>
+            <item n="47" xml:id="CAT_000252_e47">
+               <num type="lot">47</num>
+               <name type="other">NEUCHATEL EN SUISSE (principauté de).</name>
+               <desc xml:id="CAT_000252_e47_d1">Lot de documents manuscrits et imprimés concernant cette principauté. Très intéressante réunion</desc>
+            </item>
+            <item n="48" xml:id="CAT_000252_e48">
+               <num type="lot">48</num>
+               <name type="author">OPÉRA COMIQUE (théâtre de l')</name>
+               <desc xml:id="CAT_000252_e48_d1">12 pièces originales de 1791 à 1827. Très intéressant dossier</desc>
+            </item>
+            <item n="49" xml:id="CAT_000252_e49">
+               <num type="lot">49</num>
+               <name type="other">ORATOIRE (congrégation de l')</name>
+               <desc xml:id="CAT_000252_e49_d1">Harangue funèbre de Louis-Henri de Gondrin, archevêque de Sens, prononcée le 19 décembre 1674 par le Père Thorangier, prêtre de l'Oratoire, pièce manuscrite, 29 p. in-4.</desc>
+            </item>
+            <item n="50" xml:id="CAT_000252_e50">
+               <num type="lot">50</num>
+               <name type="other">ORATOIRE (congrégation de l')</name>
+               <desc xml:id="CAT_000252_e50_d1">Pièce manuscrite, 40 p. in-4</desc>
+               <note>Réflexions des Jésuites sur les sermons du père Thorangier, prêtre de l'Oratoire.</note>
+            </item>
+            <item n="51" xml:id="CAT_000252_e51">
+               <num type="lot">51</num>
+               <name type="author">ORLÉANAIS.</name>
+               <desc xml:id="CAT_000252_e51_d1">P. s., sur vélin, par Philippe, duc d'Orléans, frère de Louis XIV; Paris, 6 fév. 1695, 1 p. in-fol. oblong.</desc>
+               <note>Intéressant document. Brevet de capitaine des chasses dans l'étendue du duché d'Orléans et du comté de Beaugency.</note>
+            </item>
+            <item n="52" xml:id="CAT_000252_e52">
+               <num type="lot">52</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e52_d1">Dossier de 38 pièces du XVIIIe siècle concernant la chapelle de Pacy fondée en 1395 dans l'église Saint-Gervais à Paris</desc>
+               <note>Intéressant dossier pour l'histoire de Paris.</note>
+            </item>
+            <item n="53" xml:id="CAT_000252_e53">
+               <num type="lot">53</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e53_d1">P. s. par le prieur et 24 religieux de la congrégation des Feuillants établie rue Saint-Honoré à Paris; 22 fév. 1676, 3 p. 1/4 in-fol.</desc>
+               <note>Constitution de 90 livres de rente annuelle à Philippe Malet, seigneur de Thoisy.</note>
+            </item>
+            <item n="54" xml:id="CAT_000252_e54">
+               <num type="lot">54</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e54_d1">Pièce originale du XVIIIe siècle, signée par les religieux bénédictins des Blancs-Manteaux, 68 p. in-fol.</desc>
+               <note>Intéressant document. Description d'un bien situé au grand Montrouge et appartenant aux religieux bénédictins des Blancs-Manteaux.</note>
+            </item>
+            <item n="55" xml:id="CAT_000252_e55">
+               <num type="lot">55</num>
+               <name type="other">PARIS.</name>
+               <desc xml:id="CAT_000252_e55_d1">Dossier concernant les hôpitaux de Paris. Très intéressante réunion</desc>
+            </item>
+            <item n="56" xml:id="CAT_000252_e56">
+               <num type="lot">56</num>
+               <name type="other">PARIS.</name>
+               <desc xml:id="CAT_000252_e56_d1">Liste des conseillers au Parlement de Paris de 1598 à 1750, manuscrit du XVIIIe siècle, in-fol.</desc>
+            </item>
+            <item n="57" xml:id="CAT_000252_e57">
+               <num type="lot">57</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e57_d1">P. s. par Chenard, Philippe, Solié, Camerani, Fleuriot, Rexicourt, et Gaveaux ; 23 prairial an IX, 2 p. in-4</desc>
+               <note>Curieux document. C'est le bail du théâtre Feydeau.</note>
+            </item>
+            <item n="58" xml:id="CAT_000252_e58">
+               <num type="lot">58</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e58_d1">P. s. par 26 sociétaires du théâtre de l'Opéra-Comique; ; prairial an IX, 2 p. in-fol.</desc>
+               <note>Curieux document. Autorisation de louer le théâtre Favart lorsqu'il sera libre.</note>
+            </item>
+            <item n="59" xml:id="CAT_000252_e59">
+               <num type="lot">59</num>
+               <name type="other">PARIS</name>
+               <desc xml:id="CAT_000252_e59_d1">6 pièces de l'an XI à 1834 concernant le théâtre de l'Ambigu comique.</desc>
+            </item>
+            <item n="60" xml:id="CAT_000252_e60">
+               <num type="lot">60</num>
+               <name type="other">ROUEN (ville de)</name>
+               <desc xml:id="CAT_000252_e60_d1">3 chartes des XIVe et XVe siècles concernant cette ville, 5 p. in-4 oblong. Intéressantes</desc>
+            </item>
+            <item n="61" xml:id="CAT_000252_e61">
+               <num type="lot">61</num>
+               <name type="author">Testament de Ferdinand-Philippe  duc d'Orléans  mort le 13 juillet 1842</name>
+               <desc xml:id="CAT_000252_e61_d1">manuscrit calligraphié avec le plus grand soin, 18 p. in-4, br.</desc>
+            </item>
+            <item n="62" xml:id="CAT_000252_e62">
+               <num type="lot">62</num>
+               <name type="author">THIÉBAULT (P.-Ch.-F.-Adr.-H.-Dieudonné  baron)</name>
+               <trait>
+                  <p>célèbre général.</p>
+               </trait>
+               <desc xml:id="CAT_000252_e62_d1">Dossier de pièces et de notes le concernant. Intéressante réunion.</desc>
+            </item>
+            <item n="63" xml:id="CAT_000252_e63">
+               <num type="lot">63</num>
+               <name type="other">Lot de partitions de musique manuscrites du XVIIIe siècle</name>
+               <desc xml:id="CAT_000252_e63_d1">Lot de partitions de musique manuscrites du XVIIIe siècle</desc>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

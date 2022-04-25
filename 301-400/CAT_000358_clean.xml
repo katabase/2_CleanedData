@@ -1,0 +1,1207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000358">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Jacques Charavay, septembre 1869, nº 162</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="LAC">
+               <title>LIBRAIRIE ANCIENNE ET AUTOGRAPHES DE JACQUES CHARAVAY</title>
+               <num>162</num>
+               <editor>Jacques Charavay</editor>
+               <publisher>Jacques Charavay</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1869"/>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, rue des Grands-Augustins, 26</addrLine>
+                     </address>
+                     <persName type="auctioneer"/>
+                     <persName type="expert"/>
+                     <date when="1869-09">septembre 1869</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">P-77</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="23871" xml:id="CAT_000358_e23871">
+               <num type="lot">23871</num>
+               <name type="author">ALBITTE (A. L.);</name>
+               <trait>
+                  <p>conventionnel, célèbre par ses missions dans divers départements.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23871_d1">L. a. s. à son collègue Saliceti; Commune affranchie (Lyon), 27 frimaire an II, 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <note>Il ne néglige rien pour augmenter en artillerie les moyens qu'il a le parvenir à vaincre les ennemis et à détruire la plus infâme des villes (Toulon). «Tout va toujours ici de même, on démolit et on fu sille. Collot d'Herbois est allé à Paris pour faire déterminer franche ment ce que l'on doit faire de cette ville, qui, je crois, ne sera jamais à la hauteur de la révolution.»</note>
+            </item>
+            <item n="23872" xml:id="CAT_000358_e23872">
+               <num type="lot">23872</num>
+               <name type="author">AMEILHON (H. P.)</name>
+               <trait>
+                  <p>célèbre érudit, organisateur de la Bibliothèque de l'Arsenal, membre de l'Acad. des inscript.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23872_d1">P. a. s.; Paris, 12 prairial an XI, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <note>Intéressante pièce sur la Bibliothèque de l'Arsenal.</note>
+            </item>
+            <item n="23873" xml:id="CAT_000358_e23873">
+               <num type="lot">23873</num>
+               <name type="author">AUGUSTE II</name>
+               <trait>
+                  <p>roi de Pologne et électeur de Saxe, successeur de Jean Sobieski, détrôné par Charles XII.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23873_d1">L. s., en italien, avec la souscript. au Pape; Dresde, 20 juill. 1731, 2 p. in-fol. Légère tache.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Il lui annonce qu'il rappelle auprès de lui le comte Joseph de Wa kerbart, son ambassadeur auprès de Sa Sainteté.</note>
+            </item>
+            <item n="23874" xml:id="CAT_000358_e23874">
+               <num type="lot">23874</num>
+               <name type="author">BALINCOURT (C. Guill. TESTU  marquis de)</name>
+               <trait>
+                  <p>maréchal de France sous Louis XV.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23874_d1">P. s..; 20 avril 1768, 3 p. 1/4 in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23875" xml:id="CAT_000358_e23875">
+               <num type="lot">23875</num>
+               <name type="author">BARRAULT (E.)</name>
+               <trait>
+                  <p>littérateur et publiciste, un des apôtres de la religion saint-simonienne.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23875_d1">L. a. s. à son frère Alexis Barrault; Paris, 9 nov. 1831, 3 p. in-4, tête impr. de la religion saint-simonienne.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+               <note>Épître des plus curieuses sur l'élévation du Père Enfantin au rang de chef suprême de la religion saint-simonienne et sur la retraite de Rodrigues. Détails très-intéressant.</note>
+            </item>
+            <item n="23876" xml:id="CAT_000358_e23876">
+               <num type="lot">23876</num>
+               <name type="author">BAUCHETON (François)</name>
+               <trait>
+                  <p>député du Cher à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23876_d1">L. a. s.; Maurepas, 11 thermidor an IV, 3/4 de p. in-4. Intéressanté et rare lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23877" xml:id="CAT_000358_e23877">
+               <num type="lot">23877</num>
+               <name type="author">BENOIT XIV (Prosper LAMBERTINI)</name>
+               <trait>
+                  <p>pape (1740), un des plus grands pontifes de son siècle.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23877_d1">L. a. s., comme cardinal, au Pape; Ancône, 8 déc. 1728, 1 p. pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Très-belle lettre de compliments.</note>
+            </item>
+            <item n="23878" xml:id="CAT_000358_e23878">
+               <num type="lot">23878</num>
+               <name type="author">BÉRANGER (P. J. de)</name>
+               <trait>
+                  <p>le célèbre chansonnier.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23878_d1">L. a. s. à Ed. Plouvier; 11 mai 1856, 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Jolie lettre, où il le félicite sur sa pièce. «Ne vous arrêtez pas en si beau chemin. Le théâtre peut être une mine féconde pour vous...».</note>
+            </item>
+            <item n="23879" xml:id="CAT_000358_e23879">
+               <num type="lot">23879</num>
+               <name type="author">BERLIOZ (H.)</name>
+               <trait>
+                  <p>célèbre compositeur de musique, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23879_d1">L. a. s. aux membres du Conseil d'administration du théâtre français; Paris, 19 décembre, 1 p. pl.. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <note>Il leur demande de permettre à M. Bocage de lire un rôle dans un de ses concerts dramatiques.</note>
+            </item>
+            <item n="23880" xml:id="CAT_000358_e23880">
+               <num type="lot">23880</num>
+               <name type="author">BERTON (J. B.)</name>
+               <trait>
+                  <p>maréchal de camp, chef de la conspiration de Saumur, fusillé en 1822.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23880_d1">L. a. s. au duc de Feltre; maison d'arrêt de l'Abbaye, 6 mars 1816, 4 p. in-fol. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="9.50">9 50</measure>
+               <note>Superbe lettre, où il demande sa mise en liberté et expose sa con duite. «Je suis tellement fort de ma conscience, Monseigneur, que je suis prêt et que j'invoque même l'examen le plus sévère de ma con duite: elle a été telle que je ne redoute la confrontation d'aucun dénonciateur...».</note>
+            </item>
+            <item n="23881" xml:id="CAT_000358_e23881">
+               <num type="lot">23881</num>
+               <name type="author">BESONS (Jacques BAZIN  seigneur de)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23881_d1">P. s.; P. a. ris, 6 févr. 1698, 1 p. in-4 oblong. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23882" xml:id="CAT_000358_e23882">
+               <num type="lot">23882</num>
+               <name type="author">BLUTEL</name>
+               <trait>
+                  <p>député de la Seine-Inférieure à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23882_d1">L. a. s. à Gossuin, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23883" xml:id="CAT_000358_e23883">
+               <num type="lot">23883</num>
+               <name type="author">BOIELDIEU (Adrien)</name>
+               <trait>
+                  <p>célèbre compositeur de musique, auteur de la Dame blanche, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23883_d1">L. a. s. à M. Jolivet; 23 oct. 1832, 1 p. in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="23884" xml:id="CAT_000358_e23884">
+               <num type="lot">23884</num>
+               <name type="author">BOILEAU-DESPRÉAUX (Nicolas)</name>
+               <trait>
+                  <p>le célèbre poëte satirique, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23884_d1">L. a. s. (à Brossette); Paris, 6 mars 1707, 3 p. pl. in-4. Superbe pièce</desc>
+               <measure commodity="currency" unit="FRF" quantity="200">200</measure>
+               <note>Très-curieuse épître, où il parle d'abord du Lutrin puis de deux épigrammes, dont celle à M. Le Verrier, «qui n'est, dit-il, qu'un petit compliment très-simple que je me suis crû obligé de lui faire pour empescher qu'on ne me crût auteur des quatre vers qui sont au bas de mon portrait et qui sont beaucoup meilleurs que mes deux épigrammes, n'y ayant rien surtout de plus juste que ces deux vers: «J'ay sceu dans mes escrits docte, enjoué, sublime, «Rassembler en moi Perse, Horace et Juvénal.» Il parle ensuite de l'épigramme de Lubin. Il raconte que ce Lubin était un de ses parents, mort il y a plus de vingt ans, et. du nom de Targas Il lui reproche de lui faire une querelle d'allemand sur la rééminence que Lyon a eue autrefois sur Paris, et mentionne une traduction de son Ode sur Namur faite par M. de Mezzabarba.</note>
+            </item>
+            <item n="23885" xml:id="CAT_000358_e23885">
+               <num type="lot">23885</num>
+               <name type="author">BONAPARTE (Élisa)</name>
+               <trait>
+                  <p>princesse de Lucques et de Piombino, grande duchesse de Toscane, soeur aînée de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23885_d1">L. s.., avec la souscription et 5 lignes autogr. (à l'impératrice Joséphine), 1 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Très-belle lettre de félicitation sur la nomination du prince royal de Hollande au grand-duché de Berg. -Elle ajoute en post « Le jour de la fête de V. M., j'ai fait illuminer la ville. Nous avons re mis à dimanche le grand cercle et concert, le prince désirait si trouver.»</note>
+            </item>
+            <item n="23886" xml:id="CAT_000358_e23886">
+               <num type="lot">23886</num>
+               <name type="author">BONAPARTE (le prince Napoléon)</name>
+               <trait>
+                  <p>ministre et sénateur, fils du roi Jerôme, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23886_d1">L. a. s. à M. La Châtre; Paris, 4 août 1852, 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="23887" xml:id="CAT_000358_e23887">
+               <num type="lot">23887</num>
+               <name type="author">BOUFFLERS (François  duc de)</name>
+               <trait>
+                  <p>maréchal de France, l'héroïque dé fenseur de Lille.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23887_d1">L. s. au marquis d'Ailly; Marly, 11 sept. 1710, 2 p. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23888" xml:id="CAT_000358_e23888">
+               <num type="lot">23888</num>
+               <name type="author">BOURQUELOT (Félix)</name>
+               <trait>
+                  <p>professeur à l'École des Chartes, historien de Provins.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23888_d1">L. a. s.; février 1848, 1 p. 1/2 in-8. Jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23889" xml:id="CAT_000358_e23889">
+               <num type="lot">23889</num>
+               <name type="author">BOUSSINGAULT (J. B. J. D.)</name>
+               <trait>
+                  <p>savant chimiste et agronome, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23889_d1">L. a. s., 2 p. in-8. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23890" xml:id="CAT_000358_e23890">
+               <num type="lot">23890</num>
+               <name type="author">BRION DE LA TOUR (Louis)</name>
+               <trait>
+                  <p>ingénieur et géographe distingué du dix-huitième siècle.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23890_d1">Projet d'un nouvel atlas de France, pièce aut. sig., 3/4 de p. in-fol. Intéressante pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23891" xml:id="CAT_000358_e23891">
+               <num type="lot">23891</num>
+               <name type="author">BRUNEL</name>
+               <trait>
+                  <p>député de l'Hérault à la Convention, qui se brûla la cervelle en 1794 lors de sa mission à Toulon.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23891_d1">L. a. s. à Rouyer; Bézières 31 déc. 7791, 2 p. in-fol. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Très-intéressante lettre sur les mesures prises par le directoire du département de l'Hérault..</note>
+            </item>
+            <item n="23892" xml:id="CAT_000358_e23892">
+               <num type="lot">23892</num>
+               <name type="author">BUFFON (le comte de)</name>
+               <trait>
+                  <p>illustre naturaliste et écrivain, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23892_d1">L. s. à M. Richard; jardin du Roi, 18 juin 1778, 1 p. in-4. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="23893" xml:id="CAT_000358_e23893">
+               <num type="lot">23893</num>
+               <name type="author">CARAFA (Max.)</name>
+               <trait>
+                  <p>compositeur de musique, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23893_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.75">1 75</measure>
+            </item>
+            <item n="23894" xml:id="CAT_000358_e23894">
+               <num type="lot">23894</num>
+               <name type="author">CASTRIES (le comte de)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23894_d1">L. a. s.; Lille, 1er oct. 1775, 1 p. in-4. Très-belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23895" xml:id="CAT_000358_e23895">
+               <num type="lot">23895</num>
+               <name type="author">CHARLES X</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23895_d1">L. s. à M…; Hétanges, 11 sept. 1792. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>Pièce historique -Il déclare que son plus vif désir était de secou rir son oncle, l'électeur de Trèves; mais qu'il n'a gardé que les troupes nécessaires pour masquer la place de Thionville. «Je me trouve dans l'impossibilité absolue de suivre les mouvements de ma bonne volonté...»»</note>
+            </item>
+            <item n="23896" xml:id="CAT_000358_e23896">
+               <num type="lot">23896</num>
+               <name type="author">CHEVREUL (E)</name>
+               <trait>
+                  <p>célèbre chimiste, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23896_d1">L. a. s..; 1860, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23897" xml:id="CAT_000358_e23897">
+               <num type="lot">23897</num>
+               <name type="author">CHOISEUL (Claude  comte de)</name>
+               <trait>
+                  <p>maréchal de France, un des meilleurs capitaines du règne de Louis XIV.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23897_d1">P. s.; Paris, 22 déc. 1707, 2 p. 1/2 in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23898" xml:id="CAT_000358_e23898">
+               <num type="lot">23898</num>
+               <name type="author">CLARCKE</name>
+               <trait>
+                  <p>duc de Feltre, maréchal de France et ministre.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23898_d1">L. a. s. au marquis de Jumilhac; Puteaux, 20 sept. 1817, 1/2 p. in-4. Charmante épître.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23899" xml:id="CAT_000358_e23899">
+               <num type="lot">23899</num>
+               <name type="author">CLÉMENT IX (Jules ROSPIGLIOSI)</name>
+               <trait>
+                  <p>pape (1667).</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23899_d1">L. s., comme cardinal, à J. Pocobelli; Rome, 25 juill. 1665, 1 p. 1/2 in-4, cachet. Légères déchirures et raccommodages.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="23900" xml:id="CAT_000358_e23900">
+               <num type="lot">23900</num>
+               <name type="author">COMONFORT (Ignacio)</name>
+               <trait>
+                  <p>célèbre président de la république du Mexique en 1855, connu par les réformes démocratiques qu'il opéra dans ce pays et les luttes intestines qui s'ensuivirent.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23900_d1">L. s..; 25 févr. 1854, 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="23901" xml:id="CAT_000358_e23901">
+               <num type="lot">23901</num>
+               <name type="author">COURBET (G.)</name>
+               <trait>
+                  <p>peintre, le chef de l'école réaliste.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23901_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23902" xml:id="CAT_000358_e23902">
+               <num type="lot">23902</num>
+               <name type="author">COUSIN (Victor)</name>
+               <trait>
+                  <p>célèbre philosophe et écrivain, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23902_d1">L. a. s., 1 p. in-8. Relative à son travail sur le Père André.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23903" xml:id="CAT_000358_e23903">
+               <num type="lot">23903</num>
+               <name type="author">DAVID (Félicien)</name>
+               <trait>
+                  <p>célèbre compositeur de musique, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23903_d1">L. a. s..; 11 juin 1862, 3/4 de p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
+            </item>
+            <item n="23904" xml:id="CAT_000358_e23904">
+               <num type="lot">23904</num>
+               <name type="author">DELACROIX (Eugène)</name>
+               <trait>
+                  <p>célèbre peintre d'histoire, mémbre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23904_d1">L. a. s.; 1845, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23905" xml:id="CAT_000358_e23905">
+               <num type="lot">23905</num>
+               <name type="author">DELAFOSSE (Gabriel)</name>
+               <trait>
+                  <p>savant minéralogiste, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23905_d1">L. a. s.; 1828, 1 p. in-8. Jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23906" xml:id="CAT_000358_e23906">
+               <num type="lot">23906</num>
+               <name type="author">DINOUART (Jos. Ant. T.)</name>
+               <trait>
+                  <p>fécond littérateur, fondateur du Journal ec clésiastique et auteur du Santoliana, né à Amiens (Somme).</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23906_d1">L. a. s.. à Mercier Saint-Léger; mardi, 2 p. in-4. Intéressante lettre bibliographique.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23907" xml:id="CAT_000358_e23907">
+               <num type="lot">23907</num>
+               <name type="author">DRULHE</name>
+               <trait>
+                  <p>député de la Haute-Garonne à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23907_d1">L. a. s..; P. a. ris, 4 ventôse an V, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23908" xml:id="CAT_000358_e23908">
+               <num type="lot">23908</num>
+               <name type="author">BUBOIS-FONTANELLE (J. G.)</name>
+               <trait>
+                  <p>auteur dramatique, dont la Vestale fit tant de bruit, né à Grenoble.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23908_d1">L. a. s. à Baculard d'Arnaud; La Haye, 1er janv. 1761, 2 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Épître littéraire très-intéressante. Il y parle dans les plus mauvais termes de Chevrier, auteur du Colporteur qui vient de s'établir à La Haye. «C'est un de ces écrivailleurs sans talent qui de leur trou aboyent après l'univers entier...»»</note>
+            </item>
+            <item n="23909" xml:id="CAT_000358_e23909">
+               <num type="lot">23909</num>
+               <name type="author">DUCORNET (C.)</name>
+               <trait>
+                  <p>peintre, né sans bras.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23909_d1">L. a. s., 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23910" xml:id="CAT_000358_e23910">
+               <num type="lot">23910</num>
+               <name type="author">DUMAS (J.)</name>
+               <trait>
+                  <p>célèbre chimiste, secrétaire perpétuel de l'Académie des sciences.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23910_d1">L. a. s. à Félix d'Arcet, 1 p. in-4. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23911" xml:id="CAT_000358_e23911">
+               <num type="lot">23911</num>
+               <name type="author">DUPERREY (L. Is.)</name>
+               <trait>
+                  <p>savant marin, qui fit le tour du monde membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23911_d1">L. a. s. au docteur Pariset, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23912" xml:id="CAT_000358_e23912">
+               <num type="lot">23912</num>
+               <name type="author">DUPIN (Louis ELLIES)</name>
+               <trait>
+                  <p>savant historien ecclésiastique, persécuté par Bossuet et exilé comme janséniste, ami et parent de Racine.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23912_d1">L. a. s. en latin; 13 août 1702, 3/4 de p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23913" xml:id="CAT_000358_e23913">
+               <num type="lot">23913</num>
+               <name type="author">DUSAULX (Jean)</name>
+               <trait>
+                  <p>érudit, traducteur de Juvénal, député à la Convention et au Conseil des Anciens, membre de l'Acad. des inscriptions.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23913_d1">L. a. s. au ministre; Paris, 8 germinal an IV, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
+               <note>Intéressante épître, où il demande qu'on exempte son neveu du service militaire. «Je suis vieux, dit-il, j'ai tout sacrifié, comme on le sait, à la Révolution, corps et biens. Que la République triomphe et je mourrai content; mais quand je l'ai si bien servie, me refusera t-on de laisser en place mon petit neveu que j'ai élevé?....</note>
+            </item>
+            <item n="23914" xml:id="CAT_000358_e23914">
+               <num type="lot">23914</num>
+               <name type="author">EGGER (E.)</name>
+               <trait>
+                  <p>un de nos plus savants hellénistes, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23914_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.75">1 75</measure>
+            </item>
+            <item n="23915" xml:id="CAT_000358_e23915">
+               <num type="lot">23915</num>
+               <name type="author">ÉLISABETH-CHRISTINE</name>
+               <trait>
+                  <p>impératrice d'Allemagne, femme de Charles VI, mère de Marie-Thérèse.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23915_d1">L. s. en latin, au cardinal Casoni; Vienne, 19 janv. 1715, 1 p. 1/2 in-fol., cachet.-On y a joint un portrait..</desc>
+               <measure commodity="currency" unit="FRF" quantity="5.50">5 50</measure>
+            </item>
+            <item n="23916" xml:id="CAT_000358_e23916">
+               <num type="lot">23916</num>
+               <name type="author">ENFANTIN (B. Prosper  dit le Père)</name>
+               <trait>
+                  <p>le chef des Saint-Simoniens.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23916_d1">L. a., sig. Prosper,à M. Cam. Nugues; Romans, 14 mars 1815, 3/4 de p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="23917" xml:id="CAT_000358_e23917">
+               <num type="lot">23917</num>
+               <name type="author">ÉON DE BEAUMONT (Ch. G. L. Aug. And. Th.  chevalier d')</name>
+               <trait>
+                  <p>diplomate, personnage célèbre par l'incertitude de son sexe.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23917_d1">L. a. s. à Mgr…; Paris, 10 déc. 1749, 5 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Curieuse épître sur une affaire dont il était chargé. Il parle aussi de son état de santé, qui s'est amélioré, grâce à sa retraite. «La ré duction de mes repas au seul dîner que j'humecte du meilleur Blanchet en Chablis ou en Champagne bien franc et non mousseux, la supression des soupers au dehors, et le coucher de bonne heure m'ont out à fait rétabli...»</note>
+            </item>
+            <item n="23918" xml:id="CAT_000358_e23918">
+               <num type="lot">23918</num>
+               <name type="author">ESTRÉES (Fr. Annibal  duc d')</name>
+               <trait>
+                  <p>maréchal de France, diplomate habile, gouverneur de l'Ile-de-France, frère de Gabrielle d'Estrées.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23918_d1">Pièce deux fois signée; Paris, 8 juin 1601, 1 p. 1/2 in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="23919" xml:id="CAT_000358_e23919">
+               <num type="lot">23919</num>
+               <name type="author">ESTRÉES (Jean d')</name>
+               <trait>
+                  <p>maréchal de France, vice-amiral, vice-roi d'Amérique, gouverneur de Bretagne.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23919_d1">P. s.. 8 juin 1660, 2 p. 1/2 in-fol. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23920" xml:id="CAT_000358_e23920">
+               <num type="lot">23920</num>
+               <name type="author">ESTRÉES (le cardinal César d')</name>
+               <trait>
+                  <p>évêque de Laon, un des meilleurs diplomates de son temps, membré de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23920_d1">L. a. s., en italien, au cardinal Trani; Paris, 2 déc. 1697, 2 p. pl. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+            </item>
+            <item n="23921" xml:id="CAT_000358_e23921">
+               <num type="lot">23921</num>
+               <name type="author">ÉXELMANS (le comte)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23921_d1">L. a. s.; 18 janvier, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23922" xml:id="CAT_000358_e23922">
+               <num type="lot">23922</num>
+               <name type="author">FAURIEL (Cl.)</name>
+               <trait>
+                  <p>un des plus savants historiens du dix-neuvième siècle, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23922_d1">L. a. s.. 1 p. pl. in-8. Très-jolie lettre. Rare.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5.50">5 50</measure>
+            </item>
+            <item n="23923" xml:id="CAT_000358_e23923">
+               <num type="lot">23923</num>
+               <name type="author">FAVRE (Jules)</name>
+               <trait>
+                  <p>célèbre orateur parlementaire, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23923_d1">L. a. s. au président; 27 août 1833, 1 p. in-4. Très-belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23924" xml:id="CAT_000358_e23924">
+               <num type="lot">23924</num>
+               <name type="author">FLAMSTEED (John)</name>
+               <trait>
+                  <p>célèbre astronome anglais, adversaire de Newton.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23924_d1">P. a. s.; 1709, 1/4 de p. in-fol. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="23925" xml:id="CAT_000358_e23925">
+               <num type="lot">23925</num>
+               <name type="author">FONCEMAGNE (Ét. LAURÉAULT de)</name>
+               <trait>
+                  <p>un des meilleurs érudits de son itemps, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23925_d1">L. a. à l'abbé d'Olivet, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+               <note>Curieuse épître sur l'affaire Travenol. «La démarche que cet homme a fait en distribuant ses mémoires à votre Académie vous met pour ainsi dire dans la nécessité de déclarer hautement à cette Académie que M. de Voltaire a trahi la confiance que vous aviés en lui...»»</note>
+            </item>
+            <item n="23926" xml:id="CAT_000358_e23926">
+               <num type="lot">23926</num>
+               <name type="author">FORBIN-JANSON (Toussaint  cardinal de)</name>
+               <trait>
+                  <p>évêque de Marseille, puis de Beauvais, un des meilleurs diplomates de son temps.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23926_d1">L. a. s. à la reine de…; Beauvais, 24 sept. 1699, 5 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="18">18</measure>
+               <note>Superbe lettre, où il proteste de son attachement.</note>
+            </item>
+            <item n="23927" xml:id="CAT_000358_e23927">
+               <num type="lot">23927</num>
+               <name type="author">FOURIER (Charles)</name>
+               <trait>
+                  <p>chef de l'école sociale qui porte son fom, né à Besançon.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23927_d1">L. a. s. à M. J. Lechevalier; Paris, 11 févr. 1832, 3 p. in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Curieuse épître sur les, démarches qu'il fait auprès du préfet de po lice pour une réunion, laquelle a pour but. «de prévenir des soulève mens comme celui de Lyon en assurant aux ouvriers une ressource contre les stagnations périodiques...» .</note>
+            </item>
+            <item n="23928" xml:id="CAT_000358_e23928">
+               <num type="lot">23928</num>
+               <name type="author">GAUDICHAUD (Charles)</name>
+               <trait>
+                  <p>savant botaniste et voyageur, né à Angoulême.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23928_d1">L. a. s. à Lamouroux; Paris, 30 nov. 1822, 2 p. 1/2 in-4. Belle lettre scientifique.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23929" xml:id="CAT_000358_e23929">
+               <num type="lot">23929</num>
+               <name type="author">GIRARD (Antoine)</name>
+               <trait>
+                  <p>député de l'Aude à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23929_d1">L. a. s.; Paris, 31 janv. 1793, 3/4 de p. in-fol. Très-belle et rare lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23930" xml:id="CAT_000358_e23930">
+               <num type="lot">23930</num>
+               <name type="author">GIROT-POUZOL</name>
+               <trait>
+                  <p>député du Puy-de-Dôme à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23930_d1">L. a. s.; Paris, 22 nivôse an III, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <note>Il accuse réception du décret qui l'envoie en mission dans les dé artements du Gard et de l'Hérault.</note>
+            </item>
+            <item n="23931" xml:id="CAT_000358_e23931">
+               <num type="lot">23931</num>
+               <name type="author">GRANDVILLE (J. J.)</name>
+               <trait>
+                  <p>le célèbre et spirituel dessinateur.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23931_d1">L. a. s. au docteur Marx, 1 p. pl. in-8. Jolie pièce. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="23932" xml:id="CAT_000358_e23932">
+               <num type="lot">23932</num>
+               <name type="author">GROUCHY (Emm.)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23932_d1">L. a. s.; 1837, 1 p. in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23933" xml:id="CAT_000358_e23933">
+               <num type="lot">23933</num>
+               <name type="author">HASSENFRAIZ (Jean-Henri)</name>
+               <trait>
+                  <p>savant chimiste, membre de la Commune de Paris en 1792.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23933_d1">L. a. s..; 6 ventôse an III, 2 p. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23934" xml:id="CAT_000358_e23934">
+               <num type="lot">23934</num>
+               <name type="author">HAUSSMANN (le baron Georges)</name>
+               <trait>
+                  <p>préfet de la Seine, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23934_d1">L. a. s. à M. de Saint-Georges; 9 févr. 1860, 2 p. 1/2 in enveloppe et cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Curieuse épître, où il lui parle de Pierre de Médicis (opéradu prince Poniatowski). «Dans les questions d'art, dit-il, je n'hésite ja mais à dire ce que je ressens...».</note>
+            </item>
+            <item n="23935" xml:id="CAT_000358_e23935">
+               <num type="lot">23935</num>
+               <name type="author">HENRI II</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23935_d1">L. s.. à son cousin le sieur de Sedan (Bouil on), maréchal de France; Amiens, 12 août 1549, 1/2 p. in-fol., trace de cachet. Superbe pièce</desc>
+               <measure commodity="currency" unit="FRF" quantity="14">14</measure>
+               <note>Il le presse de lui expédier les corselets qu'il fait fabriquer par son armurier, et espère que le maréchal viendra ensuite le retrouver «pour avoir, dit-il, vostre part de ce passetemps» (il s'agit de la guerre pour la reprise de Boulogne sur les Anglais).</note>
+            </item>
+            <item n="23936" xml:id="CAT_000358_e23936">
+               <num type="lot">23936</num>
+               <name type="author">HENRI III</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23936_d1">L. s. comme duc d'Anjou, avec la souscription et 4 lignes aut., à son cousin. Paris, 13 oct. 1572, 3/4 de p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="17">17</measure>
+               <note>Curieuse épître, où il le prie d'aider de tout son pouvoir le gentil homme que Mme de Martigues envoie pour recouvrer des terres ven dues autrefois par les duc d'Etampes et seigneur de Martigues à si vil prix que le roi a accordé à la susdite dame des lettres de remeré.</note>
+            </item>
+            <item n="23937" xml:id="CAT_000358_e23937">
+               <num type="lot">23937</num>
+               <name type="author">HUMBOLDT (Guillaume de)</name>
+               <trait>
+                  <p>célèbre homme d'État et savant allemand, associé de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23937_d1">L. a. s., en français, à son ami…Francfort, 18 juin 1816, 1 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6.50">6 50</measure>
+               <note>Curieuse épître, où il parle longuement d'un cadeau dont le Pape vient de l'honorer. «Le cardinal Consalvi vient de me l'annoncer per onnellement dans une lettre pleine de bonté et d'amitié, et je lui ai répondu sur le champ.»</note>
+            </item>
+            <item n="23938" xml:id="CAT_000358_e23938">
+               <num type="lot">23938</num>
+               <name type="author">INGRES (J. Aug. Dom.)</name>
+               <trait>
+                  <p>illustre peintre d'histoire, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23938_d1">L. a. s.; Paris, 20 mai 1841, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Belle lettre de recommandation en faveur de M. Lego, secrétaire de l'Académie de France à Rome.</note>
+            </item>
+            <item n="23939" xml:id="CAT_000358_e23939">
+               <num type="lot">23939</num>
+               <name type="author">KANT (Emmanuel)</name>
+               <trait>
+                  <p>le plus grand métaphysicien de l'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23939_d1">L. a. s. à M. Tieftrunck; Koenigsberg, 17 oct. 1797, 3/4 de p. in-4. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+            </item>
+            <item n="23940" xml:id="CAT_000358_e23940">
+               <num type="lot">23940</num>
+               <name type="author">KARR (Alph.)</name>
+               <trait>
+                  <p>célèbre romancier.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23940_d1">L. a. s., 1 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23941" xml:id="CAT_000358_e23941">
+               <num type="lot">23941</num>
+               <name type="author">KLOPSTOCK (Fréd. Gottlieb)</name>
+               <trait>
+                  <p>célèbre poëte allemand, auteur de la Messiade</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23941_d1">Pièce d'album de 2 lignes aut. sig.; 22 juin 1752, 1/2 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="23942" xml:id="CAT_000358_e23942">
+               <num type="lot">23942</num>
+               <name type="author">LACÉPEDE (le comte de)</name>
+               <trait>
+                  <p>illustre naturaliste, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23942_d1">L. a. s. à M. Rigel; 5 févr. 1821, 1/2 p. in-4, cachet. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23943" xml:id="CAT_000358_e23943">
+               <num type="lot">23943</num>
+               <name type="author">LAINÉ (le vicomte)</name>
+               <trait>
+                  <p>homme d'État, président de la Chambre introuvable en 1815, membre de l'Acad. fr., né à Bordeaux.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23943_d1">L. a. s., 3/4 de p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23944" xml:id="CAT_000358_e23944">
+               <num type="lot">23944</num>
+               <name type="author">LEQUINIO (J. M.)</name>
+               <trait>
+                  <p>célèbre conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23944_d1">L. a. s. au Comité de salut public; Rochefort, 6 pluviôse an II, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Très-intéressante lettre, où il demande s'il doit se rendre en Vendée avec son collègue Laignelot, ou se borner aux départements de la Charente et de la Charente-Inférieure.</note>
+            </item>
+            <item n="23945" xml:id="CAT_000358_e23945">
+               <num type="lot">23945</num>
+               <name type="author">LÉVIS (Fr. G.  duc de)</name>
+               <trait>
+                  <p>maréchal de France, gouverneur d'Artois.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23945_d1">L. s.; Saint-Omer, 11 août 1767, 1 p. in-4, cachet bien conservé.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23946" xml:id="CAT_000358_e23946">
+               <num type="lot">23946</num>
+               <name type="author">LIND (Jenny)</name>
+               <trait>
+                  <p>célèbre cantatrice, surnommée le Rossignol suédois</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23946_d1">L. a. s., en français, à la baronne…; Berlin, 31 janv. 1845, 2 p. pl. in Intéressante. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="23947" xml:id="CAT_000358_e23947">
+               <num type="lot">23947</num>
+               <name type="author">LINDET (J. B. Robert)</name>
+               <trait>
+                  <p>célèbre conventionnel, membre du Comité de salut public.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23947_d1">P. a. s.; Bernay, 8 déc. 1781, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23948" xml:id="CAT_000358_e23948">
+               <num type="lot">23948</num>
+               <name type="author">LISZT (F.)</name>
+               <trait>
+                  <p>célèbre pianiste.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23948_d1">L. a. s. à Mlle Lambert, 2 p. in-8. Très jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23949" xml:id="CAT_000358_e23949">
+               <num type="lot">23949</num>
+               <name type="author">LORRAINE (Charles II  duc de)</name>
+               <trait>
+                  <p>dit le Grand gendre de Henri II, prince habile, qui fonda l'Université de Pont-à-Mousson.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23949_d1">L. a. s. à la reine (Catherine de Médicis); Nancy, 11 mai (1563), 1 p. in-fol., cachet brisé. Superbe et rare pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="23950" xml:id="CAT_000358_e23950">
+               <num type="lot">23950</num>
+               <name type="author">LOUIS XV</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23950_d1">P. s. 1761, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23951" xml:id="CAT_000358_e23951">
+               <num type="lot">23951</num>
+               <name type="author">LOUVERTURE (Toussaint)</name>
+               <trait>
+                  <p>le célèbre général en chef de l'armée de Saint-Domingue.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23951_d1">L. s.., en français, à Hédouville; le Cap, 26 prairial an VI, 1 p. in-4, tète impr.</desc>
+               <measure commodity="currency" unit="FRF" quantity="13">13</measure>
+               <note>Belle lettre de recommandation en faveur du cit. Cazeaux, ci devant notaire au Port républicain, qui fut fait prisonnier par les An glais lors de la prise de cette ville.</note>
+            </item>
+            <item n="23952" xml:id="CAT_000358_e23952">
+               <num type="lot">23952</num>
+               <name type="author">LUCKNER (Nicolas)</name>
+               <trait>
+                  <p>maréchal de France, décapité en 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23952_d1">L. s., écrite par Beurnonville à Servan; Valenciennes, 21 mai 1792, 1/2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Il demande qu'on expédie à son aidé-de-camp, Pierre Riel de Beurnonville (depuis maréchal de France), le brevet de maréchal de camp</note>
+            </item>
+            <item n="23953" xml:id="CAT_000358_e23953">
+               <num type="lot">23953</num>
+               <name type="author">LYELL (Charles)</name>
+               <trait>
+                  <p>savant géologue anglais.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23953_d1">L. a. s.., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23954" xml:id="CAT_000358_e23954">
+               <num type="lot">23954</num>
+               <name type="author">MAIRAN (J. J. DORTOUS de)</name>
+               <trait>
+                  <p>savant physicien et écrivain, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23954_d1">P. a. s.; 30 mars 1754, 1/2 p. in-8 oblong. Un peu jaunie.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23955" xml:id="CAT_000358_e23955">
+               <num type="lot">23955</num>
+               <name type="author">MARGUERITE DE FRANCE</name>
+               <trait>
+                  <p>fille de Henri II, première femme de Henri IV, auteur de Mémoires.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23955_d1">P. s., sur vélin; Paris, 1er oct. 1607. in-fol. oblong. Pièce un peu frippée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+            </item>
+            <item n="23956" xml:id="CAT_000358_e23956">
+               <num type="lot">23956</num>
+               <name type="author">MARLBOROUGH (John CHURCHILL  duc de)</name>
+               <trait>
+                  <p>le plus grand capitaine anglais du dix-septième siècle.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23956_d1">L. s.; 8 mai 1718. 1 p. in-fol., sceau. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="14">14</measure>
+            </item>
+            <item n="23957" xml:id="CAT_000358_e23957">
+               <num type="lot">23957</num>
+               <name type="author">MASSÉ (V.)</name>
+               <trait>
+                  <p>célèbre compositeur de musique, auteur des Noces de Jeannette.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23957_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="23958" xml:id="CAT_000358_e23958">
+               <num type="lot">23958</num>
+               <name type="author">MAZZINI (Joseph)</name>
+               <trait>
+                  <p>célèbre révolutionnaire italien.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23958_d1">L. a. s. à Daelli; 6 août, 1 p. 1/2 in-18. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="23959" xml:id="CAT_000358_e23959">
+               <num type="lot">23959</num>
+               <name type="author">MÉAULLE (J. Nic.)</name>
+               <trait>
+                  <p>député de la Loire-Inférieure à la Convention, membre du Comité de sûrete générale après le 9 thermidor.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23959_d1">Arrêté du Comité de sûreté générale aut. sig., sig. aussi par Ruamps Duhem et Maribon-Montaut; 1er avril 1793, 1 p. in-fol.; têté impr. et cachet. Très-belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6.50">6 50</measure>
+               <note>Ordre d'arrestation du cit. Sainte-Foix, demeurant au mont Saint Martin, municipalité du Catelet.</note>
+            </item>
+            <item n="23960" xml:id="CAT_000358_e23960">
+               <num type="lot">23960</num>
+               <name type="author">MICHAUD (J. B.)</name>
+               <trait>
+                  <p>député du Doubs à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23960_d1">L. a. s. à son collègue Pelletier: Paris, 22 nivôse an III, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+               <note>Très-curieuse épître sur un administrateur du département du Doubs, le cit. Arnaud, que des hommes haineux veulent faire destituer.</note>
+            </item>
+            <item n="23961" xml:id="CAT_000358_e23961">
+               <num type="lot">23961</num>
+               <name type="author">MONESTIER (B.)</name>
+               <trait>
+                  <p>ex-curé de Saint-Pierre de Clermont, député du Puy-de-Dôme à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23961_d1">L. a. s.. au président de l'Assemblée nationale; (1791), 2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Très-intéressante lettre, écrite comme procureur-général syndic du Puy-de-Dôme, et relative aux mesures concernant les ecclésiastiques de son département.</note>
+            </item>
+            <item n="23962" xml:id="CAT_000358_e23962">
+               <num type="lot">23962</num>
+               <name type="author">MONTMORENCY (Henri II  duc de)</name>
+               <trait>
+                  <p>maréchal de France, ennemi de Richelieu, décapité à Toulouse en 1632.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23962_d1">P. s., comme amiral de France, de Guyenne et de Bretagne; Paris, 5 juill. 1616, 1/2 p. in oblong, sceau. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="23963" xml:id="CAT_000358_e23963">
+               <num type="lot">23963</num>
+               <name type="author">MONTMORENCY-BOUTEVILLE (François de)</name>
+               <trait>
+                  <p>brave guerrier et fameux bretteur, décapité, à l'âge de 27 ans, en 1627 pour son duel avec Beuvron.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23963_d1">L. a. s. à Mgr (Richelieu?); s. d. 1 p. pl. in-4. Belle et rare lettre</desc>
+               <measure commodity="currency" unit="FRF" quantity="27">27</measure>
+            </item>
+            <item n="23964" xml:id="CAT_000358_e23964">
+               <num type="lot">23964</num>
+               <name type="author">NIEL (Adolphe)</name>
+               <trait>
+                  <p>maréchal de France et ministre de la guerre.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23964_d1">L. a. s.; Montpellier, 31 août 1848, 2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Intéressante épître sur le contre-coup de la Révolution de février 1848 à Montpellier. Curieux détails.</note>
+            </item>
+            <item n="23965" xml:id="CAT_000358_e23965">
+               <num type="lot">23965</num>
+               <name type="author">NODIER (Charles)</name>
+               <trait>
+                  <p>écrivain distingué, de l'Acad, fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23965_d1">L. a. s. à Salvi; Paris, 21 octobre, 1 p. in-4. Très-belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23966" xml:id="CAT_000358_e23966">
+               <num type="lot">23966</num>
+               <name type="author">PEYRONNET (le comte)</name>
+               <trait>
+                  <p>ministre signataire des Ordonnances de juillet 1830.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23966_d1">Pièce d'album aut. sig.; château de Ham, 21 oct. 1835, 1/4 de p. in-fol. Très-belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23967" xml:id="CAT_000358_e23967">
+               <num type="lot">23967</num>
+               <name type="author">PONCET DE LA RIVIÈRE (Mathias)</name>
+               <trait>
+                  <p>évêque de Troyes, prédicateur distingué, qui prononça les oraisons funèbres de Marie Leczinska et de Louis XV</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23967_d1">L. a. s. à Mgr. . Troyes, 23 déc. 1749, 3 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Lettre fort curieuse sur les communautés de son diocèse.</note>
+            </item>
+            <item n="23968" xml:id="CAT_000358_e23968">
+               <num type="lot">23968</num>
+               <name type="author">QUINET (Edgar)</name>
+               <trait>
+                  <p>célèbre écrivain et représentant du peuple.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23968_d1">L. a. s. à M: Cottard; Paris, 18 nov. 1841, 2 p. in-8. Jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23969" xml:id="CAT_000358_e23969">
+               <num type="lot">23969</num>
+               <name type="author">RACHEL (Mlle)</name>
+               <trait>
+                  <p>la célèbre tragédienne.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23969_d1">L. a. s. à M…; 2 avril, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Intéressante épître, où elle lui demande comment il l'a trouvée dans Horace et le prie d'assister à toutes ses représentations.</note>
+            </item>
+            <item n="23970" xml:id="CAT_000358_e23970">
+               <num type="lot">23970</num>
+               <name type="author">REILLE (le comte)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23970_d1">L. a. s.; Bordeaux, 11 ven démiaire an XIII, 2 p. 1/2 in-fol. Très-belle et intéressante lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23971" xml:id="CAT_000358_e23971">
+               <num type="lot">23971</num>
+               <name type="author">ROCHEFORT (Henri)</name>
+               <trait>
+                  <p>l'auteur de la Lanterne.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23971_d1">L. a. s. comme rédacteur du Charivar, 1 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="23972" xml:id="CAT_000358_e23972">
+               <num type="lot">23972</num>
+               <name type="author">ROQUELAURE (Ant. G. J. B.  duc de)</name>
+               <trait>
+                  <p>maréchal de France, gouverneur de Languedoc, bien maltraité par Saint-Simon.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23972_d1">P. s.; Montpellier, 28 oct. 1707, 1 p. in-fol., cachet bien conservé.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23973" xml:id="CAT_000358_e23973">
+               <num type="lot">23973</num>
+               <name type="author">ROQUEPLAN (Camille)</name>
+               <trait>
+                  <p>peintre d'histoire, un des chefs de l'école romantique.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23973_d1">L. a. s., 3/4 de p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.75">1 75</measure>
+            </item>
+            <item n="23974" xml:id="CAT_000358_e23974">
+               <num type="lot">23974</num>
+               <name type="author">ROUGET DE LISLE (Joseph)</name>
+               <trait>
+                  <p>l'auteur de la Marseillaise.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23974_d1">L. a. s. au docteur Chapelain; Choisy-le-Roi, 20 sept. 1832, 2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="13">13</measure>
+               <note>Curieuse épître sur le magnétisme. Il n'a pas pu en parler à Béranger, qu'il a vu dans un dîner, mais qui, indisposé, s'est esquivé au milieu du repas. A ce même dîner était Armand Carrel, drédacteur du National et personnage fort important, comme vous savez.» Il a promis de parler dans son journal d'une brochure sur le magnétisme.</note>
+            </item>
+            <item n="23975" xml:id="CAT_000358_e23975">
+               <num type="lot">23975</num>
+               <name type="author">SAINT-JEAN (Simon)</name>
+               <trait>
+                  <p>un de nos meilleurs peintres de fleurs, né à Lyon.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23975_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="23976" xml:id="CAT_000358_e23976">
+               <num type="lot">23976</num>
+               <name type="author">SAINT-PIERRE (Bernardin de)</name>
+               <trait>
+                  <p>l'auteur de Paul et Virginie membre de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23976_d1">L. a. s. (à Chaudet, l'éminent sculpteur); 24 pluviôse an VIII, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Très-curieuse épître, où il le remercie de son groupe de Paul et Vir finie» Je prendrai la liberté d'aller offrir à votre digne compagne un exemplaire en papier vélin de la vie de ces deux mêmes enfants dont vous avés fait un groupe si agréable avec le chien fidelle qui veille à leur repos... »»</note>
+            </item>
+            <item n="23977" xml:id="CAT_000358_e23977">
+               <num type="lot">23977</num>
+               <name type="author">SAINT-SIMON (Henri de)</name>
+               <trait>
+                  <p>célèbre philosophe, chef de la secte qui porte son nom.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23977_d1">L. a. s.; 13 janv. 1808 1 p. in-4. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5.50">5 50</measure>
+            </item>
+            <item n="23978" xml:id="CAT_000358_e23978">
+               <num type="lot">23978</num>
+               <name type="author">SALMON-DE-MÉZIÈRE (G. R. L.)</name>
+               <trait>
+                  <p>député de la Sarthe à la Convention, mis en arrestation après le 31 mai.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23978_d1">L. a. s.; Le Mans, 22 vendémiaire an XIV, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23979" xml:id="CAT_000358_e23979">
+               <num type="lot">23979</num>
+               <name type="author">SAND (George)</name>
+               <trait>
+                  <p>notre grande romancière.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23979_d1">L. a. s.; 15 déc. 1855, 1 p. 3/4 in-8. Très-jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="23980" xml:id="CAT_000358_e23980">
+               <num type="lot">23980</num>
+               <name type="author">SANDEAU (Jules)</name>
+               <trait>
+                  <p>romancier et auteur dramatique, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23980_d1">L. a. s., 1 p. in-8. Très-jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23981" xml:id="CAT_000358_e23981">
+               <num type="lot">23981</num>
+               <name type="author">SAVIGNY (Frédéric-Charles de)</name>
+               <trait>
+                  <p>un des plus savants jurisconsultes de l'Allemagne, membre associé de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23981_d1">L. a. s. à Mozlar; Landhust, 4 novembre, 1 p. in-8 cachet. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23982" xml:id="CAT_000358_e23982">
+               <num type="lot">23982</num>
+               <name type="author">SAXE (Maurice  comte de)</name>
+               <trait>
+                  <p>illustre maréchal de France, le vainqueur de Fontenoy.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23982_d1">L. s., avec un post-scriptum de 15 lignes aut., au comte de Lowendall; Bruxelles, 21 mai 1747, 1 p. pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Très-belle lettre où il lui mande que l'arrivée du maréchal de Noailles l'empêche de se rendre à Anvers. Détails sur des chevaux dont il veut faire l'acquisition.</note>
+            </item>
+            <item n="23983" xml:id="CAT_000358_e23983">
+               <num type="lot">23983</num>
+               <name type="author">SIMART (P. Ch.)</name>
+               <trait>
+                  <p>habile statuaire, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23983_d1">L. a. s.; 1846, 1 p. in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="23984" xml:id="CAT_000358_e23984">
+               <num type="lot">23984</num>
+               <name type="author">SISMONDI (Simonde de)</name>
+               <trait>
+                  <p>célèbre historien, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23984_d1">L. a. s. à Crapelet; 14 sept. 1817, 3 p. in-12. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="23985" xml:id="CAT_000358_e23985">
+               <num type="lot">23985</num>
+               <name type="author">TALMA (Fr.)</name>
+               <trait>
+                  <p>illustre tragédien.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23985_d1">L. a. s. à Jolivet; jeudi matin, 1/2 p. in-8. Très-jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="9">9</measure>
+            </item>
+            <item n="23986" xml:id="CAT_000358_e23986">
+               <num type="lot">23986</num>
+               <name type="author">THIERS (Ad.)</name>
+               <trait>
+                  <p>célèbre historien et homme d'État, de l'Acad. fr.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23986_d1">L. a. s.; 1er juin, 1 p. pl. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="23987" xml:id="CAT_000358_e23987">
+               <num type="lot">23987</num>
+               <name type="author">VALINCOUR (J. B. DU TROUSSET de)</name>
+               <trait>
+                  <p>historiographe de France, membre de l'Acad. fr., à qui Boileau adressa une de ses satyres.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23987_d1">L. a. (au pré sident Bouhier); 19 mars 1728, 2 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Très-jolie lettre, où il parle de la convalescence du roi et d'un ma drigal qu'il a fait à ce sujet. Il juge le poëme de Pope et son discours ur Homère qui marque plus de lecture et d'esprit que de goût. «Nous avons sur les Anglais plus d'avantage pour la poésie et les belles lettres qu'ils n'en ont sur nous pour la géométrie....».</note>
+            </item>
+            <item n="23988" xml:id="CAT_000358_e23988">
+               <num type="lot">23988</num>
+               <name type="author">VERNET (Horace)</name>
+               <trait>
+                  <p>célèbre peintre d'histoire, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23988_d1">L. a. s.; 16 déc. 1858, 1/2 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.75">3 75</measure>
+            </item>
+            <item n="23989" xml:id="CAT_000358_e23989">
+               <num type="lot">23989</num>
+               <name type="author">VILLETTE (Charles  marquis de)</name>
+               <trait>
+                  <p>poëte et bel esprit, ami de Voltaire, jui le surnomma le Tibulle français, conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23989_d1">L. a. s.., 1/2 p. in-8. Jolle lettre. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="23990" xml:id="CAT_000358_e23990">
+               <num type="lot">23990</num>
+               <name type="author">WILLEMET (Pierre-Remi)</name>
+               <trait>
+                  <p>savant naturaliste, ami de Linné, directeur du Jardin-des-Plantes de Nancy.</p>
+               </trait>
+               <desc xml:id="CAT_000358_e23990_d1">L. a. s. à M. Deterville; Nanci, 16 ven tôse an V, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

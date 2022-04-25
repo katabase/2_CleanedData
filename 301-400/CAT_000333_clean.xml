@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000333">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Jacques Charavay, 15 janvier 1846, nº 4</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="LAC">
+               <title>LIBRAIRIE ANCIENNE ET AUTOGRAPHES DE CHARAVAY</title>
+               <num>4</num>
+               <editor/>
+               <publisher/>
+               <pubPlace>Paris</pubPlace>
+               <date when="1846">1846</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, rue Gît-le-Cœur</addrLine>
+                     </address>
+                     <persName type="auctioneer"/>
+                     <persName type="expert"/>
+                     <date when="1846-01-15">15 janvier 1846</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">P-77</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <note>AUTOGRAPHES</note>
+            <item n="125" xml:id="CAT_000333_e125">
+               <num type="lot">125</num>
+               <name type="author">ALEMBERT (J. Le Rond d')</name>
+               <trait>
+                  <p>géomètre, philosophe, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e125_d1">Paris, 1779. L. a. s. 2 pages in-4º</desc>
+               <measure commodity="currency" unit="FRF" quantity="6.50">6 50</measure>
+            </item>
+            <item n="126" xml:id="CAT_000333_e126">
+               <num type="lot">126</num>
+               <name type="author">BELLEGARDE (Henri comte de)</name>
+               <trait>
+                  <p>feld maréchal au service d'Autriche.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e126_d1">Vicence, 15 octobre 1800. Belle L. a. s. 2 pages in-4 (rare).</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+            </item>
+            <item n="127" xml:id="CAT_000333_e127">
+               <num type="lot">127</num>
+               <name type="author">BELZUNCE (H. de)</name>
+               <trait>
+                  <p>évêque de Marseille.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e127_d1">L. a. s. 1 page pleine in-4 (jolie lettre).</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+            </item>
+            <item n="128" xml:id="CAT_000333_e128">
+               <num type="lot">128</num>
+               <name type="author">BERTRAND DE MOLLEVILLE (le marquis)</name>
+               <trait>
+                  <p>ministre de la marine sous Louis XVI, auteur d'une histoire de la Révolution et de Mémoires, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e128_d1">2 septembre 1815. L. a. s. au ministre des finances. 1 page pleine in-fol. (belle pièce).</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Il réclame avec instance la pension de retraite de 12,000 livres à lui accordée par Louis XVI, et donne des détails sur ses services et l'extrême détresse où il se trouve ainsi que sa famille</note>
+            </item>
+            <item n="129" xml:id="CAT_000333_e129">
+               <num type="lot">129</num>
+               <name type="author">CASTRIES (de)</name>
+               <trait>
+                  <p>maréchal de France et ministre.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e129_d1">Lille, 1er octobre 1775. L. a. s. 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="130" xml:id="CAT_000333_e130">
+               <num type="lot">130</num>
+               <name type="author">CHAMPAGNY (duc de Cadore)</name>
+               <trait>
+                  <p>ministre, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e130_d1">Paris, 15 juillet 1810. L. a. s. 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="131" xml:id="CAT_000333_e131">
+               <num type="lot">131</num>
+               <name type="author">CHATEAUBRIAND (le vicomte de)</name>
+               <trait>
+                  <p>de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e131_d1">27 avril 1834. L. a. s. 1 page in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="132" xml:id="CAT_000333_e132">
+               <num type="lot">132</num>
+               <name type="author">CHATEAUNEUF RANDON</name>
+               <trait>
+                  <p>conventionnel et général,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e132_d1">5 ventose an IV, L. a. s. 1 page in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="133" xml:id="CAT_000333_e133">
+               <num type="lot">133</num>
+               <name type="author">CONDÉ (Louis de Bourbon dit le Grand)</name>
+               <desc xml:id="CAT_000333_e133_d1">Verdun, 28 mai 1644, l. a. s. au duc de Longueville, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="134" xml:id="CAT_000333_e134">
+               <num type="lot">134</num>
+               <name type="author">DÉCRÈS</name>
+               <trait>
+                  <p>contre-amiral, ministre de la marine,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e134_d1">L. a. s. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="135" xml:id="CAT_000333_e135">
+               <num type="lot">135</num>
+               <name type="author">DELESSART</name>
+               <trait>
+                  <p>ministre de l'intérieur, assassiné dans les prisons d'Orléans,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e135_d1">Paris, 22 juin 1771, l. a. s. 4 p. pleines, in-folio, relative à la libre circulation du numéraire dans l'intérieur du royaume, belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7">7</measure>
+            </item>
+            <item n="136" xml:id="CAT_000333_e136">
+               <num type="lot">136</num>
+               <name type="author">DESAIX</name>
+               <trait>
+                  <p>général en chef, tué à Marengo,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e136_d1">Paris, 21 nivôse, an 6, l. a s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6.50">6 50</measure>
+            </item>
+            <item n="137" xml:id="CAT_000333_e137">
+               <num type="lot">137</num>
+               <name type="author">DUQUESNOY</name>
+               <trait>
+                  <p>Conventionnel, montagnard,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e137_d1">Morfontaine, 22 floréal, an 2, l. a. s. au comité de salut public, 2 p. in-folio, (curieuse).</desc>
+               <measure commodity="currency" unit="FRF" quantity="8">8</measure>
+            </item>
+            <item n="138" xml:id="CAT_000333_e138">
+               <num type="lot">138</num>
+               <name type="author">FLORIAN (le chevalier de)</name>
+               <trait>
+                  <p>de l'Académie française,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e138_d1">fragment autographe de l'une de ses pièces de théâtre, 2 p. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="139" xml:id="CAT_000333_e139">
+               <num type="lot">139</num>
+               <name type="author">FOUQUIER-TINVILLE (a. q.)</name>
+               <trait>
+                  <p>accusateur public au tribunal révolutionnaire,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e139_d1">Paris, 7 mai 1793, l. a s. relative à l'affaire du général Miaczinski, 1 p. pleine in-4. 10</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="140" xml:id="CAT_000333_e140">
+               <num type="lot">140</num>
+               <name type="author">GAUDIN</name>
+               <trait>
+                  <p>duc de Gaëte, ministre des finances etc.,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e140_d1">Paris, 11 pluviôse an 8, l. a. s. 4 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="141" xml:id="CAT_000333_e141">
+               <num type="lot">141</num>
+               <name type="author">JAVOQUES</name>
+               <trait>
+                  <p>Conventionnel,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e141_d1">certificat a. s. en faveur de Cusset, Paris, 13 prairial, an 2, 1/2 p. in-4 (rare).</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="142" xml:id="CAT_000333_e142">
+               <num type="lot">142</num>
+               <name type="author">LACONDAMINE</name>
+               <trait>
+                  <p>célèbre voyageur,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e142_d1">Chaillot, 17 juin 1770, l. a. s. 1 p. in-4 (curieuse lettre).</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.25">4 25</measure>
+            </item>
+            <item n="143" xml:id="CAT_000333_e143">
+               <num type="lot">143</num>
+               <name type="author">LAFON</name>
+               <trait>
+                  <p>célèbre acteur, de la comédie française,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e143_d1">Paris, 6 avril 1839, 2. p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.25">2 25</measure>
+            </item>
+            <item n="144" xml:id="CAT_000333_e144">
+               <num type="lot">144</num>
+               <name type="author">LALANDE</name>
+               <trait>
+                  <p>célèbre astronome,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e144_d1">l. a. s. 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="145" xml:id="CAT_000333_e145">
+               <num type="lot">145</num>
+               <name type="author">LANJUINAIS.</name>
+               <trait>
+                  <p>Conventionnel, sénateur etc.,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e145_d1">Paris, 16 septembre 1807, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="146" xml:id="CAT_000333_e146">
+               <num type="lot">146</num>
+               <name type="author">LAPORTE</name>
+               <trait>
+                  <p>intendant de la liste civile sous Louis XVI.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e146_d1">Paris, 17 août 1791. L. a. s. Une page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="147" xml:id="CAT_000333_e147">
+               <num type="lot">147</num>
+               <name type="author">LAVEAUX (Et.)</name>
+               <trait>
+                  <p>député et général en chef à Saint-Domingue.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e147_d1">Paris, 21 floréal an VII, 1 page in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="148" xml:id="CAT_000333_e148">
+               <num type="lot">148</num>
+               <name type="author">LAVICOMTERIE</name>
+               <trait>
+                  <p>conventionnel et écrivain,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e148_d1">3 thermidor an II, ordre d'arrestation, a. s. aussi signé, par Amar, Vadier et Louis du Bas-Rhin, une page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="149" xml:id="CAT_000333_e149">
+               <num type="lot">149</num>
+               <name type="author">MARET (Hugues)</name>
+               <trait>
+                  <p>duc de Bassano, ministre.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e149_d1">Saint-Cloud, 8 germinal an XIII. L. a. s. à M. Bureaux de Buzy, préfet du Rhône, 2 pages in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>Relative à l'arrivée de Napoléon à Lyon.</note>
+            </item>
+            <item n="150" xml:id="CAT_000333_e150">
+               <num type="lot">150</num>
+               <name type="author">MALESHERBES (G. L. de)</name>
+               <trait>
+                  <p>défenseur de Louis XVI.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e150_d1">L. a. s. demi-page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="151" xml:id="CAT_000333_e151">
+               <num type="lot">151</num>
+               <name type="author">MÉDICIS (Marie de)</name>
+               <trait>
+                  <p>reine de France,</p>
+               </trait>
+               <desc xml:id="CAT_000333_e151_d1">Paris, 16 septembre 1627. L. a. s. à son fils le duc d'Orléans, 1 page pleine in-4, cachets et soies (très jolie lettre).</desc>
+               <measure commodity="currency" unit="FRF" quantity="24">24</measure>
+            </item>
+            <item n="152" xml:id="CAT_000333_e152">
+               <num type="lot">152</num>
+               <name type="author">MERLIN de Douai</name>
+               <trait>
+                  <p>conventionnel, ministre, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e152_d1">Paris, 7 novembre an 1er. L. a. s. 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="153" xml:id="CAT_000333_e153">
+               <num type="lot">153</num>
+               <name type="author">MOLLIEN</name>
+               <trait>
+                  <p>ministre du trésor public, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e153_d1">Paris, 13 janvier 1810. L. a. s. au ministre de la guerre, 1 page in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.75">2 75</measure>
+            </item>
+            <item n="154" xml:id="CAT_000333_e154">
+               <num type="lot">154</num>
+               <name type="author">MONGE</name>
+               <trait>
+                  <p>célèbre géomètre, ministre de la marine, de l'institut, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e154_d1">L. a. s. au ministre des finances, 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="155" xml:id="CAT_000333_e155">
+               <num type="lot">155</num>
+               <name type="author">PELTIER</name>
+               <trait>
+                  <p>journaliste royaliste, collaborateur des Actes des apôtrès, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e155_d1">L. a. s. 2 pages in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="156" xml:id="CAT_000333_e156">
+               <num type="lot">156</num>
+               <name type="author">PRUNELLE (H.-J)</name>
+               <trait>
+                  <p>conventionnel.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e156_d1">L. a. s. Paris, 14 floréal an II, 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="157" xml:id="CAT_000333_e157">
+               <num type="lot">157</num>
+               <name type="author">SAINT-PRIEST (le comte de)</name>
+               <trait>
+                  <p>ministre de Louis XVI.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e157_d1">Paris, 13 juillet 1777. L. a. s. 1 page in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
+            </item>
+            <item n="158" xml:id="CAT_000333_e158">
+               <num type="lot">158</num>
+               <name type="author">SANTERRE</name>
+               <trait>
+                  <p>général de la force armée de Paris.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e158_d1">Billet a. s. comme brasseur de bière. Paris, 1er mai 1786.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="159" xml:id="CAT_000333_e159">
+               <num type="lot">159</num>
+               <name type="author">VALAZÉ (Dufriche de)</name>
+               <trait>
+                  <p>conventionnel girondin.</p>
+               </trait>
+               <desc xml:id="CAT_000333_e159_d1">Essay, 8 août 1790. L. a. s. 1 page in-fol. (rare).</desc>
+               <measure commodity="currency" unit="FRF" quantity="13">13</measure>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

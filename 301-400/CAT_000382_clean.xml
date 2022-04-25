@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000382">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Catalogue Laverdet, juillet-août 1857, nº 11</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="LAV">
+               <title>CATALOGUE DE LETTRES AUTOGRAPHES, MANUSCRITS, DOCUMENTS HISTORIQUES, ETC., DE A. LAVERDET</title>
+               <num>11</num>
+               <editor>Auguste Laverdet</editor>
+               <publisher>Auguste Laverdet</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date from="1857-07" to="1857-08">juillet-août 1857</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine/>
+                     </address>
+                     <persName type="auctioneer"/>
+                     <persName type="expert"/>
+                     <date/>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Tolbiac</repository>
+                        <idno type="shelfmark">DELTA-9995</idno>
+                        <!--                        <altIdentifier>
+                           <idno>NUMM-9687751</idno>
+                        </altIdentifier>-->
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb30755439z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="1946" xml:id="CAT_000382_e1946">
+               <num type="lot">1946</num>
+               <name type="author">Angoulême (Louis-Antoine  duc d')</name>
+               <trait>
+                  <p>dauphin de France, fils de Charles X.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1946_d1">L. aut. sig., à M. le comte de Vérac. Varsovie, 2 oct. 1802. 1 p. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="1947" xml:id="CAT_000382_e1947">
+               <num type="lot">1947</num>
+               <name type="author">Argental (le comte d')</name>
+               <trait>
+                  <p>ami de Voltaire.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1947_d1">L. aut. sig., à M. le président de Meinières. Paris, 29 mars 1766. 1 p. pl. et demie in-4. Jolie lettre. Beau portr. gravé in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+            </item>
+            <item n="1948" xml:id="CAT_000382_e1948">
+               <num type="lot">1948</num>
+               <name type="author">Augereau (le maréchal)</name>
+               <trait>
+                  <p>duc de Castiglione</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1948_d1">L. sig., à M. le comte…Francfort, 22 juin 1813. 1 gr. p. pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="1949" xml:id="CAT_000382_e1949">
+               <num type="lot">1949</num>
+               <name type="author">Bartsch (Adam)</name>
+               <trait>
+                  <p>célèbre graveur allemand, conservateur du cabinet impérial des estampes à Vienne.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1949_d1">1°Cinq lignes aut. attestées par Sigmann Bermann. Quart de page in-4. Beau port. grave in-4.-2°L. aut. (en allemand. La signature a été arrachée avec une partie des deux dernières lignes), à M. Stockel. 1 p. pl. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+            </item>
+            <item n="1950" xml:id="CAT_000382_e1950">
+               <num type="lot">1950</num>
+               <name type="author">Baudin (François)</name>
+               <trait>
+                  <p>contre-amiral français.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1950_d1">L. aut. sig., Paimboeuf (à bord de la Topaze), germinal an XIII. 2 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="1951" xml:id="CAT_000382_e1951">
+               <num type="lot">1951</num>
+               <name type="author">Baudin (Charles)</name>
+               <trait>
+                  <p>vice-amiral français.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1951_d1">L. aut. sig., Paris, 4 février 1843. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="1952" xml:id="CAT_000382_e1952">
+               <num type="lot">1952</num>
+               <name type="author">Bausset (le chevalier de)</name>
+               <trait>
+                  <p>lieutenant-général des armées navales en 1784.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1952_d1">L. aut. sig., à M. Du Rosel. Paris, 1er juin. 4 p. pl. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="1953" xml:id="CAT_000382_e1953">
+               <num type="lot">1953</num>
+               <name type="author">Beurnonville</name>
+               <trait>
+                  <p>maréchal de France. Né à Champignole (Côte-d'Or).</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1953_d1">L. aut. sig., à M…Paris, 29 oct. 1715. 4 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.2">3 2</measure>
+            </item>
+            <item n="1954" xml:id="CAT_000382_e1954">
+               <num type="lot">1954</num>
+               <name type="author">Beautemps-Beaupré</name>
+               <trait>
+                  <p>savant ingénieur Né à Laneuville-au-Pont (Marne).</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1954_d1">L. aut. sig., au citoyen Molès, commandant militaire à Dunkerque. Ostende, 26 thermidor an IX. 1 p. pl. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="1955" xml:id="CAT_000382_e1955">
+               <num type="lot">1955</num>
+               <name type="author">Toulongeon (le vicomte dé)</name>
+               <trait>
+                  <p>littérateur, député. Né au château de Champlitte (Haute-Saône).</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1955_d1">L. aut. sig. Paris, 29 août 1807. 1 p. in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="1956" xml:id="CAT_000382_e1956">
+               <num type="lot">1956</num>
+               <name type="author">Treilhard</name>
+               <trait>
+                  <p>avocat au parlement de Paris, député de Seine et-Oise à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1956_d1">L. aut. sig., à M. Guillaumot. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="1957" xml:id="CAT_000382_e1957">
+               <num type="lot">1957</num>
+               <name type="author">Türgot (Anne-Robert-Jacques)</name>
+               <trait>
+                  <p>ministre et homme d'État, économiste.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1957_d1">L. aut., à M. Caillard. Limoges, 13 octobre 1772. 1 p. et demie in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="1958" xml:id="CAT_000382_e1958">
+               <num type="lot">1958</num>
+               <name type="author">Uzanne</name>
+               <trait>
+                  <p>poëte d'Auxerre.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1958_d1">La fausse conversion, chanson aut. sig., suivie d'une lettre aut. sig., à MM. Capelle et Renand. Auxerre, 9 octobre 1810. 3 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="1959" xml:id="CAT_000382_e1959">
+               <num type="lot">1959</num>
+               <name type="author">Valentinois (le duc de)</name>
+               <trait>
+                  <p>prince de Monaco, pair de France</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1959_d1">L. aut. sig., à M. le baron Pasquier. Château de l'Orangerie, 25 août 1837. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1960" xml:id="CAT_000382_e1960">
+               <num type="lot">1960</num>
+               <name type="author">Valmy (le dec de)</name>
+               <trait>
+                  <p>pair de France.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1960_d1">L. aut. sig., à M. le président de la cour des pairs. Paris, 30 avril 1835. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1961" xml:id="CAT_000382_e1961">
+               <num type="lot">1961</num>
+               <name type="author">Vandéuil (Careillon de)</name>
+               <trait>
+                  <p>député de la Haute-Marne petit fils de Diderot.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1961_d1">L. aut. sig. 3 p. pl. et demie petit in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="1962" xml:id="CAT_000382_e1962">
+               <num type="lot">1962</num>
+               <name type="author">Van Praet</name>
+               <trait>
+                  <p>savant bibliographe.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1962_d1">L. aut. sig., à M. de Pixerécourt. 2 juin 1827. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="1963" xml:id="CAT_000382_e1963">
+               <num type="lot">1963</num>
+               <name type="author">Varlet</name>
+               <trait>
+                  <p>député du Pas-de-Calais à la Conventien.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1963_d1">L. aut. sig. à ses collègues, membres du Comité de sûreté générale. Paris, prison de la Force, 25 brumaire an II. 3 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>Exposé de sa conduite au sujet de l'apposition de sa signature au bas de la déclaration qui a motivé l'arrestation de 73 dépatés.</note>
+            </item>
+            <item n="1964" xml:id="CAT_000382_e1964">
+               <num type="lot">1964</num>
+               <name type="author">Vasselier (Joseph)</name>
+               <trait>
+                  <p>poëte, ami de Voltaire. Né à Rocroy (Ardennes).</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1964_d1">L. aut. sig., comme directeur de la petite poste de Lyon. Lyon, 3 juillet 1793.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="1965" xml:id="CAT_000382_e1965">
+               <num type="lot">1965</num>
+               <name type="author">Vatout</name>
+               <trait>
+                  <p>député de la Côte-d'Or</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1965_d1">premier bibliothécaire de Louis-Philippe. L. aut. sig. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="1966" xml:id="CAT_000382_e1966">
+               <num type="lot">1966</num>
+               <name type="author">Vatry (V.)</name>
+               <desc xml:id="CAT_000382_e1966_d1">L. aut. sig., à madame Alphé de Vatry. Nan terre, 9 octobre 1827. 2 p. et demie in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1967" xml:id="CAT_000382_e1967">
+               <num type="lot">1967</num>
+               <name type="author">Vatry</name>
+               <desc xml:id="CAT_000382_e1967_d1">L. aut. sig., à M. H. Prévost. Paris, 5 octobre 1841. 2. p. in-8. Cachet..</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <note>Sur l'orgue de Saint-Denis et celui de Saint-Polyçarpe, à Lyon.</note>
+            </item>
+            <item n="1968" xml:id="CAT_000382_e1968">
+               <num type="lot">1968</num>
+               <name type="author">Vaublauc (Viennot  comte de)</name>
+               <trait>
+                  <p>ministre et homme d'Etat</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1968_d1">L. aut. sig. Metz, 21 mai 1813. 1 p. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1969" xml:id="CAT_000382_e1969">
+               <num type="lot">1969</num>
+               <name type="author">Vaulabelle (de)</name>
+               <trait>
+                  <p>auteur de l'Histoire des deux Restaurations</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1969_d1">L. aut. sig. 1 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1970" xml:id="CAT_000382_e1970">
+               <num type="lot">1970</num>
+               <name type="author">Veau P (L. Anth.)</name>
+               <trait>
+                  <p>député d'Indre-et-Loire a la Convention</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1970_d1">L. avec postscriptum de 4 lignes aut. sig., comme représentant du peuple composant la commission des dépêchés, aux citoyens membres de la commission militaire, établie à Avesne. Paris, 19 messidor an II. 1. p. in-fol. Tête imprimée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>La Convention a reçu leur adresse par laquelle ils l'infornient de leur création, du serment qu'ils ont prêté en présence des corps constitués et militaires, l'invite à rester à son posté, à frapper tous les traîtres et applaudissent au supplice des députés qui avaient conspiré centre la patrie, et à celui des infâmes assassins qui ont esé attenter aux jours de Collot d'Herbois et menaéé ceux de Robespierre.</note>
+            </item>
+            <item n="1971" xml:id="CAT_000382_e1971">
+               <num type="lot">1971</num>
+               <name type="author">Vergennes (Charles Gravier  comte de)</name>
+               <trait>
+                  <p>ambassadeur, ministre des affaires étrangères. Né à Dijon (Côte-d'Or)...</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1971_d1">L. aut. sig., à M. Grand. Versaillés, 4 mai 1778. 4 p. pl. in-4. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="1972" xml:id="CAT_000382_e1972">
+               <num type="lot">1972</num>
+               <name type="author">Vernes de Genève  fils</name>
+               <trait>
+                  <p>auteur du Nouveau Voyage sentimental.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1972_d1">L. aut. sig. Paris, 15 floréal an X. 1 p. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="1973" xml:id="CAT_000382_e1973">
+               <num type="lot">1973</num>
+               <name type="author">Vernier</name>
+               <trait>
+                  <p>député du Jura à la Convention. Né à Lons Saulnier (Jura).</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1973_d1">L. aut. sig. Villeneuve St-Georges, 26 août 1813. 1 p.. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="1974" xml:id="CAT_000382_e1974">
+               <num type="lot">1974</num>
+               <name type="author">Véron (le docteur)</name>
+               <trait>
+                  <p>littérateur, directeur de l'Opéra, auteur des Mémoires d'un Bourgeois de Paris</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1974_d1">L. aut. sig. 16 avril 1838. 1, p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1975" xml:id="CAT_000382_e1975">
+               <num type="lot">1975</num>
+               <name type="author">Vertpré (Jenny)</name>
+               <trait>
+                  <p>Mme Carmouche actrice du Vaudeville, des Variétés et du Gymnase.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1975_d1">1°Billet aut. sig. (à la 3e personne), à M. Auber. 1843. in-8.-2°Billet aut. sig. Jenny in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="1976" xml:id="CAT_000382_e1976">
+               <num type="lot">1976</num>
+               <name type="author">Vestris fils</name>
+               <trait>
+                  <p>célèbre danseur de l'Opéra.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1976_d1">Paris, 17 octobre 1819. 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="1977" xml:id="CAT_000382_e1977">
+               <num type="lot">1977</num>
+               <name type="author">Vidalin</name>
+               <trait>
+                  <p>député de l'Allier à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1977_d1">L. aut. sig. Amiens, 3 nivôse an II. 1 p. in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="1978" xml:id="CAT_000382_e1978">
+               <num type="lot">1978</num>
+               <name type="author">Viel Castel</name>
+               <desc xml:id="CAT_000382_e1978_d1">L. aut. sig., à madame…Versailles, 26 mars 1808. 4 p. pl. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+               <note>Curieuse lettre littéraire au sujet de Louisa l'inconnue</note>
+            </item>
+            <item n="1979" xml:id="CAT_000382_e1979">
+               <num type="lot">1979</num>
+               <name type="author">Viennet</name>
+               <trait>
+                  <p>député de l'Hérault à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1979_d1">L. aut. sig. Paris, 6 octobre 1793. 1 p. pl. in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="1980" xml:id="CAT_000382_e1980">
+               <num type="lot">1980</num>
+               <name type="author">Viennet</name>
+               <trait>
+                  <p>littérateur, poëte, membre de l'Académie française, député.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1980_d1">L. aut. sig., à M. Villiers. Val 3 juillet 1836. 1 p. pl. in-8. Jolie lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Au sujet des démarches qu'ils font pour faire obtenir des secours... «Quel dommage que vous ne soyez pas un million «naire et que je ne sois pas un fripon! il y aurait eu là de quoi «dédoubler une fortune au profit d'un profétaire, comme disent «les exploitants de la presse et du bon peuple. Quant à leurs en «fants perdus, vous voyez comme ils agissent; et ils appellent cela «des convictions! avec un vernis politique, ils justifient l'assas «sinat, l'incendie, la guerre civile: il y a réellement un tel bou «leversement dans les idées que je n'y conçois plus rien; et «quand on pense qu'ils sont une centaine d'solés de la même es «pèce, il a de quoi frémir à chaque instant pour celui qu'ils ont «pris pour point de mire. C'est un bien triste et bien funeste «hommage qu'ils rendent à son génie et à son importance en «Europe...»</note>
+            </item>
+            <item n="1981" xml:id="CAT_000382_e1981">
+               <num type="lot">1981</num>
+               <name type="author">Vigée</name>
+               <trait>
+                  <p>littérateur, auteur dramatique.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1981_d1">1°L. aut. sig. 3 no vembre 1813 Demi-page in-8.-2°Pièce de vers aut. sig. Janpe barbet du Parnasse 1819. Demi-p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="1982" xml:id="CAT_000382_e1982">
+               <num type="lot">1982</num>
+               <name type="author">Vigny (le comte Alfred de)</name>
+               <trait>
+                  <p>membre de l'Académie française, auteur de Cinq-Mars</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1982_d1">L. aut. sig. Paris, 2 avril 1835. 4 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1983" xml:id="CAT_000382_e1983">
+               <num type="lot">1983</num>
+               <name type="author">Villars (Louis-Hector  duc de)</name>
+               <trait>
+                  <p>maréchal de France.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1983_d1">L. aut. sig. 2 gr. p. pl. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Lettre intéressante au sujet de la pesté de Marseille, de la peine que l'on a à faire enterrer les morts, etc., etc.</note>
+            </item>
+            <item n="1984" xml:id="CAT_000382_e1984">
+               <num type="lot">1984</num>
+               <name type="author">Villèle (le comte Joseph de)</name>
+               <trait>
+                  <p>ministre des finances de Charles X.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1984_d1">L. aut. sig. 1827. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1985" xml:id="CAT_000382_e1985">
+               <num type="lot">1985</num>
+               <name type="author">Villemain</name>
+               <trait>
+                  <p>membré de l'Académie française.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1985_d1">L. aut. sig. Paris, 9 juin 1837. 2 p. in-8. Intéressante.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1986" xml:id="CAT_000382_e1986">
+               <num type="lot">1986</num>
+               <name type="author">Villequier (le duc de)</name>
+               <trait>
+                  <p>député du Pas-de-Calais à l'Assemblée constituante.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1986_d1">L. aut. sig., à M. Tarbé. Villequier 30 août 1788. 1 p. pl. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+               <note>Au sujet, des impôts pour la réparation et l'entretien des routes.</note>
+            </item>
+            <item n="1987" xml:id="CAT_000382_e1987">
+               <num type="lot">1987</num>
+               <name type="author">Villers</name>
+               <trait>
+                  <p>prêtre, député de la Loire-Inférieure à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1987_d1">L. aut. sig., à ses frères et amis de Nantes. Paris, 5 ventôse an II. 1 p. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="1988" xml:id="CAT_000382_e1988">
+               <num type="lot">1988</num>
+               <name type="author">Villetard</name>
+               <trait>
+                  <p>député de l'Yonne à la Convention, sénateur</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1988_d1">L. aut. sig. Paris, 4 pluviôse an XIII. 2 p. et demie in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1989" xml:id="CAT_000382_e1989">
+               <num type="lot">1989</num>
+               <name type="author">Villette (le marquis Charles de)</name>
+               <trait>
+                  <p>second mari de madame Denis, nièce de Voltaire, député de l'Oise à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1989_d1">L. aut. sig. (à la 3e personne), au patriote Palloy. Paris, 23 août 1790. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <note>Il a entendu faire l'éloge des modèles de Bastille qu'il des tine aux départements. On lui devra l'image de la Liberté que J'on a conquise et qu'il faut conserver..</note>
+            </item>
+            <item n="1990" xml:id="CAT_000382_e1990">
+               <num type="lot">1990</num>
+               <name type="author">Vincent (François-André)</name>
+               <trait>
+                  <p>peintre d'histoire</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1990_d1">L. aut. sig., au citoyen Guillaumot. Paris, 7 ventôse an IX. 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="1991" xml:id="CAT_000382_e1991">
+               <num type="lot">1991</num>
+               <name type="author">Vinet</name>
+               <trait>
+                  <p>député de la Charente-Inférieure à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1991_d1">L. aut. sig. Paris, 31 déc. 1792. 1 p. in-4. Cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4.50">4 50</measure>
+            </item>
+            <item n="1992" xml:id="CAT_000382_e1992">
+               <num type="lot">1992</num>
+               <name type="author">Vitet</name>
+               <trait>
+                  <p>député de Rhône-et-Loire à la Convention.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1992_d1">L. aut. sig. à son son collègue Boisset. Paris, 8 floréal an III.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>La République est perdue si l'on n'oppose pas aux efforts vio lents des royalistes, des prêtres réfractaires, des fanatiques et des méchants: justice, fermeté et courage. La Convention, indignée de la conduite de ces hommes, va enfin prendre des mesures rigoureuses et dignes du peuple qu'elle représente. Elle va con centrer dans le Comité de salut public tout le pouvoir exécutif, afin qu'il puisse agir avec autant de force et de célérité que de sa gesse. Lyon sera certainement la première ville à applaudir à cette énergie..</note>
+            </item>
+            <item n="1993" xml:id="CAT_000382_e1993">
+               <num type="lot">1993</num>
+               <name type="author">Vitet (L.)</name>
+               <trait>
+                  <p>député de la Seine-Inférieure</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1993_d1">L. aut. sig. 2 p. pl. et demie in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="1994" xml:id="CAT_000382_e1994">
+               <num type="lot">1994</num>
+               <name type="author">Vivien</name>
+               <trait>
+                  <p>avocat, député, ministre, député de l'Aisne à l'Assemblée nationale de 1848.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1994_d1">Pièce aut. sig. en faveur d'un ébéniste arrêté le 27 juin dans le faubourg Saint-Antoine et détenu depuis à la Conciergerie. Paris, 30 juin 1848. 1 gr. p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="1995" xml:id="CAT_000382_e1995">
+               <num type="lot">1995</num>
+               <name type="author">Volnys (Léontine Fay  dame)</name>
+               <trait>
+                  <p>actrice du Gymnase, etc.</p>
+               </trait>
+               <desc xml:id="CAT_000382_e1995_d1">L. aut. sig. Paris, 5 décembre 1835. 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>

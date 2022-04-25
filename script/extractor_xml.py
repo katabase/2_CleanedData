@@ -33,6 +33,7 @@ import sys
 import glob
 import re
 import logging
+import traceback
 import dateparser
 import tables.rep_greg_conversion
 import tables.conversion_tables
@@ -48,8 +49,8 @@ from xml.etree import ElementTree
 # import xml.etree.ElementTree as ET
 
 # log errors in a .log file
-logging.basicConfig(filename='errors.log', level=logging.DEBUG, filemode="w", format="%(levelname)-8s [%(filename)s:%(lineno)d] %(message)s")
-
+logging.basicConfig(filename='errors.log', level=logging.DEBUG, filemode="w",
+                    format="%(levelname)-8s [%(filename)s:%(lineno)d] %(message)s")
 
 tei = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -63,9 +64,10 @@ def conversion_to_list(path):
     """
     final_list = []
     for xml_file in glob.iglob(path):
+        file = xml_file
         for desc_element in desc_extractor(xml_file):
             final_list.append(desc_element)
-    return final_list
+    return final_list, file
 
 
 def desc_extractor(input):
@@ -95,10 +97,10 @@ def desc_extractor(input):
                     try:
                         # We keep only the surname of the author.
                         author = author.split(" ")[0]
-                        list_desc.append([i.text, id, author,  sell_date, price])
+                        list_desc.append([i.text, id, author, sell_date, price])
                     except:
                         author = None
-                        list_desc.append([i.text, id, author,  sell_date, price])
+                        list_desc.append([i.text, id, author, sell_date, price])
                 else:
                     author = None
                     list_desc.append([i.text, id, author, sell_date, price])
@@ -242,7 +244,7 @@ def date_extractor(descList, input_dict):
             date = re.sub(r'^\s', '', date_string)
 
             # This pattern matches strings that contains only a year.
-            gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")  
+            gregorian_year_pattern = re.compile("^1[0-9][0-9][0-9]$")
             # If the date is a year and nothing else, no need to process it.
             if gregorian_year_pattern.match(date):
                 date_log_path = 2
@@ -251,15 +253,15 @@ def date_extractor(descList, input_dict):
                     desc_xml = desc.replace(match.group(0), f'<date \
                            xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 when=\u0022{date}\u0022>{match.group(0)}</date>')
             else:
-            # To extrat the date automatically, we use the dateparser library.
-            # see https://dateparser.readthedocs.io/en/v0.2.1/_modules/dateparser/date.html
-            # This is the case where I could not find a way to retrieve the date string.
+                # To extrat the date automatically, we use the dateparser library.
+                # see https://dateparser.readthedocs.io/en/v0.2.1/_modules/dateparser/date.html
+                # This is the case where I could not find a way to retrieve the date string.
                 date_log_path = 3
                 split_date = date.replace("(", "").replace(")", "").replace("[", "").split(" ")
 
                 parsed_date = dateparser.date.DateDataParser().get_date_data(u'%s' % date)
                 # if it doesn't work, we select the YYYY string.
-                if parsed_date["date_obj"] is None: 
+                if parsed_date["date_obj"] is None:
                     date_log_path = 4
                     date = re.search("(1[0-9][0-9][0-9])", date).group(0)
                 else:
@@ -277,7 +279,7 @@ def date_extractor(descList, input_dict):
 
                 # Then we inject the normalised date in the @when attribute.
                 desc_xml = desc.replace(unprocessed_date_string, f'<date xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
-                                                             f'when=\u0022{date}\u0022>{unprocessed_date_string}</date>')
+                                                                 f'when=\u0022{date}\u0022>{unprocessed_date_string}</date>')
 
             # We update the dictionary.
             dict_values["date"] = date
@@ -330,7 +332,7 @@ def length_extractor(descList, input_dict):
             first_group = pn_search.group(1)
             second_group = pn_search.group(3)
             # If the second group is empty, there is no fraction.
-            if second_group == "": 
+            if second_group == "":
                 if first_group != "":
                     if isInt(is_roman(first_group.upper())):
                         length = int(is_roman(first_group.upper()))
@@ -348,7 +350,7 @@ def length_extractor(descList, input_dict):
                     log_path = 4
                 else:
                     # The lenght can be in roman numbers.
-                    value_1 = is_roman(first_group.upper())  
+                    value_1 = is_roman(first_group.upper())
                     log_path = 5
                     if isInt(value_1):
                         log_path = 6
@@ -387,12 +389,12 @@ def length_extractor(descList, input_dict):
             starting_position = position_chaîne[0]
             ending_position = position_chaîne[1]
             # if a space is the last character of the identified range of page ("1 p. "), we can remove it.
-            if desc[ending_position - 1] == " ": 
+            if desc[ending_position - 1] == " ":
                 ending_position = ending_position - 1
             desc_xml = f'{desc[:starting_position]}<measure xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022' \
                        f' type=\u0022length\u0022 unit=\u0022p\u0022 n=\u0022{length}\u0022>' \
                        f'{desc[starting_position:ending_position]}</measure>{desc[ending_position:]}' \
-            # desc_xml = desc
+                # desc_xml = desc
         else:
             desc_xml = desc
         # dict_values["groups"] = groups # for debugging purposes only
@@ -418,6 +420,8 @@ def format_extractor(descList, input_dict):
         desc, id = item[0], item[1]
         desc_xml = desc
         ms_format = None
+        encoded_ms_format = None
+        xml_encoded_format = None
         dict_values = input_dict[id]
         format_simple_pattern = re.compile("(in-[0-9]{1,2}°?\.?\s?[obl]{0,3}\.?)")
         format_simple_pattern2 = re.compile("(in-folio\.?\s?[obl]{0,3}\.?)")
@@ -650,7 +654,7 @@ def term_extractor(descList, input_dict):
         # Let's create the xml element
         if correct_pattern:
             desc_xml = desc.replace(term, f'<term xmlns=\u0022http://www.tei-c.org/ns/1.0\u0022 '
-                                                         f'ana=\"{xml_norm_term}\">{term}</term>')
+                                          f'ana=\"{xml_norm_term}\">{term}</term>')
         dict_values["desc_xml"] = desc_xml
         if xml_norm_term is not None:
             # norm_term is meant for the json output, while xml_norm_term is
@@ -680,6 +684,7 @@ def xml_output_production(dictionary, path):
 
     for xml_file in glob.iglob(path):
         with open(xml_file, 'r+') as fichier:
+
             tree = etree.parse(fichier)
 
             # Add taxonomy to the teiHeader.
@@ -692,8 +697,16 @@ def xml_output_production(dictionary, path):
                 # For now, all desc don't have an @xml:id
                 id = desc.xpath('./@xml:id')[0]
                 desc_string = dictionary[id]["desc_xml"].replace("&", "&amp;")
-                new_desc = etree.fromstring(
-                    "<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
+                try:
+                    new_desc = etree.fromstring(
+                        "<desc xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id='%s'>%s</desc>" % (id, desc_string))
+                except:
+                    # for some reason the @xmlns may not by added to some files, which generates an error
+                    # if this is the case, add the attribute it by hand
+                    els = new_desc.xpath(".//*", namespaces=tei)
+                    for el in els:
+                        if "xmlns" not in el.attrib.keys():
+                            el.set("xmlns", "http://www.tei-c.org/ns/1.0")
                 desc.getparent().replace(desc, new_desc)
 
         # Rewrite the file with updated descs.
@@ -906,7 +919,6 @@ xml_taxonomy = """
         </taxonomy>
     </classDecl>"""
 
-
 # ----- COMMAND LINE INTERFACE ----- #
 if __name__ == "__main__":
     """
@@ -924,7 +936,6 @@ if __name__ == "__main__":
         sys.exit("* Please indicate the relative path to the directory *")
     args = arg_parser.parse_args()
     input_dir = args.input
-
     # clean input directory name and create output directory
     cwd = os.path.dirname(os.path.abspath(__file__))  # current directory : script
     root = Path(cwd).parent  # root directory : 2_CleanedData
@@ -948,15 +959,23 @@ if __name__ == "__main__":
         shutil.rmtree(output_dir)
         shutil.copytree(input_dir, output_dir)
 
-    list_desc = conversion_to_list(input_files)
-    output_dict = price_extractor(list_desc)
-    output_dict = date_extractor(list_desc, output_dict)
-    output_dict = length_extractor(list_desc, output_dict)
-    output_dict = format_extractor(list_desc, output_dict)
-    output_dict = term_extractor(list_desc, output_dict)
+    try:
+        list_desc, file = conversion_to_list(input_files)
+        output_dict = price_extractor(list_desc)
+        output_dict = date_extractor(list_desc, output_dict)
+        output_dict = length_extractor(list_desc, output_dict)
+        output_dict = format_extractor(list_desc, output_dict)
+        output_dict = term_extractor(list_desc, output_dict)
 
-    # We write the xml output files.
-    xml_output_production(output_dict, output_files)
+        # We write the xml output files.
+        xml_output_production(output_dict, output_files)
+    except:
+        # additional error handling: if there is an error, print the file on which the
+        # error happens, the error message and exit
+        error = traceback.format_exc()  # full error message
+        print(f"ERROR ON FILE --- {file}")
+        print(error)
+        sys.exit(1)
 
     for key in output_dict:
         del output_dict[key]["desc_xml"]
@@ -964,3 +983,4 @@ if __name__ == "__main__":
     print("Done !")
     # print(f'Number of entries without price: {str(no_price)}')
     # print(f'Number of entries without date: {str(no_date)}')
+

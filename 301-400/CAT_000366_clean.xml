@@ -1,0 +1,964 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000366">
+   <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
+      <fileDesc>
+         <titleStmt>
+            <title>Vente Jacques Charavay, septembre 1876, nº 189</title>
+            <respStmt>
+               <persName ref="#COL_000003">Ljudmila Petkovic</persName>
+               <resp>
+                  <date when="2020">2020</date>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher>Projet e-Ditiones, Université de Neuchâtel</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/2.0">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl ana="LAC">
+               <title>LETTRES AUTOGRAPHES ET DOCUMENTS HISTORIQUES</title>
+               <num>189</num>
+               <editor>ÉTIENNE CHARAVAY FILS ET SR</editor>
+               <publisher>ÉTIENNE CHARAVAY FILS ET SR</publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1876">1876</date>
+            </bibl>
+            <listEvent>
+               <event>
+                  <p>
+                     <address>
+                        <addrLine>Paris, rue de Seine 51</addrLine>
+                     </address>
+                     <persName type="auctioneer"/>
+                     <persName type="expert">ÉTIENNE CHARAVAY FILS ET SR</persName>
+                     <date when="1876-09">septembre 1876</date>
+                  </p>
+               </event>
+            </listEvent>
+            <listWit>
+               <witness>
+                  <msDesc>
+                     <msIdentifier>
+                        <country>France</country>
+                        <settlement>Paris</settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Richelieu</repository>
+                        <idno type="shelfmark">P-77</idno>
+                     </msIdentifier>
+                  </msDesc>
+                  <ptr target="http://catalogue.bnf.fr/ark:/12148/cb45023474z"/>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl/>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">french</language>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>This electronic version of the catalog only reproduces the entries that correspond to documents for sale. All text preceding or succeeding the list of documents for sale is not reproduced below.</p>
+         </samplingDecl>
+         <appInfo>
+            <application version="1.11" ident="Transkribus" when="2020">
+               <label>Transkribus</label>
+               <ptr target="https://transkribus.eu/Transkribus/"/>
+            </application>
+            <application version="0.5.4" ident="GROBID" when="2020">
+               <label>GROBID_Dictionaries - A machine learning software for structuring digitized dictionaries</label>
+               <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <gap/>
+         <list>
+            <item n="27766" xml:id="CAT_000366_e27766">
+               <num type="lot">27766</num>
+               <name type="author">BERNADOTTE (Désirée)</name>
+               <trait>
+                  <p>reine de Suède.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27766_d1">L. s.; 1852, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27767" xml:id="CAT_000366_e27767">
+               <num type="lot">27767</num>
+               <name type="author">CHARLES-QUINT</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27767_d1">L. s.; 1522, 1 p. in-4 oblong, trace de sceau. Léger raccommodage.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+            </item>
+            <item n="27768" xml:id="CAT_000366_e27768">
+               <num type="lot">27768</num>
+               <name type="author">CHARLES VI</name>
+               <trait>
+                  <p>empereur d'Allemagne, père de la grande Marie-Thérèse.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27768_d1">L. s.; 1736, 1 p. 1/4 in-fol., sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="27769" xml:id="CAT_000366_e27769">
+               <num type="lot">27769</num>
+               <name type="author">CHARLES XII</name>
+               <trait>
+                  <p>roi de Suède, tué en 1718.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27769_d1">L. s., contresig. par son célèbre ministre Piper; 3 fév. 1705, 2 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+            </item>
+            <item n="27770" xml:id="CAT_000366_e27770">
+               <num type="lot">27770</num>
+               <name type="author">CHARLES IV</name>
+               <trait>
+                  <p>roi d'Espagne, dépossédé par Napoléon 1er.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27770_d1">L. s. à Napoléon Ier; Madrid, 7 juill. 1807, 1 p. 1/2 in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Très-belle lettre de félicitations sur la naissance d'une fille du vice d'Italie.</note>
+            </item>
+            <item n="27771" xml:id="CAT_000366_e27771">
+               <num type="lot">27771</num>
+               <name type="author">CHARLES-FÉLIX</name>
+               <trait>
+                  <p>roi de Sardaigne.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27771_d1">L. s. au cardinal Severoli; Turin, 30 mars 1822, 1/2 p. in-fol., sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27772" xml:id="CAT_000366_e27772">
+               <num type="lot">27772</num>
+               <name type="author">CHARLES-ALBERT</name>
+               <trait>
+                  <p>roi de Sardaigne, le vaincu de Novare.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27772_d1">L. s.; Turin, 1851, 1/2 p. in-fol., cachet. Très-belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27773" xml:id="CAT_000366_e27773">
+               <num type="lot">27773</num>
+               <name type="author">EMMANUEL-PHILIBERT</name>
+               <trait>
+                  <p>duc de Savoie, dit Tète de fer le vainqueur de Saint-Quentin.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27773_d1">L. s.; 1563, 1/2 p. in Un peu jaunie.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27774" xml:id="CAT_000366_e27774">
+               <num type="lot">27774</num>
+               <name type="author">ESTE (Hercule II d')</name>
+               <trait>
+                  <p>duc de Ferrare, fils de Lucrèce Borgia, époux de Renée de France.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27774_d1">L. s., avec 9 lignes auto graphes; Ferrare, 22 février 1551, 1 p. in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Superbe lettre où il parle du duc de Guise.</note>
+            </item>
+            <item n="27775" xml:id="CAT_000366_e27775">
+               <num type="lot">27775</num>
+               <name type="author">FERDINAND Ier</name>
+               <trait>
+                  <p>empereur d'Autriche.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27775_d1">L. s., en français, avec la suscript. aut., à une tante; Vienne, 3 avril 1835, 1 p. 1/4 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Annonce de la mort de son oncle l'archiduc Antoine.</note>
+            </item>
+            <item n="27776" xml:id="CAT_000366_e27776">
+               <num type="lot">27776</num>
+               <name type="author">FERDINAND</name>
+               <trait>
+                  <p>duc de Parme, élève de Condillac, dépossédé par les Français en 1801.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27776_d1">L. a. s., en français, au comte d'Argental; 1777, 1/2 p. in-4, cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27777" xml:id="CAT_000366_e27777">
+               <num type="lot">27777</num>
+               <name type="author">FRANÇOIS Ier</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27777_d1">L. s.; Folembray, 8 déc. 1546, 1/2 p. in-4, trace de cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+            </item>
+            <item n="27778" xml:id="CAT_000366_e27778">
+               <num type="lot">27778</num>
+               <name type="author">FRANÇOIS II</name>
+               <trait>
+                  <p>empereur d'Allemagne, puis d'Autriche, beau père de Napoléon Ier</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27778_d1">L. s., en latin, avec la souscript. aut., au roi Charles X; Vienne, 18 nov. 1824, 3/4 de p. in-fol., enveloppe et cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Superbe lettre de condoléances sur la mert de Louis XVIIl ec de compli ments sur l'avénement de Charles X.</note>
+            </item>
+            <item n="27779" xml:id="CAT_000366_e27779">
+               <num type="lot">27779</num>
+               <name type="author">FRÉDÉRIC II</name>
+               <trait>
+                  <p>roi de Prusse, dit le Grand</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27779_d1">L. a. s., en français, à son neveu; 7 octobre, 1/4 de p. in-4. Jolie lettre</desc>
+               <measure commodity="currency" unit="FRF" quantity="60">60</measure>
+            </item>
+            <item n="27780" xml:id="CAT_000366_e27780">
+               <num type="lot">27780</num>
+               <name type="author">HENRI IV</name>
+               <trait>
+                  <p>roi de France.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27780_d1">L. s., comme roi de Navarre; Nérac, 19 nov. 1582, 1 p. in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="9">9</measure>
+            </item>
+            <item n="27781" xml:id="CAT_000366_e27781">
+               <num type="lot">27781</num>
+               <name type="author">JEAN-GEORGES II</name>
+               <trait>
+                  <p>électeur de Saxe.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27781_d1">L. s.; 1673, 1/2 p. in-fol., sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="27782" xml:id="CAT_000366_e27782">
+               <num type="lot">27782</num>
+               <name type="author">LÉOPOLD Ier</name>
+               <trait>
+                  <p>empereur d'Allemagne.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27782_d1">L. s.; 1696, 1 p. 1/2 in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27783" xml:id="CAT_000366_e27783">
+               <num type="lot">27783</num>
+               <name type="author">LÉOPOLD Ier</name>
+               <trait>
+                  <p>roi des Belges.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27783_d1">P. s.; 1845, 2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27784" xml:id="CAT_000366_e27784">
+               <num type="lot">27784</num>
+               <name type="author">LOUIS XVI</name>
+               <trait>
+                  <p>roi de France, décapité en 1793.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27784_d1">P. s.; 1790, 1/2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27785" xml:id="CAT_000366_e27785">
+               <num type="lot">27785</num>
+               <name type="author">LOUIS-PHILIPPE Ier</name>
+               <trait>
+                  <p>roi des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27785_d1">L. a. s., comme duc d'Orléans, au marquis (d'Arèse); Neuilly, 27 juin 1821, 4 p. pl. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <note>Lettre du plus haut intérêt sur la mort de sa mère et les préparatifs des obsèques. Il se fera un honneur et un devoir de recevoir Monsieur, le duc d'Angoulême et la duchesse de Berri, mais il craint que la rougeole de son fils aîné ne soit un obstacle. Il parle ensuite de la douleur de Madame Adé laïde et du testament de la duchesse d'Orléans.</note>
+            </item>
+            <item n="27786" xml:id="CAT_000366_e27786">
+               <num type="lot">27786</num>
+               <name type="author">LOUIS-PHILIPPE</name>
+               <desc xml:id="CAT_000366_e27786_d1">L. aut. sig. D., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27787" xml:id="CAT_000366_e27787">
+               <num type="lot">27787</num>
+               <name type="author">LOUIS-PHILIPPE</name>
+               <desc xml:id="CAT_000366_e27787_d1">L. s. à M. Thiers; les Tuileries, 20 mars 1839, 1/2 p. in-4. Légères taches.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>Annonce du jour de l'ouverture des Chambres.</note>
+            </item>
+            <item n="27788" xml:id="CAT_000366_e27788">
+               <num type="lot">27788</num>
+               <name type="author">LOUISE D'ORLÉANS</name>
+               <trait>
+                  <p>reine des Belges, fille de Louis-Philippe.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27788_d1">L. a. s.; 1838, 1 p. in-4. Un peu fripée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27789" xml:id="CAT_000366_e27789">
+               <num type="lot">27789</num>
+               <name type="author">MARGUERITE D'ANGOULÉME</name>
+               <trait>
+                  <p>reine de Navarre, soeur de Fran çois Ier, auteur de l'Heptaméron.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27789_d1">L. s., avec la sous cription aut., à M. de Matignon, 1 p. in-4. Un peu fripée.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+            </item>
+            <item n="27790" xml:id="CAT_000366_e27790">
+               <num type="lot">27790</num>
+               <name type="author">MARIE-AMÉLIE</name>
+               <trait>
+                  <p>reine des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27790_d1">L. aut. parafée; 1833. 1 p. in-8. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27791" xml:id="CAT_000366_e27791">
+               <num type="lot">27791</num>
+               <name type="author">MARIE-THÉRÉSE D'AUTRICHE</name>
+               <trait>
+                  <p>impératrice d'Allemagne, dite la Grande.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27791_d1">L. a. s., en français, à sa fille (Charlotte. reine de Naples); 4 août, 1 p. 1/2 in-4, papier de deuil. Légère coupure dans un pli.</desc>
+               <measure commodity="currency" unit="FRF" quantity="70">70</measure>
+               <note>Charmante épître. Elle a reçu sa lettre qui les a tous émus. «Vous n'avez point à vous plaindre; votre patrie, hommes, femmes, vieux, jeunes, grands et petits, tout étoit en larmes. Que notre nation est bonne, qu'elle est attachée à ses princes...»</note>
+            </item>
+            <item n="27792" xml:id="CAT_000366_e27792">
+               <num type="lot">27792</num>
+               <name type="author">MÉDICIS (Côme II de)</name>
+               <trait>
+                  <p>grand-duc de Toscane, un des plus célèbres souverains de ce pays.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27792_d1">L. s., avec la souscript. aut., à Marie de Médicis (sa cousine); Florence, 26 mai 1610, 1/2 p. in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Pièce historique. Lettre de condoléances sur l'assassinat du roi Henri IV.</note>
+            </item>
+            <item n="27793" xml:id="CAT_000366_e27793">
+               <num type="lot">27793</num>
+               <name type="author">RENÉ D'ANJOU</name>
+               <trait>
+                  <p>roi de Naples, comte de Provence, dit le bon roi Réné, célèbre par son amour pour les beaux-arts.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27793_d1">L. s., en italien, à Blanche-Marie Sforce, duchesse de Milan; Alexandrie, 3 septembre, 1/2 p. in-4 oblong. Belle-lettre. Très-légère tache.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+            </item>
+            <item n="27794" xml:id="CAT_000366_e27794">
+               <num type="lot">27794</num>
+               <name type="author">VICTOR-EMMANUEL</name>
+               <trait>
+                  <p>premier roi d'Italie.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27794_d1">P. s.; 1853, 1/2 p. in-fol., tête impr. et sceau.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27795" xml:id="CAT_000366_e27795">
+               <num type="lot">27795</num>
+               <name type="author">VISCONTI (Hyppolyte-Marie)</name>
+               <trait>
+                  <p>reine de Naples, soeur de Jean-Marie Visconti, duc de Milan.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27795_d1">L. a. s. à son frère; Naples, 27 juin 1407, 1 p. in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Elle affirme son dévouement de bonne soeur. et, allant en un château avec le roi, elle n'a cessé de parler de lui avec tendresse. Son ambassadeur pourrà lui confirmer tout le dévouement qu'elle lui porte.</note>
+            </item>
+            <note>NAPOLÉON Ier ET SA FAMILLE</note>
+            <item n="27796" xml:id="CAT_000366_e27796">
+               <num type="lot">27796</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <trait>
+                  <p>empereur des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27796_d1">P. sig. Buonaparte avec le mot accepté autographe, comme général en chef de l'armée de l'intérieur, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+            </item>
+            <item n="27797" xml:id="CAT_000366_e27797">
+               <num type="lot">27797</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27797_d1">L. sig. Bonaparte comme général en chef de l'armée d'Italie, à Miot; 15 messidor an IV, 1 p. in-fol., vig. et tête impr.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Il l'envoie à Rome pour demander au Pape de prendre des mesures sévères contre la Romagne.</note>
+            </item>
+            <item n="27798" xml:id="CAT_000366_e27798">
+               <num type="lot">27798</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27798_d1">Billet de 2 lignes autographes sig. B., avec parafe, comme général en chef de l'armée d'Egypte, au lessous d'une lettre aut. sig. de son aide de camp Duroc à Berthier; le Caire, 29 thermidor an VI, 1/2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Intéressant document sur les sabres provenant du désarmement de la place du Caire.</note>
+            </item>
+            <item n="27799" xml:id="CAT_000366_e27799">
+               <num type="lot">27799</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27799_d1">L. sig. Napoléon à un souverain; Fontaine bleau, 17 juillet 1805, 3/4 de p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <note>Superbe lettre dans laquelle il annonce la naissance d'une fille de sa soeur Caroline.</note>
+            </item>
+            <item n="27800" xml:id="CAT_000366_e27800">
+               <num type="lot">27800</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27800_d1">L. sig. Napoléon à un souverain; camp d'Osterode, 29 mars 1807, 1/2 p. in-4. Pièce incomplète, la moitié de la lettre ayant été coupée: la signature est intacte et fort belle.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27801" xml:id="CAT_000366_e27801">
+               <num type="lot">27801</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27801_d1">L. sig. Nap à Savary; Fontainebleau, 8 oct. 1807, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <note>Il lui envoie l'état des troupes russes de la garnison de Cattaro. «Solde, argent, vivres, j'ai ordonné qu'on lui fournit tout abondamment.»</note>
+            </item>
+            <item n="27802" xml:id="CAT_000366_e27802">
+               <num type="lot">27802</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27802_d1">Lettres de grâce, sur vélin, sig. Napol. Fontainebleau, 1807, 1 p. double in-fol. oblong.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27803" xml:id="CAT_000366_e27803">
+               <num type="lot">27803</num>
+               <name type="author">NAPOLÉON Ier</name>
+               <desc xml:id="CAT_000366_e27803_d1">L. sig. Napo à Rapp; Fontainebleau, 3 nov. 1809, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Pièce historique. Il lui témoigne son mécontentement de la circulaire qu'il a faite sur l'affaire de Schoenbrunn (l'attentat contre Napoléon). «Je ne recon nais pas là votre prudence ordinaire.»</note>
+            </item>
+            <item n="27804" xml:id="CAT_000366_e27804">
+               <num type="lot">27804</num>
+               <name type="author">NAPOLÉON Ier.</name>
+               <desc xml:id="CAT_000366_e27804_d1">Apostille sig. N en marge d'un rapport, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27805" xml:id="CAT_000366_e27805">
+               <num type="lot">27805</num>
+               <name type="author">NAPOLÉON III</name>
+               <trait>
+                  <p>empereur des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27805_d1">P. s., 2 p. 1/4 in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <note>Fragment, écrit pour un amateur, d'une lettre sur le rétablissement de la statue de l'Empereur sur la colonne Vendôme. Pièce fort curieuse.</note>
+            </item>
+            <item n="27806" xml:id="CAT_000366_e27806">
+               <num type="lot">27806</num>
+               <name type="author">NAPOLÉON III</name>
+               <desc xml:id="CAT_000366_e27806_d1">Billet de 6 lignes autographes au crayon; Saint-Cloud, 1865), 1/2 p. in-8, papier à son initiale.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27807" xml:id="CAT_000366_e27807">
+               <num type="lot">27807</num>
+               <name type="author">BEAUHARNAIS (Joséphine)</name>
+               <trait>
+                  <p>impératrice des Français.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27807_d1">L. aut. sig. Lapagerie Bonaparte; 14 fructidor, 1 p. pl. in-8. Jolie lettre. Un mot coupé.</desc>
+               <measure commodity="currency" unit="FRF" quantity="25">25</measure>
+            </item>
+            <item n="27808" xml:id="CAT_000366_e27808">
+               <num type="lot">27808</num>
+               <name type="author">BEAUHARNAIS (Eugène)</name>
+               <trait>
+                  <p>vice-roi d'Italie.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27808_d1">P. s.; 1821, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="27809" xml:id="CAT_000366_e27809">
+               <num type="lot">27809</num>
+               <name type="author">BONAPARTE (Letitia)</name>
+               <trait>
+                  <p>mère de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27809_d1">L. s., avec la souscript. aut., à son fils Lucien; (janvier 1830), 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Elle lui mande que rien n'est encore décidé au sujet du mariage de Napoléon (frère aîné de Napoléon III) avec Charlotte (la princesse qui fut aimée de Léopold Robert).</note>
+            </item>
+            <item n="27810" xml:id="CAT_000366_e27810">
+               <num type="lot">27810</num>
+               <name type="author">BONAPARTE (Joseph)</name>
+               <trait>
+                  <p>roi d'Espagne.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27810_d1">L. a. s.; an VIII, 1 p. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="27811" xml:id="CAT_000366_e27811">
+               <num type="lot">27811</num>
+               <name type="author">BONAPARTE (Lucien)</name>
+               <trait>
+                  <p>frère de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27811_d1">L. a. s., 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="27812" xml:id="CAT_000366_e27812">
+               <num type="lot">27812</num>
+               <name type="author">BONAPARTE (Lucien)</name>
+               <desc xml:id="CAT_000366_e27812_d1">L. s.; 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="27813" xml:id="CAT_000366_e27813">
+               <num type="lot">27813</num>
+               <name type="author">BONAPARTE (Louis)</name>
+               <trait>
+                  <p>roi de Hollande, père de Napoléon III.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27813_d1">L. a. s. aux rédacteurs du Constitutionnel Florence, 3 juin 1820, 3 p. in-4. Légère déchirure par la rupture du cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="16">16</measure>
+               <note>Très-curieuse lettre. Il proteste qu'il n'est pas l'auteur de l'Histoire du Parlement d'Angleterre publiée sous son nom. Dans ses oeuvres il n'atta quera jamais les gouvernements établis. «Comme dans la préface il est dit que le manuscrit est entièrement de ma main, je vous écris moi-même cette lettre pour que le libraire puisse s'assurer, par la confrontation, de l'impu dence du libelliste.»</note>
+            </item>
+            <item n="27814" xml:id="CAT_000366_e27814">
+               <num type="lot">27814</num>
+               <name type="author">BONAPARTE (Jérôme)</name>
+               <trait>
+                  <p>roi de Westphalie, le plus jeune des frères de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27814_d1">Billet de 5 lignes a. s., 1/2 p. in-12</desc>
+               <measure commodity="currency" unit="FRF" quantity="4">4</measure>
+            </item>
+            <item n="27815" xml:id="CAT_000366_e27815">
+               <num type="lot">27815</num>
+               <name type="author">BONAPARTE (Caroline)</name>
+               <trait>
+                  <p>soeur de Napoléon, femme de Murat</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27815_d1">L. a. s., 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27816" xml:id="CAT_000366_e27816">
+               <num type="lot">27816</num>
+               <name type="author">BONAPARTE (Pauline)</name>
+               <trait>
+                  <p>soeur de Napoléon Ier.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27816_d1">P. s., 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="27817" xml:id="CAT_000366_e27817">
+               <num type="lot">27817</num>
+               <name type="author">BONAPARTE (Mathilde)</name>
+               <trait>
+                  <p>cousine de Napoléon III.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27817_d1">L. a. s., 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="27818" xml:id="CAT_000366_e27818">
+               <num type="lot">27818</num>
+               <name type="author">MURAT (Joachim)</name>
+               <trait>
+                  <p>roi de Naples, fusillé en 1815.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27818_d1">L. a. s. à Bessières; 17 thermidor, 4 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Témoignages d'amitié. Il proteste qu'il ne veut nullement l'empêcher d'a dresser ses rapports directement à l'Empereur. Il n'a pas des prétentions si ridicules.</note>
+            </item>
+            <note>LITTÉRATEURS</note>
+            <item n="27819" xml:id="CAT_000366_e27819">
+               <num type="lot">27819</num>
+               <name type="author">ALEMBERT (J.-Fr.-Lerond d').</name>
+               <desc xml:id="CAT_000366_e27819_d1">L. aut., à la 3e personne, à M. Willemain; 18 fév. 1779, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Il demande la prompte expédition des jetons de l'Académie française.</note>
+            </item>
+            <item n="27820" xml:id="CAT_000366_e27820">
+               <num type="lot">27820</num>
+               <name type="author">ANDERSEN (Hans-Christian)</name>
+               <trait>
+                  <p>poëte et conteur danois.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27820_d1">L. a. s.; 1845, 1 p. in-12.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27821" xml:id="CAT_000366_e27821">
+               <num type="lot">27821</num>
+               <name type="author">BOSSUET (J.-B.)</name>
+               <trait>
+                  <p>l'illustre évêque de Meaux.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27821_d1">Fragment autographe, en latin, 1 p. 1/4 in-4. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="27822" xml:id="CAT_000366_e27822">
+               <num type="lot">27822</num>
+               <name type="author">BROSSES (le président Charles de)</name>
+               <trait>
+                  <p>l'auteur des Lettres sur ltalie</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27822_d1">L. s.; 1771, 2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27823" xml:id="CAT_000366_e27823">
+               <num type="lot">27823</num>
+               <name type="author">CÉRÉ-BARBÉ (Hortense)</name>
+               <trait>
+                  <p>soeur de Mme d'Houdetot.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27823_d1">L. a. s. (à Fanny de Beauharnais); 5 prairial, 3 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Charmante épître, prose et vers, où elle exalte le talent et les qualités de Fanny de Beauharnais.</note>
+            </item>
+            <item n="27824" xml:id="CAT_000366_e27824">
+               <num type="lot">27824</num>
+               <name type="author">COLET (Louise)</name>
+               <desc xml:id="CAT_000366_e27824_d1">L. a. s., 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.50">1 50</measure>
+            </item>
+            <item n="27825" xml:id="CAT_000366_e27825">
+               <num type="lot">27825</num>
+               <name type="author">COMMYNES (Philippe de)</name>
+               <trait>
+                  <p>le grand historien de Louis XI</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27825_d1">L. s., sur vélin, au receveur de la terre de La Motte pey; 8 février 1477, 1 p. in-fol. oblong. Un peu jaunie.</desc>
+               <measure commodity="currency" unit="FRF" quantity="40">40</measure>
+            </item>
+            <item n="27826" xml:id="CAT_000366_e27826">
+               <num type="lot">27826</num>
+               <name type="author">DAUDET (Alphonse)</name>
+               <trait>
+                  <p>l'auteur de Fromont jeune et Risler ainé</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27826_d1">L. a. s., 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="27827" xml:id="CAT_000366_e27827">
+               <num type="lot">27827</num>
+               <name type="author">DELAVIGNE (Casimir)</name>
+               <desc xml:id="CAT_000366_e27827_d1">L. a. s.; 1838, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27828" xml:id="CAT_000366_e27828">
+               <num type="lot">27828</num>
+               <name type="author">DELISLE DE SALES</name>
+               <desc xml:id="CAT_000366_e27828_d1">L. a. s., avec un post-scriptum de 9 lignes aut. sig. de sa femme Assomption de Badia, à Monseigneur…; 23 mars 1815, 1 p. 1/2 in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Superbe lettre sur le netour en France du ministre. «J'en jure par votrc courage: vous réparerés les ruines de l'Institut; vous lui rendrés ses classes, ses membros que le caprice a décimés.»</note>
+            </item>
+            <item n="27829" xml:id="CAT_000366_e27829">
+               <num type="lot">27829</num>
+               <name type="author">DORAT (Cl.-Jos.)</name>
+               <trait>
+                  <p/>
+               </trait>
+               <desc xml:id="CAT_000366_e27829_d1">Billet à ordre a. s.; Paris, 1777, 1/2 p. in-8 oblong.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+            </item>
+            <item n="27830" xml:id="CAT_000366_e27830">
+               <num type="lot">27830</num>
+               <name type="author">FENOUILLOT DE FALBAIRE (Ch.-S.)</name>
+               <trait>
+                  <p>l'auteur de l'Honnête criminel</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27830_d1">L. a. s. aux membres du Directoire; Paris 28 pluviose an VI, 3 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Lettre des plus curieuses où il se plaint que La Chabeaussière se soit approprié les idées que lui, Fenouillot de Falbaire avait exposées dans son Plan d'administration et projet de règlement général pour tous les théâtres de France Il rappelle ses ouvrages et ses services et demande une place dans la prochaine administration générale des théâtres.</note>
+            </item>
+            <item n="27831" xml:id="CAT_000366_e27831">
+               <num type="lot">27831</num>
+               <name type="author">FONTENETTE (Fevret de)</name>
+               <trait>
+                  <p>l'historien.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27831_d1">L. a. s. à Baculard d'Arnaud; Caen, 7 sept. 1749, 1 p. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27832" xml:id="CAT_000366_e27832">
+               <num type="lot">27832</num>
+               <name type="author">FORMEY (J.-H.)</name>
+               <trait>
+                  <p>secrétaire perpétuel de l'Académie de Berlin.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27832_d1">L. a. s. à M. Klotz; Berlin, 13 janv. 1767, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27833" xml:id="CAT_000366_e27833">
+               <num type="lot">27833</num>
+               <name type="author">GEOFFROY (l'abbé)</name>
+               <trait>
+                  <p>le célèbre critique.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27833_d1">L. a. s.; 1808, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27834" xml:id="CAT_000366_e27834">
+               <num type="lot">27834</num>
+               <name type="author">GRIMM (le baron de).</name>
+               <desc xml:id="CAT_000366_e27834_d1">P. s.; Paris, 14 juill. 1779, 3/4 de p. in-fol., cachet.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Chargé par le duc de Saxe-Gotha de réclamer les lettres originales de feue Madame la duchesse de Saxe-Gotha trouvées dans les papiers de feu M. de Voltaire, il reconnait avoir reçu de Panckoucke les dites lettres au nombre de 99.</note>
+            </item>
+            <item n="27835" xml:id="CAT_000366_e27835">
+               <num type="lot">27835</num>
+               <name type="author">GUERRAZZI</name>
+               <trait>
+                  <p>le célèbre romancier italien</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27835_d1">L. a. s.; 1844, 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27836" xml:id="CAT_000366_e27836">
+               <num type="lot">27836</num>
+               <name type="author">LAMENNAIS (F.-M. de).</name>
+               <desc xml:id="CAT_000366_e27836_d1">L. a. s., 1 p. in-12</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+            </item>
+            <item n="27837" xml:id="CAT_000366_e27837">
+               <num type="lot">27837</num>
+               <name type="author">LAMENNAIS.</name>
+               <desc xml:id="CAT_000366_e27837_d1">Reçu a. s.; 1853, 1/2 p. in-12</desc>
+               <measure commodity="currency" unit="FRF" quantity="2.50">2 50</measure>
+               <note>Reçu de 500 francs pour le terme mensuel de son Imitation</note>
+            </item>
+            <item n="27838" xml:id="CAT_000366_e27838">
+               <num type="lot">27838</num>
+               <name type="author">LAURENTIE</name>
+               <trait>
+                  <p>le célèbre publiciste.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27838_d1">L. a. s., 1 p. in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="27839" xml:id="CAT_000366_e27839">
+               <num type="lot">27839</num>
+               <name type="author">PAPILLON (Philibert)</name>
+               <trait>
+                  <p>l'auteur de la Bibliothèque des auteurs de Bourgogne</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27839_d1">L. a. s. (à La Monnoye); Dijon, 22 août 1715, 11 p. 1/4 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <note>Lettre des plus curieuses et des plus étendues sur la nouvelle édition du Menagiana donnée par La Monnoye. Papillon signale des articles nombreux qui pourraient y être ajoutés. Piquants détails.</note>
+            </item>
+            <item n="27840" xml:id="CAT_000366_e27840">
+               <num type="lot">27840</num>
+               <name type="author">PARNY (le chevalier de)</name>
+               <trait>
+                  <p>l'auteur de La Guerre des Dieux</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27840_d1">L. a. s. à M. Capelle; 20 floréal, 1/2 p. in-8. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+            </item>
+            <item n="27841" xml:id="CAT_000366_e27841">
+               <num type="lot">27841</num>
+               <name type="author">PEIGNOT (Gabriel)</name>
+               <trait>
+                  <p>le fécond bibliographe.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27841_d1">L. a. s. à Amanton; 11 avril 1833, 3 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <note>Curieux détails sur le départ des Polonais, l'archevêque de Besançon, etc.</note>
+            </item>
+            <item n="27842" xml:id="CAT_000366_e27842">
+               <num type="lot">27842</num>
+               <name type="author">RÉMUSAT (Ch. de)</name>
+               <desc xml:id="CAT_000366_e27842_d1">L. a. s., 3 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="27843" xml:id="CAT_000366_e27843">
+               <num type="lot">27843</num>
+               <name type="author">SAND (George)</name>
+               <desc xml:id="CAT_000366_e27843_d1">L. a. s.; Palaiseau, 16 oct. 1865, 3/4 de p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Frès jolie lettre où il remercie son cher frère d'un article à sa louange. «Le grand cas que vous faites de moi est toujours une gloire et j'en suis fière.»</note>
+            </item>
+            <item n="27844" xml:id="CAT_000366_e27844">
+               <num type="lot">27844</num>
+               <name type="author">TOCQUEVILLE (Alexis de).</name>
+               <desc xml:id="CAT_000366_e27844_d1">L. a. s., 1/2 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+            <item n="27845" xml:id="CAT_000366_e27845">
+               <num type="lot">27845</num>
+               <name type="author">VIGNY (Alfred de).</name>
+               <desc xml:id="CAT_000366_e27845_d1">Les deux courans, pièce autographe; 18 janvier 1843, 3/4 de p. in-4. Intéressante pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27846" xml:id="CAT_000366_e27846">
+               <num type="lot">27846</num>
+               <name type="author">WOLOWSKI (L.)</name>
+               <trait>
+                  <p>économiste, membre de l'Institut.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27846_d1">L. a. s., 1 p. in-8</desc>
+               <measure commodity="currency" unit="FRF" quantity="1.75">1 75</measure>
+            </item>
+            <note>DIVERS</note>
+            <item n="27847" xml:id="CAT_000366_e27847">
+               <num type="lot">27847</num>
+               <name type="author">ANTOMARCHI (Fr.)</name>
+               <trait>
+                  <p>médecin de Napoléon Ier à Sainte-Hélène.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27847_d1">Copie d'une lettre adressée au Roi des Français par le Dr Antomarch, pièce a. s.; Paris, 2 août 1833, 1 p. 1/2 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>félicite Louis-Philippe de l'hommage rendu à Napoléon pendant les fêtes de l'anniversaire des journées de juillet et il demande qu'on ramène en France les cendres du grand homme.</note>
+            </item>
+            <item n="27848" xml:id="CAT_000366_e27848">
+               <num type="lot">27848</num>
+               <name type="author">BESSIÈRES</name>
+               <trait>
+                  <p>duc d'Istrie, maréchal de France, tué en 1813</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27848_d1">L. a. s., 1/2 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3.50">3 50</measure>
+            </item>
+            <item n="27849" xml:id="CAT_000366_e27849">
+               <num type="lot">27849</num>
+               <name type="author">DECAEN</name>
+               <trait>
+                  <p>général, tué sous Metz en 1870.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27849_d1">L. a. s., 2 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27850" xml:id="CAT_000366_e27850">
+               <num type="lot">27850</num>
+               <name type="author">FROTTÉ (Louis de)</name>
+               <trait>
+                  <p>célèbre général vendéen, fusillé en 1800.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27850_d1">L. aut., sig. Z. de F. à M. Francisk; 22 août, 1 p. in-4</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <note>Pièce historique. Il annonce l'arrestation du malheureux Mandat. «Cette nouvelle affreuse achève de détruire le parti du Roi sous mes ordres en Normandie, et le bien cruel abandon où on le laisse depuis si longtemps devait naturellement finir par une catastrophe aussi fâcheuse que nuisible sous tous les rapports.»</note>
+            </item>
+            <item n="27851" xml:id="CAT_000366_e27851">
+               <num type="lot">27851</num>
+               <name type="author">GRIMOARD (Ph.-H.  comte de)</name>
+               <trait>
+                  <p>général, éditeur des OEuvres de Louis XIV et des Levires et Mémoires de Turenne</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27851_d1">L. a. s. à un éditeur; Mézières, 27 août 1780, 3 p. 1/2 in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+               <note>Lettre très-curieuse sur les changements que le ministre de la guerre exige dans l'histoire des campagnes de Turenne. Il faut réduire l'introduction à l'exposition des plans de campagne des Français et des Hollandais. «Sans cela elle ne serait qu'un fragment d'histoire tres-infidèle si, au lieu de trois motifs qui déterminèrent Louis XIV à attaquer la Hollande, on n'en donne que deux.»</note>
+            </item>
+            <item n="27852" xml:id="CAT_000366_e27852">
+               <num type="lot">27852</num>
+               <name type="author">GROLIER (Jean)</name>
+               <trait>
+                  <p>trésorier de France, le grand bibliophile.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27852_d1">L. s., sur vélin, à Me Bérenguier; 3 fév. 1550, 1 p. in-fol. oblong. Rare</desc>
+               <measure commodity="currency" unit="FRF" quantity="20">20</measure>
+            </item>
+            <item n="27853" xml:id="CAT_000366_e27853">
+               <num type="lot">27853</num>
+               <name type="author">LAFARGE (Marie CAPELLE  femme)</name>
+               <trait>
+                  <p>condamnée pour avoir empoisonné son mari.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27853_d1">L. aut., sig. Marie; (29 sept. 1830), 2 p. 1/2 in-8. Curieuse.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27854" xml:id="CAT_000366_e27854">
+               <num type="lot">27854</num>
+               <name type="author">LAMOIGNON DE BASVILLE (Nicolas)</name>
+               <trait>
+                  <p>intendant du Langue doc, fameux par les rigueurs qu'il exerça contre les Protes tants après la révocation de l'édit de Nantes.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27854_d1">L. a. s. au duc de Bouillon; Montpellier, 26 janv. 1696, 3/4 de p. in-4. Belle lettre.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+            </item>
+            <item n="27855" xml:id="CAT_000366_e27855">
+               <num type="lot">27855</num>
+               <name type="author">LAUDON (Gédéon-Ernest  baron de)</name>
+               <trait>
+                  <p>célèbre général autrichien, adversaire du grand Frédéric.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27855_d1">L. s.; Dalya, 26 déc. 1788, 1 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27856" xml:id="CAT_000366_e27856">
+               <num type="lot">27856</num>
+               <name type="author">LEVAILLANT (Fr).</name>
+               <trait>
+                  <p>voyageur en Afrique.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27856_d1">L. a. s., 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27857" xml:id="CAT_000366_e27857">
+               <num type="lot">27857</num>
+               <name type="author">MARIGNY (Abel-Fr. POISSON  marquis de)</name>
+               <trait>
+                  <p>frère de Mme de Pompadour, célèbre par la protection qu'il accorda aux artistes</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27857_d1">L. a. s.; Ménars, 30 oct. 1772, 1 p. in-4. Jolie pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27858" xml:id="CAT_000366_e27858">
+               <num type="lot">27858</num>
+               <name type="author">MIROMÉNIL (Hue de)</name>
+               <trait>
+                  <p>garde des sceaux sous Louis XVI.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27858_d1">L. a. s. à S. A. R…; Versailles, 14 sept. 1778, 2 p. 1/2 in-4 à mi-page. Belle pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="5">5</measure>
+            </item>
+            <item n="27859" xml:id="CAT_000366_e27859">
+               <num type="lot">27859</num>
+               <name type="author">MONTPENSIER (Antoine d'ORLÉANS  duc de)</name>
+               <trait>
+                  <p>fils de Louis Philippe.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27859_d1">L. a. s. à un médecin; 13 août 1853, 1 p. 3/4 in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <note>Il le remercie de ce qu'il a fait pour décider le voyage de sa mère (Marie Amélie) en Andalousie.</note>
+            </item>
+            <item n="27860" xml:id="CAT_000366_e27860">
+               <num type="lot">27860</num>
+               <name type="author">MORELL (André)</name>
+               <trait>
+                  <p>célèbre numismate.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27860_d1">L. a. s. à Toinard, 1/2 p. in-4. Rognée en tête et peut-être incomplète du commencement.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27861" xml:id="CAT_000366_e27861">
+               <num type="lot">27861</num>
+               <name type="author">PAPEBROCH (Daniel)</name>
+               <trait>
+                  <p>l'illustre érudit.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27861_d1">L. a. s., en latin; Anvers, 1er fév. 1669, 2 p. in-fol.</desc>
+               <measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <note>Superbe lettre dans laquelle il parle de ses travaux et de Henschenius.</note>
+            </item>
+            <item n="27862" xml:id="CAT_000366_e27862">
+               <num type="lot">27862</num>
+               <name type="author">PARMENTIER</name>
+               <trait>
+                  <p>agronome, l'introducteur de la pomme de terre en France.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27862_d1">L. a. s.; 1812, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="3">3</measure>
+            </item>
+            <item n="27863" xml:id="CAT_000366_e27863">
+               <num type="lot">27863</num>
+               <name type="author">ROBESPIERRE (Max.)</name>
+               <trait>
+                  <p>célèbre conventionnel et membre du Comité de salut public, décapité en 1794.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27863_d1">L. s., sig. aussi ay Carnot, Billaud-Varenne et Collot-d'Herbois à ses collègues; Paris, 4 nivose an II, 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <note>Pièce historique. Ils leur envoient la réponse du Comité de salut public aux manifestes des tyrans ligués contre la République. Il est important pour le salut de la patrie et pour la gloire de la Convention nationale de répandre cette réponse par tous les moyens possibles.</note>
+            </item>
+            <item n="27864" xml:id="CAT_000366_e27864">
+               <num type="lot">27864</num>
+               <name type="author">SMET (Jean)</name>
+               <trait>
+                  <p>célèbre antiquaire</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27864_d1">L. a. s., en latin, à Voet; 30 juin 1683, 3/4 de p. in-fol., cachet. Superbe pièce.</desc>
+               <measure commodity="currency" unit="FRF" quantity="7.50">7 50</measure>
+            </item>
+            <item n="27865" xml:id="CAT_000366_e27865">
+               <num type="lot">27865</num>
+               <name type="author">TALLEYRAND (le prince de)</name>
+               <trait>
+                  <p>le grand diplomate.</p>
+               </trait>
+               <desc xml:id="CAT_000366_e27865_d1">L. a. s. à la comtesse Duchatel, 1 p. in-8.</desc>
+               <measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <note>Jolie lettre signée le prince de Bénévent.</note>
+            </item>
+            <item n="27866" xml:id="CAT_000366_e27866">
+               <num type="lot">27866</num>
+               <name type="author">TALLEYRAND</name>
+               <desc xml:id="CAT_000366_e27866_d1">L. s., 1 p. in-4.</desc>
+               <measure commodity="currency" unit="FRF" quantity="2">2</measure>
+            </item>
+         </list>
+      </body>
+      <gap/>
+   </text>
+</TEI>
