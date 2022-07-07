@@ -1,4 +1,3 @@
-.DS_Store
-output/
-script/errors.log
-script/tables/__pycache__
+env_2/*
+script/__pycache__/*
+script/tables/__pycache__/*
